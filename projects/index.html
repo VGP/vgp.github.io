@@ -1,32 +1,18 @@
 ---
 layout: default
-title: Software
+title: Genomes
 ---
 
-<h1 class="page-name">Software</h1>
+<h1 class="page-name">Genomes</h1>
 
 <div class="posts">
 <article class="post">
 
-  {% assign sorted = site.projects | sort: 'date' | reverse %}
-
-  <!-- active projects -->
-  {% for proj in sorted %}
-    {% unless proj.retired %}
-    	{% include project.html proj=proj people=true %}
-    {% endunless %}
-  {% endfor %}
-
-  <!-- retired projects -->
-  <div class="section">
-  {% include title-bar.html title="Retired" %}
+  {% assign sorted = site.projects | sort: 'name' %}
 
   {% for proj in sorted %}
-    {% if proj.retired %}
-    	{% include project.html proj=proj people=true %}
-    {% endif %}
+    {% include project.html proj=proj %}
   {% endfor %}
-  </div>
-    
+
 </article>
 </div>

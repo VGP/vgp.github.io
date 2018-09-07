@@ -126,7 +126,7 @@ p {
 }
 
 a {
-  color: tomato;
+  color: teal;
   text-decoration: none;
 	//cursor: pointer;
   &:hover, &:active {
@@ -268,7 +268,7 @@ a:hover {filter:grayscale(100%);}
 
 .accent
 {
-    color: tomato;
+    color: teal;
 //    text-decoration: underline;
 //   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
 //   -webkit-text-stroke-width: 1px;
@@ -297,7 +297,7 @@ a:hover {filter:grayscale(100%);}
 
 .wrapper-masthead {
   margin-bottom: 15px;
-  background-color: tomato;
+  background-color: teal;
   border-bottom: 1px solid $lightGray;
 }
 
