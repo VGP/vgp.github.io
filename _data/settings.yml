@@ -1,12 +1,1 @@
-landing-news-posts: 2
-landing-pubs: 2
-
-landing-software:
- - canu
- - mash
-
-person-page-posts: 4
-person-page-projects: 4
-person-page-pubs: 4
-
-pub-author-limit: 25
+landing-projects: 10

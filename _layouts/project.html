@@ -2,18 +2,30 @@
 layout: default
 ---
 
-<!-- collect publications -->
-{% assign array = "" | split: "" %}
-{% for pubName in page.pubs %}
-	{% assign array = array | push : site.data.publications[pubName] %}
-{% endfor %}
+<h1 class="page-name"><i>{{ page.name }}</i></h1>
+<h3 style="text-align: right; margin: 0 0 10px 0;">{{ page.common_name }}</h3>
 
-<article class="post">
-  <h1 class="page-name">{{ page.name }} publications</h1>
-{% assign sorted = array | sort: "date" %}
-{% assign sorted = sorted | reverse %}
-{% for pub in sorted limit: site.data.settings.person-page-pubs %}
-	{% include publication.html pub=pub %}
-{% endfor %}
-{{ content }}
-</article>
+<div style="display: inline; margin: 0;">
+	<div style="background-image:url({{ page.image }}); " class="portrait" src=""></div>
+</div>
+
+
+<div style="text-align: center; margin-top: 15px;">
+
+<ul class="link-list">
+
+  {% if page.assembly %}
+  <li><a href="{{ page.assembly }}">assembly</a></li>
+  {% endif %}
+
+  {% if page.geval %}
+  <li><a href="{{ page.geval }}">geval</a></li>
+  {% endif %}
+
+</ul>
+
+</div>
+
+<p>
+  {{ page.description }}
+</p>

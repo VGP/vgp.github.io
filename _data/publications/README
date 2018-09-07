@@ -1,7 +1,0 @@
-CITATION FORMAT
-title: must be in quotes if includes ':' or '-' characters
-authors: Surname Initials, ...
-text: open-access DOI links (use pubmed or preprint link if pub behind paywall)
-date: "YYYY-MM-DD format", must be in quotes
-journal: use pubmed abbreviations
-pubmed: pubmed identifier
