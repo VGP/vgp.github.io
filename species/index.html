@@ -11,7 +11,7 @@ title: Species
   {% assign sorted = site.species | sort: 'name' %}
 
   {% for species in sorted %}
-    {% include species.html species=species %}
+    {% include species-listing.html species=species %}
   {% endfor %}
 
 </article>

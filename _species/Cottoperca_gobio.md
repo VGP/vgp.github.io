@@ -1,7 +1,7 @@
 ---
 name: Cottoperca gobio
 common_name: Channel bull blenny
-image: /img/vgp.png
+image: /assets/images/Cottoperca_gobio.jpg
 taxon_id: 56716
 genbank:
 geval: Genomeark_fCotGob3_v1_t3p

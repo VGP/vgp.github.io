@@ -9,7 +9,7 @@ name: GenomeArk
 description: Vertebrate Genomes Project
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /img/vgp.png
+avatar: /assets/images/vgp.png
 
 # used in blog posts to denote the end of the excerpt used for lists
 excerpt_separator: "<!--excerpt-->"

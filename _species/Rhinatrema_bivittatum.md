@@ -1,7 +1,7 @@
 ---
 name: Rhinatrema bivittatum
 common_name: two-lined caecilian
-image: /img/vgp.png
+image: /assets/images/vgp.png
 taxon_id: 194408
 genbank:
 geval:

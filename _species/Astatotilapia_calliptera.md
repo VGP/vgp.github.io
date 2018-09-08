@@ -1,7 +1,7 @@
 ---
 name: Astatotilapia calliptera
 common_name: eastern happy
-image: /img/vgp.png
+image: /assets/images/Astatotilapia_calliptera.jpg
 taxon_id: 8154
 genbank: GCA_900246225.3
 geval: Genomeark_fAstCal1_v1_t3p

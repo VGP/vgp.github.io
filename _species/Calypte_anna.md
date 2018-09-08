@@ -1,7 +1,7 @@
 ---
 name: Calypte anna
 common_name: Anna's hummingbird
-image: /img/Calypte_anna.jpg
+image: /assets/images/Calypte_anna.jpg
 taxon_id: 9244
 genbank:
 geval: Genomeark_bCalAnn1_v1_t3p
