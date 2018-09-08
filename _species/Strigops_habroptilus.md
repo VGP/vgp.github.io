@@ -1,7 +1,7 @@
 ---
 name: Strigops habroptilus
 common_name: kakapo
-image: /assets/images/vgp.png
+image: /assets/images/Strigops_habroptilus.jpg
 taxon_id: 57251
 genbank:
 geval: Genomeark_bStrHab1_v1_t3p

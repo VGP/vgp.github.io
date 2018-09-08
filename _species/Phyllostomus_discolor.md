@@ -1,7 +1,7 @@
 ---
 name: Phyllostomus discolor
 common_name: pale spear-nosed bat
-image: /assets/images/vgp.png
+image: /assets/images/Phyllostomus_discolor.jpg
 taxon_id: 89673
 genbank:
 geval: Genomeark_mPhyDis1_v1_t3p

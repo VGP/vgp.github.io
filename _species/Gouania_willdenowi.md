@@ -1,7 +1,7 @@
 ---
 name: Gouania willdenowi
 common_name: blunt-snouted clingfish
-image: /assets/images/vgp.png
+image: /assets/images/fish.png
 taxon_id: 441366
 genbank:
 geval: Genomeark_fGouWil2_v1.5_t3p
