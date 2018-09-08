@@ -1,12 +1,8 @@
 ---
 layout: default
-#title: About
+title: #
 permalink: /
 ---
-
-<div class="center">
-  <h1 class="title"><span class="accent">V</span>ertebrate <span class="accent">G</span>enomes <span class="accent">P</span>roject</h1>
-</div>
 
 {% if site.species %}
   {% assign count = site.species.size %}
@@ -14,12 +10,5 @@ permalink: /
   <div class="section">
   {% include title-bar.html title="Species" %}
   {% include see-all.html name="species" link="species" count=count %}
-
-  {% assign sorted = site.species | sort: 'name' %}
-
-  {% for species in sorted limit:10 %}
-    {% include species.html species=species %}
-  {% endfor %}
-
   </div>
 {% endif %}

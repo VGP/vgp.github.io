@@ -1,13 +1,13 @@
 ---
 name: Rhinolophus ferrumequinum
 common_name: greater horseshoe bat
+image: /img/vgp.png
 taxon_id: 59479
-status: v1 curated scaffolds
-accession:
+genbank:
+geval: Genomeark_mRhiFer1_v1_t3p
+s3: s3://genomeark/species/Rhinolophus_ferrumequinum/
 primary: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_v1/mRhiFer1_v1.p.fasta.gz
 alts: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_v1/mRhiFer1_v1.h.fasta.gz
-geval: https://vgp-geval.sanger.ac.uk/Genomeark_mRhiFer1_v1_t3p
-data: s3://genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/
-image: /img/vgp.png
+status: curated scaffolds v1
 notes:
 ---

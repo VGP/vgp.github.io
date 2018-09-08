@@ -9,11 +9,35 @@ layout: default
 	<div style="background-image:url({{ page.image }}); " class="portrait" src=""></div>
 </div>
 
-
 <div style="text-align: center; margin-top: 15px;">
   {% include species-links.html species=page %}
 </div>
 
 <p>
-  {{ page.notes }}
+
+<h3>Resources</h3>
+Amazon:
+{% if page.s3 %}{{ species.s3 }}
+{% else %}unknown{% endif %}<br/>
+GenBank:
+{% if page.genbank %}<a href="https://www.ncbi.nlm.nih.gov/assembly/{{ species.genbank }}/">{{ species.genbank }}</a> (*differs from the raw assemblies)
+{% else %}not yet available{% endif %}<br/>
+gEVAL:
+{% if page.geval %}<a href="https://vgp-geval.sanger.ac.uk/{{ species.geval }}/">{{ species.geval }}</a>
+{% else %}not yet available{% endif %}<br/>
+
 </p>
+
+<h3>Raw Assemblies</h3>
+Primary:
+{% if page.primary %}<a href="{{ page.primary }}">{{ page.primary | split: "/" | last }}</a>
+{% else %}none{% endif %}<br/>
+Alts:
+{% if page.alts %}<a href="{{ page.alts }}">{{ page.alts | split: "/" | last }}</a>
+{% else %}none{% endif %}<br/>
+Status:
+{% if page.status %}{{ species.status }}
+{% else %}unknown{% endif %}<br/>
+Notes:
+{% if page.notes %}{{ species.notes }}
+{% else %}none{% endif %}<br/>
