@@ -1,0 +1,9 @@
+{% assign species = include.species %}
+
+<ul class="link-list">
+
+<li><a href="{{ site.baseurl }}{{ species.url }}">info</a></li>
+  
+{% if species.assembly %}
+  <li><a href="{{ species.assembly }}">assembly</a></li>
+{% endif %}

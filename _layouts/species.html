@@ -11,19 +11,7 @@ layout: default
 
 
 <div style="text-align: center; margin-top: 15px;">
-
-<ul class="link-list">
-
-  {% if page.assembly %}
-  <li><a href="{{ page.assembly }}">assembly</a></li>
-  {% endif %}
-
-  {% if page.geval %}
-  <li><a href="{{ page.geval }}">geval</a></li>
-  {% endif %}
-
-</ul>
-
+  {% include species-links.html species=page %}
 </div>
 
 <p>
