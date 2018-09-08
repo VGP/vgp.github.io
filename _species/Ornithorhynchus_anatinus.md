@@ -1,7 +1,7 @@
 ---
 name: Ornithorhynchus anatinus
 common_name: platypus
-image: /assets/images/vgp.png
+image: /assets/images/Ornithorhynchus_anatinus.jpg
 taxon_id: 9258
 genbank:
 geval: Genomeark_mOrnAna1_v1_t3p

@@ -1,7 +1,7 @@
 ---
 name: Taeniopygia guttata
 common_name: zebra finch
-image: /assets/images/vgp.png
+image: /assets/images/Taeniopygia_guttata.jpg
 taxon_id: 59729
 genbank:
 geval: Genomeark_bTaeGut1_v1_t3p
