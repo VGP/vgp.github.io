@@ -1,0 +1,18 @@
+---
+layout: default
+title: Species
+---
+
+<h1 class="page-name">Species</h1>
+
+<div class="posts">
+<article class="post">
+
+  {% assign sorted = site.species | sort: 'name' %}
+
+  {% for species in sorted %}
+    {% include species.html species=species %}
+  {% endfor %}
+
+</article>
+</div>

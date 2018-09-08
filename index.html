@@ -8,17 +8,17 @@ permalink: /
   <h1 class="title"><span class="accent">V</span>ertebrate <span class="accent">G</span>enomes <span class="accent">P</span>roject</h1>
 </div>
 
-{% if site.projects %}
-  {% assign count = site.projects.size %}
+{% if site.species %}
+  {% assign count = site.species.size %}
 
   <div class="section">
-  {% include title-bar.html title="Genomes" %}
-  {% include see-all.html name="genomes" link="genomes" count=count %}
+  {% include title-bar.html title="Species" %}
+  {% include see-all.html name="species" link="species" count=count %}
 
-  {% assign sorted = site.projects | sort: 'name' %}
+  {% assign sorted = site.species | sort: 'name' %}
 
-  {% for proj in sorted limit:site.data.settings.landing-projects %}
-    {% include project.html proj=proj %}
+  {% for species in sorted limit:10 %}
+    {% include species.html species=species %}
   {% endfor %}
 
   </div>

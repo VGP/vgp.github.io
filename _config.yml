@@ -18,7 +18,7 @@ paginate: 6
 paginate_path: "/news/page:num/"
 
 collections:
-  projects:
+  species:
     output: true
 
 
@@ -31,9 +31,9 @@ defaults:
       comments: false
   -
     scope:
-      path: "_projects"
+      path: "_species"
     values:
-      layout: project
+      layout: species
       use_name_for_title: true
 
 #

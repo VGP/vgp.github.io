@@ -1,0 +1,13 @@
+{% assign species = include.species %}
+
+<div>
+      <h3 style="margin-bottom:0;font-family: courier;}"><i>{{ species.name }}</i></h3>
+      <div class="postBody">
+
+        {{ species.common_name }}
+
+        <br/>
+
+        {% include species-links.html species=species %}
+      </div>
+</div>
