@@ -1,7 +1,7 @@
 ---
 name: Lynx canadensis
 common_name: Canada lynx
-image: /img/vgp.png
+image: /assets/images/Lynx_canadensis.jpg
 taxon_id: 61383
 genbank:
 geval: Genomeark_mLynCan4_v1_t3p

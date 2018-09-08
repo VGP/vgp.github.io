@@ -1,7 +1,7 @@
 ---
 name: Mastacembelus armatus
 common_name: tire-track eel
-image: /img/vgp.png
+image: /assets/images/Mastacembelus_armatus.jpg
 taxon_id: 205130
 genbank: GCA_900324485.1
 geval: Genomeark_fMasArm1_v1_t3p

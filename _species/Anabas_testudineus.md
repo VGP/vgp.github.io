@@ -1,7 +1,7 @@
 ---
 name: Anabas testudineus
 common_name: climbing perch
-image: /img/vgp.png
+image: /assets/images/Anabas_testudineus.jpg
 taxon_id: 64144
 genbank: GCA_900324465.1
 geval: Genomeark_fAnaTes1_v1_t3p

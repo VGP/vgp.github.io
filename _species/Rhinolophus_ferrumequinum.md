@@ -1,7 +1,7 @@
 ---
 name: Rhinolophus ferrumequinum
 common_name: greater horseshoe bat
-image: /img/vgp.png
+image: /assets/images/vgp.png
 taxon_id: 59479
 genbank:
 geval: Genomeark_mRhiFer1_v1_t3p

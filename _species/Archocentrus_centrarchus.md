@@ -1,7 +1,7 @@
 ---
 name: Archocentrus centrarchus
 common_name: flier cichlid
-image: /img/vgp.png
+image: /assets/images/Archocentrus_centrarchus.jpg
 taxon_id: 63155
 genbank:
 geval: Genomeark_fArcCen1_v1_t3p

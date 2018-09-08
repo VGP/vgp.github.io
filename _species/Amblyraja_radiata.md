@@ -1,7 +1,7 @@
 ---
 name: Amblyraja radiata
 common_name: thorny skate
-image: /img/vgp.png
+image: /assets/images/Amblyraja_radiata.jpg
 taxon_id: 386614
 genbank:
 geval:
