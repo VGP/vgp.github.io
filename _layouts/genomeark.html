@@ -16,7 +16,7 @@ layout: default
 <p>
 
 <h3>Resources</h3>
-Amazon:
+Data:
 {% if page.s3 %}{{ page.s3 }}
 {% else %}unknown{% endif %}<br/>
 GenBank:
@@ -28,7 +28,7 @@ gEVAL:
 
 </p>
 
-<h3>Raw Assemblies</h3>
+<h3>Assemblies</h3>
 Primary:
 {% if page.primary %}<a href="{{ page.primary }}">{{ page.primary | split: "/" | last }}</a>
 {% else %}none{% endif %}<br/>
