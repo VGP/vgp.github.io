@@ -17,13 +17,13 @@ layout: default
 
 <h3>Resources</h3>
 Amazon:
-{% if page.s3 %}{{ species.s3 }}
+{% if page.s3 %}{{ page.s3 }}
 {% else %}unknown{% endif %}<br/>
 GenBank:
-{% if page.genbank %}<a href="https://www.ncbi.nlm.nih.gov/assembly/{{ species.genbank }}/">{{ species.genbank }}</a> (*differs from the raw assemblies)
+{% if page.genbank %}<a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank }}/">{{ page.genbank }}</a> (*differs from the raw assemblies)
 {% else %}not yet available{% endif %}<br/>
 gEVAL:
-{% if page.geval %}<a href="https://vgp-geval.sanger.ac.uk/{{ species.geval }}/">{{ species.geval }}</a>
+{% if page.geval %}<a href="https://vgp-geval.sanger.ac.uk/{{ page.geval }}/">{{ page.geval }}</a>
 {% else %}not yet available{% endif %}<br/>
 
 </p>
@@ -36,8 +36,8 @@ Alts:
 {% if page.alts %}<a href="{{ page.alts }}">{{ page.alts | split: "/" | last }}</a>
 {% else %}none{% endif %}<br/>
 Status:
-{% if page.status %}{{ species.status }}
+{% if page.status %}{{ page.status }}
 {% else %}unknown{% endif %}<br/>
 Notes:
-{% if page.notes %}{{ species.notes }}
+{% if page.notes %}{{ page.notes }}
 {% else %}none{% endif %}<br/>

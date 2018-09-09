@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{%if page.subtitle %}{{ page.subtitle }} - {% endif %}{%if page.use_name_for_title %}{{ page.name }} – {% elsif page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <title>{{ site.name }}{%if page.subtitle %} - {{ page.subtitle }}{% endif %}{%if page.use_name_for_title %} - {{ page.name }}{% elsif page.title %} - {{ page.title }}{% endif %}</title>
 
     {% include meta.html %}
 
@@ -42,7 +42,7 @@
 
           <nav>
             <div>
-              <a href="{{ site.baseurl }}/species">Species</a>
+              <a href="{{ site.baseurl }}/genomeark">GenomeArk</a>
             </div>
           </nav>
 

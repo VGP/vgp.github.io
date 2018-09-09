@@ -4,11 +4,11 @@ title: #
 permalink: /
 ---
 
-{% if site.species %}
-  {% assign count = site.species.size %}
+{% if site.genomeark %}
+  {% assign count = site.genomeark.size %}
 
   <div class="section">
-  {% include title-bar.html title="Species" %}
-  {% include see-all.html name="species" link="species" count=count %}
+  {% include title-bar.html title="GenomeArk" %}
+  {% include see-all.html name="species" link="genomeark" count=count %}
   </div>
 {% endif %}

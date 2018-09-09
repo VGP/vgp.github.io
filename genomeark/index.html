@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Species
+title: GenomeArk
 ---
 
-<h1 class="page-name">Species</h1>
+<h1 class="page-name">GenomeArk</h1>
 
 <div class="posts">
 <article class="post">
 
-  {% assign sorted = site.species | sort: 'name' %}
+  {% assign sorted = site.genomeark | sort: 'name' %}
 
   {% for species in sorted %}
     {% include species-listing.html species=species %}

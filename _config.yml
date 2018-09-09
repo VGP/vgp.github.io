@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: GenomeArk
+name: vgp.github.io
 
 # Short bio or description (displayed in the header)
 description: Vertebrate Genomes Project
@@ -18,7 +18,7 @@ paginate: 6
 paginate_path: "/news/page:num/"
 
 collections:
-  species:
+  genomeark:
     output: true
 
 
@@ -31,9 +31,9 @@ defaults:
       comments: false
   -
     scope:
-      path: "_species"
+      path: "_genomeark"
     values:
-      layout: species
+      layout: genomeark
       use_name_for_title: true
 
 #
