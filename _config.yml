@@ -21,7 +21,6 @@ collections:
   genomeark:
     output: true
 
-
 defaults:
   -
     scope:
