@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/as
 alts: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_v1/fCotGob3_t3.h.fasta.gz
 status: scaffolds v1
 notes: This assembly does not yet meet VGP quality standards
+genome_size: 700000000
 ---

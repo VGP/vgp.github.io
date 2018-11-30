@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fAr
 alts: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_v1/fArcCen1_v1.h.fasta.gz
 status: scaffolds v1
 notes:
+genome_size: 988048114
 ---

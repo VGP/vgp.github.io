@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab
 alts: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_v1/bStrHab1_v1.h.fasta.gz
 status: curated scaffolds v1
 notes:
+genome_size: 1193409022
 ---

@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1
 alts: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_v1/bTaeGut1_v1.h.fasta.gz
 status: curated scaffolds v1
 notes:
+genome_size: 1035611271
 ---
