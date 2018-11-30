@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDi
 alts: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_v1/mPhyDis1_v1.h.fasta.gz
 status: curated scaffolds v1
 notes:
+genome_size: 2213798723
 ---

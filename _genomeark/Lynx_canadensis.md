@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/ass
 alts: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/assembly_v1.5/mLynCan4_q2.fasta.gz
 status: scaffolds v1
 notes:
+genome_size: 2471525315
 ---

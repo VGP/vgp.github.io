@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assemb
 alts: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_v1/bCalAnn1_v1.h.fasta.gz
 status: curated scaffolds v1
 notes:
+genome_size: 1116472572
 ---

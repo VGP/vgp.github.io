@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasAr
 alts: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_v1/fMasArm1_t3.h.fasta.gz
 status: submitted v1
 notes:
+genome_size: 756753344
 ---

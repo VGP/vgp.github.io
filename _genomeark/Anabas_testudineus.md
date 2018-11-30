@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/
 alts: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_v1/fAnaTes1_v1.h.fasta.gz
 status: submitted v1
 notes:
+genome_size: 662696525
 ---

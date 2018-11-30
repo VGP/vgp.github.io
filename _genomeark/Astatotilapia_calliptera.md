@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAs
 alts: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_v1/fAstCal1_v1.h.fasta.gz
 status: submitted v1
 notes:
+genome_size: 972478608
 ---

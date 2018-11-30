@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/
 alts: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_v1.5/fGouWil2_v1.5.h.fasta.gz
 status: scaffolds v1
 notes:
+genome_size: 1182215999
 ---

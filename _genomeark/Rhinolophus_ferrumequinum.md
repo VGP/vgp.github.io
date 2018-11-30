@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mR
 alts: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_v1/mRhiFer1_v1.h.fasta.gz
 status: curated scaffolds v1
 notes:
+genome_size: 2369916842
 ---

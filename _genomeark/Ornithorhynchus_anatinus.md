@@ -10,4 +10,5 @@ primary: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOr
 alts: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_v1/mOrnAna1_t3.h.fasta.gz
 status: scaffolds v1
 notes:
+genome_size: 2128226567
 ---
