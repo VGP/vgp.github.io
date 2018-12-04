@@ -287,6 +287,92 @@ a:hover {filter:grayscale(100%);}
     clear: both;
 }
 
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: right;
+    padding: 3px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+
+table.sequence-sizes-table thead {
+    text-align:       right;
+    border:           1px solid #dddddd;
+    border-top:       1px solid #111111;
+    border-bottom:    2px solid #111111;
+}
+
+table.sequence-sizes-table th {
+    text-align:       right;
+    border:           1px solid #111111;
+    padding:          2px;
+    padding-left:     8px;
+    padding-right:    8px;
+    background-color: #cccccc;
+}
+
+table.sequence-sizes-table td {
+    text-align:       right;
+    border:           1px solid #dddddd;
+    padding:          2px;
+    padding-left:     8px;
+    padding-right:    8px;
+}
+
+table.sequence-sizes-table tfoot {
+    text-align:       right;
+    border-top:       2px solid #111111;
+    border-bottom:    1px solid #111111;
+}
+
+
+
+table.raw-data-table thead {
+    text-align:       right;
+    border:           1px solid #dddddd;
+    border-top:       1px solid #111111;
+    border-bottom:    2px solid #111111;
+}
+
+table.raw-data-table th {
+    text-align:       right;
+    border:           1px solid #111111;
+    padding:          2px;
+    padding-left:     8px;
+    padding-right:    8px;
+    background-color: #cccccc;
+}
+
+table.raw-data-table td {
+    text-align:       right;
+    border:           1px solid #dddddd;
+    padding:          2px;
+    padding-left:     8px;
+    padding-right:    8px;
+}
+
+table.raw-data-table tfoot {
+    text-align:       right;
+    border-top:       2px solid #111111;
+    border-bottom:    1px solid #111111;
+}
+
+
+
+
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
@@ -581,6 +667,66 @@ footer {
   text-align: center;
 //  border-radius: 15px;
 }
+
+
+div {
+  width:    100%;
+//border:   1px solid #ff4444;
+  overflow: auto;   //  These two are needed to make this div box
+  clear:    both;   //  recognize the non-zero-height contained divs.
+}
+
+.status {
+  margin:   10px;
+}
+.notes {
+  margin:   10px;
+}
+.assembly {
+  margin:   10px;
+}
+.sequence-file {
+  float:    left;
+  margin:   10px;
+}
+.sequence-sizes {
+  float:    right;
+  margin:   10px;
+}
+.raw-data {
+  margin:   10px;
+}
+.data-use {
+  margin:   10px;
+}
+
+
+.primary-sequence-col {
+  width:    49%;
+//border:   1px solid #ff4444;
+  overflow: auto;
+  float:    left;
+  clear:    none;
+}
+.alternate-sequence-col {
+  width:    49%;
+//border:   1px solid #44ff44;
+  overflow: auto;
+  float:    right;
+  clear:    none;
+}
+.sequence-file-col {
+  margin:   0px;
+//border:   1px solid #4444ff;
+  overflow: auto;
+}
+.sequence-sizes-col {
+  margin:   0px;
+//border:   1px solid #444444;
+  overflow: auto;
+}
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
