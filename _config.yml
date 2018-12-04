@@ -110,3 +110,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - _statistics-cache/
+  - _statistics-cache/*
+  - _statistics-cache/*/*
+  - _statistics-cache/*/*/*
+  - _statistics-cache/*/*/*/*
