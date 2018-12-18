@@ -701,6 +701,10 @@ sub downloadAndSummarize ($$$) {
     my $file  = shift @_;
     my $bases = 0;
 
+    if (-z "$name.summary") {
+        unlink "$name.summary";
+    }
+
     if ((! -e "downloads/$name") &&
         (! -e "$name.summary")) {
         printf STDERR "FETCH file #%4d size %6.3f GB '%s'\n", $file, $size / 1024 / 1024 / 1024, $name;
