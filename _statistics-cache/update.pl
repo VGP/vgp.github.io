@@ -843,6 +843,8 @@ sub estimateRawDataScaling ($$) {
 
     my $scaling = ($bases1 + $bases2 + $bases3) / ($size1 + $size2 + $size3);
 
+    $scaling = int($scaling * 10000) / 10000;  #  Prevent churn by limiting precision of final value.
+
     return($scaling);
 }
 
