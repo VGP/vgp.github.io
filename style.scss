@@ -27,14 +27,14 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 900px;
   padding: 0 10px;
   width: 100%;
 }
 
 .icons {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 900px;
   padding: 0px;
   width: 100%;
 }
@@ -670,13 +670,9 @@ footer {
 
 
 div {
-  width:    100%;
-//border:   1px solid #ff4444;
-  overflow: auto;   //  These two are needed to make this div box
-  clear:    both;   //  recognize the non-zero-height contained divs.
 }
 
-.status {
+.raw-data {
   margin:   10px;
 }
 .notes {
@@ -685,45 +681,48 @@ div {
 .assembly {
   margin:   10px;
 }
-.sequence-file {
-  float:    left;
-  margin:   10px;
-}
-.sequence-sizes {
-  float:    right;
-  margin:   10px;
-}
-.raw-data {
-  margin:   10px;
-}
 .data-use {
   margin:   10px;
 }
 
 
-.primary-sequence-col {
-  width:    49%;
+.sequence-file {
+//border:   1px solid #4444ff;
+  margin:   0px;
+  overflow: auto;
+}
+.sequence-sizes {
+//border:   1px solid #444444;
+  margin:   0px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+.primary-sequence {
 //border:   1px solid #ff4444;
+  width:    99%;
+  overflow: auto;
+}
+.alternate-sequence {
+//border:   1px solid #44ff44;
+  width:    99%;
+  overflow: auto;
+}
+}
+
+@media only screen and (min-width: 769px) {
+.primary-sequence {
+//border:   1px solid #ff4444;
+  width:    49%;
   overflow: auto;
   float:    left;
-  clear:    none;
 }
-.alternate-sequence-col {
-  width:    49%;
+.alternate-sequence {
 //border:   1px solid #44ff44;
+  width:    49%;
   overflow: auto;
   float:    right;
-  clear:    none;
 }
-.sequence-file-col {
-  margin:   0px;
-//border:   1px solid #4444ff;
-  overflow: auto;
-}
-.sequence-sizes-col {
-  margin:   0px;
-//border:   1px solid #444444;
-  overflow: auto;
 }
 
 
