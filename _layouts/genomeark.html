@@ -34,219 +34,17 @@ Not available.
 {% endif %}
 </div>
 
-<h3>Status</h3>
-
-<div class="status">
-{% if page.status %}
-{{ page.status }}
-{% else %}
-Unknown status.
-{% endif %}<br/>
-</div>
-
-<h3>Assemblies</h3>
-
-{% if page.notes %}
-<div class="notes">
-<em style="color:red">{{ page.notes }}</em><br/>
-</div>
-{% endif %}
-
-<!-- ONE --->
-
-{% if page.pri1seq %}
-<div class="assembly">
-<div class="primary-sequence-col">
-  <h4>Primary</h4>
-  {{ page.assembly }} / {{ page.pri1date | date: "%-d %B %Y" }}
-  <div class="sequence-file-col">
-  <a href="{{ page.pri1seq }}">{{ page.pri1seq | split: "/" | last }}</a> ({{ page.pri1filesize }})
-  {% if page.mito1seq %}
-  <a href="{{ page.mito1seq }}">{{ page.mito1seq | split: "/" | last }}</a> ({{ page.mito1filesize }})
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes-col">
-  {% if page.pri1sizes %}
-  {{ page.pri1sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-
-
-<div class="alternate-sequence-col">
-  <h4>Alternate</h4>
-  {{ page.assembly }} / {{ page.alt1date | date: "%-d %B %Y" }}
-  <div class="sequence-file-col">
-  {% if page.alt1seq %}
-  <a href="{{ page.alt1seq }}">{{ page.alt1seq | split: "/" | last }}</a> ({{ page.alt1filesize }})
-  {% else %}
-  none
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes-col">
-  {% if page.alt1sizes %}
-  {{ page.alt1sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-</div>
-{% endif %}
-
-<!-- TWO --->
-
-{% if page.pri2seq %}
-<div class="assembly">
-<div class="primary-sequence-col">
-  <h4>Primary</h4>
-  {{ page.assembly }} / {{ page.pri2date | date: "%-d %B %Y" }}
-  <div class="sequence-file-col">
-  <a href="{{ page.pri2seq }}">{{ page.pri2seq | split: "/" | last }}</a> ({{ page.pri2filesize }})
-  {% if page.mito2seq %}
-  <a href="{{ page.mito2seq }}">{{ page.mito2seq | split: "/" | last }}</a> ({{ page.mito2filesize }})
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes-col">
-  {% if page.pri2sizes %}
-  {{ page.pri2sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-
-
-<div class="alternate-sequence-col">
-  <h4>Alternate</h4>
-  {{ page.assembly }} / {{ page.alt2date | date: "%-d %B %Y" }}
-  <div class="sequence-file-col">
-  {% if page.alt2seq %}
-  <a href="{{ page.alt2seq }}">{{ page.alt2seq | split: "/" | last }}</a> ({{ page.alt2filesize }})
-  {% else %}
-  none
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes-col">
-  {% if page.alt2sizes %}
-  {{ page.alt2sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-</div>
-{% endif %}
-
-<!-- THREE --->
-
-{% if page.pri3seq %}
-<div class="assembly">
-<div class="primary-sequence">
-  <h4>Primary</h4>
-  {{ page.assembly }} / {{ page.pri3date | date: "%-d %B %Y" }}
-  <div class="sequence-file">
-  <a href="{{ page.pri3seq }}">{{ page.pri3seq | split: "/" | last }}</a> ({{ page.pri3filesize }})
-  {% if page.mito3seq %}
-  <a href="{{ page.mito3seq }}">{{ page.mito3seq | split: "/" | last }}</a> ({{ page.mito3filesize }})
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes">
-  {% if page.pri3sizes %}
-  {{ page.pri3sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-
-
-<div class="alternate-sequence">
-  <h4>Alternate</h4>
-  {{ page.assembly }} / {{ page.alt3date | date: "%-d %B %Y" }}
-  <div class="sequence-file">
-  {% if page.alt3seq %}
-  <a href="{{ page.alt3seq }}">{{ page.alt3seq | split: "/" | last }}</a> ({{ page.alt3filesize }})
-  {% else %}
-  none
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes">
-  {% if page.alt3sizes %}
-  {{ page.alt3sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-<div>
-{% endif %}
-
-<!-- FOUR --->
-
-{% if page.pri4seq %}
-<div class="assembly">
-<div class="primary-sequence">
-  <h4>Primary</h4>
-  {{ page.assembly }} / {{ page.pri4date | date: "%-d %B %Y" }}
-  <div class="sequence-file">
-  <a href="{{ page.pri4seq }}">{{ page.pri4seq | split: "/" | last }}</a> ({{ page.pri4filesize }})
-  {% if page.mito4seq %}
-  <a href="{{ page.mito4seq }}">{{ page.mito4seq | split: "/" | last }}</a> ({{ page.mito4filesize }})
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes">
-  {% if page.pri4sizes %}
-  {{ page.pri4sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-
-
-<div class="alternate-sequence">
-  <h4>Alternate</h4>
-  {{ page.assembly }} / {{ page.pri4date | date: "%-d %B %Y" }}
-  <div class="sequence-file">
-  {% if page.alt4seq %}
-  <a href="{{ page.alt4seq }}">{{ page.alt4seq | split: "/" | last }}</a> ({{ page.alt4filesize }})
-  {% else %}
-  none
-  {% endif %}
-  </div>
-
-  <div class="sequence-sizes">
-  {% if page.alt4sizes %}
-  {{ page.alt4sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-  <br/>
-</div>
-</div>
-{% endif %}
-
 
 <h3>Raw Data</h3>
 <div class="raw-data">
+
+{% if page.last_raw_data %}
+
+<P>
+Link: {{ page.s3 }}
+<br>
+Last upload: {{ page.last_raw_data | date: "%-d %B %Y" }}
+</P>
 <table class="raw-data-table">
 <thead>
 <tr>
@@ -291,7 +89,247 @@ Unknown status.
 
 </tbody>
 </table>
+<P>
+{% if page.genome_size_display %}
+Coverage based on genome size {{ page.genome_size_display }}.
+{% else %}
+No genome size estimate available.
+{% endif %}
+</P>
+
+{% else %}
+
+<em style="color:red">No data.</em><br/>
+
+{% endif %}
 </div>
+
+
+<h3>Assemblies</h3>
+
+{% if page.notes %}
+<div class="notes">
+<em style="color:red">{{ page.notes }}</em><br/>
+</div>
+{% endif %}
+
+{% if page.pri1seq %}
+{% else %}
+<div class="notes">
+<em style="color:red">No assemblies.</em><br/>
+</div>
+{% endif %}
+
+
+<!-- ONE --->
+
+{% if page.pri1seq %}
+<div class="assembly">
+<div class="primary-sequence">
+  <h4>Primary</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.pri1date | date: "%-d %B %Y" }}<br>
+  Link:
+  <a href="{{ page.pri1seq }}">{{ page.pri1seq | split: "/" | last }}</a> ({{ page.pri1filesize }})
+  {% if page.mito1seq %}
+  Link: <a href="{{ page.mito1seq }}">{{ page.mito1seq | split: "/" | last }}</a> ({{ page.mito1filesize }})
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.pri1sizes %}
+  {{ page.pri1sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+
+
+<div class="alternate-sequence">
+  <h4>Alternate</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.alt1date | date: "%-d %B %Y" }}<br>
+  Link:
+  {% if page.alt1seq %}
+  <a href="{{ page.alt1seq }}">{{ page.alt1seq | split: "/" | last }}</a> ({{ page.alt1filesize }})
+  {% else %}
+  none
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.alt1sizes %}
+  {{ page.alt1sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+</div>
+{% endif %}
+
+<!-- TWO --->
+
+{% if page.pri2seq %}
+<div class="assembly">
+<div class="primary-sequence">
+  <h4>Primary</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.pri2date | date: "%-d %B %Y" }}<br>
+  Link:
+  <a href="{{ page.pri2seq }}">{{ page.pri2seq | split: "/" | last }}</a> ({{ page.pri2filesize }})
+  {% if page.mito2seq %}
+  <a href="{{ page.mito2seq }}">{{ page.mito2seq | split: "/" | last }}</a> ({{ page.mito2filesize }})
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.pri2sizes %}
+  {{ page.pri2sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+
+
+<div class="alternate-sequence">
+  <h4>Alternate</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.alt2date | date: "%-d %B %Y" }}<br>
+  Link:
+  {% if page.alt2seq %}
+  <a href="{{ page.alt2seq }}">{{ page.alt2seq | split: "/" | last }}</a> ({{ page.alt2filesize }})
+  {% else %}
+  none
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.alt2sizes %}
+  {{ page.alt2sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+</div>
+{% endif %}
+
+<!-- THREE --->
+
+{% if page.pri3seq %}
+<div class="assembly">
+<div class="primary-sequence">
+  <h4>Primary</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.pri3date | date: "%-d %B %Y" }}<br>
+  Link:
+  <a href="{{ page.pri3seq }}">{{ page.pri3seq | split: "/" | last }}</a> ({{ page.pri3filesize }})
+  {% if page.mito3seq %}
+  <a href="{{ page.mito3seq }}">{{ page.mito3seq | split: "/" | last }}</a> ({{ page.mito3filesize }})
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.pri3sizes %}
+  {{ page.pri3sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+
+
+<div class="alternate-sequence">
+  <h4>Alternate</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.alt3date | date: "%-d %B %Y" }}<br>
+  Link:
+  {% if page.alt3seq %}
+  <a href="{{ page.alt3seq }}">{{ page.alt3seq | split: "/" | last }}</a> ({{ page.alt3filesize }})
+  {% else %}
+  none
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.alt3sizes %}
+  {{ page.alt3sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+<div>
+{% endif %}
+
+<!-- FOUR --->
+
+{% if page.pri4seq %}
+<div class="assembly">
+<div class="primary-sequence">
+  <h4>Primary</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.pri4date | date: "%-d %B %Y" }}<br>
+  Link:
+  <a href="{{ page.pri4seq }}">{{ page.pri4seq | split: "/" | last }}</a> ({{ page.pri4filesize }})
+  {% if page.mito4seq %}
+  <a href="{{ page.mito4seq }}">{{ page.mito4seq | split: "/" | last }}</a> ({{ page.mito4filesize }})
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.pri4sizes %}
+  {{ page.pri4sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+
+
+<div class="alternate-sequence">
+  <h4>Alternate</h4>
+  <div class="sequence-file">
+  Version: {{ page.assembly }}<br>
+  Date: {{ page.alt4date | date: "%-d %B %Y" }}<br>
+  Link:
+  {% if page.alt4seq %}
+  <a href="{{ page.alt4seq }}">{{ page.alt4seq | split: "/" | last }}</a> ({{ page.alt4filesize }})
+  {% else %}
+  none
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if page.alt4sizes %}
+  {{ page.alt4sizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+  <br/>
+</div>
+</div>
+{% endif %}
+
+
 
 
 <h3>Data Use Policy</h3>

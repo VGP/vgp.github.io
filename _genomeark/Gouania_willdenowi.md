@@ -7,72 +7,89 @@ alt2sizes: |
   <table class="sequence-sizes-table">
   <thead>
   <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
   <th>NG</th>
   <th>LG</th>
-  <th>Length</th>
-  <th>Cumulative</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
   </tr>
   </thead>
   <tbody>
-  </tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th>0.053x</th><th>748</th><th></th><th>62.95 Mbp</th></tr>
+  <tr><th> 0.053x </th><th> 748 </th><th> 62.95 Mbp </th><th> 748 </th><th> 62.95 Mbp </th></tr>
   </tfoot>
   </table>
 assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: blunt-snouted clingfish
-data_10x_bases: <em style="color:red">unknown</em>
+data_10x_bases: 108.27 Gbp
 data_10x_bytes: 75.206 GB
-data_10x_coverage: <em style="color:red">unknown</em>
+data_10x_coverage: 91.58x
 data_10x_files: 12
-data_arima_bases: <em style="color:red">unknown</em>
+data_10x_scale: 1.34072735031177
+data_arima_bases: 77.88 Gbp
 data_arima_bytes: 38.732 GB
-data_arima_coverage: <em style="color:red">unknown</em>
+data_arima_coverage: 65.87x
 data_arima_files: 10
-data_bionano_bases: <em style="color:red">unknown</em>
+data_arima_scale: 1.87260157469159
+data_bionano_bases: 285.53 Gbp
 data_bionano_bytes: 0.272 GB
-data_bionano_coverage: <em style="color:red">unknown</em>
+data_bionano_coverage: 241.52x
 data_bionano_files: 2
-data_pbscraps_bases: <em style="color:red">unknown</em>
+data_dovetail_scale: 1
+data_illumina_scale: 1
+data_pbscraps_bases: unknown
 data_pbscraps_bytes: 280.848 GB
-data_pbscraps_coverage: <em style="color:red">unknown</em>
+data_pbscraps_coverage: N/A
 data_pbscraps_files: 32
 data_pbsubreads_bases: 56.72 Gbp
 data_pbsubreads_bytes: 100.723 GB
 data_pbsubreads_coverage: 47.97x
 data_pbsubreads_files: 32
 data_pbsubreads_scale: 0.524415796179845
+data_phase_scale: 1
+data_status: <em style="color:green">all data</em>
 genome_size: 1182215999
+genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
+image_license: unknown
+last_raw_data: 1523524486
+last_updated: 1543473872
 name: Gouania willdenowi
 pri2: curated2
 pri2date: 2018-11-16
 pri2filesize: 0.260 GB
+pri2n50ctg: 1178098
+pri2n50scf: 36801689
 pri2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_curated/fGouWil2.pri.cur.20181116.fasta.gz
 pri2sizes: |
   <table class="sequence-sizes-table">
   <thead>
   <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
   <th>NG</th>
   <th>LG</th>
-  <th>Length</th>
-  <th>Cumulative</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
   </tr>
   </thead>
   <tbody>
-  <tr><td>10</td><td>1</td><td>46.06 Mbp</td><td>0.12 Gbp</td>
-  <tr><td>20</td><td>4</td><td>43.80 Mbp</td><td>0.25 Gbp</td>
-  <tr><td>30</td><td>7</td><td>42.80 Mbp</td><td>0.38 Gbp</td>
-  <tr><td>40</td><td>10</td><td>38.98 Mbp</td><td>0.50 Gbp</td>
-  <tr><td>50</td><td>13</td><td>36.80 Mbp</td><td>0.61 Gbp</td>
-  <tr><td>60</td><td>16</td><td>33.48 Mbp</td><td>0.72 Gbp</td>
-  <tr><td>70</td><td>20</td><td>26.98 Mbp</td><td>0.83 Gbp</td>
-  </tbody>
+  <tr><td> 10 </td><td> 14 </td><td> 5.65 Mbp </td><td> 1 </td><td> 46.06 Mbp </td></tr>  <tr><td> 20 </td><td> 41 </td><td> 3.46 Mbp </td><td> 4 </td><td> 43.80 Mbp </td></tr>  <tr><td> 30 </td><td> 81 </td><td> 2.53 Mbp </td><td> 7 </td><td> 42.80 Mbp </td></tr>  <tr><td> 40 </td><td> 137 </td><td> 1.79 Mbp </td><td> 10 </td><td> 38.98 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 218 </td><td style="background-color:#88ff88;"> 1.18 Mbp </td><td> 13 </td><td style="background-color:#88ff88;"> 36.80 Mbp </td></tr>  <tr><td> 60 </td><td> 341 </td><td> 0.79 Mbp </td><td> 16 </td><td> 33.48 Mbp </td></tr>  <tr><td> 70 </td><td> 566 </td><td> 0.32 Mbp </td><td> 20 </td><td> 26.98 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th>0.793x</th><th>441</th><th></th><th>0.94 Gbp</th></tr>
+  <tr><th> 0.781x </th><th> 1601 </th><th> 0.92 Gbp </th><th> 441 </th><th> 0.94 Gbp </th></tr>
   </tfoot>
   </table>
-s3: s3://genomeark/species/Gouania_willdenowi/
-status: scaffolds v1
+s3: s3://genomeark/species/Gouania_willdenowi
 taxon_id: 441366
 ---

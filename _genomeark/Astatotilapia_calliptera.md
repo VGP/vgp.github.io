@@ -1,24 +1,87 @@
 ---
+alt1: vgp_standard_1.01
+alt1date: 2018-08-17
+alt1filesize: 0.138 GB
+alt1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_vgp_standard_1.0/fAstCal1.alt.asm.20180817.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 263 </td><td> 0.23 Mbp </td><td> 263 </td><td> 0.23 Mbp </td></tr>  <tr><td> 20 </td><td> 896 </td><td> 0.11 Mbp </td><td> 896 </td><td> 0.11 Mbp </td></tr>  <tr><td> 30 </td><td> 2146 </td><td> 57.56 Kbp </td><td> 2146 </td><td> 57.56 Kbp </td></tr>  <tr><td> 40 </td><td> 4480 </td><td> 31.24 Kbp </td><td> 4480 </td><td> 31.24 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.481x </th><th> 8123 </th><th> 467.67 Mbp </th><th> 8123 </th><th> 467.67 Mbp </th></tr>
+  </tfoot>
+  </table>
 assembly: assembly_vgp_standard_1.0
+assembly_status: <em style="color:orange">preliminary assembly</em>
 common_name: eastern happy
-data_10x_bases: <em style="color:red">unknown</em>
+data_10x_bases: 120.79 Gbp
 data_10x_bytes: 78.888 GB
-data_10x_coverage: <em style="color:red">unknown</em>
+data_10x_coverage: 124.21x
 data_10x_files: 12
-data_bionano_bases: <em style="color:red">unknown</em>
+data_10x_scale: 1.42597350711702
+data_arima_scale: 1
+data_bionano_bases: 106.83 Gbp
 data_bionano_bytes: 0.128 GB
-data_bionano_coverage: <em style="color:red">unknown</em>
+data_bionano_coverage: 109.85x
 data_bionano_files: 1
+data_dovetail_scale: 1
+data_illumina_scale: 1
 data_pbsubreads_bases: 74.95 Gbp
 data_pbsubreads_bytes: 269.612 GB
 data_pbsubreads_coverage: 77.07x
 data_pbsubreads_files: 67
 data_pbsubreads_scale: 0.258885349010334
-genbank: GCA_900246225.3
+data_phase_scale: 1
+data_status: <em style="color:orange">some data</em>
 genome_size: 972478608
+genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
+image_license: unknown
+last_raw_data: 1520006832
+last_updated: 1543473872
 name: Astatotilapia calliptera
-s3: s3://genomeark/species/Astatotilapia_calliptera/
-status: submitted v1
+pri1: vgp_standard_1.01
+pri1date: 2018-08-17
+pri1filesize: 0.257 GB
+pri1n50ctg: 2670656
+pri1n50scf: 12105654
+pri1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_vgp_standard_1.0/fAstCal1.pri.asm.20180817.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 8 </td><td> 8.80 Mbp </td><td> 2 </td><td> 28.71 Mbp </td></tr>  <tr><td> 20 </td><td> 22 </td><td> 5.90 Mbp </td><td> 6 </td><td> 22.64 Mbp </td></tr>  <tr><td> 30 </td><td> 40 </td><td> 4.47 Mbp </td><td> 11 </td><td> 16.51 Mbp </td></tr>  <tr><td> 40 </td><td> 64 </td><td> 3.78 Mbp </td><td> 17 </td><td> 15.16 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 94 </td><td style="background-color:#88ff88;"> 2.67 Mbp </td><td> 24 </td><td style="background-color:#88ff88;"> 12.11 Mbp </td></tr>  <tr><td> 60 </td><td> 137 </td><td> 2.02 Mbp </td><td> 33 </td><td> 8.53 Mbp </td></tr>  <tr><td> 70 </td><td> 193 </td><td> 1.46 Mbp </td><td> 48 </td><td> 5.57 Mbp </td></tr>  <tr><td> 80 </td><td> 281 </td><td> 0.85 Mbp </td><td> 72 </td><td> 2.96 Mbp </td></tr>  <tr><td> 90 </td><td> 579 </td><td> 99.96 Kbp </td><td> 149 </td><td> 0.31 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.921x </th><th> 1008 </th><th> 0.90 Gbp </th><th> 549 </th><th> 0.90 Gbp </th></tr>
+  </tfoot>
+  </table>
+s3: s3://genomeark/species/Astatotilapia_calliptera
 taxon_id: 8154
 ---
