@@ -5,12 +5,12 @@ data_10x_bases: unknown
 data_10x_bytes: 80.298 GB
 data_10x_coverage: N/A
 data_10x_files: 12
-data_10x_scale: 1.41966540474009
+data_10x_scale: 1.4196
 data_arima_bases: unknown
 data_arima_bytes: 49.975 GB
 data_arima_coverage: N/A
 data_arima_files: 10
-data_arima_scale: 1.87031227899879
+data_arima_scale: 1.8703
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -21,11 +21,11 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 84.723 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 20
-data_pbsubreads_scale: 0.518499430498733
+data_pbsubreads_scale: 0.5184
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1523533999
-last_updated: 1543473872
+last_updated: 1545120408
 name: Sparus aurata
 s3: s3://genomeark/species/Sparus_aurata
 taxon_id: 8175

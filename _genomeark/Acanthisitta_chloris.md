@@ -5,7 +5,7 @@ data_10x_bases: unknown
 data_10x_bytes: 36.427 GB
 data_10x_coverage: N/A
 data_10x_files: 16
-data_10x_scale: 2.00012074559126
+data_10x_scale: 2.0001
 data_arima_scale: 1
 data_bionano_bases: unknown
 data_bionano_bytes: 0.641 GB
@@ -21,11 +21,11 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 118.549 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 16
-data_pbsubreads_scale: 0.540082911280045
+data_pbsubreads_scale: 0.54
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1538751378
-last_updated: 1543473872
+last_raw_data: 1543518349
+last_updated: 1545120408
 name: Acanthisitta chloris
 s3: s3://genomeark/species/Acanthisitta_chloris
 taxon_id: 57068

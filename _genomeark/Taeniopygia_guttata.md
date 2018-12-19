@@ -62,31 +62,31 @@ data_10x_bases: 205.67 Gbp
 data_10x_bytes: 123.768 GB
 data_10x_coverage: 198.60x
 data_10x_files: 48
-data_10x_scale: 1.54765016826052
-data_arima_bases: 251.19 Gbp
+data_10x_scale: 1.5476
+data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
-data_arima_coverage: 242.55x
+data_arima_coverage: 242.54x
 data_arima_files: 20
-data_arima_scale: 1.8484706217248
+data_arima_scale: 1.8484
 data_bionano_bases: 1642.52 Gbp
 data_bionano_bytes: 2.136 GB
 data_bionano_coverage: 1586.04x
 data_bionano_files: 4
 data_dovetail_scale: 1
-data_illumina_bases: 138.83 Gbp
+data_illumina_bases: 138.82 Gbp
 data_illumina_bytes: 71.694 GB
 data_illumina_coverage: 134.05x
 data_illumina_files: 4
-data_illumina_scale: 1.80338090881429
+data_illumina_scale: 1.8033
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 480.991 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 40
-data_pbsubreads_bases: 159.88 Gbp
+data_pbsubreads_bases: 159.85 Gbp
 data_pbsubreads_bytes: 574.778 GB
-data_pbsubreads_coverage: 154.38x
+data_pbsubreads_coverage: 154.35x
 data_pbsubreads_files: 394
-data_pbsubreads_scale: 0.259053028621865
+data_pbsubreads_scale: 0.259
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1035611271
@@ -94,7 +94,7 @@ genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
 image_license: unknown
 last_raw_data: 1531830272
-last_updated: 1543473872
+last_updated: 1545120408
 name: Taeniopygia guttata
 pri1: curated1
 pri1date: 2018-10-23

@@ -34,12 +34,12 @@ data_10x_bases: 120.50 Gbp
 data_10x_bytes: 78.050 GB
 data_10x_coverage: 181.84x
 data_10x_files: 12
-data_10x_scale: 1.43791051062347
+data_10x_scale: 1.4379
 data_arima_bases: 98.84 Gbp
 data_arima_bytes: 50.861 GB
-data_arima_coverage: 149.15x
+data_arima_coverage: 149.14x
 data_arima_files: 18
-data_arima_scale: 1.80984905659533
+data_arima_scale: 1.8098
 data_bionano_bases: 2412.22 Gbp
 data_bionano_bytes: 3.216 GB
 data_bionano_coverage: 3640.00x
@@ -54,7 +54,7 @@ data_pbsubreads_bases: 38.98 Gbp
 data_pbsubreads_bytes: 69.835 GB
 data_pbsubreads_coverage: 58.82x
 data_pbsubreads_files: 16
-data_pbsubreads_scale: 0.519858844589277
+data_pbsubreads_scale: 0.5198
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 662696525
@@ -62,7 +62,7 @@ genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: unknown
 last_raw_data: 1523263117
-last_updated: 1543473872
+last_updated: 1545120408
 name: Anabas testudineus
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

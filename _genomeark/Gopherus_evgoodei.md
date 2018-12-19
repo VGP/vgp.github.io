@@ -30,16 +30,16 @@ alt1sizes: |
 assembly: assembly_vgp_standard_1.0
 assembly_status: <em style="color:orange">preliminary assembly</em>
 common_name: Goode's thornscrub tortoise
-data_10x_bases: 298.75 Gbp
+data_10x_bases: 298.74 Gbp
 data_10x_bytes: 138.694 GB
-data_10x_coverage: 111.29x
+data_10x_coverage: 111.28x
 data_10x_files: 8
-data_10x_scale: 2.0060777049863
-data_arima_bases: 192.80 Gbp
+data_10x_scale: 2.006
+data_arima_bases: 192.79 Gbp
 data_arima_bytes: 100.166 GB
 data_arima_coverage: 71.82x
 data_arima_files: 6
-data_arima_scale: 1.79258798540974
+data_arima_scale: 1.7925
 data_bionano_bases: 994.16 Gbp
 data_bionano_bytes: 1.704 GB
 data_bionano_coverage: 370.34x
@@ -50,11 +50,11 @@ data_pbscraps_bases: unknown
 data_pbscraps_bytes: 424.931 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 38
-data_pbsubreads_bases: 156.17 Gbp
+data_pbsubreads_bases: 156.16 Gbp
 data_pbsubreads_bytes: 271.943 GB
-data_pbsubreads_coverage: 58.18x
+data_pbsubreads_coverage: 58.17x
 data_pbsubreads_files: 38
-data_pbsubreads_scale: 0.53484862458333
+data_pbsubreads_scale: 0.5348
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2684436481
@@ -62,7 +62,7 @@ genome_size_display: 2.68 Gbp
 image: /assets/images/Gopherus_evgoodei.jpg
 image_license: unknown
 last_raw_data: 1529613892
-last_updated: 1543473872
+last_updated: 1545120408
 name: Gopherus evgoodei
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

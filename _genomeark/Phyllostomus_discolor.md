@@ -34,12 +34,12 @@ data_10x_bases: 243.07 Gbp
 data_10x_bytes: 145.428 GB
 data_10x_coverage: 109.80x
 data_10x_files: 24
-data_10x_scale: 1.55665806187853
-data_arima_bases: 192.12 Gbp
+data_10x_scale: 1.5566
+data_arima_bases: 192.11 Gbp
 data_arima_bytes: 99.838 GB
 data_arima_coverage: 86.78x
 data_arima_files: 18
-data_arima_scale: 1.79214415136692
+data_arima_scale: 1.7921
 data_bionano_bases: 1078.91 Gbp
 data_bionano_bytes: 1.416 GB
 data_bionano_coverage: 487.36x
@@ -50,11 +50,11 @@ data_pbscraps_bases: unknown
 data_pbscraps_bytes: 1078.952 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 86
-data_pbsubreads_bases: 163.06 Gbp
+data_pbsubreads_bases: 163.04 Gbp
 data_pbsubreads_bytes: 292.405 GB
-data_pbsubreads_coverage: 73.66x
+data_pbsubreads_coverage: 73.65x
 data_pbsubreads_files: 86
-data_pbsubreads_scale: 0.519354562723655
+data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2213798723
@@ -62,7 +62,7 @@ genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: unknown
 last_raw_data: 1527496005
-last_updated: 1543473872
+last_updated: 1545120408
 name: Phyllostomus discolor
 pri1: curated1
 pri1date: 2018-09-07

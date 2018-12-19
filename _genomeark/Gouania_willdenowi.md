@@ -28,16 +28,16 @@ alt2sizes: |
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: blunt-snouted clingfish
-data_10x_bases: 108.27 Gbp
+data_10x_bases: 108.26 Gbp
 data_10x_bytes: 75.206 GB
 data_10x_coverage: 91.58x
 data_10x_files: 12
-data_10x_scale: 1.34072735031177
+data_10x_scale: 1.3407
 data_arima_bases: 77.88 Gbp
 data_arima_bytes: 38.732 GB
 data_arima_coverage: 65.87x
 data_arima_files: 10
-data_arima_scale: 1.87260157469159
+data_arima_scale: 1.8726
 data_bionano_bases: 285.53 Gbp
 data_bionano_bytes: 0.272 GB
 data_bionano_coverage: 241.52x
@@ -48,11 +48,11 @@ data_pbscraps_bases: unknown
 data_pbscraps_bytes: 280.848 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 32
-data_pbsubreads_bases: 56.72 Gbp
+data_pbsubreads_bases: 56.71 Gbp
 data_pbsubreads_bytes: 100.723 GB
 data_pbsubreads_coverage: 47.97x
 data_pbsubreads_files: 32
-data_pbsubreads_scale: 0.524415796179845
+data_pbsubreads_scale: 0.5244
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1182215999
@@ -60,7 +60,7 @@ genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
 image_license: unknown
 last_raw_data: 1523524486
-last_updated: 1543473872
+last_updated: 1545120408
 name: Gouania willdenowi
 pri2: curated2
 pri2date: 2018-11-16

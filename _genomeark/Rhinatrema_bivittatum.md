@@ -34,12 +34,12 @@ data_10x_bases: 367.17 Gbp
 data_10x_bytes: 250.442 GB
 data_10x_coverage: 72.45x
 data_10x_files: 36
-data_10x_scale: 1.36540865079987
-data_arima_bases: 375.52 Gbp
+data_10x_scale: 1.3654
+data_arima_bases: 375.50 Gbp
 data_arima_bytes: 222.490 GB
-data_arima_coverage: 74.10x
+data_arima_coverage: 74.09x
 data_arima_files: 12
-data_arima_scale: 1.57187811341444
+data_arima_scale: 1.5718
 data_bionano_bases: 1821.59 Gbp
 data_bionano_bytes: 1.550 GB
 data_bionano_coverage: 359.44x
@@ -50,11 +50,11 @@ data_pbscraps_bases: unknown
 data_pbscraps_bytes: 1225.510 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 108
-data_pbsubreads_bases: 232.08 Gbp
+data_pbsubreads_bases: 232.05 Gbp
 data_pbsubreads_bytes: 415.928 GB
-data_pbsubreads_coverage: 45.80x
+data_pbsubreads_coverage: 45.79x
 data_pbsubreads_files: 108
-data_pbsubreads_scale: 0.519670627108606
+data_pbsubreads_scale: 0.5196
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 5067838282
@@ -62,7 +62,7 @@ genome_size_display: 5.07 Gbp
 image: /assets/images/frog.png
 image_license: unknown
 last_raw_data: 1525161722
-last_updated: 1543473872
+last_updated: 1545120408
 name: Rhinatrema bivittatum
 pri1: curated1
 pri1date: 2018-09-09

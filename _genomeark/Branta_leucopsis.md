@@ -17,11 +17,11 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 111.940 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 32
-data_pbsubreads_scale: 0.520593444974436
+data_pbsubreads_scale: 0.5205
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1536592916
-last_updated: 1543473872
+last_updated: 1545120408
 name: Branta leucopsis
 s3: s3://genomeark/species/Branta_leucopsis
 taxon_id: 184711

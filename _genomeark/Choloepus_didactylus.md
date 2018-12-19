@@ -5,7 +5,7 @@ data_10x_bases: unknown
 data_10x_bytes: 159.933 GB
 data_10x_coverage: N/A
 data_10x_files: 8
-data_10x_scale: 1.96172361345128
+data_10x_scale: 1.9617
 data_arima_scale: 1
 data_bionano_bases: unknown
 data_bionano_bytes: 1.633 GB
@@ -21,11 +21,11 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 339.455 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 70
-data_pbsubreads_scale: 0.530228829008032
+data_pbsubreads_scale: 0.5302
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1537981506
-last_updated: 1543473872
+last_updated: 1545120408
 name: Choloepus didactylus
 s3: s3://genomeark/species/Choloepus_didactylus
 taxon_id: 27675

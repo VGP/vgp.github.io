@@ -28,11 +28,11 @@ alt1sizes: |
 assembly: assembly_vgp_standard_1.0
 assembly_status: <em style="color:orange">preliminary assembly</em>
 common_name: eastern happy
-data_10x_bases: 120.79 Gbp
+data_10x_bases: 120.78 Gbp
 data_10x_bytes: 78.888 GB
-data_10x_coverage: 124.21x
+data_10x_coverage: 124.20x
 data_10x_files: 12
-data_10x_scale: 1.42597350711702
+data_10x_scale: 1.4259
 data_arima_scale: 1
 data_bionano_bases: 106.83 Gbp
 data_bionano_bytes: 0.128 GB
@@ -40,11 +40,11 @@ data_bionano_coverage: 109.85x
 data_bionano_files: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbsubreads_bases: 74.95 Gbp
+data_pbsubreads_bases: 74.92 Gbp
 data_pbsubreads_bytes: 269.612 GB
-data_pbsubreads_coverage: 77.07x
+data_pbsubreads_coverage: 77.04x
 data_pbsubreads_files: 67
-data_pbsubreads_scale: 0.258885349010334
+data_pbsubreads_scale: 0.2588
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 972478608
@@ -52,7 +52,7 @@ genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
 image_license: unknown
 last_raw_data: 1520006832
-last_updated: 1543473872
+last_updated: 1545120408
 name: Astatotilapia calliptera
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

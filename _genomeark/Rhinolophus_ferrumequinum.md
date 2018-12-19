@@ -30,11 +30,11 @@ alt1sizes: |
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: greater horseshoe bat
-data_10x_bases: 107.26 Gbp
+data_10x_bases: 107.25 Gbp
 data_10x_bytes: 64.099 GB
 data_10x_coverage: 45.26x
 data_10x_files: 12
-data_10x_scale: 1.55839975886539
+data_10x_scale: 1.5583
 data_arima_scale: 1
 data_bionano_bases: 1592.93 Gbp
 data_bionano_bytes: 2.220 GB
@@ -46,23 +46,23 @@ data_pbscraps_bases: unknown
 data_pbscraps_bytes: 454.551 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 25
-data_pbsubreads_bases: 152.49 Gbp
+data_pbsubreads_bases: 152.47 Gbp
 data_pbsubreads_bytes: 271.143 GB
-data_pbsubreads_coverage: 64.35x
+data_pbsubreads_coverage: 64.34x
 data_pbsubreads_files: 50
-data_pbsubreads_scale: 0.523785418882239
-data_phase_bases: 45.17 Gbp
+data_pbsubreads_scale: 0.5237
+data_phase_bases: 45.16 Gbp
 data_phase_bytes: 28.046 GB
 data_phase_coverage: 19.06x
 data_phase_files: 1
-data_phase_scale: 1.49981342328452
+data_phase_scale: 1.4998
 data_status: <em style="color:green">all data</em>
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
 image: /assets/images/bat.png
 image_license: unknown
 last_raw_data: 1522747239
-last_updated: 1543473872
+last_updated: 1545120408
 name: Rhinolophus ferrumequinum
 pri1: curated1
 pri1date: 2018-09-07
