@@ -1,8 +1,8 @@
 ---
 alt1: curated1
-alt1date: 2018-11-20
-alt1filesize: 0.085 GB
-alt1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_curated/bStrHab1.alt.cur.20181120.fasta.gz
+alt1date: 2018-12-11
+alt1filesize: 0.084 GB
+alt1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_curated/bStrHab1.alt.cur.20181211.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -20,9 +20,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 323 </td><td> 0.19 Mbp </td><td> 323 </td><td> 0.19 Mbp </td></tr>  <tr><td> 20 </td><td> 1769 </td><td> 37.98 Kbp </td><td> 1755 </td><td> 38.50 Kbp </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 323 </td><td> 0.19 Mbp </td><td> 323 </td><td> 0.19 Mbp </td></tr>  <tr><td> 20 </td><td> 1778 </td><td> 36.79 Kbp </td><td> 1771 </td><td> 37.13 Kbp </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.242x </th><th> 3849 </th><th> 289.32 Mbp </th><th> 3827 </th><th> 289.33 Mbp </th></tr>
+  <tr><th> 0.239x </th><th> 3739 </th><th> 285.70 Mbp </th><th> 3728 </th><th> 285.71 Mbp </th></tr>
   </tfoot>
   </table>
 assembly: assembly_curated
@@ -32,23 +32,23 @@ data_10x_bases: 131.40 Gbp
 data_10x_bytes: 63.445 GB
 data_10x_coverage: 110.10x
 data_10x_files: 8
-data_10x_scale: 1.92880193239903
-data_arima_bases: 114.20 Gbp
+data_10x_scale: 1.9288
+data_arima_bases: 114.19 Gbp
 data_arima_bytes: 60.433 GB
 data_arima_coverage: 95.69x
 data_arima_files: 2
-data_arima_scale: 1.75987552868831
+data_arima_scale: 1.7598
 data_bionano_bases: 654.42 Gbp
 data_bionano_bytes: 0.837 GB
 data_bionano_coverage: 548.36x
 data_bionano_files: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbsubreads_bases: 106.25 Gbp
+data_pbsubreads_bases: 106.23 Gbp
 data_pbsubreads_bytes: 388.442 GB
-data_pbsubreads_coverage: 89.03x
+data_pbsubreads_coverage: 89.02x
 data_pbsubreads_files: 378
-data_pbsubreads_scale: 0.254732472388436
+data_pbsubreads_scale: 0.2547
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1193409022
@@ -56,7 +56,7 @@ genome_size_display: 1.19 Gbp
 image: /assets/images/Strigops_habroptilus.jpg
 image_license: unknown
 last_raw_data: 1529612332
-last_updated: 1543473872
+last_updated: 1545120408
 name: Strigops habroptilus
 pri1: curated1
 pri1date: 2018-09-07

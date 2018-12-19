@@ -28,16 +28,16 @@ alt1sizes: |
 assembly: assembly_vgp_standard_1.0
 assembly_status: <em style="color:orange">preliminary assembly</em>
 common_name: tire-track eel
-data_10x_bases: 116.09 Gbp
+data_10x_bases: 116.08 Gbp
 data_10x_bytes: 79.367 GB
-data_10x_coverage: 153.40x
+data_10x_coverage: 153.39x
 data_10x_files: 12
-data_10x_scale: 1.36219329077835
+data_10x_scale: 1.3621
 data_arima_bases: 147.40 Gbp
 data_arima_bytes: 71.281 GB
-data_arima_coverage: 194.78x
+data_arima_coverage: 194.77x
 data_arima_files: 18
-data_arima_scale: 1.92584085670076
+data_arima_scale: 1.9258
 data_bionano_bases: 1619.79 Gbp
 data_bionano_bytes: 2.687 GB
 data_bionano_coverage: 2140.44x
@@ -52,7 +52,7 @@ data_pbsubreads_bases: 29.95 Gbp
 data_pbsubreads_bytes: 53.849 GB
 data_pbsubreads_coverage: 39.57x
 data_pbsubreads_files: 16
-data_pbsubreads_scale: 0.517927846763172
+data_pbsubreads_scale: 0.5179
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 756753344
@@ -60,7 +60,7 @@ genome_size_display: 0.76 Gbp
 image: /assets/images/Mastacembelus_armatus.jpg
 image_license: unknown
 last_raw_data: 1523531959
-last_updated: 1543473872
+last_updated: 1545120408
 name: Mastacembelus armatus
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

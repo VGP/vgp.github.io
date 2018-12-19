@@ -30,16 +30,16 @@ alt4sizes: |
 assembly: assembly_vgp_standard_1.5
 assembly_status: <em style="color:orange">preliminary assembly</em>
 common_name: Canada lynx
-data_10x_bases: 324.40 Gbp
+data_10x_bases: 324.39 Gbp
 data_10x_bytes: 194.683 GB
 data_10x_coverage: 131.25x
 data_10x_files: 24
-data_10x_scale: 1.55185032811132
+data_10x_scale: 1.5518
 data_arima_bases: 231.53 Gbp
 data_arima_bytes: 114.006 GB
 data_arima_coverage: 93.68x
 data_arima_files: 18
-data_arima_scale: 1.89141691762509
+data_arima_scale: 1.8914
 data_bionano_bases: 1447.30 Gbp
 data_bionano_bytes: 2.321 GB
 data_bionano_coverage: 585.59x
@@ -50,11 +50,11 @@ data_pbscraps_bases: unknown
 data_pbscraps_bytes: 1118.716 GB
 data_pbscraps_coverage: N/A
 data_pbscraps_files: 67
-data_pbsubreads_bases: 179.84 Gbp
+data_pbsubreads_bases: 179.82 Gbp
 data_pbsubreads_bytes: 311.347 GB
-data_pbsubreads_coverage: 72.77x
+data_pbsubreads_coverage: 72.76x
 data_pbsubreads_files: 67
-data_pbsubreads_scale: 0.537960760923522
+data_pbsubreads_scale: 0.5379
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2471525315
@@ -62,7 +62,7 @@ genome_size_display: 2.47 Gbp
 image: /assets/images/Lynx_canadensis.jpg
 image_license: unknown
 last_raw_data: 1534379101
-last_updated: 1543473872
+last_updated: 1545120408
 name: Lynx canadensis
 pri4: vgp_standard_1.54
 pri4date: 2018-11-19

@@ -32,14 +32,14 @@ assembly_status: <em style="color:red">bad assembly</em>
 common_name: Channel bull blenny
 data_10x_bases: 97.65 Gbp
 data_10x_bytes: 65.656 GB
-data_10x_coverage: 139.50x
+data_10x_coverage: 139.49x
 data_10x_files: 12
-data_10x_scale: 1.38511705368624
+data_10x_scale: 1.3851
 data_arima_bases: 88.25 Gbp
 data_arima_bytes: 43.692 GB
 data_arima_coverage: 126.07x
 data_arima_files: 10
-data_arima_scale: 1.88113883688166
+data_arima_scale: 1.8811
 data_bionano_bases: 2649.65 Gbp
 data_bionano_bytes: 3.399 GB
 data_bionano_coverage: 3785.21x
@@ -52,9 +52,9 @@ data_pbscraps_coverage: N/A
 data_pbscraps_files: 20
 data_pbsubreads_bases: 48.61 Gbp
 data_pbsubreads_bytes: 86.794 GB
-data_pbsubreads_coverage: 69.45x
+data_pbsubreads_coverage: 69.44x
 data_pbsubreads_files: 20
-data_pbsubreads_scale: 0.521626621135821
+data_pbsubreads_scale: 0.5216
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 700000000
@@ -62,7 +62,7 @@ genome_size_display: 0.70 Gbp
 image: /assets/images/Cottoperca_gobio.jpg
 image_license: unknown
 last_raw_data: 1523523546
-last_updated: 1543473872
+last_updated: 1545120408
 name: Cottoperca gobio
 pri3: vgp_standard_1.03
 pri3date: 2018-08-17

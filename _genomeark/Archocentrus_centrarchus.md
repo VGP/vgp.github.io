@@ -34,7 +34,7 @@ data_10x_bases: 37.52 Gbp
 data_10x_bytes: 24.686 GB
 data_10x_coverage: 37.98x
 data_10x_files: 12
-data_10x_scale: 1.41564673212495
+data_10x_scale: 1.4156
 data_arima_scale: 1
 data_bionano_bases: 1126.56 Gbp
 data_bionano_bytes: 1.789 GB
@@ -46,19 +46,19 @@ data_pbsubreads_bases: 75.96 Gbp
 data_pbsubreads_bytes: 131.487 GB
 data_pbsubreads_coverage: 76.88x
 data_pbsubreads_files: 18
-data_pbsubreads_scale: 0.538005016092727
+data_pbsubreads_scale: 0.538
 data_phase_bases: 91.60 Gbp
 data_phase_bytes: 56.032 GB
 data_phase_coverage: 92.71x
 data_phase_files: 2
-data_phase_scale: 1.5225603683137
+data_phase_scale: 1.5225
 data_status: <em style="color:green">all data</em>
 genome_size: 988048114
 genome_size_display: 0.99 Gbp
 image: /assets/images/Archocentrus_centrarchus.jpg
 image_license: unknown
 last_raw_data: 1537873439
-last_updated: 1543473872
+last_updated: 1545120408
 name: Archocentrus centrarchus
 pri1: curated1
 pri1date: 2018-11-18

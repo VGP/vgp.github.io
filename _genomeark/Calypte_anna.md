@@ -30,43 +30,43 @@ alt1sizes: |
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: Anna's hummingbird
-data_10x_bases: 56.09 Gbp
+data_10x_bases: 56.08 Gbp
 data_10x_bytes: 32.739 GB
 data_10x_coverage: 50.23x
 data_10x_files: 3
-data_10x_scale: 1.59546717915176
-data_arima_bases: 151.73 Gbp
+data_10x_scale: 1.5954
+data_arima_bases: 151.72 Gbp
 data_arima_bytes: 79.418 GB
-data_arima_coverage: 135.90x
+data_arima_coverage: 135.89x
 data_arima_files: 2
-data_arima_scale: 1.77925397697586
+data_arima_scale: 1.7792
 data_bionano_bases: 838.45 Gbp
 data_bionano_bytes: 1.035 GB
 data_bionano_coverage: 750.98x
 data_bionano_files: 3
-data_dovetail_bases: 101.22 Gbp
+data_dovetail_bases: 101.21 Gbp
 data_dovetail_bytes: 58.885 GB
 data_dovetail_coverage: 90.66x
 data_dovetail_files: 3
-data_dovetail_scale: 1.60084361785758
+data_dovetail_scale: 1.6008
 data_illumina_scale: 1
-data_pbsubreads_bases: 77.07 Gbp
+data_pbsubreads_bases: 77.06 Gbp
 data_pbsubreads_bytes: 231.725 GB
-data_pbsubreads_coverage: 69.03x
+data_pbsubreads_coverage: 69.02x
 data_pbsubreads_files: 378
-data_pbsubreads_scale: 0.309746160593947
+data_pbsubreads_scale: 0.3097
 data_phase_bases: 21.50 Gbp
 data_phase_bytes: 11.507 GB
 data_phase_coverage: 19.26x
 data_phase_files: 1
-data_phase_scale: 1.74035590035324
+data_phase_scale: 1.7403
 data_status: <em style="color:green">all data</em>
 genome_size: 1116472572
 genome_size_display: 1.12 Gbp
 image: /assets/images/Calypte_anna.jpg
 image_license: unknown
 last_raw_data: 1531244296
-last_updated: 1543473872
+last_updated: 1545120408
 name: Calypte anna
 pri1: curated1
 pri1date: 2018-09-26
