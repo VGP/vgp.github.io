@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5336
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1535575225
-last_updated: 1545120408
+last_updated: 1547427119
 name: Parambassis ranga
 s3: s3://genomeark/species/Parambassis_ranga
 taxon_id: 210632

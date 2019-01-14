@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5173
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1536592476
-last_updated: 1545120408
+last_updated: 1547427119
 name: Erpetoichthys calabaricus
 s3: s3://genomeark/species/Erpetoichthys_calabaricus
 taxon_id: 27687
