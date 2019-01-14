@@ -66,7 +66,7 @@ genome_size_display: 2.13 Gbp
 image: /assets/images/Ornithorhynchus_anatinus.jpg
 image_license: unknown
 last_raw_data: 1536347587
-last_updated: 1545120408
+last_updated: 1547427119
 name: Ornithorhynchus anatinus
 pri1: curated1
 pri1date: 2018-11-16

@@ -62,7 +62,7 @@ genome_size_display: 2.47 Gbp
 image: /assets/images/Lynx_canadensis.jpg
 image_license: unknown
 last_raw_data: 1534379101
-last_updated: 1545120408
+last_updated: 1547427119
 name: Lynx canadensis
 pri4: vgp_standard_1.54
 pri4date: 2018-11-19
