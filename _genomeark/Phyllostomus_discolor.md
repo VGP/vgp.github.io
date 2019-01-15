@@ -62,7 +62,7 @@ genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: unknown
 last_raw_data: 1527496005
-last_updated: 1547427119
+last_updated: 1547526663
 name: Phyllostomus discolor
 pri1: curated1
 pri1date: 2018-09-07

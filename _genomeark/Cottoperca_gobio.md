@@ -28,7 +28,7 @@ alt3sizes: |
   </tfoot>
   </table>
 assembly: assembly_vgp_standard_1.0
-assembly_status: <em style="color:red">bad assembly</em>
+assembly_status: <em style="color:red">low-quality draft assembly</em>
 common_name: Channel bull blenny
 data_10x_bases: 97.65 Gbp
 data_10x_bytes: 65.656 GB
@@ -62,7 +62,7 @@ genome_size_display: 0.70 Gbp
 image: /assets/images/Cottoperca_gobio.jpg
 image_license: unknown
 last_raw_data: 1523523546
-last_updated: 1547427119
+last_updated: 1547526663
 name: Cottoperca gobio
 pri3: vgp_standard_1.03
 pri3date: 2018-08-17

@@ -20,6 +20,16 @@ paginate_path: "/news/page:num/"
 collections:
   genomeark:
     output: true
+  genomeark-curated-assembly:
+    output: true
+  genomeark-high-quality-draft-assembly:
+    output: true
+  genomeark-low-quality-draft-assembly:
+    output: true
+  genomeark-complete-data:
+    output: true
+  genomeark-incomplete-data:
+    output: true
 
 defaults:
   -
@@ -31,6 +41,36 @@ defaults:
   -
     scope:
       path: "_genomeark"
+    values:
+      layout: genomeark
+      use_name_for_title: true
+  -
+    scope:
+      path: "_genomeark-curated-assembly"
+    values:
+      layout: genomeark
+      use_name_for_title: true
+  -
+    scope:
+      path: "_genomeark-high-quality-draft-assembly"
+    values:
+      layout: genomeark
+      use_name_for_title: true
+  -
+    scope:
+      path: "_genomeark-low-quality-draft-assembly"
+    values:
+      layout: genomeark
+      use_name_for_title: true
+  -
+    scope:
+      path: "_genomeark-complete-data"
+    values:
+      layout: genomeark
+      use_name_for_title: true
+  -
+    scope:
+      path: "_genomeark-incomplete-data"
     values:
       layout: genomeark
       use_name_for_title: true
@@ -55,7 +95,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-repository: vgp
+grepository: vgp
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -98,7 +138,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate

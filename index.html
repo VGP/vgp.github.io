@@ -5,10 +5,47 @@ permalink: /
 ---
 
 {% if site.genomeark %}
-  {% assign count = site.genomeark.size %}
-
   <div class="section">
+
   {% include title-bar.html title="GenomeArk" %}
-  {% include see-all.html name="species" link="genomeark" count=count %}
+
+  <br>
+
+  {% if site.genomeark-curated-assembly.size > 0 %}
+  	<div class="see-all">
+  		<a href="{{ site.baseurl }}/genomeark-curated-assembly">see all {{ site.genomeark-curated-assembly.size }} species with curated assemblies</a>
+  	</div>
+  {% endif %}
+
+  {% if site.genomeark-high-quality-draft-assembly.size > 0 %}
+  	<div class="see-all">
+  		<a href="{{ site.baseurl }}/genomeark-high-quality-draft-assembly">see all {{ site.genomeark-high-quality-draft-assembly.size }} species with high-quality draft assemblies</a>
+  	</div>
+  {% endif %}
+
+  {% if site.genomeark-low-quality-draft-assembly.size > 0 %}
+  	<div class="see-all">
+  		<a href="{{ site.baseurl }}/genomeark-low-quality-draft-assembly">see all {{ site.genomeark-low-quality-draft-assembly.size }} species with low-quality draft assemblies</a>
+  	</div>
+  {% endif %}
+
+  {% if site.genomeark-complete-data.size > 0 %}
+  	<div class="see-all">
+  		<a href="{{ site.baseurl }}/genomeark-complete-data">see all {{ site.genomeark-complete-data.size }} species with complete data</a>
+  	</div>
+  {% endif %}
+
+  {% if site.genomeark-incomplete-data.size > 0 %}
+  	<div class="see-all">
+  		<a href="{{ site.baseurl }}/genomeark-incomplete-data">see all {{ site.genomeark-incomplete-data.size }} species with incomplete data</a>
+  	</div>
+  {% endif %}
+
+  {% if site.genomeark.size > 0 %}
+  	<div class="see-all">
+  		<a href="{{ site.baseurl }}/genomeark">see all {{ site.genomeark.size }} species</a>
+  	</div>
+  {% endif %}
+
   </div>
 {% endif %}

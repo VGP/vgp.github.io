@@ -21,7 +21,7 @@ data_pbsubreads_scale: 0.5203
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1537988708
-last_updated: 1547427119
+last_updated: 1547526663
 name: Spatula cyanoptera
 s3: s3://genomeark/species/Spatula_cyanoptera
 taxon_id: 75840
