@@ -12,12 +12,14 @@ Install the jekyll Ruby module(s):
 Run jekyll in 'watch' mode to update as you modify files (restart if _config.yml
    changes):
 
-   jekyll serve --watch &
+   jekyll serve --watch --host=0.0.0.0 &
 
 View the locally served page at:
 
   http://127.0.0.1:4000
 
+0.0.0.0 tells jekyll to listen to all addresses, not just the local loopback,
+meaning you can use your favorite tablet to view the site.
 
 Overall site config
 -------------------
