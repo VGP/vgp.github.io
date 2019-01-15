@@ -1,0 +1,29 @@
+---
+layout: default
+title: GenomeArk
+---
+
+<h1 class="page-name">GenomeArk</h1>
+
+<h2>HELLO!</h2>
+
+<div>
+<P>
+TEST1<br>
+A {{ site.data.stats.test1 }}<br>
+B {{ site.data.stats.test2 }}<br>
+TEST2<br>
+</P>
+</div>
+
+<div class="posts">
+<article class="post">
+
+  {% assign sorted = site.genomeark-complete-data | sort: 'name' %}
+
+  {% for species in sorted %}
+    {% include species-listing.html species=species %}
+  {% endfor %}
+
+</article>
+</div>

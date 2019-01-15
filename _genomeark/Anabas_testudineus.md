@@ -28,7 +28,7 @@ alt1sizes: |
   </tfoot>
   </table>
 assembly: assembly_vgp_standard_1.0
-assembly_status: <em style="color:orange">preliminary assembly</em>
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: climbing perch
 data_10x_bases: 120.50 Gbp
 data_10x_bytes: 78.050 GB
@@ -62,7 +62,7 @@ genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: unknown
 last_raw_data: 1523263117
-last_updated: 1547427119
+last_updated: 1547526663
 name: Anabas testudineus
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

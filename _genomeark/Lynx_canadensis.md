@@ -28,7 +28,7 @@ alt4sizes: |
   </tfoot>
   </table>
 assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">preliminary assembly</em>
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: Canada lynx
 data_10x_bases: 324.39 Gbp
 data_10x_bytes: 194.683 GB
@@ -62,7 +62,7 @@ genome_size_display: 2.47 Gbp
 image: /assets/images/Lynx_canadensis.jpg
 image_license: unknown
 last_raw_data: 1534379101
-last_updated: 1547427119
+last_updated: 1547526663
 name: Lynx canadensis
 pri4: vgp_standard_1.54
 pri4date: 2018-11-19

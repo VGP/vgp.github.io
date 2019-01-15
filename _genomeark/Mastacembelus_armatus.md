@@ -26,7 +26,7 @@ alt1sizes: |
   </tfoot>
   </table>
 assembly: assembly_vgp_standard_1.0
-assembly_status: <em style="color:orange">preliminary assembly</em>
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: tire-track eel
 data_10x_bases: 116.08 Gbp
 data_10x_bytes: 79.367 GB
@@ -60,7 +60,7 @@ genome_size_display: 0.76 Gbp
 image: /assets/images/Mastacembelus_armatus.jpg
 image_license: unknown
 last_raw_data: 1523531959
-last_updated: 1547427119
+last_updated: 1547526663
 name: Mastacembelus armatus
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

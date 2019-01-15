@@ -615,22 +615,24 @@ sub processAssembly ($$$) {
 
     #print "PROCESS $filename of size $filesize\n";
 
-    my ($aLabel, $sTag, $sNum, $prialt, $date) = undef;
+    my ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = undef;
 
-    if    ($filename =~ m!assembly_(.+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!) {
-        $aLabel  = $1;
-        $sTag    = $2;
-        $sNum    = $3;
-        $prialt  = $4;
-        $date    = "$5-$6-$7";
+    if    ($filename =~ m!species/(.*)/.*/assembly_(.+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!) {
+        $sName   = $1;
+        $aLabel  = $2;
+        $sTag    = $3;
+        $sNum    = $4;
+        $prialt  = $5;
+        $date    = "$6-$7-$8";
     }
 
-    elsif ($filename =~ m!assembly_(,+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).MT.fasta.gz!) {
-        $aLabel  = $1;
-        $sTag    = $2;
-        $sNum    = $3;
+    elsif ($filename =~ m!species/(.*)/.*/assembly_(,+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).MT.fasta.gz!) {
+        $sName   = $1;
+        $aLabel  = $2;
+        $sTag    = $3;
+        $sNum    = $4;
         $prialt  = "mito";
-        $date    = "$5-$6-$7";
+        $date    = "$6-$7-$8";
     }
 
     else {
@@ -680,15 +682,15 @@ sub processAssembly ($$$) {
     if ($prialt eq "pri") {
         if (($$data{"${prialt}${sNum}n50ctg"} < $goodCTG) ||
             ($$data{"${prialt}${sNum}n50scf"} < $goodSCF)) {
-            $$data{"assembly_status"} = "<em style=\"color:red\">bad assembly</em>";
+            $$data{"assembly_status"} = "low-quality-draft";
         }
 
         elsif ($aLabel !~ m/curated/) {
-            $$data{"assembly_status"} = "<em style=\"color:orange\">preliminary assembly</em>";
+            $$data{"assembly_status"} = "high-quality-draft";
         }
 
         else {
-            $$data{"assembly_status"} = "<em style=\"color:green\">curated assembly</em>";
+            $$data{"assembly_status"} = "curated";
         }
     }
 }
@@ -1053,8 +1055,8 @@ foreach my $species (@speciesList) {
     $data{"image"}               = $meta{"species.image"};
     $data{"image_license"}       = $meta{"species.image_license"};
 
-    $data{"data_status"}         = "<em style=\"color:red\">no data</em>";
-    $data{"assembly_status"}     = "<em style=\"color:red\">no assembly</em>";
+    $data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
+    $data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
 
     #$data{"last_raw_data"}       = Do not set here; should only be present if data exists.
     $data{"last_updated"}        = $lastUpdate;
@@ -1230,21 +1232,75 @@ foreach my $species (@speciesList) {
         $dataHIC++;
     }
 
+    #  Set the classification.
+    #  If no assembly, put it under either "some data" or "all data".
+    #  Otherwise, put it under the assembly classification.
+
     if (($dataPac > 0) ||
         ($data10x > 0) ||
         ($dataHIC > 0) ||
         ($dataBio > 0)) {
-        $data{"data_status"} = "<em style=\"color:orange\">some data</em>";
+        $data{"data_status"} = "some";
     }
 
     if (($dataPac > 0) &&
         ($data10x > 0) &&
         ($dataHIC > 0) &&
         ($dataBio > 0)) {
-        $data{"data_status"} = "<em style=\"color:green\">all data</em>";
+        $data{"data_status"} = "all";
     }
 
+    #  Create symlinks to the categories.
+    #
+    #  Name changes should change:
+    #  1)  the label used in this script ("low-quality-draft")
+    #  2)  the directory name in the symlink
+    #  3)  the actual directories (both "_genomeark-low-quality-draft" and "genomeark-low-quality-draft")
+    #  4)  the index.html in genomeark-low-quality-draft/  (both the title and the collection name)
+    #  5)  _config.yml (in two places) and index.html in the root directory.
 
+    unlink("../_genomeark-curated-assembly/$name.md");
+    unlink("../_genomeark-high-quality-draft-assembly/$name.md");
+    unlink("../_genomeark-low-quality-draft-assembly/$name.md");
+    unlink("../_genomeark-complete-data/$name.md");
+    unlink("../_genomeark-incomplete-data/$name.md");
+
+    if    ($data{"assembly_status"} eq "curated") {
+        symlink("../_genomeark/$name.md", "../_genomeark-curated-assembly/$name.md") or die "Failed to make symlink for curated assembly: $!.\n";
+    }
+
+    elsif ($data{"assembly_status"} eq "high-quality-draft") {
+        symlink("../_genomeark/$name.md", "../_genomeark-high-quality-draft-assembly/$name.md") or die "Failed to make symlink for high-quality-draft assembly: $!.\n";
+    }
+
+    elsif ($data{"assembly_status"} eq "low-quality-draft") {
+        symlink("../_genomeark/$name.md", "../_genomeark-low-quality-draft-assembly/$name.md") or die "Failed to make symlink for low-quaity-draft assembly: $!.\n";
+    }
+
+    elsif ($data{"data_status"} eq "all") {
+        symlink("../_genomeark/$name.md", "../_genomeark-complete-data/$name.md") or die "Failed to make symlink for complete data: $!.\n";
+    }
+
+    elsif ($data{"data_status"} eq "some") {
+        symlink("../_genomeark/$name.md", "../_genomeark-incomplete-data/$name.md") or die "Failed to make symlink for incomplete data: $!.\n";
+    }
+
+    else {
+        symlink("../_genomeark/$name.md", "../_genomeark-incomplete-data/$name.md") or die "Failed to make symlink for incomplete data (catch all): $!.\n";
+    }
+
+    #  And reset the classifications to strings we can use in the display.
+
+    $data{"data_status"}     = "<em style=\"color:red\">no data</em>"                          if ($data{"data_status"}) eq "none";
+    $data{"data_status"}     = "<em style=\"color:orange\">some data</em>"                     if ($data{"data_status"}) eq "some";
+    $data{"data_status"}     = "<em style=\"color:green\">all data</em>"                       if ($data{"data_status"}) eq "all";
+
+    $data{"assembly_status"} = "<em style=\"color:red\">no assembly</em>"                      if ($data{"assembly_status"} eq "none");
+    $data{"assembly_status"} = "<em style=\"color:red\">low-quality draft assembly</em>"       if ($data{"assembly_status"} eq "low-quality-draft");
+    $data{"assembly_status"} = "<em style=\"color:orange\">high-quality draft assembly</em>"   if ($data{"assembly_status"} eq "high-quality-draft");
+    $data{"assembly_status"} = "<em style=\"color:green\">curated assembly</em>"               if ($data{"assembly_status"} eq "curated");
+
+    #  Done.  Write the output.
 
     #printData($species, \%data);
     saveData($species, \%data);
