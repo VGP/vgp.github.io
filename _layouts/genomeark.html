@@ -113,12 +113,11 @@ No genome size estimate available.
 </div>
 {% endif %}
 
-{% if page.pri1seq %}
-{% else %}
+{% unless page.pri1seq or page.pri2seq or page.pri3seq or page.pri4seq %}
 <div class="notes">
 <em style="color:red">No assemblies.</em><br/>
 </div>
-{% endif %}
+{% endunless %}
 
 
 <!-- ONE --->
