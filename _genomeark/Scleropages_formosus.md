@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5424
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1547566320
-last_updated: 1549476692
+last_updated: 1549651837
 name: Scleropages formosus
 s3: s3://genomeark/species/Scleropages_formosus
 taxon_id: 113540

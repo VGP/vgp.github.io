@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5297
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1537972599
-last_updated: 1549476692
+last_updated: 1549651837
 name: Salmo trutta
 s3: s3://genomeark/species/Salmo_trutta
 taxon_id: 8032

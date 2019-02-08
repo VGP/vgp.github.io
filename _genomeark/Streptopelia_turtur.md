@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1548798897
-last_updated: 1549476692
+last_updated: 1549651837
 name: Streptopelia turtur
 s3: s3://genomeark/species/Streptopelia_turtur
 taxon_id: 177155

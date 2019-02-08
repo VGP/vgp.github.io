@@ -60,7 +60,7 @@ genome_size_display: 0.76 Gbp
 image: /assets/images/Mastacembelus_armatus.jpg
 image_license: unknown
 last_raw_data: 1523531959
-last_updated: 1549476692
+last_updated: 1549651837
 name: Mastacembelus armatus
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

@@ -62,7 +62,7 @@ genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: unknown
 last_raw_data: 1523263117
-last_updated: 1549476692
+last_updated: 1549651837
 name: Anabas testudineus
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17
