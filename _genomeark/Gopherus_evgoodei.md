@@ -1,10 +1,10 @@
 ---
-alt1: vgp_standard_1.01
-alt1date: 2018-08-17
-alt1filesize: 0.554 GB
-alt1n50ctg: 385847
-alt1n50scf: 385847
-alt1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_vgp_standard_1.0/rGopEvg1.alt.asm.20180817.fasta.gz
+alt1: curated1
+alt1date: 2019-01-31
+alt1filesize: 0.568 GB
+alt1n50ctg: 385939
+alt1n50scf: 385939
+alt1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_curated/rGopEvg1.alt.cur.20190131.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -22,13 +22,13 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 130 </td><td> 1.53 Mbp </td><td> 130 </td><td> 1.53 Mbp </td></tr>  <tr><td> 20 </td><td> 339 </td><td> 1.10 Mbp </td><td> 339 </td><td> 1.10 Mbp </td></tr>  <tr><td> 30 </td><td> 624 </td><td> 0.81 Mbp </td><td> 624 </td><td> 0.81 Mbp </td></tr>  <tr><td> 40 </td><td> 1015 </td><td> 0.58 Mbp </td><td> 1015 </td><td> 0.58 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1583 </td><td> 0.39 Mbp </td><td> 1583 </td><td> 0.39 Mbp </td></tr>  <tr><td> 60 </td><td> 2559 </td><td> 0.19 Mbp </td><td> 2559 </td><td> 0.19 Mbp </td></tr>  <tr><td> 70 </td><td> 6509 </td><td> 29.68 Kbp </td><td> 6509 </td><td> 29.68 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 130 </td><td> 1.53 Mbp </td><td> 130 </td><td> 1.53 Mbp </td></tr>  <tr><td> 20 </td><td> 339 </td><td> 1.10 Mbp </td><td> 339 </td><td> 1.10 Mbp </td></tr>  <tr><td> 30 </td><td> 624 </td><td> 0.81 Mbp </td><td> 624 </td><td> 0.81 Mbp </td></tr>  <tr><td> 40 </td><td> 1015 </td><td> 0.58 Mbp </td><td> 1015 </td><td> 0.58 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1583 </td><td> 0.39 Mbp </td><td> 1583 </td><td> 0.39 Mbp </td></tr>  <tr><td> 60 </td><td> 2546 </td><td> 0.19 Mbp </td><td> 2546 </td><td> 0.19 Mbp </td></tr>  <tr><td> 70 </td><td> 5712 </td><td> 41.51 Kbp </td><td> 5712 </td><td> 41.51 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.711x </th><th> 8001 </th><th> 1.91 Gbp </th><th> 8001 </th><th> 1.91 Gbp </th></tr>
+  <tr><th> 0.731x </th><th> 8736 </th><th> 1.96 Gbp </th><th> 8736 </th><th> 1.96 Gbp </th></tr>
   </tfoot>
   </table>
-assembly: assembly_vgp_standard_1.0
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Goode's thornscrub tortoise
 data_10x_bases: 298.74 Gbp
 data_10x_bytes: 138.694 GB
@@ -64,12 +64,12 @@ image_license: unknown
 last_raw_data: 1529613892
 last_updated: 1549476692
 name: Gopherus evgoodei
-pri1: vgp_standard_1.01
-pri1date: 2018-08-17
-pri1filesize: 0.667 GB
-pri1n50ctg: 10439205
-pri1n50scf: 129288625
-pri1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_vgp_standard_1.0/rGopEvg1.pri.asm.20180817.fasta.gz
+pri1: curated1
+pri1date: 2019-01-31
+pri1filesize: 0.649 GB
+pri1n50ctg: 10520693
+pri1n50scf: 131611970
+pri1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_curated/rGopEvg1.pri.cur.20190131.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -87,9 +87,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 35.22 Mbp </td><td> 0 </td><td> 453.72 Mbp </td></tr>  <tr><td> 20 </td><td> 16 </td><td> 22.47 Mbp </td><td> 1 </td><td> 299.89 Mbp </td></tr>  <tr><td> 30 </td><td> 30 </td><td> 16.09 Mbp </td><td> 2 </td><td> 194.28 Mbp </td></tr>  <tr><td> 40 </td><td> 48 </td><td> 13.27 Mbp </td><td> 3 </td><td> 176.16 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 71 </td><td style="background-color:#88ff88;"> 10.44 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 129.29 Mbp </td></tr>  <tr><td> 60 </td><td> 102 </td><td> 7.02 Mbp </td><td> 8 </td><td> 91.67 Mbp </td></tr>  <tr><td> 70 </td><td> 151 </td><td> 4.20 Mbp </td><td> 11 </td><td> 57.41 Mbp </td></tr>  <tr><td> 80 </td><td> 261 </td><td> 1.15 Mbp </td><td> 18 </td><td> 22.45 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 35.22 Mbp </td><td> 0 </td><td> 370.34 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 24.11 Mbp </td><td> 1 </td><td> 299.45 Mbp </td></tr>  <tr><td> 30 </td><td> 29 </td><td> 16.81 Mbp </td><td> 2 </td><td> 225.22 Mbp </td></tr>  <tr><td> 40 </td><td> 47 </td><td> 13.53 Mbp </td><td> 4 </td><td> 147.43 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 69 </td><td style="background-color:#88ff88;"> 10.52 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 131.61 Mbp </td></tr>  <tr><td> 60 </td><td> 101 </td><td> 6.90 Mbp </td><td> 8 </td><td> 108.93 Mbp </td></tr>  <tr><td> 70 </td><td> 149 </td><td> 4.21 Mbp </td><td> 11 </td><td> 44.29 Mbp </td></tr>  <tr><td> 80 </td><td> 260 </td><td> 1.12 Mbp </td><td> 21 </td><td> 17.27 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.865x </th><th> 1662 </th><th> 2.32 Gbp </th><th> 858 </th><th> 2.37 Gbp </th></tr>
+  <tr><th> 0.845x </th><th> 944 </th><th> 2.27 Gbp </th><th> 382 </th><th> 2.30 Gbp </th></tr>
   </tfoot>
   </table>
 s3: s3://genomeark/species/Gopherus_evgoodei
