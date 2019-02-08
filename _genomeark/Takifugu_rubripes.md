@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1535574792
-last_updated: 1547526663
+last_updated: 1549476692
 name: Takifugu rubripes
 s3: s3://genomeark/species/Takifugu_rubripes
 taxon_id: 31033

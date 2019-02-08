@@ -22,7 +22,7 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 74 </td><td> 2.15 Mbp </td><td> 74 </td><td> 2.15 Mbp </td></tr>  <tr><td> 20 </td><td> 192 </td><td> 1.56 Mbp </td><td> 192 </td><td> 1.56 Mbp </td></tr>  <tr><td> 30 </td><td> 358 </td><td> 1.11 Mbp </td><td> 358 </td><td> 1.11 Mbp </td></tr>  <tr><td> 40 </td><td> 584 </td><td> 0.81 Mbp </td><td> 584 </td><td> 0.81 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 899 </td><td> 0.56 Mbp </td><td> 899 </td><td> 0.56 Mbp </td></tr>  <tr><td> 60 </td><td> 1401 </td><td> 0.31 Mbp </td><td> 1400 </td><td> 0.31 Mbp </td></tr>  <tr><td> 70 </td><td> 2908 </td><td> 53.48 Kbp </td><td> 2886 </td><td> 53.74 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 74 </td><td> 2.15 Mbp </td><td> 74 </td><td> 2.15 Mbp </td></tr>  <tr><td> 20 </td><td> 192 </td><td> 1.56 Mbp </td><td> 192 </td><td> 1.56 Mbp </td></tr>  <tr><td> 30 </td><td> 358 </td><td> 1.11 Mbp </td><td> 358 </td><td> 1.11 Mbp </td></tr>  <tr><td> 40 </td><td> 584 </td><td> 0.81 Mbp </td><td> 584 </td><td> 0.81 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 899 </td><td> 0.56 Mbp </td><td> 899 </td><td> 0.56 Mbp </td></tr>  <tr><td> 60 </td><td> 1401 </td><td> 0.31 Mbp </td><td> 1400 </td><td> 0.31 Mbp </td></tr>  <tr><td> 70 </td><td> 2908 </td><td> 53.49 Kbp </td><td> 2886 </td><td> 53.74 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.741x </th><th> 5878 </th><th> 1.58 Gbp </th><th> 5850 </th><th> 1.58 Gbp </th></tr>
   </tfoot>
@@ -66,7 +66,7 @@ genome_size_display: 2.13 Gbp
 image: /assets/images/Ornithorhynchus_anatinus.jpg
 image_license: unknown
 last_raw_data: 1536347587
-last_updated: 1547526663
+last_updated: 1549476692
 name: Ornithorhynchus anatinus
 pri1: curated1
 pri1date: 2018-11-16
