@@ -11,6 +11,10 @@ data_arima_bytes: 58.781 GB
 data_arima_coverage: N/A
 data_arima_files: 10
 data_arima_scale: 1.9606
+data_bionano_bases: unknown
+data_bionano_bytes: 0.536 GB
+data_bionano_coverage: N/A
+data_bionano_files: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -23,9 +27,9 @@ data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 36
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
-last_raw_data: 1523566826
-last_updated: 1547526663
+data_status: <em style="color:green">all data</em>
+last_raw_data: 1548798897
+last_updated: 1549476692
 name: Streptopelia turtur
 s3: s3://genomeark/species/Streptopelia_turtur
 taxon_id: 177155

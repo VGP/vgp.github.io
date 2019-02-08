@@ -21,7 +21,7 @@ data_pbsubreads_scale: 0.5263
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1537988854
-last_updated: 1547526663
+last_updated: 1549476692
 name: Dendrocygna viduata
 s3: s3://genomeark/species/Dendrocygna_viduata
 taxon_id: 8876
