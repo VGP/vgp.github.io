@@ -62,7 +62,7 @@ genome_size_display: 2.68 Gbp
 image: /assets/images/Gopherus_evgoodei.jpg
 image_license: unknown
 last_raw_data: 1529613892
-last_updated: 1549476692
+last_updated: 1549651837
 name: Gopherus evgoodei
 pri1: curated1
 pri1date: 2019-01-31

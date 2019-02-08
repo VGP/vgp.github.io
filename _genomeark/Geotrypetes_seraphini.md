@@ -21,7 +21,7 @@ data_pbsubreads_scale: 0.533
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1531492932
-last_updated: 1549476692
+last_updated: 1549651837
 name: Geotrypetes seraphini
 s3: s3://genomeark/species/Geotrypetes_seraphini
 taxon_id: 260995

@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5331
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1549384902
-last_updated: 1549476692
+last_updated: 1549651837
 name: Echeneis naucrates
 s3: s3://genomeark/species/Echeneis_naucrates
 taxon_id: 173247

@@ -56,7 +56,7 @@ genome_size_display: 1.19 Gbp
 image: /assets/images/Strigops_habroptilus.jpg
 image_license: unknown
 last_raw_data: 1529612332
-last_updated: 1549476692
+last_updated: 1549651837
 name: Strigops habroptilus
 pri1: curated1
 pri1date: 2018-09-07

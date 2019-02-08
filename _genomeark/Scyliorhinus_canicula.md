@@ -25,7 +25,7 @@ data_pbsubreads_scale: 0.5314
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1544711648
-last_updated: 1549476692
+last_updated: 1549651837
 name: Scyliorhinus canicula
 s3: s3://genomeark/species/Scyliorhinus_canicula
 taxon_id: 7830

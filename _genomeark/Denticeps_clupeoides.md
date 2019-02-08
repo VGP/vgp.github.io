@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5311
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1535895622
-last_updated: 1549476692
+last_updated: 1549651837
 name: Denticeps clupeoides
 s3: s3://genomeark/species/Denticeps_clupeoides
 taxon_id: 299321
