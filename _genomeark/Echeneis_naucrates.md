@@ -1,4 +1,5 @@
 ---
+assembly: assembly_cambridge
 assembly_status: <em style="color:red">no assembly</em>
 common_name: live sharksucker
 data_10x_bases: unknown

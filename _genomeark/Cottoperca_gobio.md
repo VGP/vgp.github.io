@@ -1,10 +1,10 @@
 ---
-alt3: vgp_standard_1.03
-alt3date: 2018-08-17
-alt3filesize: 0.175 GB
-alt3n50ctg: 86611
-alt3n50scf: 86611
-alt3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_vgp_standard_1.0/fCotGob3.alt.asm.20180817.fasta.gz
+alt3: curated3
+alt3date: 2018-10-26
+alt3filesize: 0.189 GB
+alt3n50ctg: 100169
+alt3n50scf: 100256
+alt3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_curated/fCotGob3.alt.cur.20181026.fasta.gz
 alt3sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -22,13 +22,13 @@ alt3sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 116 </td><td> 0.43 Mbp </td><td> 116 </td><td> 0.43 Mbp </td></tr>  <tr><td> 20 </td><td> 320 </td><td> 0.28 Mbp </td><td> 320 </td><td> 0.28 Mbp </td></tr>  <tr><td> 30 </td><td> 620 </td><td> 0.20 Mbp </td><td> 620 </td><td> 0.20 Mbp </td></tr>  <tr><td> 40 </td><td> 1063 </td><td> 0.13 Mbp </td><td> 1063 </td><td> 0.13 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1724 </td><td> 86.61 Kbp </td><td> 1724 </td><td> 86.61 Kbp </td></tr>  <tr><td> 60 </td><td> 2764 </td><td> 54.07 Kbp </td><td> 2764 </td><td> 54.07 Kbp </td></tr>  <tr><td> 70 </td><td> 4401 </td><td> 34.57 Kbp </td><td> 4401 </td><td> 34.57 Kbp </td></tr>  <tr><td> 80 </td><td> 6960 </td><td> 21.19 Kbp </td><td> 6960 </td><td> 21.19 Kbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 102 </td><td> 0.48 Mbp </td><td> 102 </td><td> 0.48 Mbp </td></tr>  <tr><td> 20 </td><td> 294 </td><td> 0.30 Mbp </td><td> 294 </td><td> 0.30 Mbp </td></tr>  <tr><td> 30 </td><td> 568 </td><td> 0.21 Mbp </td><td> 568 </td><td> 0.22 Mbp </td></tr>  <tr><td> 40 </td><td> 959 </td><td> 0.15 Mbp </td><td> 958 </td><td> 0.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1541 </td><td> 0.10 Mbp </td><td> 1539 </td><td> 0.10 Mbp </td></tr>  <tr><td> 60 </td><td> 2413 </td><td> 65.39 Kbp </td><td> 2411 </td><td> 65.39 Kbp </td></tr>  <tr><td> 70 </td><td> 3709 </td><td> 45.53 Kbp </td><td> 3706 </td><td> 45.53 Kbp </td></tr>  <tr><td> 80 </td><td> 5563 </td><td> 31.56 Kbp </td><td> 5560 </td><td> 31.56 Kbp </td></tr>  <tr><td> 90 </td><td> 8335 </td><td> 19.59 Kbp </td><td> 8332 </td><td> 19.59 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.858x </th><th> 9771 </th><th> 0.60 Gbp </th><th> 9771 </th><th> 0.60 Gbp </th></tr>
+  <tr><th> 0.959x </th><th> 11565 </th><th> 0.67 Gbp </th><th> 11555 </th><th> 0.67 Gbp </th></tr>
   </tfoot>
   </table>
-assembly: assembly_vgp_standard_1.0
-assembly_status: <em style="color:red">low-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Channel bull blenny
 data_10x_bases: 97.65 Gbp
 data_10x_bytes: 65.656 GB
@@ -64,12 +64,12 @@ image_license: unknown
 last_raw_data: 1523523546
 last_updated: 1549651837
 name: Cottoperca gobio
-pri3: vgp_standard_1.03
-pri3date: 2018-08-17
-pri3filesize: 0.169 GB
-pri3n50ctg: 302849
-pri3n50scf: 23337342
-pri3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_vgp_standard_1.0/fCotGob3.pri.asm.20180817.fasta.gz
+pri3: curated3
+pri3date: 2018-10-26
+pri3filesize: 0.156 GB
+pri3n50ctg: 5027187
+pri3n50scf: 24104793
+pri3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_curated/fCotGob3.pri.cur.20181026.fasta.gz
 pri3sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -87,9 +87,9 @@ pri3sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 39 </td><td> 1.31 Mbp </td><td> 0 </td><td> 102.44 Mbp </td></tr>  <tr><td> 20 </td><td> 107 </td><td> 0.84 Mbp </td><td> 1 </td><td> 52.52 Mbp </td></tr>  <tr><td> 30 </td><td> 206 </td><td> 0.59 Mbp </td><td> 3 </td><td> 28.79 Mbp </td></tr>  <tr><td> 40 </td><td> 343 </td><td> 0.44 Mbp </td><td> 5 </td><td> 25.56 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 535 </td><td style="background-color:#ff8888;"> 0.30 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 23.34 Mbp </td></tr>  <tr><td> 60 </td><td> 817 </td><td> 0.20 Mbp </td><td> 11 </td><td> 22.32 Mbp </td></tr>  <tr><td> 70 </td><td> 1273 </td><td> 0.11 Mbp </td><td> 15 </td><td> 17.72 Mbp </td></tr>  <tr><td> 80 </td><td> 2251 </td><td> 43.45 Kbp </td><td> 24 </td><td> 2.75 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 237 </td><td> 61.45 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 18.77 Mbp </td><td> 2 </td><td> 30.03 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 12.18 Mbp </td><td> 4 </td><td> 27.74 Mbp </td></tr>  <tr><td> 30 </td><td> 14 </td><td> 8.97 Mbp </td><td> 7 </td><td> 27.06 Mbp </td></tr>  <tr><td> 40 </td><td> 24 </td><td> 6.45 Mbp </td><td> 9 </td><td> 25.70 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 36 </td><td style="background-color:#88ff88;"> 5.03 Mbp </td><td> 12 </td><td style="background-color:#88ff88;"> 24.10 Mbp </td></tr>  <tr><td> 60 </td><td> 55 </td><td> 2.77 Mbp </td><td> 15 </td><td> 22.90 Mbp </td></tr>  <tr><td> 70 </td><td> 90 </td><td> 1.38 Mbp </td><td> 18 </td><td> 22.19 Mbp </td></tr>  <tr><td> 80 </td><td> 188 </td><td> 0.36 Mbp </td><td> 22 </td><td> 14.93 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.848x </th><th> 3390 </th><th> 0.59 Gbp </th><th> 926 </th><th> 0.65 Gbp </th></tr>
+  <tr><th> 0.867x </th><th> 767 </th><th> 0.61 Gbp </th><th> 322 </th><th> 0.61 Gbp </th></tr>
   </tfoot>
   </table>
 s3: s3://genomeark/species/Cottoperca_gobio
