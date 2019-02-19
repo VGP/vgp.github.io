@@ -9,31 +9,40 @@ Bucorvus_abyssinicus
 Calypte_anna                  assembly_curated
 Cariama_cristata
 Choloepus_didactylus
-Cottoperca_gobio              assembly_vgp_standard_1.0
+Cottoperca_gobio              assembly_curated
 Dendrocygna_viduata
-Denticeps_clupeoides
+Denticeps_clupeoides          assembly_cambridge
 Dermochelys_coriacea
-Erpetoichthys_calabaricus
+Echeneis_naucrates            assembly_cambridge
+Erpetoichthys_calabaricus     assembly_cambridge
 Geothlypis_trichas
+Geotrypetes_seraphini
 Gopherus_evgoodei             assembly_curated
 Gouania_willdenowi            assembly_curated
+Lutra_lutra
 Lynx_canadensis               assembly_curated
 Mastacembelus_armatus         assembly_vgp_standard_1.0
+Microcaecilia_unicolor
+Myripristis_murdjan
 Nomonyx_dominicus
 Ornithorhynchus_anatinus      assembly_curated
-Parambassis_ranga
+Parambassis_ranga             assembly_curated
 Phyllostomus_discolor         assembly_curated
 Rhinatrema_bivittatum         assembly_curated
 Rhinolophus_ferrumequinum     assembly_curated
-Salmo_trutta
+Salarias_fasciatus
+Salmo_trutta                  assembly_cambridge
 Sciurus_vulgaris
+Scleropages_formosus          assembly_cambridge
 Scyliorhinus_canicula
-Sparus_aurata
+Sparus_aurata                 assembly_cambridge
 Spatula_cyanoptera
-Streptopelia_turtur
+Sphaeramia_orbicularis
+Streptopelia_turtur           assembly_cambridge
 Strigops_habroptilus          assembly_curated
+Syngnathus_acus
 Taeniopygia_guttata           assembly_curated
-Takifugu_rubripes
+Takifugu_rubripes             assembly_cambridge
 Thalassophryne_amazonica
 Turdus_merula
 Zeus_faber
