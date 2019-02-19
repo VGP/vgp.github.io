@@ -313,10 +313,17 @@ sub generateAssemblySummary ($$$) {
     }
 
     if (! -e "$filename.$type.summary") {
+        my $cmd;
+
+        $cmd  = "sequence summarize $split -1x";
+        $cmd .= " -size $genomeSize"                                  if ($genomeSize > 0);
+        $cmd .= " downloads/$filename.gz > $filename.$type.summary";
+
         print STDERR "SUMMARIZING '$filename' with genome_size $genomeSize and options '$split'\n";
+        print STDERR "  $cmd\n";
         system("mkdir -p $filename");
         system("rmdir    $filename");
-        system("sequence summarize $split -1x -size $genomeSize downloads/$filename.gz > $filename.$type.summary");
+        system($cmd);
     }
 
     if (! -e "$filename.$type.summary") {
@@ -386,7 +393,7 @@ sub loadAssemblySummary ($$$$$$) {
             $a =~ s/^0+//;
             #$b = ($b eq "-") ? "-" : sprintf("%.1f", $b / 1000000);
             $b = prettifyBases($b);
-            $d = ($b eq "-") ? "-" : sprintf("%.2f", $d / $genomeSize);
+            $d = (($genomeSize == 0) || ($b eq "-")) ? "-" : sprintf("%.2f", $d / $genomeSize);
 
             push @$ctgNG,  $a;
             push @$ctgLG,  $c;
@@ -727,6 +734,7 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name.fastq") &&
             (! -e "$name.summary")) {
             printf STDERR "SUMMARIZE $name.summary\n";
+            printf STDERR "  sequence summarize downloads/$name.fastq > $name.summary";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("sequence summarize downloads/$name.fastq > $name.summary");
@@ -739,6 +747,7 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf STDERR "SUMMARIZE $name.summary\n";
+            printf STDERR "  sequence summarize downloads/$name > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("sequence summarize downloads/$name > $name.summary");
