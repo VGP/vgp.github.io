@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5356
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1545247801
-last_updated: 1549651837
+last_updated: 1550676362
 name: Bucorvus abyssinicus
 s3: s3://genomeark/species/Bucorvus_abyssinicus
 taxon_id: 153643

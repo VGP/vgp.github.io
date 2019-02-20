@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.5241
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1544473266
-last_updated: 1549651837
+last_updated: 1550676362
 name: Geothlypis trichas
 s3: s3://genomeark/species/Geothlypis_trichas
 taxon_id: 135433

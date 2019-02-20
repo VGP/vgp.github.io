@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Common tern
+common_name: common tern
 data_10x_bases: 118.51 Gbp
 data_10x_bytes: 61.675 GB
 data_10x_coverage: 84.65x
@@ -30,7 +30,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1548965346
-last_updated: 1549651837
+last_updated: 1550676362
 name: Sterna hirundo
 s3: s3://genomeark/species/Sterna_hirundo
 taxon_id: 108405

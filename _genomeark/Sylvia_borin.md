@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Garden warbler
+common_name: garden warbler
 data_10x_bases: 52.90 Gbp
 data_10x_bytes: 27.599 GB
 data_10x_coverage: 44.08x
@@ -26,7 +26,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547420493
-last_updated: 1549651837
+last_updated: 1550676362
 name: Sylvia borin
 s3: s3://genomeark/species/Sylvia_borin
 taxon_id: 1471886

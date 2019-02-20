@@ -25,7 +25,7 @@ data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1536006522
-last_updated: 1549651837
+last_updated: 1550676362
 name: Dermochelys coriacea
 s3: s3://genomeark/species/Dermochelys_coriacea
 taxon_id: 27794

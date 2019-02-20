@@ -29,7 +29,7 @@ alt3sizes: |
   </table>
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
-common_name: Channel bull blenny
+common_name: channel bull blenny
 data_10x_bases: 97.65 Gbp
 data_10x_bytes: 65.656 GB
 data_10x_coverage: 139.49x
@@ -62,7 +62,7 @@ genome_size_display: 0.70 Gbp
 image: /assets/images/Cottoperca_gobio.jpg
 image_license: unknown
 last_raw_data: 1523523546
-last_updated: 1549651837
+last_updated: 1550676362
 name: Cottoperca gobio
 pri3: curated3
 pri3date: 2018-10-26

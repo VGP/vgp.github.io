@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Spotty wrasse
+common_name: spotty wrasse
 data_10x_bases: 52.53 Gbp
 data_10x_bytes: 26.884 GB
 data_10x_coverage: 52.53x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547243120
-last_updated: 1549651837
+last_updated: 1550676362
 name: Notolabrus celidotus
 s3: s3://genomeark/species/Notolabrus_celidotus
 taxon_id: 1203425

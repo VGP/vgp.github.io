@@ -27,7 +27,7 @@ alt1sizes: |
   </table>
 assembly: assembly_vgp_standard_1.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
-common_name: eastern happy
+common_name: Eastern happy
 data_10x_bases: 120.78 Gbp
 data_10x_bytes: 78.888 GB
 data_10x_coverage: 124.20x
@@ -52,7 +52,7 @@ genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
 image_license: unknown
 last_raw_data: 1520006832
-last_updated: 1549651837
+last_updated: 1550676362
 name: Astatotilapia calliptera
 pri1: vgp_standard_1.01
 pri1date: 2018-08-17

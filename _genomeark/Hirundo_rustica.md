@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Barn swallow
+common_name: barn swallow
 data_10x_bases: 108.18 Gbp
 data_10x_bytes: 55.843 GB
 data_10x_coverage: 82.58x
@@ -18,7 +18,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1548973458
-last_updated: 1549651837
+last_updated: 1550676362
 name: Hirundo rustica
 s3: s3://genomeark/species/Hirundo_rustica
 taxon_id: 43150

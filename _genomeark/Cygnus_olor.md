@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Mute swan
+common_name: mute swan
 data_10x_scale: 1
 data_arima_scale: 1
 data_bionano_bases: 515.11 Gbp
@@ -26,7 +26,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1548279409
-last_updated: 1549651837
+last_updated: 1550676362
 name: Cygnus olor
 s3: s3://genomeark/species/Cygnus_olor
 taxon_id: 8869

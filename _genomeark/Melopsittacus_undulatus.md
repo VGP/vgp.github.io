@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Budgerigar
+common_name: budgerigar
 data_10x_bases: 97.54 Gbp
 data_10x_bytes: 50.530 GB
 data_10x_coverage: 79.30x
@@ -18,7 +18,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1548966689
-last_updated: 1549651837
+last_updated: 1550676362
 name: Melopsittacus undulatus
 s3: s3://genomeark/species/Melopsittacus_undulatus
 taxon_id: 13146

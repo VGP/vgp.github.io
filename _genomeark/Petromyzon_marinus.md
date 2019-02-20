@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Sea lamprey
+common_name: sea lamprey
 data_10x_bases: 100.51 Gbp
 data_10x_bytes: 50.509 GB
 data_10x_coverage: 67.01x
@@ -26,7 +26,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547240562
-last_updated: 1549651837
+last_updated: 1550676362
 name: Petromyzon marinus
 s3: s3://genomeark/species/Petromyzon_marinus
 taxon_id: 7757

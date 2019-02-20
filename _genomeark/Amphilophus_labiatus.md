@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Red devil cichlid
+common_name: red devil cichlid
 data_10x_scale: 1
 data_arima_scale: 1
 data_bionano_bases: 1652.13 Gbp
@@ -18,7 +18,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1538676017
-last_updated: 1549651837
+last_updated: 1550676362
 name: Amphilophus labiatus
 s3: s3://genomeark/species/Amphilophus_labiatus
 taxon_id: 61820

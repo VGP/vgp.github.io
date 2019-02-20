@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Razorbill
+common_name: razorbill
 data_10x_bases: 77.97 Gbp
 data_10x_bytes: 37.941 GB
 data_10x_coverage: 64.97x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1545245416
-last_updated: 1549651837
+last_updated: 1550676362
 name: Alca torda
 s3: s3://genomeark/species/Alca_torda
 taxon_id: 28689

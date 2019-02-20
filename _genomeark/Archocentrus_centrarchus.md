@@ -58,7 +58,7 @@ genome_size_display: 0.99 Gbp
 image: /assets/images/Archocentrus_centrarchus.jpg
 image_license: unknown
 last_raw_data: 1537873439
-last_updated: 1549651837
+last_updated: 1550676362
 name: Archocentrus centrarchus
 pri1: curated1
 pri1date: 2019-02-08

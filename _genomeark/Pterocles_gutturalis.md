@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Yellow-throated sandgrouse
+common_name: yellow-throated sandgrouse
 data_10x_bases: 83.03 Gbp
 data_10x_bytes: 42.568 GB
 data_10x_coverage: 77.60x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547225786
-last_updated: 1549651837
+last_updated: 1550676362
 name: Pterocles gutturalis
 s3: s3://genomeark/species/Pterocles_gutturalis
 taxon_id: 240206

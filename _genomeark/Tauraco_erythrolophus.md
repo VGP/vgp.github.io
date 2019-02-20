@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Red-crested turaco
+common_name: red-crested turaco
 data_10x_bases: 52.44 Gbp
 data_10x_bytes: 27.536 GB
 data_10x_coverage: 44.82x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547420962
-last_updated: 1549651837
+last_updated: 1550676362
 name: Tauraco erythrolophus
 s3: s3://genomeark/species/Tauraco_erythrolophus
 taxon_id: 121530

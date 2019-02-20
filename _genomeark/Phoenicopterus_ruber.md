@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547232348
-last_updated: 1549651837
+last_updated: 1550676362
 name: Phoenicopterus ruber
 s3: s3://genomeark/species/Phoenicopterus_ruber
 taxon_id: 9217

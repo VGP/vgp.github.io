@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Smalltooth sawfish
+common_name: smalltooth sawfish
 data_10x_bases: 181.83 Gbp
 data_10x_bytes: 94.045 GB
 data_10x_coverage: 64.94x
@@ -26,7 +26,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1548963365
-last_updated: 1549651837
+last_updated: 1550676362
 name: Pristis pectinata
 s3: s3://genomeark/species/Pristis_pectinata
 taxon_id: 685728

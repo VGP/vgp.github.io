@@ -62,7 +62,7 @@ genome_size_display: 2.37 Gbp
 image: /assets/images/bat.png
 image_license: unknown
 last_raw_data: 1522747239
-last_updated: 1549651837
+last_updated: 1550676362
 name: Rhinolophus ferrumequinum
 pri1: curated1
 pri1date: 2018-09-07
