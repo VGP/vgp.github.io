@@ -60,7 +60,7 @@ genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
 image_license: unknown
 last_raw_data: 1523524486
-last_updated: 1549651837
+last_updated: 1550676362
 name: Gouania willdenowi
 pri2: curated2
 pri2date: 2018-11-16

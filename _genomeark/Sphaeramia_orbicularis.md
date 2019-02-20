@@ -25,7 +25,7 @@ data_pbsubreads_scale: 0.5396
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1544194118
-last_updated: 1549651837
+last_updated: 1550676362
 name: Sphaeramia orbicularis
 s3: s3://genomeark/species/Sphaeramia_orbicularis
 taxon_id: 375764

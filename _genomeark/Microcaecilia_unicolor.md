@@ -33,7 +33,7 @@ data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1548859097
-last_updated: 1549651837
+last_updated: 1550676362
 name: Microcaecilia unicolor
 s3: s3://genomeark/species/Microcaecilia_unicolor
 taxon_id: 1415580

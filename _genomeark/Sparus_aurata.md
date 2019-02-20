@@ -54,7 +54,7 @@ data_pbsubreads_scale: 0.5184
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1523533999
-last_updated: 1549651837
+last_updated: 1550676362
 name: Sparus aurata
 pri1: cambridge1
 pri1date: 2018-12-15

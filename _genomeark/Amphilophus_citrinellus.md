@@ -13,7 +13,7 @@ genome_size_display: 1.00 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_updated: 1549651837
+last_updated: 1550676362
 name: Amphilophus citrinellus
 s3: s3://genomeark/species/Amphilophus_citrinellus
 taxon_id: 61819

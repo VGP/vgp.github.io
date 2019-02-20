@@ -33,7 +33,7 @@ genome_size_display: 2.07 Gbp
 image: /assets/images/Amblyraja_radiata.jpg
 image_license: unknown
 last_raw_data: 1547419874
-last_updated: 1549651837
+last_updated: 1550676362
 name: Amblyraja radiata
 s3: s3://genomeark/species/Amblyraja_radiata
 taxon_id: 386614

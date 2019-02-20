@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Hourglass treefrog
+common_name: hourglass treefrog
 data_10x_scale: 1
 data_arima_bases: 182.45 Gbp
 data_arima_bytes: 98.020 GB
@@ -22,7 +22,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547225095
-last_updated: 1549651837
+last_updated: 1550676362
 name: Dendropsophus ebraccatus
 s3: s3://genomeark/species/Dendropsophus_ebraccatus
 taxon_id: 150705

@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Lance-tailed manakin
+common_name: lance-tailed manakin
 data_10x_bases: 96.90 Gbp
 data_10x_bytes: 46.415 GB
 data_10x_coverage: 78.78x
@@ -30,7 +30,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1538754248
-last_updated: 1549651837
+last_updated: 1550676362
 name: Chiroxiphia lanceolata
 s3: s3://genomeark/species/Chiroxiphia_lanceolata
 taxon_id: 296741

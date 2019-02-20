@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Eurpoean golden eagle
+common_name: European golden eagle
 data_10x_bases: unknown
 data_10x_bytes: 80.203 GB
 data_10x_coverage: N/A
@@ -25,7 +25,7 @@ data_pbsubreads_scale: 0.5256
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1544548060
-last_updated: 1549651837
+last_updated: 1550676362
 name: Aquila chrysaetos chrysaetos
 s3: s3://genomeark/species/Aquila_chrysaetos
 taxon_id: 223781

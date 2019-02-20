@@ -31,7 +31,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 last_raw_data: 1547217154
-last_updated: 1549651837
+last_updated: 1550676362
 name: Choloepus didactylus
 s3: s3://genomeark/species/Choloepus_didactylus
 taxon_id: 27675

@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Carmine bee-eater
+common_name: carmine bee-eater
 data_10x_bases: 130.67 Gbp
 data_10x_bytes: 66.335 GB
 data_10x_coverage: 100.51x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547221880
-last_updated: 1549651837
+last_updated: 1550676362
 name: Merops nubicus
 s3: s3://genomeark/species/Merops_nubicus
 taxon_id: 57421

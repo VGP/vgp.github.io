@@ -25,7 +25,7 @@ data_pbsubreads_scale: 0.5299
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1535575420
-last_updated: 1549651837
+last_updated: 1550676362
 name: Sciurus vulgaris
 s3: s3://genomeark/species/Sciurus_vulgaris
 taxon_id: 55149

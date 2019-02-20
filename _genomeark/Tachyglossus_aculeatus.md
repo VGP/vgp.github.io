@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Short-beaked echidna
+common_name: short-beaked echidna
 data_10x_bases: 268.81 Gbp
 data_10x_bytes: 126.331 GB
 data_10x_coverage: 93.01x
@@ -22,7 +22,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1535656904
-last_updated: 1549651837
+last_updated: 1550676362
 name: Tachyglossus aculeatus
 s3: s3://genomeark/species/Tachyglossus_aculeatus
 taxon_id: 9261

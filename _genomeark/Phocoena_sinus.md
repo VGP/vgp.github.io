@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Vaquita
+common_name: vaquita
 data_10x_bases: 201.79 Gbp
 data_10x_bytes: 104.510 GB
 data_10x_coverage: 67.26x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547425539
-last_updated: 1549651837
+last_updated: 1550676362
 name: Phocoena sinus
 s3: s3://genomeark/species/Phocoena_sinus
 taxon_id: 42100

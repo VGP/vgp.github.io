@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547226932
-last_updated: 1549651837
+last_updated: 1550676362
 name: Sylvia atricapilla
 s3: s3://genomeark/species/Sylvia_atricapilla
 taxon_id: 48155

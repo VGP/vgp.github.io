@@ -58,7 +58,7 @@ data_pbsubreads_scale: 0.5311
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1535895622
-last_updated: 1549651837
+last_updated: 1550676362
 name: Denticeps clupeoides
 pri1: cambridge1
 pri1date: 2018-10-13

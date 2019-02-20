@@ -58,7 +58,7 @@ data_pbsubreads_scale: 0.5336
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1535575225
-last_updated: 1549651837
+last_updated: 1550676362
 name: Parambassis ranga
 pri2: curated2
 pri2date: 2018-12-05

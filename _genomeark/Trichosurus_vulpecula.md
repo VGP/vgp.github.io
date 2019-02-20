@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Common brushtail possum
+common_name: common brushtail possum
 data_10x_bases: 242.17 Gbp
 data_10x_bytes: 115.568 GB
 data_10x_coverage: 80.72x
@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1547229500
-last_updated: 1549651837
+last_updated: 1550676362
 name: Trichosurus vulpecula
 s3: s3://genomeark/species/Trichosurus_vulpecula
 taxon_id: 9337
