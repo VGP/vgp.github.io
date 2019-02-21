@@ -57,8 +57,10 @@ data_pbsubreads_files: 10
 data_pbsubreads_scale: 0.5331
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Echeneis_naucrates.jpg
+image_license: "CC BY 2.0 Richard ling (wikimedia)"
 last_raw_data: 1549384902
-last_updated: 1550676362
+last_updated: 1550774138
 name: Echeneis naucrates
 pri1: cambridge1
 pri1date: 2019-02-09

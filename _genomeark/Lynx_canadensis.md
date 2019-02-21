@@ -60,9 +60,9 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2471525315
 genome_size_display: 2.47 Gbp
 image: /assets/images/Lynx_canadensis.jpg
-image_license: unknown
+image_license: "CC BY 2.0 Keith Williams (flickr)"
 last_raw_data: 1534379101
-last_updated: 1550676362
+last_updated: 1550774138
 name: Lynx canadensis
 pri4: curated4
 pri4date: 2019-01-10

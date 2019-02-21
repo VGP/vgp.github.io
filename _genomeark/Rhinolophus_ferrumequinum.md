@@ -59,10 +59,10 @@ data_phase_scale: 1.4998
 data_status: <em style="color:green">all data</em>
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
-image: /assets/images/bat.png
-image_license: unknown
+image: /assets/images/Rhinolophus_ferrumequinum.jpg
+image_license: "CC BY-NC-SA 2.0 Ján Svetlík (flickr)"
 last_raw_data: 1522747239
-last_updated: 1550676362
+last_updated: 1550774138
 name: Rhinolophus ferrumequinum
 pri1: curated1
 pri1date: 2018-09-07

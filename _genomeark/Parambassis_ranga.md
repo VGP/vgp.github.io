@@ -57,8 +57,10 @@ data_pbsubreads_files: 14
 data_pbsubreads_scale: 0.5336
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Parambassis_ranga.jpg
+image_license: "CC BY-SA 2.5 opencage (wikimedia)"
 last_raw_data: 1535575225
-last_updated: 1550676362
+last_updated: 1550774138
 name: Parambassis ranga
 pri2: curated2
 pri2date: 2018-12-05
