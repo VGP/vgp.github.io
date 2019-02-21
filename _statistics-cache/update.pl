@@ -1064,6 +1064,15 @@ foreach my $species (@speciesList) {
     $data{"image"}               = $meta{"species.image"};
     $data{"image_license"}       = $meta{"species.image_license"};
 
+    if ($data{"image"} eq "") {
+        if (-e "../assets/images/$name.jpg") {
+            $data{"image"} = "/assets/images/$name.jpg";
+        }
+        if (-e "../assets/images/$name.png") {
+            $data{"image"} = "/assets/images/$name.png";
+        }
+    }
+
     $data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
     $data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
 
