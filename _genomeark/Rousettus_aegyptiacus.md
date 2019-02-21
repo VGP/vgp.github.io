@@ -15,10 +15,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 2109999999
 genome_size_display: 2.11 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Rousettus_aegyptiacus.jpg
+image_license: "CC BY-SA 3.0 Вых Пыхманн (wikimedia)"
 last_raw_data: 1539374684
-last_updated: 1550676362
+last_updated: 1550774138
 name: Rousettus aegyptiacus
 s3: s3://genomeark/species/Rousettus_aegyptiacus
 taxon_id: 9407

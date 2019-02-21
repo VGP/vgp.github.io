@@ -57,8 +57,10 @@ data_pbsubreads_files: 8
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Takifugu_rubripes.jpg
+image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1550676362
+last_updated: 1550774138
 name: Takifugu rubripes
 pri1: cambridge1
 pri1date: 2018-10-14

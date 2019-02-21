@@ -22,7 +22,7 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 794 </td><td> 0.26 Mbp </td><td> 794 </td><td> 0.26 Mbp </td></tr>  <tr><td> 20 </td><td> 1980 </td><td> 0.19 Mbp </td><td> 1980 </td><td> 0.19 Mbp </td></tr>  <tr><td> 30 </td><td> 3516 </td><td> 0.15 Mbp </td><td> 3516 </td><td> 0.15 Mbp </td></tr>  <tr><td> 40 </td><td> 5428 </td><td> 0.12 Mbp </td><td> 5428 </td><td> 0.12 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 7805 </td><td> 98.42 Kbp </td><td> 7805 </td><td> 98.42 Kbp </td></tr>  <tr><td> 60 </td><td> 10771 </td><td> 78.55 Kbp </td><td> 10771 </td><td> 78.55 Kbp </td></tr>  <tr><td> 70 </td><td> 14495 </td><td> 62.18 Kbp </td><td> 14495 </td><td> 62.18 Kbp </td></tr>  <tr><td> 80 </td><td> 19291 </td><td> 47.38 Kbp </td><td> 19291 </td><td> 47.38 Kbp </td></tr>  <tr><td> 90 </td><td> 25871 </td><td> 32.51 Kbp </td><td> 25871 </td><td> 32.51 Kbp </td></tr>  <tr><td> 100 </td><td> 38593 </td><td> 4  bp </td><td> 38593 </td><td> 4  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 794 </td><td> 0.26 Mbp </td><td> 794 </td><td> 0.26 Mbp </td></tr>  <tr><td> 20 </td><td> 1980 </td><td> 0.19 Mbp </td><td> 1980 </td><td> 0.19 Mbp </td></tr>  <tr><td> 30 </td><td> 3516 </td><td> 0.15 Mbp </td><td> 3516 </td><td> 0.15 Mbp </td></tr>  <tr><td> 40 </td><td> 5428 </td><td> 0.12 Mbp </td><td> 5428 </td><td> 0.12 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 7805 </td><td> 98.42 Kbp </td><td> 7805 </td><td> 98.42 Kbp </td></tr>  <tr><td> 60 </td><td> 10771 </td><td> 78.55 Kbp </td><td> 10771 </td><td> 78.55 Kbp </td></tr>  <tr><td> 70 </td><td> 14495 </td><td> 62.18 Kbp </td><td> 14495 </td><td> 62.18 Kbp </td></tr>  <tr><td> 80 </td><td> 19291 </td><td> 47.38 Kbp </td><td> 19291 </td><td> 47.38 Kbp </td></tr>  <tr><td> 90 </td><td> 25871 </td><td> 32.52 Kbp </td><td> 25871 </td><td> 32.52 Kbp </td></tr>  <tr><td> 100 </td><td> 38593 </td><td> 4  bp </td><td> 38593 </td><td> 4  bp </td></tr>  </tbody>
   <tfoot>
   <tr><th> 1.000x </th><th> 38594 </th><th> 2.61 Gbp </th><th> 38594 </th><th> 2.61 Gbp </th></tr>
   </tfoot>
@@ -57,8 +57,10 @@ data_pbsubreads_files: 106
 data_pbsubreads_scale: 0.5173
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Erpetoichthys_calabaricus.jpg
+image_license: "CC BY-SA 3.0 Michał Zalewski (wikimedia)"
 last_raw_data: 1536592476
-last_updated: 1550676362
+last_updated: 1550774138
 name: Erpetoichthys calabaricus
 pri1: cambridge1
 pri1date: 2018-11-17

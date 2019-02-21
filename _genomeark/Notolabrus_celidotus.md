@@ -31,10 +31,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/fish.png
+image_license: Apple
 last_raw_data: 1547243120
-last_updated: 1550676362
+last_updated: 1550774138
 name: Notolabrus celidotus
 s3: s3://genomeark/species/Notolabrus_celidotus
 taxon_id: 1203425

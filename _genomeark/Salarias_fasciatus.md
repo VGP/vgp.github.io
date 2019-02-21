@@ -24,8 +24,10 @@ data_pbsubreads_files: 26
 data_pbsubreads_scale: 0.5346
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+image: /assets/images/Salarias_fasciatus.jpg
+image_license: "(pixabay)"
 last_raw_data: 1544547832
-last_updated: 1550676362
+last_updated: 1550774138
 name: Salarias fasciatus
 s3: s3://genomeark/species/Salarias_fasciatus
 taxon_id: 181472

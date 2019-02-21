@@ -31,10 +31,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Hippoglossus_hippoglossus.jpg
+image_license: "public domain"
 last_raw_data: 1548348029
-last_updated: 1550676362
+last_updated: 1550774138
 name: Hippoglossus hippoglossus
 s3: s3://genomeark/species/Hippoglossus_hippoglossus
 taxon_id: 8267

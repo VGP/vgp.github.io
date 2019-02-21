@@ -15,10 +15,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1310000000
 genome_size_display: 1.31 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Hirundo_rustica.jpg
+image_license: "CC BY-SA 2.0 Mike Pennington (geograph)"
 last_raw_data: 1548973458
-last_updated: 1550676362
+last_updated: 1550774138
 name: Hirundo rustica
 s3: s3://genomeark/species/Hirundo_rustica
 taxon_id: 43150

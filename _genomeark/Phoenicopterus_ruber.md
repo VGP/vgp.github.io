@@ -31,10 +31,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1250000000
 genome_size_display: 1.25 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Phoenicopterus_ruber.jpg
+image_license: "CC BY 2.0 Paul Asman and Jill Lenoble (flickr)"
 last_raw_data: 1547232348
-last_updated: 1550676362
+last_updated: 1550774138
 name: Phoenicopterus ruber
 s3: s3://genomeark/species/Phoenicopterus_ruber
 taxon_id: 9217
