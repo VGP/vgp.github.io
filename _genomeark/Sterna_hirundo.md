@@ -27,10 +27,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
-image: /assets/images/Sterna_hirundo.jpg
-image_license: "CC BY 2.0 Frank Vassen (flickr)"
+image: null
+image_license: unknown
 last_raw_data: 1548965346
-last_updated: 1550774138
+last_updated: 1551910681
 name: Sterna hirundo
 s3: s3://genomeark/species/Sterna_hirundo
 taxon_id: 108405

@@ -58,9 +58,8 @@ data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Streptopelia_turtur.jpg
-image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1548798897
-last_updated: 1550774138
+last_updated: 1551910681
 name: Streptopelia turtur
 pri1: cambridge1
 pri1date: 2019-02-08

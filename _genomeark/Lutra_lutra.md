@@ -21,9 +21,8 @@ data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Lutra_lutra.jpg
-image_license: "(pixabay)"
 last_raw_data: 1535920841
-last_updated: 1550774138
+last_updated: 1551910681
 name: Lutra lutra
 s3: s3://genomeark/species/Lutra_lutra
 taxon_id: 9657

@@ -58,9 +58,8 @@ data_pbsubreads_scale: 0.5424
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Scleropages_formosus.jpg
-image_license: "CC BY-SA 2.5 Okinawa Churaumi Aquarium (opencage)"
 last_raw_data: 1547566320
-last_updated: 1550774138
+last_updated: 1551910681
 name: Scleropages formosus
 pri1: cambridge1
 pri1date: 2019-01-15

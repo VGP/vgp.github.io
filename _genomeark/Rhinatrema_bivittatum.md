@@ -60,9 +60,9 @@ data_status: <em style="color:green">all data</em>
 genome_size: 5067838282
 genome_size_display: 5.07 Gbp
 image: /assets/images/frog.png
-image_license: Apple
+image_license: unknown
 last_raw_data: 1525161722
-last_updated: 1550774138
+last_updated: 1551910681
 name: Rhinatrema bivittatum
 pri1: curated1
 pri1date: 2018-09-09
