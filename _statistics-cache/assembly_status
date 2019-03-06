@@ -1,6 +1,6 @@
 Acanthisitta_chloris
 Amblyraja_radiata
-Anabas_testudineus            assembly_vgp_standard_1.0
+Anabas_testudineus            assembly_curated
 Aquila_chrysaetos
 Archocentrus_centrarchus      assembly_curated
 Astatotilapia_calliptera      assembly_vgp_standard_1.0
@@ -11,18 +11,18 @@ Cariama_cristata
 Choloepus_didactylus
 Cottoperca_gobio              assembly_curated
 Dendrocygna_viduata
-Denticeps_clupeoides          assembly_cambridge
+Denticeps_clupeoides          assembly_curated
 Dermochelys_coriacea
 Echeneis_naucrates            assembly_cambridge
-Erpetoichthys_calabaricus     assembly_cambridge
+Erpetoichthys_calabaricus     assembly_curated
 Geothlypis_trichas
 Geotrypetes_seraphini
 Gopherus_evgoodei             assembly_curated
 Gouania_willdenowi            assembly_curated
 Lutra_lutra
 Lynx_canadensis               assembly_curated
-Mastacembelus_armatus         assembly_vgp_standard_1.0
-Microcaecilia_unicolor
+Mastacembelus_armatus         assembly_curated
+Microcaecilia_unicolor        assembly_cambridge
 Myripristis_murdjan
 Nomonyx_dominicus
 Ornithorhynchus_anatinus      assembly_curated
