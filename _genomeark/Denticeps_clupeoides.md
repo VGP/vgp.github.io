@@ -1,10 +1,10 @@
 ---
-alt1: cambridge1
-alt1date: 2018-10-13
-alt1filesize: 0.132 GB
-alt1n50ctg: 389442
-alt1n50scf: 389442
-alt1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_cambridge/fDenClu1.alt.asm.20181013.fasta.gz
+alt1: curated1
+alt1date: 2019-03-05
+alt1filesize: 0.131 GB
+alt1n50ctg: 384267
+alt1n50scf: 384267
+alt1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_curated/fDenClu1.alt.cur.20190305.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -22,13 +22,13 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 29 </td><td> 1.16 Mbp </td><td> 29 </td><td> 1.16 Mbp </td></tr>  <tr><td> 20 </td><td> 77 </td><td> 0.81 Mbp </td><td> 77 </td><td> 0.81 Mbp </td></tr>  <tr><td> 30 </td><td> 143 </td><td> 0.62 Mbp </td><td> 143 </td><td> 0.62 Mbp </td></tr>  <tr><td> 40 </td><td> 225 </td><td> 0.50 Mbp </td><td> 225 </td><td> 0.50 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 326 </td><td> 0.39 Mbp </td><td> 326 </td><td> 0.39 Mbp </td></tr>  <tr><td> 60 </td><td> 455 </td><td> 0.31 Mbp </td><td> 455 </td><td> 0.31 Mbp </td></tr>  <tr><td> 70 </td><td> 616 </td><td> 0.25 Mbp </td><td> 616 </td><td> 0.25 Mbp </td></tr>  <tr><td> 80 </td><td> 828 </td><td> 0.18 Mbp </td><td> 828 </td><td> 0.18 Mbp </td></tr>  <tr><td> 90 </td><td> 1130 </td><td> 0.12 Mbp </td><td> 1130 </td><td> 0.12 Mbp </td></tr>  <tr><td> 100 </td><td> 1933 </td><td> 11  bp </td><td> 1933 </td><td> 11  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 30 </td><td> 1.16 Mbp </td><td> 30 </td><td> 1.16 Mbp </td></tr>  <tr><td> 20 </td><td> 79 </td><td> 0.80 Mbp </td><td> 79 </td><td> 0.80 Mbp </td></tr>  <tr><td> 30 </td><td> 146 </td><td> 0.61 Mbp </td><td> 146 </td><td> 0.61 Mbp </td></tr>  <tr><td> 40 </td><td> 229 </td><td> 0.50 Mbp </td><td> 229 </td><td> 0.50 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 333 </td><td> 0.38 Mbp </td><td> 333 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 465 </td><td> 0.31 Mbp </td><td> 465 </td><td> 0.31 Mbp </td></tr>  <tr><td> 70 </td><td> 630 </td><td> 0.24 Mbp </td><td> 630 </td><td> 0.24 Mbp </td></tr>  <tr><td> 80 </td><td> 848 </td><td> 0.18 Mbp </td><td> 848 </td><td> 0.18 Mbp </td></tr>  <tr><td> 90 </td><td> 1159 </td><td> 0.12 Mbp </td><td> 1158 </td><td> 0.12 Mbp </td></tr>  <tr><td> 100 </td><td> 1975 </td><td> 164  bp </td><td> 1971 </td><td> 191  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1934 </th><th> 451.67 Mbp </th><th> 1934 </th><th> 451.67 Mbp </th></tr>
+  <tr><th> 1.000x </th><th> 1976 </th><th> 457.70 Mbp </th><th> 1972 </th><th> 457.70 Mbp </th></tr>
   </tfoot>
   </table>
-assembly: assembly_cambridge
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: denticle herring
 data_10x_bases: unknown
 data_10x_bytes: 73.032 GB
@@ -57,17 +57,15 @@ data_pbsubreads_files: 16
 data_pbsubreads_scale: 0.5311
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/fish.png
-image_license: Apple
 last_raw_data: 1535895622
-last_updated: 1550774138
+last_updated: 1551910681
 name: Denticeps clupeoides
-pri1: cambridge1
-pri1date: 2018-10-13
-pri1filesize: 0.163 GB
-pri1n50ctg: 3040207
-pri1n50scf: 22537163
-pri1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_cambridge/fDenClu1.pri.asm.20181013.fasta.gz
+pri1: curated1
+pri1date: 2019-03-05
+pri1filesize: 0.158 GB
+pri1n50ctg: 3059612
+pri1n50scf: 22793177
+pri1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_curated/fDenClu1.pri.cur.20190305.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -85,9 +83,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 6 </td><td> 7.41 Mbp </td><td> 0 </td><td> 64.52 Mbp </td></tr>  <tr><td> 20 </td><td> 14 </td><td> 6.22 Mbp </td><td> 2 </td><td> 38.25 Mbp </td></tr>  <tr><td> 30 </td><td> 24 </td><td> 5.09 Mbp </td><td> 3 </td><td> 34.18 Mbp </td></tr>  <tr><td> 40 </td><td> 37 </td><td> 3.86 Mbp </td><td> 6 </td><td> 23.06 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 53 </td><td style="background-color:#88ff88;"> 3.04 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 22.54 Mbp </td></tr>  <tr><td> 60 </td><td> 75 </td><td> 2.22 Mbp </td><td> 11 </td><td> 20.55 Mbp </td></tr>  <tr><td> 70 </td><td> 107 </td><td> 1.51 Mbp </td><td> 14 </td><td> 19.46 Mbp </td></tr>  <tr><td> 80 </td><td> 154 </td><td> 0.91 Mbp </td><td> 17 </td><td> 17.65 Mbp </td></tr>  <tr><td> 90 </td><td> 273 </td><td> 0.25 Mbp </td><td> 32 </td><td> 1.28 Mbp </td></tr>  <tr><td> 100 </td><td> 1517 </td><td> 5  bp </td><td> 492 </td><td> 60  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 7.60 Mbp </td><td> 1 </td><td> 39.02 Mbp </td></tr>  <tr><td> 20 </td><td> 14 </td><td> 6.22 Mbp </td><td> 2 </td><td> 36.91 Mbp </td></tr>  <tr><td> 30 </td><td> 24 </td><td> 4.99 Mbp </td><td> 4 </td><td> 34.21 Mbp </td></tr>  <tr><td> 40 </td><td> 36 </td><td> 3.91 Mbp </td><td> 6 </td><td> 25.34 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 52 </td><td style="background-color:#88ff88;"> 3.06 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 22.79 Mbp </td></tr>  <tr><td> 60 </td><td> 74 </td><td> 2.25 Mbp </td><td> 11 </td><td> 22.54 Mbp </td></tr>  <tr><td> 70 </td><td> 105 </td><td> 1.57 Mbp </td><td> 14 </td><td> 21.43 Mbp </td></tr>  <tr><td> 80 </td><td> 150 </td><td> 0.94 Mbp </td><td> 16 </td><td> 20.35 Mbp </td></tr>  <tr><td> 90 </td><td> 261 </td><td> 0.25 Mbp </td><td> 19 </td><td> 19.30 Mbp </td></tr>  <tr><td> 100 </td><td> 923 </td><td> 193  bp </td><td> 459 </td><td> 8.88 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1518 </th><th> 0.57 Gbp </th><th> 493 </th><th> 0.57 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 924 </th><th> 0.56 Gbp </th><th> 460 </th><th> 0.57 Gbp </th></tr>
   </tfoot>
   </table>
 s3: s3://genomeark/species/Denticeps_clupeoides

@@ -31,10 +31,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2000000000
 genome_size_display: 2.00 Gbp
 genome_size_method: null
-image: /assets/images/Lacerta_agilis.jpg
-image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
+image: null
+image_license: unknown
 last_raw_data: 1545255399
-last_updated: 1550774138
+last_updated: 1551910681
 name: Lacerta agilis
 s3: s3://genomeark/species/Lacerta_agilis
 taxon_id: 80427

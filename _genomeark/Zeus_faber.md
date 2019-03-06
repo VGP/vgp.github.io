@@ -21,9 +21,8 @@ data_pbsubreads_scale: 0.52
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Zeus_faber.jpg
-image_license: "CC BY-NC-SA 2.0 Sarah Faulwetter (flickr)"
 last_raw_data: 1523539256
-last_updated: 1550774138
+last_updated: 1551910681
 name: Zeus faber
 s3: s3://genomeark/species/Zeus_faber
 taxon_id: 64108
