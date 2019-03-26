@@ -34,7 +34,7 @@ genome_size_method: null
 image: /assets/images/Tauraco_erythrolophus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1547420962
-last_updated: 1551910681
+last_updated: 1553609004
 name: Tauraco erythrolophus
 s3: s3://genomeark/species/Tauraco_erythrolophus
 taxon_id: 121530

@@ -66,7 +66,7 @@ genome_size_display: 1.12 Gbp
 image: /assets/images/Calypte_anna.jpg
 image_license: "public domain"
 last_raw_data: 1531244296
-last_updated: 1551910681
+last_updated: 1553609004
 name: Calypte anna
 pri1: curated1
 pri1date: 2018-09-26

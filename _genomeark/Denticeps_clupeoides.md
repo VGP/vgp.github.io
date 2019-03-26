@@ -60,7 +60,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1535895622
-last_updated: 1551910681
+last_updated: 1553609004
 name: Denticeps clupeoides
 pri1: curated1
 pri1date: 2019-03-05

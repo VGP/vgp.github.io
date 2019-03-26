@@ -34,7 +34,7 @@ genome_size_method: null
 image: /assets/images/Sylvia_atricapilla.jpg
 image_license: "CC BY 2.0 Frank Vassen (wikimedia)"
 last_raw_data: 1547226932
-last_updated: 1551910681
+last_updated: 1553609004
 name: Sylvia atricapilla
 s3: s3://genomeark/species/Sylvia_atricapilla
 taxon_id: 48155

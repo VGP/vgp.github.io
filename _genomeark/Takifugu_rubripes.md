@@ -60,7 +60,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Takifugu_rubripes.jpg
 image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1551910681
+last_updated: 1553609004
 name: Takifugu rubripes
 pri1: cambridge1
 pri1date: 2018-10-14

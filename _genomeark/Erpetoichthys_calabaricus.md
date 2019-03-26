@@ -1,11 +1,11 @@
 ---
-a1: curated1
-a1date: 2019-03-05
-a1filesize: 0.747 GB
-a1n50ctg: 98416
-a1n50scf: 98429
-a1seq: https://s3.amazonaws.com/genomeark/species/Erpetoichthys_calabaricus/fErpCal1/assembly_curated/fErpCal1.alt.20190305.fasta.gz
-a1sizes: |
+alt1: curated1
+alt1date: 2019-03-05
+alt1filesize: 0.747 GB
+alt1n50ctg: 98416
+alt1n50scf: 98429
+alt1seq: https://s3.amazonaws.com/genomeark/species/Erpetoichthys_calabaricus/fErpCal1/assembly_curated/fErpCal1.alt.cur.20190305.fasta.gz
+alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
   <tr>
@@ -60,7 +60,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Erpetoichthys_calabaricus.jpg
 image_license: "CC BY-SA 3.0 Michał Zalewski (wikimedia)"
 last_raw_data: 1536592476
-last_updated: 1551910681
+last_updated: 1553609004
 name: Erpetoichthys calabaricus
 pri1: curated1
 pri1date: 2019-03-05

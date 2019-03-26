@@ -27,7 +27,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Salarias_fasciatus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1544547832
-last_updated: 1551910681
+last_updated: 1553609004
 name: Salarias fasciatus
 s3: s3://genomeark/species/Salarias_fasciatus
 taxon_id: 181472

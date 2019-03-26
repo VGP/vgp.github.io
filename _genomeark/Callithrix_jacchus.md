@@ -33,8 +33,8 @@ genome_size_display: 3.43 Gbp
 genome_size_method: null
 image: /assets/images/Callithrix_jacchus.jpg
 image_license: "CC BY-SA 2.0 Luciano Marra (flickr)"
-last_raw_data: 1545250480
-last_updated: 1551910681
+last_raw_data: 1553203166
+last_updated: 1553609004
 name: Callithrix jacchus
 s3: s3://genomeark/species/Callithrix_jacchus
 taxon_id: 9483

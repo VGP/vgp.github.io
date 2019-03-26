@@ -7,6 +7,10 @@ data_10x_coverage: N/A
 data_10x_files: 24
 data_10x_scale: 1.2763
 data_arima_scale: 1
+data_bionano_bases: unknown
+data_bionano_bytes: 2.169 GB
+data_bionano_coverage: N/A
+data_bionano_files: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -22,8 +26,8 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/frog.png
 image_license: Apple
-last_raw_data: 1531492932
-last_updated: 1551910681
+last_raw_data: 1552038907
+last_updated: 1553609004
 name: Geotrypetes seraphini
 s3: s3://genomeark/species/Geotrypetes_seraphini
 taxon_id: 260995
