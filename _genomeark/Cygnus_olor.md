@@ -25,8 +25,8 @@ genome_size_display: 1.48 Gbp
 genome_size_method: null
 image: /assets/images/Cygnus_olor.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
-last_raw_data: 1548279409
-last_updated: 1551910681
+last_raw_data: 1553177366
+last_updated: 1553609004
 name: Cygnus olor
 s3: s3://genomeark/species/Cygnus_olor
 taxon_id: 8869

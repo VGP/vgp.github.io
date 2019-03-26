@@ -62,7 +62,7 @@ genome_size_display: 2.37 Gbp
 image: /assets/images/Rhinolophus_ferrumequinum.jpg
 image_license: "CC BY-NC-SA 2.0 Ján Svetlík (flickr)"
 last_raw_data: 1522747239
-last_updated: 1551910681
+last_updated: 1553609004
 name: Rhinolophus ferrumequinum
 pri1: curated1
 pri1date: 2018-09-07

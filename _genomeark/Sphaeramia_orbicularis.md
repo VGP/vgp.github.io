@@ -11,6 +11,10 @@ data_arima_bytes: 85.337 GB
 data_arima_coverage: N/A
 data_arima_files: 2
 data_arima_scale: 1.5332
+data_bionano_bases: unknown
+data_bionano_bytes: 1.154 GB
+data_bionano_coverage: N/A
+data_bionano_files: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -23,11 +27,11 @@ data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 14
 data_pbsubreads_scale: 0.5396
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 image: /assets/images/Sphaeramia_orbicularis.jpg
 image_license: "CC BY-SA 3.0 Sushi Girl1995 (wikimedia)"
-last_raw_data: 1544194118
-last_updated: 1551910681
+last_raw_data: 1553010021
+last_updated: 1553609004
 name: Sphaeramia orbicularis
 s3: s3://genomeark/species/Sphaeramia_orbicularis
 taxon_id: 375764

@@ -34,7 +34,7 @@ genome_size_method: null
 image: /assets/images/Aythya_fuligula.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
 last_raw_data: 1545246883
-last_updated: 1551910681
+last_updated: 1553609004
 name: Aythya fuligula
 s3: s3://genomeark/species/Aythya_fuligula
 taxon_id: 219594

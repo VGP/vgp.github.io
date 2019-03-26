@@ -31,7 +31,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Bucorvus_abyssinicus.jpg
 image_license: "CC BY 2.0 Jerry Thompson (wikimedia)"
 last_raw_data: 1545247801
-last_updated: 1551910681
+last_updated: 1553609004
 name: Bucorvus abyssinicus
 s3: s3://genomeark/species/Bucorvus_abyssinicus
 taxon_id: 153643

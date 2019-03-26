@@ -31,7 +31,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Cariama_cristata.jpg
 image_license: "CC BY-SA 3.0 Olaf Oliviero Riemer (wikimedia)"
 last_raw_data: 1545251564
-last_updated: 1551910681
+last_updated: 1553609004
 name: Cariama cristata
 s3: s3://genomeark/species/Cariama_cristata
 taxon_id: 54380
