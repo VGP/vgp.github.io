@@ -31,8 +31,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2000000000
 genome_size_display: 2.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Lacerta_agilis.jpg
+image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1545255399
 last_updated: 1551910681
 name: Lacerta agilis

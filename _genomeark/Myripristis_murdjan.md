@@ -25,6 +25,7 @@ data_pbsubreads_scale: 0.5368
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Myripristis_murdjan.jpg
+image_license: "CC BY 2.0 Rickard Zerpe (flickr)"
 last_raw_data: 1544184309
 last_updated: 1551910681
 name: Myripristis murdjan

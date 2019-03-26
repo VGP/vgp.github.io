@@ -25,6 +25,7 @@ data_pbsubreads_scale: 0.5256
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Aquila_chrysaetos.jpg
+image_license: "CC BY-SA 4.0 Diego Delso (wikimedia)"
 last_raw_data: 1544548060
 last_updated: 1551910681
 name: Aquila chrysaetos chrysaetos

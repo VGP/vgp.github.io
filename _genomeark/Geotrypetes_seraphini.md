@@ -20,6 +20,8 @@ data_pbsubreads_files: 6
 data_pbsubreads_scale: 0.533
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+image: /assets/images/frog.png
+image_license: Apple
 last_raw_data: 1531492932
 last_updated: 1551910681
 name: Geotrypetes seraphini

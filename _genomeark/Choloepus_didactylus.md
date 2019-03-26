@@ -31,6 +31,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 image: /assets/images/Choloepus_didactylus.jpg
+image_license: "CC BY-SA 3.0 Hans Hillewaert (wikimedia)"
 last_raw_data: 1547217154
 last_updated: 1551910681
 name: Choloepus didactylus

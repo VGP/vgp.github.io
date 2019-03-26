@@ -92,7 +92,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
-image_license: unknown
+image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
 last_updated: 1551910681
 name: Taeniopygia guttata

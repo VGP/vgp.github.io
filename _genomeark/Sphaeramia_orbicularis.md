@@ -25,6 +25,7 @@ data_pbsubreads_scale: 0.5396
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Sphaeramia_orbicularis.jpg
+image_license: "CC BY-SA 3.0 Sushi Girl1995 (wikimedia)"
 last_raw_data: 1544194118
 last_updated: 1551910681
 name: Sphaeramia orbicularis

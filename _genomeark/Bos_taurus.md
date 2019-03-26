@@ -15,8 +15,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 2700000000
 genome_size_display: 2.70 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Bos_taurus.jpg
+image_license: "public domain"
 last_raw_data: 1547422338
 last_updated: 1551910681
 name: Bos taurus

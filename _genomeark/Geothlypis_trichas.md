@@ -29,6 +29,7 @@ data_pbsubreads_scale: 0.5241
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Geothlypis_trichas.jpg
+image_license: "CC BY-SA 2.0 Dan Pancamo (flickr)"
 last_raw_data: 1544473266
 last_updated: 1551910681
 name: Geothlypis trichas
