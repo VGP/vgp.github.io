@@ -50,7 +50,7 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 972478608
 genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
-image_license: unknown
+image_license: "CC BY-SA 2.0 Alexandra Tyers (flickr)"
 last_raw_data: 1520006832
 last_updated: 1551910681
 name: Astatotilapia calliptera

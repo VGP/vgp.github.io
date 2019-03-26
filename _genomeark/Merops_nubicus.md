@@ -31,8 +31,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1300000000
 genome_size_display: 1.30 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Merops_nubicus.jpg
+image_license: "CC BY-SA 3.0 Luc Viatour (wikimedia)"
 last_raw_data: 1547221880
 last_updated: 1551910681
 name: Merops nubicus

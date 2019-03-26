@@ -31,8 +31,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1170000000
 genome_size_display: 1.17 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Tauraco_erythrolophus.jpg
+image_license: "(pixabay)"
 last_raw_data: 1547420962
 last_updated: 1551910681
 name: Tauraco erythrolophus

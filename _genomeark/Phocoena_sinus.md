@@ -31,8 +31,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3000000000
 genome_size_display: 3.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Phocoena_sinus.jpg
+image_license: "public domain"
 last_raw_data: 1547425539
 last_updated: 1551910681
 name: Phocoena sinus

@@ -25,6 +25,7 @@ data_pbsubreads_scale: 0.54
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Acanthisitta_chloris.jpg
+image_license: "CC BY-SA 2.0 digitaltrails (flickr)"
 last_raw_data: 1543518349
 last_updated: 1551910681
 name: Acanthisitta chloris

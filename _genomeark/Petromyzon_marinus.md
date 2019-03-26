@@ -23,8 +23,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1500000000
 genome_size_display: 1.50 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Petromyzon_marinus.jpg
+image_license: "CC BY-SA 2.0 T. Lawrence (flickr)"
 last_raw_data: 1547240562
 last_updated: 1551910681
 name: Petromyzon marinus

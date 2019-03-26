@@ -21,6 +21,7 @@ data_pbsubreads_scale: 0.5382
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Nomonyx_dominicus.jpg
+image_license: "CC BY-SA 2.0 Félix Uribe (flickr)"
 last_raw_data: 1537988752
 last_updated: 1551910681
 name: Nomonyx dominicus

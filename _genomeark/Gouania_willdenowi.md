@@ -58,7 +58,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1182215999
 genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
-image_license: unknown
+image_license: Apple
 last_raw_data: 1523524486
 last_updated: 1551910681
 name: Gouania willdenowi

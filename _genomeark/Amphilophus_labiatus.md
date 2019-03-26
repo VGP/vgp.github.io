@@ -15,8 +15,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Amphilophus_labiatus.jpg
+image_license: "CC BY-SA 2.0 AtelierMonpli (wikimedia)"
 last_raw_data: 1538676017
 last_updated: 1551910681
 name: Amphilophus labiatus

@@ -23,8 +23,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 2800000000
 genome_size_display: 2.80 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Pristis_pectinata.jpg
+image_license: "CC BY-NC-ND 2.0 myfwc (flickr)"
 last_raw_data: 1548963365
 last_updated: 1551910681
 name: Pristis pectinata
