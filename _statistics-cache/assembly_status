@@ -13,7 +13,7 @@ Cottoperca_gobio              assembly_curated
 Dendrocygna_viduata
 Denticeps_clupeoides          assembly_curated
 Dermochelys_coriacea
-Echeneis_naucrates            assembly_cambridge
+Echeneis_naucrates            assembly_curated
 Erpetoichthys_calabaricus     assembly_curated
 Geothlypis_trichas
 Geotrypetes_seraphini
@@ -30,19 +30,19 @@ Parambassis_ranga             assembly_curated
 Phyllostomus_discolor         assembly_curated
 Rhinatrema_bivittatum         assembly_curated
 Rhinolophus_ferrumequinum     assembly_curated
-Salarias_fasciatus
+Salarias_fasciatus            assembly_cambridge
 Salmo_trutta                  assembly_cambridge
 Sciurus_vulgaris
-Scleropages_formosus          assembly_cambridge
+Scleropages_formosus          assembly_curated
 Scyliorhinus_canicula
-Sparus_aurata                 assembly_cambridge
+Sparus_aurata                 assembly_curated
 Spatula_cyanoptera
-Sphaeramia_orbicularis
+Sphaeramia_orbicularis        assembly_cambridge
 Streptopelia_turtur           assembly_cambridge
 Strigops_habroptilus          assembly_curated
-Syngnathus_acus
+Syngnathus_acus               assembly_cambridge
 Taeniopygia_guttata           assembly_curated
-Takifugu_rubripes             assembly_cambridge
+Takifugu_rubripes             assembly_curated
 Thalassophryne_amazonica
 Turdus_merula
 Zeus_faber
