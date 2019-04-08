@@ -1,7 +1,6 @@
 ---
-alt3: curated3
 alt3date: 2018-10-26
-alt3filesize: 0.189 GB
+alt3filesize: 194 MB
 alt3n50ctg: 100169
 alt3n50scf: 100256
 alt3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_curated/fCotGob3.alt.cur.20181026.fasta.gz
@@ -27,6 +26,7 @@ alt3sizes: |
   <tr><th> 0.959x </th><th> 11565 </th><th> 0.67 Gbp </th><th> 11555 </th><th> 0.67 Gbp </th></tr>
   </tfoot>
   </table>
+alt3version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: channel bull blenny
@@ -34,16 +34,19 @@ data_10x_bases: 97.65 Gbp
 data_10x_bytes: 65.656 GB
 data_10x_coverage: 139.49x
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob3/genomic_data/10x/ .<br>
 data_10x_scale: 1.3851
 data_arima_bases: 88.25 Gbp
 data_arima_bytes: 43.692 GB
 data_arima_coverage: 126.07x
 data_arima_files: 10
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8811
 data_bionano_bases: 2649.65 Gbp
 data_bionano_bytes: 3.399 GB
 data_bionano_coverage: 3785.21x
 data_bionano_files: 3
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob3/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,6 +57,7 @@ data_pbsubreads_bases: 48.61 Gbp
 data_pbsubreads_bytes: 86.794 GB
 data_pbsubreads_coverage: 69.44x
 data_pbsubreads_files: 20
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5216
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -62,11 +66,10 @@ genome_size_display: 0.70 Gbp
 image: /assets/images/Cottoperca_gobio.jpg
 image_license: "public domain"
 last_raw_data: 1523523546
-last_updated: 1554481677
+last_updated: 1554733296
 name: Cottoperca gobio
-pri3: curated3
 pri3date: 2018-10-26
-pri3filesize: 0.156 GB
+pri3filesize: 160 MB
 pri3n50ctg: 5027187
 pri3n50scf: 24104793
 pri3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_curated/fCotGob3.pri.cur.20181026.fasta.gz
@@ -92,6 +95,7 @@ pri3sizes: |
   <tr><th> 0.867x </th><th> 767 </th><th> 0.61 Gbp </th><th> 322 </th><th> 0.61 Gbp </th></tr>
   </tfoot>
   </table>
+pri3version: assembly_curated
 s3: s3://genomeark/species/Cottoperca_gobio
 taxon_id: 56716
 ---

@@ -5,6 +5,7 @@ data_10x_bases: 108.18 Gbp
 data_10x_bytes: 55.843 GB
 data_10x_coverage: 82.58x
 data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Hirundo_rustica/bHirRus1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8041
 data_arima_scale: 1
 data_dovetail_scale: 1
@@ -18,7 +19,7 @@ genome_size_method: null
 image: /assets/images/Hirundo_rustica.jpg
 image_license: "CC BY-SA 2.0 Mike Pennington (geograph)"
 last_raw_data: 1548973458
-last_updated: 1554481677
+last_updated: 1554733296
 name: Hirundo rustica
 s3: s3://genomeark/species/Hirundo_rustica
 taxon_id: 43150

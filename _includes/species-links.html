@@ -1,9 +1,0 @@
-{% assign species = include.species %}
-
-<ul class="link-list">
-
-<li><a href="{{ site.baseurl }}{{ species.url }}">data</a></li>
-
-{% if species.taxon_id %}
-  <li><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ species.taxon_id }}">taxid</a></li>
-{% endif %}

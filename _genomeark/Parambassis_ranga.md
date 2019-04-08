@@ -1,7 +1,6 @@
 ---
-alt2: curated2
 alt2date: 2018-12-05
-alt2filesize: 0.136 GB
+alt2filesize: 140 MB
 alt2n50ctg: 409592
 alt2n50scf: 417098
 alt2seq: https://s3.amazonaws.com/genomeark/species/Parambassis_ranga/fParRan2/assembly_curated/fParRan2.alt.cur.20181205.fasta.gz
@@ -27,6 +26,7 @@ alt2sizes: |
   <tr><th> 1.000x </th><th> 2472 </th><th> 484.49 Mbp </th><th> 2242 </th><th> 486.55 Mbp </th></tr>
   </tfoot>
   </table>
+alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: Indian glassy fish
@@ -34,16 +34,19 @@ data_10x_bases: unknown
 data_10x_bytes: 81.181 GB
 data_10x_coverage: N/A
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/10x/ .<br>
 data_10x_scale: 1.466
 data_arima_bases: unknown
 data_arima_bytes: 29.917 GB
 data_arima_coverage: N/A
 data_arima_files: 10
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8356
 data_bionano_bases: unknown
 data_bionano_bytes: 1.081 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,17 +57,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 95.977 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 14
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5336
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Parambassis_ranga.jpg
 image_license: "CC BY-SA 2.5 opencage (wikimedia)"
 last_raw_data: 1535575225
-last_updated: 1554481677
+last_updated: 1554733296
 name: Parambassis ranga
-pri2: curated2
 pri2date: 2018-12-05
-pri2filesize: 0.140 GB
+pri2filesize: 144 MB
 pri2n50ctg: 5080925
 pri2n50scf: 22993012
 pri2seq: https://s3.amazonaws.com/genomeark/species/Parambassis_ranga/fParRan2/assembly_curated/fParRan2.pri.cur.20181205.fasta.gz
@@ -90,6 +93,7 @@ pri2sizes: |
   <tr><th> 1.000x </th><th> 1679 </th><th> 0.54 Gbp </th><th> 156 </th><th> 0.55 Gbp </th></tr>
   </tfoot>
   </table>
+pri2version: assembly_curated
 s3: s3://genomeark/species/Parambassis_ranga
 taxon_id: 210632
 ---

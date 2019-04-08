@@ -1,7 +1,6 @@
 ---
-alt1: curated1
 alt1date: 2018-09-07
-alt1filesize: 0.594 GB
+alt1filesize: 608 MB
 alt1n50ctg: 841438
 alt1n50scf: 841438
 alt1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.alt.cur.20180907.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 0.926x </th><th> 10873 </th><th> 2.05 Gbp </th><th> 10835 </th><th> 2.05 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: pale spear-nosed bat
@@ -34,16 +34,19 @@ data_10x_bases: 243.07 Gbp
 data_10x_bytes: 145.428 GB
 data_10x_coverage: 109.80x
 data_10x_files: 24
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5566
 data_arima_bases: 192.11 Gbp
 data_arima_bytes: 99.838 GB
 data_arima_coverage: 86.78x
 data_arima_files: 18
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/arima/ .<br>
 data_arima_scale: 1.7921
 data_bionano_bases: 1078.91 Gbp
 data_bionano_bytes: 1.416 GB
 data_bionano_coverage: 487.36x
 data_bionano_files: 2
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,6 +57,7 @@ data_pbsubreads_bases: 163.04 Gbp
 data_pbsubreads_bytes: 292.405 GB
 data_pbsubreads_coverage: 73.65x
 data_pbsubreads_files: 86
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -62,11 +66,36 @@ genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: "CC BY-SA 4.0 Juan Carlos Vargas Mena (wikimedia)"
 last_raw_data: 1527496005
-last_updated: 1554481677
+last_updated: 1554733296
+mito1date: 2019-03-08
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_mt_milan/mPhyDis1.MT.20190308.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5240 </th><th> A </th><th> 0.3139  bp </th><th> A </th><th> 0.3139  bp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_mt_milan
 name: Phyllostomus discolor
-pri1: curated1
 pri1date: 2018-09-07
-pri1filesize: 0.599 GB
+pri1filesize: 614 MB
 pri1n50ctg: 6377178
 pri1n50scf: 107516943
 pri1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.pri.cur.20180907.fasta.gz
@@ -92,6 +121,7 @@ pri1sizes: |
   <tr><th> 0.946x </th><th> 972 </th><th> 2.09 Gbp </th><th> 141 </th><th> 2.12 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_curated
 s3: s3://genomeark/species/Phyllostomus_discolor
 taxon_id: 89673
 ---

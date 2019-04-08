@@ -1,7 +1,6 @@
 ---
-alt1: cambridge1
 alt1date: 2019-02-08
-alt1filesize: 0.304 GB
+alt1filesize: 312 MB
 alt1n50ctg: 776317
 alt1n50scf: 776317
 alt1seq: https://s3.amazonaws.com/genomeark/species/Streptopelia_turtur/bStrTur1/assembly_cambridge/bStrTur1.alt.asm.20190208.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 1.000x </th><th> 3338 </th><th> 1.04 Gbp </th><th> 3338 </th><th> 1.04 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_cambridge
 assembly: assembly_cambridge
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: turtle dove
@@ -34,16 +34,19 @@ data_10x_bases: unknown
 data_10x_bytes: 81.016 GB
 data_10x_coverage: N/A
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5349
 data_arima_bases: unknown
 data_arima_bytes: 58.781 GB
 data_arima_coverage: N/A
 data_arima_files: 10
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/arima/ .<br>
 data_arima_scale: 1.9606
 data_bionano_bases: unknown
 data_bionano_bytes: 0.536 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,17 +57,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 107.985 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 36
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Streptopelia_turtur.jpg
 image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1548798897
-last_updated: 1554481677
+last_updated: 1554733296
 name: Streptopelia turtur
-pri1: cambridge1
 pri1date: 2019-02-08
-pri1filesize: 0.343 GB
+pri1filesize: 351 MB
 pri1n50ctg: 3730413
 pri1n50scf: 68328592
 pri1seq: https://s3.amazonaws.com/genomeark/species/Streptopelia_turtur/bStrTur1/assembly_cambridge/bStrTur1.pri.asm.20190208.fasta.gz
@@ -90,6 +93,7 @@ pri1sizes: |
   <tr><th> 1.000x </th><th> 1251 </th><th> 1.18 Gbp </th><th> 407 </th><th> 1.18 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_cambridge
 s3: s3://genomeark/species/Streptopelia_turtur
 taxon_id: 177155
 ---

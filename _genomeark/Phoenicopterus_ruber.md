@@ -5,16 +5,19 @@ data_10x_bases: 103.00 Gbp
 data_10x_bytes: 49.167 GB
 data_10x_coverage: 82.40x
 data_10x_files: 16
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Phoenicopterus_ruber/bPhoRub1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9511
 data_arima_bases: 239.84 Gbp
 data_arima_bytes: 121.862 GB
 data_arima_coverage: 191.88x
 data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Phoenicopterus_ruber/bPhoRub1/genomic_data/arima/ .<br>
 data_arima_scale: 1.833
 data_bionano_bases: 568.84 Gbp
 data_bionano_bytes: 0.935 GB
 data_bionano_coverage: 455.07x
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Phoenicopterus_ruber/bPhoRub1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -25,6 +28,7 @@ data_pbsubreads_bases: 76.59 Gbp
 data_pbsubreads_bytes: 132.832 GB
 data_pbsubreads_coverage: 61.27x
 data_pbsubreads_files: 16
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.537
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -34,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Phoenicopterus_ruber.jpg
 image_license: "CC BY 2.0 Paul Asman and Jill Lenoble (flickr)"
 last_raw_data: 1547232348
-last_updated: 1554481677
+last_updated: 1554733296
 name: Phoenicopterus ruber
 s3: s3://genomeark/species/Phoenicopterus_ruber
 taxon_id: 9217

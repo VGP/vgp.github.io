@@ -5,16 +5,19 @@ data_10x_bases: 73.91 Gbp
 data_10x_bytes: 37.600 GB
 data_10x_coverage: 61.59x
 data_10x_files: 3
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Aythya_fuligula/bAytFul2/genomic_data/10x/ .<br>
 data_10x_scale: 1.8306
 data_arima_bases: 110.72 Gbp
 data_arima_bytes: 55.657 GB
 data_arima_coverage: 92.27x
 data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Aythya_fuligula/bAytFul2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8527
 data_bionano_bases: 1433.74 Gbp
 data_bionano_bytes: 2.425 GB
 data_bionano_coverage: 1194.79x
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Aythya_fuligula/bAytFul2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -25,6 +28,7 @@ data_pbsubreads_bases: 76.84 Gbp
 data_pbsubreads_bytes: 130.258 GB
 data_pbsubreads_coverage: 64.03x
 data_pbsubreads_files: 14
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Aythya_fuligula/bAytFul2/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5494
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -34,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Aythya_fuligula.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
 last_raw_data: 1545246883
-last_updated: 1554481677
+last_updated: 1554733296
 name: Aythya fuligula
 s3: s3://genomeark/species/Aythya_fuligula
 taxon_id: 219594

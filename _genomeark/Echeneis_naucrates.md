@@ -1,7 +1,6 @@
 ---
-alt1: curated1
 alt1date: 2019-04-01
-alt1filesize: 0.152 GB
+alt1filesize: 155 MB
 alt1n50ctg: 889301
 alt1n50scf: 915456
 alt1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_curated/fEcheNa1.alt.cur.20190401.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 1.000x </th><th> 1424 </th><th> 0.53 Gbp </th><th> 1405 </th><th> 0.53 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: live sharksucker
@@ -34,16 +34,19 @@ data_10x_bases: unknown
 data_10x_bytes: 79.751 GB
 data_10x_coverage: N/A
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4769
 data_arima_scale: 1
 data_bionano_bases: unknown
 data_bionano_bytes: 0.900 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/bionano/ .<br>
 data_dovetail_bases: unknown
 data_dovetail_bytes: 83.970 GB
 data_dovetail_coverage: N/A
 data_dovetail_files: 1
+data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5263
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,17 +57,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 79.001 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 10
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5331
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Echeneis_naucrates.jpg
 image_license: "CC BY 2.0 Richard ling (wikimedia)"
 last_raw_data: 1549384902
-last_updated: 1554481677
+last_updated: 1554733296
 name: Echeneis naucrates
-pri1: curated1
 pri1date: 2019-04-01
-pri1filesize: 0.144 GB
+pri1filesize: 147 MB
 pri1n50ctg: 12371513
 pri1n50scf: 23287306
 pri1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_curated/fEcheNa1.pri.cur.20190401.fasta.gz
@@ -90,6 +93,7 @@ pri1sizes: |
   <tr><th> 1.000x </th><th> 177 </th><th> 0.54 Gbp </th><th> 37 </th><th> 0.54 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_curated
 s3: s3://genomeark/species/Echeneis_naucrates
 taxon_id: 173247
 ---

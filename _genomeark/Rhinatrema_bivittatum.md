@@ -1,7 +1,6 @@
 ---
-alt1: curated1
 alt1date: 2018-09-09
-alt1filesize: 1.318 GB
+alt1filesize: 1 GB
 alt1n50ctg: 487897
 alt1n50scf: 487897
 alt1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_curated/aRhiBiv1.alt.cur.20180909.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 0.905x </th><th> 20515 </th><th> 4.59 Gbp </th><th> 20515 </th><th> 4.59 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: two-lined caecilian
@@ -34,16 +34,19 @@ data_10x_bases: 367.17 Gbp
 data_10x_bytes: 250.442 GB
 data_10x_coverage: 72.45x
 data_10x_files: 36
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/10x/ .<br>
 data_10x_scale: 1.3654
 data_arima_bases: 375.50 Gbp
 data_arima_bytes: 222.490 GB
 data_arima_coverage: 74.09x
 data_arima_files: 12
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5718
 data_bionano_bases: 1821.59 Gbp
 data_bionano_bytes: 1.550 GB
 data_bionano_coverage: 359.44x
 data_bionano_files: 2
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,6 +57,7 @@ data_pbsubreads_bases: 232.05 Gbp
 data_pbsubreads_bytes: 415.928 GB
 data_pbsubreads_coverage: 45.79x
 data_pbsubreads_files: 108
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5196
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -62,11 +66,36 @@ genome_size_display: 5.07 Gbp
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1525161722
-last_updated: 1554481677
+last_updated: 1554733296
+mito1date: 2019-03-10
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_mt_milan/aRhiBiv1.MT.20190310.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5041 </th><th> A </th><th> 0.3072  bp </th><th> A </th><th> 0.3072  bp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_mt_milan
 name: Rhinatrema bivittatum
-pri1: curated1
 pri1date: 2018-09-09
-pri1filesize: 1.548 GB
+pri1filesize: 2 GB
 pri1n50ctg: 3121145
 pri1n50scf: 277198432
 pri1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_curated/aRhiBiv1.pri.cur.20180909.fasta.gz
@@ -92,6 +121,7 @@ pri1sizes: |
   <tr><th> 1.068x </th><th> 5865 </th><th> 5.41 Gbp </th><th> 2186 </th><th> 5.49 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_curated
 s3: s3://genomeark/species/Rhinatrema_bivittatum
 taxon_id: 194408
 ---
