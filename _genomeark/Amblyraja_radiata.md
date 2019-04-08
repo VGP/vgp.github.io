@@ -5,16 +5,19 @@ data_10x_bases: 198.46 Gbp
 data_10x_bytes: 102.061 GB
 data_10x_coverage: 95.74x
 data_10x_files: 32
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/ .<br>
 data_10x_scale: 1.811
 data_arima_bases: 342.60 Gbp
 data_arima_bytes: 167.949 GB
 data_arima_coverage: 165.27x
 data_arima_files: 18
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8998
 data_bionano_bases: 2353.52 Gbp
 data_bionano_bytes: 3.706 GB
 data_bionano_coverage: 1135.36x
 data_bionano_files: 2
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -25,6 +28,7 @@ data_pbsubreads_bases: 265.83 Gbp
 data_pbsubreads_bytes: 467.477 GB
 data_pbsubreads_coverage: 128.24x
 data_pbsubreads_files: 100
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -33,7 +37,7 @@ genome_size_display: 2.07 Gbp
 image: /assets/images/Amblyraja_radiata.jpg
 image_license: "public domain"
 last_raw_data: 1547419874
-last_updated: 1554481677
+last_updated: 1554733296
 name: Amblyraja radiata
 s3: s3://genomeark/species/Amblyraja_radiata
 taxon_id: 386614

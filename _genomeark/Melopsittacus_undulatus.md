@@ -5,6 +5,7 @@ data_10x_bases: 97.54 Gbp
 data_10x_bytes: 50.530 GB
 data_10x_coverage: 79.30x
 data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd1/genomic_data/10x/ .<br>
 data_10x_scale: 1.7978
 data_arima_scale: 1
 data_dovetail_scale: 1
@@ -18,7 +19,7 @@ genome_size_method: null
 image: /assets/images/Melopsittacus_undulatus.jpg
 image_license: "CC BY-SA 3.0 Atlanta Zoo (wikimedia)"
 last_raw_data: 1548966689
-last_updated: 1554481677
+last_updated: 1554733296
 name: Melopsittacus undulatus
 s3: s3://genomeark/species/Melopsittacus_undulatus
 taxon_id: 13146

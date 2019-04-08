@@ -1,7 +1,6 @@
 ---
-alt1: cambridge1
 alt1date: 2018-10-16
-alt1filesize: 0.053 GB
+alt1filesize: 55 MB
 alt1n50ctg: 53126
 alt1n50scf: 53126
 alt1seq: https://s3.amazonaws.com/genomeark/species/Salmo_trutta/fSalTru1/assembly_cambridge/fSalTru1.alt.asm.20181016.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 1.000x </th><th> 4194 </th><th> 189.98 Mbp </th><th> 4194 </th><th> 189.98 Mbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_cambridge
 assembly: assembly_cambridge
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: brown trout
@@ -34,16 +34,19 @@ data_10x_bases: unknown
 data_10x_bytes: 142.574 GB
 data_10x_coverage: N/A
 data_10x_files: 24
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/10x/ .<br>
 data_10x_scale: 1.3907
 data_arima_bases: unknown
 data_arima_bytes: 71.159 GB
 data_arima_coverage: N/A
 data_arima_files: 10
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8915
 data_bionano_bases: unknown
 data_bionano_bytes: 0.592 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,17 +57,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 286.601 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 52
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5297
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Salmo_trutta.jpg
 image_license: "public domain"
 last_raw_data: 1537972599
-last_updated: 1554481677
+last_updated: 1554733296
 name: Salmo trutta
-pri1: cambridge1
 pri1date: 2018-10-16
-pri1filesize: 0.620 GB
+pri1filesize: 635 MB
 pri1n50ctg: 1692994
 pri1n50scf: 52209666
 pri1seq: https://s3.amazonaws.com/genomeark/species/Salmo_trutta/fSalTru1/assembly_cambridge/fSalTru1.pri.asm.20181016.fasta.gz
@@ -90,6 +93,7 @@ pri1sizes: |
   <tr><th> 1.000x </th><th> 10362 </th><th> 2.30 Gbp </th><th> 1514 </th><th> 2.38 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_cambridge
 s3: s3://genomeark/species/Salmo_trutta
 taxon_id: 8032
 ---

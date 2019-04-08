@@ -5,6 +5,7 @@ data_10x_bases: 100.51 Gbp
 data_10x_bytes: 50.509 GB
 data_10x_coverage: 67.01x
 data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromyzon_marinus/kPetMar1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8533
 data_arima_scale: 1
 data_dovetail_scale: 1
@@ -17,6 +18,7 @@ data_pbsubreads_bases: 93.54 Gbp
 data_pbsubreads_bytes: 159.414 GB
 data_pbsubreads_coverage: 62.36x
 data_pbsubreads_files: 20
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5465
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
@@ -26,7 +28,7 @@ genome_size_method: null
 image: /assets/images/Petromyzon_marinus.jpg
 image_license: "CC BY-SA 2.0 T. Lawrence (flickr)"
 last_raw_data: 1547240562
-last_updated: 1554481677
+last_updated: 1554733296
 name: Petromyzon marinus
 s3: s3://genomeark/species/Petromyzon_marinus
 taxon_id: 7757

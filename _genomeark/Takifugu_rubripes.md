@@ -1,7 +1,6 @@
 ---
-alt1: curated1
 alt1date: 2019-04-03
-alt1filesize: 0.099 GB
+alt1filesize: 101 MB
 alt1n50ctg: 266405
 alt1n50scf: 276385
 alt1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.alt.cur.20190403.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 1.000x </th><th> 2050 </th><th> 349.39 Mbp </th><th> 2012 </th><th> 350.02 Mbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: torafugu
@@ -34,16 +34,19 @@ data_10x_bases: unknown
 data_10x_bytes: 73.884 GB
 data_10x_coverage: N/A
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4417
 data_arima_bases: unknown
 data_arima_bytes: 19.583 GB
 data_arima_coverage: N/A
 data_arima_files: 10
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8085
 data_bionano_bases: unknown
 data_bionano_bytes: 0.459 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,17 +57,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 56.073 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 8
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Takifugu_rubripes.jpg
 image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1554481677
+last_updated: 1554733296
 name: Takifugu rubripes
-pri1: curated1
 pri1date: 2019-04-03
-pri1filesize: 0.107 GB
+pri1filesize: 109 MB
 pri1n50ctg: 3136617
 pri1n50scf: 16705553
 pri1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.pri.cur.20190403.fasta.gz
@@ -90,6 +93,7 @@ pri1sizes: |
   <tr><th> 1.000x </th><th> 529 </th><th> 380.42 Mbp </th><th> 127 </th><th> 384.11 Mbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_curated
 s3: s3://genomeark/species/Takifugu_rubripes
 taxon_id: 31033
 ---

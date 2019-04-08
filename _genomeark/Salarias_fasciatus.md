@@ -1,7 +1,6 @@
 ---
-alt1: cambridge1
 alt1date: 2019-04-03
-alt1filesize: 0.256 GB
+alt1filesize: 262 MB
 alt1n50ctg: 422118
 alt1n50scf: 422118
 alt1seq: https://s3.amazonaws.com/genomeark/species/Salarias_fasciatus/fSalaFa1/assembly_cambridge/fSalaFa1.alt.asm.20190403.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 1.000x </th><th> 4504 </th><th> 0.89 Gbp </th><th> 4504 </th><th> 0.89 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_cambridge
 assembly: assembly_cambridge
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: jewelled blenny
@@ -34,16 +34,19 @@ data_10x_bases: unknown
 data_10x_bytes: 79.223 GB
 data_10x_coverage: N/A
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4908
 data_arima_scale: 1
 data_bionano_bases: unknown
 data_bionano_bytes: 1.082 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/bionano/ .<br>
 data_dovetail_bases: unknown
 data_dovetail_bytes: 78.111 GB
 data_dovetail_coverage: N/A
 data_dovetail_files: 1
+data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4979
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,17 +57,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 113.821 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 26
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5346
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Salarias_fasciatus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1554447472
-last_updated: 1554481677
+last_updated: 1554733296
 name: Salarias fasciatus
-pri1: cambridge1
 pri1date: 2019-04-03
-pri1filesize: 0.228 GB
+pri1filesize: 233 MB
 pri1n50ctg: 2540852
 pri1n50scf: 30386372
 pri1seq: https://s3.amazonaws.com/genomeark/species/Salarias_fasciatus/fSalaFa1/assembly_cambridge/fSalaFa1.pri.asm.20190403.fasta.gz
@@ -90,6 +93,7 @@ pri1sizes: |
   <tr><th> 1.000x </th><th> 817 </th><th> 0.79 Gbp </th><th> 245 </th><th> 0.82 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_cambridge
 s3: s3://genomeark/species/Salarias_fasciatus
 taxon_id: 181472
 ---

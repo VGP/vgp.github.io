@@ -1,7 +1,6 @@
 ---
-alt1: curated1
 alt1date: 2018-12-11
-alt1filesize: 0.153 GB
+alt1filesize: 157 MB
 alt1n50ctg: 709261
 alt1n50scf: 752903
 alt1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_curated/fAnaTes1.alt.cur.20181211.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 0.810x </th><th> 2677 </th><th> 0.54 Gbp </th><th> 2641 </th><th> 0.54 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: climbing perch
@@ -34,16 +34,19 @@ data_10x_bases: 120.50 Gbp
 data_10x_bytes: 78.050 GB
 data_10x_coverage: 181.84x
 data_10x_files: 12
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4379
 data_arima_bases: 98.84 Gbp
 data_arima_bytes: 50.861 GB
 data_arima_coverage: 149.14x
 data_arima_files: 18
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8098
 data_bionano_bases: 2412.22 Gbp
 data_bionano_bytes: 3.216 GB
 data_bionano_coverage: 3640.00x
 data_bionano_files: 2
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -54,6 +57,7 @@ data_pbsubreads_bases: 38.98 Gbp
 data_pbsubreads_bytes: 69.835 GB
 data_pbsubreads_coverage: 58.82x
 data_pbsubreads_files: 16
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5198
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -62,11 +66,36 @@ genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: "public domain"
 last_raw_data: 1523263117
-last_updated: 1554481677
+last_updated: 1554733296
+mito1date: 2019-03-10
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_mt_milan/fAnaTes1.MT.20190310.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 4887 </th><th> A </th><th> 0.2856  bp </th><th> A </th><th> 0.2856  bp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_mt_milan
 name: Anabas testudineus
-pri1: curated1
 pri1date: 2018-12-11
-pri1filesize: 0.145 GB
+pri1filesize: 149 MB
 pri1n50ctg: 4568778
 pri1n50scf: 23456640
 pri1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_curated/fAnaTes1.pri.cur.20181211.fasta.gz
@@ -92,6 +121,7 @@ pri1sizes: |
   <tr><th> 0.833x </th><th> 316 </th><th> 0.55 Gbp </th><th> 50 </th><th> 0.56 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_curated
 s3: s3://genomeark/species/Anabas_testudineus
 taxon_id: 64144
 ---

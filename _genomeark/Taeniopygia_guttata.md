@@ -1,7 +1,6 @@
 ---
-alt1: curated1
 alt1date: 2018-10-23
-alt1filesize: 0.276 GB
+alt1filesize: 282 MB
 alt1n50ctg: 2519260
 alt1n50scf: 2519260
 alt1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.alt.cur.20181023.fasta.gz
@@ -27,9 +26,9 @@ alt1sizes: |
   <tr><th> 0.932x </th><th> 5381 </th><th> 0.97 Gbp </th><th> 5336 </th><th> 0.97 Gbp </th></tr>
   </tfoot>
   </table>
-alt2: curated2
+alt1version: assembly_curated
 alt2date: 2018-10-19
-alt2filesize: 0.272 GB
+alt2filesize: 279 MB
 alt2n50ctg: 889877
 alt2n50scf: 892071
 alt2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.alt.cur.20181019.fasta.gz
@@ -55,6 +54,7 @@ alt2sizes: |
   <tr><th> 0.915x </th><th> 4693 </th><th> 0.95 Gbp </th><th> 4677 </th><th> 0.95 Gbp </th></tr>
   </tfoot>
   </table>
+alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: zebra finch
@@ -62,21 +62,25 @@ data_10x_bases: 205.67 Gbp
 data_10x_bytes: 123.768 GB
 data_10x_coverage: 198.60x
 data_10x_files: 48
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>
 data_10x_scale: 1.5476
 data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
 data_arima_coverage: 242.54x
 data_arima_files: 20
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8484
 data_bionano_bases: 1642.52 Gbp
 data_bionano_bytes: 2.136 GB
 data_bionano_coverage: 1586.04x
 data_bionano_files: 4
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_bases: 138.82 Gbp
 data_illumina_bytes: 71.694 GB
 data_illumina_coverage: 134.05x
 data_illumina_files: 4
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8033
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 480.991 GB
@@ -86,6 +90,7 @@ data_pbsubreads_bases: 159.85 Gbp
 data_pbsubreads_bytes: 574.778 GB
 data_pbsubreads_coverage: 154.35x
 data_pbsubreads_files: 394
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.259
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -94,11 +99,62 @@ genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
 image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
-last_updated: 1554481677
+last_updated: 1554733296
+mito1date: 2019-03-08
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_mt_milan/bTaeGut1.MT.20190308.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5248 </th><th> A </th><th> 0.3114  bp </th><th> A </th><th> 0.3114  bp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_mt_milan
+mito2date: 2019-03-08
+mito2filesize: 5 KB
+mito2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_mt_milan/bTaeGut2.MT.20190308.fasta.gz
+mito2sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5244 </th><th> A </th><th> 0.3111  bp </th><th> A </th><th> 0.3111  bp </th></tr>
+  </tfoot>
+  </table>
+mito2version: assembly_mt_milan
 name: Taeniopygia guttata
-pri1: curated1
 pri1date: 2018-10-23
-pri1filesize: 0.276 GB
+pri1filesize: 282 MB
 pri1n50ctg: 12079046
 pri1n50scf: 71552918
 pri1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.pri.cur.20181023.fasta.gz
@@ -124,9 +180,9 @@ pri1sizes: |
   <tr><th> 1.019x </th><th> 446 </th><th> 1.06 Gbp </th><th> 134 </th><th> 1.06 Gbp </th></tr>
   </tfoot>
   </table>
-pri2: curated2
+pri1version: assembly_curated
 pri2date: 2018-10-19
-pri2filesize: 0.307 GB
+pri2filesize: 315 MB
 pri2n50ctg: 4128961
 pri2n50scf: 73512665
 pri2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.pri.cur.20181019.fasta.gz
@@ -152,6 +208,7 @@ pri2sizes: |
   <tr><th> 1.047x </th><th> 1331 </th><th> 1.08 Gbp </th><th> 540 </th><th> 1.11 Gbp </th></tr>
   </tfoot>
   </table>
+pri2version: assembly_curated
 s3: s3://genomeark/species/Taeniopygia_guttata
 taxon_id: 59729
 ---

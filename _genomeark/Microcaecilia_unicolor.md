@@ -1,7 +1,6 @@
 ---
-alt1: cambridge1
 alt1date: 2019-02-22
-alt1filesize: 1.092 GB
+alt1filesize: 1 GB
 alt1n50ctg: 245207
 alt1n50scf: 245207
 alt1seq: https://s3.amazonaws.com/genomeark/species/Microcaecilia_unicolor/aMicUni1/assembly_cambridge/aMicUni1.alt.asm.20190222.fasta.gz
@@ -27,6 +26,7 @@ alt1sizes: |
   <tr><th> 1.000x </th><th> 23872 </th><th> 3.70 Gbp </th><th> 23872 </th><th> 3.70 Gbp </th></tr>
   </tfoot>
   </table>
+alt1version: assembly_cambridge
 assembly: assembly_cambridge
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: tiny Cayenne caecilian
@@ -34,20 +34,24 @@ data_10x_bases: unknown
 data_10x_bytes: 242.655 GB
 data_10x_coverage: N/A
 data_10x_files: 36
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/10x/ .<br>
 data_10x_scale: 1.3728
 data_arima_bases: unknown
 data_arima_bytes: 166.471 GB
 data_arima_coverage: N/A
 data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5446
 data_bionano_bases: unknown
 data_bionano_bytes: 2.704 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/bionano/ .<br>
 data_dovetail_bases: unknown
 data_dovetail_bytes: 151.277 GB
 data_dovetail_coverage: N/A
 data_dovetail_files: 2
+data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5173
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -58,17 +62,17 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 441.129 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 72
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
 data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1548859097
-last_updated: 1554481677
+last_updated: 1554733296
 name: Microcaecilia unicolor
-pri1: cambridge1
 pri1date: 2019-02-22
-pri1filesize: 1.300 GB
+pri1filesize: 1 GB
 pri1n50ctg: 3650988
 pri1n50scf: 220902991
 pri1seq: https://s3.amazonaws.com/genomeark/species/Microcaecilia_unicolor/aMicUni1/assembly_cambridge/aMicUni1.pri.asm.20190222.fasta.gz
@@ -94,6 +98,7 @@ pri1sizes: |
   <tr><th> 1.000x </th><th> 3537 </th><th> 4.64 Gbp </th><th> 1135 </th><th> 4.73 Gbp </th></tr>
   </tfoot>
   </table>
+pri1version: assembly_cambridge
 s3: s3://genomeark/species/Microcaecilia_unicolor
 taxon_id: 1415580
 ---

@@ -6,11 +6,13 @@ data_arima_bases: 182.45 Gbp
 data_arima_bytes: 98.020 GB
 data_arima_coverage: 72.40x
 data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/arima/ .<br>
 data_arima_scale: 1.7335
 data_bionano_bases: 448.35 Gbp
 data_bionano_bytes: 0.527 GB
 data_bionano_coverage: 177.92x
 data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbsubreads_scale: 1
@@ -22,7 +24,7 @@ genome_size_method: null
 image: /assets/images/Dendropsophus_ebraccatus.jpg
 image_license: "CC BY 2.0 Brian Gratwicke (flickr)"
 last_raw_data: 1547225095
-last_updated: 1554481677
+last_updated: 1554733296
 name: Dendropsophus ebraccatus
 s3: s3://genomeark/species/Dendropsophus_ebraccatus
 taxon_id: 150705
