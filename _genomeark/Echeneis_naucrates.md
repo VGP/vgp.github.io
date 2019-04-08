@@ -1,10 +1,10 @@
 ---
-alt1: cambridge1
-alt1date: 2019-02-09
-alt1filesize: 0.151 GB
-alt1n50ctg: 887786
-alt1n50scf: 887786
-alt1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_cambridge/fEcheNa1.alt.asm.20190209.fasta.gz
+alt1: curated1
+alt1date: 2019-04-01
+alt1filesize: 0.152 GB
+alt1n50ctg: 889301
+alt1n50scf: 915456
+alt1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_curated/fEcheNa1.alt.cur.20190401.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -22,13 +22,13 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 13 </td><td> 2.83 Mbp </td><td> 13 </td><td> 2.83 Mbp </td></tr>  <tr><td> 20 </td><td> 34 </td><td> 2.00 Mbp </td><td> 34 </td><td> 2.00 Mbp </td></tr>  <tr><td> 30 </td><td> 64 </td><td> 1.59 Mbp </td><td> 64 </td><td> 1.59 Mbp </td></tr>  <tr><td> 40 </td><td> 102 </td><td> 1.18 Mbp </td><td> 102 </td><td> 1.18 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 152 </td><td> 0.89 Mbp </td><td> 152 </td><td> 0.89 Mbp </td></tr>  <tr><td> 60 </td><td> 222 </td><td> 0.62 Mbp </td><td> 222 </td><td> 0.62 Mbp </td></tr>  <tr><td> 70 </td><td> 324 </td><td> 0.42 Mbp </td><td> 324 </td><td> 0.42 Mbp </td></tr>  <tr><td> 80 </td><td> 477 </td><td> 0.27 Mbp </td><td> 477 </td><td> 0.27 Mbp </td></tr>  <tr><td> 90 </td><td> 733 </td><td> 0.16 Mbp </td><td> 733 </td><td> 0.16 Mbp </td></tr>  <tr><td> 100 </td><td> 1386 </td><td> 313  bp </td><td> 1386 </td><td> 313  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 14 </td><td> 2.79 Mbp </td><td> 11 </td><td> 3.07 Mbp </td></tr>  <tr><td> 20 </td><td> 36 </td><td> 1.97 Mbp </td><td> 32 </td><td> 2.05 Mbp </td></tr>  <tr><td> 30 </td><td> 66 </td><td> 1.58 Mbp </td><td> 61 </td><td> 1.65 Mbp </td></tr>  <tr><td> 40 </td><td> 106 </td><td> 1.17 Mbp </td><td> 99 </td><td> 1.24 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 157 </td><td> 0.89 Mbp </td><td> 148 </td><td> 0.92 Mbp </td></tr>  <tr><td> 60 </td><td> 229 </td><td> 0.62 Mbp </td><td> 218 </td><td> 0.64 Mbp </td></tr>  <tr><td> 70 </td><td> 333 </td><td> 0.42 Mbp </td><td> 320 </td><td> 0.43 Mbp </td></tr>  <tr><td> 80 </td><td> 488 </td><td> 0.27 Mbp </td><td> 475 </td><td> 0.27 Mbp </td></tr>  <tr><td> 90 </td><td> 750 </td><td> 0.16 Mbp </td><td> 736 </td><td> 0.16 Mbp </td></tr>  <tr><td> 100 </td><td> 1423 </td><td> 313  bp </td><td> 1404 </td><td> 313  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1387 </th><th> 0.51 Gbp </th><th> 1387 </th><th> 0.51 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 1424 </th><th> 0.53 Gbp </th><th> 1405 </th><th> 0.53 Gbp </th></tr>
   </tfoot>
   </table>
-assembly: assembly_cambridge
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: live sharksucker
 data_10x_bases: unknown
 data_10x_bytes: 79.751 GB
@@ -60,14 +60,14 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Echeneis_naucrates.jpg
 image_license: "CC BY 2.0 Richard ling (wikimedia)"
 last_raw_data: 1549384902
-last_updated: 1553609004
+last_updated: 1554481677
 name: Echeneis naucrates
-pri1: cambridge1
-pri1date: 2019-02-09
-pri1filesize: 0.162 GB
+pri1: curated1
+pri1date: 2019-04-01
+pri1filesize: 0.144 GB
 pri1n50ctg: 12371513
-pri1n50scf: 22397122
-pri1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_cambridge/fEcheNa1.pri.asm.20190209.fasta.gz
+pri1n50scf: 23287306
+pri1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_curated/fEcheNa1.pri.cur.20190401.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -85,9 +85,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 2 </td><td> 18.72 Mbp </td><td> 1 </td><td> 28.06 Mbp </td></tr>  <tr><td> 20 </td><td> 5 </td><td> 17.47 Mbp </td><td> 3 </td><td> 26.34 Mbp </td></tr>  <tr><td> 30 </td><td> 9 </td><td> 16.63 Mbp </td><td> 5 </td><td> 25.44 Mbp </td></tr>  <tr><td> 40 </td><td> 12 </td><td> 14.27 Mbp </td><td> 7 </td><td> 24.52 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 16 </td><td style="background-color:#88ff88;"> 12.37 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 22.40 Mbp </td></tr>  <tr><td> 60 </td><td> 21 </td><td> 9.90 Mbp </td><td> 12 </td><td> 21.18 Mbp </td></tr>  <tr><td> 70 </td><td> 28 </td><td> 6.85 Mbp </td><td> 15 </td><td> 20.69 Mbp </td></tr>  <tr><td> 80 </td><td> 39 </td><td> 3.08 Mbp </td><td> 18 </td><td> 19.49 Mbp </td></tr>  <tr><td> 90 </td><td> 65 </td><td> 1.47 Mbp </td><td> 21 </td><td> 16.49 Mbp </td></tr>  <tr><td> 100 </td><td> 211 </td><td> 60  bp </td><td> 62 </td><td> 60  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 18.72 Mbp </td><td> 1 </td><td> 26.82 Mbp </td></tr>  <tr><td> 20 </td><td> 5 </td><td> 17.47 Mbp </td><td> 4 </td><td> 25.44 Mbp </td></tr>  <tr><td> 30 </td><td> 8 </td><td> 16.72 Mbp </td><td> 6 </td><td> 24.88 Mbp </td></tr>  <tr><td> 40 </td><td> 12 </td><td> 14.27 Mbp </td><td> 8 </td><td> 24.57 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 16 </td><td style="background-color:#88ff88;"> 12.37 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 23.29 Mbp </td></tr>  <tr><td> 60 </td><td> 21 </td><td> 9.90 Mbp </td><td> 13 </td><td> 22.31 Mbp </td></tr>  <tr><td> 70 </td><td> 27 </td><td> 6.88 Mbp </td><td> 15 </td><td> 20.80 Mbp </td></tr>  <tr><td> 80 </td><td> 36 </td><td> 4.25 Mbp </td><td> 18 </td><td> 20.38 Mbp </td></tr>  <tr><td> 90 </td><td> 58 </td><td> 1.72 Mbp </td><td> 20 </td><td> 19.09 Mbp </td></tr>  <tr><td> 100 </td><td> 176 </td><td> 72  bp </td><td> 36 </td><td> 19.22 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 212 </th><th> 0.56 Gbp </th><th> 63 </th><th> 0.56 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 177 </th><th> 0.54 Gbp </th><th> 37 </th><th> 0.54 Gbp </th></tr>
   </tfoot>
   </table>
 s3: s3://genomeark/species/Echeneis_naucrates

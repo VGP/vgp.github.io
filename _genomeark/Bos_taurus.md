@@ -18,7 +18,7 @@ genome_size_method: null
 image: /assets/images/Bos_taurus.jpg
 image_license: "public domain"
 last_raw_data: 1547422338
-last_updated: 1553609004
+last_updated: 1554481677
 name: Bos taurus
 s3: s3://genomeark/species/Bos_taurus
 taxon_id: 9913

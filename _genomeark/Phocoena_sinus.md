@@ -34,7 +34,7 @@ genome_size_method: null
 image: /assets/images/Phocoena_sinus.jpg
 image_license: "public domain"
 last_raw_data: 1547425539
-last_updated: 1553609004
+last_updated: 1554481677
 name: Phocoena sinus
 s3: s3://genomeark/species/Phocoena_sinus
 taxon_id: 42100

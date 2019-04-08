@@ -23,7 +23,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Spatula_cyanoptera.jpg
 image_license: "CC BY 2.0 Michael L. Baird (wikimedia)"
 last_raw_data: 1537988708
-last_updated: 1553609004
+last_updated: 1554481677
 name: Spatula cyanoptera
 s3: s3://genomeark/species/Spatula_cyanoptera
 taxon_id: 75840

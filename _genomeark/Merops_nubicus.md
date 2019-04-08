@@ -34,7 +34,7 @@ genome_size_method: null
 image: /assets/images/Merops_nubicus.jpg
 image_license: "CC BY-SA 3.0 Luc Viatour (wikimedia)"
 last_raw_data: 1547221880
-last_updated: 1553609004
+last_updated: 1554481677
 name: Merops nubicus
 s3: s3://genomeark/species/Merops_nubicus
 taxon_id: 57421
