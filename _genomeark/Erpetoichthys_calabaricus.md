@@ -60,7 +60,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Erpetoichthys_calabaricus.jpg
 image_license: "CC BY-SA 3.0 Michał Zalewski (wikimedia)"
 last_raw_data: 1536592476
-last_updated: 1553609004
+last_updated: 1554481677
 name: Erpetoichthys calabaricus
 pri1: curated1
 pri1date: 2019-03-05

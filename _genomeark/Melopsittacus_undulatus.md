@@ -18,7 +18,7 @@ genome_size_method: null
 image: /assets/images/Melopsittacus_undulatus.jpg
 image_license: "CC BY-SA 3.0 Atlanta Zoo (wikimedia)"
 last_raw_data: 1548966689
-last_updated: 1553609004
+last_updated: 1554481677
 name: Melopsittacus undulatus
 s3: s3://genomeark/species/Melopsittacus_undulatus
 taxon_id: 13146

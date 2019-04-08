@@ -1,10 +1,10 @@
 ---
-alt1: cambridge1
-alt1date: 2018-10-14
+alt1: curated1
+alt1date: 2019-04-03
 alt1filesize: 0.099 GB
-alt1n50ctg: 274051
-alt1n50scf: 274051
-alt1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_cambridge/fTakRub1.alt.asm.20181014.fasta.gz
+alt1n50ctg: 266405
+alt1n50scf: 276385
+alt1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.alt.cur.20190403.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -22,13 +22,13 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 28 </td><td> 0.85 Mbp </td><td> 28 </td><td> 0.85 Mbp </td></tr>  <tr><td> 20 </td><td> 77 </td><td> 0.58 Mbp </td><td> 77 </td><td> 0.58 Mbp </td></tr>  <tr><td> 30 </td><td> 145 </td><td> 0.43 Mbp </td><td> 145 </td><td> 0.43 Mbp </td></tr>  <tr><td> 40 </td><td> 233 </td><td> 0.34 Mbp </td><td> 233 </td><td> 0.34 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 343 </td><td> 0.27 Mbp </td><td> 343 </td><td> 0.27 Mbp </td></tr>  <tr><td> 60 </td><td> 482 </td><td> 0.22 Mbp </td><td> 482 </td><td> 0.22 Mbp </td></tr>  <tr><td> 70 </td><td> 657 </td><td> 0.17 Mbp </td><td> 657 </td><td> 0.17 Mbp </td></tr>  <tr><td> 80 </td><td> 885 </td><td> 0.13 Mbp </td><td> 885 </td><td> 0.13 Mbp </td></tr>  <tr><td> 90 </td><td> 1204 </td><td> 86.07 Kbp </td><td> 1204 </td><td> 86.07 Kbp </td></tr>  <tr><td> 100 </td><td> 1968 </td><td> 22  bp </td><td> 1968 </td><td> 22  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 29 </td><td> 0.83 Mbp </td><td> 27 </td><td> 0.88 Mbp </td></tr>  <tr><td> 20 </td><td> 80 </td><td> 0.57 Mbp </td><td> 77 </td><td> 0.60 Mbp </td></tr>  <tr><td> 30 </td><td> 151 </td><td> 0.43 Mbp </td><td> 146 </td><td> 0.44 Mbp </td></tr>  <tr><td> 40 </td><td> 243 </td><td> 0.33 Mbp </td><td> 236 </td><td> 0.35 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 359 </td><td> 0.27 Mbp </td><td> 349 </td><td> 0.28 Mbp </td></tr>  <tr><td> 60 </td><td> 505 </td><td> 0.21 Mbp </td><td> 491 </td><td> 0.22 Mbp </td></tr>  <tr><td> 70 </td><td> 689 </td><td> 0.17 Mbp </td><td> 672 </td><td> 0.17 Mbp </td></tr>  <tr><td> 80 </td><td> 927 </td><td> 0.13 Mbp </td><td> 906 </td><td> 0.13 Mbp </td></tr>  <tr><td> 90 </td><td> 1258 </td><td> 84.91 Kbp </td><td> 1232 </td><td> 86.41 Kbp </td></tr>  <tr><td> 100 </td><td> 2049 </td><td> 103  bp </td><td> 2011 </td><td> 103  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1969 </th><th> 339.61 Mbp </th><th> 1969 </th><th> 339.61 Mbp </th></tr>
+  <tr><th> 1.000x </th><th> 2050 </th><th> 349.39 Mbp </th><th> 2012 </th><th> 350.02 Mbp </th></tr>
   </tfoot>
   </table>
-assembly: assembly_cambridge
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: torafugu
 data_10x_bases: unknown
 data_10x_bytes: 73.884 GB
@@ -60,14 +60,14 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Takifugu_rubripes.jpg
 image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1553609004
+last_updated: 1554481677
 name: Takifugu rubripes
-pri1: cambridge1
-pri1date: 2018-10-14
-pri1filesize: 0.112 GB
-pri1n50ctg: 3014531
-pri1n50scf: 17695072
-pri1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_cambridge/fTakRub1.pri.asm.20181014.fasta.gz
+pri1: curated1
+pri1date: 2019-04-03
+pri1filesize: 0.107 GB
+pri1n50ctg: 3136617
+pri1n50scf: 16705553
+pri1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.pri.cur.20190403.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -85,9 +85,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 3 </td><td> 8.18 Mbp </td><td> 0 </td><td> 141.49 Mbp </td></tr>  <tr><td> 20 </td><td> 9 </td><td> 6.44 Mbp </td><td> 0 </td><td> 141.49 Mbp </td></tr>  <tr><td> 30 </td><td> 15 </td><td> 5.48 Mbp </td><td> 0 </td><td> 141.49 Mbp </td></tr>  <tr><td> 40 </td><td> 24 </td><td> 3.76 Mbp </td><td> 1 </td><td> 35.90 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 36 </td><td style="background-color:#88ff88;"> 3.01 Mbp </td><td> 3 </td><td style="background-color:#88ff88;"> 17.70 Mbp </td></tr>  <tr><td> 60 </td><td> 50 </td><td> 2.44 Mbp </td><td> 5 </td><td> 17.49 Mbp </td></tr>  <tr><td> 70 </td><td> 71 </td><td> 1.52 Mbp </td><td> 7 </td><td> 15.69 Mbp </td></tr>  <tr><td> 80 </td><td> 110 </td><td> 0.70 Mbp </td><td> 10 </td><td> 13.38 Mbp </td></tr>  <tr><td> 90 </td><td> 212 </td><td> 0.23 Mbp </td><td> 15 </td><td> 2.32 Mbp </td></tr>  <tr><td> 100 </td><td> 1495 </td><td> 6  bp </td><td> 171 </td><td> 60  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 8.18 Mbp </td><td> 1 </td><td> 21.51 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 6.77 Mbp </td><td> 3 </td><td> 19.72 Mbp </td></tr>  <tr><td> 30 </td><td> 15 </td><td> 5.37 Mbp </td><td> 5 </td><td> 18.24 Mbp </td></tr>  <tr><td> 40 </td><td> 23 </td><td> 3.79 Mbp </td><td> 7 </td><td> 17.48 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 34 </td><td style="background-color:#88ff88;"> 3.14 Mbp </td><td> 9 </td><td style="background-color:#88ff88;"> 16.71 Mbp </td></tr>  <tr><td> 60 </td><td> 48 </td><td> 2.47 Mbp </td><td> 12 </td><td> 16.06 Mbp </td></tr>  <tr><td> 70 </td><td> 68 </td><td> 1.65 Mbp </td><td> 14 </td><td> 15.69 Mbp </td></tr>  <tr><td> 80 </td><td> 101 </td><td> 0.78 Mbp </td><td> 17 </td><td> 13.57 Mbp </td></tr>  <tr><td> 90 </td><td> 180 </td><td> 0.27 Mbp </td><td> 19 </td><td> 12.91 Mbp </td></tr>  <tr><td> 100 </td><td> 528 </td><td> 1.29 Kbp </td><td> 126 </td><td> 27.23 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1496 </th><th> 390.62 Mbp </th><th> 172 </th><th> 400.68 Mbp </th></tr>
+  <tr><th> 1.000x </th><th> 529 </th><th> 380.42 Mbp </th><th> 127 </th><th> 384.11 Mbp </th></tr>
   </tfoot>
   </table>
 s3: s3://genomeark/species/Takifugu_rubripes

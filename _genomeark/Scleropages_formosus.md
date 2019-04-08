@@ -1,10 +1,10 @@
 ---
-alt1: cambridge1
-alt1date: 2019-01-15
-alt1filesize: 0.221 GB
-alt1n50ctg: 658933
-alt1n50scf: 658933
-alt1seq: https://s3.amazonaws.com/genomeark/species/Scleropages_formosus/fSclFor1/assembly_cambridge/fSclFor1.alt.asm.20190115.fasta.gz
+alt1: curated1
+alt1date: 2019-04-01
+alt1filesize: 0.218 GB
+alt1n50ctg: 659444
+alt1n50scf: 659444
+alt1seq: https://s3.amazonaws.com/genomeark/species/Scleropages_formosus/fSclFor1/assembly_curated/fSclFor1.alt.cur.20190401.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -22,13 +22,13 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 29 </td><td> 2.09 Mbp </td><td> 29 </td><td> 2.09 Mbp </td></tr>  <tr><td> 20 </td><td> 71 </td><td> 1.49 Mbp </td><td> 71 </td><td> 1.49 Mbp </td></tr>  <tr><td> 30 </td><td> 130 </td><td> 1.13 Mbp </td><td> 130 </td><td> 1.13 Mbp </td></tr>  <tr><td> 40 </td><td> 205 </td><td> 0.86 Mbp </td><td> 205 </td><td> 0.86 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 306 </td><td> 0.66 Mbp </td><td> 306 </td><td> 0.66 Mbp </td></tr>  <tr><td> 60 </td><td> 434 </td><td> 0.52 Mbp </td><td> 434 </td><td> 0.52 Mbp </td></tr>  <tr><td> 70 </td><td> 601 </td><td> 0.39 Mbp </td><td> 601 </td><td> 0.39 Mbp </td></tr>  <tr><td> 80 </td><td> 830 </td><td> 0.27 Mbp </td><td> 830 </td><td> 0.27 Mbp </td></tr>  <tr><td> 90 </td><td> 1171 </td><td> 0.18 Mbp </td><td> 1171 </td><td> 0.18 Mbp </td></tr>  <tr><td> 100 </td><td> 2004 </td><td> 32  bp </td><td> 2004 </td><td> 32  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 29 </td><td> 2.09 Mbp </td><td> 29 </td><td> 2.09 Mbp </td></tr>  <tr><td> 20 </td><td> 71 </td><td> 1.49 Mbp </td><td> 71 </td><td> 1.49 Mbp </td></tr>  <tr><td> 30 </td><td> 130 </td><td> 1.13 Mbp </td><td> 130 </td><td> 1.13 Mbp </td></tr>  <tr><td> 40 </td><td> 206 </td><td> 0.86 Mbp </td><td> 206 </td><td> 0.86 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 306 </td><td> 0.66 Mbp </td><td> 306 </td><td> 0.66 Mbp </td></tr>  <tr><td> 60 </td><td> 435 </td><td> 0.52 Mbp </td><td> 435 </td><td> 0.52 Mbp </td></tr>  <tr><td> 70 </td><td> 602 </td><td> 0.39 Mbp </td><td> 602 </td><td> 0.39 Mbp </td></tr>  <tr><td> 80 </td><td> 832 </td><td> 0.27 Mbp </td><td> 832 </td><td> 0.27 Mbp </td></tr>  <tr><td> 90 </td><td> 1174 </td><td> 0.18 Mbp </td><td> 1173 </td><td> 0.18 Mbp </td></tr>  <tr><td> 100 </td><td> 2006 </td><td> 147  bp </td><td> 2005 </td><td> 147  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 2005 </th><th> 0.75 Gbp </th><th> 2005 </th><th> 0.75 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 2007 </th><th> 0.75 Gbp </th><th> 2006 </th><th> 0.75 Gbp </th></tr>
   </tfoot>
   </table>
-assembly: assembly_cambridge
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: golden arowana
 data_10x_bases: unknown
 data_10x_bytes: 80.211 GB
@@ -60,14 +60,14 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Scleropages_formosus.jpg
 image_license: "CC BY-SA 2.5 Okinawa Churaumi Aquarium (opencage)"
 last_raw_data: 1547566320
-last_updated: 1553609004
+last_updated: 1554481677
 name: Scleropages formosus
-pri1: cambridge1
-pri1date: 2019-01-15
-pri1filesize: 0.229 GB
-pri1n50ctg: 9127517
-pri1n50scf: 22561231
-pri1seq: https://s3.amazonaws.com/genomeark/species/Scleropages_formosus/fSclFor1/assembly_cambridge/fSclFor1.pri.asm.20190115.fasta.gz
+pri1: curated1
+pri1date: 2019-04-01
+pri1filesize: 0.225 GB
+pri1n50ctg: 9102216
+pri1n50scf: 31084684
+pri1seq: https://s3.amazonaws.com/genomeark/species/Scleropages_formosus/fSclFor1/assembly_curated/fSclFor1.pri.cur.20190401.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -85,9 +85,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 3 </td><td> 19.33 Mbp </td><td> 1 </td><td> 43.17 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 14.21 Mbp </td><td> 3 </td><td> 36.55 Mbp </td></tr>  <tr><td> 30 </td><td> 14 </td><td> 12.14 Mbp </td><td> 6 </td><td> 28.02 Mbp </td></tr>  <tr><td> 40 </td><td> 21 </td><td> 10.25 Mbp </td><td> 8 </td><td> 25.98 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 29 </td><td style="background-color:#88ff88;"> 9.13 Mbp </td><td> 12 </td><td style="background-color:#88ff88;"> 22.56 Mbp </td></tr>  <tr><td> 60 </td><td> 39 </td><td> 7.19 Mbp </td><td> 15 </td><td> 18.66 Mbp </td></tr>  <tr><td> 70 </td><td> 51 </td><td> 5.21 Mbp </td><td> 21 </td><td> 11.90 Mbp </td></tr>  <tr><td> 80 </td><td> 68 </td><td> 3.96 Mbp </td><td> 30 </td><td> 8.47 Mbp </td></tr>  <tr><td> 90 </td><td> 92 </td><td> 2.68 Mbp </td><td> 44 </td><td> 4.02 Mbp </td></tr>  <tr><td> 100 </td><td> 215 </td><td> 2.02 Kbp </td><td> 122 </td><td> 23.59 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 19.33 Mbp </td><td> 1 </td><td> 43.58 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 13.98 Mbp </td><td> 3 </td><td> 39.06 Mbp </td></tr>  <tr><td> 30 </td><td> 14 </td><td> 11.90 Mbp </td><td> 5 </td><td> 38.29 Mbp </td></tr>  <tr><td> 40 </td><td> 22 </td><td> 9.87 Mbp </td><td> 7 </td><td> 32.82 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 30 </td><td style="background-color:#88ff88;"> 9.10 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 31.08 Mbp </td></tr>  <tr><td> 60 </td><td> 39 </td><td> 7.19 Mbp </td><td> 12 </td><td> 29.67 Mbp </td></tr>  <tr><td> 70 </td><td> 52 </td><td> 5.14 Mbp </td><td> 15 </td><td> 27.32 Mbp </td></tr>  <tr><td> 80 </td><td> 69 </td><td> 3.96 Mbp </td><td> 18 </td><td> 25.98 Mbp </td></tr>  <tr><td> 90 </td><td> 93 </td><td> 2.68 Mbp </td><td> 21 </td><td> 24.52 Mbp </td></tr>  <tr><td> 100 </td><td> 215 </td><td> 2.02 Kbp </td><td> 70 </td><td> 23.59 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 216 </th><th> 0.79 Gbp </th><th> 123 </th><th> 0.79 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 216 </th><th> 0.78 Gbp </th><th> 71 </th><th> 0.78 Gbp </th></tr>
   </tfoot>
   </table>
 s3: s3://genomeark/species/Scleropages_formosus

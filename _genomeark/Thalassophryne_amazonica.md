@@ -31,7 +31,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1544271402
-last_updated: 1553609004
+last_updated: 1554481677
 name: Thalassophryne amazonica
 s3: s3://genomeark/species/Thalassophryne_amazonica
 taxon_id: 390379
