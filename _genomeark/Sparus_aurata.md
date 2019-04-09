@@ -31,7 +31,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Sparus_aurata.jpg
 image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1523533999
-last_updated: 1554733296
+last_updated: 1554481677
 name: Sparus aurata
 s3: s3://genomeark/species/Sparus_aurata
 taxon_id: 8175
