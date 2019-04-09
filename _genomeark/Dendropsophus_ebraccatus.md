@@ -24,7 +24,7 @@ genome_size_method: null
 image: /assets/images/Dendropsophus_ebraccatus.jpg
 image_license: "CC BY 2.0 Brian Gratwicke (flickr)"
 last_raw_data: 1547225095
-last_updated: 1554733296
+last_updated: 1554481677
 name: Dendropsophus ebraccatus
 s3: s3://genomeark/species/Dendropsophus_ebraccatus
 taxon_id: 150705
