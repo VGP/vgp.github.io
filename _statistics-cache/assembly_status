@@ -1,4 +1,5 @@
 Acanthisitta_chloris
+Acipenser_ruthenus
 Amblyraja_radiata
 Anabas_testudineus            assembly_curated
 Aquila_chrysaetos
@@ -6,21 +7,26 @@ Archocentrus_centrarchus      assembly_curated
 Astatotilapia_calliptera      assembly_vgp_standard_1.0
 Branta_leucopsis
 Bucorvus_abyssinicus
+Bufo_bufo
 Calypte_anna                  assembly_curated
 Cariama_cristata
+Chanos_chanos                 assembly_cambridge
 Choloepus_didactylus
 Cottoperca_gobio              assembly_curated
+Danio_rerio
 Dendrocygna_viduata
 Denticeps_clupeoides          assembly_curated
 Dermochelys_coriacea
 Echeneis_naucrates            assembly_curated
 Erpetoichthys_calabaricus     assembly_curated
+Gadus_morhua
 Geothlypis_trichas
 Geotrypetes_seraphini
 Gopherus_evgoodei             assembly_curated
 Gouania_willdenowi            assembly_curated
 Lutra_lutra
 Lynx_canadensis               assembly_curated
+Malacosteus_niger
 Mastacembelus_armatus         assembly_curated
 Microcaecilia_unicolor        assembly_cambridge
 Myripristis_murdjan
@@ -28,10 +34,11 @@ Nomonyx_dominicus
 Ornithorhynchus_anatinus      assembly_curated
 Parambassis_ranga             assembly_curated
 Phyllostomus_discolor         assembly_curated
+Rana_temporaria
 Rhinatrema_bivittatum         assembly_curated
 Rhinolophus_ferrumequinum     assembly_curated
 Salarias_fasciatus            assembly_cambridge
-Salmo_trutta                  assembly_cambridge
+Salmo_trutta                  assembly_curated
 Sciurus_vulgaris
 Scleropages_formosus          assembly_curated
 Scyliorhinus_canicula
