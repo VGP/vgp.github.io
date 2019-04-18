@@ -37,7 +37,7 @@ genome_size_display: 3.40 Gbp
 image: /assets/images/Choloepus_didactylus.jpg
 image_license: "CC BY-SA 3.0 Hans Hillewaert (wikimedia)"
 last_raw_data: 1547217154
-last_updated: 1554481677
+last_updated: 1555092934
 name: Choloepus didactylus
 s3: s3://genomeark/species/Choloepus_didactylus
 taxon_id: 27675

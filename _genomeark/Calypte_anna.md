@@ -72,7 +72,7 @@ genome_size_display: 1.12 Gbp
 image: /assets/images/Calypte_anna.jpg
 image_license: "public domain"
 last_raw_data: 1531244296
-last_updated: 1554481677
+last_updated: 1555092934
 mito1date: 2019-03-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_mt_milan/bCalAnn1.MT.20190302.fasta.gz

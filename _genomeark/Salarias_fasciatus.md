@@ -64,7 +64,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Salarias_fasciatus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1554447472
-last_updated: 1554481677
+last_updated: 1555092934
 name: Salarias fasciatus
 pri1date: 2019-04-03
 pri1filesize: 233 MB

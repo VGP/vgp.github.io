@@ -64,7 +64,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Echeneis_naucrates.jpg
 image_license: "CC BY 2.0 Richard ling (wikimedia)"
 last_raw_data: 1549384902
-last_updated: 1554481677
+last_updated: 1555092934
 name: Echeneis naucrates
 pri1date: 2019-04-01
 pri1filesize: 147 MB
