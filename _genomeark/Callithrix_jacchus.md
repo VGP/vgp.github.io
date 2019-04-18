@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Callithrix_jacchus.jpg
 image_license: "CC BY-SA 2.0 Luciano Marra (flickr)"
 last_raw_data: 1553203166
-last_updated: 1554481677
+last_updated: 1555092934
 name: Callithrix jacchus
 s3: s3://genomeark/species/Callithrix_jacchus
 taxon_id: 9483

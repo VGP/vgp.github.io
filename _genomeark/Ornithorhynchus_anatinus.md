@@ -71,7 +71,7 @@ genome_size_display: 2.13 Gbp
 image: /assets/images/Ornithorhynchus_anatinus.jpg
 image_license: "CC BY-NC 2.0 Trevira1 (flickr)"
 last_raw_data: 1536347587
-last_updated: 1554481677
+last_updated: 1555092934
 mito1date: 2019-03-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_mt_milan/mOrnAna1.MT.20190302.fasta.gz
