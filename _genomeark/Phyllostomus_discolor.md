@@ -57,7 +57,7 @@ data_pbsubreads_bases: 163.04 Gbp
 data_pbsubreads_bytes: 292.405 GB
 data_pbsubreads_coverage: 73.65x
 data_pbsubreads_files: 86
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -66,7 +66,7 @@ genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: "CC BY-SA 4.0 Juan Carlos Vargas Mena (wikimedia)"
 last_raw_data: 1527496005
-last_updated: 1555092934
+last_updated: 1555552840
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_mt_milan/mPhyDis1.MT.20190308.fasta.gz

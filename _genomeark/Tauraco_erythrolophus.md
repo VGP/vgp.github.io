@@ -28,7 +28,7 @@ data_pbsubreads_bases: 77.20 Gbp
 data_pbsubreads_bytes: 132.977 GB
 data_pbsubreads_coverage: 65.99x
 data_pbsubreads_files: 18
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5407
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Tauraco_erythrolophus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1547420962
-last_updated: 1555092934
+last_updated: 1555552840
 name: Tauraco erythrolophus
 s3: s3://genomeark/species/Tauraco_erythrolophus
 taxon_id: 121530

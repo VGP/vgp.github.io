@@ -53,12 +53,12 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 82.899 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 10
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1554983650
-last_updated: 1555092934
+last_updated: 1555552840
 name: Chanos chanos
 pri1date: 2019-04-09
 pri1filesize: 197 MB

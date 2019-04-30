@@ -57,14 +57,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 107.985 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 36
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Streptopelia_turtur.jpg
 image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1548798897
-last_updated: 1555092934
+last_updated: 1555552840
 name: Streptopelia turtur
 pri1date: 2019-02-08
 pri1filesize: 351 MB

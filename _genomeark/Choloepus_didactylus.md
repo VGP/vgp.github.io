@@ -28,7 +28,7 @@ data_pbsubreads_bases: 193.25 Gbp
 data_pbsubreads_bytes: 339.455 GB
 data_pbsubreads_coverage: 56.84x
 data_pbsubreads_files: 70
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5302
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -37,7 +37,7 @@ genome_size_display: 3.40 Gbp
 image: /assets/images/Choloepus_didactylus.jpg
 image_license: "CC BY-SA 3.0 Hans Hillewaert (wikimedia)"
 last_raw_data: 1547217154
-last_updated: 1555092934
+last_updated: 1555552840
 name: Choloepus didactylus
 s3: s3://genomeark/species/Choloepus_didactylus
 taxon_id: 27675

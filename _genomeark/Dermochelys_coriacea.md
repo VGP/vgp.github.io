@@ -23,14 +23,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 276.004 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 34
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Dermochelys_coriacea.jpg
 image_license: "public domain"
 last_raw_data: 1536006522
-last_updated: 1555092934
+last_updated: 1555552840
 name: Dermochelys coriacea
 s3: s3://genomeark/species/Dermochelys_coriacea
 taxon_id: 27794

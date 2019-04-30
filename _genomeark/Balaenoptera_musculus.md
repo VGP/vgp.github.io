@@ -28,7 +28,7 @@ data_pbsubreads_bases: 158.27 Gbp
 data_pbsubreads_bytes: 283.843 GB
 data_pbsubreads_coverage: 51.16x
 data_pbsubreads_files: 104
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -36,7 +36,7 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 last_raw_data: 1554784718
-last_updated: 1555092934
+last_updated: 1555552840
 name: Balaenoptera musculus
 s3: s3://genomeark/species/Balaenoptera_musculus
 taxon_id: 9771

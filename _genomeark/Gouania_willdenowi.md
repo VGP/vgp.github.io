@@ -55,7 +55,7 @@ data_pbsubreads_bases: 56.71 Gbp
 data_pbsubreads_bytes: 100.723 GB
 data_pbsubreads_coverage: 47.97x
 data_pbsubreads_files: 32
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gouania_willdenowi/fGouWil2/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gouania_willdenowi/fGouWil2/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5244
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -64,7 +64,7 @@ genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1523524486
-last_updated: 1555092934
+last_updated: 1555552840
 mito2date: 2019-03-05
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_mt_milan/fGouWil2.MT.20190305.fasta.gz

@@ -8,7 +8,7 @@ data_illumina_scale: 1
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
-last_updated: 1555092934
+last_updated: 1555552840
 name: Bufo bufo
 s3: s3://genomeark/species/Bufo_bufo
 taxon_id: 8384

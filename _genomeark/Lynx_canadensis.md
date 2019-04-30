@@ -57,7 +57,7 @@ data_pbsubreads_bases: 179.82 Gbp
 data_pbsubreads_bytes: 311.347 GB
 data_pbsubreads_coverage: 72.76x
 data_pbsubreads_files: 67
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5379
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -66,7 +66,7 @@ genome_size_display: 2.47 Gbp
 image: /assets/images/Lynx_canadensis.jpg
 image_license: "CC BY 2.0 Keith Williams (flickr)"
 last_raw_data: 1534379101
-last_updated: 1555092934
+last_updated: 1555552840
 mito4date: 2019-03-10
 mito4filesize: 5 KB
 mito4seq: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/assembly_mt_milan/mLynCan4.MT.20190310.fasta.gz
