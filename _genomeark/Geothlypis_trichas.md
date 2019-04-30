@@ -28,14 +28,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 133.351 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 54
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5241
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Geothlypis_trichas.jpg
 image_license: "CC BY-SA 2.0 Dan Pancamo (flickr)"
 last_raw_data: 1544473266
-last_updated: 1555092934
+last_updated: 1555552840
 name: Geothlypis trichas
 s3: s3://genomeark/species/Geothlypis_trichas
 taxon_id: 135433

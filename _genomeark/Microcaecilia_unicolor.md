@@ -62,14 +62,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 441.129 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 72
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Microcaecilia_unicolor/aMicUni1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1548859097
-last_updated: 1555092934
+last_updated: 1555552840
 name: Microcaecilia unicolor
 pri1date: 2019-02-22
 pri1filesize: 1 GB

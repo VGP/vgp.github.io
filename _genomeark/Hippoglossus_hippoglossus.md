@@ -28,7 +28,7 @@ data_pbsubreads_bases: 56.23 Gbp
 data_pbsubreads_bytes: 97.581 GB
 data_pbsubreads_coverage: 56.23x
 data_pbsubreads_files: 22
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5367
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -37,8 +37,8 @@ genome_size_display: 1.00 Gbp
 genome_size_method: null
 image: /assets/images/Hippoglossus_hippoglossus.jpg
 image_license: "public domain"
-last_raw_data: 1548348029
-last_updated: 1555092934
+last_raw_data: 1555524366
+last_updated: 1555552840
 name: Hippoglossus hippoglossus
 s3: s3://genomeark/species/Hippoglossus_hippoglossus
 taxon_id: 8267

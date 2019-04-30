@@ -58,7 +58,7 @@ data_pbsubreads_bases: 77.06 Gbp
 data_pbsubreads_bytes: 231.725 GB
 data_pbsubreads_coverage: 69.02x
 data_pbsubreads_files: 378
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Calypte_anna/bCalAnn1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Calypte_anna/bCalAnn1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.3097
 data_phase_bases: 21.50 Gbp
 data_phase_bytes: 11.507 GB
@@ -71,8 +71,8 @@ genome_size: 1116472572
 genome_size_display: 1.12 Gbp
 image: /assets/images/Calypte_anna.jpg
 image_license: "public domain"
-last_raw_data: 1531244296
-last_updated: 1555092934
+last_raw_data: 1555437492
+last_updated: 1555552840
 mito1date: 2019-03-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_mt_milan/bCalAnn1.MT.20190302.fasta.gz

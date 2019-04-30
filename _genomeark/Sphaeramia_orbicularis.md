@@ -57,14 +57,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 121.103 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 14
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5396
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Sphaeramia_orbicularis.jpg
 image_license: "CC BY-SA 3.0 Sushi Girl1995 (wikimedia)"
 last_raw_data: 1553010021
-last_updated: 1555092934
+last_updated: 1555552840
 name: Sphaeramia orbicularis
 pri1date: 2019-03-25
 pri1filesize: 416 MB

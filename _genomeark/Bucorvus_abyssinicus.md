@@ -28,14 +28,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 150.701 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 26
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5356
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Bucorvus_abyssinicus.jpg
 image_license: "CC BY 2.0 Jerry Thompson (wikimedia)"
 last_raw_data: 1545247801
-last_updated: 1555092934
+last_updated: 1555552840
 name: Bucorvus abyssinicus
 s3: s3://genomeark/species/Bucorvus_abyssinicus
 taxon_id: 153643

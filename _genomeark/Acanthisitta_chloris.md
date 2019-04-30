@@ -23,14 +23,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 118.549 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 16
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.54
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Acanthisitta_chloris.jpg
 image_license: "CC BY-SA 2.0 digitaltrails (flickr)"
 last_raw_data: 1543518349
-last_updated: 1555092934
+last_updated: 1555552840
 name: Acanthisitta chloris
 s3: s3://genomeark/species/Acanthisitta_chloris
 taxon_id: 57068

@@ -28,7 +28,7 @@ data_pbsubreads_bases: 217.61 Gbp
 data_pbsubreads_bytes: 378.467 GB
 data_pbsubreads_coverage: 63.44x
 data_pbsubreads_files: 66
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5355
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Callithrix_jacchus.jpg
 image_license: "CC BY-SA 2.0 Luciano Marra (flickr)"
 last_raw_data: 1553203166
-last_updated: 1555092934
+last_updated: 1555552840
 name: Callithrix jacchus
 s3: s3://genomeark/species/Callithrix_jacchus
 taxon_id: 9483

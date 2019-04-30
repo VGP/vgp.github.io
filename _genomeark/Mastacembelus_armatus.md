@@ -55,7 +55,7 @@ data_pbsubreads_bases: 29.95 Gbp
 data_pbsubreads_bytes: 53.849 GB
 data_pbsubreads_coverage: 39.57x
 data_pbsubreads_files: 16
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5179
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -64,7 +64,7 @@ genome_size_display: 0.76 Gbp
 image: /assets/images/Mastacembelus_armatus.jpg
 image_license: "public domain"
 last_raw_data: 1523531959
-last_updated: 1555092934
+last_updated: 1555552840
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_mt_milan/fMasArm1.MT.20190304.fasta.gz

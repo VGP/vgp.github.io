@@ -1314,7 +1314,7 @@ foreach my $species (@speciesList) {
 
     if (($seqBytes{"pbsubreads"} > 0)) {
         foreach my $k (uniquifyStringArray($seqIndiv{"pbsubreads"})) {
-            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam\"<br>";
+            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam*\"<br>";
         }
 
         if ($data{"genome_size"} > 0) {

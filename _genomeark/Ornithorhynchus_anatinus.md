@@ -57,7 +57,7 @@ data_pbsubreads_bases: 138.76 Gbp
 data_pbsubreads_bytes: 499.736 GB
 data_pbsubreads_coverage: 65.20x
 data_pbsubreads_files: 202
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.2586
 data_phase_bases: 105.08 Gbp
 data_phase_bytes: 61.153 GB
@@ -71,7 +71,7 @@ genome_size_display: 2.13 Gbp
 image: /assets/images/Ornithorhynchus_anatinus.jpg
 image_license: "CC BY-NC 2.0 Trevira1 (flickr)"
 last_raw_data: 1536347587
-last_updated: 1555092934
+last_updated: 1555552840
 mito1date: 2019-03-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_mt_milan/mOrnAna1.MT.20190302.fasta.gz

@@ -28,7 +28,7 @@ data_pbsubreads_bases: 182.18 Gbp
 data_pbsubreads_bytes: 315.605 GB
 data_pbsubreads_coverage: 60.73x
 data_pbsubreads_files: 60
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/ . --exclude "*scraps.bam"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Trichosurus_vulpecula.jpg
 image_license: "CC BY 2.0 Donald Hobern (flickr)"
 last_raw_data: 1547229500
-last_updated: 1555092934
+last_updated: 1555552840
 name: Trichosurus vulpecula
 s3: s3://genomeark/species/Trichosurus_vulpecula
 taxon_id: 9337
