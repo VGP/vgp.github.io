@@ -19,7 +19,7 @@ Denticeps_clupeoides          assembly_curated
 Dermochelys_coriacea
 Echeneis_naucrates            assembly_curated
 Erpetoichthys_calabaricus     assembly_curated
-Gadus_morhua
+Gadus_morhua                  assembly_cambridge
 Geothlypis_trichas
 Geotrypetes_seraphini
 Gopherus_evgoodei             assembly_curated
@@ -29,7 +29,7 @@ Lynx_canadensis               assembly_curated
 Malacosteus_niger
 Mastacembelus_armatus         assembly_curated
 Microcaecilia_unicolor        assembly_cambridge
-Myripristis_murdjan
+Myripristis_murdjan           assembly_cambridge
 Nomonyx_dominicus
 Ornithorhynchus_anatinus      assembly_curated
 Parambassis_ranga             assembly_curated
