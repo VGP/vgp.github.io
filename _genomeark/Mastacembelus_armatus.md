@@ -64,7 +64,7 @@ genome_size_display: 0.76 Gbp
 image: /assets/images/Mastacembelus_armatus.jpg
 image_license: "public domain"
 last_raw_data: 1523531959
-last_updated: 1555552840
+last_updated: 1557952733
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_mt_milan/fMasArm1.MT.20190304.fasta.gz

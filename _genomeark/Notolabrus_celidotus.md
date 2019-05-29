@@ -7,12 +7,12 @@ data_10x_coverage: 52.53x
 data_10x_files: 11
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolabrus_celidotus/fNotCel1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8197
-data_arima_bases: 111.00 Gbp
-data_arima_bytes: 58.482 GB
-data_arima_coverage: 111.00x
-data_arima_files: 4
+data_arima_bases: 229.69 Gbp
+data_arima_bytes: 116.964 GB
+data_arima_coverage: 229.69x
+data_arima_files: 6
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolabrus_celidotus/fNotCel1/genomic_data/arima/ .<br>
-data_arima_scale: 1.7677
+data_arima_scale: 1.8289
 data_bionano_bases: 1310.13 Gbp
 data_bionano_bytes: 2.384 GB
 data_bionano_coverage: 1310.13x
@@ -37,8 +37,8 @@ genome_size_display: 1.00 Gbp
 genome_size_method: null
 image: /assets/images/fish.png
 image_license: Apple
-last_raw_data: 1547243120
-last_updated: 1555552840
+last_raw_data: 1557543675
+last_updated: 1557952733
 name: Notolabrus celidotus
 s3: s3://genomeark/species/Notolabrus_celidotus
 taxon_id: 1203425

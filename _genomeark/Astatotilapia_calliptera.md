@@ -55,7 +55,7 @@ genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
 image_license: "CC BY-SA 2.0 Alexandra Tyers (flickr)"
 last_raw_data: 1520006832
-last_updated: 1555552840
+last_updated: 1557952733
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_mt_milan/fAstCal1.MT.20190304.fasta.gz

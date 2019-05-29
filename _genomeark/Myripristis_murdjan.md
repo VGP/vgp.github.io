@@ -13,6 +13,11 @@ data_arima_coverage: N/A
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Myripristis_murdjan/fMyrMur1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5123
+data_bionano_bases: unknown
+data_bionano_bytes: 1.851 GB
+data_bionano_coverage: N/A
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Myripristis_murdjan/fMyrMur1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -26,11 +31,11 @@ data_pbsubreads_files: 16
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Myripristis_murdjan/fMyrMur1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5368
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 image: /assets/images/Myripristis_murdjan.jpg
 image_license: "CC BY 2.0 Rickard Zerpe (flickr)"
-last_raw_data: 1544184309
-last_updated: 1555552840
+last_raw_data: 1556731081
+last_updated: 1557952733
 name: Myripristis murdjan
 s3: s3://genomeark/species/Myripristis_murdjan
 taxon_id: 586833

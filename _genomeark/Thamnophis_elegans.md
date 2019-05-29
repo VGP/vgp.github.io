@@ -13,12 +13,12 @@ data_bionano_bytes: 0.589 GB
 data_bionano_coverage: 185.58x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Thamnophis_elegans/rThaEle1/genomic_data/bionano/ .<br>
-data_dovetail_bases: 131.15 Gbp
-data_dovetail_bytes: 73.924 GB
-data_dovetail_coverage: 69.03x
-data_dovetail_files: 2
+data_dovetail_bases: 263.73 Gbp
+data_dovetail_bytes: 147.848 GB
+data_dovetail_coverage: 138.81x
+data_dovetail_files: 3
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Thamnophis_elegans/rThaEle1/genomic_data/dovetail/ .<br>
-data_dovetail_scale: 1.6523
+data_dovetail_scale: 1.6613
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 170.298 GB
@@ -37,8 +37,8 @@ genome_size_display: 1.90 Gbp
 genome_size_method: null
 image: /assets/images/Thamnophis_elegans.jpg
 image_license: "CC BY-NC 2.0 J. Maughn (flickr)"
-last_raw_data: 1547238861
-last_updated: 1555552840
+last_raw_data: 1557292636
+last_updated: 1557952733
 name: Thamnophis elegans
 s3: s3://genomeark/species/Thamnophis_elegans
 taxon_id: 35005

@@ -23,8 +23,8 @@ genome_size_display: 2.89 Gbp
 genome_size_method: null
 image: /assets/images/Tachyglossus_aculeatus.jpg
 image_license: "CC BY-SA 3.0 JKMelville (wikimedia)"
-last_raw_data: 1535656904
-last_updated: 1555552840
+last_raw_data: 1557520158
+last_updated: 1557952733
 name: Tachyglossus aculeatus
 s3: s3://genomeark/species/Tachyglossus_aculeatus
 taxon_id: 9261

@@ -35,8 +35,8 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Salmo_trutta.jpg
 image_license: "public domain"
-last_raw_data: 1537972599
-last_updated: 1555552840
+last_raw_data: 1556285514
+last_updated: 1557952733
 name: Salmo trutta
 pri1date: 2019-04-03
 pri1filesize: 624 MB
