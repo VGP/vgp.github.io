@@ -64,7 +64,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Parambassis_ranga.jpg
 image_license: "CC BY-SA 2.5 opencage (wikimedia)"
 last_raw_data: 1535575225
-last_updated: 1555552840
+last_updated: 1557952733
 name: Parambassis ranga
 pri2date: 2018-12-05
 pri2filesize: 144 MB

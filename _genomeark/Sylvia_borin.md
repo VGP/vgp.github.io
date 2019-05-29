@@ -8,6 +8,11 @@ data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_borin/bSylBor1/genomic_data/10x/ .<br>
 data_10x_scale: 1.785
 data_arima_scale: 1
+data_bionano_bases: 707.61 Gbp
+data_bionano_bytes: 1.193 GB
+data_bionano_coverage: 589.67x
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_borin/bSylBor1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -27,8 +32,8 @@ genome_size_display: 1.20 Gbp
 genome_size_method: null
 image: /assets/images/Sylvia_borin.jpg
 image_license: "CC BY-NC-SA 2.0 Steve Garvie (flickr)"
-last_raw_data: 1547420493
-last_updated: 1555552840
+last_raw_data: 1556386552
+last_updated: 1557952733
 name: Sylvia borin
 s3: s3://genomeark/species/Sylvia_borin
 taxon_id: 1471886

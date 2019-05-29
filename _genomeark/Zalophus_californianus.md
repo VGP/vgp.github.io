@@ -13,7 +13,7 @@ genome_size_display: 3.15 Gbp
 genome_size_method: null
 image: /assets/images/Zalophus_californianus.jpg
 image_license: "CC BY-SA 2.0 Gregory Smith (flickr)"
-last_updated: 1555552840
+last_updated: 1557952733
 name: Zalophus californianus
 s3: s3://genomeark/species/Zalophus_californianus
 taxon_id: 9704

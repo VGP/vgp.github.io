@@ -330,6 +330,8 @@ sub generateAssemblySummary ($$$) {
         print STDERR "FAILED TO FIND SIZES '$filename'\n";
         exit(1);
     }
+
+    system("rm -f downloads/$filename.gz");
 }
 
 

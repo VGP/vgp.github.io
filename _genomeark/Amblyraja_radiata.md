@@ -1,12 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: thorny skate
-data_10x_bases: 198.46 Gbp
-data_10x_bytes: 102.061 GB
-data_10x_coverage: 95.74x
-data_10x_files: 32
+data_10x_bases: 197.33 Gbp
+data_10x_bytes: 114.690 GB
+data_10x_coverage: 95.20x
+data_10x_files: 35
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/10x/ .<br>
-data_10x_scale: 1.811
+data_10x_scale: 1.6024
 data_arima_bases: 342.60 Gbp
 data_arima_bytes: 167.949 GB
 data_arima_coverage: 165.27x
@@ -14,7 +14,7 @@ data_arima_files: 18
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8998
 data_bionano_bases: 3211.61 Gbp
-data_bionano_bytes: 4.990 GB
+data_bionano_bytes: 4.938 GB
 data_bionano_coverage: 1549.31x
 data_bionano_files: 3
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/ .<br>
@@ -36,8 +36,8 @@ genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 image: /assets/images/Amblyraja_radiata.jpg
 image_license: "public domain"
-last_raw_data: 1555538994
-last_updated: 1555552840
+last_raw_data: 1556038288
+last_updated: 1557952733
 name: Amblyraja radiata
 s3: s3://genomeark/species/Amblyraja_radiata
 taxon_id: 386614

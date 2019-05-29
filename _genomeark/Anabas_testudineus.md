@@ -66,7 +66,7 @@ genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: "public domain"
 last_raw_data: 1523263117
-last_updated: 1555552840
+last_updated: 1557952733
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_mt_milan/fAnaTes1.MT.20190310.fasta.gz
