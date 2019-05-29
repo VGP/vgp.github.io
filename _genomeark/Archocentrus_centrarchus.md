@@ -62,7 +62,7 @@ genome_size_display: 0.99 Gbp
 image: /assets/images/Archocentrus_centrarchus.jpg
 image_license: "public domain"
 last_raw_data: 1551284459
-last_updated: 1557952733
+last_updated: 1559151573
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_mt_milan/fArcCen1.MT.20190308.fasta.gz
