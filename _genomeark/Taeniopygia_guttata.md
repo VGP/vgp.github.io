@@ -68,13 +68,13 @@ data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
 data_arima_coverage: 242.54x
 data_arima_files: 20
-data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8484
 data_bionano_bases: 1642.52 Gbp
 data_bionano_bytes: 2.136 GB
 data_bionano_coverage: 1586.04x
 data_bionano_files: 4
-data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/ .<br>
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_bases: 138.82 Gbp
 data_illumina_bytes: 71.694 GB
@@ -99,7 +99,35 @@ genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
 image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
-last_updated: 1557952733
+last_updated: 1559151573
+mat2date: 2019-05-24
+mat2filesize: 290 MB
+mat2n50ctg: 5135574
+mat2n50scf: 67754099
+mat2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.mat.cur.20190524.fasta.gz
+mat2sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 16.01 Mbp </td><td> 0 </td><td> 151.42 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 9.61 Mbp </td><td> 1 </td><td> 111.83 Mbp </td></tr>  <tr><td> 30 </td><td> 26 </td><td> 7.45 Mbp </td><td> 2 </td><td> 95.27 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 6.08 Mbp </td><td> 3 </td><td> 73.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 60 </td><td> 5.14 Mbp </td><td> 5 </td><td> 67.75 Mbp </td></tr>  <tr><td> 60 </td><td> 83 </td><td> 3.77 Mbp </td><td> 6 </td><td> 61.33 Mbp </td></tr>  <tr><td> 70 </td><td> 117 </td><td> 2.51 Mbp </td><td> 9 </td><td> 31.86 Mbp </td></tr>  <tr><td> 80 </td><td> 173 </td><td> 1.37 Mbp </td><td> 14 </td><td> 19.52 Mbp </td></tr>  <tr><td> 90 </td><td> 311 </td><td> 0.35 Mbp </td><td> 20 </td><td> 11.45 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 55 </td><td> 0.22 Mbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.968x </th><th> 1277 </th><th> 1.00 Gbp </th><th> 205 </th><th> 1.04 Gbp </th></tr>
+  </tfoot>
+  </table>
+mat2version: assembly_curated
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_mt_milan/bTaeGut1.MT.20190308.fasta.gz
@@ -153,6 +181,34 @@ mito2sizes: |
   </table>
 mito2version: assembly_mt_milan
 name: Taeniopygia guttata
+pat2date: 2019-05-24
+pat2filesize: 297 MB
+pat2n50ctg: 4426657
+pat2n50scf: 71339641
+pat2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.pat.cur.20190524.fasta.gz
+pat2sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 4 </td><td> 17.44 Mbp </td><td> 0 </td><td> 151.89 Mbp </td></tr>  <tr><td> 20 </td><td> 12 </td><td> 9.99 Mbp </td><td> 1 </td><td> 114.37 Mbp </td></tr>  <tr><td> 30 </td><td> 24 </td><td> 7.33 Mbp </td><td> 2 </td><td> 111.45 Mbp </td></tr>  <tr><td> 40 </td><td> 40 </td><td> 5.73 Mbp </td><td> 3 </td><td> 78.97 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 61 </td><td> 4.43 Mbp </td><td> 4 </td><td> 71.34 Mbp </td></tr>  <tr><td> 60 </td><td> 87 </td><td> 3.38 Mbp </td><td> 6 </td><td> 61.90 Mbp </td></tr>  <tr><td> 70 </td><td> 127 </td><td> 2.11 Mbp </td><td> 8 </td><td> 34.84 Mbp </td></tr>  <tr><td> 80 </td><td> 186 </td><td> 1.35 Mbp </td><td> 12 </td><td> 20.43 Mbp </td></tr>  <tr><td> 90 </td><td> 294 </td><td> 0.64 Mbp </td><td> 18 </td><td> 13.71 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 42 </td><td> 0.74 Mbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.991x </th><th> 1029 </th><th> 1.03 Gbp </th><th> 202 </th><th> 1.05 Gbp </th></tr>
+  </tfoot>
+  </table>
+pat2version: assembly_curated
 pri1date: 2018-10-23
 pri1filesize: 282 MB
 pri1n50ctg: 12079046

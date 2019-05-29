@@ -13,6 +13,11 @@ data_arima_coverage: 71.23x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromyzon_marinus/kPetMar1/genomic_data/arima/ .<br>
 data_arima_scale: 1.7531
+data_bionano_bases: 807.27 Gbp
+data_bionano_bytes: 0.838 GB
+data_bionano_coverage: 538.18x
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromyzon_marinus/kPetMar1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbscraps_bases: unknown
@@ -26,14 +31,14 @@ data_pbsubreads_files: 20
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.5465
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1500000000
 genome_size_display: 1.50 Gbp
 genome_size_method: null
 image: /assets/images/Petromyzon_marinus.jpg
 image_license: "CC BY-SA 2.0 T. Lawrence (flickr)"
-last_raw_data: 1555347202
-last_updated: 1557952733
+last_raw_data: 1559051481
+last_updated: 1559151573
 name: Petromyzon marinus
 s3: s3://genomeark/species/Petromyzon_marinus
 taxon_id: 7757

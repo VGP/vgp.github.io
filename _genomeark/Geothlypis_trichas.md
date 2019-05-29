@@ -35,7 +35,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Geothlypis_trichas.jpg
 image_license: "CC BY-SA 2.0 Dan Pancamo (flickr)"
 last_raw_data: 1544473266
-last_updated: 1557952733
+last_updated: 1559151573
 name: Geothlypis trichas
 s3: s3://genomeark/species/Geothlypis_trichas
 taxon_id: 135433

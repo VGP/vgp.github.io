@@ -29,7 +29,7 @@ data_pbsubreads_scale: 0.2993
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1556739326
-last_updated: 1557952733
+last_updated: 1559151573
 name: Gadus morhua
 s3: s3://genomeark/species/Gadus_morhua
 taxon_id: 8049

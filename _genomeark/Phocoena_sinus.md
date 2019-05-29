@@ -1,10 +1,10 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: vaquita
-data_10x_bases: 403.58 Gbp
-data_10x_bytes: 209.020 GB
-data_10x_coverage: 134.53x
-data_10x_files: 16
+data_10x_bases: 201.79 Gbp
+data_10x_bytes: 104.510 GB
+data_10x_coverage: 67.26x
+data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Phocoena_sinus/mPhoSin1/genomic_data/10x/ .<br>
 data_10x_scale: 1.7982
 data_arima_bases: 521.14 Gbp
@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Phocoena_sinus.jpg
 image_license: "public domain"
 last_raw_data: 1557360444
-last_updated: 1557952733
+last_updated: 1559151573
 name: Phocoena sinus
 s3: s3://genomeark/species/Phocoena_sinus
 taxon_id: 42100
