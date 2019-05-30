@@ -60,7 +60,7 @@ genome_size_display: 1.19 Gbp
 image: /assets/images/Strigops_habroptilus.jpg
 image_license: "CC BY-NC 2.0 Jake Osborne (flickr)"
 last_raw_data: 1550259783
-last_updated: 1559229696
+last_updated: 1559151573
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_mt_milan/bStrHab1.MT.20190304.fasta.gz
