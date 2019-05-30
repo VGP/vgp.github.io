@@ -62,7 +62,7 @@ data_10x_bases: 205.67 Gbp
 data_10x_bytes: 123.768 GB
 data_10x_coverage: 198.60x
 data_10x_files: 48
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>
 data_10x_scale: 1.5476
 data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
@@ -80,7 +80,7 @@ data_illumina_bases: 138.82 Gbp
 data_illumina_bytes: 71.694 GB
 data_illumina_coverage: 134.05x
 data_illumina_files: 4
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8033
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 480.991 GB
@@ -90,7 +90,7 @@ data_pbsubreads_bases: 159.85 Gbp
 data_pbsubreads_bytes: 574.778 GB
 data_pbsubreads_coverage: 154.35x
 data_pbsubreads_files: 394
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
 data_pbsubreads_scale: 0.259
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -99,7 +99,7 @@ genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
 image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
-last_updated: 1559151573
+last_updated: 1559229696
 mat2date: 2019-05-24
 mat2filesize: 290 MB
 mat2n50ctg: 5135574
@@ -122,7 +122,7 @@ mat2sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 16.01 Mbp </td><td> 0 </td><td> 151.42 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 9.61 Mbp </td><td> 1 </td><td> 111.83 Mbp </td></tr>  <tr><td> 30 </td><td> 26 </td><td> 7.45 Mbp </td><td> 2 </td><td> 95.27 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 6.08 Mbp </td><td> 3 </td><td> 73.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 60 </td><td> 5.14 Mbp </td><td> 5 </td><td> 67.75 Mbp </td></tr>  <tr><td> 60 </td><td> 83 </td><td> 3.77 Mbp </td><td> 6 </td><td> 61.33 Mbp </td></tr>  <tr><td> 70 </td><td> 117 </td><td> 2.51 Mbp </td><td> 9 </td><td> 31.86 Mbp </td></tr>  <tr><td> 80 </td><td> 173 </td><td> 1.37 Mbp </td><td> 14 </td><td> 19.52 Mbp </td></tr>  <tr><td> 90 </td><td> 311 </td><td> 0.35 Mbp </td><td> 20 </td><td> 11.45 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 55 </td><td> 0.22 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 16.01 Mbp </td><td> 0 </td><td> 151.42 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 9.61 Mbp </td><td> 1 </td><td> 111.83 Mbp </td></tr>  <tr><td> 30 </td><td> 26 </td><td> 7.45 Mbp </td><td> 2 </td><td> 95.27 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 6.08 Mbp </td><td> 3 </td><td> 73.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 60 </td><td style="background-color:#88ff88;"> 5.14 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 67.75 Mbp </td></tr>  <tr><td> 60 </td><td> 83 </td><td> 3.77 Mbp </td><td> 6 </td><td> 61.33 Mbp </td></tr>  <tr><td> 70 </td><td> 117 </td><td> 2.51 Mbp </td><td> 9 </td><td> 31.86 Mbp </td></tr>  <tr><td> 80 </td><td> 173 </td><td> 1.37 Mbp </td><td> 14 </td><td> 19.52 Mbp </td></tr>  <tr><td> 90 </td><td> 311 </td><td> 0.35 Mbp </td><td> 20 </td><td> 11.45 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 55 </td><td> 0.22 Mbp </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.968x </th><th> 1277 </th><th> 1.00 Gbp </th><th> 205 </th><th> 1.04 Gbp </th></tr>
   </tfoot>
@@ -148,7 +148,7 @@ mito1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 5248 </th><th> A </th><th> 0.3114  bp </th><th> A </th><th> 0.3114  bp </th></tr>
   </tfoot>
@@ -174,7 +174,7 @@ mito2sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 5244 </th><th> A </th><th> 0.3111  bp </th><th> A </th><th> 0.3111  bp </th></tr>
   </tfoot>
@@ -203,7 +203,7 @@ pat2sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 4 </td><td> 17.44 Mbp </td><td> 0 </td><td> 151.89 Mbp </td></tr>  <tr><td> 20 </td><td> 12 </td><td> 9.99 Mbp </td><td> 1 </td><td> 114.37 Mbp </td></tr>  <tr><td> 30 </td><td> 24 </td><td> 7.33 Mbp </td><td> 2 </td><td> 111.45 Mbp </td></tr>  <tr><td> 40 </td><td> 40 </td><td> 5.73 Mbp </td><td> 3 </td><td> 78.97 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 61 </td><td> 4.43 Mbp </td><td> 4 </td><td> 71.34 Mbp </td></tr>  <tr><td> 60 </td><td> 87 </td><td> 3.38 Mbp </td><td> 6 </td><td> 61.90 Mbp </td></tr>  <tr><td> 70 </td><td> 127 </td><td> 2.11 Mbp </td><td> 8 </td><td> 34.84 Mbp </td></tr>  <tr><td> 80 </td><td> 186 </td><td> 1.35 Mbp </td><td> 12 </td><td> 20.43 Mbp </td></tr>  <tr><td> 90 </td><td> 294 </td><td> 0.64 Mbp </td><td> 18 </td><td> 13.71 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 42 </td><td> 0.74 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 4 </td><td> 17.44 Mbp </td><td> 0 </td><td> 151.89 Mbp </td></tr>  <tr><td> 20 </td><td> 12 </td><td> 9.99 Mbp </td><td> 1 </td><td> 114.37 Mbp </td></tr>  <tr><td> 30 </td><td> 24 </td><td> 7.33 Mbp </td><td> 2 </td><td> 111.45 Mbp </td></tr>  <tr><td> 40 </td><td> 40 </td><td> 5.73 Mbp </td><td> 3 </td><td> 78.97 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 61 </td><td style="background-color:#88ff88;"> 4.43 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 71.34 Mbp </td></tr>  <tr><td> 60 </td><td> 87 </td><td> 3.38 Mbp </td><td> 6 </td><td> 61.90 Mbp </td></tr>  <tr><td> 70 </td><td> 127 </td><td> 2.11 Mbp </td><td> 8 </td><td> 34.84 Mbp </td></tr>  <tr><td> 80 </td><td> 186 </td><td> 1.35 Mbp </td><td> 12 </td><td> 20.43 Mbp </td></tr>  <tr><td> 90 </td><td> 294 </td><td> 0.64 Mbp </td><td> 18 </td><td> 13.71 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 42 </td><td> 0.74 Mbp </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.991x </th><th> 1029 </th><th> 1.03 Gbp </th><th> 202 </th><th> 1.05 Gbp </th></tr>
   </tfoot>
