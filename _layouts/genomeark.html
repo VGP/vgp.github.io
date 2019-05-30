@@ -151,7 +151,7 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
 {% endif %}
 </div>
 
-
+<!-- NOTES --->
 
 {% if page.notes %}
 <h3>Notes</h3>
@@ -160,285 +160,69 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
 </div>
 {% endif %}
 
-<!---
-{% unless page.pri1seq or page.pri2seq or page.pri3seq or page.pri4seq %}
-<div class="notes">
-<em style="color:red">No assemblies.</em><br/>
-</div>
-{% endunless %}
---->
+<!-- ASSEMBLIES --->
 
-<!-- ONE --->
+<h3>Assemblies</h3>
 
-{% if page.pri1seq %}
-<h3>Individual 1 Assemblies</h3>
-<div class="assembly">
+{% include genomeark_asm_stats.html
+     individual=1
+     llabel="Primary"   lseq=page.pri1seq lversion=page.pri1version ldate=page.pri1date lfilesize=page.pri1filesize lsizes=page.pri1sizes
+     rlabel="Alternate" rseq=page.alt1seq rversion=page.alt1version rdate=page.alt1date rfilesize=page.alt1filesize rsizes=page.alt1sizes
+     genome_size_display=page.genome_size_display
+%}
 
-<!---
-{% if page.mito1seq %}
-<div class="mito-sequence">
-  <h4>Mitochondria</h4>
-  <div class="sequence-file">
-  Version <em>{{ page.mito1version }}</em> from {{ page.mito1date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.mito1seq }}">{{ page.mito1seq | split: "/" | last }}</a> ({{ page.mito1filesize }})
-  </div>
-</div>
-{% endif %}
---->
+{% include genomeark_asm_stats.html
+     individual=1
+     llabel="Maternal"  lseq=page.mat1seq lversion=page.mat1version ldate=page.mat1date lfilesize=page.mat1filesize lsizes=page.mat1sizes
+     rlabel="Paternal"  rseq=page.pat1seq rversion=page.pat1version rdate=page.pat1date rfilesize=page.pat1filesize rsizes=page.pat1sizes
+     genome_size_display=page.genome_size_display
+%}
 
-<div class="primary-sequence">
-<!--  <h4>Individual 1 Primary</h4> --->
-  <div class="sequence-file">
-  <b>Primary</b><br>
-  Version <em>{{ page.pri1version }}</em> from {{ page.pri1date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.pri1seq }}">{{ page.pri1seq | split: "/" | last }}</a> ({{ page.pri1filesize }})<br>
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.pri1sizes %}
-  {{ page.pri1sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
 
-<div class="alternate-sequence">
-<!--  <h4>Individual 1 Alternate</h4> --->
-  <div class="sequence-file">
-  <b>Alternate</b><br>
-  {% if page.alt1seq %}
-  Version <em>{{ page.alt1version }}</em> from {{ page.alt1date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.alt1seq }}">{{ page.alt1seq | split: "/" | last }}</a> ({{ page.alt1filesize }})
-  {% else %}
-  None
-  {% endif %}
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.alt1sizes %}
-  {{ page.alt1sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
-<div align="right">
-{% if page.genome_size_display %}
-NG based on genome size {{ page.genome_size_display }}.
-{% else %}
-No genome size estimate available.
-{% endif %}
-</div>
+{% include genomeark_asm_stats.html
+     individual=2
+     llabel="Primary"   lseq=page.pri2seq lversion=page.pri2version ldate=page.pri2date lfilesize=page.pri2filesize lsizes=page.pri2sizes
+     rlabel="Alternate" rseq=page.alt2seq rversion=page.alt2version rdate=page.alt2date rfilesize=page.alt2filesize rsizes=page.alt2sizes
+     genome_size_display=page.genome_size_display
+%}
 
-{% if page.mito1seq %}
-<div class="mito-sequence">
-  <div class="sequence-file">
-  <b>Mitochondrial</b><br>
-  Version <em>{{ page.mito1version }}</em> from {{ page.mito1date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.mito1seq }}">{{ page.mito1seq | split: "/" | last }}</a> ({{ page.mito1filesize }})
-  </div>
-</div>
-{% endif %}
+{% include genomeark_asm_stats.html
+     individual=2
+     llabel="Maternal"  lseq=page.mat2seq lversion=page.mat2version ldate=page.mat2date lfilesize=page.mat2filesize lsizes=page.mat2sizes
+     rlabel="Paternal"  rseq=page.pat2seq rversion=page.pat2version rdate=page.pat2date rfilesize=page.pat2filesize rsizes=page.pat2sizes
+     genome_size_display=page.genome_size_display
+%}
 
-</div>
-{% endif %}
 
-<!-- TWO --->
+{% include genomeark_asm_stats.html
+     individual=3
+     llabel="Primary"   lseq=page.pri3seq lversion=page.pri3version ldate=page.pri3date lfilesize=page.pri3filesize lsizes=page.pri3sizes
+     rlabel="Alternate" rseq=page.alt3seq rversion=page.alt3version rdate=page.alt3date rfilesize=page.alt3filesize rsizes=page.alt3sizes
+     genome_size_display=page.genome_size_display
+%}
 
-{% if page.pri2seq %}
-<h3>Individual 2 Assemblies</h3>
-<div class="assembly">
+{% include genomeark_asm_stats.html
+     individual=3
+     llabel="Maternal"  lseq=page.mat3seq lversion=page.mat3version ldate=page.mat3date lfilesize=page.mat3filesize lsizes=page.mat3sizes
+     rlabel="Paternal"  rseq=page.pat3seq rversion=page.pat3version rdate=page.pat3date rfilesize=page.pat3filesize rsizes=page.pat3sizes
+     genome_size_display=page.genome_size_display
+%}
 
-<!--
-{% if page.mito2seq %}
-<div class="mito-sequence">
-  <h4>Mitochondria</h4>
-  <div class="sequence-file">
-  Version <em>{{ page.mito2version }}</em> from {{ page.mito2date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.mito2seq }}">{{ page.mito2seq | split: "/" | last }}</a> ({{ page.mito2filesize }})
-  </div>
-</div>
-{% endif %}
---->
 
-<div class="primary-sequence">
-  <div class="sequence-file">
-  <b>Primary</b><br>
-  Version <em>{{ page.pri1version }}</em> from {{ page.pri2date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.pri2seq }}">{{ page.pri2seq | split: "/" | last }}</a> ({{ page.pri2filesize }})
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.pri2sizes %}
-  {{ page.pri2sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
+{% include genomeark_asm_stats.html
+     individual=4
+     llabel="Primary"   lseq=page.pri4seq lversion=page.pri4version ldate=page.pri4date lfilesize=page.pri4filesize lsizes=page.pri4sizes
+     rlabel="Alternate" rseq=page.alt4seq rversion=page.alt4version rdate=page.alt4date rfilesize=page.alt4filesize rsizes=page.alt4sizes
+     genome_size_display=page.genome_size_display
+%}
 
-<div class="alternate-sequence">
-  <div class="sequence-file">
-  <b>Alternate</b><br>
-  {% if page.alt2seq %}
-  Version <em>{{ page.alt2version }}</em> from {{ page.alt2date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.alt2seq }}">{{ page.alt2seq | split: "/" | last }}</a> ({{ page.alt2filesize }})
-  {% else %}
-  None
-  {% endif %}
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.alt2sizes %}
-  {{ page.alt2sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
-<div align="right">
-{% if page.genome_size_display %}
-NG based on genome size {{ page.genome_size_display }}.
-{% else %}
-No genome size estimate available.
-{% endif %}
-</div>
+{% include genomeark_asm_stats.html
+     individual=4
+     llabel="Maternal"  lseq=page.mat4seq lversion=page.mat4version ldate=page.mat4date lfilesize=page.mat4filesize lsizes=page.mat4sizes
+     rlabel="Paternal"  rseq=page.pat4seq rversion=page.pat4version rdate=page.pat4date rfilesize=page.pat4filesize rsizes=page.pat4sizes
+     genome_size_display=page.genome_size_display
+%}
 
-{% if page.mito2seq %}
-<div class="mito-sequence">
-  <div class="sequence-file">
-  <b>Mitochondrial</b><br>
-  Version <em>{{ page.mito2version }}</em> from {{ page.mito2date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.mito2seq }}">{{ page.mito2seq | split: "/" | last }}</a> ({{ page.mito2filesize }})
-  </div>
-</div>
-{% endif %}
-
-</div>
-{% endif %}
-
-<!-- THREE --->
-
-{% if page.pri3seq %}
-<h3>Individual 3 Assemblies</h3>
-<div class="assembly">
-
-{% if page.mito3seq %}
-<div class="mito-sequence">
-  <h4>Mitochondria</h4>
-  <div class="sequence-file">
-  Version <em>{{ page.mito3version }}</em> from {{ page.mito3date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.mito3seq }}">{{ page.mito3seq | split: "/" | last }}</a> ({{ page.mito3filesize }})
-  </div>
-</div>
-{% endif %}
-
-<div class="primary-sequence">
-  <h4>Primary</h4>
-  <div class="sequence-file">
-  Version <em>{{ page.pri1version }}</em> from {{ page.pri3date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.pri3seq }}">{{ page.pri3seq | split: "/" | last }}</a> ({{ page.pri3filesize }})
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.pri3sizes %}
-  {{ page.pri3sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
-
-<div class="alternate-sequence">
-  <h4>Alternate</h4>
-  <div class="sequence-file">
-  {% if page.alt3seq %}
-  Version <em>{{ page.alt3version }}</em> from {{ page.alt3date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.alt3seq }}">{{ page.alt3seq | split: "/" | last }}</a> ({{ page.alt3filesize }})
-  {% else %}
-  None
-  {% endif %}
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.alt3sizes %}
-  {{ page.alt3sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
-<div align="right">
-{% if page.genome_size_display %}
-NG based on genome size {{ page.genome_size_display }}.
-{% else %}
-No genome size estimate available.
-{% endif %}
-</div>
-</div>
-{% endif %}
-
-<!-- FOUR --->
-
-{% if page.pri4seq %}
-<h3>Individual 4 Assemblies</h3>
-<div class="assembly">
-
-{% if page.mito4seq %}
-<div class="mito-sequence">
-  <h4>Mitochondria</h4>
-  <div class="sequence-file">
-  Version <em>{{ page.mito4version }}</em> from {{ page.mito4date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.mito4seq }}">{{ page.mito4seq | split: "/" | last }}</a> ({{ page.mito4filesize }})
-  </div>
-</div>
-{% endif %}
-
-<div class="primary-sequence">
-  <h4>Primary</h4>
-  <div class="sequence-file">
-  Version <em>{{ page.pri1version }}</em> from {{ page.pri4date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.pri4seq }}">{{ page.pri4seq | split: "/" | last }}</a> ({{ page.pri4filesize }})
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.pri4sizes %}
-  {{ page.pri4sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
-
-<div class="alternate-sequence">
-  <h4>Alternate</h4>
-  <div class="sequence-file">
-  {% if page.alt4seq %}
-  Version <em>{{ page.alt4version }}</em> from {{ page.alt4date | date: "%-d %B %Y" }}<br>
-  <a href="{{ page.alt4seq }}">{{ page.alt4seq | split: "/" | last }}</a> ({{ page.alt4filesize }})
-  {% else %}
-  None
-  {% endif %}
-  </div>
-  <br>
-  <div class="sequence-sizes">
-  {% if page.alt4sizes %}
-  {{ page.alt4sizes }}
-  {% else %}
-  size statistics missing
-  {% endif %}
-  </div>
-</div>
-<div align="right">
-{% if page.genome_size_display %}
-NG based on genome size {{ page.genome_size_display }}.
-{% else %}
-No genome size estimate available.
-{% endif %}
-</div>
-</div>
-{% endif %}
 
 <!-- DATA USE POLICY --->
 

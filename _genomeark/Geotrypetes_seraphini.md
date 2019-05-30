@@ -35,7 +35,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1556224643
-last_updated: 1559151573
+last_updated: 1559229696
 name: Geotrypetes seraphini
 s3: s3://genomeark/species/Geotrypetes_seraphini
 taxon_id: 260995

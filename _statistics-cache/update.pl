@@ -478,7 +478,9 @@ sub generateAssemblySummaryHTML ($$$) {
         my $ctgcolor = "";
         my $scfcolor = "";
 
-        if (($ii == 4) && ($prialt eq "pri")) {
+        #  For non-alternate assemblies (primary, maternal, paternal) highlight the n-50 line.
+
+        if (($ii == 4) && ($prialt ne "alt")) {
             $ctgcolor = ($ctgn50 <  $goodCTG) ? " style=\"background-color:#ff8888;\"" : " style=\"background-color:#88ff88;\"";
             $scfcolor = ($scfn50 <  $goodSCF) ? " style=\"background-color:#ff8888;\"" : " style=\"background-color:#88ff88;\"";
         }
@@ -725,7 +727,9 @@ sub processAssembly ($$$) {
 
     #  Update the assembly status based on the primary n50 and/or curation status.
 
-    if ($prialt eq "pri") {
+    if (($prialt eq "pri") ||
+        ($prialt eq "mat") ||
+        ($prialt eq "pat")) {
         if (($$data{"${prialt}${sNum}n50ctg"} < $goodCTG) ||
             ($$data{"${prialt}${sNum}n50scf"} < $goodSCF)) {
             $$data{"assembly_status"} = "low-quality-draft";
@@ -1372,26 +1376,32 @@ foreach my $species (@speciesList) {
     unlink("../_genomeark-incomplete-data/$name.md");
 
     if    ($data{"assembly_status"} eq "curated") {
+        system("mkdir -p ../_genomeark-curated-assembly");
         symlink("../_genomeark/$name.md", "../_genomeark-curated-assembly/$name.md") or die "Failed to make symlink for curated assembly: $!.\n";
     }
 
     elsif ($data{"assembly_status"} eq "high-quality-draft") {
+        system("mkdir -p ../_genomeark-high-quality-draft-assembly");
         symlink("../_genomeark/$name.md", "../_genomeark-high-quality-draft-assembly/$name.md") or die "Failed to make symlink for high-quality-draft assembly: $!.\n";
     }
 
-    elsif ($data{"assembly_status"} eq "low-quality-draft") {
+    elsif ($data{"assembly_status"} eq "low-quality-draft-assembly") {
+        system("mkdir -p ../_genomeark-low-quality-draft");
         symlink("../_genomeark/$name.md", "../_genomeark-low-quality-draft-assembly/$name.md") or die "Failed to make symlink for low-quaity-draft assembly: $!.\n";
     }
 
     elsif ($data{"data_status"} eq "all") {
+        system("mkdir -p ../_genomeark-complete-data");
         symlink("../_genomeark/$name.md", "../_genomeark-complete-data/$name.md") or die "Failed to make symlink for complete data: $!.\n";
     }
 
     elsif ($data{"data_status"} eq "some") {
+        system("mkdir -p ../_genomeark-incomplete-data");
         symlink("../_genomeark/$name.md", "../_genomeark-incomplete-data/$name.md") or die "Failed to make symlink for incomplete data: $!.\n";
     }
 
     else {
+        system("mkdir -p ../_genomeark-incomplete-data");
         symlink("../_genomeark/$name.md", "../_genomeark-incomplete-data/$name.md") or die "Failed to make symlink for incomplete data (catch all): $!.\n";
     }
 

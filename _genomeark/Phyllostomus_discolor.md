@@ -66,7 +66,7 @@ genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: "CC BY-SA 4.0 Juan Carlos Vargas Mena (wikimedia)"
 last_raw_data: 1527496005
-last_updated: 1559151573
+last_updated: 1559229696
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_mt_milan/mPhyDis1.MT.20190308.fasta.gz
@@ -87,7 +87,7 @@ mito1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 5240 </th><th> A </th><th> 0.3139  bp </th><th> A </th><th> 0.3139  bp </th></tr>
   </tfoot>

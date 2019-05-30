@@ -35,7 +35,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Aquila_chrysaetos.jpg
 image_license: "CC BY-SA 4.0 Diego Delso (wikimedia)"
 last_raw_data: 1554458077
-last_updated: 1559151573
+last_updated: 1559229696
 name: Aquila chrysaetos chrysaetos
 s3: s3://genomeark/species/Aquila_chrysaetos
 taxon_id: 223781

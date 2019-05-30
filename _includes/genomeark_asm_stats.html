@@ -1,0 +1,61 @@
+
+
+{% if include.lseq %}
+<!-- <h3>Individual {{ include.individual }} Assemblies</h3> --->
+<div class="assembly">
+
+<div class="primary-sequence">
+  <div class="sequence-file">
+  <b>Individual {{ include.individual }} {{ include.llabel }} Assembly</b><br>
+  Version <em>{{ include.lversion }}</em> from {{ include.ldate | date: "%-d %B %Y" }}<br>
+  <a href="{{ include.lseq }}">{{ include.lseq | split: "/" | last }}</a> ({{ include.lfilesize }})<br>
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if include.lsizes %}
+  {{ include.lsizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+</div>
+
+<div class="alternate-sequence">
+  <div class="sequence-file">
+  <b>Individual {{ include.individual }} {{ include.rlabel }} Assembly</b><br>
+  {% if include.rseq %}
+  Version <em>{{ include.rversion }}</em> from {{ include.rdate | date: "%-d %B %Y" }}<br>
+  <a href="{{ include.rseq }}">{{ include.rseq | split: "/" | last }}</a> ({{ include.rfilesize }})
+  {% else %}
+  None
+  {% endif %}
+  </div>
+  <br>
+  <div class="sequence-sizes">
+  {% if include.rsizes %}
+  {{ include.rsizes }}
+  {% else %}
+  size statistics missing
+  {% endif %}
+  </div>
+</div>
+<div align="right">
+{% if include.genome_size_display %}
+NG based on genome size {{ page.genome_size_display }}.
+{% else %}
+No genome size estimate available.
+{% endif %}
+</div>
+
+{% if include.mseq %}
+<div class="mito-sequence">
+  <div class="sequence-file">
+  <b>Individual {{ include.individual }} Mitochondrial Assembly</b><br>
+  Version <em>{{ include.mversion }}</em> from {{ include.mdate | date: "%-d %B %Y" }}<br>
+  <a href="{{ include.mseq }}">{{ include.mseq | split: "/" | last }}</a> ({{ include.mfilesize }})
+  </div>
+</div>
+{% endif %}
+
+</div>
+{% endif %}
