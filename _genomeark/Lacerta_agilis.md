@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Lacerta_agilis.jpg
 image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1545255399
-last_updated: 1559229696
+last_updated: 1559151573
 name: Lacerta agilis
 s3: s3://genomeark/species/Lacerta_agilis
 taxon_id: 80427

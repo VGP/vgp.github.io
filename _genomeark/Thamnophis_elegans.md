@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Thamnophis_elegans.jpg
 image_license: "CC BY-NC 2.0 J. Maughn (flickr)"
 last_raw_data: 1557292636
-last_updated: 1559229696
+last_updated: 1559151573
 name: Thamnophis elegans
 s3: s3://genomeark/species/Thamnophis_elegans
 taxon_id: 35005

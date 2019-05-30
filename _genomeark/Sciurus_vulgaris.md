@@ -30,7 +30,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Sciurus_vulgaris.jpg
 image_license: "CC BY-SA 3.0 RedR (wikimedia)"
 last_raw_data: 1535575420
-last_updated: 1559229696
+last_updated: 1559151573
 name: Sciurus vulgaris
 s3: s3://genomeark/species/Sciurus_vulgaris
 taxon_id: 55149
