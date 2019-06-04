@@ -21,14 +21,14 @@ Echeneis_naucrates            assembly_curated
 Erpetoichthys_calabaricus     assembly_curated
 Gadus_morhua                  assembly_cambridge
 Geothlypis_trichas
-Geotrypetes_seraphini
+Geotrypetes_seraphini         assembly_cambridge
 Gopherus_evgoodei             assembly_curated
 Gouania_willdenowi            assembly_curated
 Lutra_lutra
 Lynx_canadensis               assembly_curated
 Malacosteus_niger
 Mastacembelus_armatus         assembly_curated
-Microcaecilia_unicolor        assembly_cambridge
+Microcaecilia_unicolor        assembly_curated
 Myripristis_murdjan           assembly_cambridge
 Nomonyx_dominicus
 Ornithorhynchus_anatinus      assembly_curated
@@ -45,11 +45,11 @@ Scyliorhinus_canicula
 Sparus_aurata                 assembly_curated
 Spatula_cyanoptera
 Sphaeramia_orbicularis        assembly_cambridge
-Streptopelia_turtur           assembly_cambridge
+Streptopelia_turtur           assembly_curated
 Strigops_habroptilus          assembly_curated
-Syngnathus_acus               assembly_cambridge
+Syngnathus_acus               assembly_curated
 Taeniopygia_guttata           assembly_curated
 Takifugu_rubripes             assembly_curated
-Thalassophryne_amazonica
+Thalassophryne_amazonica      assembly_cambridge
 Turdus_merula
 Zeus_faber
