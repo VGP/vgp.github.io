@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: New Caledonian crow
-data_10x_scale: 1
+data_10x_bases: 128.91 Gbp
+data_10x_bytes: 60.207 GB
+data_10x_coverage: 103.13x
+data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Corvus_moneduloides/bCorMon1/genomic_data/10x/ .<br>
+data_10x_scale: 1.9941
 data_arima_scale: 1
 data_bionano_bases: 228.52 Gbp
 data_bionano_bytes: 0.425 GB
@@ -27,8 +32,8 @@ genome_size_display: 1.25 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_raw_data: 1558014052
-last_updated: 1559151573
+last_raw_data: 1559579107
+last_updated: 1559634155
 name: Corvus moneduloides
 s3: s3://genomeark/species/Corvus_moneduloides
 taxon_id: 1196302

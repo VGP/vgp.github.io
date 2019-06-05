@@ -64,7 +64,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Scleropages_formosus.jpg
 image_license: "CC BY-SA 2.5 Okinawa Churaumi Aquarium (opencage)"
 last_raw_data: 1547566320
-last_updated: 1559151573
+last_updated: 1559634155
 name: Scleropages formosus
 pri1date: 2019-04-01
 pri1filesize: 231 MB

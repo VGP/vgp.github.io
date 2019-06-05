@@ -36,7 +36,7 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 last_raw_data: 1554784718
-last_updated: 1559151573
+last_updated: 1559634155
 name: Balaenoptera musculus
 s3: s3://genomeark/species/Balaenoptera_musculus
 taxon_id: 9771

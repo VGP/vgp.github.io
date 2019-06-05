@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: stoat
-data_10x_scale: 1
+data_10x_bases: 305.17 Gbp
+data_10x_bytes: 146.463 GB
+data_10x_coverage: 99.08x
+data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Mustela_erminea/mMusErm1/genomic_data/10x/ .<br>
+data_10x_scale: 1.9405
 data_arima_scale: 1
 data_bionano_bases: 461.46 Gbp
 data_bionano_bytes: 0.843 GB
@@ -27,8 +32,8 @@ genome_size_display: 3.08 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_raw_data: 1557772919
-last_updated: 1559151573
+last_raw_data: 1559575492
+last_updated: 1559634155
 name: Mustela erminea
 s3: s3://genomeark/species/Mustela_erminea
 taxon_id: 36723

@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: Korean giant-fin mudskipper
-data_10x_scale: 1
+data_10x_bases: 73.81 Gbp
+data_10x_bytes: 34.457 GB
+data_10x_coverage: 73.81x
+data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/10x/ .<br>
+data_10x_scale: 1.9949
 data_arima_scale: 1
 data_bionano_bases: 743.85 Gbp
 data_bionano_bytes: 1.419 GB
@@ -27,8 +32,8 @@ genome_size_display: 1.00 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_raw_data: 1556500906
-last_updated: 1559151573
+last_raw_data: 1559579925
+last_updated: 1559634155
 name: Periophthalmus magnuspinnatus
 s3: s3://genomeark/species/Periophthalmus_magnuspinnatus
 taxon_id: 409849
