@@ -38,7 +38,7 @@ genome_size_method: null
 image: /assets/images/Pterocles_gutturalis.jpg
 image_license: "CC BY-SA 3.0 Yathin S Krishnappa (wikimedia)"
 last_raw_data: 1547225786
-last_updated: 1559151573
+last_updated: 1559634155
 name: Pterocles gutturalis
 s3: s3://genomeark/species/Pterocles_gutturalis
 taxon_id: 240206

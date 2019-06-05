@@ -66,7 +66,7 @@ genome_size_display: 2.68 Gbp
 image: /assets/images/Gopherus_evgoodei.jpg
 image_license: "CC BY 4.0 Edwards et al. (wikimedia)"
 last_raw_data: 1529613892
-last_updated: 1559151573
+last_updated: 1559634155
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_mt_milan/rGopEvg1.MT.20190310.fasta.gz
@@ -94,11 +94,11 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Gopherus evgoodei
-pri1date: 2019-01-31
-pri1filesize: 664 MB
+pri1date: 2019-06-03
+pri1filesize: 656 MB
 pri1n50ctg: 10520693
 pri1n50scf: 131611970
-pri1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_curated/rGopEvg1.pri.cur.20190131.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_curated/rGopEvg1.pri.cur.20190603.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -116,7 +116,7 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 35.22 Mbp </td><td> 0 </td><td> 370.34 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 24.11 Mbp </td><td> 1 </td><td> 299.45 Mbp </td></tr>  <tr><td> 30 </td><td> 29 </td><td> 16.81 Mbp </td><td> 2 </td><td> 225.22 Mbp </td></tr>  <tr><td> 40 </td><td> 47 </td><td> 13.53 Mbp </td><td> 4 </td><td> 147.43 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 69 </td><td style="background-color:#88ff88;"> 10.52 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 131.61 Mbp </td></tr>  <tr><td> 60 </td><td> 101 </td><td> 6.90 Mbp </td><td> 8 </td><td> 108.93 Mbp </td></tr>  <tr><td> 70 </td><td> 149 </td><td> 4.21 Mbp </td><td> 11 </td><td> 44.29 Mbp </td></tr>  <tr><td> 80 </td><td> 260 </td><td> 1.12 Mbp </td><td> 21 </td><td> 17.27 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 35.22 Mbp </td><td> 0 </td><td> 370.34 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 24.11 Mbp </td><td> 1 </td><td> 299.45 Mbp </td></tr>  <tr><td> 30 </td><td> 29 </td><td> 16.81 Mbp </td><td> 2 </td><td> 225.14 Mbp </td></tr>  <tr><td> 40 </td><td> 47 </td><td> 13.53 Mbp </td><td> 4 </td><td> 147.43 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 69 </td><td style="background-color:#88ff88;"> 10.52 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 131.61 Mbp </td></tr>  <tr><td> 60 </td><td> 101 </td><td> 6.90 Mbp </td><td> 8 </td><td> 108.93 Mbp </td></tr>  <tr><td> 70 </td><td> 149 </td><td> 4.21 Mbp </td><td> 11 </td><td> 44.29 Mbp </td></tr>  <tr><td> 80 </td><td> 260 </td><td> 1.12 Mbp </td><td> 21 </td><td> 17.27 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.845x </th><th> 944 </th><th> 2.27 Gbp </th><th> 382 </th><th> 2.30 Gbp </th></tr>
   </tfoot>

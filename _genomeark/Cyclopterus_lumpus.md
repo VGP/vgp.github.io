@@ -19,7 +19,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1556501607
-last_updated: 1559151573
+last_updated: 1559634155
 name: Cyclopterus lumpus
 s3: s3://genomeark/species/Cyclopterus_lumpus
 taxon_id: 8103

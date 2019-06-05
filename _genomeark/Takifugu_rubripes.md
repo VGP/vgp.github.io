@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-04-03
+alt1date: 2019-05-23
 alt1filesize: 101 MB
 alt1n50ctg: 266405
 alt1n50scf: 276385
-alt1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.alt.cur.20190403.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.alt.cur.20190523.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -64,13 +64,13 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Takifugu_rubripes.jpg
 image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1559151573
+last_updated: 1559634155
 name: Takifugu rubripes
-pri1date: 2019-04-03
-pri1filesize: 109 MB
+pri1date: 2019-05-23
+pri1filesize: 108 MB
 pri1n50ctg: 3136617
 pri1n50scf: 16705553
-pri1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.pri.cur.20190403.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.pri.cur.20190523.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
