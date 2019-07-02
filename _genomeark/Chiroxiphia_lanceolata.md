@@ -33,7 +33,7 @@ genome_size_method: null
 image: /assets/images/Chiroxiphia_lanceolata.jpg
 image_license: "CC BY-SA 2.0 Dario Sanches (wikimedia)"
 last_raw_data: 1538754248
-last_updated: 1559634155
+last_updated: 1560963394
 name: Chiroxiphia lanceolata
 s3: s3://genomeark/species/Chiroxiphia_lanceolata
 taxon_id: 296741

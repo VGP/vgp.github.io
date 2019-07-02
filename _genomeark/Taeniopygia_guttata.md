@@ -62,7 +62,7 @@ data_10x_bases: 205.67 Gbp
 data_10x_bytes: 123.768 GB
 data_10x_coverage: 198.60x
 data_10x_files: 48
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5476
 data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
@@ -99,7 +99,7 @@ genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
 image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
-last_updated: 1559634155
+last_updated: 1560963394
 mat2date: 2019-05-24
 mat2filesize: 290 MB
 mat2n50ctg: 5135574

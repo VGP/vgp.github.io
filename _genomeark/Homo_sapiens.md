@@ -15,6 +15,12 @@ data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapi
 data_arima_scale: 1.639
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_bases: 200.44 Gbp
+data_pbhifi_bytes: 148.849 GB
+data_pbhifi_coverage: 62.64x
+data_pbhifi_files: 36
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.2541
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
@@ -24,7 +30,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559573209
-last_updated: 1559634155
+last_updated: 1560963394
 name: Homo sapiens
 s3: s3://genomeark/species/Homo_sapiens
 taxon_id: 9606

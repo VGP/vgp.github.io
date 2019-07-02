@@ -87,6 +87,10 @@ layout: default
 <tr><td>PacBio SubReads</td><td>{{ page.data_pbsubreads_coverage }}</td><td>{{ page.data_pbsubreads_bytes }}</td></tr>
 {% endif %}
 
+{% if page.data_pbhifi_bytes.size > 0 %}
+<tr><td>PacBio HiFi</td><td>{{ page.data_pbhifi_coverage }}</td><td>{{ page.data_pbhifi_bytes }}</td></tr>
+{% endif %}
+
 {% if page.data_phase_bytes.size > 0 %}
 <tr><td>Phase Genomics</td><td>{{ page.data_phase_coverage }}</td><td>{{ page.data_phase_bytes }}</td></tr>
 {% endif %}
@@ -135,6 +139,10 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
 
 {% if page.data_pbsubreads_links %}
 {{ page.data_pbsubreads_links }}
+{% endif %}
+
+{% if page.data_pbhifi_links %}
+{{ page.data_pbhifi_links }}
 {% endif %}
 
 {% if page.data_phase_links %}

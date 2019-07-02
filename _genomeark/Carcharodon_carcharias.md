@@ -13,7 +13,7 @@ genome_size_display: 4.50 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_updated: 1559634155
+last_updated: 1560963394
 name: Carcharodon carcharias
 s3: s3://genomeark/species/Carcharodon_carcharias
 taxon_id: 13397
