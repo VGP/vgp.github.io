@@ -299,6 +299,10 @@ sub generateAssemblySummary ($$$) {
         unlink "$filename.$type.summary";
     }
 
+    if (! -e "downloads") {
+        system("mkdir -p downloads");
+    }
+
     if ((! -e "downloads/$filename.gz") &&
         (! -e "$filename.$type.summary")) {
         print STDERR "Fetch s3://genomeark/$filename.gz\n";
@@ -599,7 +603,6 @@ sub processData ($$$$$) {
     }
 
     elsif ($filename =~ m!/genomic_data/pacbio/!) {
-        $$seqIndiv{"pbsubreads"} .= "$sTag/$iTag\0";
 
         if    ($filename =~ m/scraps.bam/) {
             $$seqFiles{"pbscraps"} += 1;
@@ -610,12 +613,26 @@ sub processData ($$$$$) {
             $$seqBytes{"pbscraps"} += $filesize;
         }
         elsif ($filename =~ m/subreads.bam/) {
+            $$seqIndiv{"pbsubreads"} .= "$sTag/$iTag\0";
             $$seqFiles{"pbsubreads"} += 1;
             $$seqBytes{"pbsubreads"} += $filesize;
         }
         elsif ($filename =~ m/subreads.bam.pbi/) {
             #$$seqFiles{"pbsubreads"} += 1;
             $$seqBytes{"pbsubreads"} += $filesize;
+        }
+        elsif ($filename =~ m/ccs.bam/) {
+            $$seqIndiv{"pbhifi"} .= "$sTag/$iTag\0";
+            $$seqFiles{"pbhifi"} += 1;
+            $$seqBytes{"pbhifi"} += $filesize;
+        }
+        elsif ($filename =~ m/ccs.bam.pbi/) {
+            #$$seqFiles{"pbhifi"} += 1;
+            $$seqBytes{"pbhifi"} += $filesize;
+        }
+        elsif ($filename =~ m/ccs.bam.bai/) {
+            #$$seqFiles{"pbhifi"} += 1;
+            $$seqBytes{"pbhifi"} += $filesize;
         }
         else {
             print STDERR "unknown file type in '$_'\n";
@@ -757,10 +774,15 @@ sub downloadAndSummarize ($$$) {
         unlink "$name.summary";
     }
 
+    if (! -e "downloads") {
+        system("mkdir -p downloads");
+    }
+
     if ((! -e "downloads/$name") &&
         (! -e "$name.summary")) {
         printf STDERR "FETCH file #%4d size %6.3f GB '%s'\n", $file, $size / 1024 / 1024 / 1024, $name;
         printf STDERR " -> downloads/$name\n";
+        #printf STDERR "  aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name\n";
         system("aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
     }
 
@@ -777,7 +799,7 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name.fastq") &&
             (! -e "$name.summary")) {
             printf STDERR "SUMMARIZE $name.summary\n";
-            printf STDERR "  sequence summarize downloads/$name.fastq > $name.summary";
+            #printf STDERR "  sequence summarize downloads/$name.fastq > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("sequence summarize downloads/$name.fastq > $name.summary");
@@ -790,7 +812,7 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf STDERR "SUMMARIZE $name.summary\n";
-            printf STDERR "  sequence summarize downloads/$name > $name.summary\n";
+            #printf STDERR "  sequence summarize downloads/$name > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("sequence summarize downloads/$name > $name.summary");
@@ -850,7 +872,11 @@ sub estimateRawDataScaling ($$) {
             push @files, "$filesize\0$filename";
         }
 
-        if    (($type eq "pacbio") && ($filename =~ m!genomic_data/pacbio/.*subreads.*bam$!)) {
+        if    (($type eq "pbsubreads") && ($filename =~ m!genomic_data/pacbio/.*subreads.*bam$!)) {
+            push @files, "$filesize\0$filename";
+        }
+
+        if    (($type eq "pbhifi") && ($filename =~ m!genomic_data/pacbio/.*ccs.*bam$!)) {
             push @files, "$filesize\0$filename";
         }
 
@@ -928,6 +954,10 @@ sub computeBionanoBases ($) {
 
     foreach my $f (@files) {
         my ($size, $name) = split '\0', $f;
+
+        if (! -e "downloads") {
+            system("mkdir -p downloads");
+        }
 
         if ((! -e "downloads/$name") &&
             (! -e "$name.summary")) {
@@ -1187,13 +1217,14 @@ foreach my $species (@speciesList) {
     #printf "%14d gzip bytes in %3d Illumina datasets.\n",          $seqBytes{"illumina"} / 2, $seqFiles{"illumina"}    if ($seqFiles{"illumina"} > 0);
     #printf "%14d bam  bytes in %3d PacBio datasets (scraps).\n",   $seqBytes{"pbscraps"},     $seqFiles{"pbscraps"}    if ($seqFiles{"pbscraps"} > 0);
     #printf "%14d bam  bytes in %3d PacBio datasets (subreads).\n", $seqBytes{"pbsubreads"},   $seqFiles{"pbsubreads"}  if ($seqFiles{"pbsubreads"} > 0);
+    #printf "%14d bam  bytes in %3d PacBio datasets (hifi).\n",     $seqBytes{"pbhifi"},       $seqFiles{"pbhifi"}      if ($seqFiles{"pbhifi"} > 0);
     #printf "%14d gzip bytes in %3d Phase datasets.\n",             $seqBytes{"phase"} / 2,    $seqFiles{"phase"}       if ($seqFiles{"phase"} > 0);
 
     $seqFiles{"dovetail"} /= 2;
     $seqFiles{"illumina"} /= 2;
     $seqFiles{"phase"}    /= 2;
 
-    foreach my $type (qw(10x arima bionano dovetail illumina pbscraps pbsubreads phase)) {
+    foreach my $type (qw(10x arima bionano dovetail illumina pbscraps pbsubreads pbhifi phase)) {
         if ($seqBytes{$type} > 0) {
             #$data{"data_bytes"}           += $seqBytes{$type};
             $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
@@ -1222,7 +1253,11 @@ foreach my $species (@speciesList) {
     }
 
     if ($data{"data_pbsubreads_scale"} == 0) {
-        $data{"data_pbsubreads_scale"} = estimateRawDataScaling($name, "pacbio");
+        $data{"data_pbsubreads_scale"} = estimateRawDataScaling($name, "pbsubreads");
+    }
+
+    if ($data{"data_pbhifi_scale"} == 0) {
+        $data{"data_pbhifi_scale"} = estimateRawDataScaling($name, "pbhifi");
     }
 
     if ($data{"data_phase_scale"} == 0) {
@@ -1320,12 +1355,24 @@ foreach my $species (@speciesList) {
 
     if (($seqBytes{"pbsubreads"} > 0)) {
         foreach my $k (uniquifyStringArray($seqIndiv{"pbsubreads"})) {
-            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam*\"<br>";
+            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam*\ --exclude \"*ccs.bam*\"<br>";
         }
 
         if ($data{"genome_size"} > 0) {
             $data{"data_pbsubreads_coverage"} = sprintf("%.2fx", $seqBytes{"pbsubreads"} * $data{"data_pbsubreads_scale"} / $data{"genome_size"});
             $data{"data_pbsubreads_bases"}    = prettifyBases($seqBytes{"pbsubreads"} * $data{"data_pbsubreads_scale"});
+        }
+        $dataPac++;
+    }
+
+    if (($seqBytes{"pbhifi"} > 0)) {
+        foreach my $k (uniquifyStringArray($seqIndiv{"pbhifi"})) {
+            $data{"data_pbhifi_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam*\" --exclude \"*subreads.bam*\"<br>";
+        }
+
+        if ($data{"genome_size"} > 0) {
+            $data{"data_pbhifi_coverage"} = sprintf("%.2fx", $seqBytes{"pbhifi"} * $data{"data_pbhifi_scale"} / $data{"genome_size"});
+            $data{"data_pbhifi_bases"}    = prettifyBases($seqBytes{"pbhifi"} * $data{"data_pbhifi_scale"});
         }
         $dataPac++;
     }

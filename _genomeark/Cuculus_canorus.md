@@ -33,7 +33,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559577780
-last_updated: 1559634155
+last_updated: 1560963394
 name: Cuculus canorus
 s3: s3://genomeark/species/Cuculus_canorus
 taxon_id: 55661
