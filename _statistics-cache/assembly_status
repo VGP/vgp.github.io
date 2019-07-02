@@ -24,12 +24,12 @@ Geothlypis_trichas
 Geotrypetes_seraphini         assembly_cambridge
 Gopherus_evgoodei             assembly_curated
 Gouania_willdenowi            assembly_curated
-Lutra_lutra
+Lutra_lutra                   assembly_cambridge
 Lynx_canadensis               assembly_curated
 Malacosteus_niger
 Mastacembelus_armatus         assembly_curated
 Microcaecilia_unicolor        assembly_curated
-Myripristis_murdjan           assembly_cambridge
+Myripristis_murdjan           assembly_curated
 Nomonyx_dominicus
 Ornithorhynchus_anatinus      assembly_curated
 Parambassis_ranga             assembly_curated
@@ -37,14 +37,14 @@ Phyllostomus_discolor         assembly_curated
 Rana_temporaria
 Rhinatrema_bivittatum         assembly_curated
 Rhinolophus_ferrumequinum     assembly_curated
-Salarias_fasciatus            assembly_cambridge
+Salarias_fasciatus            assembly_curated
 Salmo_trutta                  assembly_curated
 Sciurus_vulgaris
 Scleropages_formosus          assembly_curated
 Scyliorhinus_canicula
 Sparus_aurata                 assembly_curated
 Spatula_cyanoptera
-Sphaeramia_orbicularis        assembly_cambridge
+Sphaeramia_orbicularis        assembly_curated
 Streptopelia_turtur           assembly_curated
 Strigops_habroptilus          assembly_curated
 Syngnathus_acus               assembly_curated
