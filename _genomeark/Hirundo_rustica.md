@@ -15,6 +15,7 @@ data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Hirundo_r
 data_arima_scale: 1.6386
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
@@ -24,7 +25,7 @@ genome_size_method: null
 image: /assets/images/Hirundo_rustica.jpg
 image_license: "CC BY-SA 2.0 Mike Pennington (geograph)"
 last_raw_data: 1555349100
-last_updated: 1560963394
+last_updated: 1562080934
 name: Hirundo rustica
 s3: s3://genomeark/species/Hirundo_rustica
 taxon_id: 43150

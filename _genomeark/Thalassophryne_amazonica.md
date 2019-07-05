@@ -21,7 +21,7 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 472 </td><td> 0.29 Mbp </td><td> 472 </td><td> 0.29 Mbp </td></tr>  <tr><td> 20 </td><td> 1185 </td><td> 0.22 Mbp </td><td> 1185 </td><td> 0.22 Mbp </td></tr>  <tr><td> 30 </td><td> 2105 </td><td> 0.17 Mbp </td><td> 2105 </td><td> 0.17 Mbp </td></tr>  <tr><td> 40 </td><td> 3234 </td><td> 0.14 Mbp </td><td> 3234 </td><td> 0.14 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 4592 </td><td> 0.12 Mbp </td><td> 4592 </td><td> 0.12 Mbp </td></tr>  <tr><td> 60 </td><td> 6223 </td><td> 98.77 Kbp </td><td> 6223 </td><td> 98.77 Kbp </td></tr>  <tr><td> 70 </td><td> 8194 </td><td> 81.03 Kbp </td><td> 8194 </td><td> 81.03 Kbp </td></tr>  <tr><td> 80 </td><td> 10642 </td><td> 63.98 Kbp </td><td> 10642 </td><td> 63.98 Kbp </td></tr>  <tr><td> 90 </td><td> 13869 </td><td> 46.26 Kbp </td><td> 13869 </td><td> 46.26 Kbp </td></tr>  <tr><td> 100 </td><td> 19574 </td><td> 193  bp </td><td> 19574 </td><td> 193  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 472 </td><td> 0.29 Mbp </td><td> 472 </td><td> 0.29 Mbp </td></tr>  <tr><td> 20 </td><td> 1185 </td><td> 0.22 Mbp </td><td> 1185 </td><td> 0.22 Mbp </td></tr>  <tr><td> 30 </td><td> 2105 </td><td> 0.17 Mbp </td><td> 2105 </td><td> 0.17 Mbp </td></tr>  <tr><td> 40 </td><td> 3234 </td><td> 0.14 Mbp </td><td> 3234 </td><td> 0.14 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 4592 </td><td> 0.12 Mbp </td><td> 4592 </td><td> 0.12 Mbp </td></tr>  <tr><td> 60 </td><td> 6223 </td><td> 98.76 Kbp </td><td> 6223 </td><td> 98.76 Kbp </td></tr>  <tr><td> 70 </td><td> 8194 </td><td> 81.03 Kbp </td><td> 8194 </td><td> 81.03 Kbp </td></tr>  <tr><td> 80 </td><td> 10642 </td><td> 63.98 Kbp </td><td> 10642 </td><td> 63.98 Kbp </td></tr>  <tr><td> 90 </td><td> 13869 </td><td> 46.26 Kbp </td><td> 13869 </td><td> 46.26 Kbp </td></tr>  <tr><td> 100 </td><td> 19574 </td><td> 193  bp </td><td> 19574 </td><td> 193  bp </td></tr>  </tbody>
   <tfoot>
   <tr><th> 1.000x </th><th> 19575 </th><th> 1.77 Gbp </th><th> 19575 </th><th> 1.77 Gbp </th></tr>
   </tfoot>
@@ -54,6 +54,7 @@ data_dovetail_files: 2
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5535
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 409.132 GB
 data_pbscraps_coverage: N/A
@@ -62,14 +63,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 235.823 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 40
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5298
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1559331534
-last_updated: 1560963394
+last_updated: 1562080934
 name: Thalassophryne amazonica
 pri1date: 2019-05-31
 pri1filesize: 723 MB

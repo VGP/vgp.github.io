@@ -44,11 +44,12 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Archocentrus_centrarchus/fArcCen1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbsubreads_bases: 75.96 Gbp
 data_pbsubreads_bytes: 131.487 GB
 data_pbsubreads_coverage: 76.88x
 data_pbsubreads_files: 18
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.538
 data_phase_bases: 91.60 Gbp
 data_phase_bytes: 56.032 GB
@@ -62,7 +63,7 @@ genome_size_display: 0.99 Gbp
 image: /assets/images/Archocentrus_centrarchus.jpg
 image_license: "public domain"
 last_raw_data: 1551284459
-last_updated: 1560963394
+last_updated: 1562080934
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_mt_milan/fArcCen1.MT.20190308.fasta.gz

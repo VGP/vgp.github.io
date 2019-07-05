@@ -20,6 +20,7 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolabrus_celidotus/fNotCel1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 134.091 GB
 data_pbscraps_coverage: N/A
@@ -28,7 +29,7 @@ data_pbsubreads_bases: 71.06 Gbp
 data_pbsubreads_bytes: 123.727 GB
 data_pbsubreads_coverage: 71.06x
 data_pbsubreads_files: 20
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5349
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -38,7 +39,7 @@ genome_size_method: null
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1557543675
-last_updated: 1560963394
+last_updated: 1562080934
 name: Notolabrus celidotus
 s3: s3://genomeark/species/Notolabrus_celidotus
 taxon_id: 1203425

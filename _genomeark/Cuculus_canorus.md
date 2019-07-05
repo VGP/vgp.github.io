@@ -15,6 +15,7 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cuculus_canorus/bCucCan1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 146.437 GB
 data_pbscraps_coverage: N/A
@@ -23,7 +24,7 @@ data_pbsubreads_bases: 90.04 Gbp
 data_pbsubreads_bytes: 155.723 GB
 data_pbsubreads_coverage: 64.31x
 data_pbsubreads_files: 18
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cuculus_canorus/bCucCan1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cuculus_canorus/bCucCan1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5385
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
@@ -33,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559577780
-last_updated: 1560963394
+last_updated: 1562080934
 name: Cuculus canorus
 s3: s3://genomeark/species/Cuculus_canorus
 taxon_id: 55661

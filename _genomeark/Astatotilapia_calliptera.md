@@ -42,11 +42,12 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Astatotilapia_calliptera/fAstCal1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbsubreads_bases: 74.92 Gbp
 data_pbsubreads_bytes: 269.612 GB
 data_pbsubreads_coverage: 77.04x
 data_pbsubreads_files: 67
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.2588
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
@@ -55,7 +56,7 @@ genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
 image_license: "CC BY-SA 2.0 Alexandra Tyers (flickr)"
 last_raw_data: 1520006832
-last_updated: 1560963394
+last_updated: 1562080934
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_mt_milan/fAstCal1.MT.20190304.fasta.gz
