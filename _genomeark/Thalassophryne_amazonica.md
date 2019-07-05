@@ -70,7 +70,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1559331534
-last_updated: 1562080934
+last_updated: 1562355837
 name: Thalassophryne amazonica
 pri1date: 2019-05-31
 pri1filesize: 723 MB

@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559583728
-last_updated: 1562080934
+last_updated: 1562355837
 name: Lemur catta
 s3: s3://genomeark/species/Lemur_catta
 taxon_id: 9447

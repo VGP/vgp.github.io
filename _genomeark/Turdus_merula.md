@@ -25,7 +25,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Turdus_merula.jpg
 image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1523481810
-last_updated: 1562080934
+last_updated: 1562355837
 name: Turdus merula
 s3: s3://genomeark/species/Turdus_merula
 taxon_id: 9187

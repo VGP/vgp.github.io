@@ -67,7 +67,7 @@ genome_size_display: 0.70 Gbp
 image: /assets/images/Cottoperca_gobio.jpg
 image_license: "public domain"
 last_raw_data: 1523523546
-last_updated: 1562080934
+last_updated: 1562355837
 name: Cottoperca gobio
 pri3date: 2018-10-26
 pri3filesize: 160 MB

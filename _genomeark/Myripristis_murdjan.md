@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Myripristis_murdjan.jpg
 image_license: "CC BY 2.0 Rickard Zerpe (flickr)"
 last_raw_data: 1556731081
-last_updated: 1562080934
+last_updated: 1562355837
 name: Myripristis murdjan
 pri1date: 2019-06-21
 pri1filesize: 242 MB

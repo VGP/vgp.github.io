@@ -67,7 +67,7 @@ genome_size_display: 2.47 Gbp
 image: /assets/images/Lynx_canadensis.jpg
 image_license: "CC BY 2.0 Keith Williams (flickr)"
 last_raw_data: 1534379101
-last_updated: 1562080934
+last_updated: 1562355837
 mito4date: 2019-03-10
 mito4filesize: 5 KB
 mito4seq: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/assembly_mt_milan/mLynCan4.MT.20190310.fasta.gz

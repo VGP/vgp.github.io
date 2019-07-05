@@ -1,5 +1,34 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-06-30
+alt1filesize: 332 MB
+alt1n50ctg: 1576013
+alt1n50scf: 1576013
+alt1seq: https://s3.amazonaws.com/genomeark/species/Merops_nubicus/bMerNub1/assembly_vgp_standard_1.5/bMerNub1.alt.asm.20190630.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 15 </td><td> 6.08 Mbp </td><td> 15 </td><td> 6.08 Mbp </td></tr>  <tr><td> 20 </td><td> 43 </td><td> 3.79 Mbp </td><td> 43 </td><td> 3.79 Mbp </td></tr>  <tr><td> 30 </td><td> 83 </td><td> 2.92 Mbp </td><td> 83 </td><td> 2.92 Mbp </td></tr>  <tr><td> 40 </td><td> 135 </td><td> 2.13 Mbp </td><td> 135 </td><td> 2.13 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 206 </td><td> 1.58 Mbp </td><td> 206 </td><td> 1.58 Mbp </td></tr>  <tr><td> 60 </td><td> 311 </td><td> 0.96 Mbp </td><td> 311 </td><td> 0.96 Mbp </td></tr>  <tr><td> 70 </td><td> 496 </td><td> 0.49 Mbp </td><td> 496 </td><td> 0.49 Mbp </td></tr>  <tr><td> 80 </td><td> 1276 </td><td> 75.82 Kbp </td><td> 1276 </td><td> 75.82 Kbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.863x </th><th> 3296 </th><th> 1.12 Gbp </th><th> 3296 </th><th> 1.12 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.5
+assembly: assembly_vgp_standard_1.5
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: carmine bee-eater
 data_10x_bases: 130.67 Gbp
 data_10x_bytes: 66.335 GB
@@ -39,8 +68,36 @@ genome_size_method: null
 image: /assets/images/Merops_nubicus.jpg
 image_license: "CC BY-SA 3.0 Luc Viatour (wikimedia)"
 last_raw_data: 1556386618
-last_updated: 1562080934
+last_updated: 1562355837
 name: Merops nubicus
+pri1date: 2019-06-30
+pri1filesize: 336 MB
+pri1n50ctg: 11283056
+pri1n50scf: 47637346
+pri1seq: https://s3.amazonaws.com/genomeark/species/Merops_nubicus/bMerNub1/assembly_vgp_standard_1.5/bMerNub1.pri.asm.20190630.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 31.89 Mbp </td><td> 1 </td><td> 78.56 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 25.81 Mbp </td><td> 3 </td><td> 71.73 Mbp </td></tr>  <tr><td> 30 </td><td> 13 </td><td> 20.62 Mbp </td><td> 5 </td><td> 63.10 Mbp </td></tr>  <tr><td> 40 </td><td> 21 </td><td> 13.87 Mbp </td><td> 7 </td><td> 50.89 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 32 </td><td style="background-color:#88ff88;"> 11.28 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 47.64 Mbp </td></tr>  <tr><td> 60 </td><td> 46 </td><td> 7.95 Mbp </td><td> 13 </td><td> 43.37 Mbp </td></tr>  <tr><td> 70 </td><td> 71 </td><td> 3.77 Mbp </td><td> 16 </td><td> 37.60 Mbp </td></tr>  <tr><td> 80 </td><td> 121 </td><td> 1.71 Mbp </td><td> 21 </td><td> 16.41 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.879x </th><th> 377 </th><th> 1.14 Gbp </th><th> 137 </th><th> 1.17 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Merops_nubicus
 taxon_id: 57421
 ---

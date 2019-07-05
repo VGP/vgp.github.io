@@ -65,7 +65,7 @@ genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1523524486
-last_updated: 1562080934
+last_updated: 1562355837
 mito2date: 2019-03-05
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_mt_milan/fGouWil2.MT.20190305.fasta.gz

@@ -39,7 +39,7 @@ data_pbsubreads_scale: 0.5204
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1561670787
-last_updated: 1562080934
+last_updated: 1562355837
 name: Acipenser ruthenus
 s3: s3://genomeark/species/Acipenser_ruthenus
 taxon_id: 7906

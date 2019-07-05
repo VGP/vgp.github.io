@@ -60,7 +60,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Sparus_aurata.jpg
 image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1523533999
-last_updated: 1562080934
+last_updated: 1562355837
 name: Sparus aurata
 pri1date: 2019-03-14
 pri1filesize: 225 MB

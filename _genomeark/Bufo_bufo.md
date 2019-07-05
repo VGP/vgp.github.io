@@ -8,6 +8,11 @@ data_10x_files: 48
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5366
 data_arima_scale: 1
+data_bionano_bases: unknown
+data_bionano_bytes: 3.695 GB
+data_bionano_coverage: N/A
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/bionano/ .<br>
 data_dovetail_bases: unknown
 data_dovetail_bytes: 288.471 GB
 data_dovetail_coverage: N/A
@@ -23,9 +28,9 @@ data_pbsubreads_files: 3
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5178
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
-last_raw_data: 1562060964
-last_updated: 1562080934
+data_status: <em style="color:green">all data</em>
+last_raw_data: 1562101980
+last_updated: 1562355837
 name: Bufo bufo
 s3: s3://genomeark/species/Bufo_bufo
 taxon_id: 8384

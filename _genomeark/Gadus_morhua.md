@@ -59,7 +59,7 @@ data_pbsubreads_scale: 0.2993
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1556739326
-last_updated: 1562080934
+last_updated: 1562355837
 name: Gadus morhua
 pri1date: 2019-05-03
 pri1filesize: 184 MB

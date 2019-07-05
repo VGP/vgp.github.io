@@ -1,5 +1,34 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-06-18
+alt1filesize: 560 MB
+alt1n50ctg: 108939
+alt1n50scf: 108939
+alt1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_curated/mBalMus1.alt.cur.20190618.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 432 </td><td> 0.55 Mbp </td><td> 432 </td><td> 0.55 Mbp </td></tr>  <tr><td> 20 </td><td> 1117 </td><td> 0.38 Mbp </td><td> 1117 </td><td> 0.38 Mbp </td></tr>  <tr><td> 30 </td><td> 2085 </td><td> 0.27 Mbp </td><td> 2085 </td><td> 0.27 Mbp </td></tr>  <tr><td> 40 </td><td> 3457 </td><td> 0.19 Mbp </td><td> 3457 </td><td> 0.19 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 5600 </td><td> 0.11 Mbp </td><td> 5600 </td><td> 0.11 Mbp </td></tr>  <tr><td> 60 </td><td> 11274 </td><td> 21.72 Kbp </td><td> 11274 </td><td> 21.72 Kbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.606x </th><th> 12574 </th><th> 1.88 Gbp </th><th> 12574 </th><th> 1.88 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Blue whale
 data_10x_bases: 320.05 Gbp
 data_10x_bytes: 185.877 GB
@@ -37,8 +66,62 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 last_raw_data: 1554784718
-last_updated: 1562080934
+last_updated: 1562355837
+mito1date: 2019-05-21
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_mt_milan/mBalMus1.MT.20190521.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5374 </th><th> A </th><th> 0.3276  bp </th><th> A </th><th> 0.3276  bp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_mt_milan
 name: Balaenoptera musculus
+pri1date: 2019-06-18
+pri1filesize: 689 MB
+pri1n50ctg: 4265224
+pri1n50scf: 104095770
+pri1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_curated/mBalMus1.pri.cur.20190618.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 14 </td><td> 15.43 Mbp </td><td> 1 </td><td> 176.07 Mbp </td></tr>  <tr><td> 20 </td><td> 38 </td><td> 10.90 Mbp </td><td> 3 </td><td> 145.22 Mbp </td></tr>  <tr><td> 30 </td><td> 72 </td><td> 7.82 Mbp </td><td> 5 </td><td> 131.76 Mbp </td></tr>  <tr><td> 40 </td><td> 120 </td><td> 5.66 Mbp </td><td> 8 </td><td> 110.47 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 182 </td><td style="background-color:#88ff88;"> 4.27 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 104.10 Mbp </td></tr>  <tr><td> 60 </td><td> 274 </td><td> 2.65 Mbp </td><td> 14 </td><td> 90.46 Mbp </td></tr>  <tr><td> 70 </td><td> 447 </td><td> 1.07 Mbp </td><td> 18 </td><td> 79.72 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.761x </th><th> 1065 </th><th> 2.35 Gbp </th><th> 128 </th><th> 2.38 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_curated
 s3: s3://genomeark/species/Balaenoptera_musculus
 taxon_id: 9771
 ---

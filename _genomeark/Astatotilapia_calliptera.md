@@ -1,32 +1,6 @@
 ---
-alt1date: 2018-08-17
-alt1filesize: 141 MB
-alt1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_vgp_standard_1.0/fAstCal1.alt.asm.20180817.fasta.gz
-alt1sizes: |
-  <table class="sequence-sizes-table">
-  <thead>
-  <tr>
-  <th></th>
-  <th colspan=2 align=center>Contigs</th>
-  <th colspan=2 align=center>Scaffolds</th>
-  </tr>
-  <tr>
-  <th>NG</th>
-  <th>LG</th>
-  <th>Len</th>
-  <th>LG</th>
-  <th>Len</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr><td> 10 </td><td> 263 </td><td> 0.23 Mbp </td><td> 263 </td><td> 0.23 Mbp </td></tr>  <tr><td> 20 </td><td> 896 </td><td> 0.11 Mbp </td><td> 896 </td><td> 0.11 Mbp </td></tr>  <tr><td> 30 </td><td> 2146 </td><td> 57.56 Kbp </td><td> 2146 </td><td> 57.56 Kbp </td></tr>  <tr><td> 40 </td><td> 4480 </td><td> 31.24 Kbp </td><td> 4480 </td><td> 31.24 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
-  <tfoot>
-  <tr><th> 0.481x </th><th> 8123 </th><th> 467.67 Mbp </th><th> 8123 </th><th> 467.67 Mbp </th></tr>
-  </tfoot>
-  </table>
-alt1version: assembly_vgp_standard_1.0
-assembly: assembly_vgp_standard_1.0
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Eastern happy
 data_10x_bases: 120.78 Gbp
 data_10x_bytes: 78.888 GB
@@ -56,7 +30,7 @@ genome_size_display: 0.97 Gbp
 image: /assets/images/Astatotilapia_calliptera.jpg
 image_license: "CC BY-SA 2.0 Alexandra Tyers (flickr)"
 last_raw_data: 1520006832
-last_updated: 1562080934
+last_updated: 1562355837
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_mt_milan/fAstCal1.MT.20190304.fasta.gz
@@ -84,11 +58,11 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Astatotilapia calliptera
-pri1date: 2018-08-17
-pri1filesize: 263 MB
-pri1n50ctg: 2670656
-pri1n50scf: 12105654
-pri1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_vgp_standard_1.0/fAstCal1.pri.asm.20180817.fasta.gz
+pri1date: 2018-05-30
+pri1filesize: 267 MB
+pri1n50ctg: 3979531
+pri1n50scf: 36676067
+pri1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_curated/fAstCal1.pri.cur.20180530.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -106,12 +80,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 8 </td><td> 8.80 Mbp </td><td> 2 </td><td> 28.71 Mbp </td></tr>  <tr><td> 20 </td><td> 22 </td><td> 5.90 Mbp </td><td> 6 </td><td> 22.64 Mbp </td></tr>  <tr><td> 30 </td><td> 40 </td><td> 4.47 Mbp </td><td> 11 </td><td> 16.51 Mbp </td></tr>  <tr><td> 40 </td><td> 64 </td><td> 3.78 Mbp </td><td> 17 </td><td> 15.16 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 94 </td><td style="background-color:#88ff88;"> 2.67 Mbp </td><td> 24 </td><td style="background-color:#88ff88;"> 12.11 Mbp </td></tr>  <tr><td> 60 </td><td> 137 </td><td> 2.02 Mbp </td><td> 33 </td><td> 8.53 Mbp </td></tr>  <tr><td> 70 </td><td> 193 </td><td> 1.46 Mbp </td><td> 48 </td><td> 5.57 Mbp </td></tr>  <tr><td> 80 </td><td> 281 </td><td> 0.85 Mbp </td><td> 72 </td><td> 2.96 Mbp </td></tr>  <tr><td> 90 </td><td> 579 </td><td> 99.96 Kbp </td><td> 149 </td><td> 0.31 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 6 </td><td> 11.57 Mbp </td><td> 1 </td><td> 52.51 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 9.12 Mbp </td><td> 3 </td><td> 41.43 Mbp </td></tr>  <tr><td> 30 </td><td> 28 </td><td> 6.68 Mbp </td><td> 6 </td><td> 39.99 Mbp </td></tr>  <tr><td> 40 </td><td> 46 </td><td> 5.08 Mbp </td><td> 8 </td><td> 38.68 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 68 </td><td style="background-color:#88ff88;"> 3.98 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 36.68 Mbp </td></tr>  <tr><td> 60 </td><td> 99 </td><td> 2.48 Mbp </td><td> 13 </td><td> 35.85 Mbp </td></tr>  <tr><td> 70 </td><td> 145 </td><td> 1.69 Mbp </td><td> 16 </td><td> 34.07 Mbp </td></tr>  <tr><td> 80 </td><td> 219 </td><td> 0.88 Mbp </td><td> 19 </td><td> 31.47 Mbp </td></tr>  <tr><td> 90 </td><td> 625 </td><td> 49.40 Kbp </td><td> 122 </td><td> 64.48 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.921x </th><th> 1008 </th><th> 0.90 Gbp </th><th> 549 </th><th> 0.90 Gbp </th></tr>
+  <tr><th> 0.904x </th><th> 738 </th><th> 0.88 Gbp </th><th> 248 </th><th> 0.88 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.0
+pri1version: assembly_curated
 s3: s3://genomeark/species/Astatotilapia_calliptera
 taxon_id: 8154
 ---
