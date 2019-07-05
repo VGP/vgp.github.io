@@ -20,6 +20,7 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Alca_torda/bAlcTor1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 132.073 GB
 data_pbscraps_coverage: N/A
@@ -28,7 +29,7 @@ data_pbsubreads_bases: 77.63 Gbp
 data_pbsubreads_bytes: 134.283 GB
 data_pbsubreads_coverage: 64.69x
 data_pbsubreads_files: 20
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Alca_torda/bAlcTor1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Alca_torda/bAlcTor1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5384
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -38,7 +39,7 @@ genome_size_method: null
 image: /assets/images/Alca_torda.jpg
 image_license: "CC BY 2.0 Paul Wordingham (flickr)"
 last_raw_data: 1545245416
-last_updated: 1560963394
+last_updated: 1562080934
 name: Alca torda
 s3: s3://genomeark/species/Alca_torda
 taxon_id: 28689

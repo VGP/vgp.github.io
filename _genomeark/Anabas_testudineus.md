@@ -49,6 +49,7 @@ data_bionano_files: 2
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 88.446 GB
 data_pbscraps_coverage: N/A
@@ -57,7 +58,7 @@ data_pbsubreads_bases: 38.98 Gbp
 data_pbsubreads_bytes: 69.835 GB
 data_pbsubreads_coverage: 58.82x
 data_pbsubreads_files: 16
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5198
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -66,7 +67,7 @@ genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: "public domain"
 last_raw_data: 1523263117
-last_updated: 1560963394
+last_updated: 1562080934
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_mt_milan/fAnaTes1.MT.20190310.fasta.gz

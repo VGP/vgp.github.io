@@ -15,6 +15,7 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Mustela_erminea/mMusErm1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 339.967 GB
 data_pbscraps_coverage: N/A
@@ -23,7 +24,7 @@ data_pbsubreads_bases: 193.61 Gbp
 data_pbsubreads_bytes: 331.089 GB
 data_pbsubreads_coverage: 62.86x
 data_pbsubreads_files: 42
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mustela_erminea/mMusErm1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mustela_erminea/mMusErm1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5446
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
@@ -33,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559575492
-last_updated: 1560963394
+last_updated: 1562080934
 name: Mustela erminea
 s3: s3://genomeark/species/Mustela_erminea
 taxon_id: 36723

@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-04-09
-alt1filesize: 196 MB
-alt1n50ctg: 486065
-alt1n50scf: 486065
-alt1seq: https://s3.amazonaws.com/genomeark/species/Chanos_chanos/fChaCha1/assembly_cambridge/fChaCha1.alt.asm.20190409.fasta.gz
+alt1date: 2019-06-13
+alt1filesize: 185 MB
+alt1n50ctg: 508368
+alt1n50scf: 508368
+alt1seq: https://s3.amazonaws.com/genomeark/species/Chanos_chanos/fChaCha1/assembly_cambridge/fChaCha1.alt.asm.20190613.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,9 +21,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 34 </td><td> 1.54 Mbp </td><td> 34 </td><td> 1.54 Mbp </td></tr>  <tr><td> 20 </td><td> 88 </td><td> 1.01 Mbp </td><td> 88 </td><td> 1.01 Mbp </td></tr>  <tr><td> 30 </td><td> 167 </td><td> 0.77 Mbp </td><td> 167 </td><td> 0.77 Mbp </td></tr>  <tr><td> 40 </td><td> 267 </td><td> 0.61 Mbp </td><td> 267 </td><td> 0.61 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 392 </td><td> 0.49 Mbp </td><td> 392 </td><td> 0.49 Mbp </td></tr>  <tr><td> 60 </td><td> 548 </td><td> 0.39 Mbp </td><td> 548 </td><td> 0.39 Mbp </td></tr>  <tr><td> 70 </td><td> 744 </td><td> 0.30 Mbp </td><td> 744 </td><td> 0.30 Mbp </td></tr>  <tr><td> 80 </td><td> 1003 </td><td> 0.23 Mbp </td><td> 1003 </td><td> 0.23 Mbp </td></tr>  <tr><td> 90 </td><td> 1368 </td><td> 0.14 Mbp </td><td> 1368 </td><td> 0.14 Mbp </td></tr>  <tr><td> 100 </td><td> 2533 </td><td> 598  bp </td><td> 2533 </td><td> 598  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 34 </td><td> 1.50 Mbp </td><td> 34 </td><td> 1.50 Mbp </td></tr>  <tr><td> 20 </td><td> 86 </td><td> 1.02 Mbp </td><td> 86 </td><td> 1.02 Mbp </td></tr>  <tr><td> 30 </td><td> 159 </td><td> 0.77 Mbp </td><td> 159 </td><td> 0.77 Mbp </td></tr>  <tr><td> 40 </td><td> 251 </td><td> 0.63 Mbp </td><td> 251 </td><td> 0.63 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 363 </td><td> 0.51 Mbp </td><td> 363 </td><td> 0.51 Mbp </td></tr>  <tr><td> 60 </td><td> 502 </td><td> 0.41 Mbp </td><td> 502 </td><td> 0.41 Mbp </td></tr>  <tr><td> 70 </td><td> 675 </td><td> 0.33 Mbp </td><td> 675 </td><td> 0.33 Mbp </td></tr>  <tr><td> 80 </td><td> 897 </td><td> 0.24 Mbp </td><td> 897 </td><td> 0.24 Mbp </td></tr>  <tr><td> 90 </td><td> 1203 </td><td> 0.17 Mbp </td><td> 1203 </td><td> 0.17 Mbp </td></tr>  <tr><td> 100 </td><td> 1924 </td><td> 721  bp </td><td> 1924 </td><td> 721  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 2534 </th><th> 0.67 Gbp </th><th> 2534 </th><th> 0.67 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 1925 </th><th> 0.63 Gbp </th><th> 1925 </th><th> 0.63 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_cambridge
@@ -49,22 +49,28 @@ data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4962
 data_illumina_scale: 1
+data_pbhifi_bases: unknown
+data_pbhifi_bytes: 14.427 GB
+data_pbhifi_coverage: N/A
+data_pbhifi_files: 2
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.1982
 data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 82.899 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 10
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1554983650
-last_updated: 1560963394
+last_updated: 1562080934
 name: Chanos chanos
-pri1date: 2019-04-09
-pri1filesize: 197 MB
-pri1n50ctg: 3637522
-pri1n50scf: 52483008
-pri1seq: https://s3.amazonaws.com/genomeark/species/Chanos_chanos/fChaCha1/assembly_cambridge/fChaCha1.pri.asm.20190409.fasta.gz
+pri1date: 2019-06-13
+pri1filesize: 186 MB
+pri1n50ctg: 23134051
+pri1n50scf: 48639252
+pri1seq: https://s3.amazonaws.com/genomeark/species/Chanos_chanos/fChaCha1/assembly_cambridge/fChaCha1.pri.asm.20190613.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -82,9 +88,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 3 </td><td> 16.01 Mbp </td><td> 1 </td><td> 61.41 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 11.08 Mbp </td><td> 2 </td><td> 60.95 Mbp </td></tr>  <tr><td> 30 </td><td> 15 </td><td> 7.93 Mbp </td><td> 3 </td><td> 60.45 Mbp </td></tr>  <tr><td> 40 </td><td> 25 </td><td> 6.28 Mbp </td><td> 4 </td><td> 56.02 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 40 </td><td style="background-color:#88ff88;"> 3.64 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 52.48 Mbp </td></tr>  <tr><td> 60 </td><td> 61 </td><td> 2.75 Mbp </td><td> 7 </td><td> 44.87 Mbp </td></tr>  <tr><td> 70 </td><td> 90 </td><td> 2.09 Mbp </td><td> 8 </td><td> 44.49 Mbp </td></tr>  <tr><td> 80 </td><td> 128 </td><td> 1.58 Mbp </td><td> 10 </td><td> 29.68 Mbp </td></tr>  <tr><td> 90 </td><td> 181 </td><td> 1.04 Mbp </td><td> 13 </td><td> 21.07 Mbp </td></tr>  <tr><td> 100 </td><td> 317 </td><td> 494  bp </td><td> 46 </td><td> 24.92 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1 </td><td> 38.48 Mbp </td><td> 1 </td><td> 59.74 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 37.80 Mbp </td><td> 2 </td><td> 58.65 Mbp </td></tr>  <tr><td> 30 </td><td> 5 </td><td> 31.75 Mbp </td><td> 3 </td><td> 53.91 Mbp </td></tr>  <tr><td> 40 </td><td> 7 </td><td> 23.79 Mbp </td><td> 4 </td><td> 51.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 10 </td><td style="background-color:#88ff88;"> 23.13 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 48.64 Mbp </td></tr>  <tr><td> 60 </td><td> 13 </td><td> 16.20 Mbp </td><td> 7 </td><td> 47.96 Mbp </td></tr>  <tr><td> 70 </td><td> 19 </td><td> 8.84 Mbp </td><td> 8 </td><td> 40.35 Mbp </td></tr>  <tr><td> 80 </td><td> 29 </td><td> 4.91 Mbp </td><td> 10 </td><td> 27.35 Mbp </td></tr>  <tr><td> 90 </td><td> 50 </td><td> 2.34 Mbp </td><td> 13 </td><td> 19.19 Mbp </td></tr>  <tr><td> 100 </td><td> 153 </td><td> 1.59 Kbp </td><td> 59 </td><td> 10.28 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 318 </th><th> 0.68 Gbp </th><th> 47 </th><th> 0.70 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 154 </th><th> 0.66 Gbp </th><th> 60 </th><th> 0.66 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_cambridge

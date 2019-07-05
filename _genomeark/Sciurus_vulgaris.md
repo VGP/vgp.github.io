@@ -15,6 +15,7 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_vulgaris/mSciVul1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 1276.412 GB
 data_pbscraps_coverage: N/A
@@ -23,14 +24,14 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 363.403 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 72
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/ . --exclude "*scraps.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5299
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 image: /assets/images/Sciurus_vulgaris.jpg
 image_license: "CC BY-SA 3.0 RedR (wikimedia)"
 last_raw_data: 1535575420
-last_updated: 1560963394
+last_updated: 1562080934
 name: Sciurus vulgaris
 s3: s3://genomeark/species/Sciurus_vulgaris
 taxon_id: 55149
