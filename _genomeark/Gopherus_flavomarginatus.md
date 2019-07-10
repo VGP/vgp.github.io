@@ -39,7 +39,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1562341074
-last_updated: 1562355837
+last_updated: 1562777891
 name: Gopherus flavomarginatus
 s3: s3://genomeark/species/Gopherus_flavomarginatus
 taxon_id: 286002

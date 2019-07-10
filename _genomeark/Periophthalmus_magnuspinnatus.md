@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559579925
-last_updated: 1562355837
+last_updated: 1562777891
 name: Periophthalmus magnuspinnatus
 s3: s3://genomeark/species/Periophthalmus_magnuspinnatus
 taxon_id: 409849

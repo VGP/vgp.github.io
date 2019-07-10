@@ -39,7 +39,7 @@ genome_size_method: null
 image: /assets/images/Sterna_hirundo.jpg
 image_license: "CC BY 2.0 Frank Vassen (flickr)"
 last_raw_data: 1559739259
-last_updated: 1562355837
+last_updated: 1562777891
 name: Sterna hirundo
 s3: s3://genomeark/species/Sterna_hirundo
 taxon_id: 108405

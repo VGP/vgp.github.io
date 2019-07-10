@@ -1,64 +1,8 @@
-Acanthisitta_chloris
-Acipenser_ruthenus
-Alca_torda	                  assembly_curated
-Amblyraja_radiata
-Anabas_testudineus            assembly_curated
-Aquila_chrysaetos
-Archocentrus_centrarchus      assembly_curated
-Astatotilapia_calliptera      assembly_curated
-Balaenoptera_musculus	        assembly_curated
-Bos_taurus                  	assembly_adelaide
-Branta_leucopsis
-Bucorvus_abyssinicus
-Bufo_bufo
-Calypte_anna                  assembly_curated
-Cariama_cristata
-Catharus_ustulatus	          assembly_vgp_standard_1.5
-Chanos_chanos                 assembly_cambridge
-Choloepus_didactylus        	assembly_berlin_vgp_1.5
-Cottoperca_gobio              assembly_curated
-Danio_rerio
-Dendrocygna_viduata
-Denticeps_clupeoides          assembly_curated
-Dermochelys_coriacea
-Echeneis_naucrates            assembly_curated
-Erpetoichthys_calabaricus     assembly_curated
-Gadus_morhua                  assembly_cambridge
-Geothlypis_trichas
-Geotrypetes_seraphini         assembly_cambridge
-Gopherus_evgoodei             assembly_curated
-Gouania_willdenowi            assembly_curated
-Lutra_lutra                   assembly_cambridge
-Lynx_canadensis               assembly_curated
-Malacosteus_niger
-Mastacembelus_armatus         assembly_curated
-Merops_nubicus              	assembly_vgp_standard_1.5
-Microcaecilia_unicolor        assembly_curated
-Myripristis_murdjan           assembly_curated
-Nomonyx_dominicus
-Notolabrus_celidotus        	assembly_vgp_standard_1.5
-Ornithorhynchus_anatinus      assembly_curated
-Parambassis_ranga             assembly_curated
-Phocoena_sinus	              assembly_vgp_standard_1.5
-Phyllostomus_discolor         assembly_curated
-Rana_temporaria
-Rhinatrema_bivittatum         assembly_curated
-Rhinolophus_ferrumequinum     assembly_curated
-Salarias_fasciatus            assembly_curated
-Salmo_trutta                  assembly_curated
-Sciurus_vulgaris
-Scleropages_formosus          assembly_curated
-Scyliorhinus_canicula
-Sparus_aurata                 assembly_curated
-Spatula_cyanoptera
-Sphaeramia_orbicularis        assembly_curated
-Streptopelia_turtur           assembly_curated
-Strigops_habroptilus          assembly_curated
-Syngnathus_acus               assembly_curated
-Taeniopygia_guttata           assembly_curated
-Takifugu_rubripes             assembly_curated
-Tauraco_erythrolophus       	assembly_vgp_standard_1.5
-Thalassophryne_amazonica      assembly_cambridge
-Thamnophis_elegans          	assembly_vgp_standard_1.5
-Turdus_merula
-Zeus_faber
+#  Update this file only if you want to show an older assembly.
+#  The code will now decide which one to display based on (in this order)
+#    the assembly listed in this file
+#    assembly_curated
+#    the latest assembly_*
+#
+#  One line per species, format 'Species_name     assembly_name'.
+#

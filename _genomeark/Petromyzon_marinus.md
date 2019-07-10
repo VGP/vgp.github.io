@@ -39,7 +39,7 @@ genome_size_method: null
 image: /assets/images/Petromyzon_marinus.jpg
 image_license: "CC BY-SA 2.0 T. Lawrence (flickr)"
 last_raw_data: 1559051481
-last_updated: 1562355837
+last_updated: 1562777891
 name: Petromyzon marinus
 s3: s3://genomeark/species/Petromyzon_marinus
 taxon_id: 7757

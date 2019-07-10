@@ -64,7 +64,7 @@ data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1554983650
-last_updated: 1562355837
+last_updated: 1562777891
 name: Chanos chanos
 pri1date: 2019-06-13
 pri1filesize: 186 MB
@@ -88,7 +88,7 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1 </td><td> 38.48 Mbp </td><td> 1 </td><td> 59.74 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 37.80 Mbp </td><td> 2 </td><td> 58.65 Mbp </td></tr>  <tr><td> 30 </td><td> 5 </td><td> 31.75 Mbp </td><td> 3 </td><td> 53.91 Mbp </td></tr>  <tr><td> 40 </td><td> 7 </td><td> 23.79 Mbp </td><td> 4 </td><td> 51.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 10 </td><td style="background-color:#88ff88;"> 23.13 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 48.64 Mbp </td></tr>  <tr><td> 60 </td><td> 13 </td><td> 16.20 Mbp </td><td> 7 </td><td> 47.96 Mbp </td></tr>  <tr><td> 70 </td><td> 19 </td><td> 8.84 Mbp </td><td> 8 </td><td> 40.35 Mbp </td></tr>  <tr><td> 80 </td><td> 29 </td><td> 4.91 Mbp </td><td> 10 </td><td> 27.35 Mbp </td></tr>  <tr><td> 90 </td><td> 50 </td><td> 2.34 Mbp </td><td> 13 </td><td> 19.19 Mbp </td></tr>  <tr><td> 100 </td><td> 153 </td><td> 1.59 Kbp </td><td> 59 </td><td> 10.28 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1 </td><td> 38.48 Mbp </td><td> 1 </td><td> 59.74 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 37.80 Mbp </td><td> 2 </td><td> 58.65 Mbp </td></tr>  <tr><td> 30 </td><td> 5 </td><td> 31.75 Mbp </td><td> 3 </td><td> 53.91 Mbp </td></tr>  <tr><td> 40 </td><td> 7 </td><td> 23.79 Mbp </td><td> 4 </td><td> 51.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 10 </td><td style="background-color:#88ff88;"> 23.13 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 48.64 Mbp </td></tr>  <tr><td> 60 </td><td> 13 </td><td> 16.20 Mbp </td><td> 7 </td><td> 47.96 Mbp </td></tr>  <tr><td> 70 </td><td> 19 </td><td> 8.84 Mbp </td><td> 8 </td><td> 40.35 Mbp </td></tr>  <tr><td> 80 </td><td> 29 </td><td> 4.91 Mbp </td><td> 10 </td><td> 27.35 Mbp </td></tr>  <tr><td> 90 </td><td> 50 </td><td> 2.34 Mbp </td><td> 13 </td><td> 19.19 Mbp </td></tr>  <tr><td> 100 </td><td> 153 </td><td> 1.59 Kbp </td><td> 59 </td><td> 10.29 Kbp </td></tr>  </tbody>
   <tfoot>
   <tr><th> 1.000x </th><th> 154 </th><th> 0.66 Gbp </th><th> 60 </th><th> 0.66 Gbp </th></tr>
   </tfoot>

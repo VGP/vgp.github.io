@@ -53,17 +53,85 @@ sub discover (@) {
 
 
 sub loadAssemblyStatus () {
-    my %asmToShow;
+
+    my %asmToShow;    #  Map species_name to assembly_name.
+    my %asmDate;      #  Map species_name to time_local\0assembly_name.
+
+    #  Scan the genomeark.ls file to figure out what assemblies exist for each
+    #  species.  We'll later pick one to use, or use the user-supplied assembly.
+
+    open(LS, "< genomeark.ls");
+    while (<LS>) {
+        chomp;
+
+        my ($filedate, $filetime, $filesize, $filename) = split '\s+', $_;
+
+        my @fileComps   = split '/', $filename;
+        my $speciesName = $fileComps[1];
+        my $asmName     = $fileComps[3];
+        my $seconds     = 0;
+
+        next   if ($filename =~ m!intermediate!);
+        next   if ($filename =~ m!transcriptomic_data!);
+        next   if ($filename =~ m!genomic_data!);
+        next   if ($filename !~ m!fasta.gz!);
+
+        if ("$filedate $filetime" =~ m/(\d\d\d\d)-(\d\d)-(\d\d)\s+(\d\d):(\d\d):(\d\d)/) {
+            my ($yr, $mo, $da, $hr, $mn, $sc) = ($1, $2, $3, $4, $5, $6);
+
+            $seconds = timelocal($sc, $mn, $hr, $da, $mo-1, $yr); 
+        } else {
+            die "Failed to parse 'genomeark.ls' date and time for '$_'\n";
+        }
+
+        next   if (($filename !~ m/pri.....\d+.fasta/) &&
+                   ($filename !~ m/alt.....\d+.fasta/) &&
+                   ($filename !~ m/pat.....\d+.fasta/) &&
+                   ($filename !~ m/mat.....\d+.fasta/));
+
+        #print STDERR "Found assembly '$speciesName' '$asmName' in $filename\n";
+
+        if ($asmName eq "assembly_curated") {
+            $seconds = 9999999999;
+        }
+        if ($asmDate{$speciesName} < $seconds) {
+            #print STDERR "'$speciesName' -> '$asmName' at $seconds\n";
+            $asmDate{"$speciesName"} = "$seconds\0$asmName";
+        } else {
+            #print STDERR "'$speciesName' -- '$asmName' at $seconds (OLDER)\n";
+        }
+    }
+    close(LS);
+
+    print STDERR "\n";
+    print STDERR "Latest assembly set by file date.\n";
+    print STDERR "\n";
+
+    foreach my $speciesName (keys %asmDate) {
+        my ($t, $a) = split '\0', $asmDate{$speciesName};
+
+        printf STDERR "%-30s -> %-30s ($t)\n", $speciesName, $a;
+
+        $asmToShow{$speciesName} = $a;
+    }
+
+    print STDERR "\n";
+    print STDERR "Latest assembly set by user.\n";
+    print STDERR "\n";
 
     open(A, "< assembly_status") or die "Failed to open 'assembly_status' for reading: $!\n";
     while (<A>) {
         chomp;
 
-        if      (m/^(\w+_\w+)\s*$/) {
-            $asmToShow{$1} = "";
-        }
+        next   if (m/^#/);
 
-        elsif (m/^(\w+_\w+)\s+(a.*)$/) {
+        if (m/^(\w+_\w+)\s+(a.*)$/) {
+            if ($asmToShow{$1} ne $2) {
+                printf STDERR "%-30s -> %-30s (previously %s)\n", $1, $2, $asmToShow{$1};
+            } else {
+                printf STDERR "%-30s -> %-30s\n", $1, $2;
+            }
+
             $asmToShow{$1} = $2;
         }
 

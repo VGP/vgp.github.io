@@ -67,7 +67,7 @@ genome_size_display: 5.07 Gbp
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1525161722
-last_updated: 1562355837
+last_updated: 1562777891
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_mt_milan/aRhiBiv1.MT.20190310.fasta.gz

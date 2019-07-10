@@ -23,7 +23,7 @@ data_illumina_bases: unknown
 data_illumina_bytes: 136.869 GB
 data_illumina_coverage: N/A
 data_illumina_files: 2
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.4556
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -39,7 +39,7 @@ data_pbsubreads_scale: 0.5204
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1561670787
-last_updated: 1562355837
+last_updated: 1562777891
 name: Acipenser ruthenus
 s3: s3://genomeark/species/Acipenser_ruthenus
 taxon_id: 7906
