@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-02-28
-alt1filesize: 971 MB
-alt1n50ctg: 461348
-alt1n50scf: 461348
-alt1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_berlin_vgp_1.5/mChoDid1.alt.asm.20190228.fasta.gz
+alt1date: 2019-06-21
+alt1filesize: 1006 MB
+alt1n50ctg: 469706
+alt1n50scf: 470240
+alt1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_berlin_vgp_1.5/mChoDid1.alt.asm.20190621.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,9 +21,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 171 </td><td> 1.58 Mbp </td><td> 171 </td><td> 1.58 Mbp </td></tr>  <tr><td> 20 </td><td> 430 </td><td> 1.13 Mbp </td><td> 430 </td><td> 1.13 Mbp </td></tr>  <tr><td> 30 </td><td> 779 </td><td> 0.86 Mbp </td><td> 779 </td><td> 0.86 Mbp </td></tr>  <tr><td> 40 </td><td> 1243 </td><td> 0.63 Mbp </td><td> 1243 </td><td> 0.63 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1873 </td><td> 0.46 Mbp </td><td> 1873 </td><td> 0.46 Mbp </td></tr>  <tr><td> 60 </td><td> 2763 </td><td> 0.31 Mbp </td><td> 2763 </td><td> 0.31 Mbp </td></tr>  <tr><td> 70 </td><td> 4081 </td><td> 0.22 Mbp </td><td> 4081 </td><td> 0.22 Mbp </td></tr>  <tr><td> 80 </td><td> 5972 </td><td> 0.15 Mbp </td><td> 5972 </td><td> 0.15 Mbp </td></tr>  <tr><td> 90 </td><td> 8786 </td><td> 95.77 Kbp </td><td> 8786 </td><td> 95.77 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 171 </td><td> 1.59 Mbp </td><td> 171 </td><td> 1.59 Mbp </td></tr>  <tr><td> 20 </td><td> 429 </td><td> 1.14 Mbp </td><td> 429 </td><td> 1.14 Mbp </td></tr>  <tr><td> 30 </td><td> 778 </td><td> 0.86 Mbp </td><td> 778 </td><td> 0.86 Mbp </td></tr>  <tr><td> 40 </td><td> 1239 </td><td> 0.64 Mbp </td><td> 1238 </td><td> 0.64 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1861 </td><td> 0.47 Mbp </td><td> 1859 </td><td> 0.47 Mbp </td></tr>  <tr><td> 60 </td><td> 2724 </td><td> 0.33 Mbp </td><td> 2721 </td><td> 0.33 Mbp </td></tr>  <tr><td> 70 </td><td> 3981 </td><td> 0.23 Mbp </td><td> 3976 </td><td> 0.23 Mbp </td></tr>  <tr><td> 80 </td><td> 5750 </td><td> 0.16 Mbp </td><td> 5743 </td><td> 0.16 Mbp </td></tr>  <tr><td> 90 </td><td> 8284 </td><td> 0.11 Mbp </td><td> 8275 </td><td> 0.11 Mbp </td></tr>  <tr><td> 100 </td><td> 13237 </td><td> 24.41 Kbp </td><td> 13226 </td><td> 24.53 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.969x </th><th> 13026 </th><th> 3.29 Gbp </th><th> 13026 </th><th> 3.29 Gbp </th></tr>
+  <tr><th> 1.003x </th><th> 13803 </th><th> 3.41 Gbp </th><th> 13773 </th><th> 3.41 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_berlin_vgp_1.5
@@ -67,13 +67,13 @@ genome_size_display: 3.40 Gbp
 image: /assets/images/Choloepus_didactylus.jpg
 image_license: "CC BY-SA 3.0 Hans Hillewaert (wikimedia)"
 last_raw_data: 1547217154
-last_updated: 1562777891
+last_updated: 1562793534
 name: Choloepus didactylus
-pri1date: 2019-02-28
-pri1filesize: 1 GB
-pri1n50ctg: 9248967
-pri1n50scf: 137600759
-pri1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_berlin_vgp_1.5/mChoDid1.pri.asm.20190228.fasta.gz
+pri1date: 2019-06-21
+pri1filesize: 979 MB
+pri1n50ctg: 9348138
+pri1n50scf: 163779892
+pri1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_berlin_vgp_1.5/mchoDid1.pri.asm.20190621.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -91,9 +91,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 11 </td><td> 21.52 Mbp </td><td> 1 </td><td> 277.24 Mbp </td></tr>  <tr><td> 20 </td><td> 29 </td><td> 17.92 Mbp </td><td> 2 </td><td> 239.61 Mbp </td></tr>  <tr><td> 30 </td><td> 50 </td><td> 13.94 Mbp </td><td> 4 </td><td> 174.75 Mbp </td></tr>  <tr><td> 40 </td><td> 77 </td><td> 11.49 Mbp </td><td> 6 </td><td> 148.84 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 111 </td><td style="background-color:#88ff88;"> 9.25 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 137.60 Mbp </td></tr>  <tr><td> 60 </td><td> 153 </td><td> 6.96 Mbp </td><td> 11 </td><td> 102.43 Mbp </td></tr>  <tr><td> 70 </td><td> 214 </td><td> 4.63 Mbp </td><td> 15 </td><td> 82.90 Mbp </td></tr>  <tr><td> 80 </td><td> 311 </td><td> 2.75 Mbp </td><td> 19 </td><td> 69.89 Mbp </td></tr>  <tr><td> 90 </td><td> 490 </td><td> 1.29 Mbp </td><td> 26 </td><td> 35.41 Mbp </td></tr>  <tr><td> 100 </td><td> 1038 </td><td> 0.29 Mbp </td><td> 42 </td><td> 12.66 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 9 </td><td> 24.02 Mbp </td><td> 1 </td><td> 279.76 Mbp </td></tr>  <tr><td> 20 </td><td> 25 </td><td> 17.69 Mbp </td><td> 2 </td><td> 270.73 Mbp </td></tr>  <tr><td> 30 </td><td> 47 </td><td> 13.98 Mbp </td><td> 3 </td><td> 194.55 Mbp </td></tr>  <tr><td> 40 </td><td> 75 </td><td> 10.91 Mbp </td><td> 5 </td><td> 171.39 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 109 </td><td style="background-color:#88ff88;"> 9.35 Mbp </td><td> 7 </td><td style="background-color:#88ff88;"> 163.78 Mbp </td></tr>  <tr><td> 60 </td><td> 150 </td><td> 7.01 Mbp </td><td> 10 </td><td> 116.91 Mbp </td></tr>  <tr><td> 70 </td><td> 210 </td><td> 4.71 Mbp </td><td> 13 </td><td> 91.01 Mbp </td></tr>  <tr><td> 80 </td><td> 313 </td><td> 2.54 Mbp </td><td> 17 </td><td> 70.08 Mbp </td></tr>  <tr><td> 90 </td><td> 531 </td><td> 0.99 Mbp </td><td> 22 </td><td> 60.15 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 35 </td><td> 10.86 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.048x </th><th> 39587 </th><th> 3.56 Gbp </th><th> 668 </th><th> 3.79 Gbp </th></tr>
+  <tr><th> 0.987x </th><th> 1521 </th><th> 3.35 Gbp </th><th> 247 </th><th> 3.61 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_berlin_vgp_1.5
