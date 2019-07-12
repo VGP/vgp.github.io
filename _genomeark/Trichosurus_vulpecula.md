@@ -39,7 +39,7 @@ genome_size_method: null
 image: /assets/images/Trichosurus_vulpecula.jpg
 image_license: "CC BY 2.0 Donald Hobern (flickr)"
 last_raw_data: 1558101664
-last_updated: 1562777891
+last_updated: 1562948450
 name: Trichosurus vulpecula
 s3: s3://genomeark/species/Trichosurus_vulpecula
 taxon_id: 9337

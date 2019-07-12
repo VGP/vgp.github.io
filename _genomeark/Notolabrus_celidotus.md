@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1557543675
-last_updated: 1562777891
+last_updated: 1562948450
 name: Notolabrus celidotus
 pri1date: 2019-06-27
 pri1filesize: 250 MB

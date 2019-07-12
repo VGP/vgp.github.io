@@ -747,7 +747,7 @@ sub processAssembly ($$$) {
 
     #                 species/Gopherus_evgoodei/rGopEvg1/assembly_mt_milan/rGopEvg1.MT.20190310.fasta.gz
     elsif ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!) {
-        print STDERR "MITO $1 $2 $3 $4 $6-$7-$8\n";
+        #print STDERR "MITO $1 $2 $3 $4 $6-$7-$8\n";
         $sName   = $1;
         $aLabel  = $2;
         $sTag    = $3;
@@ -757,6 +757,7 @@ sub processAssembly ($$$) {
     }
 
     else {
+        print STDERR "  Nothig here.\n";
         return;
     }
 
@@ -811,6 +812,8 @@ sub processAssembly ($$$) {
      $$data{"${prialt}${sNum}sizes"})  = generateAssemblySummaryHTML($prialt, $filename, $$data{"genome_size"});
 
     #  Update the assembly status based on the primary n50 and/or curation status.
+
+    print STDERR "$prialt -- " . $$data{"${prialt}${sNum}n50ctg"} . " -- " . $$data{"${prialt}${sNum}n50scf"} . "\n";
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") ||

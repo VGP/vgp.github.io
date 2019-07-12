@@ -5,7 +5,7 @@ data_10x_bases: 956.85 Gbp
 data_10x_bytes: 448.708 GB
 data_10x_coverage: 299.02x
 data_10x_files: 14
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/10x/ .<br>
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/10x/ .<br>
 data_10x_scale: 1.986
 data_arima_bases: 251.55 Gbp
 data_arima_bytes: 142.938 GB
@@ -18,7 +18,7 @@ data_illumina_bases: 436.30 Gbp
 data_illumina_bytes: 216.331 GB
 data_illumina_coverage: 136.34x
 data_illumina_files: 12
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8783
 data_pbhifi_bases: 200.44 Gbp
 data_pbhifi_bytes: 148.849 GB
@@ -44,7 +44,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1561762559
-last_updated: 1562777891
+last_updated: 1562948450
 name: Homo sapiens
 s3: s3://genomeark/species/Homo_sapiens
 taxon_id: 9606

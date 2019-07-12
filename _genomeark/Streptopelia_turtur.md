@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Streptopelia_turtur.jpg
 image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1548798897
-last_updated: 1562777891
+last_updated: 1562948450
 name: Streptopelia turtur
 pri1date: 2019-05-23
 pri1filesize: 344 MB

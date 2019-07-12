@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559579107
-last_updated: 1562793534
+last_updated: 1562948450
 name: Corvus moneduloides
 s3: s3://genomeark/species/Corvus_moneduloides
 taxon_id: 1196302

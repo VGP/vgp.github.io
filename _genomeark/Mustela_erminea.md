@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559575492
-last_updated: 1562777891
+last_updated: 1562948450
 name: Mustela erminea
 s3: s3://genomeark/species/Mustela_erminea
 taxon_id: 36723

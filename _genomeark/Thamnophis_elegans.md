@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Thamnophis_elegans.jpg
 image_license: "CC BY-NC 2.0 J. Maughn (flickr)"
 last_raw_data: 1557292636
-last_updated: 1562777891
+last_updated: 1562948450
 name: Thamnophis elegans
 pri1date: 2019-06-30
 pri1filesize: 481 MB

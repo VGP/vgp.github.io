@@ -26,7 +26,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Dendrocygna_viduata.jpg
 image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1537988854
-last_updated: 1562793534
+last_updated: 1562948450
 name: Dendrocygna viduata
 s3: s3://genomeark/species/Dendrocygna_viduata
 taxon_id: 8876
