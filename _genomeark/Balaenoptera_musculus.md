@@ -48,7 +48,12 @@ data_dovetail_coverage: 38.57x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Balaenoptera_musculus/mBalMus1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5679
-data_illumina_scale: 1
+data_illumina_bases: 161.84 Gbp
+data_illumina_bytes: 80.362 GB
+data_illumina_coverage: 52.31x
+data_illumina_files: 6
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.8756
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
 data_pbscraps_bytes: 760.406 GB
@@ -65,8 +70,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
-last_raw_data: 1554784718
-last_updated: 1562948450
+last_raw_data: 1563292453
+last_updated: 1563518162
 mito1date: 2019-05-21
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_mt_milan/mBalMus1.MT.20190521.fasta.gz

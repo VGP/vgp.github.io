@@ -1,5 +1,34 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-07-14
+alt1filesize: 413 MB
+alt1n50ctg: 90982
+alt1n50scf: 90982
+alt1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_vgp_standard_1.5/rLacAgi1.alt.asm.20190714.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 149 </td><td> 0.97 Mbp </td><td> 149 </td><td> 0.97 Mbp </td></tr>  <tr><td> 20 </td><td> 407 </td><td> 0.63 Mbp </td><td> 407 </td><td> 0.63 Mbp </td></tr>  <tr><td> 30 </td><td> 792 </td><td> 0.43 Mbp </td><td> 792 </td><td> 0.43 Mbp </td></tr>  <tr><td> 40 </td><td> 1383 </td><td> 0.25 Mbp </td><td> 1383 </td><td> 0.25 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 2731 </td><td> 90.98 Kbp </td><td> 2731 </td><td> 90.98 Kbp </td></tr>  <tr><td> 60 </td><td> 6040 </td><td> 43.69 Kbp </td><td> 6040 </td><td> 43.69 Kbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.690x </th><th> 12502 </th><th> 1.38 Gbp </th><th> 12502 </th><th> 1.38 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.5
+assembly: assembly_vgp_standard_1.5
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: sand lizard
 data_10x_bases: 155.03 Gbp
 data_10x_bytes: 79.759 GB
@@ -39,8 +68,36 @@ genome_size_method: null
 image: /assets/images/Lacerta_agilis.jpg
 image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1545255399
-last_updated: 1562948450
+last_updated: 1563518162
 name: Lacerta agilis
+pri1date: 2019-07-14
+pri1filesize: 423 MB
+pri1n50ctg: 3710990
+pri1n50scf: 52092003
+pri1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_vgp_standard_1.5/rLacAgi1.pri.asm.20190714.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 7 </td><td> 22.14 Mbp </td><td> 1 </td><td> 120.91 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 11.79 Mbp </td><td> 3 </td><td> 92.42 Mbp </td></tr>  <tr><td> 30 </td><td> 42 </td><td> 7.59 Mbp </td><td> 5 </td><td> 79.99 Mbp </td></tr>  <tr><td> 40 </td><td> 72 </td><td> 5.73 Mbp </td><td> 8 </td><td> 60.99 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 114 </td><td style="background-color:#88ff88;"> 3.71 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 52.09 Mbp </td></tr>  <tr><td> 60 </td><td> 181 </td><td> 2.31 Mbp </td><td> 16 </td><td> 40.02 Mbp </td></tr>  <tr><td> 70 </td><td> 305 </td><td> 0.88 Mbp </td><td> 30 </td><td> 4.62 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.718x </th><th> 448 </th><th> 1.44 Gbp </th><th> 127 </th><th> 1.47 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Lacerta_agilis
 taxon_id: 80427
 ---

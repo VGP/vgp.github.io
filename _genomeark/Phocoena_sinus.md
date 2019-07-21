@@ -66,7 +66,7 @@ genome_size_method: null
 image: /assets/images/Phocoena_sinus.jpg
 image_license: "public domain"
 last_raw_data: 1557360444
-last_updated: 1562948450
+last_updated: 1563518162
 name: Phocoena sinus
 pri1date: 2019-05-31
 pri1filesize: 697 MB

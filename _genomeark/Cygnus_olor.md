@@ -2,7 +2,12 @@
 assembly_status: <em style="color:red">no assembly</em>
 common_name: mute swan
 data_10x_scale: 1
-data_arima_scale: 1
+data_arima_bases: 104.07 Gbp
+data_arima_bytes: 62.015 GB
+data_arima_coverage: 70.32x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Cygnus_olor/bCygOlo1/genomic_data/arima/ .<br>
+data_arima_scale: 1.5629
 data_bionano_bases: 515.11 Gbp
 data_bionano_bytes: 0.808 GB
 data_bionano_coverage: 348.05x
@@ -28,8 +33,8 @@ genome_size_display: 1.48 Gbp
 genome_size_method: null
 image: /assets/images/Cygnus_olor.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
-last_raw_data: 1553177366
-last_updated: 1562948450
+last_raw_data: 1563412662
+last_updated: 1563518162
 name: Cygnus olor
 s3: s3://genomeark/species/Cygnus_olor
 taxon_id: 8869

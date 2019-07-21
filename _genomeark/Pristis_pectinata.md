@@ -39,7 +39,7 @@ genome_size_method: null
 image: /assets/images/Pristis_pectinata.jpg
 image_license: "CC BY-NC-ND 2.0 myfwc (flickr)"
 last_raw_data: 1555343816
-last_updated: 1562948450
+last_updated: 1563518162
 name: Pristis pectinata
 s3: s3://genomeark/species/Pristis_pectinata
 taxon_id: 685728

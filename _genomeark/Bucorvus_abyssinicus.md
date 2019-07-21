@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Bucorvus_abyssinicus.jpg
 image_license: "CC BY 2.0 Jerry Thompson (wikimedia)"
 last_raw_data: 1562595330
-last_updated: 1562948450
+last_updated: 1563518162
 name: Bucorvus abyssinicus
 pri1date: 2019-07-04
 pri1filesize: 332 MB

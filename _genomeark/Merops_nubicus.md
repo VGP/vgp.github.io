@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Merops_nubicus.jpg
 image_license: "CC BY-SA 3.0 Luc Viatour (wikimedia)"
 last_raw_data: 1556386618
-last_updated: 1562948450
+last_updated: 1563518162
 name: Merops nubicus
 pri1date: 2019-06-30
 pri1filesize: 336 MB
