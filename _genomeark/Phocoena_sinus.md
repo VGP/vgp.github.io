@@ -66,7 +66,7 @@ genome_size_method: null
 image: /assets/images/Phocoena_sinus.jpg
 image_license: "public domain"
 last_raw_data: 1557360444
-last_updated: 1565137276
+last_updated: 1565247848
 mito1date: 2019-23-07
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phocoena_sinus/mPhoSin1/assembly_mt_rockefeller/mPhoSin1.MT.20192307.fasta.gz

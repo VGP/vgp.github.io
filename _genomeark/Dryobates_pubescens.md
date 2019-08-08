@@ -29,7 +29,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1565021708
-last_updated: 1565137276
+last_updated: 1565247848
 name: Dryobates pubescens
 s3: s3://genomeark/species/Dryobates_pubescens
 taxon_id: 118200

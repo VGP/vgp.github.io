@@ -44,7 +44,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1564249507
-last_updated: 1565137276
+last_updated: 1565247848
 name: Arvicanthis niloticus
 s3: s3://genomeark/species/Arvicanthis_niloticus
 taxon_id: 61156

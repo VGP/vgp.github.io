@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: California sea lion
-data_10x_scale: 1
+data_10x_bases: 193.97 Gbp
+data_10x_bytes: 94.215 GB
+data_10x_coverage: 61.58x
+data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Zalophus_californianus/mZalCal1/genomic_data/10x/ .<br>
+data_10x_scale: 1.9174
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
@@ -23,8 +28,8 @@ genome_size_display: 3.15 Gbp
 genome_size_method: null
 image: /assets/images/Zalophus_californianus.jpg
 image_license: "CC BY-SA 2.0 Gregory Smith (flickr)"
-last_raw_data: 1565048086
-last_updated: 1565137276
+last_raw_data: 1565205484
+last_updated: 1565247848
 name: Zalophus californianus
 s3: s3://genomeark/species/Zalophus_californianus
 taxon_id: 9704

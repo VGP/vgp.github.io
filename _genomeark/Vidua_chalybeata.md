@@ -14,7 +14,7 @@ genome_size_display: 1.16 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_updated: 1565137276
+last_updated: 1565247848
 name: Vidua chalybeata
 s3: s3://genomeark/species/Vidua_chalybeata
 taxon_id: 81927

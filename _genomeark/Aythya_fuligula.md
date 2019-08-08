@@ -42,10 +42,10 @@ data_arima_coverage: 92.27x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Aythya_fuligula/bAytFul2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8527
-data_bionano_bases: 1433.74 Gbp
-data_bionano_bytes: 2.425 GB
-data_bionano_coverage: 1194.79x
-data_bionano_files: 1
+data_bionano_bases: 1879.56 Gbp
+data_bionano_bytes: 3.342 GB
+data_bionano_coverage: 1566.30x
+data_bionano_files: 2
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Aythya_fuligula/bAytFul2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
@@ -67,8 +67,8 @@ genome_size_display: 1.20 Gbp
 genome_size_method: null
 image: /assets/images/Aythya_fuligula.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
-last_raw_data: 1564238537
-last_updated: 1565137276
+last_raw_data: 1565190400
+last_updated: 1565247848
 name: Aythya fuligula
 pri2date: 2019-08-03
 pri2filesize: 329 MB

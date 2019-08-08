@@ -67,7 +67,7 @@ genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: "CC BY-SA 4.0 Juan Carlos Vargas Mena (wikimedia)"
 last_raw_data: 1527496005
-last_updated: 1565137276
+last_updated: 1565247848
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_mt_milan/mPhyDis1.MT.20190308.fasta.gz

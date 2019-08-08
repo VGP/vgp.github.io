@@ -68,19 +68,19 @@ data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
 data_arima_coverage: 242.54x
 data_arima_files: 20
-data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8484
 data_bionano_bases: 1642.52 Gbp
 data_bionano_bytes: 2.136 GB
 data_bionano_coverage: 1586.04x
 data_bionano_files: 4
-data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/ .<br>
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_bases: 138.82 Gbp
 data_illumina_bytes: 71.694 GB
 data_illumina_coverage: 134.05x
 data_illumina_files: 4
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8033
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -100,7 +100,7 @@ genome_size_display: 1.04 Gbp
 image: /assets/images/Taeniopygia_guttata.jpg
 image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
-last_updated: 1565137276
+last_updated: 1565247848
 mat2date: 2019-05-24
 mat2filesize: 290 MB
 mat2n50ctg: 5135574

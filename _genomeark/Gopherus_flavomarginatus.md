@@ -23,7 +23,7 @@ data_illumina_bases: 405.54 Gbp
 data_illumina_bytes: 202.969 GB
 data_illumina_coverage: 162.21x
 data_illumina_files: 10
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla1/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8608
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -44,7 +44,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1562793058
-last_updated: 1565137276
+last_updated: 1565247848
 name: Gopherus flavomarginatus
 s3: s3://genomeark/species/Gopherus_flavomarginatus
 taxon_id: 286002

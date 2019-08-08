@@ -70,7 +70,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Thalassophryne_amazonica.jpg
 image_license: Copyright Ralf Britz/NHM, used with permission
 last_raw_data: 1559331534
-last_updated: 1565137276
+last_updated: 1565247848
 name: Thalassophryne amazonica
 pri1date: 2019-05-31
 pri1filesize: 723 MB

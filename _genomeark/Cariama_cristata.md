@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Cariama_cristata.jpg
 image_license: "CC BY-SA 3.0 Olaf Oliviero Riemer (wikimedia)"
 last_raw_data: 1563354348
-last_updated: 1565137276
+last_updated: 1565247848
 name: Cariama cristata
 pri1date: 2019-07-04
 pri1filesize: 358 MB

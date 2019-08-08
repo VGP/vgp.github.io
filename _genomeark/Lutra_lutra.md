@@ -55,7 +55,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Lutra_lutra.jpg
 image_license: "(pixabay)"
 last_raw_data: 1562341953
-last_updated: 1565137276
+last_updated: 1565247848
 name: Lutra lutra
 pri1date: 2019-06-27
 pri1filesize: 723 MB
