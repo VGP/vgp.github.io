@@ -36,10 +36,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
+image: /assets/images/Periophthalmus_magnuspinnatus.jpg
+image_license: Copyright Chul Lee, used with permission
 last_raw_data: 1562791112
-last_updated: 1563518162
+last_updated: 1565137276
 name: Periophthalmus magnuspinnatus
 s3: s3://genomeark/species/Periophthalmus_magnuspinnatus
 taxon_id: 409849

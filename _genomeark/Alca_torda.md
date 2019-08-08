@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Alca_torda.jpg
 image_license: "CC BY 2.0 Paul Wordingham (flickr)"
 last_raw_data: 1545245416
-last_updated: 1563518162
+last_updated: 1565137276
 name: Alca torda
 pri1date: 2019-06-13
 pri1filesize: 345 MB

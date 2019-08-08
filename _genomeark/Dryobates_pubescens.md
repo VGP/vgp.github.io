@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: Downy woodpecker
-data_10x_scale: 1
+data_10x_bases: 165.20 Gbp
+data_10x_bytes: 79.508 GB
+data_10x_coverage: 118.00x
+data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Dryobates_pubescens/bDryPub1/genomic_data/10x/ .<br>
+data_10x_scale: 1.9351
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
@@ -23,8 +28,8 @@ genome_size_display: 1.40 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_raw_data: 1563482877
-last_updated: 1564451775
+last_raw_data: 1565021708
+last_updated: 1565137276
 name: Dryobates pubescens
 s3: s3://genomeark/species/Dryobates_pubescens
 taxon_id: 118200

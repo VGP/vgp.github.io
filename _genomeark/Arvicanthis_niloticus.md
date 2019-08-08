@@ -7,7 +7,12 @@ data_10x_coverage: 76.49x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9502
-data_arima_scale: 1
+data_arima_bases: 232.95 Gbp
+data_arima_bytes: 136.192 GB
+data_arima_coverage: 68.52x
+data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil1/genomic_data/arima/ .<br>
+data_arima_scale: 1.593
 data_bionano_bases: 414.53 Gbp
 data_bionano_bytes: 0.862 GB
 data_bionano_coverage: 121.92x
@@ -18,7 +23,7 @@ data_illumina_bases: 503.74 Gbp
 data_illumina_bytes: 247.062 GB
 data_illumina_coverage: 148.16x
 data_illumina_files: 14
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8989
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -32,14 +37,14 @@ data_pbsubreads_files: 44
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5402
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_raw_data: 1561772906
-last_updated: 1563518162
+last_raw_data: 1564249507
+last_updated: 1565137276
 name: Arvicanthis niloticus
 s3: s3://genomeark/species/Arvicanthis_niloticus
 taxon_id: 61156

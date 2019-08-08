@@ -7,7 +7,12 @@ data_10x_coverage: 78.78x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9443
-data_arima_scale: 1
+data_arima_bases: 115.67 Gbp
+data_arima_bytes: 68.600 GB
+data_arima_coverage: 94.04x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/arima/ .<br>
+data_arima_scale: 1.5704
 data_bionano_bases: 432.86 Gbp
 data_bionano_bytes: 0.781 GB
 data_bionano_coverage: 351.92x
@@ -27,14 +32,14 @@ data_pbsubreads_files: 20
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5402
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
 image: /assets/images/Chiroxiphia_lanceolata.jpg
 image_license: "CC BY-SA 2.0 Dario Sanches (wikimedia)"
-last_raw_data: 1538754248
-last_updated: 1563518162
+last_raw_data: 1564251530
+last_updated: 1565137276
 name: Chiroxiphia lanceolata
 s3: s3://genomeark/species/Chiroxiphia_lanceolata
 taxon_id: 296741

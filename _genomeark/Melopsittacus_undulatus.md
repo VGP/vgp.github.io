@@ -23,7 +23,7 @@ data_illumina_bases: 382.00 Gbp
 data_illumina_bytes: 191.222 GB
 data_illumina_coverage: 310.57x
 data_illumina_files: 10
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8605
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -43,8 +43,8 @@ genome_size_display: 1.23 Gbp
 genome_size_method: null
 image: /assets/images/Melopsittacus_undulatus.jpg
 image_license: "CC BY-SA 3.0 Atlanta Zoo (wikimedia)"
-last_raw_data: 1561756789
-last_updated: 1563518162
+last_raw_data: 1565104681
+last_updated: 1565137276
 name: Melopsittacus undulatus
 s3: s3://genomeark/species/Melopsittacus_undulatus
 taxon_id: 13146

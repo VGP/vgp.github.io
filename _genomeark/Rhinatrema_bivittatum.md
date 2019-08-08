@@ -64,10 +64,11 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 5067838282
 genome_size_display: 5.07 Gbp
-image: /assets/images/frog.png
-image_license: Apple
+genome_size_method: genomescope k=31
+image: /assets/images/Rhinatrema_bivittatum.jpg
+image_license: Copyright Stuart V Nielsen, used with permission
 last_raw_data: 1525161722
-last_updated: 1563518162
+last_updated: 1565137276
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_mt_milan/aRhiBiv1.MT.20190310.fasta.gz

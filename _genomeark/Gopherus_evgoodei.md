@@ -67,7 +67,7 @@ genome_size_display: 2.68 Gbp
 image: /assets/images/Gopherus_evgoodei.jpg
 image_license: "CC BY 4.0 Edwards et al. (wikimedia)"
 last_raw_data: 1529613892
-last_updated: 1563518162
+last_updated: 1565137276
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_mt_milan/rGopEvg1.MT.20190310.fasta.gz

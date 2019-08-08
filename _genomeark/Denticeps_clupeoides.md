@@ -62,10 +62,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dent
 data_pbsubreads_scale: 0.5311
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/fish.png
-image_license: Apple
+image: /assets/images/Denticeps_clupeoides.jpg
+image_license: Copyright Ralf Britz/NHM, used with permission
 last_raw_data: 1535895622
-last_updated: 1563518162
+last_updated: 1565137276
 name: Denticeps clupeoides
 pri1date: 2019-03-05
 pri1filesize: 162 MB

@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Sterna_hirundo.jpg
 image_license: "CC BY 2.0 Frank Vassen (flickr)"
 last_raw_data: 1559739259
-last_updated: 1563518162
+last_updated: 1565137276
 name: Sterna hirundo
 pri1date: 2019-07-06
 pri1filesize: 359 MB

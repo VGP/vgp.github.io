@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: great potoo
-data_10x_scale: 1
+data_10x_bases: 129.64 Gbp
+data_10x_bytes: 63.015 GB
+data_10x_coverage: 129.64x
+data_10x_files: 8
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Nyctibius_grandis/bNycGra1/genomic_data/10x/ .<br>
+data_10x_scale: 1.916
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
@@ -23,8 +28,8 @@ genome_size_display: 1.00 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_raw_data: 1563493365
-last_updated: 1564451775
+last_raw_data: 1565024675
+last_updated: 1565137276
 name: Nyctibius grandis
 s3: s3://genomeark/species/Nyctibius_grandis
 taxon_id: 48427

@@ -67,10 +67,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thal
 data_pbsubreads_scale: 0.5298
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/fish.png
-image_license: Apple
+image: /assets/images/Thalassophryne_amazonica.jpg
+image_license: Copyright Ralf Britz/NHM, used with permission
 last_raw_data: 1559331534
-last_updated: 1563518162
+last_updated: 1565137276
 name: Thalassophryne amazonica
 pri1date: 2019-05-31
 pri1filesize: 723 MB

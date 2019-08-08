@@ -1,7 +1,41 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-08-02
+alt1filesize: 245 MB
+alt1n50ctg: 48910
+alt1n50scf: 48910
+alt1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_vgp_standard_1.5/bCygOlo1.alt.asm.20190802.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 149 </td><td> 0.74 Mbp </td><td> 149 </td><td> 0.74 Mbp </td></tr>  <tr><td> 20 </td><td> 409 </td><td> 0.46 Mbp </td><td> 409 </td><td> 0.46 Mbp </td></tr>  <tr><td> 30 </td><td> 812 </td><td> 0.29 Mbp </td><td> 812 </td><td> 0.29 Mbp </td></tr>  <tr><td> 40 </td><td> 1468 </td><td> 0.17 Mbp </td><td> 1468 </td><td> 0.17 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 3124 </td><td> 48.91 Kbp </td><td> 3124 </td><td> 48.91 Kbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.550x </th><th> 5609 </th><th> 0.81 Gbp </th><th> 5609 </th><th> 0.81 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.5
+assembly: assembly_vgp_standard_1.5
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: mute swan
-data_10x_scale: 1
+data_10x_bases: 73.91 Gbp
+data_10x_bytes: 37.600 GB
+data_10x_coverage: 49.94x
+data_10x_files: 3
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Cygnus_olor/bCygOlo1/genomic_data/10x/ .<br>
+data_10x_scale: 1.8306
 data_arima_bases: 104.07 Gbp
 data_arima_bytes: 62.015 GB
 data_arima_coverage: 70.32x
@@ -27,15 +61,43 @@ data_pbsubreads_files: 28
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cygnus_olor/bCygOlo1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5348
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1480000000
 genome_size_display: 1.48 Gbp
 genome_size_method: null
 image: /assets/images/Cygnus_olor.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
-last_raw_data: 1563412662
-last_updated: 1563518162
+last_raw_data: 1564200622
+last_updated: 1565137276
 name: Cygnus olor
+pri1date: 2019-08-02
+pri1filesize: 333 MB
+pri1n50ctg: 4966489
+pri1n50scf: 26863093
+pri1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_vgp_standard_1.5/bCygOlo1.pri.asm.20190802.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 6 </td><td> 19.51 Mbp </td><td> 0 </td><td> 329.84 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 14.35 Mbp </td><td> 0 </td><td> 329.84 Mbp </td></tr>  <tr><td> 30 </td><td> 27 </td><td> 10.89 Mbp </td><td> 2 </td><td> 71.11 Mbp </td></tr>  <tr><td> 40 </td><td> 44 </td><td> 7.03 Mbp </td><td> 4 </td><td> 66.07 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 69 </td><td style="background-color:#88ff88;"> 4.97 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 26.86 Mbp </td></tr>  <tr><td> 60 </td><td> 108 </td><td> 2.96 Mbp </td><td> 15 </td><td> 18.10 Mbp </td></tr>  <tr><td> 70 </td><td> 193 </td><td> 0.96 Mbp </td><td> 28 </td><td> 6.77 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.760x </th><th> 628 </th><th> 1.12 Gbp </th><th> 253 </th><th> 1.14 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Cygnus_olor
 taxon_id: 8869
 ---
