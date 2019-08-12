@@ -710,9 +710,6 @@ footer {
 }
 
 
-div {
-}
-
 
 .species-info {
     width:    49%;
@@ -733,7 +730,7 @@ div {
 .notes {
   margin:   10px;
 }
-.assembly {
+.assemblies {
   margin:   10px;
 }
 .data-use {
@@ -741,52 +738,54 @@ div {
 }
 
 
+.assembly {
+  margin:   10px;
+  width:    97%;
+  overflow: auto;
+}
 .sequence-file {
-//border:   1px solid #4444ff;
   margin:   0px;
   overflow: auto;
 }
 .sequence-sizes {
-//border:   1px solid #444444;
   margin:   0px;
   overflow: auto;
 }
+.genome-size {
+  margin:   0px;
+  clear:    left;
+  text-align: right;
+}
 
 @media only screen and (max-width: 768px) {
-.mito-sequence {
-//border:   1px solid #ff4444;
-  width:    99%;
-  overflow: auto;
-}
 .primary-sequence {
-//border:   1px solid #ff4444;
   width:    99%;
   overflow: auto;
 }
 .alternate-sequence {
-//border:   1px solid #44ff44;
+  width:    99%;
+  overflow: auto;
+}
+.mito-sequence {
   width:    99%;
   overflow: auto;
 }
 }
 
 @media only screen and (min-width: 769px) {
-.mito-sequence {
-//border:   1px solid #ff4444;
-  width:    99%;
-  overflow: auto;
-}
 .primary-sequence {
-//border:   1px solid #ff4444;
   width:    49%;
   overflow: auto;
   float:    left;
 }
 .alternate-sequence {
-//border:   1px solid #44ff44;
   width:    49%;
   overflow: auto;
   float:    right;
+}
+.mito-sequence {
+  width:    99%;
+  overflow: auto;
 }
 }
 
