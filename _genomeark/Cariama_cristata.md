@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Cariama_cristata.jpg
 image_license: "CC BY-SA 3.0 Olaf Oliviero Riemer (wikimedia)"
 last_raw_data: 1563354348
-last_updated: 1565247848
+last_updated: 1565709087
 name: Cariama cristata
 pri1date: 2019-07-04
 pri1filesize: 358 MB
@@ -96,5 +96,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Cariama_cristata
+short_name: bCarCri
 taxon_id: 54380
 ---

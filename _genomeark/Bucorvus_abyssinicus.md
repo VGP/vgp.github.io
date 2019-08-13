@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Bucorvus_abyssinicus.jpg
 image_license: "CC BY 2.0 Jerry Thompson (wikimedia)"
 last_raw_data: 1562595330
-last_updated: 1565247848
+last_updated: 1565709087
 name: Bucorvus abyssinicus
 pri1date: 2019-07-04
 pri1filesize: 332 MB
@@ -96,5 +96,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Bucorvus_abyssinicus
+short_name: bBucAby
 taxon_id: 153643
 ---

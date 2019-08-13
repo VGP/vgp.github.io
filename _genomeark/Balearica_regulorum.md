@@ -34,8 +34,9 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1563893032
-last_updated: 1565247848
+last_updated: 1565709087
 name: Balearica regulorum
 s3: s3://genomeark/species/Balearica_regulorum
+short_name: bBalReg
 taxon_id: 925459
 ---

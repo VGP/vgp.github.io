@@ -34,8 +34,9 @@ genome_size_method: null
 image: /assets/images/Sylvia_borin.jpg
 image_license: "CC BY-NC-SA 2.0 Steve Garvie (flickr)"
 last_raw_data: 1556386552
-last_updated: 1565247848
+last_updated: 1565709087
 name: Sylvia borin
 s3: s3://genomeark/species/Sylvia_borin
+short_name: bSylBor
 taxon_id: 1471886
 ---

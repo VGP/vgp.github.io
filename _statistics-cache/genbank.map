@@ -1,62 +1,62 @@
-GCA_007364275.2	fArcCen1	haploid
-GCA_900880675.1	fSpaAur1.1	haploid
-GCA_902167395.1	gadMor3.0 alternate haplotype	haploid
-GCA_902167405.1	gadMor3.0	haploid
-GCA_007474595.1	mLynCan4_v1.p	haploid
-GCA_007474575.1	mLynCan4_v1.alt	alternate-pseudohaplotype
-GCA_007399415.1	rGopEvg1_v1.p	haploid
-GCA_007399395.1	rGopEvg1_v1.alt	alternate-pseudohaplotype
-GCA_007364235.1	fArcCen1_v1.h	alternate-pseudohaplotype
 GCA_901765095.1	aMicUni1.1	haploid
-GCA_902153765.1	bAquChr1.2 alternate haplotype	haploid
-GCA_900496995.2	bAquChr1.2	haploid
 GCA_901765105.1	aMicUni1.1 alternate haplotype	haploid
-GCA_902150065.1	fMyrMur1.1	haploid
-GCA_902148855.1	fSphaOr1.1	haploid
-GCA_902148825.1	fSphaOr1.1 alternate haplotype	haploid
-GCA_902148815.1	fMyrMur1.1 alternate haplotype	haploid
-GCA_902148845.1	fSalaFa1.1	haploid
-GCA_902148835.1	fSalaFa1.1 alternate haplotype	haploid
-GCA_900880695.1	fSpaAur1.1 alternate haplotype	haploid
-GCA_901000745.3	fTakRub1.2 alternate haplotype	alternate-pseudohaplotype
-GCA_901699155.1	bStrTur1.1	haploid
-GCA_901000725.2	fTakRub1.2	haploid
-GCA_901699165.1	bStrTur1.1 alternate haplotype	haploid
-GCA_901709685.1	fSynAcu1.1 alternate haplotype	haploid
-GCA_901001175.1	aRhiBiv1.1 alternate haplotype	haploid
-GCA_900964985.2	fSclFor1.1 alternate haplotype	alternate-pseudohaplotype
-GCA_900700845.2	fErpCal1.1 alternate haplotype	alternate-pseudohaplotype
-GCA_900700345.2	fDenClu1.1 alternate haplotype	alternate-pseudohaplotype
 GCA_901001135.1	aRhiBiv1.1	haploid
-GCA_901001165.1	fSalTru1.1	haploid
-GCA_901709675.1	fSynAcu1.1	haploid
-GCA_004115215.2	mOrnAna1.p.v1	haploid
-GCA_004115265.2	mRhiFer1_v1.p	haploid
-GCA_004126475.2	mPhyDis1_v1.p	haploid
+GCA_901001175.1	aRhiBiv1.1 alternate haplotype	haploid
+GCA_900496995.2	bAquChr1.2	haploid
+GCA_902153765.1	bAquChr1.2 alternate haplotype	haploid
+GCA_003957575.1	bCalAnn1_v1.h	alternate-pseudohaplotype
 GCA_003957555.2	bCalAnn1_v1.p	haploid
+GCA_004011185.1	bStrHab1_v1.h	alternate-pseudohaplotype
+GCA_004027225.1	bStrHab1_v1.p	haploid
+GCA_901699155.1	bStrTur1.1	haploid
+GCA_901699165.1	bStrTur1.1 alternate haplotype	haploid
+GCA_003957525.1	bTaeGut1_v1.h	alternate-pseudohaplotype
 GCA_003957565.2	bTaeGut1_v1.p	haploid
+GCA_900324465.2	fAnaTes1.2	haploid
+GCA_900650485.1	fAnaTes1.2 alternate haplotype	alternate-pseudohaplotype
+GCA_007364275.2	fArcCen1	haploid
+GCA_007364235.1	fArcCen1_v1.h	alternate-pseudohaplotype
+GCA_900246225.3	fAstCal1.2	haploid
+GCA_900651605.1	fBetSpl5.1 alternate haplotype	alternate-pseudohaplotype
 GCA_900634795.2	fBetSpl5.2	haploid
-GCA_900324485.2	fMasArm1.2	haploid
-GCA_900964775.1	fSclFor1.1	haploid
+GCA_900634415.1	fCotGob3.1	haploid
+GCA_900634435.1	fCotGob3.1 alternate haplotype	alternate-pseudohaplotype
+GCA_900700345.2	fDenClu1.1 alternate haplotype	alternate-pseudohaplotype
+GCA_900700375.1	fDenClu1.1	haploid
 GCA_900963305.1	fEcheNa1.1	haploid
 GCA_900963505.1	fEcheNa1.1 alternate haplotype	alternate-pseudohaplotype
-GCA_900700395.1	fMasArm1.2 alternate haplotype	alternate-pseudohaplotype
+GCA_900700845.2	fErpCal1.1 alternate haplotype	alternate-pseudohaplotype
 GCA_900747795.2	fErpCal1.1	haploid
-GCA_900700375.1	fDenClu1.1	haploid
-GCA_900651595.1	fParRan2.1 alternate haplotype	alternate-pseudohaplotype
-GCA_900650505.1	fGouWil2.1 alternate haplotype	alternate-pseudohaplotype
-GCA_900651605.1	fBetSpl5.1 alternate haplotype	alternate-pseudohaplotype
-GCA_900650485.1	fAnaTes1.2 alternate haplotype	alternate-pseudohaplotype
-GCA_900634435.1	fCotGob3.1 alternate haplotype	alternate-pseudohaplotype
 GCA_900634775.1	fGouWil2.1	haploid
+GCA_900650505.1	fGouWil2.1 alternate haplotype	alternate-pseudohaplotype
+GCA_900324485.2	fMasArm1.2	haploid
+GCA_900700395.1	fMasArm1.2 alternate haplotype	alternate-pseudohaplotype
+GCA_902148815.1	fMyrMur1.1 alternate haplotype	haploid
+GCA_902150065.1	fMyrMur1.1	haploid
 GCA_900634625.1	fParRan2.1	haploid
-GCA_900634415.1	fCotGob3.1	haploid
-GCA_004115245.1	mPhyDis1_v1.h	alternate-pseudohaplotype
-GCA_004115295.1	mRhiFer1_v1.h	alternate-pseudohaplotype
+GCA_900651595.1	fParRan2.1 alternate haplotype	alternate-pseudohaplotype
+GCA_901001165.1	fSalTru1.1	haploid
+GCA_902148835.1	fSalaFa1.1 alternate haplotype	haploid
+GCA_902148845.1	fSalaFa1.1	haploid
+GCA_900964775.1	fSclFor1.1	haploid
+GCA_900964985.2	fSclFor1.1 alternate haplotype	alternate-pseudohaplotype
+GCA_900880675.1	fSpaAur1.1	haploid
+GCA_900880695.1	fSpaAur1.1 alternate haplotype	haploid
+GCA_902148825.1	fSphaOr1.1 alternate haplotype	haploid
+GCA_902148855.1	fSphaOr1.1	haploid
+GCA_901709675.1	fSynAcu1.1	haploid
+GCA_901709685.1	fSynAcu1.1 alternate haplotype	haploid
+GCA_901000725.2	fTakRub1.2	haploid
+GCA_901000745.3	fTakRub1.2 alternate haplotype	alternate-pseudohaplotype
+GCA_902167395.1	gadMor3.0 alternate haplotype	haploid
+GCA_902167405.1	gadMor3.0	haploid
+GCA_007474575.1	mLynCan4_v1.alt	alternate-pseudohaplotype
+GCA_007474595.1	mLynCan4_v1.p	haploid
 GCA_004115175.1	mOrnAna1.h.v1	alternate-pseudohaplotype
-GCA_004027225.1	bStrHab1_v1.p	haploid
-GCA_004011185.1	bStrHab1_v1.h	alternate-pseudohaplotype
-GCA_900324465.2	fAnaTes1.2	haploid
-GCA_003957525.1	bTaeGut1_v1.h	alternate-pseudohaplotype
-GCA_003957575.1	bCalAnn1_v1.h	alternate-pseudohaplotype
-GCA_900246225.3	fAstCal1.2	haploid
+GCA_004115215.2	mOrnAna1.p.v1	haploid
+GCA_004115245.1	mPhyDis1_v1.h	alternate-pseudohaplotype
+GCA_004126475.2	mPhyDis1_v1.p	haploid
+GCA_004115295.1	mRhiFer1_v1.h	alternate-pseudohaplotype
+GCA_004115265.2	mRhiFer1_v1.p	haploid
+GCA_007399395.1	rGopEvg1_v1.alt	alternate-pseudohaplotype
+GCA_007399415.1	rGopEvg1_v1.p	haploid

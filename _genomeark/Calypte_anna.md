@@ -68,12 +68,14 @@ data_phase_files: 1
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Calypte_anna/bCalAnn1/genomic_data/phase/ .<br>
 data_phase_scale: 1.7403
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_003957575.1
+genbank_pri: GCA_003957555.2
 genome_size: 1116472572
 genome_size_display: 1.12 Gbp
 image: /assets/images/Calypte_anna.jpg
 image_license: "public domain"
 last_raw_data: 1555437492
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_mt_milan/bCalAnn1.MT.20190302.fasta.gz
@@ -130,5 +132,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Calypte_anna
+short_name: bCalAnn
 taxon_id: 9244
 ---

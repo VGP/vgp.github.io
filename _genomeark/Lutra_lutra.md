@@ -55,7 +55,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Lutra_lutra.jpg
 image_license: "(pixabay)"
 last_raw_data: 1562341953
-last_updated: 1565247848
+last_updated: 1565709087
 name: Lutra lutra
 pri1date: 2019-06-27
 pri1filesize: 723 MB
@@ -86,5 +86,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_cambridge
 s3: s3://genomeark/species/Lutra_lutra
+short_name: mLutLut
 taxon_id: 9657
 ---

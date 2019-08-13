@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Para
 data_pbsubreads_scale: 0.5336
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900651595.1
+genbank_pri: GCA_900634625.1
 image: /assets/images/Parambassis_ranga.jpg
 image_license: "CC BY-SA 2.5 opencage (wikimedia)"
 last_raw_data: 1535575225
-last_updated: 1565247848
+last_updated: 1565709087
 name: Parambassis ranga
 pri2date: 2018-12-05
 pri2filesize: 144 MB
@@ -96,5 +98,6 @@ pri2sizes: |
   </table>
 pri2version: assembly_curated
 s3: s3://genomeark/species/Parambassis_ranga
+short_name: fParRan
 taxon_id: 210632
 ---

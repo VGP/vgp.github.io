@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taki
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_901000745.3
+genbank_pri: GCA_901000725.2
 image: /assets/images/Takifugu_rubripes.jpg
 image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1565247848
+last_updated: 1565709087
 name: Takifugu rubripes
 pri1date: 2019-05-23
 pri1filesize: 108 MB
@@ -96,5 +98,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Takifugu_rubripes
+short_name: fTakRub
 taxon_id: 31033
 ---

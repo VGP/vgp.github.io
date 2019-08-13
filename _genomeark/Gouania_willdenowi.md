@@ -60,12 +60,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Goua
 data_pbsubreads_scale: 0.5244
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900650505.1
+genbank_pri: GCA_900634775.1
 genome_size: 1182215999
 genome_size_display: 1.18 Gbp
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1523524486
-last_updated: 1565247848
+last_updated: 1565709087
 mito2date: 2019-03-05
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_mt_milan/fGouWil2.MT.20190305.fasta.gz
@@ -122,5 +124,6 @@ pri2sizes: |
   </table>
 pri2version: assembly_curated
 s3: s3://genomeark/species/Gouania_willdenowi
+short_name: fGouWil
 taxon_id: 441366
 ---

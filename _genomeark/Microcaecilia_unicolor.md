@@ -67,10 +67,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Micr
 data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_901765105.1
+genbank_pri: GCA_901765095.1
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1548859097
-last_updated: 1565247848
+last_updated: 1565709087
 name: Microcaecilia unicolor
 pri1date: 2019-05-23
 pri1filesize: 1 GB
@@ -101,5 +103,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Microcaecilia_unicolor
+short_name: aMicUni
 taxon_id: 1415580
 ---

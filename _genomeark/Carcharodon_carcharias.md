@@ -29,8 +29,9 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1565123631
-last_updated: 1565247848
+last_updated: 1565709087
 name: Carcharodon carcharias
 s3: s3://genomeark/species/Carcharodon_carcharias
+short_name: sCarCar
 taxon_id: 13397
 ---

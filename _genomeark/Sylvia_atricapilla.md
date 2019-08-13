@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Sylvia_atricapilla.jpg
 image_license: "CC BY 2.0 Frank Vassen (wikimedia)"
 last_raw_data: 1562675508
-last_updated: 1565247848
+last_updated: 1565709087
 name: Sylvia atricapilla
 pri1date: 2019-07-03
 pri1filesize: 309 MB
@@ -99,5 +99,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Sylvia_atricapilla
+short_name: bSylAtr
 taxon_id: 48155
 ---

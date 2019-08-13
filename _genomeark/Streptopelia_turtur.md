@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Stre
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_901699165.1
+genbank_pri: GCA_901699155.1
 image: /assets/images/Streptopelia_turtur.jpg
 image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1548798897
-last_updated: 1565247848
+last_updated: 1565709087
 name: Streptopelia turtur
 pri1date: 2019-05-23
 pri1filesize: 344 MB
@@ -96,5 +98,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Streptopelia_turtur
+short_name: bStrTur
 taxon_id: 177155
 ---

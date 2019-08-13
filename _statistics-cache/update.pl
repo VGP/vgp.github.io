@@ -813,7 +813,7 @@ sub processAssembly ($$$) {
 
     #  Update the assembly status based on the primary n50 and/or curation status.
 
-    print STDERR "$prialt -- " . $$data{"${prialt}${sNum}n50ctg"} . " -- " . $$data{"${prialt}${sNum}n50scf"} . "\n";
+    #print STDERR "$prialt -- " . $$data{"${prialt}${sNum}n50ctg"} . " -- " . $$data{"${prialt}${sNum}n50scf"} . "\n";
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") ||
@@ -1197,6 +1197,8 @@ foreach my $species (@speciesList) {
     #
 
     $data{"name"}                = $meta{"species.name"};
+    $data{"short_name"}          = $meta{"species.short_name"};
+
     $data{"common_name"}         = $meta{"species.common_name"};
     $data{"taxon_id"}            = $meta{"species.taxon_id"};
 
@@ -1275,6 +1277,56 @@ foreach my $species (@speciesList) {
         }
     }
     close(LS);
+
+    #
+    #  Track down any link to NCBI.
+    #
+
+    open(GB, "< genbank.map");
+    while (<GB>) {
+        chomp;
+
+        my ($gbacc, $gbnam, $gbtyp);
+
+        if ($_ =~ m/^(GCA_\d+.\d+)\s+(\S+)\s+(.*)$/) {
+            $gbacc = $1;
+            $gbnam = $2;
+            $gbtyp = $3;
+
+            if ($gbtyp =~ m/alt/) {
+                $gbtyp = "alt";
+            } else {
+                $gbtyp = "pri";
+            }
+
+            #print "$name $data{'short_name'} -> $gbacc $gbnam $gbtyp\n";
+
+            #  Fuzzy match our short_name against ncbi's gbnam.  Fuzzy because
+            #  genbank isn't always correct, for example:
+            #    fGadMor -- gadMor3.0
+            #    mLynCan -- mLynCan4_v1.alt
+            #
+            if ($data{'short_name'} =~ m/^.(......)$/) {
+                my $tag = $1;
+
+                if ($gbnam =~ m/$tag/i) {
+                    if ($gbtyp eq "pri") {
+                        #print "MATCH PRI $tag -- $gbnam -- $gbacc\n";
+                        $data{'genbank_pri'} = $gbacc;
+                    } else {
+                        #print "MATCH ALT $tag -- $gbnam -- $gbacc\n";
+                        $data{'genbank_alt'} = $gbacc;
+                    }
+                }
+            } else {
+                die "Malformed short_name '$data{'short_name'}'.\n";
+            }
+
+        } else {
+            die "Failed to parse genbank.map line '$_'.\n";
+        }
+    }
+    close(GB);
 
     #
     #  Finalize the genomic_data by adding to %data.

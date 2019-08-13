@@ -62,12 +62,14 @@ data_phase_files: 1
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/phase/ .<br>
 data_phase_scale: 1.4998
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_004115295.1
+genbank_pri: GCA_004115265.2
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
 image: /assets/images/Rhinolophus_ferrumequinum.jpg
 image_license: "CC BY-NC-SA 2.0 Ján Svetlík (flickr)"
 last_raw_data: 1522747239
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_mt_milan/mRhiFer1.MT.20190308.fasta.gz
@@ -124,5 +126,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Rhinolophus_ferrumequinum
+short_name: mRhiFer
 taxon_id: 59479
 ---

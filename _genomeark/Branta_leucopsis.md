@@ -26,8 +26,9 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Branta_leucopsis.jpg
 image_license: "CC BY 2.0 Bengt Nyman (flickr)"
 last_raw_data: 1536592916
-last_updated: 1565247848
+last_updated: 1565709087
 name: Branta leucopsis
 s3: s3://genomeark/species/Branta_leucopsis
+short_name: bBraLeu
 taxon_id: 184711
 ---

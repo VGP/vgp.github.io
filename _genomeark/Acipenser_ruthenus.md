@@ -40,7 +40,7 @@ data_pbsubreads_scale: 0.5204
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1561670787
-last_updated: 1565247848
+last_updated: 1565709087
 mat3date: 2019-07-09
 mat3filesize: 474 MB
 mat3n50ctg: 10828506
@@ -99,5 +99,6 @@ pat3sizes: |
   </table>
 pat3version: assembly_cambridge
 s3: s3://genomeark/species/Acipenser_ruthenus
+short_name: fAciRut
 taxon_id: 7906
 ---

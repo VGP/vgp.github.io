@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Tauraco_erythrolophus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1561646749
-last_updated: 1565247848
+last_updated: 1565709087
 name: Tauraco erythrolophus
 pri1date: 2019-07-01
 pri1filesize: 361 MB
@@ -99,5 +99,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Tauraco_erythrolophus
+short_name: bTauEry
 taxon_id: 121530
 ---

@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Myri
 data_pbsubreads_scale: 0.5368
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_902148815.1
+genbank_pri: GCA_902150065.1
 image: /assets/images/Myripristis_murdjan.jpg
 image_license: "CC BY 2.0 Rickard Zerpe (flickr)"
 last_raw_data: 1556731081
-last_updated: 1565247848
+last_updated: 1565709087
 name: Myripristis murdjan
 pri1date: 2019-06-21
 pri1filesize: 242 MB
@@ -96,5 +98,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Myripristis_murdjan
+short_name: fMyrMur
 taxon_id: 586833
 ---

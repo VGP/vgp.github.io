@@ -62,12 +62,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anab
 data_pbsubreads_scale: 0.5198
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900650485.1
+genbank_pri: GCA_900324465.2
 genome_size: 662696525
 genome_size_display: 0.66 Gbp
 image: /assets/images/Anabas_testudineus.jpg
 image_license: "public domain"
 last_raw_data: 1523263117
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_mt_milan/fAnaTes1.MT.20190310.fasta.gz
@@ -124,5 +126,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Anabas_testudineus
+short_name: fAnaTes
 taxon_id: 64144
 ---

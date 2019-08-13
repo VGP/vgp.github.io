@@ -58,12 +58,14 @@ data_phase_files: 2
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Archocentrus_centrarchus/fArcCen1/genomic_data/phase/ .<br>
 data_phase_scale: 1.5225
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_007364235.1
+genbank_pri: GCA_007364275.2
 genome_size: 988048114
 genome_size_display: 0.99 Gbp
 image: /assets/images/Archocentrus_centrarchus.jpg
 image_license: "public domain"
 last_raw_data: 1551284459
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_mt_milan/fArcCen1.MT.20190308.fasta.gz
@@ -120,5 +122,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Archocentrus_centrarchus
+short_name: fArcCen
 taxon_id: 63155
 ---

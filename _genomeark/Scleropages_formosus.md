@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scle
 data_pbsubreads_scale: 0.5424
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900964985.2
+genbank_pri: GCA_900964775.1
 image: /assets/images/Scleropages_formosus.jpg
 image_license: "CC BY-SA 2.5 Okinawa Churaumi Aquarium (opencage)"
 last_raw_data: 1547566320
-last_updated: 1565247848
+last_updated: 1565709087
 name: Scleropages formosus
 pri1date: 2019-04-01
 pri1filesize: 231 MB
@@ -96,5 +98,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Scleropages_formosus
+short_name: fSclFor
 taxon_id: 113540
 ---

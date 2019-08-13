@@ -64,7 +64,7 @@ data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1554983650
-last_updated: 1565247848
+last_updated: 1565709087
 name: Chanos chanos
 pri1date: 2019-08-05
 pri1filesize: 185 MB
@@ -95,5 +95,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Chanos_chanos
+short_name: fChaCha
 taxon_id: 29144
 ---

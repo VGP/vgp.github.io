@@ -56,12 +56,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Stri
 data_pbsubreads_scale: 0.2547
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_004011185.1
+genbank_pri: GCA_004027225.1
 genome_size: 1193409022
 genome_size_display: 1.19 Gbp
 image: /assets/images/Strigops_habroptilus.jpg
 image_license: "CC BY-NC 2.0 Jake Osborne (flickr)"
 last_raw_data: 1560055730
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_mt_milan/bStrHab1.MT.20190304.fasta.gz
@@ -118,5 +120,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Strigops_habroptilus
+short_name: bStrHab
 taxon_id: 57251
 ---

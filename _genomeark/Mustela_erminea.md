@@ -39,8 +39,9 @@ genome_size_method: null
 image: /assets/images/Mustela_erminea.jpg
 image_license: Copyright Patrick Garvey, used with permission
 last_raw_data: 1563411575
-last_updated: 1565247848
+last_updated: 1565709087
 name: Mustela erminea
 s3: s3://genomeark/species/Mustela_erminea
+short_name: mMusErm
 taxon_id: 36723
 ---

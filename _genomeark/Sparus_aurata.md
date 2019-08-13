@@ -57,10 +57,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Spar
 data_pbsubreads_scale: 0.5184
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_900880695.1
+genbank_pri: GCA_900880675.1
 image: /assets/images/Sparus_aurata.jpg
 image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1523533999
-last_updated: 1565247848
+last_updated: 1565709087
 name: Sparus aurata
 pri1date: 2019-03-14
 pri1filesize: 225 MB
@@ -91,5 +93,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Sparus_aurata
+short_name: fSpaAur
 taxon_id: 8175
 ---

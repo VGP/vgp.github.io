@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Thamnophis_elegans.jpg
 image_license: "CC BY-NC 2.0 J. Maughn (flickr)"
 last_raw_data: 1557292636
-last_updated: 1565247848
+last_updated: 1565709087
 name: Thamnophis elegans
 pri1date: 2019-06-30
 pri1filesize: 481 MB
@@ -99,5 +99,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Thamnophis_elegans
+short_name: rThaEle
 taxon_id: 35005
 ---

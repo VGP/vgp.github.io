@@ -62,12 +62,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Goph
 data_pbsubreads_scale: 0.5348
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_007399395.1
+genbank_pri: GCA_007399415.1
 genome_size: 2684436481
 genome_size_display: 2.68 Gbp
 image: /assets/images/Gopherus_evgoodei.jpg
 image_license: "CC BY 4.0 Edwards et al. (wikimedia)"
 last_raw_data: 1529613892
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_mt_milan/rGopEvg1.MT.20190310.fasta.gz
@@ -124,5 +126,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Gopherus_evgoodei
+short_name: rGopEvg
 taxon_id: 1825980
 ---

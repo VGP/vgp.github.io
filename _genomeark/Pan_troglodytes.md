@@ -34,8 +34,9 @@ genome_size_method: null
 image: /assets/images/Pan_troglodytes.jpg
 image_license: CC BY-SA 2.0 Bernard Dupont (wikipedia)
 last_raw_data: 1565191064
-last_updated: 1565247848
+last_updated: 1565709087
 name: Pan troglodytes
 s3: s3://genomeark/species/Pan_troglodytes
+short_name: mPanTro
 taxon_id: 9598
 ---

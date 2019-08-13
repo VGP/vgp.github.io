@@ -26,6 +26,8 @@ if [ ! -e genbank.xml.map ] ; then
   xtract \
     -input genbank.xml \
     -pattern DocumentSummary -if Synonym -element Genbank AssemblyName AssemblyType \
+  | \
+  sort -k2,2 \
   > genbank.map
 fi
 

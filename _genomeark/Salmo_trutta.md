@@ -39,10 +39,11 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Salm
 data_pbsubreads_scale: 0.5297
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_pri: GCA_901001165.1
 image: /assets/images/Salmo_trutta.jpg
 image_license: "public domain"
 last_raw_data: 1556285514
-last_updated: 1565247848
+last_updated: 1565709087
 name: Salmo trutta
 pri1date: 2019-04-03
 pri1filesize: 624 MB
@@ -73,5 +74,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Salmo_trutta
+short_name: fSalTru
 taxon_id: 8032
 ---

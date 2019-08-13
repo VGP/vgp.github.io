@@ -58,8 +58,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gadu
 data_pbsubreads_scale: 0.2993
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_902167395.1
+genbank_pri: GCA_902167405.1
 last_raw_data: 1556739326
-last_updated: 1565247848
+last_updated: 1565709087
 name: Gadus morhua
 pri1date: 2019-07-10
 pri1filesize: 181 MB
@@ -90,5 +92,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Gadus_morhua
+short_name: fGadMor
 taxon_id: 8049
 ---

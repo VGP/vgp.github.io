@@ -25,8 +25,9 @@ data_pbsubreads_scale: 0.5125
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1562074881
-last_updated: 1565247848
+last_updated: 1565709087
 name: Rana temporaria
 s3: s3://genomeark/species/Rana_temporaria
+short_name: aRanTem
 taxon_id: 8407
 ---

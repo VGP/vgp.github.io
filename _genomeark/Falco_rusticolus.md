@@ -34,8 +34,9 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1564926515
-last_updated: 1565247848
+last_updated: 1565709087
 name: Falco rusticolus
 s3: s3://genomeark/species/Falco_rusticolus
+short_name: bFalRus
 taxon_id: 120794
 ---

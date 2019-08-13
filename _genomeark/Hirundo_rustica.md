@@ -25,8 +25,9 @@ genome_size_method: null
 image: /assets/images/Hirundo_rustica.jpg
 image_license: "CC BY-SA 2.0 Mike Pennington (geograph)"
 last_raw_data: 1555349100
-last_updated: 1565247848
+last_updated: 1565709087
 name: Hirundo rustica
 s3: s3://genomeark/species/Hirundo_rustica
+short_name: bHirRus
 taxon_id: 43150
 ---

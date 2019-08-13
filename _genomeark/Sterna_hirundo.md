@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Sterna_hirundo.jpg
 image_license: "CC BY 2.0 Frank Vassen (flickr)"
 last_raw_data: 1559739259
-last_updated: 1565247848
+last_updated: 1565709087
 name: Sterna hirundo
 pri1date: 2019-07-06
 pri1filesize: 359 MB
@@ -99,5 +99,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Sterna_hirundo
+short_name: bSteHir
 taxon_id: 108405
 ---

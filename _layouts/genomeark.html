@@ -12,19 +12,15 @@ layout: default
     <h3>Information</h3>
 
     <div>
-    <ul class="link-list">
     {% if page.taxon_id %}
-      <li><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ page.taxon_id }}">NCBI Taxonomy Browser</a></li>
+    <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ page.taxon_id }}">NCBI Taxonomy Browser</a><br>
     {% endif %}
-
-<!--
-    {% if page.genbank %}
-      <li><a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank }}/">genbank</a></li>
-    {% else %}
-      <li>genbank</li>
+    {% if page.genbank_pri %}
+      Primary assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_pri }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_pri }}">ENA</a><br>
     {% endif %}
---->
-    </ul>
+    {% if page.genbank_alt %}
+      Alternate assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_alt }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_alt }}">ENA</a><br>
+    {% endif %}
     </div>
   </div>
 
@@ -173,6 +169,21 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
 <h3>Assemblies</h3>
 <div class="assemblies">
 
+
+{% if page.genbank_pri or page.genbank_alt %}
+  <hr>
+  <div class="assembly">
+  {% if page.genbank_pri %}
+    Primary assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_pri }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_pri }}">ENA</a><br>
+  {% endif %}
+  {% if page.genbank_alt %}
+    Alternate assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_alt }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_alt }}">ENA</a><br>
+  {% endif %}
+  </div>
+
+{% else %}
+{% endif %}
+
 {% include genomeark_asm_stats.html
      individual=1
      llabel="Primary"   lseq=page.pri1seq  lversion=page.pri1version  ldate=page.pri1date  lfilesize=page.pri1filesize  lsizes=page.pri1sizes
@@ -187,7 +198,6 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
      rlabel="Paternal"  rseq=page.pat1seq  rversion=page.pat1version  rdate=page.pat1date  rfilesize=page.pat1filesize  rsizes=page.pat1sizes
      genome_size_display=page.genome_size_display
 %}
-
 
 {% include genomeark_asm_stats.html
      individual=2
@@ -204,7 +214,6 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
      genome_size_display=page.genome_size_display
 %}
 
-
 {% include genomeark_asm_stats.html
      individual=3
      llabel="Primary"   lseq=page.pri3seq  lversion=page.pri3version  ldate=page.pri3date  lfilesize=page.pri3filesize  lsizes=page.pri3sizes
@@ -219,7 +228,6 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
      rlabel="Paternal"  rseq=page.pat3seq  rversion=page.pat3version  rdate=page.pat3date  rfilesize=page.pat3filesize  rsizes=page.pat3sizes
      genome_size_display=page.genome_size_display
 %}
-
 
 {% include genomeark_asm_stats.html
      individual=4

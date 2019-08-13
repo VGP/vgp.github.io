@@ -62,12 +62,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cott
 data_pbsubreads_scale: 0.5216
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900634435.1
+genbank_pri: GCA_900634415.1
 genome_size: 700000000
 genome_size_display: 0.70 Gbp
 image: /assets/images/Cottoperca_gobio.jpg
 image_license: "public domain"
 last_raw_data: 1523523546
-last_updated: 1565247848
+last_updated: 1565709087
 name: Cottoperca gobio
 pri3date: 2018-10-26
 pri3filesize: 160 MB
@@ -98,5 +100,6 @@ pri3sizes: |
   </table>
 pri3version: assembly_curated
 s3: s3://genomeark/species/Cottoperca_gobio
+short_name: fCotGob
 taxon_id: 56716
 ---

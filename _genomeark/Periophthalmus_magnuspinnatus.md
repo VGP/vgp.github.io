@@ -39,8 +39,9 @@ genome_size_method: null
 image: /assets/images/Periophthalmus_magnuspinnatus.jpg
 image_license: Copyright Chul Lee, used with permission
 last_raw_data: 1562791112
-last_updated: 1565247848
+last_updated: 1565709087
 name: Periophthalmus magnuspinnatus
 s3: s3://genomeark/species/Periophthalmus_magnuspinnatus
+short_name: fPerMag
 taxon_id: 409849
 ---

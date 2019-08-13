@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/fish.png
 image_license: Apple
 last_raw_data: 1557543675
-last_updated: 1565247848
+last_updated: 1565709087
 name: Notolabrus celidotus
 pri1date: 2019-08-04
 pri1filesize: 242 MB
@@ -99,5 +99,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_vgp_standard_1.6
 s3: s3://genomeark/species/Notolabrus_celidotus
+short_name: fNotCel
 taxon_id: 1203425
 ---

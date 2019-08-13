@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Eche
 data_pbsubreads_scale: 0.5331
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900963505.1
+genbank_pri: GCA_900963305.1
 image: /assets/images/Echeneis_naucrates.jpg
 image_license: "CC BY 2.0 Richard ling (wikimedia)"
 last_raw_data: 1549384902
-last_updated: 1565247848
+last_updated: 1565709087
 name: Echeneis naucrates
 pri1date: 2019-04-01
 pri1filesize: 147 MB
@@ -96,5 +98,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Echeneis_naucrates
+short_name: fEcheNa
 taxon_id: 173247
 ---

@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Aythya_fuligula.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
 last_raw_data: 1565190400
-last_updated: 1565247848
+last_updated: 1565709087
 name: Aythya fuligula
 pri2date: 2019-08-03
 pri2filesize: 329 MB
@@ -99,5 +99,6 @@ pri2sizes: |
   </table>
 pri2version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Aythya_fuligula
+short_name: bAytFul
 taxon_id: 219594
 ---

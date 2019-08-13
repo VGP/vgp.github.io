@@ -29,8 +29,9 @@ genome_size_method: null
 image: /assets/images/Zalophus_californianus.jpg
 image_license: "CC BY-SA 2.0 Gregory Smith (flickr)"
 last_raw_data: 1565205484
-last_updated: 1565247848
+last_updated: 1565709087
 name: Zalophus californianus
 s3: s3://genomeark/species/Zalophus_californianus
+short_name: mZalCal
 taxon_id: 9704
 ---

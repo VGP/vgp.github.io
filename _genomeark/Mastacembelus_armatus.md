@@ -60,12 +60,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mast
 data_pbsubreads_scale: 0.5179
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_900700395.1
+genbank_pri: GCA_900324485.2
 genome_size: 756753344
 genome_size_display: 0.76 Gbp
 image: /assets/images/Mastacembelus_armatus.jpg
 image_license: "public domain"
 last_raw_data: 1523531959
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_mt_milan/fMasArm1.MT.20190304.fasta.gz
@@ -122,5 +124,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Mastacembelus_armatus
+short_name: fMasArm
 taxon_id: 205130
 ---

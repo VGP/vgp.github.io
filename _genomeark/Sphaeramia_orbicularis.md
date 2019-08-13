@@ -62,10 +62,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Spha
 data_pbsubreads_scale: 0.5396
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_902148825.1
+genbank_pri: GCA_902148855.1
 image: /assets/images/Sphaeramia_orbicularis.jpg
 image_license: "CC BY-SA 3.0 Sushi Girl1995 (wikimedia)"
 last_raw_data: 1553010021
-last_updated: 1565247848
+last_updated: 1565709087
 name: Sphaeramia orbicularis
 pri1date: 2019-06-19
 pri1filesize: 378 MB
@@ -96,5 +98,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Sphaeramia_orbicularis
+short_name: fSphaOr
 taxon_id: 375764
 ---

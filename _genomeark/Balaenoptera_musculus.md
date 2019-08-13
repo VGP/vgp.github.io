@@ -29,7 +29,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
-common_name: Blue whale
+common_name: blue whale
 data_10x_bases: 320.05 Gbp
 data_10x_bytes: 185.877 GB
 data_10x_coverage: 103.45x
@@ -71,7 +71,7 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 last_raw_data: 1563292453
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-05-21
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_mt_milan/mBalMus1.MT.20190521.fasta.gz
@@ -128,5 +128,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Balaenoptera_musculus
+short_name: mBalMus
 taxon_id: 9771
 ---

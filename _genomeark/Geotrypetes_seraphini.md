@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1556224643
-last_updated: 1565247848
+last_updated: 1565709087
 name: Geotrypetes seraphini
 pri1date: 2019-05-31
 pri1filesize: 1 GB
@@ -96,5 +96,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_cambridge
 s3: s3://genomeark/species/Geotrypetes_seraphini
+short_name: aGeoSer
 taxon_id: 260995
 ---

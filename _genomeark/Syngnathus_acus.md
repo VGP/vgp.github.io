@@ -57,10 +57,12 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Syng
 data_pbsubreads_scale: 0.5351
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_901709685.1
+genbank_pri: GCA_901709675.1
 image: /assets/images/Syngnathus_acus.jpg
 image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1554452546
-last_updated: 1565247848
+last_updated: 1565709087
 name: Syngnathus acus
 pri1date: 2019-05-23
 pri1filesize: 87 MB
@@ -91,5 +93,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Syngnathus_acus
+short_name: fSynAcu
 taxon_id: 161584
 ---

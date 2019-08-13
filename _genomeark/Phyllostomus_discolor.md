@@ -62,12 +62,14 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyl
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_004115245.1
+genbank_pri: GCA_004126475.2
 genome_size: 2213798723
 genome_size_display: 2.21 Gbp
 image: /assets/images/Phyllostomus_discolor.jpg
 image_license: "CC BY-SA 4.0 Juan Carlos Vargas Mena (wikimedia)"
 last_raw_data: 1527496005
-last_updated: 1565247848
+last_updated: 1565709087
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_mt_milan/mPhyDis1.MT.20190308.fasta.gz
@@ -124,5 +126,6 @@ pri1sizes: |
   </table>
 pri1version: assembly_curated
 s3: s3://genomeark/species/Phyllostomus_discolor
+short_name: mPhyDis
 taxon_id: 89673
 ---

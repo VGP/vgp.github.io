@@ -31,8 +31,9 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Acanthisitta_chloris.jpg
 image_license: "CC BY-SA 2.0 digitaltrails (flickr)"
 last_raw_data: 1543518349
-last_updated: 1565247848
+last_updated: 1565709087
 name: Acanthisitta chloris
 s3: s3://genomeark/species/Acanthisitta_chloris
+short_name: bAcaChl
 taxon_id: 57068
 ---
