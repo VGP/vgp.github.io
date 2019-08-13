@@ -188,6 +188,22 @@ img {
   }
 }
 
+.portrait-tiny {
+	border-radius: 12px;
+	width: 128px;
+	height: 128px;
+	background-size:cover;
+	background-position: center;
+	box-shadow: 0 2px 5px 0px gray;
+	display: block;
+	margin: auto;
+//	object-fit: contain;
+
+  @include mobile {
+	clear: right;
+  }
+}
+
 .portrait-caption {
   margin: auto;
 
@@ -719,6 +735,12 @@ footer {
 
 .species-image {
     width:    49%;
+    overflow: auto;
+    float:    right;
+}
+.species-image-grid {
+    height:   161px;
+    width:    24%;
     overflow: auto;
     float:    right;
 }
