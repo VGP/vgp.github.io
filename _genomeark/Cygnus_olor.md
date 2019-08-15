@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Cygnus_olor.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
 last_raw_data: 1564200622
-last_updated: 1565709087
+last_updated: 1565710556
 name: Cygnus olor
 pri1date: 2019-08-02
 pri1filesize: 333 MB

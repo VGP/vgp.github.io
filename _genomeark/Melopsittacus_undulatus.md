@@ -44,7 +44,7 @@ genome_size_method: null
 image: /assets/images/Melopsittacus_undulatus.jpg
 image_license: "CC BY-SA 3.0 Atlanta Zoo (wikimedia)"
 last_raw_data: 1565104681
-last_updated: 1565709087
+last_updated: 1565710556
 name: Melopsittacus undulatus
 s3: s3://genomeark/species/Melopsittacus_undulatus
 short_name: bMelUnd

@@ -36,7 +36,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Dermochelys_coriacea.jpg
 image_license: "public domain"
 last_raw_data: 1563832512
-last_updated: 1565709087
+last_updated: 1565710556
 name: Dermochelys coriacea
 s3: s3://genomeark/species/Dermochelys_coriacea
 short_name: rDerCor

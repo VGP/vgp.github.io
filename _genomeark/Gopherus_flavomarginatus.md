@@ -44,7 +44,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1562793058
-last_updated: 1565709087
+last_updated: 1565710556
 name: Gopherus flavomarginatus
 s3: s3://genomeark/species/Gopherus_flavomarginatus
 short_name: rGopFla

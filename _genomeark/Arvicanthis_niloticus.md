@@ -44,7 +44,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1564249507
-last_updated: 1565709087
+last_updated: 1565710556
 name: Arvicanthis niloticus
 s3: s3://genomeark/species/Arvicanthis_niloticus
 short_name: mArvNil

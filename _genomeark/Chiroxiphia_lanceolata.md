@@ -1,5 +1,34 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-08-01
+alt1filesize: 311 MB
+alt1n50ctg: 848834
+alt1n50scf: 848834
+alt1seq: https://s3.amazonaws.com/genomeark/species/Chiroxiphia_lanceolata/bChiLan1/assembly_vgp_standard_1.5/bChiLan1.alt.asm.20190801.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 27 </td><td> 3.21 Mbp </td><td> 27 </td><td> 3.21 Mbp </td></tr>  <tr><td> 20 </td><td> 75 </td><td> 2.13 Mbp </td><td> 75 </td><td> 2.13 Mbp </td></tr>  <tr><td> 30 </td><td> 145 </td><td> 1.52 Mbp </td><td> 145 </td><td> 1.52 Mbp </td></tr>  <tr><td> 40 </td><td> 238 </td><td> 1.18 Mbp </td><td> 238 </td><td> 1.18 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 361 </td><td> 0.85 Mbp </td><td> 361 </td><td> 0.85 Mbp </td></tr>  <tr><td> 60 </td><td> 537 </td><td> 0.55 Mbp </td><td> 537 </td><td> 0.55 Mbp </td></tr>  <tr><td> 70 </td><td> 861 </td><td> 0.24 Mbp </td><td> 861 </td><td> 0.24 Mbp </td></tr>  <tr><td> 80 </td><td> 2185 </td><td> 52.80 Kbp </td><td> 2185 </td><td> 52.80 Kbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.857x </th><th> 4268 </th><th> 1.05 Gbp </th><th> 4268 </th><th> 1.05 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.5
+assembly: assembly_vgp_standard_1.5
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: lance-tailed manakin
 data_10x_bases: 96.90 Gbp
 data_10x_bytes: 46.415 GB
@@ -39,8 +68,36 @@ genome_size_method: null
 image: /assets/images/Chiroxiphia_lanceolata.jpg
 image_license: "CC BY-SA 2.0 Dario Sanches (wikimedia)"
 last_raw_data: 1564251530
-last_updated: 1565709087
+last_updated: 1565710556
 name: Chiroxiphia lanceolata
+pri1date: 2019-08-01
+pri1filesize: 319 MB
+pri1n50ctg: 15430584
+pri1n50scf: 39976536
+pri1seq: https://s3.amazonaws.com/genomeark/species/Chiroxiphia_lanceolata/bChiLan1/assembly_vgp_standard_1.5/bChiLan1.pri.asm.20190801.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 1 </td><td> 63.52 Mbp </td><td> 0 </td><td> 220.93 Mbp </td></tr>  <tr><td> 20 </td><td> 4 </td><td> 33.55 Mbp </td><td> 1 </td><td> 111.62 Mbp </td></tr>  <tr><td> 30 </td><td> 8 </td><td> 27.94 Mbp </td><td> 2 </td><td> 103.07 Mbp </td></tr>  <tr><td> 40 </td><td> 13 </td><td> 21.53 Mbp </td><td> 3 </td><td> 74.81 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 20 </td><td style="background-color:#88ff88;"> 15.43 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 39.98 Mbp </td></tr>  <tr><td> 60 </td><td> 29 </td><td> 11.78 Mbp </td><td> 9 </td><td> 26.48 Mbp </td></tr>  <tr><td> 70 </td><td> 41 </td><td> 7.73 Mbp </td><td> 14 </td><td> 20.73 Mbp </td></tr>  <tr><td> 80 </td><td> 63 </td><td> 3.34 Mbp </td><td> 22 </td><td> 12.70 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.883x </th><th> 299 </th><th> 1.09 Gbp </th><th> 121 </th><th> 1.09 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.5
 s3: s3://genomeark/species/Chiroxiphia_lanceolata
 short_name: bChiLan
 taxon_id: 296741

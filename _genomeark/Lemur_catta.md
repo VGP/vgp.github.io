@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: ring-tailed lemur
+common_name: Ring-tailed lemur
 data_10x_bases: 277.44 Gbp
 data_10x_bytes: 130.708 GB
 data_10x_coverage: 84.07x
@@ -39,7 +39,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1564244235
-last_updated: 1565709087
+last_updated: 1565710556
 name: Lemur catta
 s3: s3://genomeark/species/Lemur_catta
 short_name: mLemCat
