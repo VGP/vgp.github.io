@@ -11,9 +11,11 @@ permalink: /
   function initRandomImages() {
       {% for file in site.static_files %}
         {% if file.path contains 'assets/images' %}
+        {% if file.extname == '.jpg' %}
           {% assign components = file.path | split: "/" %}
           {% assign species    = components | last | replace: file.extname,"" %}
           images.push("{{ species }}");
+        {% endif %}
         {% endif %}
       {% endfor %}
 
