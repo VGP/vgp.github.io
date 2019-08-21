@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Catharus_ustulatus.jpg
 image_license: "CC BY 2.0 CheepShot (flickr)"
 last_raw_data: 1556295043
-last_updated: 1566271438
+last_updated: 1566408490
 name: Catharus ustulatus
 pri1date: 2019-07-04
 pri1filesize: 329 MB

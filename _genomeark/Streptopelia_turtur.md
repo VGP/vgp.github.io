@@ -67,7 +67,7 @@ genbank_pri: GCA_901699155.1
 image: /assets/images/Streptopelia_turtur.jpg
 image_license: "CC BY-SA 2.0 Juan Emilio (wikimedia)"
 last_raw_data: 1548798897
-last_updated: 1566271438
+last_updated: 1566408490
 name: Streptopelia turtur
 pri1date: 2019-05-23
 pri1filesize: 344 MB

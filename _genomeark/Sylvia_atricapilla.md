@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Sylvia_atricapilla.jpg
 image_license: "CC BY 2.0 Frank Vassen (wikimedia)"
 last_raw_data: 1562675508
-last_updated: 1566271438
+last_updated: 1566408490
 name: Sylvia atricapilla
 pri1date: 2019-07-03
 pri1filesize: 309 MB

@@ -62,7 +62,7 @@ genbank_pri: GCA_901709675.1
 image: /assets/images/Syngnathus_acus.jpg
 image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1554452546
-last_updated: 1566271438
+last_updated: 1566408490
 name: Syngnathus acus
 pri1date: 2019-05-23
 pri1filesize: 87 MB

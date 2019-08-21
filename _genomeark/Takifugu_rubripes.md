@@ -67,7 +67,7 @@ genbank_pri: GCA_901000725.2
 image: /assets/images/Takifugu_rubripes.jpg
 image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
-last_updated: 1566271438
+last_updated: 1566408490
 name: Takifugu rubripes
 pri1date: 2019-05-23
 pri1filesize: 108 MB

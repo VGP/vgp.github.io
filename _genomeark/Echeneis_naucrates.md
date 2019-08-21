@@ -67,7 +67,7 @@ genbank_pri: GCA_900963305.1
 image: /assets/images/Echeneis_naucrates.jpg
 image_license: "CC BY 2.0 Richard ling (wikimedia)"
 last_raw_data: 1549384902
-last_updated: 1566271438
+last_updated: 1566408490
 name: Echeneis naucrates
 pri1date: 2019-04-01
 pri1filesize: 147 MB

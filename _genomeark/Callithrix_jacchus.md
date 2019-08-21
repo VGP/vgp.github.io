@@ -23,7 +23,7 @@ data_illumina_bases: 485.50 Gbp
 data_illumina_bytes: 237.365 GB
 data_illumina_coverage: 141.54x
 data_illumina_files: 14
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac3/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9049
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -44,7 +44,7 @@ genome_size_method: null
 image: /assets/images/Callithrix_jacchus.jpg
 image_license: "CC BY-SA 2.0 Luciano Marra (flickr)"
 last_raw_data: 1561760697
-last_updated: 1566271438
+last_updated: 1566408490
 name: Callithrix jacchus
 s3: s3://genomeark/species/Callithrix_jacchus
 short_name: mCalJac

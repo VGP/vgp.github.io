@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1556224643
-last_updated: 1566271438
+last_updated: 1566408490
 name: Geotrypetes seraphini
 pri1date: 2019-08-12
 pri1filesize: 1 GB

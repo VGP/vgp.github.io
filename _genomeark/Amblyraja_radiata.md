@@ -67,7 +67,7 @@ genome_size_display: 2.07 Gbp
 image: /assets/images/Amblyraja_radiata.jpg
 image_license: "public domain"
 last_raw_data: 1556038288
-last_updated: 1566271438
+last_updated: 1566408490
 name: Amblyraja radiata
 pri1date: 2019-07-15
 pri1filesize: 756 MB

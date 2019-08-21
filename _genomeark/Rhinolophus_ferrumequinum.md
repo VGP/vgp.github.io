@@ -69,7 +69,7 @@ genome_size_display: 2.37 Gbp
 image: /assets/images/Rhinolophus_ferrumequinum.jpg
 image_license: "CC BY-NC-SA 2.0 Ján Svetlík (flickr)"
 last_raw_data: 1522747239
-last_updated: 1566271438
+last_updated: 1566408490
 mito1date: 2019-03-08
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_mt_milan/mRhiFer1.MT.20190308.fasta.gz

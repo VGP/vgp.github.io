@@ -63,8 +63,9 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chan
 data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Chanos_chanos.jpg
 last_raw_data: 1554983650
-last_updated: 1566271438
+last_updated: 1566408490
 name: Chanos chanos
 pri1date: 2019-08-05
 pri1filesize: 185 MB

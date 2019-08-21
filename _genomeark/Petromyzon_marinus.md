@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Petromyzon_marinus.jpg
 image_license: "CC BY-SA 2.0 T. Lawrence (flickr)"
 last_raw_data: 1559051481
-last_updated: 1566271438
+last_updated: 1566408490
 name: Petromyzon marinus
 pri1date: 2019-08-17
 pri1filesize: 286 MB

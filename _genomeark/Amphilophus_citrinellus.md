@@ -14,7 +14,7 @@ genome_size_display: 1.00 Gbp
 genome_size_method: null
 image: /assets/images/Amphilophus_citrinellus.jpg
 image_license: "CC BY-SA 4.0 George Chernilevsky (wikimedia)"
-last_updated: 1566271438
+last_updated: 1566408490
 name: Amphilophus citrinellus
 s3: s3://genomeark/species/Amphilophus_citrinellus
 short_name: fAmpCit

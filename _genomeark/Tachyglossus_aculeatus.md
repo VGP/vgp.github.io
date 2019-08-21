@@ -39,7 +39,7 @@ genome_size_method: null
 image: /assets/images/Tachyglossus_aculeatus.jpg
 image_license: "CC BY-SA 3.0 JKMelville (wikimedia)"
 last_raw_data: 1566156831
-last_updated: 1566271438
+last_updated: 1566408490
 name: Tachyglossus aculeatus
 s3: s3://genomeark/species/Tachyglossus_aculeatus
 short_name: mTacAcu

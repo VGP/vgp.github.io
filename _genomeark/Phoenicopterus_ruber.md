@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Phoenicopterus_ruber.jpg
 image_license: "CC BY 2.0 Paul Asman and Jill Lenoble (flickr)"
 last_raw_data: 1547232348
-last_updated: 1566271438
+last_updated: 1566408490
 name: Phoenicopterus ruber
 pri1date: 2019-08-13
 pri1filesize: 364 MB

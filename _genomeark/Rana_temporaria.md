@@ -24,8 +24,9 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana
 data_pbsubreads_scale: 0.5125
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+image: /assets/images/Rana_temporaria.jpg
 last_raw_data: 1562074881
-last_updated: 1566271438
+last_updated: 1566408490
 name: Rana temporaria
 s3: s3://genomeark/species/Rana_temporaria
 short_name: aRanTem

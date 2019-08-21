@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1565302785
-last_updated: 1566271438
+last_updated: 1566408490
 name: Dryobates pubescens
 s3: s3://genomeark/species/Dryobates_pubescens
 short_name: bDryPub

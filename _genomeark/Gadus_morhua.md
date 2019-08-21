@@ -60,8 +60,9 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902167395.1
 genbank_pri: GCA_902167405.1
+image: /assets/images/Gadus_morhua.jpg
 last_raw_data: 1556739326
-last_updated: 1566271438
+last_updated: 1566408490
 name: Gadus morhua
 pri1date: 2019-07-10
 pri1filesize: 181 MB

@@ -67,7 +67,7 @@ genbank_pri: GCA_902150065.1
 image: /assets/images/Myripristis_murdjan.jpg
 image_license: "CC BY 2.0 Rickard Zerpe (flickr)"
 last_raw_data: 1556731081
-last_updated: 1566271438
+last_updated: 1566408490
 name: Myripristis murdjan
 pri1date: 2019-06-21
 pri1filesize: 242 MB

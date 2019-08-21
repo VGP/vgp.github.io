@@ -29,8 +29,9 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo
 data_pbsubreads_scale: 0.5178
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Bufo_bufo.jpg
 last_raw_data: 1562101980
-last_updated: 1566271438
+last_updated: 1566408490
 name: Bufo bufo
 s3: s3://genomeark/species/Bufo_bufo
 short_name: aBufBuf

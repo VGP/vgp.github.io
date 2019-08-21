@@ -14,8 +14,9 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mala
 data_pbsubreads_scale: 0.5158
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+image: /assets/images/Malacosteus_niger.jpg
 last_raw_data: 1565271860
-last_updated: 1566271438
+last_updated: 1566408490
 name: Malacosteus niger
 s3: s3://genomeark/species/Malacosteus_niger
 short_name: fMalNig

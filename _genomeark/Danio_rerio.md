@@ -9,7 +9,8 @@ data_pbhifi_scale: 1
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
-last_updated: 1566271438
+image: /assets/images/Danio_rerio.jpg
+last_updated: 1566408490
 name: Danio rerio
 s3: s3://genomeark/species/Danio_rerio
 short_name: fDanRer

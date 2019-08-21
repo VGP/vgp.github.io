@@ -39,8 +39,9 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acip
 data_pbsubreads_scale: 0.5204
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+image: /assets/images/Acipenser_ruthenus.jpg
 last_raw_data: 1561670787
-last_updated: 1566271438
+last_updated: 1566408490
 mat3date: 2019-07-09
 mat3filesize: 474 MB
 mat3n50ctg: 10828506
