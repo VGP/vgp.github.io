@@ -64,7 +64,7 @@ data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1554983650
-last_updated: 1565710556
+last_updated: 1566271438
 name: Chanos chanos
 pri1date: 2019-08-05
 pri1filesize: 185 MB

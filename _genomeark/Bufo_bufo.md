@@ -30,7 +30,7 @@ data_pbsubreads_scale: 0.5178
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1562101980
-last_updated: 1565710556
+last_updated: 1566271438
 name: Bufo bufo
 s3: s3://genomeark/species/Bufo_bufo
 short_name: aBufBuf

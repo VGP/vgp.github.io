@@ -26,7 +26,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Dendrocygna_viduata.jpg
 image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1537988854
-last_updated: 1565710556
+last_updated: 1566271438
 name: Dendrocygna viduata
 s3: s3://genomeark/species/Dendrocygna_viduata
 short_name: bDenVid

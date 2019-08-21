@@ -7,10 +7,10 @@ data_10x_coverage: 155.20x
 data_10x_files: 6
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Pterocles_gutturalis/bPteGut1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8166
-data_arima_bases: 101.57 Gbp
-data_arima_bytes: 51.967 GB
-data_arima_coverage: 94.93x
-data_arima_files: 2
+data_arima_bases: 203.14 Gbp
+data_arima_bytes: 103.934 GB
+data_arima_coverage: 189.85x
+data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Pterocles_gutturalis/bPteGut1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8203
 data_bionano_bases: 179.48 Gbp
@@ -38,8 +38,8 @@ genome_size_display: 1.07 Gbp
 genome_size_method: null
 image: /assets/images/Pterocles_gutturalis.jpg
 image_license: "CC BY-SA 3.0 Yathin S Krishnappa (wikimedia)"
-last_raw_data: 1564672725
-last_updated: 1565709087
+last_raw_data: 1565837200
+last_updated: 1566271438
 name: Pterocles gutturalis
 s3: s3://genomeark/species/Pterocles_gutturalis
 short_name: bPteGut

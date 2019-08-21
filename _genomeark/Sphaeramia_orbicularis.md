@@ -67,7 +67,7 @@ genbank_pri: GCA_902148855.1
 image: /assets/images/Sphaeramia_orbicularis.jpg
 image_license: "CC BY-SA 3.0 Sushi Girl1995 (wikimedia)"
 last_raw_data: 1553010021
-last_updated: 1565709087
+last_updated: 1566271438
 name: Sphaeramia orbicularis
 pri1date: 2019-06-19
 pri1filesize: 378 MB

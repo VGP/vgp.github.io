@@ -67,7 +67,7 @@ genbank_pri: GCA_902148845.1
 image: /assets/images/Salarias_fasciatus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1554447472
-last_updated: 1565709087
+last_updated: 1566271438
 name: Salarias fasciatus
 pri1date: 2019-06-24
 pri1filesize: 227 MB

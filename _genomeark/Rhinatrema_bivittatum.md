@@ -70,7 +70,7 @@ genome_size_method: genomescope k=31
 image: /assets/images/Rhinatrema_bivittatum.jpg
 image_license: Copyright Stuart V Nielsen, used with permission
 last_raw_data: 1525161722
-last_updated: 1565709087
+last_updated: 1566271438
 mito1date: 2019-03-10
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_mt_milan/aRhiBiv1.MT.20190310.fasta.gz

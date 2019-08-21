@@ -62,7 +62,7 @@ genbank_pri: GCA_900880675.1
 image: /assets/images/Sparus_aurata.jpg
 image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1523533999
-last_updated: 1565709087
+last_updated: 1566271438
 name: Sparus aurata
 pri1date: 2019-03-14
 pri1filesize: 225 MB

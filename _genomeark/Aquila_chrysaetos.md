@@ -67,7 +67,7 @@ genbank_pri: GCA_900496995.2
 image: /assets/images/Aquila_chrysaetos.jpg
 image_license: "CC BY-SA 4.0 Diego Delso (wikimedia)"
 last_raw_data: 1554458077
-last_updated: 1565710556
+last_updated: 1566271438
 name: Aquila chrysaetos chrysaetos
 pri1date: 2019-07-02
 pri1filesize: 352 MB

@@ -14,7 +14,7 @@ genome_size_display: 1.16 Gbp
 genome_size_method: null
 image: null
 image_license: unknown
-last_updated: 1565709087
+last_updated: 1566271438
 name: Vidua chalybeata
 s3: s3://genomeark/species/Vidua_chalybeata
 short_name: bVidCha

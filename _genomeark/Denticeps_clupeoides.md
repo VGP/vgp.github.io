@@ -67,7 +67,7 @@ genbank_pri: GCA_900700375.1
 image: /assets/images/Denticeps_clupeoides.jpg
 image_license: Copyright Ralf Britz/NHM, used with permission
 last_raw_data: 1535895622
-last_updated: 1565710556
+last_updated: 1566271438
 name: Denticeps clupeoides
 pri1date: 2019-03-05
 pri1filesize: 162 MB

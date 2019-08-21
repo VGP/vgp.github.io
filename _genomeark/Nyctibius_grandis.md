@@ -29,7 +29,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1565024675
-last_updated: 1565709087
+last_updated: 1566271438
 name: Nyctibius grandis
 s3: s3://genomeark/species/Nyctibius_grandis
 short_name: bNycGra

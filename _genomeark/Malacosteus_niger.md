@@ -15,7 +15,7 @@ data_pbsubreads_scale: 0.5158
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1565271860
-last_updated: 1565710556
+last_updated: 1566271438
 name: Malacosteus niger
 s3: s3://genomeark/species/Malacosteus_niger
 short_name: fMalNig

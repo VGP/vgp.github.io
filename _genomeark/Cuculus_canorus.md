@@ -34,7 +34,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1559577780
-last_updated: 1565710556
+last_updated: 1566271438
 name: Cuculus canorus
 s3: s3://genomeark/species/Cuculus_canorus
 short_name: bCucCan

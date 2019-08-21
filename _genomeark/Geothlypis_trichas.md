@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Geothlypis_trichas.jpg
 image_license: "CC BY-SA 2.0 Dan Pancamo (flickr)"
 last_raw_data: 1544473266
-last_updated: 1565710556
+last_updated: 1566271438
 name: Geothlypis trichas
 pri1date: 2019-07-17
 pri1filesize: 310 MB

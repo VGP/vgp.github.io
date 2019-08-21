@@ -39,7 +39,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1565031189
-last_updated: 1565710556
+last_updated: 1566271438
 name: Cyclopterus lumpus
 s3: s3://genomeark/species/Cyclopterus_lumpus
 short_name: fCycLum

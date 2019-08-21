@@ -26,7 +26,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Spatula_cyanoptera.jpg
 image_license: "CC BY 2.0 Michael L. Baird (wikimedia)"
 last_raw_data: 1537988708
-last_updated: 1565709087
+last_updated: 1566271438
 name: Spatula cyanoptera
 s3: s3://genomeark/species/Spatula_cyanoptera
 short_name: bSpaCya

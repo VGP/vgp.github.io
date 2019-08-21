@@ -72,7 +72,7 @@ genbank_pri: GCA_901765095.1
 image: /assets/images/frog.png
 image_license: Apple
 last_raw_data: 1548859097
-last_updated: 1565710556
+last_updated: 1566271438
 name: Microcaecilia unicolor
 pri1date: 2019-05-23
 pri1filesize: 1 GB

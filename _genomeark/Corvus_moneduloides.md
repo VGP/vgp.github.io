@@ -68,7 +68,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1564252350
-last_updated: 1565710556
+last_updated: 1566271438
 name: Corvus moneduloides
 pri1date: 2019-08-04
 pri1filesize: 317 MB

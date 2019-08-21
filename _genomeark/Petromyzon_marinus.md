@@ -1,5 +1,34 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-08-17
+alt1filesize: 227 MB
+alt1n50ctg: 92686
+alt1n50scf: 92686
+alt1seq: https://s3.amazonaws.com/genomeark/species/Petromyzon_marinus/kPetMar1/assembly_vgp_standard_1.6/kPetMar1.alt.asm.20190817.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 127 </td><td> 0.86 Mbp </td><td> 127 </td><td> 0.86 Mbp </td></tr>  <tr><td> 20 </td><td> 351 </td><td> 0.54 Mbp </td><td> 351 </td><td> 0.54 Mbp </td></tr>  <tr><td> 30 </td><td> 688 </td><td> 0.37 Mbp </td><td> 688 </td><td> 0.37 Mbp </td></tr>  <tr><td> 40 </td><td> 1217 </td><td> 0.21 Mbp </td><td> 1217 </td><td> 0.21 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 2277 </td><td> 92.69 Kbp </td><td> 2277 </td><td> 92.69 Kbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.559x </th><th> 4041 </th><th> 0.84 Gbp </th><th> 4041 </th><th> 0.84 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.6
+assembly: assembly_vgp_standard_1.6
+assembly_status: <em style="color:red">low-quality draft assembly</em>
 common_name: sea lamprey
 data_10x_bases: 100.51 Gbp
 data_10x_bytes: 50.509 GB
@@ -39,8 +68,36 @@ genome_size_method: null
 image: /assets/images/Petromyzon_marinus.jpg
 image_license: "CC BY-SA 2.0 T. Lawrence (flickr)"
 last_raw_data: 1559051481
-last_updated: 1565709087
+last_updated: 1566271438
 name: Petromyzon marinus
+pri1date: 2019-08-17
+pri1filesize: 286 MB
+pri1n50ctg: 971860
+pri1n50scf: 4085177
+pri1seq: https://s3.amazonaws.com/genomeark/species/Petromyzon_marinus/kPetMar1/assembly_vgp_standard_1.6/kPetMar1.pri.asm.20190817.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 13 </td><td> 8.81 Mbp </td><td> 6 </td><td> 16.78 Mbp </td></tr>  <tr><td> 20 </td><td> 36 </td><td> 5.48 Mbp </td><td> 16 </td><td> 14.04 Mbp </td></tr>  <tr><td> 30 </td><td> 70 </td><td> 3.56 Mbp </td><td> 27 </td><td> 12.97 Mbp </td></tr>  <tr><td> 40 </td><td> 127 </td><td> 2.07 Mbp </td><td> 40 </td><td> 10.35 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 234 </td><td style="background-color:#ff8888;"> 0.97 Mbp </td><td> 62 </td><td style="background-color:#ff8888;"> 4.09 Mbp </td></tr>  <tr><td> 60 </td><td> 484 </td><td> 0.38 Mbp </td><td> 133 </td><td> 1.09 Mbp </td></tr>  <tr><td> 70 </td><td> 1406 </td><td> 64.00 Kbp </td><td> 442 </td><td> 0.23 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.719x </th><th> 2385 </th><th> 1.08 Gbp </th><th> 1652 </th><th> 1.13 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.6
 s3: s3://genomeark/species/Petromyzon_marinus
 short_name: kPetMar
 taxon_id: 7757

@@ -43,7 +43,7 @@ genbank_pri: GCA_901001165.1
 image: /assets/images/Salmo_trutta.jpg
 image_license: "public domain"
 last_raw_data: 1556285514
-last_updated: 1565709087
+last_updated: 1566271438
 name: Salmo trutta
 pri1date: 2019-04-03
 pri1filesize: 624 MB

@@ -5,6 +5,8 @@ if [ -z $NCBI_API_KEY ] ; then
   exit
 fi
 
+module load edirect
+
 if [ ! -e genbank.xml ] ; then
   echo Fetching genbank.xml.
 

@@ -29,7 +29,7 @@ genome_size_method: null
 image: null
 image_license: unknown
 last_raw_data: 1565133241
-last_updated: 1565710556
+last_updated: 1566271438
 name: Gallus gallus
 s3: s3://genomeark/species/Gallus_gallus
 short_name: bGalGal

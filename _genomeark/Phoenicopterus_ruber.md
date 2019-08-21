@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-07-11
+alt1date: 2019-08-13
 alt1filesize: 347 MB
 alt1n50ctg: 1304954
 alt1n50scf: 1304954
-alt1seq: https://s3.amazonaws.com/genomeark/species/Phoenicopterus_ruber/bPhoRub1/assembly_vgp_standard_1.5/bPhoRub1.alt.asm.20190711.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Phoenicopterus_ruber/bPhoRub1/assembly_curated/bPhoRub1.alt.cur.20190813.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -26,9 +26,9 @@ alt1sizes: |
   <tr><th> 0.934x </th><th> 3529 </th><th> 1.17 Gbp </th><th> 3529 </th><th> 1.17 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.5
-assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: American flamingo
 data_10x_bases: 103.00 Gbp
 data_10x_bytes: 49.167 GB
@@ -68,13 +68,13 @@ genome_size_method: null
 image: /assets/images/Phoenicopterus_ruber.jpg
 image_license: "CC BY 2.0 Paul Asman and Jill Lenoble (flickr)"
 last_raw_data: 1547232348
-last_updated: 1565709087
+last_updated: 1566271438
 name: Phoenicopterus ruber
-pri1date: 2019-07-11
-pri1filesize: 366 MB
+pri1date: 2019-08-13
+pri1filesize: 364 MB
 pri1n50ctg: 14700712
-pri1n50scf: 72929201
-pri1seq: https://s3.amazonaws.com/genomeark/species/Phoenicopterus_ruber/bPhoRub1/assembly_vgp_standard_1.5/bPhoRub1.pri.asm.20190711.fasta.gz
+pri1n50scf: 85472901
+pri1seq: https://s3.amazonaws.com/genomeark/species/Phoenicopterus_ruber/bPhoRub1/assembly_curated/bPhoRub1.pri.cur.20190813.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -92,12 +92,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 2 </td><td> 34.81 Mbp </td><td> 0 </td><td> 219.66 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 28.88 Mbp </td><td> 1 </td><td> 129.95 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 20.53 Mbp </td><td> 2 </td><td> 86.71 Mbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 17.49 Mbp </td><td> 3 </td><td> 85.47 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 25 </td><td style="background-color:#88ff88;"> 14.70 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 72.93 Mbp </td></tr>  <tr><td> 60 </td><td> 35 </td><td> 11.73 Mbp </td><td> 7 </td><td> 52.51 Mbp </td></tr>  <tr><td> 70 </td><td> 48 </td><td> 8.36 Mbp </td><td> 9 </td><td> 41.40 Mbp </td></tr>  <tr><td> 80 </td><td> 65 </td><td> 5.45 Mbp </td><td> 13 </td><td> 25.17 Mbp </td></tr>  <tr><td> 90 </td><td> 100 </td><td> 2.07 Mbp </td><td> 19 </td><td> 17.03 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 34.81 Mbp </td><td> 0 </td><td> 220.92 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 28.88 Mbp </td><td> 1 </td><td> 171.13 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 20.53 Mbp </td><td> 1 </td><td> 171.13 Mbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 17.49 Mbp </td><td> 2 </td><td> 128.78 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 25 </td><td style="background-color:#88ff88;"> 14.70 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 85.47 Mbp </td></tr>  <tr><td> 60 </td><td> 35 </td><td> 11.73 Mbp </td><td> 5 </td><td> 72.97 Mbp </td></tr>  <tr><td> 70 </td><td> 48 </td><td> 8.36 Mbp </td><td> 8 </td><td> 36.88 Mbp </td></tr>  <tr><td> 80 </td><td> 65 </td><td> 5.45 Mbp </td><td> 12 </td><td> 25.17 Mbp </td></tr>  <tr><td> 90 </td><td> 100 </td><td> 2.07 Mbp </td><td> 18 </td><td> 17.03 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.990x </th><th> 370 </th><th> 1.24 Gbp </th><th> 113 </th><th> 1.25 Gbp </th></tr>
+  <tr><th> 0.990x </th><th> 370 </th><th> 1.24 Gbp </th><th> 90 </th><th> 1.25 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.5
+pri1version: assembly_curated
 s3: s3://genomeark/species/Phoenicopterus_ruber
 short_name: bPhoRub
 taxon_id: 9217

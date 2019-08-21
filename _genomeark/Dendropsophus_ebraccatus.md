@@ -44,7 +44,7 @@ genome_size_method: null
 image: /assets/images/Dendropsophus_ebraccatus.jpg
 image_license: "CC BY 2.0 Brian Gratwicke (flickr)"
 last_raw_data: 1560448207
-last_updated: 1565710556
+last_updated: 1566271438
 name: Dendropsophus ebraccatus
 s3: s3://genomeark/species/Dendropsophus_ebraccatus
 short_name: aDenEbr
