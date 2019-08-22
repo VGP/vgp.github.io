@@ -11,7 +11,7 @@ data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
 image: /assets/images/Danio_rerio.jpg
 image_license: CC BY-SA 2.0, Lynn Ketchum (wikimedia)
-last_updated: 1566408490
+last_updated: 1566501604
 name: Danio rerio
 s3: s3://genomeark/species/Danio_rerio
 short_name: fDanRer

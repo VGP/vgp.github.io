@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Aythya_fuligula.jpg
 image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
 last_raw_data: 1565190400
-last_updated: 1566408490
+last_updated: 1566202665
 name: Aythya fuligula
 pri2date: 2019-08-18
 pri2filesize: 328 MB

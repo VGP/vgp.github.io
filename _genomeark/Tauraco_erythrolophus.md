@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Tauraco_erythrolophus.jpg
 image_license: "(pixabay)"
 last_raw_data: 1561646749
-last_updated: 1566408490
+last_updated: 1565897983
 name: Tauraco erythrolophus
 pri1date: 2019-08-13
 pri1filesize: 360 MB

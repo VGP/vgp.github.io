@@ -32,7 +32,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Bufo_bufo.jpg
 image_license: CC BY-SA 2.0 Rolf Dietrich Brecher (flickr)
 last_raw_data: 1562101980
-last_updated: 1566408490
+last_updated: 1562101980
 name: Bufo bufo
 s3: s3://genomeark/species/Bufo_bufo
 short_name: aBufBuf

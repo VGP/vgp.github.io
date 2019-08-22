@@ -27,7 +27,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Rana_temporaria.jpg
 image_license: CC BY-NC 2.0 abejorro34 (flickr)
 last_raw_data: 1562074881
-last_updated: 1566408490
+last_updated: 1562074881
 name: Rana temporaria
 s3: s3://genomeark/species/Rana_temporaria
 short_name: aRanTem

@@ -23,7 +23,7 @@ data_illumina_bases: 503.74 Gbp
 data_illumina_bytes: 247.062 GB
 data_illumina_coverage: 148.16x
 data_illumina_files: 14
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8989
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -44,7 +44,7 @@ genome_size_method: null
 image: null
 image_license: Copyright Huishi Toh, used with permission
 last_raw_data: 1564249507
-last_updated: 1566408490
+last_updated: 1564249507
 name: Arvicanthis niloticus
 s3: s3://genomeark/species/Arvicanthis_niloticus
 short_name: mArvNil

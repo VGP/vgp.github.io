@@ -27,7 +27,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Sciurus_carolinensis.jpg
 image_license: CC BY 2.0, Judy Gallagher (flickr)
 last_raw_data: 1565307258
-last_updated: 1566408490
+last_updated: 1565307258
 name: Sciurus carolinensis
 s3: s3://genomeark/species/Sciurus_carolinensis
 short_name: mSciCar

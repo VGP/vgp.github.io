@@ -56,7 +56,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Asterias_rubens.jpg
 image_license: CC BY-SA 4.0, Hans Hillewaert (wikimedia)
 last_raw_data: 1565272838
-last_updated: 1566408490
+last_updated: 1565728009
 name: Asterias rubens
 pri1date: 2019-08-09
 pri1filesize: 119 MB

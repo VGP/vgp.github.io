@@ -22,7 +22,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Erithacus_rubecula.jpg
 image_license: CC BY-SA 2.0, Juan Emilio (wikimedia)
 last_raw_data: 1565281353
-last_updated: 1566408490
+last_updated: 1565281353
 name: Erithacus rubecula
 s3: s3://genomeark/species/Erithacus_rubecula
 short_name: bEriRub

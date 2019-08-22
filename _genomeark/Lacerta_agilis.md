@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Lacerta_agilis.jpg
 image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1545255399
-last_updated: 1566408490
+last_updated: 1563207983
 name: Lacerta agilis
 pri1date: 2019-07-14
 pri1filesize: 423 MB

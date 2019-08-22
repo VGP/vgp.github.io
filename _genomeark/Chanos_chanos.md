@@ -66,7 +66,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Chanos_chanos.jpg
 image_license: CC BY-SA 4.0 Hectonichus (wikimedia)
 last_raw_data: 1554983650
-last_updated: 1566408490
+last_updated: 1565080093
 name: Chanos chanos
 pri1date: 2019-08-05
 pri1filesize: 185 MB

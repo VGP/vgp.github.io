@@ -42,7 +42,7 @@ data_status: <em style="color:green">all data</em>
 image: /assets/images/Acipenser_ruthenus.jpg
 image_license: CC BY 2.0 Tauralbus (flickr)
 last_raw_data: 1561670787
-last_updated: 1566408490
+last_updated: 1562914576
 mat3date: 2019-07-09
 mat3filesize: 474 MB
 mat3n50ctg: 10828506

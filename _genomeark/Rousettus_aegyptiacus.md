@@ -20,7 +20,7 @@ genome_size_method: null
 image: /assets/images/Rousettus_aegyptiacus.jpg
 image_license: "CC BY-SA 3.0 Вых Пыхманн (wikimedia)"
 last_raw_data: 1539374684
-last_updated: 1566408490
+last_updated: 1539374684
 name: Rousettus aegyptiacus
 s3: s3://genomeark/species/Rousettus_aegyptiacus
 short_name: mRouAeg

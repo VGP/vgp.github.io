@@ -12,7 +12,13 @@ my $SKIP_ASM = 0;
 my $goodCTG = 1000000;
 my $goodSCF = 10000000;
 
-
+#  In memory cache of files in genomeark.
+#my @genomeArkDates;
+#my @genomeArkTimes;
+my @genomeArkEpoch;
+my @genomeArkSizes;
+my @genomeArkFiles;
+my $genomeArkLength;
 
 #
 #  Discover species.
@@ -52,19 +58,37 @@ sub discover (@) {
 }
 
 
-sub loadAssemblyStatus () {
+sub loadGenomeArk () {
 
-    my %asmToShow;    #  Map species_name to assembly_name.
-    my %asmDate;      #  Map species_name to time_local\0assembly_name.
+    #  If no vgp-metadata directory, clone it.
 
-    #  Scan the genomeark.ls file to figure out what assemblies exist for each
-    #  species.  We'll later pick one to use, or use the user-supplied assembly.
+    if (! -e "vgp-metadata") {
+        print STDERR "FETCHING METADATA.\n";
+        system("git clone git\@github.com:VGP/vgp-metadata.git");
+    }
+
+    #  If no genomeark.ls file list, fetch it AND update metadata.
+
+    if (! -e "genomeark.ls") {
+        print STDERR "FETCHING AWS FILE LIST.\n";
+        system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls");
+
+        print STDERR "UPDATING METADATA.\n";
+        system("cd vgp-metadata ; git fetch ; git merge");
+    }
+
+    #  Fail if either doesn't exist.
+
+    die "ERROR: 'genomeark.ls' doesn't exist, can't update.\n"   if (! -e "genomeark.ls");
+    die "ERROR: 'vgp-metadata' doesn't exist, can't update.\n"   if (! -e "vgp-metadata");
+
+    #  Pull in all the good bits from the file list.
 
     open(LS, "< genomeark.ls");
     while (<LS>) {
         chomp;
 
-        my ($filedate, $filetime, $filesize, $filename) = split '\s+', $_;
+        my ($filedate, $filetime, $filesize, $filename, $filesecs) = split '\s+', $_;
 
         my @fileComps   = split '/', $filename;
         my $speciesName = $fileComps[1];
@@ -73,35 +97,67 @@ sub loadAssemblyStatus () {
 
         next   if ($filename =~ m!intermediate!);
         next   if ($filename =~ m!transcriptomic_data!);
-        next   if ($filename =~ m!genomic_data!);
-        next   if ($filename !~ m!fasta.gz!);
 
         if ("$filedate $filetime" =~ m/(\d\d\d\d)-(\d\d)-(\d\d)\s+(\d\d):(\d\d):(\d\d)/) {
             my ($yr, $mo, $da, $hr, $mn, $sc) = ($1, $2, $3, $4, $5, $6);
 
-            $seconds = timelocal($sc, $mn, $hr, $da, $mo-1, $yr); 
+            $filesecs = timelocal($sc, $mn, $hr, $da, $mo-1, $yr); 
         } else {
-            die "Failed to parse 'genomeark.ls' date and time for '$_'\n";
+            die "Failed to parse date ('$filedate') and time ('$filetime') for file '$filename'\n";
         }
+
+        #push @genomeArkDates, $filedate;
+        #push @genomeArkTimes, $filetime;
+        push @genomeArkEpoch, $filesecs;
+        push @genomeArkSizes, $filesize;
+        push @genomeArkFiles, $filename;
+
+
+        $genomeArkLength++;
+    }
+
+    #  Return the time since epoch for the last change to genomeark.ls.
+
+    return((stat("genomeark.ls"))[9]);
+}
+
+
+
+sub loadAssemblyStatus () {
+
+    my %asmToShow;    #  Map species_name to assembly_name.
+    my %asmDate;      #  Map species_name to time_local\0assembly_name.
+
+    #  Scan the genomeark files to figure out what assemblies exist for each
+    #  species.  We'll later pick one to use, or use the user-supplied assembly.
+
+    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
+        #my $filedate = $genomeArkDates[$ii];
+        #my $filetime = $genomeArkTimes[$ii];
+        my $filesecs = $genomeArkEpoch[$ii];
+        my $filesize = $genomeArkSizes[$ii];
+        my $filename = $genomeArkFiles[$ii];
+
+        my @fileComps   = split '/', $filename;
+        my $speciesName = $fileComps[1];
+        my $asmName     = $fileComps[3];
+
+        next   if ($filename =~ m!genomic_data!);
+        next   if ($filename !~ m!fasta.gz!);
 
         next   if (($filename !~ m/pri.....\d+.fasta/) &&
                    ($filename !~ m/alt.....\d+.fasta/) &&
                    ($filename !~ m/pat.....\d+.fasta/) &&
                    ($filename !~ m/mat.....\d+.fasta/));
 
-        #print STDERR "Found assembly '$speciesName' '$asmName' in $filename\n";
-
-        if ($asmName eq "assembly_curated") {
-            $seconds = 9999999999;
+        if ($asmName eq "assembly_curated") {   #  If curated exists, always use it,
+            $filesecs = 9999999999;             #  even if it is older than some other assembly.
         }
-        if ($asmDate{$speciesName} < $seconds) {
-            #print STDERR "'$speciesName' -> '$asmName' at $seconds\n";
-            $asmDate{"$speciesName"} = "$seconds\0$asmName";
-        } else {
-            #print STDERR "'$speciesName' -- '$asmName' at $seconds (OLDER)\n";
+
+        if ($asmDate{$speciesName} < $filesecs) {
+            $asmDate{"$speciesName"} = "$filesecs\0$asmName";
         }
     }
-    close(LS);
 
     print STDERR "\n";
     print STDERR "Latest assembly set by file date.\n";
@@ -151,14 +207,14 @@ sub loadAssemblyStatus () {
 
 sub loadMeta ($$) {
     my $species = shift @_;
-    my $data    = shift @_;
+    my $meta    = shift @_;
 
     my  @keys;
     my  @lvls;
 
     my  $lvl = 0;
 
-    undef %$data;
+    undef %$meta;
 
     open(MD, "< vgp-metadata/species/$species.yaml");
     while (<MD>) {
@@ -200,28 +256,17 @@ sub loadMeta ($$) {
 
             #print STDERR "$key: $value\n";
 
-            $$data{$key} = $value;
+            $$meta{$key} = $value;
         }
     }
+
+    die "No meta{species.name} found?\n"  if ($$meta{"species.name"} eq "");
+
+    my @n = split '\s+', $$meta{"species.name"};
+
+    return("$n[0]_$n[1]");      #  Return the proper Species_name for this species.
 }
 
-
-#  Returns the name of the directory this species is in, based on the
-#  full species name in the metadata.
-sub makeName ($) {
-    my $name = shift @_;
-    my @n = split '\s+', $name;
-
-    return("$n[0]_$n[1]");
-
-#    if ($name =~ m/(\S+)\s+(\S+)\s+\S+/) {
-#        $name = "$1_$2";
-#    }
-#
-#    $name =~ s/\s+/_/g;
-#
-#    return($name);
-}
 
 
 sub loadData ($$) {
@@ -917,15 +962,13 @@ sub estimateRawDataScaling ($$) {
     my $type    = shift @_;
     my @files;
 
-    open(LS, "< genomeark.ls");
-    while (<LS>) {
-        chomp;
-
-        my ($filedate, $filetime, $filesize, $filename) = split '\s+', $_;
+    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
+        #my $filedate = $genomeArkDates[$ii];
+        #my $filetime = $genomeArkTimes[$ii];
+        my $filesize = $genomeArkSizes[$ii];
+        my $filename = $genomeArkFiles[$ii];
 
         next   if ($filename !~ m!$name!);
-        next   if ($filename =~ m!intermediate!);
-        next   if ($filename =~ m!transcriptomic_data!);
 
         if    (($type eq "10x") && ($filename =~ m!genomic_data/10x/.*q.gz$!)) {
             push @files, "$filesize\0$filename";
@@ -955,7 +998,6 @@ sub estimateRawDataScaling ($$) {
             push @files, "$filesize\0$filename";
         }
     }
-    close(LS);
 
     @files = sort { $a <=> $b } @files;
 
@@ -1005,21 +1047,16 @@ sub computeBionanoBases ($) {
     my $name    = shift @_;
     my @files;
 
-    open(LS, "< genomeark.ls");
-    while (<LS>) {
-        chomp;
+    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
+        #my $filedate = $genomeArkDates[$ii];
+        #my $filetime = $genomeArkTimes[$ii];
+        my $filesize = $genomeArkSizes[$ii];
+        my $filename = $genomeArkFiles[$ii];
 
-        my ($filedate, $filetime, $filesize, $filename) = split '\s+', $_;
-
-        next   if ($filename !~ m!$name!);
-        next   if ($filename =~ m!intermediate!);
-        next   if ($filename =~ m!transcriptomic_data!);
-
-        if    ($filename =~ m!genomic_data/bionano/.*bnx.gz$!) {
+        if    ($filename =~ m!$name.*genomic_data/bionano/.*bnx.gz$!) {
             push @files, "$filesize\0$filename";
         }
     }
-    close(LS);
 
     #  Download all the cmap files.
 
@@ -1036,47 +1073,6 @@ sub computeBionanoBases ($) {
             system("aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
         }
     }
-
-    #  Parse each cmap to compute length of each contig.  Save.
-
-if (0) {
-    foreach my $f (@files) {
-        my ($size, $name) = split '\0', $f;
-
-        next  if (! -e "downloads/$name");
-        next  if (  -e "$name.summary");
-
-        if ($name =~ m/gz$/) {
-            open(B, "gzip -dc downloads/$name |");
-        } else {
-            open(B, "< downloads/$name");
-        }
-
-        my %contigLen;
-
-        while (<B>) {
-            next  if (m/^#/);
-
-            my @v = split '\s+', $_;
-
-            $contigLen{$v[0]} = $v[1];
-        }
-
-        close(B);
-
-        system("mkdir -p $name");
-        system("rmdir    $name");
-
-        open(B, "> $name.summary") or die "Failed to create '$name.summary': $!\n";
-        print B "CMapId\tContigLength\n";
-
-        foreach my $k (keys %contigLen) {
-            print B "$k\t$contigLen{$k}\n";
-        }
-
-        close(B);
-    }
-}
 
     #  Parse each bnx to find the molecule sizes
 
@@ -1136,24 +1132,7 @@ if (0) {
 #  Main
 #
 
-if (! -e "vgp-metadata") {
-    print STDERR "FETCHING METADATA.\n";
-    system("git clone git\@github.com:VGP/vgp-metadata.git");
-}
-
-if (! -e "genomeark.ls") {
-    print STDERR "FETCHING AWS FILE LIST.\n";
-    system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls");
-
-    print STDERR "UPDATING METADATA.\n";
-    system("cd vgp-metadata ; git fetch ; git merge");
-}
-
-if (! -e "genomeark.ls") {
-    die "ERROR: no 'genomeark.ls' file list, can't update.\n";
-}
-
-my $lastUpdate = (stat("genomeark.ls"))[9];
+my $lastUpdate = loadGenomeArk();
 
 my @speciesList = discover(@ARGV);
 my %asmToShow   = loadAssemblyStatus();
@@ -1168,33 +1147,12 @@ foreach my $species (@speciesList) {
     my %meta;
     my %data;
 
-    my $name;
+    #
+    #  Load metadata and copy the good bits.
+    #
+
+    my $name = loadMeta($species, \%meta);
     my $asm;
-
-    loadMeta($species, \%meta);
-    loadData($species, \%data);
-    #printData($species, \%data);
-
-    $name = makeName($meta{"species.name"});
-
-
-    die "No meta{species.name} found?\n"  if ($name eq "");
-
-    #
-    #  Delete unused stuff.
-    #
-
-    delete $data{'status'};
-
-    #
-    #  Delete stuff we generate.
-    #
-
-    undef %data;
-
-    #
-    #  Copy metadata to the page.
-    #
 
     $data{"name"}                = $meta{"species.name"};
     $data{"short_name"}          = $meta{"species.short_name"};
@@ -1224,7 +1182,7 @@ foreach my $species (@speciesList) {
     $data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
 
     #$data{"last_raw_data"}       = Do not set here; should only be present if data exists.
-    $data{"last_updated"}        = $lastUpdate;
+    $data{"last_updated"}        = 0;
 
     #
     #  Find which assembly to use.
@@ -1235,32 +1193,28 @@ foreach my $species (@speciesList) {
     print STDERR "\n";
     print STDERR "$name -- $asm\n";
 
-    open(LS, "< genomeark.ls");
-    while (<LS>) {
-        chomp;
-
-        my ($filedate, $filetime, $filesize, $filename) = split '\s+', $_;
+    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
+        #my $filedate = $genomeArkDates[$ii];
+        #my $filetime = $genomeArkTimes[$ii];
+        my $filesecs = $genomeArkEpoch[$ii];
+        my $filesize = $genomeArkSizes[$ii];
+        my $filename = $genomeArkFiles[$ii];
 
         next   if ($filename !~ m!$name!);
-        next   if ($filename =~ m!intermediate!);
-        next   if ($filename =~ m!transcriptomic_data!);
 
+        if ($data{"last_updated"} < $filesecs) {
+            $data{"last_updated"} = $filesecs;
+        }
+
+        #  Process raw data.
         if ($filename =~ m!genomic_data!) {
-            if ("$filedate $filetime" =~ m/(\d\d\d\d)-(\d\d)-(\d\d)\s+(\d\d):(\d\d):(\d\d)/) {
-                my ($yr, $mo, $da, $hr, $mn, $sc) = ($1, $2, $3, $4, $5, $6);
-
-                my $t = timelocal($sc, $mn, $hr, $da, $mo-1, $yr); 
-
-                if ($data{"last_raw_data"} < $t) {     #  If this isn't set, Raw Data shows
-                    $data{"last_raw_data"} = $t;       #  "No data.".
-                }
+            if ($data{"last_raw_data"} < $filesecs) {     #  If this isn't set, Raw Data shows
+                $data{"last_raw_data"} = $filesecs;       #  "No data.".
             }
 
             processData($filesize, $filename, \%seqFiles, \%seqBytes, \%seqIndiv);
             next;
         }
-
-        #print "  '$asm' '$filename'\n";
 
         #  If this is the assembly_to_show, process it.
         if (($asm ne "") &&
@@ -1276,7 +1230,6 @@ foreach my $species (@speciesList) {
             next;
         }
     }
-    close(LS);
 
     #
     #  Track down any link to NCBI.
@@ -1585,6 +1538,13 @@ foreach my $species (@speciesList) {
     $data{"assembly_status"} = "<em style=\"color:red\">low-quality draft assembly</em>"       if ($data{"assembly_status"} eq "low-quality-draft");
     $data{"assembly_status"} = "<em style=\"color:orange\">high-quality draft assembly</em>"   if ($data{"assembly_status"} eq "high-quality-draft");
     $data{"assembly_status"} = "<em style=\"color:green\">curated assembly</em>"               if ($data{"assembly_status"} eq "curated");
+
+    #  If no date set -- no raw data, no assemblies, no anything -- set it to the
+    #  date of this update (genomeark.ls's date).
+
+    if ($data{"last_updated"} == 0) {
+        $data{"last_updated"} = $lastUpdate;
+    }
 
     #  Done.  Write the output.
 

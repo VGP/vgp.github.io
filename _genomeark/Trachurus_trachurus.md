@@ -22,7 +22,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Trachurus_trachurus.png
 image_license: CC BY-SA 4.0, Peter Southwood (wikimedia)
 last_raw_data: 1565284469
-last_updated: 1566408490
+last_updated: 1565284469
 name: Trachurus trachurus
 s3: s3://genomeark/species/Trachurus_trachurus
 short_name: fTraTra

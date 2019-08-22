@@ -20,7 +20,7 @@ genome_size_method: null
 image: /assets/images/Amphilophus_labiatus.jpg
 image_license: "CC BY-SA 2.0 AtelierMonpli (wikimedia)"
 last_raw_data: 1538676017
-last_updated: 1566408490
+last_updated: 1538676017
 name: Amphilophus labiatus
 s3: s3://genomeark/species/Amphilophus_labiatus
 short_name: fAmpLab

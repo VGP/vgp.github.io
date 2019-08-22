@@ -26,7 +26,7 @@ data_status: <em style="color:orange">some data</em>
 image: /assets/images/Nomonyx_dominicus.jpg
 image_license: "CC BY-SA 2.0 Félix Uribe (flickr)"
 last_raw_data: 1537988752
-last_updated: 1566408490
+last_updated: 1537988752
 name: Nomonyx dominicus
 s3: s3://genomeark/species/Nomonyx_dominicus
 short_name: bNomDom

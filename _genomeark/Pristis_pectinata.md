@@ -68,7 +68,7 @@ genome_size_method: null
 image: /assets/images/Pristis_pectinata.jpg
 image_license: "CC BY-NC-ND 2.0 myfwc (flickr)"
 last_raw_data: 1555343816
-last_updated: 1566408490
+last_updated: 1565283929
 name: Pristis pectinata
 pri2date: 2019-08-02
 pri2filesize: 659 MB
