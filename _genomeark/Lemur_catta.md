@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Ring-tailed lemur
+common_name: ring-tailed lemur
 data_10x_bases: 277.44 Gbp
 data_10x_bytes: 130.708 GB
 data_10x_coverage: 84.07x

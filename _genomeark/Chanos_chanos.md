@@ -64,6 +64,7 @@ data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Chanos_chanos.jpg
+image_license: CC BY-SA 4.0 Hectonichus (wikimedia)
 last_raw_data: 1554983650
 last_updated: 1566408490
 name: Chanos chanos

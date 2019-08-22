@@ -61,6 +61,7 @@ data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902167395.1
 genbank_pri: GCA_902167405.1
 image: /assets/images/Gadus_morhua.jpg
+image_license: CC BY-SA 4.0, Hans Hillewaert (wikimedia)
 last_raw_data: 1556739326
 last_updated: 1566408490
 name: Gadus morhua

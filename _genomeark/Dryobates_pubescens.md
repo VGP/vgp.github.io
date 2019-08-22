@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: Downy woodpecker
+common_name: downy woodpecker
 data_10x_bases: 165.20 Gbp
 data_10x_bytes: 79.508 GB
 data_10x_coverage: 118.00x

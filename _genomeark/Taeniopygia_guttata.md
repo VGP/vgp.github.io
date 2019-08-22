@@ -68,7 +68,7 @@ data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
 data_arima_coverage: 242.54x
 data_arima_files: 20
-data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8484
 data_bionano_bases: 1642.52 Gbp
 data_bionano_bytes: 2.136 GB
@@ -80,7 +80,7 @@ data_illumina_bases: 138.82 Gbp
 data_illumina_bytes: 71.694 GB
 data_illumina_coverage: 134.05x
 data_illumina_files: 4
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8033
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
@@ -91,7 +91,7 @@ data_pbsubreads_bases: 159.85 Gbp
 data_pbsubreads_bytes: 574.778 GB
 data_pbsubreads_coverage: 154.35x
 data_pbsubreads_files: 394
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.259
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

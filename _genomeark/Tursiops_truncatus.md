@@ -23,7 +23,7 @@ data_illumina_bases: 430.75 Gbp
 data_illumina_bytes: 215.556 GB
 data_illumina_coverage: 134.61x
 data_illumina_files: 10
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8611
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown

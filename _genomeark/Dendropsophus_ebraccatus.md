@@ -23,7 +23,7 @@ data_illumina_bases: 367.80 Gbp
 data_illumina_bytes: 185.066 GB
 data_illumina_coverage: 145.95x
 data_illumina_files: 10
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8509
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown

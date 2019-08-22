@@ -42,7 +42,7 @@ genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
 image: null
-image_license: unknown
+image_license: Copyright Huishi Toh, used with permission
 last_raw_data: 1564249507
 last_updated: 1566408490
 name: Arvicanthis niloticus

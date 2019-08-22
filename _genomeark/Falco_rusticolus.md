@@ -32,7 +32,7 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 image: null
-image_license: unknown
+image_license: Copyright Falcon Genome Project, Al-Gannas Qatari Society, used with permission
 last_raw_data: 1564926515
 last_updated: 1566408490
 name: Falco rusticolus

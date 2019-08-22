@@ -29,7 +29,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
-common_name: Blue whale
+common_name: blue whale
 data_10x_bases: 320.05 Gbp
 data_10x_bytes: 185.877 GB
 data_10x_coverage: 103.45x
@@ -71,6 +71,7 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 image: /assets/images/Balaenoptera_musculus.jpg
+image_license: Copyright © Shutterstock, used with permission
 last_raw_data: 1563292453
 last_updated: 1566408490
 mito1date: 2019-05-21

@@ -9,7 +9,9 @@ data_pbhifi_scale: 1
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
-last_updated: 1565709087
+image: /assets/images/Rattus_norvegicus.jpg
+image_license: CC BY-SA 2.0, Jean-Jacques Boujot (flickr)
+last_updated: 1566408490
 name: Rattus norvegicus
 s3: s3://genomeark/species/Rattus_norvegicus
 short_name: mRatNor

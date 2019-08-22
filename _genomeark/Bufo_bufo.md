@@ -30,6 +30,7 @@ data_pbsubreads_scale: 0.5178
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 image: /assets/images/Bufo_bufo.jpg
+image_license: CC BY-SA 2.0 Rolf Dietrich Brecher (flickr)
 last_raw_data: 1562101980
 last_updated: 1566408490
 name: Bufo bufo
