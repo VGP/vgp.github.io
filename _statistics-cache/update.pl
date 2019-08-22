@@ -1356,7 +1356,6 @@ foreach my $species (@speciesList) {
     my $dataHIC = 0;
     my $dataBio = 0;
 
-
     sub uniquifyStringArray ($) {     #  Ain't perl great!
         my @a = split '\0', $_[0];
         my %a;
@@ -1365,7 +1364,7 @@ foreach my $species (@speciesList) {
             $a{$a}++;
         }
 
-        return(keys %a);
+        return(sort keys %a);
     }
 
 

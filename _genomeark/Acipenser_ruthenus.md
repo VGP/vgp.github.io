@@ -24,7 +24,7 @@ data_illumina_bases: unknown
 data_illumina_bytes: 136.869 GB
 data_illumina_coverage: N/A
 data_illumina_files: 2
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/ .<br>
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.4556
 data_pbhifi_scale: 1
 data_pbscraps_bases: unknown
