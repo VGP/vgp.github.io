@@ -42,10 +42,10 @@ genome_size: 2500000000
 genome_size_display: 2.50 Gbp
 genome_size_method: null
 last_raw_data: 1562793058
-last_updated: 1566319506
-mito2date: 0820-20-19
+last_updated: 1566590035
+mito2date: 2019-08-20
 mito2filesize: 5 KB
-mito2seq: https://s3.amazonaws.com/genomeark/species/Gopherus_flavomarginatus/rGopFla2/assembly_MT_rockefeller/rGopFla2.MT.08202019.fasta.gz
+mito2seq: https://s3.amazonaws.com/genomeark/species/Gopherus_flavomarginatus/rGopFla2/assembly_MT_rockefeller/rGopFla2.MT.20190820.fasta.gz
 mito2sizes: |
   <table class="sequence-sizes-table">
   <thead>

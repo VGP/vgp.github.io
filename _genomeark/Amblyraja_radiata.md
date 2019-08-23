@@ -21,7 +21,7 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1097 </td><td> 0.14 Mbp </td><td> 1097 </td><td> 0.14 Mbp </td></tr>  <tr><td> 20 </td><td> 2835 </td><td> 0.10 Mbp </td><td> 2835 </td><td> 0.10 Mbp </td></tr>  <tr><td> 30 </td><td> 5092 </td><td> 82.33 Kbp </td><td> 5092 </td><td> 82.33 Kbp </td></tr>  <tr><td> 40 </td><td> 7855 </td><td> 68.81 Kbp </td><td> 7855 </td><td> 68.81 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 11118 </td><td> 58.81 Kbp </td><td> 11118 </td><td> 58.81 Kbp </td></tr>  <tr><td> 60 </td><td> 14941 </td><td> 50.06 Kbp </td><td> 14941 </td><td> 50.06 Kbp </td></tr>  <tr><td> 70 </td><td> 19476 </td><td> 41.57 Kbp </td><td> 19476 </td><td> 41.57 Kbp </td></tr>  <tr><td> 80 </td><td> 25096 </td><td> 32.27 Kbp </td><td> 25096 </td><td> 32.27 Kbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1097 </td><td> 0.14 Mbp </td><td> 1097 </td><td> 0.14 Mbp </td></tr>  <tr><td> 20 </td><td> 2835 </td><td> 0.10 Mbp </td><td> 2835 </td><td> 0.10 Mbp </td></tr>  <tr><td> 30 </td><td> 5092 </td><td> 82.32 Kbp </td><td> 5092 </td><td> 82.32 Kbp </td></tr>  <tr><td> 40 </td><td> 7855 </td><td> 68.81 Kbp </td><td> 7855 </td><td> 68.81 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 11118 </td><td> 58.81 Kbp </td><td> 11118 </td><td> 58.81 Kbp </td></tr>  <tr><td> 60 </td><td> 14941 </td><td> 50.06 Kbp </td><td> 14941 </td><td> 50.06 Kbp </td></tr>  <tr><td> 70 </td><td> 19476 </td><td> 41.57 Kbp </td><td> 19476 </td><td> 41.57 Kbp </td></tr>  <tr><td> 80 </td><td> 25096 </td><td> 32.27 Kbp </td><td> 25096 </td><td> 32.27 Kbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.896x </th><th> 33692 </th><th> 1.86 Gbp </th><th> 33692 </th><th> 1.86 Gbp </th></tr>
   </tfoot>
@@ -65,10 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1556038288
-last_updated: 1566358441
-mito1date: 2008-20-19
+last_updated: 1566590315
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller/sAmbRad1.MT.20082019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller/sAmbRad1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

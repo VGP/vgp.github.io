@@ -47,10 +47,10 @@ genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
 last_raw_data: 1563374517
-last_updated: 1566319615
-mito3date: 0820-20-19
+last_updated: 1566589246
+mito3date: 2019-08-16
 mito3filesize: 5 KB
-mito3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_MT_rockefeller/mHomSap3.MT.08202019.fasta.gz
+mito3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_MT_rockefeller/mHomSap3.MT.20190816.fasta.gz
 mito3sizes: |
   <table class="sequence-sizes-table">
   <thead>

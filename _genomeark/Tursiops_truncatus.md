@@ -42,10 +42,10 @@ genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
 last_raw_data: 1564242340
-last_updated: 1566320006
-mito1date: 0820-20-19
+last_updated: 1566586039
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Tursiops_truncatus/mTurTru1/assembly_MT_rockefeller/mTurTru1.MT.08202019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Tursiops_truncatus/mTurTru1/assembly_MT_rockefeller/mTurTru1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

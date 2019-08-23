@@ -42,10 +42,10 @@ genome_size: 2520000000
 genome_size_display: 2.52 Gbp
 genome_size_method: null
 last_raw_data: 1560448207
-last_updated: 1566319438
-mito1date: 0820-20-19
+last_updated: 1566590108
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_MT_rockefeller/aDenEbr1.MT.08202019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_MT_rockefeller/aDenEbr1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

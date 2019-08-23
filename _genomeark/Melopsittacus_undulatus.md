@@ -42,10 +42,10 @@ genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
 last_raw_data: 1565104681
-last_updated: 1566319902
-mito1date: 0820-20-19
+last_updated: 1566589964
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_MT_rockefeller/bMelUnd1.MT.08202019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_MT_rockefeller/bMelUnd1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

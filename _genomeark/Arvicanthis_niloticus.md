@@ -42,10 +42,10 @@ genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
 last_raw_data: 1564249507
-last_updated: 1566318655
-mito1date: 0820-20-19
+last_updated: 1566590266
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_MT_rockefeller/mArvNil1.MT.08202019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_MT_rockefeller/mArvNil1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

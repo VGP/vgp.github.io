@@ -63,12 +63,12 @@ data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1563832512
-last_updated: 1566358596
-mito1date: 2008-20-19
+last_updated: 1566590074
+mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1n50ctg: 16625
 mito1n50scf: 16625
-mito1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_MT_rockefeller/rDerCor1.MT.20082019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_MT_rockefeller/rDerCor1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

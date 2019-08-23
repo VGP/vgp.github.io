@@ -37,10 +37,10 @@ genome_size: 3300000000
 genome_size_display: 3.30 Gbp
 genome_size_method: null
 last_raw_data: 1564244235
-last_updated: 1566319856
-mito1date: 0820-20-19
+last_updated: 1566590003
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_MT_rockefeller/mLemCat1.MT.08202019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_MT_rockefeller/mLemCat1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>

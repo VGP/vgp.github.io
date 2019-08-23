@@ -66,10 +66,10 @@ genome_size: 2800000000
 genome_size_display: 2.80 Gbp
 genome_size_method: null
 last_raw_data: 1566356326
-last_updated: 1566433325
-mito2date: 2108-20-19
+last_updated: 1566589923
+mito2date: 2019-08-21
 mito2filesize: 5 KB
-mito2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_MT_rockefeller/sPriPec2.MT.21082019.fasta.gz
+mito2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_MT_rockefeller/sPriPec2.MT.20190821.fasta.gz
 mito2sizes: |
   <table class="sequence-sizes-table">
   <thead>

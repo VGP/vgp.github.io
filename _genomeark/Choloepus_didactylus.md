@@ -65,10 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 last_raw_data: 1547217154
-last_updated: 1566319298
-mito1date: 0820-20-19
+last_updated: 1566590178
+mito1date: 2019-08-20
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_MT_rockefeller/mChoDid1.MT.08202019.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_MT_rockefeller/mChoDid1.MT.20190820.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
