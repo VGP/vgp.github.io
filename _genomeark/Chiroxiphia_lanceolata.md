@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
-image: /assets/images/Chiroxiphia_lanceolata.jpg
-image_license: "CC BY-SA 2.0 Dario Sanches (wikimedia)"
 last_raw_data: 1564251530
 last_updated: 1565304551
 name: Chiroxiphia lanceolata
+name_: Chiroxiphia_lanceolata
 pri1date: 2019-08-01
 pri1filesize: 319 MB
 pri1n50ctg: 15430584
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.5
-s3: s3://genomeark/species/Chiroxiphia_lanceolata
 short_name: bChiLan
 taxon_id: 296741
 ---

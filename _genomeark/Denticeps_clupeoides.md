@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900700345.2
 genbank_pri: GCA_900700375.1
-image: /assets/images/Denticeps_clupeoides.jpg
-image_license: Copyright Ralf Britz/NHM, used with permission
 last_raw_data: 1535895622
 last_updated: 1551801769
 name: Denticeps clupeoides
+name_: Denticeps_clupeoides
 pri1date: 2019-03-05
 pri1filesize: 162 MB
 pri1n50ctg: 3059612
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Denticeps_clupeoides
 short_name: fDenClu
 taxon_id: 299321
 ---

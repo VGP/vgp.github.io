@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1250000000
 genome_size_display: 1.25 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
 last_raw_data: 1564252350
 last_updated: 1565133169
 name: Corvus moneduloides
+name_: Corvus_moneduloides
 pri1date: 2019-08-04
 pri1filesize: 317 MB
 pri1n50ctg: 9839847
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.6
-s3: s3://genomeark/species/Corvus_moneduloides
 short_name: bCorMon
 taxon_id: 1196302
 ---

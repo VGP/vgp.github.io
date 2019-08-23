@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 genome_size_method: null
-image: /assets/images/Alca_torda.jpg
-image_license: "CC BY 2.0 Paul Wordingham (flickr)"
 last_raw_data: 1545245416
 last_updated: 1562003352
 name: Alca torda
+name_: Alca_torda
 pri1date: 2019-06-13
 pri1filesize: 345 MB
 pri1n50ctg: 18221265
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Alca_torda
 short_name: bAlcTor
 taxon_id: 28689
 ---

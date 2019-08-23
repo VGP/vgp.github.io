@@ -36,12 +36,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3300000000
 genome_size_display: 3.30 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
 last_raw_data: 1564244235
 last_updated: 1564244235
 name: Lemur catta
-s3: s3://genomeark/species/Lemur_catta
+name_: Lemur_catta
 short_name: mLemCat
 taxon_id: 9447
 ---

@@ -71,8 +71,6 @@ genbank_alt: GCA_004115175.1
 genbank_pri: GCA_004115215.2
 genome_size: 2128226567
 genome_size_display: 2.13 Gbp
-image: /assets/images/Ornithorhynchus_anatinus.jpg
-image_license: "CC BY-NC 2.0 Trevira1 (flickr)"
 last_raw_data: 1536347587
 last_updated: 1551546430
 mito1date: 2019-03-02
@@ -102,6 +100,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Ornithorhynchus anatinus
+name_: Ornithorhynchus_anatinus
 pri1date: 2018-11-16
 pri1filesize: 489 MB
 pri1n50ctg: 12418282
@@ -130,7 +129,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Ornithorhynchus_anatinus
 short_name: mOrnAna
 taxon_id: 9258
 ---

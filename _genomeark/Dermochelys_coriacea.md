@@ -62,11 +62,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Derm
 data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Dermochelys_coriacea.jpg
-image_license: "public domain"
 last_raw_data: 1563832512
 last_updated: 1565711440
 name: Dermochelys coriacea
+name_: Dermochelys_coriacea
 pri1date: 2019-08-11
 pri1filesize: 639 MB
 pri1n50ctg: 7957694
@@ -95,7 +94,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.6
-s3: s3://genomeark/species/Dermochelys_coriacea
 short_name: rDerCor
 taxon_id: 27794
 ---

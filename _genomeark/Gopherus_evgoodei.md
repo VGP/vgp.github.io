@@ -66,8 +66,6 @@ genbank_alt: GCA_007399395.1
 genbank_pri: GCA_007399415.1
 genome_size: 2684436481
 genome_size_display: 2.68 Gbp
-image: /assets/images/Gopherus_evgoodei.jpg
-image_license: "CC BY 4.0 Edwards et al. (wikimedia)"
 last_raw_data: 1529613892
 last_updated: 1559613605
 mito1date: 2019-03-10
@@ -97,6 +95,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Gopherus evgoodei
+name_: Gopherus_evgoodei
 pri1date: 2019-06-03
 pri1filesize: 656 MB
 pri1n50ctg: 10520693
@@ -125,7 +124,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Gopherus_evgoodei
 short_name: rGopEvg
 taxon_id: 1825980
 ---

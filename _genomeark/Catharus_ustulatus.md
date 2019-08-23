@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1490000000
 genome_size_display: 1.49 Gbp
 genome_size_method: null
-image: /assets/images/Catharus_ustulatus.jpg
-image_license: "CC BY 2.0 CheepShot (flickr)"
 last_raw_data: 1556295043
 last_updated: 1562336175
 name: Catharus ustulatus
+name_: Catharus_ustulatus
 pri1date: 2019-07-04
 pri1filesize: 329 MB
 pri1n50ctg: 3345891
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.5
-s3: s3://genomeark/species/Catharus_ustulatus
 short_name: bCatUst
 taxon_id: 91951
 ---

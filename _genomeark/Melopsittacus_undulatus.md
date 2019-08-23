@@ -41,12 +41,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
-image: /assets/images/Melopsittacus_undulatus.jpg
-image_license: "CC BY-SA 3.0 Atlanta Zoo (wikimedia)"
 last_raw_data: 1565104681
 last_updated: 1565104681
 name: Melopsittacus undulatus
-s3: s3://genomeark/species/Melopsittacus_undulatus
+name_: Melopsittacus_undulatus
 short_name: bMelUnd
 taxon_id: 13146
 ---

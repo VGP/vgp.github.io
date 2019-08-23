@@ -60,8 +60,6 @@ genbank_alt: GCA_004011185.1
 genbank_pri: GCA_004027225.1
 genome_size: 1193409022
 genome_size_display: 1.19 Gbp
-image: /assets/images/Strigops_habroptilus.jpg
-image_license: "CC BY-NC 2.0 Jake Osborne (flickr)"
 last_raw_data: 1560055730
 last_updated: 1560055730
 mito1date: 2019-03-04
@@ -91,6 +89,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Strigops habroptilus
+name_: Strigops_habroptilus
 pri1date: 2018-09-07
 pri1filesize: 333 MB
 pri1n50ctg: 9112118
@@ -119,7 +118,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Strigops_habroptilus
 short_name: bStrHab
 taxon_id: 57251
 ---

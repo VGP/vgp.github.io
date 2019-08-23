@@ -23,12 +23,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dend
 data_pbsubreads_scale: 0.5263
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Dendrocygna_viduata.jpg
-image_license: "CC BY-SA 3.0 Quartl (wikimedia)"
 last_raw_data: 1537988854
 last_updated: 1537988854
 name: Dendrocygna viduata
-s3: s3://genomeark/species/Dendrocygna_viduata
+name_: Dendrocygna_viduata
 short_name: bDenVid
 taxon_id: 8876
 ---

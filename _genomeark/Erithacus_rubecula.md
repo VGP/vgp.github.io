@@ -19,12 +19,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Erit
 data_pbsubreads_scale: 0.5325
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Erithacus_rubecula.jpg
-image_license: CC BY-SA 2.0, Juan Emilio (wikimedia)
 last_raw_data: 1565281353
 last_updated: 1565281353
 name: Erithacus rubecula
-s3: s3://genomeark/species/Erithacus_rubecula
+name_: Erithacus_rubecula
 short_name: bEriRub
 taxon_id: 37610
 ---

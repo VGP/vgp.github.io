@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1300000000
 genome_size_display: 1.30 Gbp
 genome_size_method: null
-image: /assets/images/Merops_nubicus.jpg
-image_license: "CC BY-SA 3.0 Luc Viatour (wikimedia)"
 last_raw_data: 1556386618
 last_updated: 1566008023
 name: Merops nubicus
+name_: Merops_nubicus
 pri1date: 2019-08-15
 pri1filesize: 334 MB
 pri1n50ctg: 11283056
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Merops_nubicus
 short_name: bMerNub
 taxon_id: 57421
 ---

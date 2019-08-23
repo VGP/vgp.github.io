@@ -1154,29 +1154,18 @@ foreach my $species (@speciesList) {
     my $name = loadMeta($species, \%meta);
     my $asm;
 
-    $data{"name"}                = $meta{"species.name"};
+    $data{"name"}                = $meta{"species.name"};         #  Name with a space:     'Species_name'
+    $data{"name_"}               = $name;                         #  Name with underscore:  'Species_name'
     $data{"short_name"}          = $meta{"species.short_name"};
 
     $data{"common_name"}         = $meta{"species.common_name"};
     $data{"taxon_id"}            = $meta{"species.taxon_id"};
 
-    $data{"s3"}                  = "s3://genomeark/species/$name";
+    #$data{"s3"}                  = "s3://genomeark/species/$name";
 
     $data{"genome_size"}         = $meta{"species.genome_size"};
     $data{"genome_size_display"} = prettifyBases($meta{"species.genome_size"});  #  Updated later, too.
     $data{"genome_size_method"}  = $meta{"species.genome_size_method"};
-
-    $data{"image"}               = $meta{"species.image"};
-    $data{"image_license"}       = $meta{"species.image_license"};
-
-    if ($data{"image"} eq "") {
-        if (-e "../assets/images/$name.jpg") {
-            $data{"image"} = "/assets/images/$name.jpg";
-        }
-        if (-e "../assets/images/$name.png") {
-            $data{"image"} = "/assets/images/$name.png";
-        }
-    }
 
     $data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
     $data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";

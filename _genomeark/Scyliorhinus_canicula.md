@@ -28,12 +28,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scyl
 data_pbsubreads_scale: 0.5314
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Scyliorhinus_canicula.jpg
-image_license: "CC BY-SA 4.0 Hans Hillewaert (wikimedia)"
 last_raw_data: 1544711648
 last_updated: 1550742700
 name: Scyliorhinus canicula
-s3: s3://genomeark/species/Scyliorhinus_canicula
+name_: Scyliorhinus_canicula
 short_name: sScyCan
 taxon_id: 7830
 ---

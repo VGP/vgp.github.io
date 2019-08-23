@@ -67,11 +67,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thal
 data_pbsubreads_scale: 0.5298
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Thalassophryne_amazonica.jpg
-image_license: Copyright Ralf Britz/NHM, used with permission
 last_raw_data: 1559331534
 last_updated: 1559462664
 name: Thalassophryne amazonica
+name_: Thalassophryne_amazonica
 pri1date: 2019-05-31
 pri1filesize: 723 MB
 pri1n50ctg: 2329598
@@ -100,7 +99,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_cambridge
-s3: s3://genomeark/species/Thalassophryne_amazonica
 short_name: fThaAma
 taxon_id: 390379
 ---

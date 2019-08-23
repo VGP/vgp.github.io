@@ -63,8 +63,6 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3000000000
 genome_size_display: 3.00 Gbp
 genome_size_method: null
-image: /assets/images/Phocoena_sinus.jpg
-image_license: "public domain"
 last_raw_data: 1557360444
 last_updated: 1564506064
 mito1date: 2019-23-07
@@ -94,6 +92,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_rockefeller
 name: Phocoena sinus
+name_: Phocoena_sinus
 pri1date: 2019-07-23
 pri1filesize: 690 MB
 pri1n50ctg: 16115062
@@ -122,7 +121,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Phocoena_sinus
 short_name: mPhoSin
 taxon_id: 42100
 ---

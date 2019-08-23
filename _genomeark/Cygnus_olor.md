@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1480000000
 genome_size_display: 1.48 Gbp
 genome_size_method: null
-image: /assets/images/Cygnus_olor.jpg
-image_license: "CC BY-SA 3.0 Charles J Sharp (wikimedia)"
 last_raw_data: 1564200622
 last_updated: 1565121806
 name: Cygnus olor
+name_: Cygnus_olor
 pri1date: 2019-08-02
 pri1filesize: 333 MB
 pri1n50ctg: 4966489
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.5
-s3: s3://genomeark/species/Cygnus_olor
 short_name: bCygOlo
 taxon_id: 8869
 ---

@@ -41,12 +41,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
-image: /assets/images/Callithrix_jacchus.jpg
-image_license: "CC BY-SA 2.0 Luciano Marra (flickr)"
 last_raw_data: 1561760697
 last_updated: 1561760697
 name: Callithrix jacchus
-s3: s3://genomeark/species/Callithrix_jacchus
+name_: Callithrix_jacchus
 short_name: mCalJac
 taxon_id: 9483
 ---

@@ -41,12 +41,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
-image: null
-image_license: Copyright Huishi Toh, used with permission
 last_raw_data: 1564249507
 last_updated: 1564249507
 name: Arvicanthis niloticus
-s3: s3://genomeark/species/Arvicanthis_niloticus
+name_: Arvicanthis_niloticus
 short_name: mArvNil
 taxon_id: 61156
 ---

@@ -19,12 +19,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipi
 data_pbsubreads_scale: 0.5359
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Pipistrellus_pipistrellus.jpg
-image_license: CC BY-SA 2.0, Gilles San Martin (flickr)
 last_raw_data: 1565296305
 last_updated: 1565296305
 name: Pipistrellus pipistrellus
-s3: s3://genomeark/species/Pipistrellus_pipistrellus
+name_: Pipistrellus_pipistrellus
 short_name: mPipPip
 taxon_id: 59474
 ---

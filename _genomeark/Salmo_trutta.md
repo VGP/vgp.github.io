@@ -40,11 +40,10 @@ data_pbsubreads_scale: 0.5297
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_pri: GCA_901001165.1
-image: /assets/images/Salmo_trutta.jpg
-image_license: "public domain"
 last_raw_data: 1556285514
 last_updated: 1559051007
 name: Salmo trutta
+name_: Salmo_trutta
 pri1date: 2019-04-03
 pri1filesize: 624 MB
 pri1n50ctg: 1692994
@@ -73,7 +72,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Salmo_trutta
 short_name: fSalTru
 taxon_id: 8032
 ---

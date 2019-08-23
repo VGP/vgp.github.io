@@ -64,8 +64,6 @@ genbank_alt: GCA_900700395.1
 genbank_pri: GCA_900324485.2
 genome_size: 756753344
 genome_size_display: 0.76 Gbp
-image: /assets/images/Mastacembelus_armatus.jpg
-image_license: "public domain"
 last_raw_data: 1523531959
 last_updated: 1564757515
 mito1date: 2019-03-04
@@ -95,6 +93,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Mastacembelus armatus
+name_: Mastacembelus_armatus
 pri1date: 2019-03-05
 pri1filesize: 169 MB
 pri1n50ctg: 4763706
@@ -123,7 +122,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Mastacembelus_armatus
 short_name: fMasArm
 taxon_id: 205130
 ---

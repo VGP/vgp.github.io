@@ -26,12 +26,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
 last_raw_data: 1565024675
 last_updated: 1565024675
 name: Nyctibius grandis
-s3: s3://genomeark/species/Nyctibius_grandis
+name_: Nyctibius_grandis
 short_name: bNycGra
 taxon_id: 48427
 ---

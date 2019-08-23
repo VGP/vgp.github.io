@@ -28,12 +28,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciu
 data_pbsubreads_scale: 0.5299
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Sciurus_vulgaris.jpg
-image_license: "CC BY-SA 3.0 RedR (wikimedia)"
 last_raw_data: 1535575420
 last_updated: 1535575420
 name: Sciurus vulgaris
-s3: s3://genomeark/species/Sciurus_vulgaris
+name_: Sciurus_vulgaris
 short_name: mSciVul
 taxon_id: 55149
 ---

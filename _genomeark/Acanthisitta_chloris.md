@@ -28,12 +28,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acan
 data_pbsubreads_scale: 0.54
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Acanthisitta_chloris.jpg
-image_license: "CC BY-SA 2.0 digitaltrails (flickr)"
 last_raw_data: 1543518349
 last_updated: 1543518349
 name: Acanthisitta chloris
-s3: s3://genomeark/species/Acanthisitta_chloris
+name_: Acanthisitta_chloris
 short_name: bAcaChl
 taxon_id: 57068
 ---

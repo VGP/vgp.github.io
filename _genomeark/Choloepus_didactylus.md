@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
-image: /assets/images/Choloepus_didactylus.jpg
-image_license: "CC BY-SA 3.0 Hans Hillewaert (wikimedia)"
 last_raw_data: 1547217154
 last_updated: 1562573611
 name: Choloepus didactylus
+name_: Choloepus_didactylus
 pri1date: 2019-06-21
 pri1filesize: 979 MB
 pri1n50ctg: 9348138
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_berlin_vgp_1.5
-s3: s3://genomeark/species/Choloepus_didactylus
 short_name: mChoDid
 taxon_id: 27675
 ---

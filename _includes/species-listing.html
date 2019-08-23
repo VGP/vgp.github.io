@@ -1,13 +1,13 @@
 {% assign species = include.species %}
 
+{% include species-image.html species_name=species.name_ %}
+
 <div class="species-listing" style="display:table;">
 	<div style="display:table-cell;width:1%;padding-bottom:6px;">
 	<a style="display:block;" href="{{ site.baseurl }}{{ species.url }}">
-{% if species.image %}
-		<div class="portrait-list" style="background-image:url({{ species.image }});"></div>
-{% else %}
-		<div class="portrait-list" style="background-image:url(/assets/images/missing.jpeg);"></div>
-{% endif %}
+
+  <div class="portrait-list" style="background-image:url({{ image }});"></div>
+
 	</a>
 	</div>
 	<div style="display:table-cell;padding-left: 10px;vertical-align: top;">

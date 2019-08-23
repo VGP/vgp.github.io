@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902153765.1
 genbank_pri: GCA_900496995.2
-image: /assets/images/Aquila_chrysaetos.jpg
-image_license: "CC BY-SA 4.0 Diego Delso (wikimedia)"
 last_raw_data: 1554458077
 last_updated: 1562590465
 name: Aquila chrysaetos chrysaetos
+name_: Aquila_chrysaetos
 pri1date: 2019-07-02
 pri1filesize: 352 MB
 pri1n50ctg: 21924221
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Aquila_chrysaetos
 short_name: bAquChr
 taxon_id: 223781
 ---

@@ -36,12 +36,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3080000000
 genome_size_display: 3.08 Gbp
 genome_size_method: null
-image: /assets/images/Mustela_erminea.jpg
-image_license: Copyright Patrick Garvey, used with permission
 last_raw_data: 1565693768
 last_updated: 1565693768
 name: Mustela erminea
-s3: s3://genomeark/species/Mustela_erminea
+name_: Mustela_erminea
 short_name: mMusErm
 taxon_id: 36723
 ---

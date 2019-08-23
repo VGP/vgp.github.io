@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2800000000
 genome_size_display: 2.80 Gbp
 genome_size_method: null
-image: /assets/images/Pristis_pectinata.jpg
-image_license: "CC BY-NC-ND 2.0 myfwc (flickr)"
 last_raw_data: 1555343816
 last_updated: 1565283929
 name: Pristis pectinata
+name_: Pristis_pectinata
 pri2date: 2019-08-02
 pri2filesize: 659 MB
 pri2n50ctg: 11068733
@@ -98,7 +97,6 @@ pri2sizes: |
   </tfoot>
   </table>
 pri2version: assembly_vgp_standard_1.5
-s3: s3://genomeark/species/Pristis_pectinata
 short_name: sPriPec
 taxon_id: 685728
 ---

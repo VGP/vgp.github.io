@@ -64,8 +64,6 @@ genbank_alt: GCA_900650505.1
 genbank_pri: GCA_900634775.1
 genome_size: 1182215999
 genome_size_display: 1.18 Gbp
-image: /assets/images/fish.png
-image_license: Apple
 last_raw_data: 1523524486
 last_updated: 1551776929
 mito2date: 2019-03-05
@@ -95,6 +93,7 @@ mito2sizes: |
   </table>
 mito2version: assembly_mt_milan
 name: Gouania willdenowi
+name_: Gouania_willdenowi
 pri2date: 2018-11-16
 pri2filesize: 266 MB
 pri2n50ctg: 1178098
@@ -123,7 +122,6 @@ pri2sizes: |
   </tfoot>
   </table>
 pri2version: assembly_curated
-s3: s3://genomeark/species/Gouania_willdenowi
 short_name: fGouWil
 taxon_id: 441366
 ---

@@ -24,12 +24,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciu
 data_pbsubreads_scale: 0.5423
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Sciurus_carolinensis.jpg
-image_license: CC BY 2.0, Judy Gallagher (flickr)
 last_raw_data: 1565307258
 last_updated: 1565307258
 name: Sciurus carolinensis
-s3: s3://genomeark/species/Sciurus_carolinensis
+name_: Sciurus_carolinensis
 short_name: mSciCar
 taxon_id: 30640
 ---

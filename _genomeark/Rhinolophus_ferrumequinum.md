@@ -66,8 +66,6 @@ genbank_alt: GCA_004115295.1
 genbank_pri: GCA_004115265.2
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
-image: /assets/images/Rhinolophus_ferrumequinum.jpg
-image_license: "CC BY-NC-SA 2.0 Ján Svetlík (flickr)"
 last_raw_data: 1522747239
 last_updated: 1552051777
 mito1date: 2019-03-08
@@ -97,6 +95,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Rhinolophus ferrumequinum
+name_: Rhinolophus_ferrumequinum
 pri1date: 2018-09-07
 pri1filesize: 607 MB
 pri1n50ctg: 25175215
@@ -125,7 +124,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Rhinolophus_ferrumequinum
 short_name: mRhiFer
 taxon_id: 59479
 ---

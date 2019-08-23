@@ -46,12 +46,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
 last_raw_data: 1563374517
 last_updated: 1564897251
 name: Homo sapiens
-s3: s3://genomeark/species/Homo_sapiens
+name_: Homo_sapiens
 short_name: mHomSap
 taxon_id: 9606
 ---

@@ -23,12 +23,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Zeus
 data_pbsubreads_scale: 0.52
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Zeus_faber.jpg
-image_license: "CC BY-NC-SA 2.0 Sarah Faulwetter (flickr)"
 last_raw_data: 1523539256
 last_updated: 1523539256
 name: Zeus faber
-s3: s3://genomeark/species/Zeus_faber
+name_: Zeus_faber
 short_name: fZeuFab
 taxon_id: 64108
 ---

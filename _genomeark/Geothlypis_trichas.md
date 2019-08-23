@@ -62,11 +62,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geot
 data_pbsubreads_scale: 0.5241
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Geothlypis_trichas.jpg
-image_license: "CC BY-SA 2.0 Dan Pancamo (flickr)"
 last_raw_data: 1544473266
 last_updated: 1563437087
 name: Geothlypis trichas
+name_: Geothlypis_trichas
 pri1date: 2019-07-17
 pri1filesize: 310 MB
 pri1n50ctg: 3247339
@@ -95,7 +94,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.5
-s3: s3://genomeark/species/Geothlypis_trichas
 short_name: bGeoTri
 taxon_id: 135433
 ---

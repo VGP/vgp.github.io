@@ -66,8 +66,6 @@ genbank_alt: GCA_004115245.1
 genbank_pri: GCA_004126475.2
 genome_size: 2213798723
 genome_size_display: 2.21 Gbp
-image: /assets/images/Phyllostomus_discolor.jpg
-image_license: "CC BY-SA 4.0 Juan Carlos Vargas Mena (wikimedia)"
 last_raw_data: 1527496005
 last_updated: 1565066117
 mito1date: 2019-03-08
@@ -97,6 +95,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Phyllostomus discolor
+name_: Phyllostomus_discolor
 pri1date: 2018-09-07
 pri1filesize: 614 MB
 pri1n50ctg: 6377178
@@ -125,7 +124,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Phyllostomus_discolor
 short_name: mPhyDis
 taxon_id: 89673
 ---

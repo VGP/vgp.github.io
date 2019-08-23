@@ -62,8 +62,6 @@ genbank_alt: GCA_007364235.1
 genbank_pri: GCA_007364275.2
 genome_size: 988048114
 genome_size_display: 0.99 Gbp
-image: /assets/images/Archocentrus_centrarchus.jpg
-image_license: "public domain"
 last_raw_data: 1551284459
 last_updated: 1553025646
 mito1date: 2019-03-08
@@ -93,6 +91,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Archocentrus centrarchus
+name_: Archocentrus_centrarchus
 pri1date: 2019-02-08
 pri1filesize: 267 MB
 pri1n50ctg: 2005422
@@ -121,7 +120,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Archocentrus_centrarchus
 short_name: fArcCen
 taxon_id: 63155
 ---

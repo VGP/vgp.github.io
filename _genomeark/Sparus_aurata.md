@@ -59,11 +59,10 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_900880695.1
 genbank_pri: GCA_900880675.1
-image: /assets/images/Sparus_aurata.jpg
-image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1523533999
 last_updated: 1554995900
 name: Sparus aurata
+name_: Sparus_aurata
 pri1date: 2019-03-14
 pri1filesize: 225 MB
 pri1n50ctg: 2862625
@@ -92,7 +91,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Sparus_aurata
 short_name: fSpaAur
 taxon_id: 8175
 ---

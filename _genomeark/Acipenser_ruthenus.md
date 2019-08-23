@@ -39,8 +39,6 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acip
 data_pbsubreads_scale: 0.5204
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Acipenser_ruthenus.jpg
-image_license: CC BY 2.0 Tauralbus (flickr)
 last_raw_data: 1561670787
 last_updated: 1562914576
 mat3date: 2019-07-09
@@ -72,6 +70,7 @@ mat3sizes: |
   </table>
 mat3version: assembly_cambridge
 name: Acipenser ruthenus
+name_: Acipenser_ruthenus
 pat3date: 2019-07-09
 pat3filesize: 481 MB
 pat3n50ctg: 11500722
@@ -100,7 +99,6 @@ pat3sizes: |
   </tfoot>
   </table>
 pat3version: assembly_cambridge
-s3: s3://genomeark/species/Acipenser_ruthenus
 short_name: fAciRut
 taxon_id: 7906
 ---

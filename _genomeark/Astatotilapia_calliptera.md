@@ -28,8 +28,6 @@ data_status: <em style="color:orange">some data</em>
 genbank_pri: GCA_900246225.3
 genome_size: 972478608
 genome_size_display: 0.97 Gbp
-image: /assets/images/Astatotilapia_calliptera.jpg
-image_license: "CC BY-SA 2.0 Alexandra Tyers (flickr)"
 last_raw_data: 1520006832
 last_updated: 1564762217
 mito1date: 2019-03-04
@@ -59,6 +57,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Astatotilapia calliptera
+name_: Astatotilapia_calliptera
 pri1date: 2018-05-30
 pri1filesize: 267 MB
 pri1n50ctg: 3979531
@@ -87,7 +86,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Astatotilapia_calliptera
 short_name: fAstCal
 taxon_id: 8154
 ---

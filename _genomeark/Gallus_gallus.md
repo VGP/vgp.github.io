@@ -26,12 +26,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
 last_raw_data: 1565133241
 last_updated: 1565133241
 name: Gallus gallus
-s3: s3://genomeark/species/Gallus_gallus
+name_: Gallus_gallus
 short_name: bGalGal
 taxon_id: 9031
 ---

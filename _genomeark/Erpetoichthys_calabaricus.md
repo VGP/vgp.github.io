@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900700845.2
 genbank_pri: GCA_900747795.2
-image: /assets/images/Erpetoichthys_calabaricus.jpg
-image_license: "CC BY-SA 3.0 Michał Zalewski (wikimedia)"
 last_raw_data: 1536592476
 last_updated: 1551948033
 name: Erpetoichthys calabaricus
+name_: Erpetoichthys_calabaricus
 pri1date: 2019-03-05
 pri1filesize: 1 GB
 pri1n50ctg: 1143051
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Erpetoichthys_calabaricus
 short_name: fErpCal
 taxon_id: 27687
 ---

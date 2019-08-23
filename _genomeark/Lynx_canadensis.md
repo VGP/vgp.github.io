@@ -66,8 +66,6 @@ genbank_alt: GCA_007474575.1
 genbank_pri: GCA_007474595.1
 genome_size: 2471525315
 genome_size_display: 2.47 Gbp
-image: /assets/images/Lynx_canadensis.jpg
-image_license: "CC BY 2.0 Keith Williams (flickr)"
 last_raw_data: 1534379101
 last_updated: 1552210269
 mito4date: 2019-03-10
@@ -97,6 +95,7 @@ mito4sizes: |
   </table>
 mito4version: assembly_mt_milan
 name: Lynx canadensis
+name_: Lynx_canadensis
 pri4date: 2019-01-10
 pri4filesize: 700 MB
 pri4n50ctg: 7406471
@@ -125,7 +124,6 @@ pri4sizes: |
   </tfoot>
   </table>
 pri4version: assembly_curated
-s3: s3://genomeark/species/Lynx_canadensis
 short_name: mLynCan
 taxon_id: 61383
 ---

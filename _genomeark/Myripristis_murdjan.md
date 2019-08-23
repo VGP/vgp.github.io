@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902148815.1
 genbank_pri: GCA_902150065.1
-image: /assets/images/Myripristis_murdjan.jpg
-image_license: "CC BY 2.0 Rickard Zerpe (flickr)"
 last_raw_data: 1556731081
 last_updated: 1561653213
 name: Myripristis murdjan
+name_: Myripristis_murdjan
 pri1date: 2019-06-21
 pri1filesize: 242 MB
 pri1n50ctg: 14475636
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Myripristis_murdjan
 short_name: fMyrMur
 taxon_id: 586833
 ---

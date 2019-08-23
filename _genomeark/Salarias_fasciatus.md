@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902148835.1
 genbank_pri: GCA_902148845.1
-image: /assets/images/Salarias_fasciatus.jpg
-image_license: "(pixabay)"
 last_raw_data: 1554447472
 last_updated: 1561653349
 name: Salarias fasciatus
+name_: Salarias_fasciatus
 pri1date: 2019-06-24
 pri1filesize: 227 MB
 pri1n50ctg: 2597836
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Salarias_fasciatus
 short_name: fSalaFa
 taxon_id: 181472
 ---

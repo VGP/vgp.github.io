@@ -33,8 +33,6 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2700000000
 genome_size_display: 2.70 Gbp
 genome_size_method: null
-image: /assets/images/Bos_taurus.jpg
-image_license: "public domain"
 last_raw_data: 1561748134
 last_updated: 1564455351
 mat1date: 2018-11-30
@@ -66,6 +64,7 @@ mat1sizes: |
   </table>
 mat1version: assembly_adelaide
 name: Bos taurus
+name_: Bos_taurus
 pat1date: 2018-11-30
 pat1filesize: 792 MB
 pat1n50ctg: 35295638
@@ -94,7 +93,6 @@ pat1sizes: |
   </tfoot>
   </table>
 pat1version: assembly_adelaide
-s3: s3://genomeark/species/Bos_taurus
 short_name: mBosTau
 taxon_id: 9913
 ---

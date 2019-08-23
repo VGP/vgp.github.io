@@ -69,11 +69,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_901765105.1
 genbank_pri: GCA_901765095.1
-image: /assets/images/frog.png
-image_license: Apple
 last_raw_data: 1548859097
 last_updated: 1559461643
 name: Microcaecilia unicolor
+name_: Microcaecilia_unicolor
 pri1date: 2019-05-23
 pri1filesize: 1 GB
 pri1n50ctg: 3650988
@@ -102,7 +101,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Microcaecilia_unicolor
 short_name: aMicUni
 taxon_id: 1415580
 ---

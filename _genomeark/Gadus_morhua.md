@@ -60,11 +60,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902167395.1
 genbank_pri: GCA_902167405.1
-image: /assets/images/Gadus_morhua.jpg
-image_license: CC BY-SA 4.0, Hans Hillewaert (wikimedia)
 last_raw_data: 1556739326
 last_updated: 1562780932
 name: Gadus morhua
+name_: Gadus_morhua
 pri1date: 2019-07-10
 pri1filesize: 181 MB
 pri1n50ctg: 1015663
@@ -93,7 +92,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Gadus_morhua
 short_name: fGadMor
 taxon_id: 8049
 ---

@@ -72,8 +72,6 @@ genbank_alt: GCA_003957575.1
 genbank_pri: GCA_003957555.2
 genome_size: 1116472572
 genome_size_display: 1.12 Gbp
-image: /assets/images/Calypte_anna.jpg
-image_license: "public domain"
 last_raw_data: 1555437492
 last_updated: 1555437492
 mito1date: 2019-03-02
@@ -103,6 +101,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Calypte anna
+name_: Calypte_anna
 pri1date: 2018-09-26
 pri1filesize: 303 MB
 pri1n50ctg: 12771857
@@ -131,7 +130,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Calypte_anna
 short_name: bCalAnn
 taxon_id: 9244
 ---

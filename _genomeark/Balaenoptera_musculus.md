@@ -70,8 +70,6 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
-image: /assets/images/Balaenoptera_musculus.jpg
-image_license: Copyright © Shutterstock, used with permission
 last_raw_data: 1563292453
 last_updated: 1563332729
 mito1date: 2019-05-21
@@ -101,6 +99,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Balaenoptera musculus
+name_: Balaenoptera_musculus
 pri1date: 2019-06-18
 pri1filesize: 689 MB
 pri1n50ctg: 4265224
@@ -129,7 +128,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Balaenoptera_musculus
 short_name: mBalMus
 taxon_id: 9771
 ---

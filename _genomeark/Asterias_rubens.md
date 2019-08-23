@@ -53,11 +53,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Aste
 data_pbsubreads_scale: 0.5224
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Asterias_rubens.jpg
-image_license: CC BY-SA 4.0, Hans Hillewaert (wikimedia)
 last_raw_data: 1565272838
 last_updated: 1565728009
 name: Asterias rubens
+name_: Asterias_rubens
 pri1date: 2019-08-09
 pri1filesize: 119 MB
 pri1n50ctg: 1383654
@@ -86,7 +85,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Asterias_rubens
 short_name: eAstRub
 taxon_id: 7604
 ---

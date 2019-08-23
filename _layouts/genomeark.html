@@ -24,23 +24,15 @@ layout: default
     </div>
   </div>
 
+  {% include species-image.html species_name=page.name_ %}
+
   <div class="species-image">
     <div style="display: inline; margin: 0;">
-      {% if page.image %}
-        <div style="background-image:url({{ page.image }}); " class="portrait" src="">
-        </div>
-        <div class="portrait-caption">
-          {% if page.image_license %}
-            {{ page.image_license }}
-          {% endif %}
-        </div>
-      {% else %}
-        <div style="background-image:url(/assets/images/missing.jpeg); " class="portrait" src="">
-        </div>
-        <div class="portrait-caption">
-          Image needed
-        </div>
-      {% endif %}
+      <div style="background-image:url({{ image }}); " class="portrait" src="">
+      </div>
+      <div class="portrait-caption">
+        {{ license }}
+      </div>
     </div>
   </div>
 </div>

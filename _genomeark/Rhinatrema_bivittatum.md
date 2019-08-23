@@ -67,8 +67,6 @@ genbank_pri: GCA_901001135.1
 genome_size: 5067838282
 genome_size_display: 5.07 Gbp
 genome_size_method: genomescope k=31
-image: /assets/images/Rhinatrema_bivittatum.jpg
-image_license: Copyright Stuart V Nielsen, used with permission
 last_raw_data: 1525161722
 last_updated: 1554978226
 mito1date: 2019-03-10
@@ -98,6 +96,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Rhinatrema bivittatum
+name_: Rhinatrema_bivittatum
 pri1date: 2019-04-09
 pri1filesize: 2 GB
 pri1n50ctg: 3350639
@@ -126,7 +125,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Rhinatrema_bivittatum
 short_name: aRhiBiv
 taxon_id: 194408
 ---

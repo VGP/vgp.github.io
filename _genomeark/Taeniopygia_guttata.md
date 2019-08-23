@@ -99,8 +99,6 @@ genbank_alt: GCA_003957525.1
 genbank_pri: GCA_003957565.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
-image: /assets/images/Taeniopygia_guttata.jpg
-image_license: "CC BY 2.0 Keith Gerstung (wikimedia)"
 last_raw_data: 1531830272
 last_updated: 1565552369
 mat2date: 2019-08-11
@@ -184,6 +182,7 @@ mito2sizes: |
   </table>
 mito2version: assembly_mt_milan
 name: Taeniopygia guttata
+name_: Taeniopygia_guttata
 pat2date: 2019-08-11
 pat2filesize: 298 MB
 pat2n50ctg: 4426801
@@ -268,7 +267,6 @@ pri2sizes: |
   </tfoot>
   </table>
 pri2version: assembly_curated
-s3: s3://genomeark/species/Taeniopygia_guttata
 short_name: bTaeGut
 taxon_id: 59729
 ---

@@ -17,12 +17,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-image: /assets/images/Amphilophus_labiatus.jpg
-image_license: "CC BY-SA 2.0 AtelierMonpli (wikimedia)"
 last_raw_data: 1538676017
 last_updated: 1538676017
 name: Amphilophus labiatus
-s3: s3://genomeark/species/Amphilophus_labiatus
+name_: Amphilophus_labiatus
 short_name: fAmpLab
 taxon_id: 61820
 ---

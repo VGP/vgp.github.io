@@ -63,11 +63,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chan
 data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Chanos_chanos.jpg
-image_license: CC BY-SA 4.0 Hectonichus (wikimedia)
 last_raw_data: 1554983650
 last_updated: 1565080093
 name: Chanos chanos
+name_: Chanos_chanos
 pri1date: 2019-08-05
 pri1filesize: 185 MB
 pri1n50ctg: 23134051
@@ -96,7 +95,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Chanos_chanos
 short_name: fChaCha
 taxon_id: 29144
 ---

@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
-image: /assets/images/Amblyraja_radiata.jpg
-image_license: "public domain"
 last_raw_data: 1556038288
 last_updated: 1563200738
 name: Amblyraja radiata
+name_: Amblyraja_radiata
 pri1date: 2019-07-15
 pri1filesize: 756 MB
 pri1n50ctg: 1672809
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_nhgri_1.5
-s3: s3://genomeark/species/Amblyraja_radiata
 short_name: sAmbRad
 taxon_id: 386614
 ---

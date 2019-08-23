@@ -52,11 +52,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lutr
 data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Lutra_lutra.jpg
-image_license: "(pixabay)"
 last_raw_data: 1562341953
 last_updated: 1562341953
 name: Lutra lutra
+name_: Lutra_lutra
 pri1date: 2019-06-27
 pri1filesize: 723 MB
 pri1n50ctg: 30403456
@@ -85,7 +84,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_cambridge
-s3: s3://genomeark/species/Lutra_lutra
 short_name: mLutLut
 taxon_id: 9657
 ---

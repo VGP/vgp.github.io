@@ -64,11 +64,10 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_901000745.3
 genbank_pri: GCA_901000725.2
-image: /assets/images/Takifugu_rubripes.jpg
-image_license: "CC BY-SA 2.5 OpenCage (wikimedia)"
 last_raw_data: 1535574792
 last_updated: 1559374468
 name: Takifugu rubripes
+name_: Takifugu_rubripes
 pri1date: 2019-05-23
 pri1filesize: 108 MB
 pri1n50ctg: 3136617
@@ -97,7 +96,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Takifugu_rubripes
 short_name: fTakRub
 taxon_id: 31033
 ---

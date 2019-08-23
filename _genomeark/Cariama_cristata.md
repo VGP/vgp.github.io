@@ -62,11 +62,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cari
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Cariama_cristata.jpg
-image_license: "CC BY-SA 3.0 Olaf Oliviero Riemer (wikimedia)"
 last_raw_data: 1563354348
 last_updated: 1563354348
 name: Cariama cristata
+name_: Cariama_cristata
 pri1date: 2019-07-04
 pri1filesize: 358 MB
 pri1n50ctg: 13514148
@@ -95,7 +94,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_vgp_standard_1.5
-s3: s3://genomeark/species/Cariama_cristata
 short_name: bCarCri
 taxon_id: 54380
 ---

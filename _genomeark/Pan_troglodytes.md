@@ -31,12 +31,10 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
-image: /assets/images/Pan_troglodytes.jpg
-image_license: CC BY-SA 2.0 Bernard Dupont (wikipedia)
 last_raw_data: 1565191064
 last_updated: 1565191064
 name: Pan troglodytes
-s3: s3://genomeark/species/Pan_troglodytes
+name_: Pan_troglodytes
 short_name: mPanTro
 taxon_id: 9598
 ---

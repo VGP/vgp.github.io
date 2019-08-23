@@ -62,11 +62,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Buco
 data_pbsubreads_scale: 0.5356
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/Bucorvus_abyssinicus.jpg
-image_license: "CC BY 2.0 Jerry Thompson (wikimedia)"
 last_raw_data: 1562595330
 last_updated: 1565897614
 name: Bucorvus abyssinicus
+name_: Bucorvus_abyssinicus
 pri1date: 2019-08-12
 pri1filesize: 331 MB
 pri1n50ctg: 12039478
@@ -95,7 +94,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Bucorvus_abyssinicus
 short_name: bBucAby
 taxon_id: 153643
 ---

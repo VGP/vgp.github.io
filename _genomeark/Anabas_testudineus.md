@@ -66,8 +66,6 @@ genbank_alt: GCA_900650485.1
 genbank_pri: GCA_900324465.2
 genome_size: 662696525
 genome_size_display: 0.66 Gbp
-image: /assets/images/Anabas_testudineus.jpg
-image_license: "public domain"
 last_raw_data: 1523263117
 last_updated: 1564757030
 mito1date: 2019-03-10
@@ -97,6 +95,7 @@ mito1sizes: |
   </table>
 mito1version: assembly_mt_milan
 name: Anabas testudineus
+name_: Anabas_testudineus
 pri1date: 2018-12-11
 pri1filesize: 149 MB
 pri1n50ctg: 4568778
@@ -125,7 +124,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Anabas_testudineus
 short_name: fAnaTes
 taxon_id: 64144
 ---

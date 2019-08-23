@@ -62,11 +62,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geot
 data_pbsubreads_scale: 0.5229
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-image: /assets/images/frog.png
-image_license: Apple
 last_raw_data: 1556224643
 last_updated: 1565726849
 name: Geotrypetes seraphini
+name_: Geotrypetes_seraphini
 pri1date: 2019-08-12
 pri1filesize: 1 GB
 pri1n50ctg: 20656571
@@ -95,7 +94,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Geotrypetes_seraphini
 short_name: aGeoSer
 taxon_id: 260995
 ---

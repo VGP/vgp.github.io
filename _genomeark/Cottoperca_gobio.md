@@ -66,11 +66,10 @@ genbank_alt: GCA_900634435.1
 genbank_pri: GCA_900634415.1
 genome_size: 700000000
 genome_size_display: 0.70 Gbp
-image: /assets/images/Cottoperca_gobio.jpg
-image_license: "public domain"
 last_raw_data: 1523523546
 last_updated: 1547564000
 name: Cottoperca gobio
+name_: Cottoperca_gobio
 pri3date: 2018-10-26
 pri3filesize: 160 MB
 pri3n50ctg: 5027187
@@ -99,7 +98,6 @@ pri3sizes: |
   </tfoot>
   </table>
 pri3version: assembly_curated
-s3: s3://genomeark/species/Cottoperca_gobio
 short_name: fCotGob
 taxon_id: 56716
 ---

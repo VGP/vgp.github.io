@@ -65,11 +65,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1250000000
 genome_size_display: 1.25 Gbp
 genome_size_method: null
-image: /assets/images/Phoenicopterus_ruber.jpg
-image_license: "CC BY 2.0 Paul Asman and Jill Lenoble (flickr)"
 last_raw_data: 1547232348
 last_updated: 1565898027
 name: Phoenicopterus ruber
+name_: Phoenicopterus_ruber
 pri1date: 2019-08-13
 pri1filesize: 364 MB
 pri1n50ctg: 14700712
@@ -98,7 +97,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Phoenicopterus_ruber
 short_name: bPhoRub
 taxon_id: 9217
 ---

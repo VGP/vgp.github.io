@@ -41,12 +41,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
-image: null
-image_license: unknown
 last_raw_data: 1564242340
 last_updated: 1564242340
 name: Tursiops truncatus
-s3: s3://genomeark/species/Tursiops_truncatus
+name_: Tursiops_truncatus
 short_name: mTurTru
 taxon_id: 9739
 ---

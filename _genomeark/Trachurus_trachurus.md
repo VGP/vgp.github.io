@@ -19,12 +19,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trac
 data_pbsubreads_scale: 0.5163
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-image: /assets/images/Trachurus_trachurus.png
-image_license: CC BY-SA 4.0, Peter Southwood (wikimedia)
 last_raw_data: 1565284469
 last_updated: 1565284469
 name: Trachurus trachurus
-s3: s3://genomeark/species/Trachurus_trachurus
+name_: Trachurus_trachurus
 short_name: fTraTra
 taxon_id: 36212
 ---

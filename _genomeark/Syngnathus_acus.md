@@ -59,11 +59,10 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_901709685.1
 genbank_pri: GCA_901709675.1
-image: /assets/images/Syngnathus_acus.jpg
-image_license: "CC BY 3.0 Roberto Pillon (wikimedia)"
 last_raw_data: 1554452546
 last_updated: 1559462310
 name: Syngnathus acus
+name_: Syngnathus_acus
 pri1date: 2019-05-23
 pri1filesize: 87 MB
 pri1n50ctg: 11959915
@@ -92,7 +91,6 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-s3: s3://genomeark/species/Syngnathus_acus
 short_name: fSynAcu
 taxon_id: 161584
 ---
