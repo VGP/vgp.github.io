@@ -42,7 +42,7 @@ genome_size: 2500000000
 genome_size_display: 2.50 Gbp
 genome_size_method: null
 last_raw_data: 1562793058
-last_updated: 1562793058
+last_updated: 1566319506
 name: Gopherus flavomarginatus
 name_: Gopherus_flavomarginatus
 short_name: rGopFla

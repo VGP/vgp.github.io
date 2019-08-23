@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-06-30
-alt1filesize: 533 MB
-alt1n50ctg: 375066
-alt1n50scf: 375066
-alt1seq: https://s3.amazonaws.com/genomeark/species/Thamnophis_elegans/rThaEle1/assembly_vgp_standard_1.5/rThaEle1.alt.asm.20190630.fasta.gz
+alt1date: 2019-08-20
+alt1filesize: 536 MB
+alt1n50ctg: 379232
+alt1n50scf: 382953
+alt1seq: https://s3.amazonaws.com/genomeark/species/Thamnophis_elegans/rThaEle1/assembly_curated/rThaEle1.alt.cur.20190820.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 56 </td><td> 2.47 Mbp </td><td> 56 </td><td> 2.47 Mbp </td></tr>  <tr><td> 20 </td><td> 154 </td><td> 1.59 Mbp </td><td> 154 </td><td> 1.59 Mbp </td></tr>  <tr><td> 30 </td><td> 307 </td><td> 1.00 Mbp </td><td> 307 </td><td> 1.00 Mbp </td></tr>  <tr><td> 40 </td><td> 544 </td><td> 0.64 Mbp </td><td> 544 </td><td> 0.64 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 931 </td><td> 0.38 Mbp </td><td> 931 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 1645 </td><td> 0.19 Mbp </td><td> 1645 </td><td> 0.19 Mbp </td></tr>  <tr><td> 70 </td><td> 3105 </td><td> 96.40 Kbp </td><td> 3105 </td><td> 96.40 Kbp </td></tr>  <tr><td> 80 </td><td> 5633 </td><td> 59.64 Kbp </td><td> 5633 </td><td> 59.64 Kbp </td></tr>  <tr><td> 90 </td><td> 9747 </td><td> 35.15 Kbp </td><td> 9747 </td><td> 35.15 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 56 </td><td> 2.47 Mbp </td><td> 56 </td><td> 2.47 Mbp </td></tr>  <tr><td> 20 </td><td> 154 </td><td> 1.59 Mbp </td><td> 154 </td><td> 1.59 Mbp </td></tr>  <tr><td> 30 </td><td> 307 </td><td> 1.00 Mbp </td><td> 306 </td><td> 1.00 Mbp </td></tr>  <tr><td> 40 </td><td> 544 </td><td> 0.65 Mbp </td><td> 541 </td><td> 0.65 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 928 </td><td> 0.38 Mbp </td><td> 922 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 1628 </td><td> 0.20 Mbp </td><td> 1616 </td><td> 0.20 Mbp </td></tr>  <tr><td> 70 </td><td> 3049 </td><td> 98.56 Kbp </td><td> 3027 </td><td> 99.07 Kbp </td></tr>  <tr><td> 80 </td><td> 5522 </td><td> 61.08 Kbp </td><td> 5490 </td><td> 61.29 Kbp </td></tr>  <tr><td> 90 </td><td> 9529 </td><td> 36.36 Kbp </td><td> 9480 </td><td> 36.54 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.949x </th><th> 13583 </th><th> 1.80 Gbp </th><th> 13583 </th><th> 1.80 Gbp </th></tr>
+  <tr><th> 0.954x </th><th> 13642 </th><th> 1.81 Gbp </th><th> 13623 </th><th> 1.81 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.5
-assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Western terrestrial garter snake
 data_10x_bases: 205.39 Gbp
 data_10x_bytes: 104.274 GB
@@ -66,14 +66,14 @@ genome_size: 1900000000
 genome_size_display: 1.90 Gbp
 genome_size_method: null
 last_raw_data: 1557292636
-last_updated: 1561961129
+last_updated: 1566486524
 name: Thamnophis elegans
 name_: Thamnophis_elegans
-pri1date: 2019-06-30
-pri1filesize: 481 MB
+pri1date: 2019-08-20
+pri1filesize: 473 MB
 pri1n50ctg: 3552160
-pri1n50scf: 87174322
-pri1seq: https://s3.amazonaws.com/genomeark/species/Thamnophis_elegans/rThaEle1/assembly_vgp_standard_1.5/rThaEle1.pri.asm.20190630.fasta.gz
+pri1n50scf: 88492469
+pri1seq: https://s3.amazonaws.com/genomeark/species/Thamnophis_elegans/rThaEle1/assembly_curated/rThaEle1.pri.cur.20190820.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -91,12 +91,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 7 </td><td> 18.19 Mbp </td><td> 1 </td><td> 156.85 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 12.51 Mbp </td><td> 2 </td><td> 152.57 Mbp </td></tr>  <tr><td> 30 </td><td> 39 </td><td> 7.58 Mbp </td><td> 3 </td><td> 142.02 Mbp </td></tr>  <tr><td> 40 </td><td> 70 </td><td> 5.07 Mbp </td><td> 5 </td><td> 101.12 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 115 </td><td style="background-color:#88ff88;"> 3.55 Mbp </td><td> 7 </td><td style="background-color:#88ff88;"> 87.17 Mbp </td></tr>  <tr><td> 60 </td><td> 188 </td><td> 1.78 Mbp </td><td> 9 </td><td> 78.30 Mbp </td></tr>  <tr><td> 70 </td><td> 336 </td><td> 0.90 Mbp </td><td> 12 </td><td> 62.94 Mbp </td></tr>  <tr><td> 80 </td><td> 704 </td><td> 0.30 Mbp </td><td> 15 </td><td> 44.63 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 36 </td><td> 2.73 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 7 </td><td> 18.19 Mbp </td><td> 1 </td><td> 174.86 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 12.51 Mbp </td><td> 2 </td><td> 152.01 Mbp </td></tr>  <tr><td> 30 </td><td> 39 </td><td> 7.58 Mbp </td><td> 3 </td><td> 145.13 Mbp </td></tr>  <tr><td> 40 </td><td> 70 </td><td> 5.07 Mbp </td><td> 4 </td><td> 142.85 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 115 </td><td style="background-color:#88ff88;"> 3.55 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 88.49 Mbp </td></tr>  <tr><td> 60 </td><td> 188 </td><td> 1.78 Mbp </td><td> 8 </td><td> 80.82 Mbp </td></tr>  <tr><td> 70 </td><td> 338 </td><td> 0.88 Mbp </td><td> 11 </td><td> 71.29 Mbp </td></tr>  <tr><td> 80 </td><td> 721 </td><td> 0.28 Mbp </td><td> 14 </td><td> 49.40 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.865x </th><th> 1918 </th><th> 1.64 Gbp </th><th> 420 </th><th> 1.78 Gbp </th></tr>
+  <tr><th> 0.860x </th><th> 1883 </th><th> 1.63 Gbp </th><th> 365 </th><th> 1.67 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.5
+pri1version: assembly_curated
 short_name: rThaEle
 taxon_id: 35005
 ---

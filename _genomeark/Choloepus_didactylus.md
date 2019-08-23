@@ -65,7 +65,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 last_raw_data: 1547217154
-last_updated: 1562573611
+last_updated: 1566319298
 name: Choloepus didactylus
 name_: Choloepus_didactylus
 pri1date: 2019-06-21

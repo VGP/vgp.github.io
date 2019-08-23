@@ -42,7 +42,7 @@ genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
 last_raw_data: 1561760697
-last_updated: 1561760697
+last_updated: 1566319201
 name: Callithrix jacchus
 name_: Callithrix_jacchus
 short_name: mCalJac

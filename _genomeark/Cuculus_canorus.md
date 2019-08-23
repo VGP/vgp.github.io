@@ -32,7 +32,7 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 last_raw_data: 1559577780
-last_updated: 1559577780
+last_updated: 1566319375
 name: Cuculus canorus
 name_: Cuculus_canorus
 short_name: bCucCan

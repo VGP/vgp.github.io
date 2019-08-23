@@ -8,6 +8,11 @@ data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Nyctibius_grandis/bNycGra1/genomic_data/10x/ .<br>
 data_10x_scale: 1.916
 data_arima_scale: 1
+data_bionano_bases: 448.15 Gbp
+data_bionano_bytes: 0.797 GB
+data_bionano_coverage: 448.15x
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Nyctibius_grandis/bNycGra1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
@@ -26,8 +31,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1565024675
-last_updated: 1565024675
+last_raw_data: 1566465973
+last_updated: 1566465973
 name: Nyctibius grandis
 name_: Nyctibius_grandis
 short_name: bNycGra

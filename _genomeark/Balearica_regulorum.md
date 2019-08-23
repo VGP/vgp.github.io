@@ -32,7 +32,7 @@ genome_size: 1450000000
 genome_size_display: 1.45 Gbp
 genome_size_method: null
 last_raw_data: 1563893032
-last_updated: 1563893032
+last_updated: 1566318944
 name: Balearica regulorum
 name_: Balearica_regulorum
 short_name: bBalReg

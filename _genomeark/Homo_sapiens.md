@@ -47,7 +47,7 @@ genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
 last_raw_data: 1563374517
-last_updated: 1564897251
+last_updated: 1566319615
 name: Homo sapiens
 name_: Homo_sapiens
 short_name: mHomSap

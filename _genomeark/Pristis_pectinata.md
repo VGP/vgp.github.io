@@ -65,8 +65,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2800000000
 genome_size_display: 2.80 Gbp
 genome_size_method: null
-last_raw_data: 1555343816
-last_updated: 1565283929
+last_raw_data: 1566356326
+last_updated: 1566433325
 name: Pristis pectinata
 name_: Pristis_pectinata
 pri2date: 2019-08-02

@@ -37,7 +37,7 @@ genome_size: 3300000000
 genome_size_display: 3.30 Gbp
 genome_size_method: null
 last_raw_data: 1564244235
-last_updated: 1564244235
+last_updated: 1566319856
 name: Lemur catta
 name_: Lemur_catta
 short_name: mLemCat

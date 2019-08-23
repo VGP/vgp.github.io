@@ -42,7 +42,7 @@ genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
 last_raw_data: 1565104681
-last_updated: 1565104681
+last_updated: 1566319902
 name: Melopsittacus undulatus
 name_: Melopsittacus_undulatus
 short_name: bMelUnd

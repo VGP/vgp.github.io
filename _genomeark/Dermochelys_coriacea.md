@@ -63,7 +63,7 @@ data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1563832512
-last_updated: 1565711440
+last_updated: 1566358596
 name: Dermochelys coriacea
 name_: Dermochelys_coriacea
 pri1date: 2019-08-11

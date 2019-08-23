@@ -42,7 +42,7 @@ genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
 last_raw_data: 1564249507
-last_updated: 1564249507
+last_updated: 1566318655
 name: Arvicanthis niloticus
 name_: Arvicanthis_niloticus
 short_name: mArvNil

@@ -42,7 +42,7 @@ genome_size: 2520000000
 genome_size_display: 2.52 Gbp
 genome_size_method: null
 last_raw_data: 1560448207
-last_updated: 1560448207
+last_updated: 1566319438
 name: Dendropsophus ebraccatus
 name_: Dendropsophus_ebraccatus
 short_name: aDenEbr
