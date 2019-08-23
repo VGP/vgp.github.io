@@ -43,6 +43,32 @@ genome_size_display: 2.50 Gbp
 genome_size_method: null
 last_raw_data: 1562793058
 last_updated: 1566319506
+mito2date: 0820-20-19
+mito2filesize: 5 KB
+mito2seq: https://s3.amazonaws.com/genomeark/species/Gopherus_flavomarginatus/rGopFla2/assembly_MT_rockefeller/rGopFla2.MT.08202019.fasta.gz
+mito2sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5727 </th><th> A </th><th> 0.3471  bp </th><th> A </th><th> 0.3471  bp </th></tr>
+  </tfoot>
+  </table>
+mito2version: assembly_MT_rockefeller
 name: Gopherus flavomarginatus
 name_: Gopherus_flavomarginatus
 short_name: rGopFla

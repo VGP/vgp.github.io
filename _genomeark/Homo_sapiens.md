@@ -48,6 +48,32 @@ genome_size_display: 3.20 Gbp
 genome_size_method: null
 last_raw_data: 1563374517
 last_updated: 1566319615
+mito3date: 0820-20-19
+mito3filesize: 5 KB
+mito3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_MT_rockefeller/mHomSap3.MT.08202019.fasta.gz
+mito3sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5111 </th><th> A </th><th> 0.3085  bp </th><th> A </th><th> 0.3085  bp </th></tr>
+  </tfoot>
+  </table>
+mito3version: assembly_MT_rockefeller
 name: Homo sapiens
 name_: Homo_sapiens
 short_name: mHomSap

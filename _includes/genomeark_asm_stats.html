@@ -1,6 +1,5 @@
 
-
-{% if include.lseq %}
+{% if include.lseq or include.rseq or include.mseq %}
 
 <hr>
 
@@ -9,15 +8,17 @@
   <div class="primary-sequence">
     <div class="sequence-file">
     <b>Individual {{ include.individual }} {{ include.llabel }} Assembly</b><br>
+    {% if include.lseq %}
     Version <em>{{ include.lversion }}</em> from {{ include.ldate | date: "%-d %B %Y" }}<br>
     <a href="{{ include.lseq }}">{{ include.lseq | split: "/" | last }}</a> ({{ include.lfilesize }})<br>
+    {% else %}
+    No primary assembly available.
+    {% endif %}
     </div>
     <br>
     <div class="sequence-sizes">
     {% if include.lsizes %}
     {{ include.lsizes }}
-    {% else %}
-    size statistics missing
     {% endif %}
     </div>
   </div>
@@ -41,10 +42,12 @@
   </div>
 
   <div class="genome-size">
+  {% if include.lseq or include.rseq %}
   {% if include.genome_size_display %}
   NG based on genome size {{ page.genome_size_display }}.
   {% else %}
   NG based on each assembly size.<br>(No genome size estimate available.)
+  {% endif %}
   {% endif %}
   </div>
 
@@ -59,4 +62,5 @@
   {% endif %}
 
 </div>
+
 {% endif %}

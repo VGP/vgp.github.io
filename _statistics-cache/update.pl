@@ -781,7 +781,7 @@ sub processAssembly ($$$) {
 
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = undef;
 
-    if    ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!) {
+    if    ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
         $sName   = $1;
         $aLabel  = $2;
         $sTag    = $3;
@@ -791,8 +791,8 @@ sub processAssembly ($$$) {
     }
 
     #                 species/Gopherus_evgoodei/rGopEvg1/assembly_mt_milan/rGopEvg1.MT.20190310.fasta.gz
-    elsif ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!) {
-        #print STDERR "MITO $1 $2 $3 $4 $6-$7-$8\n";
+    elsif ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
+        print STDERR "MITO $1 $2 $3 $4 $6-$7-$8\n";
         $sName   = $1;
         $aLabel  = $2;
         $sTag    = $3;
@@ -1191,6 +1191,8 @@ foreach my $species (@speciesList) {
 
         next   if ($filename !~ m!$name!);
 
+        #print "  '$filename'\n";
+
         if ($data{"last_updated"} < $filesecs) {
             $data{"last_updated"} = $filesecs;
         }
@@ -1207,14 +1209,15 @@ foreach my $species (@speciesList) {
 
         #  If this is the assembly_to_show, process it.
         if (($asm ne "") &&
-            ($filename =~ m!$asm.*fasta!)) {
-            #print "  '$filename' -- MATCH\n";
+            ($filename =~ m!$asm.*fasta!i)) {
+            print "  '$filename' -- GENOME\n";
             processAssembly($filesize, $filename, \%data);
             next;
         }
 
         #  But always process mito contigs.
-        if ($filename =~ m!assembly_mt.*MT.*fasta!) {
+        if ($filename =~ m!assembly_mt.*MT.*fasta!i) {
+            print "  '$filename' -- MITO\n";
             processAssembly($filesize, $filename, \%data);
             next;
         }
