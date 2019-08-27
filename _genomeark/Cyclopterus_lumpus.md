@@ -1,5 +1,32 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-08-25
+alt1filesize: 136 MB
+alt1seq: https://s3.amazonaws.com/genomeark/species/Cyclopterus_lumpus/fCycLum1/assembly_vgp_standard_1.6/fCycLum1.alt.asm.20190825.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 47 </td><td> 1.31 Mbp </td><td> 47 </td><td> 1.31 Mbp </td></tr>  <tr><td> 20 </td><td> 150 </td><td> 0.75 Mbp </td><td> 150 </td><td> 0.75 Mbp </td></tr>  <tr><td> 30 </td><td> 334 </td><td> 0.40 Mbp </td><td> 334 </td><td> 0.40 Mbp </td></tr>  <tr><td> 40 </td><td> 749 </td><td> 0.15 Mbp </td><td> 749 </td><td> 0.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.480x </th><th> 1863 </th><th> 480.32 Mbp </th><th> 1863 </th><th> 480.32 Mbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.6
+assembly: assembly_vgp_standard_1.6
+assembly_status: <em style="color:red">low-quality draft assembly</em>
 common_name: lumpfish
 data_10x_bases: 61.32 Gbp
 data_10x_bytes: 29.348 GB
@@ -37,9 +64,37 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1565031189
-last_updated: 1565031189
+last_updated: 1566809439
 name: Cyclopterus lumpus
 name_: Cyclopterus_lumpus
+pri1date: 2019-08-25
+pri1filesize: 159 MB
+pri1n50ctg: 907248
+pri1n50scf: 17910181
+pri1seq: https://s3.amazonaws.com/genomeark/species/Cyclopterus_lumpus/fCycLum1/assembly_vgp_standard_1.6/fCycLum1.pri.asm.20190825.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 8 </td><td> 10.80 Mbp </td><td> 2 </td><td> 28.16 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 6.41 Mbp </td><td> 6 </td><td> 25.88 Mbp </td></tr>  <tr><td> 30 </td><td> 38 </td><td> 4.35 Mbp </td><td> 10 </td><td> 23.80 Mbp </td></tr>  <tr><td> 40 </td><td> 74 </td><td> 1.96 Mbp </td><td> 14 </td><td> 22.22 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 146 </td><td style="background-color:#ff8888;"> 0.91 Mbp </td><td> 19 </td><td style="background-color:#88ff88;"> 17.91 Mbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.563x </th><th> 398 </th><th> 0.56 Gbp </th><th> 122 </th><th> 0.59 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.6
 short_name: fCycLum
 taxon_id: 8103
 ---
