@@ -9,7 +9,7 @@ data_pbhifi_scale: 1
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
-last_updated: 1566913905
+last_updated: 1567057556
 name: Rattus norvegicus
 name_: Rattus_norvegicus
 short_name: mRatNor
