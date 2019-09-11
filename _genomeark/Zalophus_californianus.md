@@ -7,7 +7,12 @@ data_10x_coverage: 61.58x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Zalophus_californianus/mZalCal1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9174
-data_arima_scale: 1
+data_arima_bases: 206.11 Gbp
+data_arima_bytes: 124.347 GB
+data_arima_coverage: 65.43x
+data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Zalophus_californianus/mZalCal1/genomic_data/arima/ .<br>
+data_arima_scale: 1.5437
 data_bionano_bases: 407.95 Gbp
 data_bionano_bytes: 0.820 GB
 data_bionano_coverage: 129.51x
@@ -27,12 +32,12 @@ data_pbsubreads_files: 6
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Zalophus_californianus/mZalCal1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.526
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 3150000000
 genome_size_display: 3.15 Gbp
 genome_size_method: null
-last_raw_data: 1566466340
-last_updated: 1566466340
+last_raw_data: 1567715103
+last_updated: 1567715103
 name: Zalophus californianus
 name_: Zalophus_californianus
 short_name: mZalCal

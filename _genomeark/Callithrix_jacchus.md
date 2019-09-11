@@ -1,5 +1,5 @@
 ---
-assembly: assembly_trio_1.6
+assembly: assembly_nhgri_rockefeller_trio_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: common marmoset
 data_10x_bases: 191.03 Gbp
@@ -43,12 +43,12 @@ genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
 last_raw_data: 1561760697
-last_updated: 1566912257
-mat1date: 2018-08-27
-mat1filesize: 759 MB
+last_updated: 1567203787
+mat1date: 2019-08-30
+mat1filesize: 758 MB
 mat1n50ctg: 6019561
 mat1n50scf: 111973547
-mat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_trio_1.6/mCalJac1.mat.asm.20180827.fasta.gz
+mat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_nhgri_rockefeller_trio_1.6/mCalJac1.mat.asm.20190830.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -68,10 +68,10 @@ mat1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 10 </td><td> 23.59 Mbp </td><td> 1 </td><td> 202.58 Mbp </td></tr>  <tr><td> 20 </td><td> 27 </td><td> 17.91 Mbp </td><td> 3 </td><td> 162.95 Mbp </td></tr>  <tr><td> 30 </td><td> 50 </td><td> 11.92 Mbp </td><td> 5 </td><td> 138.74 Mbp </td></tr>  <tr><td> 40 </td><td> 84 </td><td> 8.83 Mbp </td><td> 8 </td><td> 127.44 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 130 </td><td style="background-color:#88ff88;"> 6.02 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 111.97 Mbp </td></tr>  <tr><td> 60 </td><td> 204 </td><td> 3.72 Mbp </td><td> 14 </td><td> 93.53 Mbp </td></tr>  <tr><td> 70 </td><td> 329 </td><td> 1.98 Mbp </td><td> 18 </td><td> 55.95 Mbp </td></tr>  <tr><td> 80 </td><td> 686 </td><td> 0.30 Mbp </td><td> 27 </td><td> 24.93 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.823x </th><th> 1845 </th><th> 2.82 Gbp </th><th> 769 </th><th> 2.85 Gbp </th></tr>
+  <tr><th> 0.822x </th><th> 1837 </th><th> 2.82 Gbp </th><th> 769 </th><th> 2.84 Gbp </th></tr>
   </tfoot>
   </table>
-mat1version: assembly_trio_1.6
+mat1version: assembly_nhgri_rockefeller_trio_1.6
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_MT_rockefeller/mCalJac1.MT.20190820.fasta.gz
@@ -100,11 +100,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Callithrix jacchus
 name_: Callithrix_jacchus
-pat1date: 2018-08-27
-pat1filesize: 759 MB
+pat1date: 2019-08-30
+pat1filesize: 758 MB
 pat1n50ctg: 9831330
 pat1n50scf: 126104592
-pat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_trio_1.6/mCalJac1.pat.asm.20180827.fasta.gz
+pat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_nhgri_rockefeller_trio_1.6/mCalJac1.pat.asm.20190830.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -124,10 +124,10 @@ pat1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 6 </td><td> 35.26 Mbp </td><td> 1 </td><td> 202.81 Mbp </td></tr>  <tr><td> 20 </td><td> 18 </td><td> 24.65 Mbp </td><td> 3 </td><td> 169.37 Mbp </td></tr>  <tr><td> 30 </td><td> 34 </td><td> 18.02 Mbp </td><td> 5 </td><td> 155.97 Mbp </td></tr>  <tr><td> 40 </td><td> 55 </td><td> 14.60 Mbp </td><td> 8 </td><td> 130.00 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 85 </td><td style="background-color:#88ff88;"> 9.83 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 126.10 Mbp </td></tr>  <tr><td> 60 </td><td> 131 </td><td> 5.79 Mbp </td><td> 13 </td><td> 110.03 Mbp </td></tr>  <tr><td> 70 </td><td> 218 </td><td> 2.50 Mbp </td><td> 17 </td><td> 73.79 Mbp </td></tr>  <tr><td> 80 </td><td> 731 </td><td> 0.14 Mbp </td><td> 25 </td><td> 24.83 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.823x </th><th> 2300 </th><th> 2.82 Gbp </th><th> 1096 </th><th> 2.87 Gbp </th></tr>
+  <tr><th> 0.823x </th><th> 2288 </th><th> 2.82 Gbp </th><th> 1096 </th><th> 2.86 Gbp </th></tr>
   </tfoot>
   </table>
-pat1version: assembly_trio_1.6
+pat1version: assembly_nhgri_rockefeller_trio_1.6
 short_name: mCalJac
 taxon_id: 9483
 ---

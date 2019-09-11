@@ -65,8 +65,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1490000000
 genome_size_display: 1.49 Gbp
 genome_size_method: null
-last_raw_data: 1556295043
-last_updated: 1562336175
+last_raw_data: 1568075266
+last_updated: 1568075266
 name: Catharus ustulatus
 name_: Catharus_ustulatus
 pri1date: 2019-07-04

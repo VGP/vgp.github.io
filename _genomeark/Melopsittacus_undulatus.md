@@ -42,13 +42,13 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
-last_raw_data: 1565104681
-last_updated: 1566836175
-mat1date: 2019-08-26
-mat1filesize: 295 MB
+last_raw_data: 1567193616
+last_updated: 1567198683
+mat1date: 2019-08-30
+mat1filesize: 293 MB
 mat1n50ctg: 12553612
 mat1n50scf: 75845561
-mat1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_rockefeller_trio_1.6/bMelUnd1.mat.asm.20190826.fasta.gz
+mat1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_rockefeller_trio_1.6/bMelUnd1.mat.asm.20190830.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -66,9 +66,9 @@ mat1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 2 </td><td> 46.70 Mbp </td><td> 1 </td><td> 113.31 Mbp </td></tr>  <tr><td> 20 </td><td> 5 </td><td> 37.80 Mbp </td><td> 2 </td><td> 88.75 Mbp </td></tr>  <tr><td> 30 </td><td> 8 </td><td> 36.32 Mbp </td><td> 3 </td><td> 87.39 Mbp </td></tr>  <tr><td> 40 </td><td> 13 </td><td> 17.90 Mbp </td><td> 4 </td><td> 86.63 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 21 </td><td style="background-color:#88ff88;"> 12.55 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 75.85 Mbp </td></tr>  <tr><td> 60 </td><td> 34 </td><td> 7.39 Mbp </td><td> 8 </td><td> 57.50 Mbp </td></tr>  <tr><td> 70 </td><td> 57 </td><td> 4.05 Mbp </td><td> 11 </td><td> 35.30 Mbp </td></tr>  <tr><td> 80 </td><td> 112 </td><td> 1.11 Mbp </td><td> 16 </td><td> 16.16 Mbp </td></tr>  <tr><td> 90 </td><td> 1002 </td><td> 36.98 Kbp </td><td> 45 </td><td> 1.07 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 46.70 Mbp </td><td> 1 </td><td> 113.31 Mbp </td></tr>  <tr><td> 20 </td><td> 5 </td><td> 37.80 Mbp </td><td> 2 </td><td> 88.75 Mbp </td></tr>  <tr><td> 30 </td><td> 8 </td><td> 36.32 Mbp </td><td> 3 </td><td> 87.39 Mbp </td></tr>  <tr><td> 40 </td><td> 13 </td><td> 17.90 Mbp </td><td> 4 </td><td> 86.63 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 21 </td><td style="background-color:#88ff88;"> 12.55 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 75.85 Mbp </td></tr>  <tr><td> 60 </td><td> 34 </td><td> 7.39 Mbp </td><td> 8 </td><td> 57.50 Mbp </td></tr>  <tr><td> 70 </td><td> 57 </td><td> 4.05 Mbp </td><td> 11 </td><td> 35.30 Mbp </td></tr>  <tr><td> 80 </td><td> 112 </td><td> 1.11 Mbp </td><td> 16 </td><td> 16.16 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 45 </td><td> 1.07 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.904x </th><th> 1333 </th><th> 1.11 Gbp </th><th> 932 </th><th> 1.18 Gbp </th></tr>
+  <tr><th> 0.896x </th><th> 1320 </th><th> 1.10 Gbp </th><th> 932 </th><th> 1.17 Gbp </th></tr>
   </tfoot>
   </table>
 mat1version: assembly_rockefeller_trio_1.6
@@ -100,11 +100,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Melopsittacus undulatus
 name_: Melopsittacus_undulatus
-pat1date: 2019-08-26
-pat1filesize: 301 MB
+pat1date: 2019-08-30
+pat1filesize: 300 MB
 pat1n50ctg: 9580607
 pat1n50scf: 87112318
-pat1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_rockefeller_trio_1.6/bMelUnd1.pat.asm.20190826.fasta.gz
+pat1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_rockefeller_trio_1.6/bMelUnd1.pat.asm.20190830.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -122,9 +122,9 @@ pat1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 2 </td><td> 41.87 Mbp </td><td> 0 </td><td> 241.60 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 25.46 Mbp </td><td> 1 </td><td> 116.19 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 21.98 Mbp </td><td> 2 </td><td> 112.87 Mbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 14.91 Mbp </td><td> 3 </td><td> 99.20 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 28 </td><td style="background-color:#88ff88;"> 9.58 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 87.11 Mbp </td></tr>  <tr><td> 60 </td><td> 46 </td><td> 4.97 Mbp </td><td> 5 </td><td> 86.53 Mbp </td></tr>  <tr><td> 70 </td><td> 85 </td><td> 1.98 Mbp </td><td> 8 </td><td> 45.27 Mbp </td></tr>  <tr><td> 80 </td><td> 204 </td><td> 0.58 Mbp </td><td> 11 </td><td> 23.07 Mbp </td></tr>  <tr><td> 90 </td><td> 823 </td><td> 63.06 Kbp </td><td> 51 </td><td> 0.36 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 41.87 Mbp </td><td> 0 </td><td> 241.60 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 25.46 Mbp </td><td> 1 </td><td> 116.19 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 21.98 Mbp </td><td> 2 </td><td> 112.87 Mbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 14.91 Mbp </td><td> 3 </td><td> 99.20 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 28 </td><td style="background-color:#88ff88;"> 9.58 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 87.11 Mbp </td></tr>  <tr><td> 60 </td><td> 46 </td><td> 4.97 Mbp </td><td> 5 </td><td> 86.53 Mbp </td></tr>  <tr><td> 70 </td><td> 85 </td><td> 1.98 Mbp </td><td> 8 </td><td> 45.27 Mbp </td></tr>  <tr><td> 80 </td><td> 204 </td><td> 0.58 Mbp </td><td> 11 </td><td> 23.07 Mbp </td></tr>  <tr><td> 90 </td><td> 865 </td><td> 51.90 Kbp </td><td> 52 </td><td> 0.35 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.908x </th><th> 1086 </th><th> 1.12 Gbp </th><th> 338 </th><th> 1.13 Gbp </th></tr>
+  <tr><th> 0.905x </th><th> 1076 </th><th> 1.11 Gbp </th><th> 338 </th><th> 1.13 Gbp </th></tr>
   </tfoot>
   </table>
 pat1version: assembly_rockefeller_trio_1.6
