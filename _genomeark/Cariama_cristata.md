@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-07-04
+alt1date: 2019-09-16
 alt1filesize: 276 MB
 alt1n50ctg: 1876668
 alt1n50scf: 1876668
-alt1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_vgp_standard_1.5/bCarCri1.alt.asm.20190704.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_curated/bCarCri1.alt.cur.20190916.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 10 </td><td> 6.82 Mbp </td><td> 10 </td><td> 6.82 Mbp </td></tr>  <tr><td> 20 </td><td> 27 </td><td> 4.54 Mbp </td><td> 27 </td><td> 4.54 Mbp </td></tr>  <tr><td> 30 </td><td> 52 </td><td> 3.26 Mbp </td><td> 52 </td><td> 3.26 Mbp </td></tr>  <tr><td> 40 </td><td> 85 </td><td> 2.42 Mbp </td><td> 85 </td><td> 2.42 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 129 </td><td> 1.88 Mbp </td><td> 129 </td><td> 1.88 Mbp </td></tr>  <tr><td> 60 </td><td> 184 </td><td> 1.43 Mbp </td><td> 184 </td><td> 1.43 Mbp </td></tr>  <tr><td> 70 </td><td> 261 </td><td> 1.02 Mbp </td><td> 261 </td><td> 1.02 Mbp </td></tr>  <tr><td> 80 </td><td> 383 </td><td> 0.59 Mbp </td><td> 383 </td><td> 0.59 Mbp </td></tr>  <tr><td> 90 </td><td> 769 </td><td> 0.10 Mbp </td><td> 769 </td><td> 0.10 Mbp </td></tr>  <tr><td> 100 </td><td> 2829 </td><td> 1.73 Kbp </td><td> 2829 </td><td> 1.73 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 10 </td><td> 6.82 Mbp </td><td> 10 </td><td> 6.82 Mbp </td></tr>  <tr><td> 20 </td><td> 27 </td><td> 4.54 Mbp </td><td> 27 </td><td> 4.54 Mbp </td></tr>  <tr><td> 30 </td><td> 52 </td><td> 3.26 Mbp </td><td> 52 </td><td> 3.26 Mbp </td></tr>  <tr><td> 40 </td><td> 85 </td><td> 2.42 Mbp </td><td> 85 </td><td> 2.42 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 129 </td><td> 1.88 Mbp </td><td> 129 </td><td> 1.88 Mbp </td></tr>  <tr><td> 60 </td><td> 185 </td><td> 1.42 Mbp </td><td> 185 </td><td> 1.42 Mbp </td></tr>  <tr><td> 70 </td><td> 262 </td><td> 1.02 Mbp </td><td> 262 </td><td> 1.02 Mbp </td></tr>  <tr><td> 80 </td><td> 385 </td><td> 0.58 Mbp </td><td> 385 </td><td> 0.58 Mbp </td></tr>  <tr><td> 90 </td><td> 776 </td><td> 0.10 Mbp </td><td> 775 </td><td> 0.10 Mbp </td></tr>  <tr><td> 100 </td><td> 2840 </td><td> 1.73 Kbp </td><td> 2839 </td><td> 1.73 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 2830 </th><th> 0.93 Gbp </th><th> 2830 </th><th> 0.93 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 2841 </th><th> 0.93 Gbp </th><th> 2840 </th><th> 0.93 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.5
-assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: red-legged seriema
 data_10x_bases: unknown
 data_10x_bytes: 72.479 GB
@@ -63,14 +63,14 @@ data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1563354348
-last_updated: 1563354348
+last_updated: 1568927296
 name: Cariama cristata
 name_: Cariama_cristata
-pri1date: 2019-07-04
-pri1filesize: 358 MB
+pri1date: 2019-09-16
+pri1filesize: 356 MB
 pri1n50ctg: 13514148
-pri1n50scf: 25457758
-pri1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_vgp_standard_1.5/bCarCri1.pri.asm.20190704.fasta.gz
+pri1n50scf: 30176635
+pri1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_curated/bCarCri1.pri.cur.20190916.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -88,12 +88,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 3 </td><td> 30.46 Mbp </td><td> 2 </td><td> 47.75 Mbp </td></tr>  <tr><td> 20 </td><td> 7 </td><td> 25.09 Mbp </td><td> 4 </td><td> 44.22 Mbp </td></tr>  <tr><td> 30 </td><td> 12 </td><td> 20.06 Mbp </td><td> 7 </td><td> 41.95 Mbp </td></tr>  <tr><td> 40 </td><td> 19 </td><td> 16.81 Mbp </td><td> 11 </td><td> 31.24 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 27 </td><td style="background-color:#88ff88;"> 13.51 Mbp </td><td> 15 </td><td style="background-color:#88ff88;"> 25.46 Mbp </td></tr>  <tr><td> 60 </td><td> 37 </td><td> 10.85 Mbp </td><td> 20 </td><td> 21.16 Mbp </td></tr>  <tr><td> 70 </td><td> 49 </td><td> 8.78 Mbp </td><td> 26 </td><td> 18.59 Mbp </td></tr>  <tr><td> 80 </td><td> 66 </td><td> 5.28 Mbp </td><td> 33 </td><td> 15.30 Mbp </td></tr>  <tr><td> 90 </td><td> 95 </td><td> 3.21 Mbp </td><td> 43 </td><td> 8.61 Mbp </td></tr>  <tr><td> 100 </td><td> 304 </td><td> 11  bp </td><td> 144 </td><td> 2.03 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 30.46 Mbp </td><td> 1 </td><td> 50.16 Mbp </td></tr>  <tr><td> 20 </td><td> 7 </td><td> 25.09 Mbp </td><td> 4 </td><td> 47.31 Mbp </td></tr>  <tr><td> 30 </td><td> 12 </td><td> 20.06 Mbp </td><td> 6 </td><td> 42.62 Mbp </td></tr>  <tr><td> 40 </td><td> 19 </td><td> 16.81 Mbp </td><td> 9 </td><td> 37.39 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 27 </td><td style="background-color:#88ff88;"> 13.51 Mbp </td><td> 13 </td><td style="background-color:#88ff88;"> 30.18 Mbp </td></tr>  <tr><td> 60 </td><td> 37 </td><td> 10.85 Mbp </td><td> 18 </td><td> 24.12 Mbp </td></tr>  <tr><td> 70 </td><td> 49 </td><td> 8.78 Mbp </td><td> 23 </td><td> 21.46 Mbp </td></tr>  <tr><td> 80 </td><td> 66 </td><td> 5.28 Mbp </td><td> 30 </td><td> 17.79 Mbp </td></tr>  <tr><td> 90 </td><td> 95 </td><td> 3.21 Mbp </td><td> 37 </td><td> 13.51 Mbp </td></tr>  <tr><td> 100 </td><td> 302 </td><td> 11  bp </td><td> 108 </td><td> 2.03 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 305 </th><th> 1.21 Gbp </th><th> 145 </th><th> 1.22 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 303 </th><th> 1.21 Gbp </th><th> 109 </th><th> 1.22 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.5
+pri1version: assembly_curated
 short_name: bCarCri
 taxon_id: 54380
 ---

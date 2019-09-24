@@ -30,12 +30,12 @@ alt1version: assembly_vgp_standard_1.5
 assembly: assembly_vgp_standard_1.5
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: sand lizard
-data_10x_bases: 155.03 Gbp
-data_10x_bytes: 79.759 GB
-data_10x_coverage: 77.51x
-data_10x_files: 3
+data_10x_bases: 150.46 Gbp
+data_10x_bytes: 76.328 GB
+data_10x_coverage: 75.23x
+data_10x_files: 2
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Lacerta_agilis/rLacAgi1/genomic_data/10x/ .<br>
-data_10x_scale: 1.8102
+data_10x_scale: 1.8358
 data_arima_bases: 177.23 Gbp
 data_arima_bytes: 89.615 GB
 data_arima_coverage: 88.62x
@@ -65,8 +65,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2000000000
 genome_size_display: 2.00 Gbp
 genome_size_method: null
-last_raw_data: 1545255399
-last_updated: 1563207983
+last_raw_data: 1568606077
+last_updated: 1568606077
 name: Lacerta agilis
 name_: Lacerta_agilis
 pri1date: 2019-07-14

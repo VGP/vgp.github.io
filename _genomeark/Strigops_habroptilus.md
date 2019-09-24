@@ -60,8 +60,8 @@ genbank_alt: GCA_004011185.1
 genbank_pri: GCA_004027225.1
 genome_size: 1193409022
 genome_size_display: 1.19 Gbp
-last_raw_data: 1560055730
-last_updated: 1560055730
+last_raw_data: 1568581172
+last_updated: 1568581172
 mito1date: 2019-03-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_mt_milan/bStrHab1.MT.20190304.fasta.gz

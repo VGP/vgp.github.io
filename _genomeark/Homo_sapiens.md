@@ -7,12 +7,12 @@ data_10x_coverage: 299.02x
 data_10x_files: 14
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/10x/ .<br>
 data_10x_scale: 1.986
-data_arima_bases: 251.55 Gbp
-data_arima_bytes: 142.938 GB
-data_arima_coverage: 78.61x
-data_arima_files: 4
-data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/arima/ .<br>
-data_arima_scale: 1.639
+data_arima_bases: 637.12 Gbp
+data_arima_bytes: 346.997 GB
+data_arima_coverage: 199.10x
+data_arima_files: 12
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/arima/ .<br>
+data_arima_scale: 1.71
 data_bionano_bases: 1652.15 Gbp
 data_bionano_bytes: 2.783 GB
 data_bionano_coverage: 516.30x
@@ -46,8 +46,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
-last_raw_data: 1563374517
-last_updated: 1566589246
+last_raw_data: 1568230196
+last_updated: 1568230196
 mito3date: 2019-08-16
 mito3filesize: 5 KB
 mito3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_MT_rockefeller/mHomSap3.MT.20190816.fasta.gz
