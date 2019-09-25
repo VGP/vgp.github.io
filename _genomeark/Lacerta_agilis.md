@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-07-14
-alt1filesize: 413 MB
-alt1n50ctg: 90982
-alt1n50scf: 90982
-alt1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_vgp_standard_1.5/rLacAgi1.alt.asm.20190714.fasta.gz
+alt1date: 2019-09-24
+alt1filesize: 427 MB
+alt1n50ctg: 115113
+alt1n50scf: 115113
+alt1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_curated/rLacAgi1.alt.cur.20190924.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 149 </td><td> 0.97 Mbp </td><td> 149 </td><td> 0.97 Mbp </td></tr>  <tr><td> 20 </td><td> 407 </td><td> 0.63 Mbp </td><td> 407 </td><td> 0.63 Mbp </td></tr>  <tr><td> 30 </td><td> 792 </td><td> 0.43 Mbp </td><td> 792 </td><td> 0.43 Mbp </td></tr>  <tr><td> 40 </td><td> 1383 </td><td> 0.25 Mbp </td><td> 1383 </td><td> 0.25 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 2731 </td><td> 90.98 Kbp </td><td> 2731 </td><td> 90.98 Kbp </td></tr>  <tr><td> 60 </td><td> 6040 </td><td> 43.69 Kbp </td><td> 6040 </td><td> 43.69 Kbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 148 </td><td> 0.98 Mbp </td><td> 148 </td><td> 0.98 Mbp </td></tr>  <tr><td> 20 </td><td> 402 </td><td> 0.64 Mbp </td><td> 402 </td><td> 0.64 Mbp </td></tr>  <tr><td> 30 </td><td> 773 </td><td> 0.45 Mbp </td><td> 773 </td><td> 0.45 Mbp </td></tr>  <tr><td> 40 </td><td> 1321 </td><td> 0.28 Mbp </td><td> 1321 </td><td> 0.28 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 2398 </td><td> 0.12 Mbp </td><td> 2398 </td><td> 0.12 Mbp </td></tr>  <tr><td> 60 </td><td> 5159 </td><td> 50.84 Kbp </td><td> 5159 </td><td> 50.84 Kbp </td></tr>  <tr><td> 70 </td><td> 10811 </td><td> 22.60 Kbp </td><td> 10811 </td><td> 22.60 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.690x </th><th> 12502 </th><th> 1.38 Gbp </th><th> 12502 </th><th> 1.38 Gbp </th></tr>
+  <tr><th> 0.715x </th><th> 12662 </th><th> 1.43 Gbp </th><th> 12660 </th><th> 1.43 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.5
-assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: sand lizard
 data_10x_bases: 150.46 Gbp
 data_10x_bytes: 76.328 GB
@@ -66,14 +66,14 @@ genome_size: 2000000000
 genome_size_display: 2.00 Gbp
 genome_size_method: null
 last_raw_data: 1568606077
-last_updated: 1568606077
+last_updated: 1569351316
 name: Lacerta agilis
 name_: Lacerta_agilis
-pri1date: 2019-07-14
-pri1filesize: 423 MB
-pri1n50ctg: 3710990
-pri1n50scf: 52092003
-pri1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_vgp_standard_1.5/rLacAgi1.pri.asm.20190714.fasta.gz
+pri1date: 2019-09-24
+pri1filesize: 406 MB
+pri1n50ctg: 3374645
+pri1n50scf: 61599656
+pri1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_curated/rLacAgi1.pri.cur.20190924.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -91,12 +91,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 7 </td><td> 22.14 Mbp </td><td> 1 </td><td> 120.91 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 11.79 Mbp </td><td> 3 </td><td> 92.42 Mbp </td></tr>  <tr><td> 30 </td><td> 42 </td><td> 7.59 Mbp </td><td> 5 </td><td> 79.99 Mbp </td></tr>  <tr><td> 40 </td><td> 72 </td><td> 5.73 Mbp </td><td> 8 </td><td> 60.99 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 114 </td><td style="background-color:#88ff88;"> 3.71 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 52.09 Mbp </td></tr>  <tr><td> 60 </td><td> 181 </td><td> 2.31 Mbp </td><td> 16 </td><td> 40.02 Mbp </td></tr>  <tr><td> 70 </td><td> 305 </td><td> 0.88 Mbp </td><td> 30 </td><td> 4.62 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 7 </td><td> 22.14 Mbp </td><td> 1 </td><td> 120.75 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 11.49 Mbp </td><td> 3 </td><td> 100.70 Mbp </td></tr>  <tr><td> 30 </td><td> 42 </td><td> 7.59 Mbp </td><td> 5 </td><td> 95.50 Mbp </td></tr>  <tr><td> 40 </td><td> 73 </td><td> 5.65 Mbp </td><td> 7 </td><td> 84.10 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 118 </td><td style="background-color:#88ff88;"> 3.37 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 61.60 Mbp </td></tr>  <tr><td> 60 </td><td> 193 </td><td> 2.03 Mbp </td><td> 13 </td><td> 51.72 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.718x </th><th> 448 </th><th> 1.44 Gbp </th><th> 127 </th><th> 1.47 Gbp </th></tr>
+  <tr><th> 0.694x </th><th> 407 </th><th> 1.39 Gbp </th><th> 28 </th><th> 1.39 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.5
+pri1version: assembly_curated
 short_name: rLacAgi
 taxon_id: 80427
 ---
