@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-08-04
+alt1date: 2019-09-26
 alt1filesize: 266 MB
 alt1n50ctg: 1531320
 alt1n50scf: 1531320
-alt1seq: https://s3.amazonaws.com/genomeark/species/Corvus_moneduloides/bCorMon1/assembly_vgp_standard_1.6/bCorMon1.alt.asm.20190804.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Corvus_moneduloides/bCorMon1/assembly_curated/bCorMon1.alt.cur.20190926.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -26,9 +26,9 @@ alt1sizes: |
   <tr><th> 0.724x </th><th> 894 </th><th> 0.91 Gbp </th><th> 894 </th><th> 0.91 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: New Caledonian crow
 data_10x_bases: 128.91 Gbp
 data_10x_bytes: 60.207 GB
@@ -66,14 +66,14 @@ genome_size: 1250000000
 genome_size_display: 1.25 Gbp
 genome_size_method: null
 last_raw_data: 1564252350
-last_updated: 1565133169
+last_updated: 1569504054
 name: Corvus moneduloides
 name_: Corvus_moneduloides
-pri1date: 2019-08-04
-pri1filesize: 317 MB
+pri1date: 2019-09-26
+pri1filesize: 315 MB
 pri1n50ctg: 9839847
-pri1n50scf: 33187371
-pri1seq: https://s3.amazonaws.com/genomeark/species/Corvus_moneduloides/bCorMon1/assembly_vgp_standard_1.6/bCorMon1.pri.asm.20190804.fasta.gz
+pri1n50scf: 74461389
+pri1seq: https://s3.amazonaws.com/genomeark/species/Corvus_moneduloides/bCorMon1/assembly_curated/bCorMon1.pri.cur.20190926.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -91,12 +91,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 3 </td><td> 28.80 Mbp </td><td> 0 </td><td> 153.24 Mbp </td></tr>  <tr><td> 20 </td><td> 9 </td><td> 17.48 Mbp </td><td> 1 </td><td> 118.80 Mbp </td></tr>  <tr><td> 30 </td><td> 16 </td><td> 16.44 Mbp </td><td> 3 </td><td> 67.22 Mbp </td></tr>  <tr><td> 40 </td><td> 26 </td><td> 12.61 Mbp </td><td> 5 </td><td> 56.76 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 37 </td><td style="background-color:#88ff88;"> 9.84 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 33.19 Mbp </td></tr>  <tr><td> 60 </td><td> 52 </td><td> 6.72 Mbp </td><td> 13 </td><td> 21.51 Mbp </td></tr>  <tr><td> 70 </td><td> 74 </td><td> 4.38 Mbp </td><td> 19 </td><td> 14.58 Mbp </td></tr>  <tr><td> 80 </td><td> 114 </td><td> 1.79 Mbp </td><td> 32 </td><td> 7.32 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 72 </td><td> 0.91 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 28.80 Mbp </td><td> 0 </td><td> 165.74 Mbp </td></tr>  <tr><td> 20 </td><td> 9 </td><td> 17.42 Mbp </td><td> 1 </td><td> 123.34 Mbp </td></tr>  <tr><td> 30 </td><td> 17 </td><td> 15.76 Mbp </td><td> 2 </td><td> 122.10 Mbp </td></tr>  <tr><td> 40 </td><td> 26 </td><td> 12.61 Mbp </td><td> 4 </td><td> 74.70 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 37 </td><td style="background-color:#88ff88;"> 9.84 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 74.46 Mbp </td></tr>  <tr><td> 60 </td><td> 52 </td><td> 6.72 Mbp </td><td> 8 </td><td> 37.23 Mbp </td></tr>  <tr><td> 70 </td><td> 74 </td><td> 4.38 Mbp </td><td> 12 </td><td> 21.20 Mbp </td></tr>  <tr><td> 80 </td><td> 114 </td><td> 1.79 Mbp </td><td> 19 </td><td> 14.83 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.868x </th><th> 395 </th><th> 1.08 Gbp </th><th> 197 </th><th> 1.14 Gbp </th></tr>
+  <tr><th> 0.867x </th><th> 395 </th><th> 1.08 Gbp </th><th> 106 </th><th> 1.11 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: bCorMon
 taxon_id: 1196302
 ---
