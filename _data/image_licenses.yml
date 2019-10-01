@@ -44,7 +44,7 @@ Balaenoptera_musculus:
   license: Copyright © Shutterstock, used with permission
 
 Balearica_regulorum:
-  license: unknown
+  license: (pixabay)
 
 Bos_taurus:
   license: public domain
@@ -65,7 +65,7 @@ Calypte_anna:
   license: public domain
 
 Carcharodon_carcharias:
-  license: unknown
+  license: CC BY-SA 3.0 Terry Goss (wikimedia)
 
 Cariama_cristata:
   license: CC BY-SA 3.0 Olaf Oliviero Riemer (wikimedia)
@@ -83,16 +83,16 @@ Choloepus_didactylus:
   license: CC BY-SA 3.0 Hans Hillewaert (wikimedia)
 
 Corvus_moneduloides:
-  license: unknown
+  license: CC BY-NC-SA 2.0 Corvus moneduloides (flickr)
 
 Cottoperca_gobio:
   license: Copyright Chris Cheng, used with permission
 
 Cuculus_canorus:
-  license: unknown
+  license: CC BY 2.0 Ron Knight (flickr)
 
 Cyclopterus_lumpus:
-  license: unknown
+  license: CC BY-SA 3.0 Simon Pierre Barrette (wikimedia)
 
 Cygnus_olor:
   license: CC BY-SA 3.0 Charles J Sharp (wikimedia)
@@ -113,7 +113,7 @@ Dermochelys_coriacea:
   license: public domain
 
 Dryobates_pubescens:
-  license: unknown
+  license: CC BY-SA 3.0 Wolfgang Wander (wikimedia)
 
 Echeneis_naucrates:
   license: CC BY 2.0 Richard ling (wikimedia)
@@ -131,7 +131,7 @@ Gadus_morhua:
   license: CC BY-SA 4.0, Hans Hillewaert (wikimedia)
 
 Gallus_gallus:
-  license: unknown
+  license: (pixabay)
 
 Geothlypis_trichas:
   license: CC BY-SA 2.0 Dan Pancamo (flickr)
@@ -155,13 +155,13 @@ Hirundo_rustica:
   license: CC BY-SA 2.0 Mike Pennington (geograph)
 
 Homo_sapiens:
-  license: unknown
+  license: public domain
 
 Lacerta_agilis:
   license: CC BY-SA 3.0 Quartl (wikimedia)
 
 Lemur_catta:
-  license: unknown
+  license: (pixabay)
 
 Lutra_lutra:
   license: (pixabay)
@@ -197,7 +197,7 @@ Notolabrus_celidotus:
   license: Apple
 
 Nyctibius_grandis:
-  license: unknown
+  license: CC BY-NC-SA 2.0 Cláudio Dias Timm (flickr)
 
 Ornithorhynchus_anatinus:
   license: CC BY-NC 2.0 Trevira1 (flickr)
@@ -320,10 +320,10 @@ Turdus_merula:
   license: CC BY-SA 2.0 Juan Emilio (wikimedia)
 
 Tursiops_truncatus:
-  license: unknown
+  license: public domain
 
 Vidua_chalybeata:
-  license: unknown
+  license: CC BY 2.0 Derek Keats (wikimedia)
 
 Zalophus_californianus:
   license: CC BY-SA 2.0 Gregory Smith (flickr)
