@@ -21,7 +21,7 @@ data_pbsubreads_bases: 74.92 Gbp
 data_pbsubreads_bytes: 269.612 GB
 data_pbsubreads_coverage: 77.04x
 data_pbsubreads_files: 67
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Astatotilapia_calliptera/fAstCal1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.2588
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

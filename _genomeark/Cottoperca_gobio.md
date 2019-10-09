@@ -50,15 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottope
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 131.687 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 20
 data_pbsubreads_bases: 48.61 Gbp
 data_pbsubreads_bytes: 86.794 GB
 data_pbsubreads_coverage: 69.44x
 data_pbsubreads_files: 20
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5216
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

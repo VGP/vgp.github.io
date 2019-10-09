@@ -20,7 +20,7 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 579.652 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 6
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana_temporaria/aRanTem1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana_temporaria/aRanTem1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5125
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

@@ -50,20 +50,16 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothly
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 384.234 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 54
 data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 133.351 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 54
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5241
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-last_raw_data: 1544473266
-last_updated: 1563437087
+last_raw_data: 1570134727
+last_updated: 1570134727
 name: Geothlypis trichas
 name_: Geothlypis_trichas
 pri1date: 2019-07-17

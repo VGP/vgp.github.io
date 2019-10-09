@@ -1422,7 +1422,7 @@ foreach my $species (@speciesList) {
 
     if (($seqBytes{"pbsubreads"} > 0)) {
         foreach my $k (uniquifyStringArray($seqIndiv{"pbsubreads"})) {
-            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam*\ --exclude \"*ccs.bam*\"<br>";
+            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*ccs.bam*\"<br>";
         }
 
         if ($data{"genome_size"} > 0) {
@@ -1434,7 +1434,7 @@ foreach my $species (@speciesList) {
 
     if (($seqBytes{"pbhifi"} > 0)) {
         foreach my $k (uniquifyStringArray($seqIndiv{"pbhifi"})) {
-            $data{"data_pbhifi_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*scraps.bam*\" --exclude \"*subreads.bam*\"<br>";
+            $data{"data_pbhifi_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*subreads.bam*\"<br>";
         }
 
         if ($data{"genome_size"} > 0) {

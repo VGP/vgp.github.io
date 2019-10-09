@@ -45,21 +45,17 @@ data_arima_scale: 1.8703
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 116.630 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 20
 data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 84.723 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 20
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5184
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_900880695.1
 genbank_pri: GCA_900880675.1
-last_raw_data: 1523533999
+last_raw_data: 1523525722
 last_updated: 1554995900
 name: Sparus aurata
 name_: Sparus_aurata

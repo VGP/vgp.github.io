@@ -48,15 +48,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastace
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 79.841 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 16
 data_pbsubreads_bases: 29.95 Gbp
 data_pbsubreads_bytes: 53.849 GB
 data_pbsubreads_coverage: 39.57x
 data_pbsubreads_files: 16
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5179
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -64,7 +60,7 @@ genbank_alt: GCA_900700395.1
 genbank_pri: GCA_900324485.2
 genome_size: 756753344
 genome_size_display: 0.76 Gbp
-last_raw_data: 1523531959
+last_raw_data: 1520585714
 last_updated: 1564757515
 mito1date: 2019-03-04
 mito1filesize: 5 KB

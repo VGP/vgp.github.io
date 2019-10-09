@@ -29,17 +29,13 @@ data_pbhifi_bases: 200.44 Gbp
 data_pbhifi_bytes: 148.849 GB
 data_pbhifi_coverage: 62.64x
 data_pbhifi_files: 36
-data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.2541
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 439.078 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 34
 data_pbsubreads_bases: 234.46 Gbp
 data_pbsubreads_bytes: 402.733 GB
 data_pbsubreads_coverage: 73.27x
 data_pbsubreads_files: 34
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5422
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

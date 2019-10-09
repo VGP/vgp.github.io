@@ -50,15 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Lacerta
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 193.373 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 38
 data_pbsubreads_bases: 126.83 Gbp
 data_pbsubreads_bytes: 221.246 GB
 data_pbsubreads_coverage: 63.42x
 data_pbsubreads_files: 38
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

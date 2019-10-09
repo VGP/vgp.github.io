@@ -27,20 +27,16 @@ data_illumina_files: 2
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.4556
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 269.318 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 4
 data_pbsubreads_bases: unknown
-data_pbsubreads_bytes: 426.325 GB
+data_pbsubreads_bytes: 636.692 GB
 data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 4
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
-data_pbsubreads_scale: 0.5204
+data_pbsubreads_files: 8
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_scale: 0.5227
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-last_raw_data: 1561670787
-last_updated: 1562914576
+last_raw_data: 1570447628
+last_updated: 1570447628
 mat3date: 2019-07-09
 mat3filesize: 474 MB
 mat3n50ctg: 10828506

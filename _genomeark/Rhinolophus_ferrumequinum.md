@@ -45,15 +45,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinolo
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 454.551 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 25
 data_pbsubreads_bases: 152.47 Gbp
 data_pbsubreads_bytes: 271.143 GB
 data_pbsubreads_coverage: 64.34x
 data_pbsubreads_files: 50
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5237
 data_phase_bases: 45.16 Gbp
 data_phase_bytes: 28.046 GB

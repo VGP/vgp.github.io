@@ -21,15 +21,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 109.800 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 14
 data_pbsubreads_bases: 86.49 Gbp
 data_pbsubreads_bytes: 145.685 GB
 data_pbsubreads_coverage: 72.07x
 data_pbsubreads_files: 14
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_borin/bSylBor1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_borin/bSylBor1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5529
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -37,7 +33,7 @@ genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 genome_size_method: null
 last_raw_data: 1568756067
-last_updated: 1568756067
+last_updated: 1570535119
 name: Sylvia borin
 name_: Sylvia_borin
 short_name: bSylBor

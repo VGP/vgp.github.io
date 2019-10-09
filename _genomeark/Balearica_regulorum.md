@@ -16,15 +16,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Baleari
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 90.150 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 24
 data_pbsubreads_bases: 86.36 Gbp
 data_pbsubreads_bytes: 146.868 GB
 data_pbsubreads_coverage: 59.56x
 data_pbsubreads_files: 24
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5476
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

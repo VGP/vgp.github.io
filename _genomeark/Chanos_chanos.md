@@ -53,13 +53,13 @@ data_pbhifi_bases: unknown
 data_pbhifi_bytes: 14.427 GB
 data_pbhifi_coverage: N/A
 data_pbhifi_files: 2
-data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam*" --exclude "*subreads.bam*"<br>
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.1982
 data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 82.899 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 10
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chanos_chanos/fChaCha1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

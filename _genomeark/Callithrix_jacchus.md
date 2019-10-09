@@ -27,15 +27,11 @@ data_illumina_files: 14
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9049
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 321.309 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 66
 data_pbsubreads_bases: 217.61 Gbp
 data_pbsubreads_bytes: 378.467 GB
 data_pbsubreads_coverage: 63.44x
 data_pbsubreads_files: 66
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5355
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
@@ -43,7 +39,7 @@ genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
 last_raw_data: 1561760697
-last_updated: 1567203787
+last_updated: 1570565727
 mat1date: 2019-08-30
 mat1filesize: 758 MB
 mat1n50ctg: 6019561

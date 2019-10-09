@@ -50,15 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 241.461 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 16
 data_pbsubreads_bases: 72.26 Gbp
 data_pbsubreads_bytes: 125.854 GB
 data_pbsubreads_coverage: 66.29x
 data_pbsubreads_files: 16
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_atricapilla/bSylAtr1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5347
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

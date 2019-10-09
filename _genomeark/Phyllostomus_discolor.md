@@ -50,15 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllos
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 1078.952 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 86
 data_pbsubreads_bases: 163.04 Gbp
 data_pbsubreads_bytes: 292.405 GB
 data_pbsubreads_coverage: 73.65x
 data_pbsubreads_files: 86
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

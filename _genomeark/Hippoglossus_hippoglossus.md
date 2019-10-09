@@ -50,23 +50,19 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippogl
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbscraps_bases: unknown
-data_pbscraps_bytes: 106.582 GB
-data_pbscraps_coverage: N/A
-data_pbscraps_files: 22
 data_pbsubreads_bases: 56.23 Gbp
 data_pbsubreads_bytes: 97.581 GB
 data_pbsubreads_coverage: 56.23x
 data_pbsubreads_files: 22
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/ . --exclude "*scraps.bam* --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5367
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1555524366
-last_updated: 1566807217
+last_raw_data: 1570030503
+last_updated: 1570030503
 name: Hippoglossus hippoglossus
 name_: Hippoglossus_hippoglossus
 pri1date: 2019-08-23
