@@ -61,10 +61,10 @@ genbank_pri: GCA_004027225.1
 genome_size: 1193409022
 genome_size_display: 1.19 Gbp
 last_raw_data: 1568581172
-last_updated: 1568581172
-mito1date: 2019-03-04
+last_updated: 1570719804
+mito1date: 2019-10-03
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_mt_milan/bStrHab1.MT.20190304.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_MT_rockefeller/bStrHab1.MT.20191003.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -84,10 +84,10 @@ mito1sizes: |
   <tbody>
   <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 5696 </th><th> A </th><th> 0.3195  bp </th><th> A </th><th> 0.3195  bp </th></tr>
+  <tr><th> 5695 </th><th> A </th><th> 0.3194  bp </th><th> A </th><th> 0.3194  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
+mito1version: assembly_MT_rockefeller
 name: Strigops habroptilus
 name_: Strigops_habroptilus
 pri1date: 2018-09-07

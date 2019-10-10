@@ -36,7 +36,7 @@ data_pbsubreads_scale: 0.5227
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1570447628
-last_updated: 1570447628
+last_updated: 1570719699
 mat3date: 2019-07-09
 mat3filesize: 474 MB
 mat3n50ctg: 10828506
@@ -65,6 +65,34 @@ mat3sizes: |
   </tfoot>
   </table>
 mat3version: assembly_cambridge
+mito3date: 2019-10-02
+mito3filesize: 5 KB
+mito3n50ctg: 16706
+mito3n50scf: 16706
+mito3seq: https://s3.amazonaws.com/genomeark/species/Acipenser_ruthenus/fAciRut3/assembly_MT_rockefeller/fAciRut3.MT.20191002.fasta.gz
+mito3sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 16.71 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 16.71 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 16.71 Kbp </td><td> 0 </td><td> 16.71 Kbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.000x </th><th> 1 </th><th> 16.71 Kbp </th><th> 1 </th><th> 16.71 Kbp </th></tr>
+  </tfoot>
+  </table>
+mito3version: assembly_MT_rockefeller
 name: Acipenser ruthenus
 name_: Acipenser_ruthenus
 pat3date: 2019-07-09

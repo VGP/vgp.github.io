@@ -63,10 +63,10 @@ genbank_pri: GCA_900324465.2
 genome_size: 662696525
 genome_size_display: 0.66 Gbp
 last_raw_data: 1520584604
-last_updated: 1564757030
-mito1date: 2019-03-10
+last_updated: 1570719699
+mito1date: 2019-10-01
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_mt_milan/fAnaTes1.MT.20190310.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_MT_rockefeller/fAnaTes1.MT.20191001.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -89,7 +89,7 @@ mito1sizes: |
   <tr><th> 4887 </th><th> A </th><th> 0.2856  bp </th><th> A </th><th> 0.2856  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
+mito1version: assembly_MT_rockefeller
 name: Anabas testudineus
 name_: Anabas_testudineus
 pri1date: 2018-12-11

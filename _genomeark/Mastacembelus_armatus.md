@@ -61,10 +61,10 @@ genbank_pri: GCA_900324485.2
 genome_size: 756753344
 genome_size_display: 0.76 Gbp
 last_raw_data: 1520585714
-last_updated: 1564757515
-mito1date: 2019-03-04
+last_updated: 1570719801
+mito1date: 2019-10-02
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_mt_milan/fMasArm1.MT.20190304.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_MT_rockefeller/fMasArm1.MT.20191002.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -87,7 +87,7 @@ mito1sizes: |
   <tr><th> 4893 </th><th> A </th><th> 0.2967  bp </th><th> A </th><th> 0.2967  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
+mito1version: assembly_MT_rockefeller
 name: Mastacembelus armatus
 name_: Mastacembelus_armatus
 pri1date: 2019-03-05

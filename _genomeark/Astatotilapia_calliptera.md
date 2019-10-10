@@ -29,10 +29,10 @@ genbank_pri: GCA_900246225.3
 genome_size: 972478608
 genome_size_display: 0.97 Gbp
 last_raw_data: 1520006832
-last_updated: 1564762217
-mito1date: 2019-03-04
+last_updated: 1570719801
+mito1date: 2019-10-02
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_mt_milan/fAstCal1.MT.20190304.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_MT_rockefeller/fAstCal1.MT.20191002.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -55,7 +55,7 @@ mito1sizes: |
   <tr><th> 4571 </th><th> A </th><th> 0.2757  bp </th><th> A </th><th> 0.2757  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
+mito1version: assembly_MT_rockefeller
 name: Astatotilapia calliptera
 name_: Astatotilapia_calliptera
 pri1date: 2018-05-30

@@ -60,7 +60,7 @@ genome_size: 3000000000
 genome_size_display: 3.00 Gbp
 genome_size_method: null
 last_raw_data: 1557360444
-last_updated: 1564506064
+last_updated: 1570720575
 mito1date: 2019-23-07
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phocoena_sinus/mPhoSin1/assembly_mt_rockefeller/mPhoSin1.MT.20192307.fasta.gz

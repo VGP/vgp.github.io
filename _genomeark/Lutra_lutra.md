@@ -49,7 +49,35 @@ data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1562341953
-last_updated: 1566586264
+last_updated: 1570721457
+mito1date: 2019-10-03
+mito1filesize: 5 KB
+mito1n50ctg: 16536
+mito1n50scf: 16536
+mito1seq: https://s3.amazonaws.com/genomeark/species/Lutra_lutra/mLutLut1/assembly_MT_rockefeller/mLutLut1.MT.20191003.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 16.54 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 16.54 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 16.54 Kbp </td><td> 0 </td><td> 16.54 Kbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.000x </th><th> 1 </th><th> 16.54 Kbp </th><th> 1 </th><th> 16.54 Kbp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_MT_rockefeller
 name: Lutra lutra
 name_: Lutra_lutra
 pri1date: 2019-08-22

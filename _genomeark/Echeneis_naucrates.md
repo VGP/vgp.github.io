@@ -61,7 +61,35 @@ data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900963505.1
 genbank_pri: GCA_900963305.1
 last_raw_data: 1549384902
-last_updated: 1554197073
+last_updated: 1570719802
+mito1date: 2019-10-02
+mito1filesize: 5 KB
+mito1n50ctg: 16610
+mito1n50scf: 16610
+mito1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_MT_rockefeller/fEcheNa1.MT.20191002.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 16.61 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 16.61 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 16.61 Kbp </td><td> 0 </td><td> 16.61 Kbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.000x </th><th> 1 </th><th> 16.61 Kbp </th><th> 1 </th><th> 16.61 Kbp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_MT_rockefeller
 name: Echeneis naucrates
 name_: Echeneis_naucrates
 pri1date: 2019-04-01

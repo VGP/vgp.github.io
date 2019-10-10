@@ -96,7 +96,7 @@ genbank_pri: GCA_003957565.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 last_raw_data: 1531830272
-last_updated: 1566363321
+last_updated: 1570719805
 mat2date: 2019-08-11
 mat2filesize: 291 MB
 mat2n50ctg: 5135750
@@ -125,9 +125,9 @@ mat2sizes: |
   </tfoot>
   </table>
 mat2version: assembly_curated
-mito1date: 2019-03-08
+mito1date: 2019-10-03
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_mt_milan/bTaeGut1.MT.20190308.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_MT_rockefeller/bTaeGut1.MT.20191003.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -150,10 +150,10 @@ mito1sizes: |
   <tr><th> 5248 </th><th> A </th><th> 0.3114  bp </th><th> A </th><th> 0.3114  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
-mito2date: 2019-03-08
+mito1version: assembly_MT_rockefeller
+mito2date: 2019-10-03
 mito2filesize: 5 KB
-mito2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_mt_milan/bTaeGut2.MT.20190308.fasta.gz
+mito2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_MT_rockefeller/bTaeGut2.MT.20191003.fasta.gz
 mito2sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -176,7 +176,7 @@ mito2sizes: |
   <tr><th> 5244 </th><th> A </th><th> 0.3111  bp </th><th> A </th><th> 0.3111  bp </th></tr>
   </tfoot>
   </table>
-mito2version: assembly_mt_milan
+mito2version: assembly_MT_rockefeller
 name: Taeniopygia guttata
 name_: Taeniopygia_guttata
 pat2date: 2019-08-21

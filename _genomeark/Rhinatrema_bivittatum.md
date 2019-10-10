@@ -64,10 +64,10 @@ genome_size: 5067838282
 genome_size_display: 5.07 Gbp
 genome_size_method: genomescope k=31
 last_raw_data: 1525161722
-last_updated: 1554978226
-mito1date: 2019-03-10
+last_updated: 1570719804
+mito1date: 2019-10-03
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_mt_milan/aRhiBiv1.MT.20190310.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_MT_rockefeller/aRhiBiv1.MT.20191003.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -90,7 +90,7 @@ mito1sizes: |
   <tr><th> 5041 </th><th> A </th><th> 0.3072  bp </th><th> A </th><th> 0.3072  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
+mito1version: assembly_MT_rockefeller
 name: Rhinatrema bivittatum
 name_: Rhinatrema_bivittatum
 pri1date: 2019-04-09

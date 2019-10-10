@@ -37,7 +37,35 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_pri: GCA_901001165.1
 last_raw_data: 1556285514
-last_updated: 1559051007
+last_updated: 1570719805
+mito1date: 2019-10-03
+mito1filesize: 5 KB
+mito1n50ctg: 16677
+mito1n50scf: 16677
+mito1seq: https://s3.amazonaws.com/genomeark/species/Salmo_trutta/fSalTru1/assembly_MT_rockefeller/fSalTru1.MT.20191003.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 16.68 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 16.68 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 16.68 Kbp </td><td> 0 </td><td> 16.68 Kbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.000x </th><th> 1 </th><th> 16.68 Kbp </th><th> 1 </th><th> 16.68 Kbp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_MT_rockefeller
 name: Salmo trutta
 name_: Salmo_trutta
 pri1date: 2019-04-03

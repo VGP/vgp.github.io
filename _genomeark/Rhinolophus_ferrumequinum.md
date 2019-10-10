@@ -63,10 +63,10 @@ genbank_pri: GCA_004115265.2
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
 last_raw_data: 1522747239
-last_updated: 1552051777
-mito1date: 2019-03-08
+last_updated: 1570721359
+mito1date: 2019-10-03
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_mt_milan/mRhiFer1.MT.20190308.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_MT_rockefeller/mRhiFer1.MT.20191003.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -86,10 +86,10 @@ mito1sizes: |
   <tbody>
   <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 5366 </th><th> A </th><th> 0.3187  bp </th><th> A </th><th> 0.3187  bp </th></tr>
+  <tr><th> 5370 </th><th> A </th><th> 0.3187  bp </th><th> A </th><th> 0.3187  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_mt_milan
+mito1version: assembly_MT_rockefeller
 name: Rhinolophus ferrumequinum
 name_: Rhinolophus_ferrumequinum
 pri1date: 2018-09-07
