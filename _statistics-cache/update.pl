@@ -69,23 +69,43 @@ sub loadGenomeArk () {
 
     #  If no genomeark.ls file list, fetch it AND update metadata.
 
-    if (! -e "genomeark.ls") {
+    if (! -e "genomeark.ls.raw") {
         print STDERR "FETCHING AWS FILE LIST.\n";
-        system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls");
+        system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls.raw");
 
         print STDERR "UPDATING METADATA.\n";
         system("cd vgp-metadata ; git fetch ; git merge");
     }
 
-    #  Fail if either doesn't exist.
+    #  Pull in all the good bits from the file list, strip out the bad bits.
 
-    die "ERROR: 'genomeark.ls' doesn't exist, can't update.\n"   if (! -e "genomeark.ls");
-    die "ERROR: 'vgp-metadata' doesn't exist, can't update.\n"   if (! -e "vgp-metadata");
+    if (-e "genomeark.ls.raw") {
+        print STDERR "FILTERING AWS FILE LIST.\n";
 
-    #  Pull in all the good bits from the file list.
+        open(LSI, "< genomeark.ls.raw");
+        open(LSO, "> genomeark.ls");
 
-    open(LS, "< genomeark.ls");
-    while (<LS>) {
+        while (<LSI>) {
+            chomp;
+
+            my ($filedate, $filetime, $filesize, $filename, $filesecs) = split '\s+', $_;
+
+            my @fileComps   = split '/', $filename;
+            my $speciesName = $fileComps[1];
+            my $asmName     = $fileComps[3];
+            my $seconds     = 0;
+
+            next   if ($filename =~ m!intermediate!);
+            next   if ($filename =~ m!transcriptomic_data!);
+
+            print LSO "$_\n";
+        }
+    }
+
+    print STDERR "LOADING AWS FILE LIST.\n";
+
+    open(LSI, "< genomeark.ls");
+    while (<LSI>) {
         chomp;
 
         my ($filedate, $filetime, $filesize, $filename, $filesecs) = split '\s+', $_;
@@ -112,9 +132,13 @@ sub loadGenomeArk () {
         push @genomeArkSizes, $filesize;
         push @genomeArkFiles, $filename;
 
-
         $genomeArkLength++;
     }
+
+    #  Fail if either doesn't exist.
+
+    die "ERROR: 'genomeark.ls' doesn't exist, can't update.\n"   if (! -e "genomeark.ls");
+    die "ERROR: 'vgp-metadata' doesn't exist, can't update.\n"   if (! -e "vgp-metadata");
 
     #  Return the time since epoch for the last change to genomeark.ls.
 
