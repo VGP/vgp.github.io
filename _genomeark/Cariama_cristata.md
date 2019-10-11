@@ -30,34 +30,36 @@ alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: red-legged seriema
-data_10x_bases: unknown
+data_10x_bases: 152.57 Gbp
 data_10x_bytes: 72.479 GB
-data_10x_coverage: N/A
+data_10x_coverage: 101.71x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Cariama_cristata/bCarCri1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9604
-data_arima_bases: unknown
+data_arima_bases: 247.54 Gbp
 data_arima_bytes: 124.200 GB
-data_arima_coverage: N/A
+data_arima_coverage: 165.03x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Cariama_cristata/bCarCri1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8562
-data_bionano_bases: unknown
+data_bionano_bases: 826.09 Gbp
 data_bionano_bytes: 1.296 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 550.73x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cariama_cristata/bCarCri1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbsubreads_bases: 76.39 Gbp
 data_pbsubreads_bytes: 132.338 GB
-data_pbsubreads_coverage: N/A
+data_pbsubreads_coverage: 50.93x
 data_pbsubreads_files: 16
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cariama_cristata/bCarCri1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genome_size: 1500000000
+genome_size_display: 1.50 Gbp
 last_raw_data: 1563354348
 last_updated: 1569703670
 mito1date: 2019-09-18
