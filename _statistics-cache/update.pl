@@ -69,7 +69,7 @@ sub loadGenomeArk () {
 
     #  If no genomeark.ls file list, fetch it AND update metadata.
 
-    if (! -e "genomeark.ls.raw") {
+    if (! -e "genomeark.ls") {
         print STDERR "FETCHING AWS FILE LIST.\n";
         system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls.raw");
 
