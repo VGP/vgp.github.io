@@ -7,7 +7,12 @@ data_10x_coverage: 118.00x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Dryobates_pubescens/bDryPub1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9351
-data_arima_scale: 1
+data_arima_bases: 118.12 Gbp
+data_arima_bytes: 62.031 GB
+data_arima_coverage: 84.37x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Dryobates_pubescens/bDryPub1/genomic_data/arima/ .<br>
+data_arima_scale: 1.7734
 data_bionano_bases: 585.37 Gbp
 data_bionano_bytes: 0.918 GB
 data_bionano_coverage: 418.12x
@@ -23,12 +28,12 @@ data_pbsubreads_files: 18
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5482
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
-last_raw_data: 1565302785
-last_updated: 1570719802
+last_raw_data: 1571156333
+last_updated: 1571156333
 mito1date: 2019-10-05
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Dryobates_pubescens/bDryPub1/assembly_MT_rockefeller/bDryPub1.MT.20191005.fasta.gz

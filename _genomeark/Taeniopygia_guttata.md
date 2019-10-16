@@ -96,12 +96,12 @@ genbank_pri: GCA_003957565.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 last_raw_data: 1531830272
-last_updated: 1570719805
-mat2date: 2019-08-11
+last_updated: 1570802637
+mat2date: 2019-10-11
 mat2filesize: 291 MB
 mat2n50ctg: 5135750
-mat2n50scf: 67758378
-mat2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.mat.cur.20190811.fasta.gz
+mat2n50scf: 71674156
+mat2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.mat.cur.20191011.fasta.gz
 mat2sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -119,9 +119,9 @@ mat2sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 16.01 Mbp </td><td> 0 </td><td> 151.42 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 9.61 Mbp </td><td> 1 </td><td> 111.83 Mbp </td></tr>  <tr><td> 30 </td><td> 26 </td><td> 7.45 Mbp </td><td> 2 </td><td> 95.27 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 6.08 Mbp </td><td> 3 </td><td> 73.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 60 </td><td style="background-color:#88ff88;"> 5.14 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 67.76 Mbp </td></tr>  <tr><td> 60 </td><td> 83 </td><td> 3.77 Mbp </td><td> 6 </td><td> 61.33 Mbp </td></tr>  <tr><td> 70 </td><td> 117 </td><td> 2.51 Mbp </td><td> 9 </td><td> 31.86 Mbp </td></tr>  <tr><td> 80 </td><td> 173 </td><td> 1.37 Mbp </td><td> 14 </td><td> 19.52 Mbp </td></tr>  <tr><td> 90 </td><td> 310 </td><td> 0.36 Mbp </td><td> 20 </td><td> 11.45 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 54 </td><td> 0.24 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 16.01 Mbp </td><td> 0 </td><td> 151.42 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 9.61 Mbp </td><td> 1 </td><td> 114.62 Mbp </td></tr>  <tr><td> 30 </td><td> 26 </td><td> 7.45 Mbp </td><td> 2 </td><td> 111.83 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 6.08 Mbp </td><td> 3 </td><td> 73.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 60 </td><td style="background-color:#88ff88;"> 5.14 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 71.67 Mbp </td></tr>  <tr><td> 60 </td><td> 83 </td><td> 3.77 Mbp </td><td> 6 </td><td> 61.33 Mbp </td></tr>  <tr><td> 70 </td><td> 117 </td><td> 2.51 Mbp </td><td> 8 </td><td> 36.71 Mbp </td></tr>  <tr><td> 80 </td><td> 173 </td><td> 1.37 Mbp </td><td> 13 </td><td> 20.54 Mbp </td></tr>  <tr><td> 90 </td><td> 310 </td><td> 0.36 Mbp </td><td> 19 </td><td> 11.45 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> 53 </td><td> 0.24 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.968x </th><th> 1279 </th><th> 1.00 Gbp </th><th> 205 </th><th> 1.04 Gbp </th></tr>
+  <tr><th> 0.968x </th><th> 1279 </th><th> 1.00 Gbp </th><th> 204 </th><th> 1.04 Gbp </th></tr>
   </tfoot>
   </table>
 mat2version: assembly_curated

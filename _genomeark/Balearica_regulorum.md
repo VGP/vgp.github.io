@@ -7,7 +7,12 @@ data_10x_coverage: 107.71x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Balearica_regulorum/bBalReg1/genomic_data/10x/ .<br>
 data_10x_scale: 1.905
-data_arima_scale: 1
+data_arima_bases: 104.05 Gbp
+data_arima_bytes: 56.145 GB
+data_arima_coverage: 71.76x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Balearica_regulorum/bBalReg1/genomic_data/arima/ .<br>
+data_arima_scale: 1.726
 data_bionano_bases: 644.95 Gbp
 data_bionano_bytes: 0.954 GB
 data_bionano_coverage: 444.79x
@@ -23,12 +28,12 @@ data_pbsubreads_files: 24
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5476
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1450000000
 genome_size_display: 1.45 Gbp
 genome_size_method: null
-last_raw_data: 1563893032
-last_updated: 1566590230
+last_raw_data: 1571157943
+last_updated: 1571157943
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Balearica_regulorum/bBalReg1/assembly_MT_rockefeller/bBalReg1.MT.20190820.fasta.gz

@@ -39,12 +39,12 @@ genome_size: 2520000000
 genome_size_display: 2.52 Gbp
 genome_size_method: null
 last_raw_data: 1560448207
-last_updated: 1570559384
-mat1date: 2019-10-01
-mat1filesize: 615 MB
+last_updated: 1570837968
+mat1date: 2019-10-08
+mat1filesize: 604 MB
 mat1n50ctg: 8863475
-mat1n50scf: 29233410
-mat1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_nhgri_trio_1.6/aDenEbr1.mat.asm.20191001.fasta.gz
+mat1n50scf: 60908865
+mat1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_nhgri_trio_1.6/aDenEbr1.mat.asm.20191008.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -62,9 +62,9 @@ mat1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 7 </td><td> 27.07 Mbp </td><td> 2 </td><td> 83.08 Mbp </td></tr>  <tr><td> 20 </td><td> 18 </td><td> 19.33 Mbp </td><td> 5 </td><td> 66.05 Mbp </td></tr>  <tr><td> 30 </td><td> 34 </td><td> 14.85 Mbp </td><td> 10 </td><td> 48.90 Mbp </td></tr>  <tr><td> 40 </td><td> 52 </td><td> 11.95 Mbp </td><td> 16 </td><td> 37.47 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 77 </td><td style="background-color:#88ff88;"> 8.86 Mbp </td><td> 23 </td><td style="background-color:#88ff88;"> 29.23 Mbp </td></tr>  <tr><td> 60 </td><td> 113 </td><td> 5.75 Mbp </td><td> 34 </td><td> 18.10 Mbp </td></tr>  <tr><td> 70 </td><td> 173 </td><td> 2.90 Mbp </td><td> 51 </td><td> 12.24 Mbp </td></tr>  <tr><td> 80 </td><td> 347 </td><td> 0.62 Mbp </td><td> 83 </td><td> 4.43 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 564 </td><td> 97.55 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 7 </td><td> 27.07 Mbp </td><td> 1 </td><td> 128.22 Mbp </td></tr>  <tr><td> 20 </td><td> 18 </td><td> 19.33 Mbp </td><td> 4 </td><td> 89.91 Mbp </td></tr>  <tr><td> 30 </td><td> 34 </td><td> 14.85 Mbp </td><td> 7 </td><td> 79.83 Mbp </td></tr>  <tr><td> 40 </td><td> 52 </td><td> 11.95 Mbp </td><td> 10 </td><td> 70.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 77 </td><td style="background-color:#88ff88;"> 8.86 Mbp </td><td> 14 </td><td style="background-color:#88ff88;"> 60.91 Mbp </td></tr>  <tr><td> 60 </td><td> 113 </td><td> 5.75 Mbp </td><td> 19 </td><td> 45.84 Mbp </td></tr>  <tr><td> 70 </td><td> 173 </td><td> 2.90 Mbp </td><td> 26 </td><td> 33.56 Mbp </td></tr>  <tr><td> 80 </td><td> 351 </td><td> 0.58 Mbp </td><td> 40 </td><td> 8.03 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 403 </td><td> 0.11 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.889x </th><th> 3354 </th><th> 2.24 Gbp </th><th> 2803 </th><th> 2.36 Gbp </th></tr>
+  <tr><th> 0.889x </th><th> 3370 </th><th> 2.24 Gbp </th><th> 2584 </th><th> 2.36 Gbp </th></tr>
   </tfoot>
   </table>
 mat1version: assembly_nhgri_trio_1.6
@@ -96,11 +96,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Dendropsophus ebraccatus
 name_: Dendropsophus_ebraccatus
-pat1date: 2019-10-01
-pat1filesize: 609 MB
+pat1date: 2019-10-08
+pat1filesize: 598 MB
 pat1n50ctg: 7389730
-pat1n50scf: 27430353
-pat1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_nhgri_trio_1.6/aDenEbr1.pat.asm.20191001.fasta.gz
+pat1n50scf: 61518660
+pat1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_nhgri_trio_1.6/aDenEbr1.pat.asm.20191008.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -118,9 +118,9 @@ pat1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 8 </td><td> 24.92 Mbp </td><td> 2 </td><td> 70.94 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 18.70 Mbp </td><td> 6 </td><td> 54.85 Mbp </td></tr>  <tr><td> 30 </td><td> 34 </td><td> 15.42 Mbp </td><td> 11 </td><td> 44.60 Mbp </td></tr>  <tr><td> 40 </td><td> 54 </td><td> 10.61 Mbp </td><td> 18 </td><td> 33.39 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 83 </td><td style="background-color:#88ff88;"> 7.39 Mbp </td><td> 27 </td><td style="background-color:#88ff88;"> 27.43 Mbp </td></tr>  <tr><td> 60 </td><td> 125 </td><td> 5.09 Mbp </td><td> 38 </td><td> 17.96 Mbp </td></tr>  <tr><td> 70 </td><td> 193 </td><td> 2.65 Mbp </td><td> 54 </td><td> 12.09 Mbp </td></tr>  <tr><td> 80 </td><td> 384 </td><td> 0.57 Mbp </td><td> 91 </td><td> 4.00 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 557 </td><td> 0.12 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 8 </td><td> 24.92 Mbp </td><td> 1 </td><td> 145.35 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 18.70 Mbp </td><td> 3 </td><td> 137.21 Mbp </td></tr>  <tr><td> 30 </td><td> 34 </td><td> 15.42 Mbp </td><td> 5 </td><td> 102.15 Mbp </td></tr>  <tr><td> 40 </td><td> 54 </td><td> 10.61 Mbp </td><td> 8 </td><td> 78.14 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 83 </td><td style="background-color:#88ff88;"> 7.39 Mbp </td><td> 12 </td><td style="background-color:#88ff88;"> 61.52 Mbp </td></tr>  <tr><td> 60 </td><td> 126 </td><td> 4.88 Mbp </td><td> 16 </td><td> 47.01 Mbp </td></tr>  <tr><td> 70 </td><td> 195 </td><td> 2.58 Mbp </td><td> 24 </td><td> 24.43 Mbp </td></tr>  <tr><td> 80 </td><td> 391 </td><td> 0.55 Mbp </td><td> 43 </td><td> 5.95 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 432 </td><td> 0.13 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.892x </th><th> 3297 </th><th> 2.25 Gbp </th><th> 2690 </th><th> 2.36 Gbp </th></tr>
+  <tr><th> 0.892x </th><th> 3316 </th><th> 2.25 Gbp </th><th> 2487 </th><th> 2.36 Gbp </th></tr>
   </tfoot>
   </table>
 pat1version: assembly_nhgri_trio_1.6
