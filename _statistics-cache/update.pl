@@ -100,6 +100,9 @@ sub loadGenomeArk () {
 
             print LSO "$_\n";
         }
+
+        close(LSO);
+        close(LSI);
     }
 
     print STDERR "LOADING AWS FILE LIST.\n";
@@ -134,6 +137,7 @@ sub loadGenomeArk () {
 
         $genomeArkLength++;
     }
+    close(LSI);
 
     #  Fail if either doesn't exist.
 
@@ -684,7 +688,7 @@ sub processData ($$$$$) {
             $$seqFiles{"10x"} += 1;
             $$seqBytes{"10x"} += $filesize;
         } else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
@@ -697,7 +701,7 @@ sub processData ($$$$$) {
             $$seqBytes{"arima"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
         } else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
@@ -710,7 +714,7 @@ sub processData ($$$$$) {
         } elsif ($filename =~ m/bnx.gz/) {
             $$seqBytes{"bionano"} += $filesize;
         } else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
@@ -723,7 +727,7 @@ sub processData ($$$$$) {
             $$seqBytes{"dovetail"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
         } else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
@@ -735,7 +739,7 @@ sub processData ($$$$$) {
             $$seqFiles{"illumina"} += 1;
             $$seqBytes{"illumina"} += $filesize;
         } else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
@@ -772,7 +776,7 @@ sub processData ($$$$$) {
             $$seqBytes{"pbhifi"} += $filesize;
         }
         else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
@@ -785,12 +789,12 @@ sub processData ($$$$$) {
             $$seqBytes{"phase"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
         } else {
-            print STDERR "unknown file type in '$_'\n";
+            print STDERR "unknown file type in '$filename'\n";
         }
     }
 
     elsif ($filename =~ m!/genomic_data/!) {
-        print STDERR "UNKNOWN genomic_data $_\n";
+        print STDERR "UNKNOWN genomic_data $filename\n";
     }
 }
 
