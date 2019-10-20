@@ -38,7 +38,7 @@ genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
 last_raw_data: 1568758591
-last_updated: 1570719801
+last_updated: 1571429035
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gallus_gallus/bGalGal1/assembly_MT_rockefeller/bGalGal1.MT.20191002.fasta.gz

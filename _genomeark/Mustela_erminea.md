@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-08-31
+alt1date: 2019-10-17
 alt1filesize: 482 MB
-alt1n50ctg: 167762
-alt1n50scf: 167762
-alt1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_vgp_standard_1.5/mMusErm1.alt.asm.20190831.fasta.gz
+alt1n50ctg: 167863
+alt1n50scf: 167863
+alt1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_curated/mMusErm1.alt.cur.20191017.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -23,12 +23,12 @@ alt1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 121 </td><td> 1.91 Mbp </td><td> 121 </td><td> 1.91 Mbp </td></tr>  <tr><td> 20 </td><td> 322 </td><td> 1.30 Mbp </td><td> 322 </td><td> 1.30 Mbp </td></tr>  <tr><td> 30 </td><td> 614 </td><td> 0.87 Mbp </td><td> 614 </td><td> 0.87 Mbp </td></tr>  <tr><td> 40 </td><td> 1080 </td><td> 0.51 Mbp </td><td> 1080 </td><td> 0.51 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 2072 </td><td> 0.17 Mbp </td><td> 2072 </td><td> 0.17 Mbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.532x </th><th> 3325 </th><th> 1.64 Gbp </th><th> 3325 </th><th> 1.64 Gbp </th></tr>
+  <tr><th> 0.533x </th><th> 3327 </th><th> 1.64 Gbp </th><th> 3327 </th><th> 1.64 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.5
-assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: stoat
 data_10x_bases: 305.17 Gbp
 data_10x_bytes: 146.463 GB
@@ -62,7 +62,7 @@ genome_size: 3080000000
 genome_size_display: 3.08 Gbp
 genome_size_method: null
 last_raw_data: 1565693768
-last_updated: 1570720107
+last_updated: 1571322221
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_MT_rockefeller/mMusErm1.MT.20191003.fasta.gz
@@ -91,11 +91,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Mustela erminea
 name_: Mustela_erminea
-pri1date: 2019-08-31
-pri1filesize: 708 MB
+pri1date: 2019-10-17
+pri1filesize: 706 MB
 pri1n50ctg: 26508710
 pri1n50scf: 109748187
-pri1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_vgp_standard_1.5/mMusErm1.pri.asm.20190831.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_curated/mMusErm1.pri.cur.20191017.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -113,12 +113,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 2 </td><td> 95.27 Mbp </td><td> 1 </td><td> 165.68 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 66.52 Mbp </td><td> 3 </td><td> 151.35 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 48.95 Mbp </td><td> 5 </td><td> 145.48 Mbp </td></tr>  <tr><td> 40 </td><td> 19 </td><td> 34.66 Mbp </td><td> 7 </td><td> 130.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 29 </td><td style="background-color:#88ff88;"> 26.51 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 109.75 Mbp </td></tr>  <tr><td> 60 </td><td> 44 </td><td> 16.14 Mbp </td><td> 13 </td><td> 92.14 Mbp </td></tr>  <tr><td> 70 </td><td> 68 </td><td> 10.30 Mbp </td><td> 17 </td><td> 70.82 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 95.27 Mbp </td><td> 1 </td><td> 165.68 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 66.52 Mbp </td><td> 3 </td><td> 151.34 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 48.95 Mbp </td><td> 5 </td><td> 145.11 Mbp </td></tr>  <tr><td> 40 </td><td> 19 </td><td> 34.66 Mbp </td><td> 7 </td><td> 130.15 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 29 </td><td style="background-color:#88ff88;"> 26.51 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 109.75 Mbp </td></tr>  <tr><td> 60 </td><td> 44 </td><td> 16.14 Mbp </td><td> 13 </td><td> 92.90 Mbp </td></tr>  <tr><td> 70 </td><td> 68 </td><td> 10.30 Mbp </td><td> 16 </td><td> 85.47 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.787x </th><th> 292 </th><th> 2.42 Gbp </th><th> 102 </th><th> 2.46 Gbp </th></tr>
+  <tr><th> 0.787x </th><th> 292 </th><th> 2.42 Gbp </th><th> 93 </th><th> 2.45 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.5
+pri1version: assembly_curated
 short_name: mMusErm
 taxon_id: 36723
 ---
