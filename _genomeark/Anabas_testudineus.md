@@ -63,7 +63,7 @@ genbank_pri: GCA_900324465.2
 genome_size: 662696525
 genome_size_display: 0.66 Gbp
 last_raw_data: 1520584604
-last_updated: 1570719699
+last_updated: 1571752066
 mito1date: 2019-10-01
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_MT_rockefeller/fAnaTes1.MT.20191001.fasta.gz

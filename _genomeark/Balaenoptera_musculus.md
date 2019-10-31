@@ -67,7 +67,7 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 last_raw_data: 1563292453
-last_updated: 1570720510
+last_updated: 1572293124
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_MT_rockefeller/mBalMus1.MT.20191002.fasta.gz
@@ -96,11 +96,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Balaenoptera musculus
 name_: Balaenoptera_musculus
-pri1date: 2019-06-18
+pri1date: 2019-10-25
 pri1filesize: 689 MB
 pri1n50ctg: 4265224
 pri1n50scf: 104095770
-pri1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_curated/mBalMus1.pri.cur.20190618.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_curated/mBalMus1.pri.cur.20191025.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -118,9 +118,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 14 </td><td> 15.43 Mbp </td><td> 1 </td><td> 176.07 Mbp </td></tr>  <tr><td> 20 </td><td> 38 </td><td> 10.90 Mbp </td><td> 3 </td><td> 145.22 Mbp </td></tr>  <tr><td> 30 </td><td> 72 </td><td> 7.82 Mbp </td><td> 5 </td><td> 131.76 Mbp </td></tr>  <tr><td> 40 </td><td> 120 </td><td> 5.66 Mbp </td><td> 8 </td><td> 110.47 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 182 </td><td style="background-color:#88ff88;"> 4.27 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 104.10 Mbp </td></tr>  <tr><td> 60 </td><td> 274 </td><td> 2.65 Mbp </td><td> 14 </td><td> 90.46 Mbp </td></tr>  <tr><td> 70 </td><td> 447 </td><td> 1.07 Mbp </td><td> 18 </td><td> 79.72 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 14 </td><td> 15.43 Mbp </td><td> 1 </td><td> 176.07 Mbp </td></tr>  <tr><td> 20 </td><td> 38 </td><td> 10.90 Mbp </td><td> 3 </td><td> 145.22 Mbp </td></tr>  <tr><td> 30 </td><td> 72 </td><td> 7.82 Mbp </td><td> 5 </td><td> 129.33 Mbp </td></tr>  <tr><td> 40 </td><td> 120 </td><td> 5.66 Mbp </td><td> 8 </td><td> 110.47 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 182 </td><td style="background-color:#88ff88;"> 4.27 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 104.10 Mbp </td></tr>  <tr><td> 60 </td><td> 274 </td><td> 2.65 Mbp </td><td> 14 </td><td> 90.46 Mbp </td></tr>  <tr><td> 70 </td><td> 447 </td><td> 1.07 Mbp </td><td> 18 </td><td> 79.72 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.761x </th><th> 1065 </th><th> 2.35 Gbp </th><th> 128 </th><th> 2.38 Gbp </th></tr>
+  <tr><th> 0.761x </th><th> 1065 </th><th> 2.35 Gbp </th><th> 129 </th><th> 2.38 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated

@@ -32,8 +32,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1567712638
-last_updated: 1570719801
+last_raw_data: 1572448610
+last_updated: 1572448610
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Nyctibius_grandis/bNycGra1/assembly_MT_rockefeller/bNycGra1.MT.20191002.fasta.gz

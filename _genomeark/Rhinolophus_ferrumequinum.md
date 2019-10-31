@@ -63,7 +63,7 @@ genbank_pri: GCA_004115265.2
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
 last_raw_data: 1522747239
-last_updated: 1570721359
+last_updated: 1571752090
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_MT_rockefeller/mRhiFer1.MT.20191003.fasta.gz

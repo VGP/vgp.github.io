@@ -62,7 +62,7 @@ genome_size: 1450000000
 genome_size_display: 1.45 Gbp
 genome_size_method: null
 last_raw_data: 1571157943
-last_updated: 1571503946
+last_updated: 1571529942
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Balearica_regulorum/bBalReg1/assembly_MT_rockefeller/bBalReg1.MT.20190820.fasta.gz

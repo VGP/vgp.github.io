@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-07-15
-alt1filesize: 545 MB
-alt1n50ctg: 58808
-alt1n50scf: 58808
-alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_vgp_nhgri_1.5/sAmbRad1.alt.asm.20190715.fasta.gz
+alt1date: 2019-10-28
+alt1filesize: 430 MB
+alt1n50ctg: 56620
+alt1n50scf: 56620
+alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_vgp_nhgri_1.5/sAmbRad1.alt.asm.20191028.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,9 +21,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1097 </td><td> 0.14 Mbp </td><td> 1097 </td><td> 0.14 Mbp </td></tr>  <tr><td> 20 </td><td> 2835 </td><td> 0.10 Mbp </td><td> 2835 </td><td> 0.10 Mbp </td></tr>  <tr><td> 30 </td><td> 5092 </td><td> 82.32 Kbp </td><td> 5092 </td><td> 82.32 Kbp </td></tr>  <tr><td> 40 </td><td> 7855 </td><td> 68.81 Kbp </td><td> 7855 </td><td> 68.81 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 11118 </td><td> 58.81 Kbp </td><td> 11118 </td><td> 58.81 Kbp </td></tr>  <tr><td> 60 </td><td> 14941 </td><td> 50.06 Kbp </td><td> 14941 </td><td> 50.06 Kbp </td></tr>  <tr><td> 70 </td><td> 19476 </td><td> 41.57 Kbp </td><td> 19476 </td><td> 41.57 Kbp </td></tr>  <tr><td> 80 </td><td> 25096 </td><td> 32.27 Kbp </td><td> 25096 </td><td> 32.27 Kbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1027 </td><td> 0.15 Mbp </td><td> 1027 </td><td> 0.15 Mbp </td></tr>  <tr><td> 20 </td><td> 2698 </td><td> 0.11 Mbp </td><td> 2698 </td><td> 0.11 Mbp </td></tr>  <tr><td> 30 </td><td> 4902 </td><td> 83.52 Kbp </td><td> 4902 </td><td> 83.52 Kbp </td></tr>  <tr><td> 40 </td><td> 7649 </td><td> 68.58 Kbp </td><td> 7649 </td><td> 68.58 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 10976 </td><td> 56.62 Kbp </td><td> 10976 </td><td> 56.62 Kbp </td></tr>  <tr><td> 60 </td><td> 15091 </td><td> 44.14 Kbp </td><td> 15091 </td><td> 44.14 Kbp </td></tr>  <tr><td> 70 </td><td> 21251 </td><td> 19.44 Kbp </td><td> 21251 </td><td> 19.44 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.896x </th><th> 33692 </th><th> 1.86 Gbp </th><th> 33692 </th><th> 1.86 Gbp </th></tr>
+  <tr><th> 0.705x </th><th> 21987 </th><th> 1.46 Gbp </th><th> 21987 </th><th> 1.46 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_vgp_nhgri_1.5
@@ -60,8 +60,8 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
-last_raw_data: 1556038288
-last_updated: 1569363881
+last_raw_data: 1571960790
+last_updated: 1572317355
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller/sAmbRad1.MT.20190820.fasta.gz
@@ -90,11 +90,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Amblyraja radiata
 name_: Amblyraja_radiata
-pri1date: 2019-07-15
-pri1filesize: 756 MB
-pri1n50ctg: 1672809
-pri1n50scf: 76837640
-pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_vgp_nhgri_1.5/sAmbRad1.pri.asm.20190715.fasta.gz
+pri1date: 2019-10-28
+pri1filesize: 692 MB
+pri1n50ctg: 1667033
+pri1n50scf: 71882045
+pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_vgp_nhgri_1.5/sAmbRad1.pri.asm.20191028.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -112,9 +112,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 30 </td><td> 5.00 Mbp </td><td> 0 </td><td> 213.25 Mbp </td></tr>  <tr><td> 20 </td><td> 79 </td><td> 3.50 Mbp </td><td> 2 </td><td> 149.09 Mbp </td></tr>  <tr><td> 30 </td><td> 146 </td><td> 2.68 Mbp </td><td> 3 </td><td> 133.14 Mbp </td></tr>  <tr><td> 40 </td><td> 234 </td><td> 2.15 Mbp </td><td> 5 </td><td> 105.59 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 343 </td><td style="background-color:#88ff88;"> 1.67 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 76.84 Mbp </td></tr>  <tr><td> 60 </td><td> 479 </td><td> 1.37 Mbp </td><td> 10 </td><td> 71.59 Mbp </td></tr>  <tr><td> 70 </td><td> 650 </td><td> 1.06 Mbp </td><td> 14 </td><td> 51.62 Mbp </td></tr>  <tr><td> 80 </td><td> 882 </td><td> 0.77 Mbp </td><td> 18 </td><td> 43.57 Mbp </td></tr>  <tr><td> 90 </td><td> 1206 </td><td> 0.53 Mbp </td><td> 23 </td><td> 38.10 Mbp </td></tr>  <tr><td> 100 </td><td> 1706 </td><td> 0.33 Mbp </td><td> 29 </td><td> 32.22 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 30 </td><td> 4.97 Mbp </td><td> 1 </td><td> 154.18 Mbp </td></tr>  <tr><td> 20 </td><td> 79 </td><td> 3.49 Mbp </td><td> 2 </td><td> 152.43 Mbp </td></tr>  <tr><td> 30 </td><td> 148 </td><td> 2.63 Mbp </td><td> 3 </td><td> 134.34 Mbp </td></tr>  <tr><td> 40 </td><td> 236 </td><td> 2.13 Mbp </td><td> 5 </td><td> 110.11 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 346 </td><td style="background-color:#88ff88;"> 1.67 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 71.88 Mbp </td></tr>  <tr><td> 60 </td><td> 483 </td><td> 1.36 Mbp </td><td> 11 </td><td> 60.50 Mbp </td></tr>  <tr><td> 70 </td><td> 657 </td><td> 1.03 Mbp </td><td> 14 </td><td> 54.00 Mbp </td></tr>  <tr><td> 80 </td><td> 894 </td><td> 0.75 Mbp </td><td> 18 </td><td> 47.93 Mbp </td></tr>  <tr><td> 90 </td><td> 1233 </td><td> 0.50 Mbp </td><td> 23 </td><td> 39.10 Mbp </td></tr>  <tr><td> 100 </td><td> 1785 </td><td> 0.28 Mbp </td><td> 29 </td><td> 35.00 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.242x </th><th> 6385 </th><th> 2.57 Gbp </th><th> 2113 </th><th> 3.78 Gbp </th></tr>
+  <tr><th> 1.144x </th><th> 4727 </th><th> 2.37 Gbp </th><th> 1314 </th><th> 3.48 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_vgp_nhgri_1.5

@@ -63,7 +63,7 @@ genbank_pri: GCA_004126475.2
 genome_size: 2213798723
 genome_size_display: 2.21 Gbp
 last_raw_data: 1527496005
-last_updated: 1570721188
+last_updated: 1571752083
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_MT_rockefeller/mPhyDis1.MT.20191003.fasta.gz

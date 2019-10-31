@@ -61,7 +61,7 @@ genbank_pri: GCA_900634775.1
 genome_size: 1182215999
 genome_size_display: 1.18 Gbp
 last_raw_data: 1523524486
-last_updated: 1570719802
+last_updated: 1571752073
 mito2date: 2019-10-02
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_MT_rockefeller/fGouWil2.MT.20191002.fasta.gz
