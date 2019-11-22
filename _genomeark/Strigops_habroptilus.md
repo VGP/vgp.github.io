@@ -61,7 +61,7 @@ genbank_pri: GCA_004027225.1
 genome_size: 1193409022
 genome_size_display: 1.19 Gbp
 last_raw_data: 1568581172
-last_updated: 1571752061
+last_updated: 1574393825
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_MT_rockefeller/bStrHab1.MT.20191003.fasta.gz
@@ -90,11 +90,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Strigops habroptilus
 name_: Strigops_habroptilus
-pri1date: 2018-09-07
+pri1date: 2019-11-08
 pri1filesize: 333 MB
 pri1n50ctg: 9112118
-pri1n50scf: 83147210
-pri1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_curated/bStrHab1.pri.cur.20180907.fasta.gz
+pri1n50scf: 83240647
+pri1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_curated/bStrHab1.pri.cur.20191108.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -112,9 +112,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 4 </td><td> 19.20 Mbp </td><td> 0 </td><td> 172.12 Mbp </td></tr>  <tr><td> 20 </td><td> 12 </td><td> 15.35 Mbp </td><td> 1 </td><td> 104.14 Mbp </td></tr>  <tr><td> 30 </td><td> 20 </td><td> 13.03 Mbp </td><td> 2 </td><td> 101.25 Mbp </td></tr>  <tr><td> 40 </td><td> 30 </td><td> 11.19 Mbp </td><td> 4 </td><td> 86.46 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 42 </td><td style="background-color:#88ff88;"> 9.11 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 83.15 Mbp </td></tr>  <tr><td> 60 </td><td> 56 </td><td> 6.98 Mbp </td><td> 7 </td><td> 69.92 Mbp </td></tr>  <tr><td> 70 </td><td> 75 </td><td> 5.25 Mbp </td><td> 8 </td><td> 63.76 Mbp </td></tr>  <tr><td> 80 </td><td> 104 </td><td> 3.19 Mbp </td><td> 11 </td><td> 39.19 Mbp </td></tr>  <tr><td> 90 </td><td> 165 </td><td> 0.91 Mbp </td><td> 16 </td><td> 12.88 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 4 </td><td> 19.20 Mbp </td><td> 0 </td><td> 155.64 Mbp </td></tr>  <tr><td> 20 </td><td> 12 </td><td> 15.35 Mbp </td><td> 1 </td><td> 123.02 Mbp </td></tr>  <tr><td> 30 </td><td> 20 </td><td> 13.03 Mbp </td><td> 2 </td><td> 101.87 Mbp </td></tr>  <tr><td> 40 </td><td> 30 </td><td> 11.19 Mbp </td><td> 4 </td><td> 86.46 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 42 </td><td style="background-color:#88ff88;"> 9.11 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 83.24 Mbp </td></tr>  <tr><td> 60 </td><td> 56 </td><td> 6.98 Mbp </td><td> 7 </td><td> 70.13 Mbp </td></tr>  <tr><td> 70 </td><td> 75 </td><td> 5.25 Mbp </td><td> 8 </td><td> 63.49 Mbp </td></tr>  <tr><td> 80 </td><td> 104 </td><td> 3.19 Mbp </td><td> 11 </td><td> 39.19 Mbp </td></tr>  <tr><td> 90 </td><td> 165 </td><td> 0.91 Mbp </td><td> 16 </td><td> 12.31 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.954x </th><th> 461 </th><th> 1.14 Gbp </th><th> 99 </th><th> 1.17 Gbp </th></tr>
+  <tr><th> 0.954x </th><th> 462 </th><th> 1.14 Gbp </th><th> 89 </th><th> 1.15 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated

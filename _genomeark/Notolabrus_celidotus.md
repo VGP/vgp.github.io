@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-08-04
+alt1date: 2019-11-08
 alt1filesize: 224 MB
-alt1n50ctg: 379289
-alt1n50scf: 379289
-alt1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_vgp_standard_1.6/fNotCel1.alt.asm.20190804.fasta.gz
+alt1n50ctg: 381593
+alt1n50scf: 381593
+alt1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_curated/fNotCel1.alt.cur.20191108.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 49 </td><td> 1.58 Mbp </td><td> 49 </td><td> 1.58 Mbp </td></tr>  <tr><td> 20 </td><td> 128 </td><td> 1.07 Mbp </td><td> 128 </td><td> 1.07 Mbp </td></tr>  <tr><td> 30 </td><td> 239 </td><td> 0.76 Mbp </td><td> 239 </td><td> 0.76 Mbp </td></tr>  <tr><td> 40 </td><td> 395 </td><td> 0.55 Mbp </td><td> 395 </td><td> 0.55 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 614 </td><td> 0.38 Mbp </td><td> 614 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 952 </td><td> 0.23 Mbp </td><td> 952 </td><td> 0.23 Mbp </td></tr>  <tr><td> 70 </td><td> 1618 </td><td> 93.99 Kbp </td><td> 1618 </td><td> 93.99 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 49 </td><td> 1.58 Mbp </td><td> 49 </td><td> 1.58 Mbp </td></tr>  <tr><td> 20 </td><td> 128 </td><td> 1.07 Mbp </td><td> 128 </td><td> 1.07 Mbp </td></tr>  <tr><td> 30 </td><td> 238 </td><td> 0.77 Mbp </td><td> 238 </td><td> 0.77 Mbp </td></tr>  <tr><td> 40 </td><td> 395 </td><td> 0.55 Mbp </td><td> 395 </td><td> 0.55 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 612 </td><td> 0.38 Mbp </td><td> 612 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 947 </td><td> 0.23 Mbp </td><td> 947 </td><td> 0.23 Mbp </td></tr>  <tr><td> 70 </td><td> 1604 </td><td> 96.40 Kbp </td><td> 1604 </td><td> 96.40 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.769x </th><th> 3277 </th><th> 0.77 Gbp </th><th> 3277 </th><th> 0.77 Gbp </th></tr>
+  <tr><th> 0.771x </th><th> 3286 </th><th> 0.77 Gbp </th><th> 3286 </th><th> 0.77 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: spotty wrasse
 data_10x_bases: 52.53 Gbp
 data_10x_bytes: 26.884 GB
@@ -62,7 +62,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1570122122
-last_updated: 1570719802
+last_updated: 1574394940
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_MT_rockefeller/fNotCel1.MT.20191003.fasta.gz
@@ -91,11 +91,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Notolabrus celidotus
 name_: Notolabrus_celidotus
-pri1date: 2019-08-04
-pri1filesize: 242 MB
+pri1date: 2019-11-08
+pri1filesize: 240 MB
 pri1n50ctg: 2526821
-pri1n50scf: 32476248
-pri1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_vgp_standard_1.6/fNotCel1.pri.asm.20190804.fasta.gz
+pri1n50scf: 35656165
+pri1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_curated/fNotCel1.pri.cur.20191108.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -113,12 +113,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 8 </td><td> 9.12 Mbp </td><td> 2 </td><td> 40.19 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 6.85 Mbp </td><td> 4 </td><td> 39.25 Mbp </td></tr>  <tr><td> 30 </td><td> 37 </td><td> 5.48 Mbp </td><td> 7 </td><td> 35.97 Mbp </td></tr>  <tr><td> 40 </td><td> 58 </td><td> 4.13 Mbp </td><td> 10 </td><td> 34.43 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 89 </td><td style="background-color:#88ff88;"> 2.53 Mbp </td><td> 13 </td><td style="background-color:#88ff88;"> 32.48 Mbp </td></tr>  <tr><td> 60 </td><td> 137 </td><td> 1.67 Mbp </td><td> 16 </td><td> 31.37 Mbp </td></tr>  <tr><td> 70 </td><td> 227 </td><td> 0.75 Mbp </td><td> 19 </td><td> 29.43 Mbp </td></tr>  <tr><td> 80 </td><td> 608 </td><td> 0.10 Mbp </td><td> 25 </td><td> 5.69 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> 97 </td><td> 0.37 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 8 </td><td> 9.12 Mbp </td><td> 2 </td><td> 40.77 Mbp </td></tr>  <tr><td> 20 </td><td> 20 </td><td> 6.85 Mbp </td><td> 4 </td><td> 39.65 Mbp </td></tr>  <tr><td> 30 </td><td> 37 </td><td> 5.48 Mbp </td><td> 7 </td><td> 38.34 Mbp </td></tr>  <tr><td> 40 </td><td> 59 </td><td> 4.04 Mbp </td><td> 10 </td><td> 37.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 89 </td><td style="background-color:#88ff88;"> 2.53 Mbp </td><td> 12 </td><td style="background-color:#88ff88;"> 35.66 Mbp </td></tr>  <tr><td> 60 </td><td> 138 </td><td> 1.63 Mbp </td><td> 15 </td><td> 32.41 Mbp </td></tr>  <tr><td> 70 </td><td> 230 </td><td> 0.72 Mbp </td><td> 19 </td><td> 29.53 Mbp </td></tr>  <tr><td> 80 </td><td> 632 </td><td> 95.27 Kbp </td><td> 22 </td><td> 26.92 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.835x </th><th> 1605 </th><th> 0.84 Gbp </th><th> 651 </th><th> 0.93 Gbp </th></tr>
+  <tr><th> 0.832x </th><th> 1603 </th><th> 0.83 Gbp </th><th> 468 </th><th> 0.85 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: fNotCel
 taxon_id: 1203425
 ---

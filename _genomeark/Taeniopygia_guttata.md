@@ -96,7 +96,7 @@ genbank_pri: GCA_003957565.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 last_raw_data: 1531830272
-last_updated: 1572733409
+last_updated: 1574396844
 mat2date: 2019-10-11
 mat2filesize: 291 MB
 mat2n50ctg: 5135750
@@ -235,11 +235,11 @@ pri1sizes: |
   </tfoot>
   </table>
 pri1version: assembly_curated
-pri2date: 2018-10-19
-pri2filesize: 315 MB
-pri2n50ctg: 4128961
+pri2date: 2019-11-12
+pri2filesize: 313 MB
+pri2n50ctg: 4149229
 pri2n50scf: 73512665
-pri2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.pri.cur.20181019.fasta.gz
+pri2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.pri.cur.20191112.fasta.gz
 pri2sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -257,9 +257,9 @@ pri2sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 14.25 Mbp </td><td> 0 </td><td> 151.57 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 10.60 Mbp </td><td> 1 </td><td> 116.14 Mbp </td></tr>  <tr><td> 30 </td><td> 25 </td><td> 7.66 Mbp </td><td> 2 </td><td> 112.22 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 5.45 Mbp </td><td> 3 </td><td> 79.54 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 63 </td><td style="background-color:#88ff88;"> 4.13 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 73.51 Mbp </td></tr>  <tr><td> 60 </td><td> 91 </td><td> 3.16 Mbp </td><td> 6 </td><td> 63.90 Mbp </td></tr>  <tr><td> 70 </td><td> 130 </td><td> 2.24 Mbp </td><td> 8 </td><td> 37.41 Mbp </td></tr>  <tr><td> 80 </td><td> 188 </td><td> 1.41 Mbp </td><td> 12 </td><td> 21.11 Mbp </td></tr>  <tr><td> 90 </td><td> 284 </td><td> 0.82 Mbp </td><td> 17 </td><td> 16.67 Mbp </td></tr>  <tr><td> 100 </td><td> 547 </td><td> 0.18 Mbp </td><td> 26 </td><td> 6.73 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 14.25 Mbp </td><td> 0 </td><td> 151.57 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 10.60 Mbp </td><td> 1 </td><td> 116.14 Mbp </td></tr>  <tr><td> 30 </td><td> 25 </td><td> 7.72 Mbp </td><td> 2 </td><td> 112.22 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 5.46 Mbp </td><td> 3 </td><td> 79.54 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 62 </td><td style="background-color:#88ff88;"> 4.15 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 73.51 Mbp </td></tr>  <tr><td> 60 </td><td> 90 </td><td> 3.20 Mbp </td><td> 6 </td><td> 63.95 Mbp </td></tr>  <tr><td> 70 </td><td> 129 </td><td> 2.27 Mbp </td><td> 8 </td><td> 37.41 Mbp </td></tr>  <tr><td> 80 </td><td> 186 </td><td> 1.42 Mbp </td><td> 12 </td><td> 21.11 Mbp </td></tr>  <tr><td> 90 </td><td> 281 </td><td> 0.82 Mbp </td><td> 17 </td><td> 16.67 Mbp </td></tr>  <tr><td> 100 </td><td> 541 </td><td> 0.18 Mbp </td><td> 26 </td><td> 6.73 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.047x </th><th> 1331 </th><th> 1.08 Gbp </th><th> 540 </th><th> 1.11 Gbp </th></tr>
+  <tr><th> 1.047x </th><th> 1329 </th><th> 1.08 Gbp </th><th> 540 </th><th> 1.11 Gbp </th></tr>
   </tfoot>
   </table>
 pri2version: assembly_curated
