@@ -48,7 +48,12 @@ data_bionano_coverage: 1549.31x
 data_bionano_files: 3
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_scale: 1
+data_illumina_bases: 490.66 Gbp
+data_illumina_bytes: 242.576 GB
+data_illumina_coverage: 236.70x
+data_illumina_files: 3
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad5/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.8838
 data_pbhifi_scale: 1
 data_pbsubreads_bases: 265.83 Gbp
 data_pbsubreads_bytes: 467.477 GB
@@ -60,8 +65,8 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
-last_raw_data: 1571960790
-last_updated: 1572317355
+last_raw_data: 1574181715
+last_updated: 1574181715
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller/sAmbRad1.MT.20190820.fasta.gz

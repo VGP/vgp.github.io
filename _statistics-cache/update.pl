@@ -69,17 +69,19 @@ sub loadGenomeArk () {
 
     #  If no genomeark.ls file list, fetch it AND update metadata.
 
-    if (! -e "genomeark.ls") {
-        print STDERR "FETCHING AWS FILE LIST.\n";
-        system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls.raw");
-
+    if (0) {
         print STDERR "UPDATING METADATA.\n";
         system("cd vgp-metadata ; git fetch ; git merge");
     }
 
+    if (! -e "genomeark.ls.raw") {
+        print STDERR "FETCHING AWS FILE LIST.\n";
+        system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls.raw");
+    }
+
     #  Pull in all the good bits from the file list, strip out the bad bits.
 
-    if (-e "genomeark.ls.raw") {
+    if ((-e "genomeark.ls.raw") && (! -e "genomeark.ls")) {
         print STDERR "FILTERING AWS FILE LIST.\n";
 
         open(LSI, "< genomeark.ls.raw");

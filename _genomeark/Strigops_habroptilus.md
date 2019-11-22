@@ -27,7 +27,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
-common_name: owl parrot
+common_name: kakapo
 data_10x_bases: 131.40 Gbp
 data_10x_bytes: 63.445 GB
 data_10x_coverage: 110.10x

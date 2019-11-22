@@ -96,7 +96,7 @@ genbank_pri: GCA_003957565.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 last_raw_data: 1531830272
-last_updated: 1571752064
+last_updated: 1572733409
 mat2date: 2019-10-11
 mat2filesize: 291 MB
 mat2n50ctg: 5135750
