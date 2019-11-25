@@ -33,7 +33,7 @@ genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 genome_size_method: null
 last_raw_data: 1568756067
-last_updated: 1570535119
+last_updated: 1573475359
 name: Sylvia borin
 name_: Sylvia_borin
 short_name: bSylBor

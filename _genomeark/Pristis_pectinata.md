@@ -1,9 +1,9 @@
 ---
-alt2date: 2019-08-02
-alt2filesize: 513 MB
+alt2date: 2019-11-18
+alt2filesize: 511 MB
 alt2n50ctg: 98930
 alt2n50scf: 98930
-alt2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_vgp_standard_1.5/sPriPec2.alt.asm.20190802.fasta.gz
+alt2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.alt.cur.20191118.fasta.gz
 alt2sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -26,9 +26,9 @@ alt2sizes: |
   <tr><th> 0.605x </th><th> 10892 </th><th> 1.69 Gbp </th><th> 10892 </th><th> 1.69 Gbp </th></tr>
   </tfoot>
   </table>
-alt2version: assembly_vgp_standard_1.5
-assembly: assembly_vgp_standard_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt2version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: smalltooth sawfish
 data_10x_bases: 181.83 Gbp
 data_10x_bytes: 94.045 GB
@@ -62,7 +62,7 @@ genome_size: 2800000000
 genome_size_display: 2.80 Gbp
 genome_size_method: null
 last_raw_data: 1566356326
-last_updated: 1566589923
+last_updated: 1574391999
 mito2date: 2019-08-21
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_MT_rockefeller/sPriPec2.MT.20190821.fasta.gz
@@ -91,11 +91,11 @@ mito2sizes: |
 mito2version: assembly_MT_rockefeller
 name: Pristis pectinata
 name_: Pristis_pectinata
-pri2date: 2019-08-02
+pri2date: 2019-11-18
 pri2filesize: 659 MB
 pri2n50ctg: 11068733
-pri2n50scf: 50858502
-pri2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_vgp_standard_1.5/sPriPec2.pri.asm.20190802.fasta.gz
+pri2n50scf: 53952022
+pri2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.pri.cur.20191118.fasta.gz
 pri2sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -113,12 +113,12 @@ pri2sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 38.51 Mbp </td><td> 1 </td><td> 145.80 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 32.68 Mbp </td><td> 4 </td><td> 116.56 Mbp </td></tr>  <tr><td> 30 </td><td> 23 </td><td> 22.28 Mbp </td><td> 6 </td><td> 104.35 Mbp </td></tr>  <tr><td> 40 </td><td> 38 </td><td> 17.01 Mbp </td><td> 9 </td><td> 101.70 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 58 </td><td style="background-color:#88ff88;"> 11.07 Mbp </td><td> 13 </td><td style="background-color:#88ff88;"> 50.86 Mbp </td></tr>  <tr><td> 60 </td><td> 87 </td><td> 8.14 Mbp </td><td> 19 </td><td> 41.07 Mbp </td></tr>  <tr><td> 70 </td><td> 143 </td><td> 3.00 Mbp </td><td> 27 </td><td> 31.34 Mbp </td></tr>  <tr><td> 80 </td><td> 638 </td><td> 68.70 Kbp </td><td> 50 </td><td> 2.47 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 38.51 Mbp </td><td> 1 </td><td> 145.56 Mbp </td></tr>  <tr><td> 20 </td><td> 13 </td><td> 32.68 Mbp </td><td> 3 </td><td> 120.47 Mbp </td></tr>  <tr><td> 30 </td><td> 23 </td><td> 22.28 Mbp </td><td> 6 </td><td> 104.35 Mbp </td></tr>  <tr><td> 40 </td><td> 38 </td><td> 17.01 Mbp </td><td> 9 </td><td> 101.70 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 58 </td><td style="background-color:#88ff88;"> 11.07 Mbp </td><td> 12 </td><td style="background-color:#88ff88;"> 53.95 Mbp </td></tr>  <tr><td> 60 </td><td> 87 </td><td> 8.14 Mbp </td><td> 18 </td><td> 44.17 Mbp </td></tr>  <tr><td> 70 </td><td> 143 </td><td> 3.00 Mbp </td><td> 26 </td><td> 31.93 Mbp </td></tr>  <tr><td> 80 </td><td> 640 </td><td> 68.70 Kbp </td><td> 40 </td><td> 5.27 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.803x </th><th> 868 </th><th> 2.25 Gbp </th><th> 248 </th><th> 2.28 Gbp </th></tr>
+  <tr><th> 0.803x </th><th> 870 </th><th> 2.25 Gbp </th><th> 172 </th><th> 2.27 Gbp </th></tr>
   </tfoot>
   </table>
-pri2version: assembly_vgp_standard_1.5
+pri2version: assembly_curated
 short_name: sPriPec
 taxon_id: 685728
 ---

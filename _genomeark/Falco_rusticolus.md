@@ -7,7 +7,12 @@ data_10x_coverage: 107.77x
 data_10x_files: 16
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_rusticolus/bFalRus1/genomic_data/10x/ .<br>
 data_10x_scale: 2.0814
-data_arima_scale: 1
+data_arima_bases: 78.39 Gbp
+data_arima_bytes: 48.593 GB
+data_arima_coverage: 55.99x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_rusticolus/bFalRus1/genomic_data/arima/ .<br>
+data_arima_scale: 1.5024
 data_bionano_bases: 345.00 Gbp
 data_bionano_bytes: 0.592 GB
 data_bionano_coverage: 246.43x
@@ -23,12 +28,12 @@ data_pbsubreads_files: 12
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5247
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
-last_raw_data: 1564926515
-last_updated: 1570719802
+last_raw_data: 1574105418
+last_updated: 1574105418
 mito1date: 2019-10-02
 mito1filesize: 9 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_MT_rockefeller/bFalRus1.MT.20191002.fasta.gz
