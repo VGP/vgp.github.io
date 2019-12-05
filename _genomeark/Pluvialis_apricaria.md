@@ -23,33 +23,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1574797217
-last_updated: 1575555887
-mito1date: 2019-12-05
-mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Pluvialis_apricaria/bPluApr1/assembly_MT_rockefeller/bPluApr1.MT.20191205.fasta.gz
-mito1sizes: |
-  <table class="sequence-sizes-table">
-  <thead>
-  <tr>
-  <th></th>
-  <th colspan=2 align=center>Contigs</th>
-  <th colspan=2 align=center>Scaffolds</th>
-  </tr>
-  <tr>
-  <th>NG</th>
-  <th>LG</th>
-  <th>Len</th>
-  <th>LG</th>
-  <th>Len</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
-  <tfoot>
-  <tr><th> 6818 </th><th> A </th><th> 0.3306  bp </th><th> A </th><th> 0.3306  bp </th></tr>
-  </tfoot>
-  </table>
-mito1version: assembly_MT_rockefeller
+last_updated: 1574797217
 name: Pluvialis apricaria
 name_: Pluvialis_apricaria
 short_name: bPluApr
