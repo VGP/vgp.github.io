@@ -30,34 +30,36 @@ alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: leatherback sea turtle
-data_10x_bases: unknown
+data_10x_bases: 291.98 Gbp
 data_10x_bytes: 139.545 GB
-data_10x_coverage: N/A
+data_10x_coverage: 116.79x
 data_10x_files: 6
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9487
-data_arima_bases: unknown
+data_arima_bases: 184.08 Gbp
 data_arima_bytes: 93.416 GB
-data_arima_coverage: N/A
+data_arima_coverage: 73.63x
 data_arima_files: 6
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8352
-data_bionano_bases: unknown
+data_bionano_bases: 1689.74 Gbp
 data_bionano_bytes: 2.931 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 675.90x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbsubreads_bases: 159.20 Gbp
 data_pbsubreads_bytes: 276.004 GB
-data_pbsubreads_coverage: N/A
+data_pbsubreads_coverage: 63.68x
 data_pbsubreads_files: 34
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genome_size: 2500000000
+genome_size_display: 2.50 Gbp
 last_raw_data: 1563832512
 last_updated: 1569937038
 mito1date: 2019-08-20
