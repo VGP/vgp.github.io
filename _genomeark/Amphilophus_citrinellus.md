@@ -12,7 +12,7 @@ data_status: <em style="color:red">no data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_updated: 1575440485
+last_updated: 1574430408
 name: Amphilophus citrinellus
 name_: Amphilophus_citrinellus
 short_name: fAmpCit

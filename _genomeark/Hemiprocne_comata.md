@@ -1,12 +1,7 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: whiskered treeswift
-data_10x_bases: 73.38 Gbp
-data_10x_bytes: 37.324 GB
-data_10x_coverage: 73.38x
-data_10x_files: 3
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiprocne_comata/bHemCom1/genomic_data/10x/ .<br>
-data_10x_scale: 1.8311
+data_10x_scale: 1
 data_arima_scale: 1
 data_bionano_bases: 1112.43 Gbp
 data_bionano_bytes: 2.152 GB
@@ -27,8 +22,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1574796801
-last_updated: 1574796801
+last_raw_data: 1568743238
+last_updated: 1568743238
 name: Hemiprocne comata
 name_: Hemiprocne_comata
 short_name: bHemCom

@@ -1,1 +1,0 @@
-../_genomeark/Myotis_myotis.md

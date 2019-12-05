@@ -61,7 +61,7 @@ genome_size: 1310000000
 genome_size_display: 1.31 Gbp
 genome_size_method: null
 last_raw_data: 1571172946
-last_updated: 1574691183
+last_updated: 1574158664
 name: Hirundo rustica
 name_: Hirundo_rustica
 pri1date: 2019-11-16

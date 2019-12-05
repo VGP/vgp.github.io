@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-11-25
-alt1filesize: 199 MB
-alt1n50ctg: 257952
-alt1n50scf: 258427
-alt1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_curated/fHipHip1.alt.cur.20191125.fasta.gz
+alt1date: 2019-08-23
+alt1filesize: 197 MB
+alt1n50ctg: 250886
+alt1n50scf: 250886
+alt1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_vgp_standard_1.5/fHipHip1.alt.asm.20190823.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 34 </td><td> 2.18 Mbp </td><td> 34 </td><td> 2.18 Mbp </td></tr>  <tr><td> 20 </td><td> 93 </td><td> 1.41 Mbp </td><td> 93 </td><td> 1.41 Mbp </td></tr>  <tr><td> 30 </td><td> 178 </td><td> 0.97 Mbp </td><td> 178 </td><td> 0.97 Mbp </td></tr>  <tr><td> 40 </td><td> 307 </td><td> 0.58 Mbp </td><td> 307 </td><td> 0.58 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 559 </td><td> 0.26 Mbp </td><td> 558 </td><td> 0.26 Mbp </td></tr>  <tr><td> 60 </td><td> 1525 </td><td> 55.94 Kbp </td><td> 1512 </td><td> 56.85 Kbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 34 </td><td> 2.18 Mbp </td><td> 34 </td><td> 2.18 Mbp </td></tr>  <tr><td> 20 </td><td> 93 </td><td> 1.41 Mbp </td><td> 93 </td><td> 1.41 Mbp </td></tr>  <tr><td> 30 </td><td> 178 </td><td> 0.97 Mbp </td><td> 178 </td><td> 0.97 Mbp </td></tr>  <tr><td> 40 </td><td> 307 </td><td> 0.58 Mbp </td><td> 307 </td><td> 0.58 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 561 </td><td> 0.25 Mbp </td><td> 561 </td><td> 0.25 Mbp </td></tr>  <tr><td> 60 </td><td> 1594 </td><td> 51.32 Kbp </td><td> 1594 </td><td> 51.32 Kbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.677x </th><th> 4115 </th><th> 0.68 Gbp </th><th> 4053 </th><th> 0.68 Gbp </th></tr>
+  <tr><th> 0.668x </th><th> 3969 </th><th> 0.67 Gbp </th><th> 3969 </th><th> 0.67 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_curated
-assembly: assembly_curated
-assembly_status: <em style="color:green">curated assembly</em>
+alt1version: assembly_vgp_standard_1.5
+assembly: assembly_vgp_standard_1.5
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: Atlantic halibut
 data_10x_bases: 73.76 Gbp
 data_10x_bytes: 37.667 GB
@@ -62,7 +62,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1570030503
-last_updated: 1574789906
+last_updated: 1570719802
 mito1date: 2019-10-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_MT_rockefeller/fHipHip1.MT.20191004.fasta.gz
@@ -91,11 +91,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Hippoglossus hippoglossus
 name_: Hippoglossus_hippoglossus
-pri1date: 2019-11-25
-pri1filesize: 172 MB
-pri1n50ctg: 1520163
-pri1n50scf: 21256114
-pri1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_curated/fHipHip1.pri.cur.20191125.fasta.gz
+pri1date: 2019-08-23
+pri1filesize: 175 MB
+pri1n50ctg: 1581787
+pri1n50scf: 20721812
+pri1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_vgp_standard_1.5/fHipHip1.pri.asm.20190823.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -113,12 +113,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 17.54 Mbp </td><td> 3 </td><td> 29.17 Mbp </td></tr>  <tr><td> 20 </td><td> 11 </td><td> 11.80 Mbp </td><td> 6 </td><td> 28.51 Mbp </td></tr>  <tr><td> 30 </td><td> 22 </td><td> 7.02 Mbp </td><td> 10 </td><td> 26.31 Mbp </td></tr>  <tr><td> 40 </td><td> 40 </td><td> 4.20 Mbp </td><td> 14 </td><td> 24.74 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 77 </td><td style="background-color:#88ff88;"> 1.52 Mbp </td><td> 18 </td><td style="background-color:#88ff88;"> 21.26 Mbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 4 </td><td> 17.98 Mbp </td><td> 3 </td><td> 28.85 Mbp </td></tr>  <tr><td> 20 </td><td> 11 </td><td> 11.85 Mbp </td><td> 6 </td><td> 27.46 Mbp </td></tr>  <tr><td> 30 </td><td> 22 </td><td> 7.15 Mbp </td><td> 10 </td><td> 24.89 Mbp </td></tr>  <tr><td> 40 </td><td> 39 </td><td> 4.49 Mbp </td><td> 15 </td><td> 22.38 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 75 </td><td style="background-color:#88ff88;"> 1.58 Mbp </td><td> 19 </td><td style="background-color:#88ff88;"> 20.72 Mbp </td></tr>  <tr><td> 60 </td><td> 283 </td><td> 69.45 Kbp </td><td> 40 </td><td> 0.78 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.593x </th><th> 346 </th><th> 0.59 Gbp </th><th> 56 </th><th> 0.60 Gbp </th></tr>
+  <tr><th> 0.602x </th><th> 347 </th><th> 0.60 Gbp </th><th> 106 </th><th> 0.61 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_curated
+pri1version: assembly_vgp_standard_1.5
 short_name: fHipHip
 taxon_id: 8267
 ---

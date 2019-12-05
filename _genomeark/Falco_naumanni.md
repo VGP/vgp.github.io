@@ -1,12 +1,7 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: lesser kestrel
-data_10x_bases: 88.71 Gbp
-data_10x_bytes: 44.819 GB
-data_10x_coverage: 65.71x
-data_10x_files: 3
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_naumanni/bFalNau1/genomic_data/10x/ .<br>
-data_10x_scale: 1.8433
+data_10x_scale: 1
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_bases: 348.92 Gbp
@@ -27,8 +22,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1350000000
 genome_size_display: 1.35 Gbp
 genome_size_method: kmers
-last_raw_data: 1574796002
-last_updated: 1574796002
+last_raw_data: 1573669733
+last_updated: 1573669733
 name: Falco naumanni
 name_: Falco_naumanni
 short_name: bFalNau
