@@ -19,6 +19,9 @@ Amphilophus_labiatus:
 Anabas_testudineus:
   license: public domain
 
+Antennarius_maculatus:
+  license: CC BY-SA 2.0, author: Bernard DUPONT (wikimedia)
+
 Aquila_chrysaetos:
   license: CC BY-SA 4.0 Diego Delso (wikimedia)
 
@@ -76,11 +79,17 @@ Catharus_ustulatus:
 Chanos_chanos:
   license: CC BY-SA 4.0 Hectonichus (wikimedia)
 
+Chelonia_mydas:
+  license: CC BY-SA 3.0, author:Christoph Schuetzenhofer (wikimedia)
+
 Chiroxiphia_lanceolata:
   license: Copyright Emily DuVal, used with permission
 
 Choloepus_didactylus:
   license: CC BY-SA 3.0 Hans Hillewaert (wikimedia)
+
+Ciconia_maguari:
+  license: unknown
 
 Corvus_moneduloides:
   license: CC BY-NC-SA 2.0 Corvus moneduloides (flickr)
@@ -118,11 +127,17 @@ Dryobates_pubescens:
 Echeneis_naucrates:
   license: CC BY 2.0 Richard ling (wikimedia)
 
+Erethizon_dorsatum:
+  license: unknown
+
 Erithacus_rubecula:
   license: CC BY-SA 2.0, Juan Emilio (wikimedia)
 
 Erpetoichthys_calabaricus:
   license: CC BY-SA 3.0 Michał Zalewski (wikimedia)
+
+Falco_naumanni:
+  license: Copyright Michele Mendi, used with permission
 
 Falco_rusticolus:
   license: Copyright Qatar Falcon Genome Project, Al-Gannas Qatari Society, used with permission
@@ -147,6 +162,12 @@ Gopherus_flavomarginatus:
 
 Gouania_willdenowi:
   license: Copyright Maximillian Wagner, used with permission
+
+Hemiprocne_comata:
+  license: unknown
+
+Hemiscyllium_ocellatum:
+  license: unknown
 
 Hippoglossus_hippoglossus:
   license: public domain
@@ -175,6 +196,9 @@ Malacosteus_niger:
 Mastacembelus_armatus:
   license: public domain
 
+Megalops_cyprinoides:
+  license: no copyright, public domain, user:Melanochromis (wikimedia)
+
 Melopsittacus_undulatus:
   license: CC BY-SA 3.0 Atlanta Zoo (wikimedia)
 
@@ -186,6 +210,9 @@ Microcaecilia_unicolor:
 
 Mustela_erminea:
   license: Copyright Patrick Garvey, used with permission
+
+Myotis_myotis:
+  license: CC BY-SA 4.0, author: MissMhisi (wikimedia)
 
 Myripristis_murdjan:
   license: CC BY 2.0 Rickard Zerpe (flickr)
@@ -226,6 +253,12 @@ Phyllostomus_discolor:
 Pipistrellus_pipistrellus:
   license: CC BY-SA 2.0, Gilles San Martin (flickr)
 
+Pluvialis_apricaria:
+  license: unknown
+
+Pogoniulus_pusillus:
+  license: unknown
+
 Pristis_pectinata:
   license: CC BY-NC-ND 2.0 myfwc (flickr)
 
@@ -265,6 +298,9 @@ Scleropages_formosus:
 Scyliorhinus_canicula:
   license: CC BY-SA 4.0 Hans Hillewaert (wikimedia)
 
+Sebastes_umbrosus:
+  license: unknown
+
 Sparus_aurata:
   license: CC BY 3.0 Roberto Pillon (wikimedia)
 
@@ -303,6 +339,9 @@ Takifugu_rubripes:
 
 Tauraco_erythrolophus:
   license: (pixabay)
+
+Tautogolabrus_adspersus:
+  license: unknown
 
 Thalassophryne_amazonica:
   license: Copyright Ralf Britz/NHM, used with permission
