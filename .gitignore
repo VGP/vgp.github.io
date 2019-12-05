@@ -11,3 +11,4 @@ package.json
 restart-jekyll.sh
 notes.txt
 schema.pdf
+_statistics-cache/genomeark.ls
