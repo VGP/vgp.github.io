@@ -893,17 +893,17 @@ sub processAssembly ($$$) {
     if (($prialt eq "pri") ||
         ($prialt eq "mat") ||
         ($prialt eq "pat")) {
-        if (($$data{"${prialt}${sNum}n50ctg"} < $goodCTG) ||
-            ($$data{"${prialt}${sNum}n50scf"} < $goodSCF)) {
+        if ($aLabel =~ m/curated/) {
+            $$data{"assembly_status"} = "curated";
+        }
+
+        elsif (($$data{"${prialt}${sNum}n50ctg"} < $goodCTG) ||
+               ($$data{"${prialt}${sNum}n50scf"} < $goodSCF)) {
             $$data{"assembly_status"} = "low-quality-draft";
         }
 
-        elsif ($aLabel !~ m/curated/) {
-            $$data{"assembly_status"} = "high-quality-draft";
-        }
-
         else {
-            $$data{"assembly_status"} = "curated";
+            $$data{"assembly_status"} = "high-quality-draft";
         }
     }
 }

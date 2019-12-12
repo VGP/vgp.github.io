@@ -28,7 +28,7 @@ alt1sizes: |
   </table>
 alt1version: assembly_curated
 assembly: assembly_curated
-assembly_status: <em style="color:red">low-quality draft assembly</em>
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: sea lamprey
 data_10x_bases: 100.51 Gbp
 data_10x_bytes: 50.509 GB

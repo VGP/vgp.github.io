@@ -26,7 +26,7 @@ alt1sizes: |
   </table>
 alt1version: assembly_curated
 assembly: assembly_curated
-assembly_status: <em style="color:red">low-quality draft assembly</em>
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: lumpfish
 data_10x_bases: 61.32 Gbp
 data_10x_bytes: 29.348 GB
