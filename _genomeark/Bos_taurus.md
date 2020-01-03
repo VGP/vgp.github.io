@@ -15,7 +15,12 @@ data_bionano_coverage: 284.15x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Bos_taurus/mBosTau1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_scale: 1
+data_illumina_bases: 234.15 Gbp
+data_illumina_bytes: 152.498 GB
+data_illumina_coverage: 86.72x
+data_illumina_files: 12
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Bos_taurus/mBosTau1/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.43
 data_pbhifi_scale: 1
 data_pbsubreads_bases: 362.43 Gbp
 data_pbsubreads_bytes: 970.499 GB
@@ -33,8 +38,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2700000000
 genome_size_display: 2.70 Gbp
 genome_size_method: null
-last_raw_data: 1568136753
-last_updated: 1570567109
+last_raw_data: 1577216959
+last_updated: 1577216959
 mat1date: 2019-10-07
 mat1filesize: 776 MB
 mat1n50ctg: 26764281

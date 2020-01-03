@@ -28,7 +28,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1574795103
-last_updated: 1574795103
+last_updated: 1577287365
 name: Ciconia maguari
 name_: Ciconia_maguari
 short_name: bCicMag

@@ -33,10 +33,10 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 last_raw_data: 1574105418
-last_updated: 1574105418
-mito1date: 2019-10-02
-mito1filesize: 9 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_MT_rockefeller/bFalRus1.MT.20191002.fasta.gz
+last_updated: 1576511321
+mito1date: 2019-12-16
+mito1filesize: 6 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_MT_rockefeller/bFalRus1.MT.20191216.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -56,7 +56,7 @@ mito1sizes: |
   <tbody>
   <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 10971 </th><th> A </th><th> 0.2649  bp </th><th> A </th><th> 0.2649  bp </th></tr>
+  <tr><th> 6138 </th><th> A </th><th> 0.3320  bp </th><th> A </th><th> 0.3320  bp </th></tr>
   </tfoot>
   </table>
 mito1version: assembly_MT_rockefeller

@@ -61,7 +61,35 @@ data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900651595.1
 genbank_pri: GCA_900634625.1
 last_raw_data: 1535575225
-last_updated: 1547564193
+last_updated: 1576512992
+mito2date: 2019-12-16
+mito2filesize: 5 KB
+mito2n50ctg: 17024
+mito2n50scf: 17024
+mito2seq: https://s3.amazonaws.com/genomeark/species/Parambassis_ranga/fParRan2/assembly_MT_rockefeller/fParRan2.MT.20191216.fasta.gz
+mito2sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 17.02 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 17.02 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 17.02 Kbp </td><td> 0 </td><td> 17.02 Kbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.000x </th><th> 1 </th><th> 17.02 Kbp </th><th> 1 </th><th> 17.02 Kbp </th></tr>
+  </tfoot>
+  </table>
+mito2version: assembly_MT_rockefeller
 name: Parambassis ranga
 name_: Parambassis_ranga
 pri2date: 2018-12-05

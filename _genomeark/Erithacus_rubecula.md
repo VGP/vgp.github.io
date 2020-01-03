@@ -8,7 +8,12 @@ data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Erithacus_rubecula/bEriRub2/genomic_data/10x/ .<br>
 data_10x_scale: 1.5001
 data_arima_scale: 1
-data_dovetail_scale: 1
+data_dovetail_bases: unknown
+data_dovetail_bytes: 85.060 GB
+data_dovetail_coverage: N/A
+data_dovetail_files: 1
+data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Erithacus_rubecula/bEriRub2/genomic_data/dovetail/ .<br>
+data_dovetail_scale: 1.4954
 data_illumina_scale: 1
 data_pbhifi_scale: 1
 data_pbsubreads_bases: unknown
@@ -19,8 +24,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Erit
 data_pbsubreads_scale: 0.5325
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1565281353
-last_updated: 1565281353
+last_raw_data: 1576664929
+last_updated: 1576664929
 name: Erithacus rubecula
 name_: Erithacus_rubecula
 short_name: bEriRub

@@ -7,7 +7,12 @@ data_10x_coverage: N/A
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Trachurus_trachurus/fTraTra1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4215
-data_arima_scale: 1
+data_arima_bases: unknown
+data_arima_bytes: 52.475 GB
+data_arima_coverage: N/A
+data_arima_files: 6
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Trachurus_trachurus/fTraTra1/genomic_data/arima/ .<br>
+data_arima_scale: 1.5251
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
@@ -19,8 +24,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trac
 data_pbsubreads_scale: 0.5163
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1565284469
-last_updated: 1570719805
+last_raw_data: 1576663199
+last_updated: 1576663199
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1n50ctg: 16561

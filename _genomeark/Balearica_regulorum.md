@@ -62,10 +62,10 @@ genome_size: 1450000000
 genome_size_display: 1.45 Gbp
 genome_size_method: null
 last_raw_data: 1571157943
-last_updated: 1576097617
-mito1date: 2019-08-20
+last_updated: 1576514397
+mito1date: 2019-12-16
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Balearica_regulorum/bBalReg1/assembly_MT_rockefeller/bBalReg1.MT.20190820.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Balearica_regulorum/bBalReg1/assembly_MT_rockefeller/bBalReg1.MT.20191216.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -85,7 +85,7 @@ mito1sizes: |
   <tbody>
   <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 6177 </th><th> A </th><th> 0.3168  bp </th><th> A </th><th> 0.3168  bp </th></tr>
+  <tr><th> 6070 </th><th> A </th><th> 0.3156  bp </th><th> A </th><th> 0.3156  bp </th></tr>
   </tfoot>
   </table>
 mito1version: assembly_MT_rockefeller
