@@ -61,7 +61,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2500000000
 genome_size_display: 2.50 Gbp
 last_raw_data: 1563832512
-last_updated: 1569937038
+last_updated: 1578423710
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1n50ctg: 16625

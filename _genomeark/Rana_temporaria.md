@@ -8,6 +8,11 @@ data_10x_files: 36
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana_temporaria/aRanTem1/genomic_data/10x/ .<br>
 data_10x_scale: 1.488
 data_arima_scale: 1
+data_bionano_bases: unknown
+data_bionano_bytes: 2.186 GB
+data_bionano_coverage: N/A
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana_temporaria/aRanTem1/genomic_data/bionano/ .<br>
 data_dovetail_bases: unknown
 data_dovetail_bytes: 222.656 GB
 data_dovetail_coverage: N/A
@@ -23,9 +28,9 @@ data_pbsubreads_files: 6
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana_temporaria/aRanTem1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5125
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
-last_raw_data: 1562074881
-last_updated: 1570719805
+data_status: <em style="color:green">all data</em>
+last_raw_data: 1578516698
+last_updated: 1578516698
 mito1date: 2019-10-03
 mito1filesize: 6 KB
 mito1n50ctg: 22664
