@@ -62,7 +62,7 @@ genome_size: 1250000000
 genome_size_display: 1.25 Gbp
 genome_size_method: null
 last_raw_data: 1547232348
-last_updated: 1565898027
+last_updated: 1579715146
 name: Phoenicopterus ruber
 name_: Phoenicopterus_ruber
 pri1date: 2019-08-13

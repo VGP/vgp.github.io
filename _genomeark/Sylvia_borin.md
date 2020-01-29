@@ -61,8 +61,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 genome_size_method: null
-last_raw_data: 1579617542
-last_updated: 1579617766
+last_raw_data: 1580215658
+last_updated: 1580215658
 name: Sylvia borin
 name_: Sylvia_borin
 pri1date: 2020-01-17

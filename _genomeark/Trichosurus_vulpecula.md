@@ -62,7 +62,7 @@ genome_size: 3000000000
 genome_size_display: 3.00 Gbp
 genome_size_method: null
 last_raw_data: 1558101664
-last_updated: 1570720101
+last_updated: 1580236061
 mito1date: 2019-10-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Trichosurus_vulpecula/mTriVul1/assembly_MT_rockefeller/mTriVul1.MT.20191004.fasta.gz
