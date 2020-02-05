@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-10-28
+alt1date: 2020-01-13
 alt1filesize: 430 MB
-alt1n50ctg: 56620
-alt1n50scf: 56620
-alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_vgp_nhgri_1.5/sAmbRad1.alt.asm.20191028.fasta.gz
+alt1n50ctg: 56636
+alt1n50scf: 56656
+alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.alt.cur.20200113.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1027 </td><td> 0.15 Mbp </td><td> 1027 </td><td> 0.15 Mbp </td></tr>  <tr><td> 20 </td><td> 2698 </td><td> 0.11 Mbp </td><td> 2698 </td><td> 0.11 Mbp </td></tr>  <tr><td> 30 </td><td> 4902 </td><td> 83.52 Kbp </td><td> 4902 </td><td> 83.52 Kbp </td></tr>  <tr><td> 40 </td><td> 7649 </td><td> 68.58 Kbp </td><td> 7649 </td><td> 68.58 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 10976 </td><td> 56.62 Kbp </td><td> 10976 </td><td> 56.62 Kbp </td></tr>  <tr><td> 60 </td><td> 15091 </td><td> 44.14 Kbp </td><td> 15091 </td><td> 44.14 Kbp </td></tr>  <tr><td> 70 </td><td> 21251 </td><td> 19.44 Kbp </td><td> 21251 </td><td> 19.44 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1027 </td><td> 0.15 Mbp </td><td> 1027 </td><td> 0.15 Mbp </td></tr>  <tr><td> 20 </td><td> 2698 </td><td> 0.11 Mbp </td><td> 2698 </td><td> 0.11 Mbp </td></tr>  <tr><td> 30 </td><td> 4902 </td><td> 83.52 Kbp </td><td> 4901 </td><td> 83.52 Kbp </td></tr>  <tr><td> 40 </td><td> 7649 </td><td> 68.58 Kbp </td><td> 7648 </td><td> 68.58 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 10975 </td><td> 56.64 Kbp </td><td> 10973 </td><td> 56.66 Kbp </td></tr>  <tr><td> 60 </td><td> 15089 </td><td> 44.17 Kbp </td><td> 15087 </td><td> 44.17 Kbp </td></tr>  <tr><td> 70 </td><td> 21238 </td><td> 19.64 Kbp </td><td> 21236 </td><td> 19.64 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.705x </th><th> 21987 </th><th> 1.46 Gbp </th><th> 21987 </th><th> 1.46 Gbp </th></tr>
+  <tr><th> 0.705x </th><th> 21995 </th><th> 1.46 Gbp </th><th> 21992 </th><th> 1.46 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_nhgri_1.5
-assembly: assembly_vgp_nhgri_1.5
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: thorny skate
 data_10x_bases: 197.33 Gbp
 data_10x_bytes: 114.690 GB
@@ -66,7 +66,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1574701010
-last_updated: 1580235957
+last_updated: 1580930802
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller/sAmbRad1.MT.20190820.fasta.gz
@@ -95,11 +95,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Amblyraja radiata
 name_: Amblyraja_radiata
-pri1date: 2019-10-28
-pri1filesize: 692 MB
-pri1n50ctg: 1667033
-pri1n50scf: 71882045
-pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_vgp_nhgri_1.5/sAmbRad1.pri.asm.20191028.fasta.gz
+pri1date: 2020-01-13
+pri1filesize: 688 MB
+pri1n50ctg: 1639199
+pri1n50scf: 75329052
+pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.pri.cur.20200113.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -117,12 +117,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 30 </td><td> 4.97 Mbp </td><td> 1 </td><td> 154.18 Mbp </td></tr>  <tr><td> 20 </td><td> 79 </td><td> 3.49 Mbp </td><td> 2 </td><td> 152.43 Mbp </td></tr>  <tr><td> 30 </td><td> 148 </td><td> 2.63 Mbp </td><td> 3 </td><td> 134.34 Mbp </td></tr>  <tr><td> 40 </td><td> 236 </td><td> 2.13 Mbp </td><td> 5 </td><td> 110.11 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 346 </td><td style="background-color:#88ff88;"> 1.67 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 71.88 Mbp </td></tr>  <tr><td> 60 </td><td> 483 </td><td> 1.36 Mbp </td><td> 11 </td><td> 60.50 Mbp </td></tr>  <tr><td> 70 </td><td> 657 </td><td> 1.03 Mbp </td><td> 14 </td><td> 54.00 Mbp </td></tr>  <tr><td> 80 </td><td> 894 </td><td> 0.75 Mbp </td><td> 18 </td><td> 47.93 Mbp </td></tr>  <tr><td> 90 </td><td> 1233 </td><td> 0.50 Mbp </td><td> 23 </td><td> 39.10 Mbp </td></tr>  <tr><td> 100 </td><td> 1785 </td><td> 0.28 Mbp </td><td> 29 </td><td> 35.00 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 31 </td><td> 4.85 Mbp </td><td> 1 </td><td> 151.57 Mbp </td></tr>  <tr><td> 20 </td><td> 81 </td><td> 3.40 Mbp </td><td> 2 </td><td> 131.32 Mbp </td></tr>  <tr><td> 30 </td><td> 151 </td><td> 2.57 Mbp </td><td> 4 </td><td> 115.64 Mbp </td></tr>  <tr><td> 40 </td><td> 243 </td><td> 2.06 Mbp </td><td> 6 </td><td> 91.02 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 357 </td><td style="background-color:#88ff88;"> 1.64 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 75.33 Mbp </td></tr>  <tr><td> 60 </td><td> 497 </td><td> 1.34 Mbp </td><td> 11 </td><td> 62.87 Mbp </td></tr>  <tr><td> 70 </td><td> 675 </td><td> 1.01 Mbp </td><td> 15 </td><td> 52.89 Mbp </td></tr>  <tr><td> 80 </td><td> 917 </td><td> 0.73 Mbp </td><td> 19 </td><td> 46.75 Mbp </td></tr>  <tr><td> 90 </td><td> 1262 </td><td> 0.50 Mbp </td><td> 23 </td><td> 40.56 Mbp </td></tr>  <tr><td> 100 </td><td> 1817 </td><td> 0.28 Mbp </td><td> 29 </td><td> 33.34 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.144x </th><th> 4727 </th><th> 2.37 Gbp </th><th> 1314 </th><th> 3.48 Gbp </th></tr>
+  <tr><th> 1.142x </th><th> 4710 </th><th> 2.37 Gbp </th><th> 957 </th><th> 2.56 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_nhgri_1.5
+pri1version: assembly_curated
 short_name: sAmbRad
 taxon_id: 386614
 ---

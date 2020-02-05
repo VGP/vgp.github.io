@@ -20,6 +20,9 @@ my @genomeArkSizes;
 my @genomeArkFiles;
 my $genomeArkLength;
 
+#  List of files we didn't know how to process
+my @potentialErrors;
+
 #
 #  Discover species.
 #
@@ -52,7 +55,7 @@ sub discover (@) {
         #@species = (discoverDir("../_genomeark"));
     }
 
-    print STDERR "Found ", scalar(@species), " species.\n";
+    print "Found ", scalar(@species), " species.\n";
 
     return(@species);
 }
@@ -63,26 +66,26 @@ sub loadGenomeArk () {
     #  If no vgp-metadata directory, clone it.
 
     if (! -e "vgp-metadata") {
-        print STDERR "FETCHING METADATA.\n";
+        print "FETCHING METADATA.\n";
         system("git clone git\@github.com:VGP/vgp-metadata.git");
     }
 
     #  If no genomeark.ls file list, fetch it AND update metadata.
 
     if (0) {
-        print STDERR "UPDATING METADATA.\n";
+        print "UPDATING METADATA.\n";
         system("cd vgp-metadata ; git fetch ; git merge");
     }
 
     if (! -e "genomeark.ls.raw") {
-        print STDERR "FETCHING AWS FILE LIST.\n";
+        print "FETCHING AWS FILE LIST.\n";
         system("aws --no-sign-request s3 ls --recursive s3://genomeark/ > genomeark.ls.raw");
     }
 
     #  Pull in all the good bits from the file list, strip out the bad bits.
 
     if ((-e "genomeark.ls.raw") && (! -e "genomeark.ls")) {
-        print STDERR "FILTERING AWS FILE LIST.\n";
+        print "FILTERING AWS FILE LIST.\n";
 
         open(LSI, "< genomeark.ls.raw");
         open(LSO, "> genomeark.ls");
@@ -107,7 +110,7 @@ sub loadGenomeArk () {
         close(LSI);
     }
 
-    print STDERR "LOADING AWS FILE LIST.\n";
+    print "LOADING AWS FILE LIST.\n";
 
     open(LSI, "< genomeark.ls");
     while (<LSI>) {
@@ -189,21 +192,21 @@ sub loadAssemblyStatus () {
         }
     }
 
-    print STDERR "\n";
-    print STDERR "Latest assembly set by file date.\n";
-    print STDERR "\n";
+    print "\n";
+    print "Latest assembly set by file date.\n";
+    print "\n";
 
     foreach my $speciesName (keys %asmDate) {
         my ($t, $a) = split '\0', $asmDate{$speciesName};
 
-        printf STDERR "%-30s -> %-30s ($t)\n", $speciesName, $a;
+        printf "%-30s -> %-30s ($t)\n", $speciesName, $a;
 
         $asmToShow{$speciesName} = $a;
     }
 
-    print STDERR "\n";
-    print STDERR "Latest assembly set by user.\n";
-    print STDERR "\n";
+    print "\n";
+    print "Latest assembly set by user.\n";
+    print "\n";
 
     open(A, "< assembly_status") or die "Failed to open 'assembly_status' for reading: $!\n";
     while (<A>) {
@@ -213,9 +216,9 @@ sub loadAssemblyStatus () {
 
         if (m/^(\w+_\w+)\s+(a.*)$/) {
             if ($asmToShow{$1} ne $2) {
-                printf STDERR "%-30s -> %-30s (previously %s)\n", $1, $2, $asmToShow{$1};
+                printf "%-30s -> %-30s (previously %s)\n", $1, $2, $asmToShow{$1};
             } else {
-                printf STDERR "%-30s -> %-30s\n", $1, $2;
+                printf "%-30s -> %-30s\n", $1, $2;
             }
 
             $asmToShow{$1} = $2;
@@ -257,12 +260,12 @@ sub loadMeta ($$) {
 
             my $len    = length($indent);
 
-            #print STDERR "\n";
-            #print STDERR "WORK $len $lvl $key -> $value\n";
+            #print "\n";
+            #print "WORK $len $lvl $key -> $value\n";
 
             if      ($len  < $lvl) {
                 while ($len < $lvl) {
-                    #print STDERR "pop     ", $keys[-1], " len=$len lvl=$lvl\n";
+                    #print "pop     ", $keys[-1], " len=$len lvl=$lvl\n";
                     $lvl -= $lvls[-1];
                     pop @keys;
                     pop @lvls;
@@ -270,12 +273,12 @@ sub loadMeta ($$) {
             }
 
             if ($len == $lvl) {
-                #print STDERR "replace ", $keys[-1], "\n";
+                #print "replace ", $keys[-1], "\n";
                 pop @keys;
                 push @keys, $key;
 
             } elsif ($len >  $lvl) {
-                #print STDERR "append  ", $keys[-1], "\n";
+                #print "append  ", $keys[-1], "\n";
                 push @keys, $key;
                 push @lvls, $len - $lvl;
 
@@ -284,7 +287,7 @@ sub loadMeta ($$) {
 
             $key = join '.', @keys;
 
-            #print STDERR "$key: $value\n";
+            #print "$key: $value\n";
 
             $$meta{$key} = $value;
         }
@@ -448,14 +451,14 @@ sub generateAssemblySummary ($$$) {
 
     if ((! -e "downloads/$filename.gz") &&
         (! -e "$filename.$type.summary")) {
-        print STDERR "Fetch s3://genomeark/$filename.gz\n";
+        print "Fetch s3://genomeark/$filename.gz\n";
 
         system("aws --no-sign-request s3 cp s3://genomeark/$filename.gz downloads/$filename.gz");
     }
 
     if ((! -e "downloads/$filename.gz") &&
         (! -e "$filename.$type.summary")) {
-        print STDERR "FAILED TO FETCH '$filename'\n";
+        print "FAILED TO FETCH '$filename'\n";
         exit(1);
     }
 
@@ -466,15 +469,15 @@ sub generateAssemblySummary ($$$) {
         $cmd .= " -size $genomeSize"                                  if ($genomeSize > 0);
         $cmd .= " downloads/$filename.gz > $filename.$type.summary";
 
-        print STDERR "SUMMARIZING '$filename' with genome_size $genomeSize and options '$split'\n";
-        print STDERR "  $cmd\n";
+        print "SUMMARIZING '$filename' with genome_size $genomeSize and options '$split'\n";
+        print "  $cmd\n";
         system("mkdir -p $filename");
         system("rmdir    $filename");
         system($cmd);
     }
 
     if (! -e "$filename.$type.summary") {
-        print STDERR "FAILED TO FIND SIZES '$filename'\n";
+        print "FAILED TO FIND SIZES '$filename'\n";
         exit(1);
     }
 
@@ -690,7 +693,7 @@ sub processData ($$$$$) {
             $$seqFiles{"10x"} += 1;
             $$seqBytes{"10x"} += $filesize;
         } else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
@@ -703,7 +706,7 @@ sub processData ($$$$$) {
             $$seqBytes{"arima"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
         } else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
@@ -716,7 +719,7 @@ sub processData ($$$$$) {
         } elsif ($filename =~ m/bnx.gz/) {
             $$seqBytes{"bionano"} += $filesize;
         } else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
@@ -729,7 +732,7 @@ sub processData ($$$$$) {
             $$seqBytes{"dovetail"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
         } else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
@@ -741,7 +744,7 @@ sub processData ($$$$$) {
             $$seqFiles{"illumina"} += 1;
             $$seqBytes{"illumina"} += $filesize;
         } else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
@@ -778,7 +781,7 @@ sub processData ($$$$$) {
             $$seqBytes{"pbhifi"} += $filesize;
         }
         else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
@@ -791,12 +794,12 @@ sub processData ($$$$$) {
             $$seqBytes{"phase"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
         } else {
-            print STDERR "unknown file type in '$filename'\n";
+            print "unknown file type in '$filename'\n";
         }
     }
 
     elsif ($filename =~ m!/genomic_data/!) {
-        print STDERR "UNKNOWN genomic_data $filename\n";
+        print "UNKNOWN genomic_data $filename\n";
     }
 }
 
@@ -807,11 +810,13 @@ sub processAssembly ($$$) {
     my $filename = shift @_;
     my $data     = shift @_;
 
-    print "PROCESS $filename of size $filesize\n";
+    print " PROCESS $filename of size $filesize\n";
 
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = undef;
 
+    #                    species/Acipenser_ruthenus/fAciRut3/assembly_curated/fAciRut.mat.cur.20191204.fasta.gz
     if    ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).(\w+).\w+.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
+        print "  GENO $1 $2 $3 $4 $6-$7-$8\n";
         $sName   = $1;
         $aLabel  = $2;
         $sTag    = $3;
@@ -822,7 +827,18 @@ sub processAssembly ($$$) {
 
     #                 species/Gopherus_evgoodei/rGopEvg1/assembly_mt_milan/rGopEvg1.MT.20190310.fasta.gz
     elsif ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).MT.(\d\d\d\d)(\d\d)(\d\d).fasta.gz!i) {
-        print STDERR "MITO $1 $2 $3 $4 $6-$7-$8\n";
+        print "  MITO $1 $2 $3 $4 $5-$6-$7\n";
+        $sName   = $1;
+        $aLabel  = $2;
+        $sTag    = $3;
+        $sNum    = $4;
+        $prialt  = "mito";
+        $date    = "$5-$6-$7";
+    }
+
+    #                 species/Bos_taurus       /mBosTau1/assembly_curated /mBosTau1.mat.cur.20191007.MT.fasta.gz
+    elsif ($filename =~ m!species/(.*)/.*/(assembly_.+)/(.......)(\d).\w+.\w+.(\d\d\d\d)(\d\d)(\d\d).MT.fasta.gz!i) {
+        print "  MITO $1 $2 $3 $4 $5-$6-$7\n";
         $sName   = $1;
         $aLabel  = $2;
         $sTag    = $3;
@@ -832,7 +848,8 @@ sub processAssembly ($$$) {
     }
 
     else {
-        print STDERR "  Nothig here.\n";
+        push @potentialErrors, "Couldn't match '$filename'.\n";
+        print "   NO MATCH\n";
         return;
     }
 
@@ -842,14 +859,14 @@ sub processAssembly ($$$) {
     #  If there isn't a date in our database, set it.
 
     if (!exists($$data{"${prialt}${sNum}date"})) {
-        print "  ADD  ${prialt}${sNum}date = $date\n";
+        print "   ADD  ${prialt}${sNum}date = $date\n";
         $$data{"${prialt}${sNum}date"}      = $date;
     }
 
     #  If the date of this file is older than the date of our data, skip it.
 
     if ($date lt $$data{"${prialt}${sNum}date"}) {
-        print "  SKIP ${prialt}${sNum}date = $date\n";
+        print "   SKIP ${prialt}${sNum}date = $date\n";
         next;
     }
 
@@ -857,7 +874,7 @@ sub processAssembly ($$$) {
     #  and wipe out all the old data.
 
     if ($$data{"${prialt}${sNum}date"} lt $date) {
-        print "  RSET ${prialt}${sNum}date = $date\n";
+        print "   RSET ${prialt}${sNum}date = $date\n";
 
         $$data{"${prialt}${sNum}date"} = $date;
     }
@@ -888,7 +905,7 @@ sub processAssembly ($$$) {
 
     #  Update the assembly status based on the primary n50 and/or curation status.
 
-    #print STDERR "$prialt -- " . $$data{"${prialt}${sNum}n50ctg"} . " -- " . $$data{"${prialt}${sNum}n50scf"} . "\n";
+    #print "$prialt -- " . $$data{"${prialt}${sNum}n50ctg"} . " -- " . $$data{"${prialt}${sNum}n50scf"} . "\n";
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") ||
@@ -926,9 +943,9 @@ sub downloadAndSummarize ($$$) {
 
     if ((! -e "downloads/$name") &&
         (! -e "$name.summary")) {
-        printf STDERR "FETCH file #%4d size %6.3f GB '%s'\n", $file, $size / 1024 / 1024 / 1024, $name;
-        printf STDERR " -> downloads/$name\n";
-        #printf STDERR "  aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name\n";
+        printf "FETCH file #%4d size %6.3f GB '%s'\n", $file, $size / 1024 / 1024 / 1024, $name;
+        printf " -> downloads/$name\n";
+        #printf "  aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name\n";
         system("aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
     }
 
@@ -939,13 +956,13 @@ sub downloadAndSummarize ($$$) {
     if ($name =~ m/bam$/) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
-            printf STDERR "EXTRACT bases\n";
+            printf "EXTRACT bases\n";
             system("samtools bam2fq downloads/$name > downloads/$name.fastq");
         }
         if ((  -e "downloads/$name.fastq") &&
             (! -e "$name.summary")) {
-            printf STDERR "SUMMARIZE $name.summary\n";
-            #printf STDERR "  sequence summarize downloads/$name.fastq > $name.summary\n";
+            printf "SUMMARIZE $name.summary\n";
+            #printf "  sequence summarize downloads/$name.fastq > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("sequence summarize downloads/$name.fastq > $name.summary");
@@ -957,8 +974,8 @@ sub downloadAndSummarize ($$$) {
     else {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
-            printf STDERR "SUMMARIZE $name.summary\n";
-            #printf STDERR "  sequence summarize downloads/$name > $name.summary\n";
+            printf "SUMMARIZE $name.summary\n";
+            #printf "  sequence summarize downloads/$name > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("sequence summarize downloads/$name > $name.summary");
@@ -1052,17 +1069,17 @@ sub estimateRawDataScaling ($$) {
     if (($bases1 == 0) ||
         ($bases2 == 0) ||
         ($bases3 == 0)) {
-        print STDERR "FAILED TO ESTIMATE SIZES.\n";
-        print STDERR "  1 - $bases1 - $name1\n";
-        print STDERR "  2 - $bases2 - $name2\n";
-        print STDERR "  3 - $bases3 - $name3\n";
+        print "FAILED TO ESTIMATE SIZES.\n";
+        print "  1 - $bases1 - $name1\n";
+        print "  2 - $bases2 - $name2\n";
+        print "  3 - $bases3 - $name3\n";
         die "\n";
     }
 
-    #print STDERR "\n";
-    #print STDERR "SCALING 1:  size $size1 -- bases $bases1 -- $name1\n";
-    #print STDERR "SCALING 2:  size $size2 -- bases $bases2 -- $name2\n";
-    #print STDERR "SCALING 3:  size $size3 -- bases $bases3 -- $name3\n";
+    #print "\n";
+    #print "SCALING 1:  size $size1 -- bases $bases1 -- $name1\n";
+    #print "SCALING 2:  size $size2 -- bases $bases2 -- $name2\n";
+    #print "SCALING 3:  size $size3 -- bases $bases3 -- $name3\n";
 
     my $scaling = ($bases1 + $bases2 + $bases3) / ($size1 + $size2 + $size3);
 
@@ -1099,7 +1116,7 @@ sub computeBionanoBases ($) {
 
         if ((! -e "downloads/$name") &&
             (! -e "$name.summary")) {
-            printf STDERR "FETCH size %6.3f GB '%s'\n", $size / 1024 / 1024 / 1024, $name;
+            printf "FETCH size %6.3f GB '%s'\n", $size / 1024 / 1024 / 1024, $name;
             system("aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
         }
     }
@@ -1112,7 +1129,7 @@ sub computeBionanoBases ($) {
         next  if (! -e "downloads/$name");
         next  if (  -e "$name.summary");
 
-        print STDERR "PARSING $name\n";
+        print "PARSING $name\n";
 
         my $nMolecules = 0;
         my $sLength    = 0;
@@ -1209,8 +1226,8 @@ foreach my $species (@speciesList) {
 
     $data{"assembly"} = $asm    = $asmToShow{$name};
 
-    print STDERR "\n";
-    print STDERR "$name -- $asm\n";
+    print "\n";
+    print "$name -- $asm\n";
 
     for (my $ii=0; $ii<$genomeArkLength; $ii++) {
         #my $filedate = $genomeArkDates[$ii];
@@ -1221,7 +1238,7 @@ foreach my $species (@speciesList) {
 
         next   if ($filename !~ m!$name!);
 
-        #print "  '$filename'\n";
+        #print "  FILE '$filename'\n";
 
         if ($data{"last_updated"} < $filesecs) {
             $data{"last_updated"} = $filesecs;
@@ -1239,15 +1256,14 @@ foreach my $species (@speciesList) {
 
         #  If this is the assembly_to_show, process it.
         if (($asm ne "") &&
-            ($filename =~ m!$asm.*fasta!i)) {
-            print "  '$filename' -- GENOME\n";
+            ($filename =~ m!$asm.*fasta!i) &&             #  line is fasta with our name in it
+            ($filename =~ m!/assembly_[^/]+/........\.!)) {   #  e.g., /assembly_curated/fSprBri1/
             processAssembly($filesize, $filename, \%data);
             next;
         }
 
         #  But always process mito contigs.
         if ($filename =~ m!assembly_mt.*MT.*fasta!i) {
-            print "  '$filename' -- MITO\n";
             processAssembly($filesize, $filename, \%data);
             next;
         }
@@ -1571,4 +1587,17 @@ foreach my $species (@speciesList) {
 
     #printData($species, \%data);
     saveData($species, \%data);
+}
+
+
+#  And whatever errors we saved.
+
+if (scalar(@potentialErrors > 0)) {
+    print "\n";
+    print "Potential errors found:\n";
+    print "\n";
+
+    foreach my $l (@potentialErrors) {
+        print "  $l";
+    }
 }
