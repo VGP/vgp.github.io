@@ -1,4 +1,5 @@
 ---
+assembly: bPogPus1.pri.asm.20200207.fasta.gz
 assembly_status: <em style="color:red">no assembly</em>
 common_name: Red-fronted tinkerbird
 data_10x_bases: 107.83 Gbp
@@ -33,7 +34,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1579788702
-last_updated: 1579899289
+last_updated: 1581529966
 mito1date: 2020-01-24
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Pogoniulus_pusillus/bPogPus1/assembly_MT_rockefeller/bPogPus1.MT.20200124.fasta.gz

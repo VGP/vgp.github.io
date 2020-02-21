@@ -61,8 +61,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1900000000
 genome_size_display: 1.90 Gbp
 genome_size_method: null
-last_raw_data: 1557292636
-last_updated: 1566486524
+last_raw_data: 1581905198
+last_updated: 1581905198
 name: Thamnophis elegans
 name_: Thamnophis_elegans
 pri1date: 2019-08-20

@@ -1,5 +1,34 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2019-12-05
+alt1filesize: 311 MB
+alt1n50ctg: 1342166
+alt1n50scf: 1342166
+alt1seq: https://s3.amazonaws.com/genomeark/species/Dryobates_pubescens/bDryPub1/assembly_vgp_standard_1.6/bDryPub1.alt.asm.20191205.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 11 </td><td> 9.39 Mbp </td><td> 11 </td><td> 9.39 Mbp </td></tr>  <tr><td> 20 </td><td> 31 </td><td> 5.33 Mbp </td><td> 31 </td><td> 5.33 Mbp </td></tr>  <tr><td> 30 </td><td> 63 </td><td> 3.30 Mbp </td><td> 63 </td><td> 3.30 Mbp </td></tr>  <tr><td> 40 </td><td> 118 </td><td> 2.11 Mbp </td><td> 118 </td><td> 2.11 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 202 </td><td> 1.34 Mbp </td><td> 202 </td><td> 1.34 Mbp </td></tr>  <tr><td> 60 </td><td> 334 </td><td> 0.82 Mbp </td><td> 334 </td><td> 0.82 Mbp </td></tr>  <tr><td> 70 </td><td> 570 </td><td> 0.41 Mbp </td><td> 570 </td><td> 0.41 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.773x </th><th> 1337 </th><th> 1.08 Gbp </th><th> 1337 </th><th> 1.08 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.6
+assembly: assembly_vgp_standard_1.6
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: downy woodpecker
 data_10x_bases: 165.20 Gbp
 data_10x_bytes: 79.508 GB
@@ -33,7 +62,7 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 last_raw_data: 1571156333
-last_updated: 1571156333
+last_updated: 1581380418
 mito1date: 2019-10-05
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Dryobates_pubescens/bDryPub1/assembly_MT_rockefeller/bDryPub1.MT.20191005.fasta.gz
@@ -62,6 +91,34 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Dryobates pubescens
 name_: Dryobates_pubescens
+pri1date: 2019-12-05
+pri1filesize: 339 MB
+pri1n50ctg: 15853833
+pri1n50scf: 34196716
+pri1seq: https://s3.amazonaws.com/genomeark/species/Dryobates_pubescens/bDryPub1/assembly_vgp_standard_1.6/bDryPub1.pri.asm.20191205.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 39.62 Mbp </td><td> 0 </td><td> 140.16 Mbp </td></tr>  <tr><td> 20 </td><td> 7 </td><td> 31.19 Mbp </td><td> 2 </td><td> 49.94 Mbp </td></tr>  <tr><td> 30 </td><td> 11 </td><td> 27.07 Mbp </td><td> 5 </td><td> 47.22 Mbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 19.88 Mbp </td><td> 8 </td><td> 43.78 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 25 </td><td style="background-color:#88ff88;"> 15.85 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 34.20 Mbp </td></tr>  <tr><td> 60 </td><td> 36 </td><td> 10.26 Mbp </td><td> 16 </td><td> 25.44 Mbp </td></tr>  <tr><td> 70 </td><td> 54 </td><td> 6.21 Mbp </td><td> 22 </td><td> 20.26 Mbp </td></tr>  <tr><td> 80 </td><td> 92 </td><td> 1.67 Mbp </td><td> 32 </td><td> 9.16 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.846x </th><th> 370 </th><th> 1.18 Gbp </th><th> 179 </th><th> 1.20 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.6
 short_name: bDryPub
 taxon_id: 118200
 ---

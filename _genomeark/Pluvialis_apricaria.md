@@ -7,7 +7,12 @@ data_10x_coverage: 98.86x
 data_10x_files: 3
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Pluvialis_apricaria/bPluApr1/genomic_data/10x/ .<br>
 data_10x_scale: 1.829
-data_arima_scale: 1
+data_arima_bases: 88.94 Gbp
+data_arima_bytes: 48.604 GB
+data_arima_coverage: 88.94x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Pluvialis_apricaria/bPluApr1/genomic_data/arima/ .<br>
+data_arima_scale: 1.7042
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
@@ -22,8 +27,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1574797217
-last_updated: 1575555887
+last_raw_data: 1581523117
+last_updated: 1581523117
 mito1date: 2019-12-05
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Pluvialis_apricaria/bPluApr1/assembly_MT_rockefeller/bPluApr1.MT.20191205.fasta.gz

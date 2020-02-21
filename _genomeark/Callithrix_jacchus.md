@@ -39,12 +39,12 @@ genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
 last_raw_data: 1561760697
-last_updated: 1578423049
-mat1date: 2019-12-11
+last_updated: 1581957492
+mat1date: 2020-02-12
 mat1filesize: 809 MB
 mat1n50ctg: 6019561
 mat1n50scf: 127657425
-mat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_curated/mCalJac1.mat.cur.20191211.fasta.gz
+mat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_curated/mCalJac1.mat.cur.20200212.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -96,11 +96,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Callithrix jacchus
 name_: Callithrix_jacchus
-pat1date: 2019-12-11
-pat1filesize: 773 MB
+pat1date: 2020-02-12
+pat1filesize: 772 MB
 pat1n50ctg: 9831330
 pat1n50scf: 126104592
-pat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_curated/mCalJac1.pat.cur.20191211.fasta.gz
+pat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_curated/mCalJac1.pat.cur.20200212.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -120,7 +120,7 @@ pat1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 6 </td><td> 35.26 Mbp </td><td> 1 </td><td> 202.81 Mbp </td></tr>  <tr><td> 20 </td><td> 18 </td><td> 24.65 Mbp </td><td> 3 </td><td> 173.41 Mbp </td></tr>  <tr><td> 30 </td><td> 34 </td><td> 18.02 Mbp </td><td> 5 </td><td> 159.67 Mbp </td></tr>  <tr><td> 40 </td><td> 55 </td><td> 14.60 Mbp </td><td> 7 </td><td> 136.97 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 85 </td><td style="background-color:#88ff88;"> 9.83 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 126.10 Mbp </td></tr>  <tr><td> 60 </td><td> 131 </td><td> 5.70 Mbp </td><td> 13 </td><td> 112.97 Mbp </td></tr>  <tr><td> 70 </td><td> 220 </td><td> 2.38 Mbp </td><td> 16 </td><td> 74.70 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.780x </th><th> 1275 </th><th> 2.68 Gbp </th><th> 463 </th><th> 2.69 Gbp </th></tr>
+  <tr><th> 0.779x </th><th> 1124 </th><th> 2.67 Gbp </th><th> 336 </th><th> 2.68 Gbp </th></tr>
   </tfoot>
   </table>
 pat1version: assembly_curated

@@ -39,7 +39,7 @@ genome_size: 2700000000
 genome_size_display: 2.70 Gbp
 genome_size_method: null
 last_raw_data: 1577216959
-last_updated: 1577216959
+last_updated: 1582045550
 mat1date: 2019-10-07
 mat1filesize: 776 MB
 mat1n50ctg: 26764281
@@ -96,11 +96,11 @@ mito1sizes: |
 mito1version: assembly_curated
 name: Bos taurus
 name_: Bos_taurus
-pat1date: 2019-10-07
+pat1date: 2020-02-13
 pat1filesize: 743 MB
 pat1n50ctg: 35242446
 pat1n50scf: 91133937
-pat1seq: https://s3.amazonaws.com/genomeark/species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.pat.cur.20191007.fasta.gz
+pat1seq: https://s3.amazonaws.com/genomeark/species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.pat.cur.20200213.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -120,7 +120,7 @@ pat1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 3 </td><td> 73.60 Mbp </td><td> 1 </td><td> 134.17 Mbp </td></tr>  <tr><td> 20 </td><td> 7 </td><td> 61.25 Mbp </td><td> 4 </td><td> 119.44 Mbp </td></tr>  <tr><td> 30 </td><td> 12 </td><td> 45.73 Mbp </td><td> 6 </td><td> 112.63 Mbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 39.81 Mbp </td><td> 8 </td><td> 106.48 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 25 </td><td style="background-color:#88ff88;"> 35.24 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 91.13 Mbp </td></tr>  <tr><td> 60 </td><td> 35 </td><td> 22.38 Mbp </td><td> 14 </td><td> 82.50 Mbp </td></tr>  <tr><td> 70 </td><td> 48 </td><td> 17.34 Mbp </td><td> 18 </td><td> 69.72 Mbp </td></tr>  <tr><td> 80 </td><td> 69 </td><td> 10.04 Mbp </td><td> 22 </td><td> 60.72 Mbp </td></tr>  <tr><td> 90 </td><td> 114 </td><td> 2.71 Mbp </td><td> 27 </td><td> 44.12 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.953x </th><th> 1717 </th><th> 2.57 Gbp </th><th> 1428 </th><th> 2.58 Gbp </th></tr>
+  <tr><th> 0.953x </th><th> 1718 </th><th> 2.57 Gbp </th><th> 1427 </th><th> 2.58 Gbp </th></tr>
   </tfoot>
   </table>
 pat1version: assembly_curated

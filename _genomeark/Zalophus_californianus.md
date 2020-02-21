@@ -62,7 +62,7 @@ genome_size: 3150000000
 genome_size_display: 3.15 Gbp
 genome_size_method: null
 last_raw_data: 1567715103
-last_updated: 1575403834
+last_updated: 1581621550
 mito1date: 2019-10-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Zalophus_californianus/mZalCal1/assembly_MT_rockefeller/mZalCal1.MT.20191004.fasta.gz

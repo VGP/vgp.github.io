@@ -23,7 +23,7 @@ genome_size: 2109999999
 genome_size_display: 2.11 Gbp
 genome_size_method: null
 last_raw_data: 1574864828
-last_updated: 1574864828
+last_updated: 1581515814
 name: Rousettus aegyptiacus
 name_: Rousettus_aegyptiacus
 short_name: mRouAeg

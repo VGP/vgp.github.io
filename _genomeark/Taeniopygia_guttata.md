@@ -58,12 +58,12 @@ alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: zebra finch
-data_10x_bases: 205.67 Gbp
-data_10x_bytes: 123.768 GB
-data_10x_coverage: 198.60x
-data_10x_files: 48
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>
-data_10x_scale: 1.5476
+data_10x_bases: 410.19 Gbp
+data_10x_bytes: 246.371 GB
+data_10x_coverage: 396.09x
+data_10x_files: 54
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/10x/ .<br>
+data_10x_scale: 1.5506
 data_arima_bases: 251.18 Gbp
 data_arima_bytes: 126.558 GB
 data_arima_coverage: 242.54x
@@ -95,8 +95,8 @@ genbank_alt: GCA_003957525.1
 genbank_pri: GCA_003957565.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
-last_raw_data: 1531830272
-last_updated: 1580930277
+last_raw_data: 1581539155
+last_updated: 1581539155
 mat2date: 2020-01-24
 mat2filesize: 284 MB
 mat2n50ctg: 5135743

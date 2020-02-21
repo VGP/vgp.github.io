@@ -30,7 +30,7 @@ data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Myotis_my
 data_phase_scale: 1.7495
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1574722019
-last_updated: 1575574196
+last_updated: 1581513668
 mito1date: 2019-12-05
 mito1filesize: 5 KB
 mito1n50ctg: 17308

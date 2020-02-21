@@ -1,6 +1,6 @@
 ---
-assembly: assembly_curated
-assembly_status: <em style="color:green">curated assembly</em>
+assembly: assembly_rockefeller_trio_1.6
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: African grass rat
 data_10x_bases: 260.08 Gbp
 data_10x_bytes: 124.201 GB
@@ -39,12 +39,12 @@ genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
 last_raw_data: 1564249507
-last_updated: 1580463891
+last_updated: 1581070210
 mat1date: 2019-09-03
-mat1filesize: 711 MB
+mat1filesize: 659 MB
 mat1n50ctg: 5000289
 mat1n50scf: 63826408
-mat1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_curated/mArvNil1.mat.cur.20190903.fasta.gz
+mat1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_rockefeller_trio_1.6/mArvNil1.mat.asm.20190903.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -62,12 +62,12 @@ mat1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 10 </td><td> 25.57 Mbp </td><td> 2 </td><td> 139.09 Mbp </td></tr>  <tr><td> 20 </td><td> 28 </td><td> 16.42 Mbp </td><td> 4 </td><td> 131.09 Mbp </td></tr>  <tr><td> 30 </td><td> 54 </td><td> 11.48 Mbp </td><td> 8 </td><td> 88.78 Mbp </td></tr>  <tr><td> 40 </td><td> 89 </td><td> 7.78 Mbp </td><td> 12 </td><td> 78.78 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 142 </td><td style="background-color:#88ff88;"> 5.00 Mbp </td><td> 16 </td><td style="background-color:#88ff88;"> 63.83 Mbp </td></tr>  <tr><td> 60 </td><td> 262 </td><td> 1.62 Mbp </td><td> 23 </td><td> 48.51 Mbp </td></tr>  <tr><td> 70 </td><td> 1417 </td><td> 76.53 Kbp </td><td> 43 </td><td> 0.84 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 10 </td><td> 25.57 Mbp </td><td> 2 </td><td> 139.09 Mbp </td></tr>  <tr><td> 20 </td><td> 28 </td><td> 16.42 Mbp </td><td> 4 </td><td> 131.09 Mbp </td></tr>  <tr><td> 30 </td><td> 54 </td><td> 11.48 Mbp </td><td> 8 </td><td> 88.78 Mbp </td></tr>  <tr><td> 40 </td><td> 89 </td><td> 7.78 Mbp </td><td> 12 </td><td> 78.78 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 142 </td><td style="background-color:#88ff88;"> 5.00 Mbp </td><td> 16 </td><td style="background-color:#88ff88;"> 63.83 Mbp </td></tr>  <tr><td> 60 </td><td> 262 </td><td> 1.62 Mbp </td><td> 23 </td><td> 48.51 Mbp </td></tr>  <tr><td> 70 </td><td> 1417 </td><td> 76.53 Kbp </td><td> 42 </td><td> 0.88 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.723x </th><th> 3140 </th><th> 2.46 Gbp </th><th> 1614 </th><th> 2.49 Gbp </th></tr>
+  <tr><th> 0.723x </th><th> 3141 </th><th> 2.46 Gbp </th><th> 1615 </th><th> 2.49 Gbp </th></tr>
   </tfoot>
   </table>
-mat1version: assembly_curated
+mat1version: assembly_rockefeller_trio_1.6
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_MT_rockefeller/mArvNil1.MT.20190820.fasta.gz
@@ -97,10 +97,10 @@ mito1version: assembly_MT_rockefeller
 name: Arvicanthis niloticus
 name_: Arvicanthis_niloticus
 pat1date: 2019-09-03
-pat1filesize: 711 MB
+pat1filesize: 659 MB
 pat1n50ctg: 5584045
 pat1n50scf: 64041812
-pat1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_curated/mArvNil1.pat.cur.20190903.fasta.gz
+pat1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_rockefeller_trio_1.6/mArvNil1.pat.asm.20190903.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -118,12 +118,12 @@ pat1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 7 </td><td> 38.05 Mbp </td><td> 1 </td><td> 164.71 Mbp </td></tr>  <tr><td> 20 </td><td> 18 </td><td> 23.56 Mbp </td><td> 3 </td><td> 135.23 Mbp </td></tr>  <tr><td> 30 </td><td> 38 </td><td> 13.77 Mbp </td><td> 6 </td><td> 91.55 Mbp </td></tr>  <tr><td> 40 </td><td> 67 </td><td> 9.55 Mbp </td><td> 11 </td><td> 78.14 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 112 </td><td style="background-color:#88ff88;"> 5.58 Mbp </td><td> 15 </td><td style="background-color:#88ff88;"> 64.04 Mbp </td></tr>  <tr><td> 60 </td><td> 216 </td><td> 1.65 Mbp </td><td> 22 </td><td> 50.89 Mbp </td></tr>  <tr><td> 70 </td><td> 1458 </td><td> 76.79 Kbp </td><td> 34 </td><td> 4.23 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 7 </td><td> 38.05 Mbp </td><td> 1 </td><td> 164.71 Mbp </td></tr>  <tr><td> 20 </td><td> 18 </td><td> 23.56 Mbp </td><td> 3 </td><td> 135.23 Mbp </td></tr>  <tr><td> 30 </td><td> 38 </td><td> 13.77 Mbp </td><td> 6 </td><td> 91.55 Mbp </td></tr>  <tr><td> 40 </td><td> 67 </td><td> 9.55 Mbp </td><td> 11 </td><td> 78.14 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 112 </td><td style="background-color:#88ff88;"> 5.58 Mbp </td><td> 15 </td><td style="background-color:#88ff88;"> 64.04 Mbp </td></tr>  <tr><td> 60 </td><td> 216 </td><td> 1.65 Mbp </td><td> 22 </td><td> 50.89 Mbp </td></tr>  <tr><td> 70 </td><td> 1458 </td><td> 76.79 Kbp </td><td> 34 </td><td> 4.38 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.723x </th><th> 3303 </th><th> 2.46 Gbp </th><th> 1740 </th><th> 2.52 Gbp </th></tr>
+  <tr><th> 0.724x </th><th> 3317 </th><th> 2.46 Gbp </th><th> 1754 </th><th> 2.52 Gbp </th></tr>
   </tfoot>
   </table>
-pat1version: assembly_curated
+pat1version: assembly_rockefeller_trio_1.6
 short_name: mArvNil
 taxon_id: 61156
 ---

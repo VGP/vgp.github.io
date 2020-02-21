@@ -7,7 +7,12 @@ data_10x_coverage: 154.98x
 data_10x_files: 3
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Ciconia_maguari/bCicMag1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8458
-data_arima_scale: 1
+data_arima_bases: 116.03 Gbp
+data_arima_bytes: 65.246 GB
+data_arima_coverage: 116.03x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Ciconia_maguari/bCicMag1/genomic_data/arima/ .<br>
+data_arima_scale: 1.6562
 data_bionano_bases: 806.51 Gbp
 data_bionano_bytes: 1.395 GB
 data_bionano_coverage: 806.51x
@@ -23,12 +28,12 @@ data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1574795103
-last_updated: 1577287365
+last_raw_data: 1581521963
+last_updated: 1581521963
 name: Ciconia maguari
 name_: Ciconia_maguari
 short_name: bCicMag
