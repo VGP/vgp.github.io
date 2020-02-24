@@ -39,12 +39,12 @@ genome_size: 2700000000
 genome_size_display: 2.70 Gbp
 genome_size_method: null
 last_raw_data: 1577216959
-last_updated: 1582045550
-mat1date: 2019-10-07
-mat1filesize: 776 MB
+last_updated: 1582287767
+mat1date: 2020-02-13
+mat1filesize: 777 MB
 mat1n50ctg: 26764281
 mat1n50scf: 104466507
-mat1seq: https://s3.amazonaws.com/genomeark/species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.mat.cur.20191007.fasta.gz
+mat1seq: https://s3.amazonaws.com/genomeark/species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.mat.cur.20200213.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -64,7 +64,7 @@ mat1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 3 </td><td> 63.69 Mbp </td><td> 1 </td><td> 145.54 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 47.65 Mbp </td><td> 3 </td><td> 120.79 Mbp </td></tr>  <tr><td> 30 </td><td> 14 </td><td> 38.56 Mbp </td><td> 6 </td><td> 117.22 Mbp </td></tr>  <tr><td> 40 </td><td> 22 </td><td> 32.06 Mbp </td><td> 8 </td><td> 110.43 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 31 </td><td style="background-color:#88ff88;"> 26.76 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 104.47 Mbp </td></tr>  <tr><td> 60 </td><td> 42 </td><td> 24.09 Mbp </td><td> 13 </td><td> 84.27 Mbp </td></tr>  <tr><td> 70 </td><td> 55 </td><td> 17.44 Mbp </td><td> 17 </td><td> 72.62 Mbp </td></tr>  <tr><td> 80 </td><td> 73 </td><td> 12.95 Mbp </td><td> 21 </td><td> 62.58 Mbp </td></tr>  <tr><td> 90 </td><td> 106 </td><td> 5.48 Mbp </td><td> 25 </td><td> 51.31 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.992x </th><th> 1549 </th><th> 2.68 Gbp </th><th> 1250 </th><th> 2.68 Gbp </th></tr>
+  <tr><th> 0.992x </th><th> 1553 </th><th> 2.68 Gbp </th><th> 1252 </th><th> 2.68 Gbp </th></tr>
   </tfoot>
   </table>
 mat1version: assembly_curated
