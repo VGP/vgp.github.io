@@ -22,19 +22,19 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Molossu
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: 104.02 Gbp
-data_pbsubreads_bytes: 180.377 GB
-data_pbsubreads_coverage: 44.86x
-data_pbsubreads_files: 47
+data_pbsubreads_bases: 135.04 Gbp
+data_pbsubreads_bytes: 235.251 GB
+data_pbsubreads_coverage: 58.23x
+data_pbsubreads_files: 52
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Molossus_molossus/mMolMol1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
-data_pbsubreads_scale: 0.5371
+data_pbsubreads_scale: 0.5346
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 2319008189
 genome_size_display: 2.32 Gbp
 genome_size_method: DAmar assembly
-last_raw_data: 1582494962
-last_updated: 1582494962
+last_raw_data: 1582495898
+last_updated: 1582495898
 name: Molossus molossus
 name_: Molossus_molossus
 pri1date: 2019-04-18
