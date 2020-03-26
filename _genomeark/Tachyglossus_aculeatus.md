@@ -16,12 +16,12 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachygl
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: 49.98 Gbp
-data_pbsubreads_bytes: 179.363 GB
-data_pbsubreads_coverage: 17.29x
-data_pbsubreads_files: 268
+data_pbsubreads_bases: 168.46 Gbp
+data_pbsubreads_bytes: 606.932 GB
+data_pbsubreads_coverage: 58.29x
+data_pbsubreads_files: 272
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
-data_pbsubreads_scale: 0.2595
+data_pbsubreads_scale: 0.2585
 data_phase_bases: 42.47 Gbp
 data_phase_bytes: 23.352 GB
 data_phase_coverage: 14.70x
@@ -32,8 +32,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2890000000
 genome_size_display: 2.89 Gbp
 genome_size_method: null
-last_raw_data: 1566156831
-last_updated: 1570720268
+last_raw_data: 1584648955
+last_updated: 1584648955
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_MT_rockefeller/mTacAcu1.MT.20191003.fasta.gz

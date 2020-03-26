@@ -1,6 +1,34 @@
 ---
-assembly: bPogPus1.pri.asm.20200207.fasta.gz
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2020-02-07
+alt1filesize: 315 MB
+alt1n50ctg: 714436
+alt1n50scf: 714436
+alt1seq: https://s3.amazonaws.com/genomeark/species/Pogoniulus_pusillus/bPogPus1/assembly_vgp_standard_1.6/bPogPus1.alt.asm.20200207.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 39 </td><td> 1.96 Mbp </td><td> 39 </td><td> 1.96 Mbp </td></tr>  <tr><td> 20 </td><td> 100 </td><td> 1.41 Mbp </td><td> 100 </td><td> 1.41 Mbp </td></tr>  <tr><td> 30 </td><td> 181 </td><td> 1.10 Mbp </td><td> 181 </td><td> 1.10 Mbp </td></tr>  <tr><td> 40 </td><td> 283 </td><td> 0.87 Mbp </td><td> 283 </td><td> 0.87 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 411 </td><td> 0.71 Mbp </td><td> 411 </td><td> 0.71 Mbp </td></tr>  <tr><td> 60 </td><td> 565 </td><td> 0.59 Mbp </td><td> 565 </td><td> 0.59 Mbp </td></tr>  <tr><td> 70 </td><td> 752 </td><td> 0.48 Mbp </td><td> 752 </td><td> 0.48 Mbp </td></tr>  <tr><td> 80 </td><td> 980 </td><td> 0.39 Mbp </td><td> 980 </td><td> 0.39 Mbp </td></tr>  <tr><td> 90 </td><td> 1272 </td><td> 0.30 Mbp </td><td> 1272 </td><td> 0.30 Mbp </td></tr>  <tr><td> 100 </td><td> 1689 </td><td> 0.19 Mbp </td><td> 1689 </td><td> 0.19 Mbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.098x </th><th> 2726 </th><th> 1.10 Gbp </th><th> 2726 </th><th> 1.10 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_vgp_standard_1.6
+assembly: assembly_vgp_standard_1.6
+assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: Red-fronted tinkerbird
 data_10x_bases: 107.83 Gbp
 data_10x_bytes: 54.502 GB
@@ -34,7 +62,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1579788702
-last_updated: 1581529966
+last_updated: 1583179343
 mito1date: 2020-01-24
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Pogoniulus_pusillus/bPogPus1/assembly_MT_rockefeller/bPogPus1.MT.20200124.fasta.gz
@@ -63,6 +91,34 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Pogoniulus pusillus
 name_: Pogoniulus_pusillus
+pri1date: 2020-02-07
+pri1filesize: 361 MB
+pri1n50ctg: 20642447
+pri1n50scf: 40852380
+pri1seq: https://s3.amazonaws.com/genomeark/species/Pogoniulus_pusillus/bPogPus1/assembly_vgp_standard_1.6/bPogPus1.pri.asm.20200207.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 40.39 Mbp </td><td> 0 </td><td> 118.01 Mbp </td></tr>  <tr><td> 20 </td><td> 5 </td><td> 30.97 Mbp </td><td> 2 </td><td> 50.39 Mbp </td></tr>  <tr><td> 30 </td><td> 8 </td><td> 28.01 Mbp </td><td> 4 </td><td> 47.55 Mbp </td></tr>  <tr><td> 40 </td><td> 12 </td><td> 21.81 Mbp </td><td> 6 </td><td> 43.93 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 17 </td><td style="background-color:#88ff88;"> 20.64 Mbp </td><td> 9 </td><td style="background-color:#88ff88;"> 40.85 Mbp </td></tr>  <tr><td> 60 </td><td> 22 </td><td> 19.07 Mbp </td><td> 11 </td><td> 34.69 Mbp </td></tr>  <tr><td> 70 </td><td> 28 </td><td> 15.34 Mbp </td><td> 14 </td><td> 32.53 Mbp </td></tr>  <tr><td> 80 </td><td> 35 </td><td> 11.60 Mbp </td><td> 18 </td><td> 23.73 Mbp </td></tr>  <tr><td> 90 </td><td> 45 </td><td> 9.21 Mbp </td><td> 22 </td><td> 23.07 Mbp </td></tr>  <tr><td> 100 </td><td> 57 </td><td> 6.92 Mbp </td><td> 27 </td><td> 19.91 Mbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.270x </th><th> 568 </th><th> 1.27 Gbp </th><th> 282 </th><th> 1.28 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_vgp_standard_1.6
 short_name: bPogPus
 taxon_id: 488313
 ---

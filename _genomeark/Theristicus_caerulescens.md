@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: plumbeous ibis
-data_10x_scale: 1
+data_10x_bases: 138.91 Gbp
+data_10x_bytes: 69.418 GB
+data_10x_coverage: 138.91x
+data_10x_files: 3
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Theristicus_caerulescens/bTheCae1/genomic_data/10x/ .<br>
+data_10x_scale: 1.8636
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
@@ -16,8 +21,8 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
-last_raw_data: 1581545453
-last_updated: 1581545453
+last_raw_data: 1583437739
+last_updated: 1583437739
 name: Theristicus caerulescens
 name_: Theristicus_caerulescens
 short_name: bTheCae

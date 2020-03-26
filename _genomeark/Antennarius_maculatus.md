@@ -30,34 +30,37 @@ alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: warty frogfish
-data_10x_bases: unknown
+data_10x_bases: 44.14 Gbp
 data_10x_bytes: 25.759 GB
-data_10x_coverage: N/A
+data_10x_coverage: 72.97x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5959
 data_arima_scale: 1
-data_bionano_bases: unknown
+data_bionano_bases: 1031.34 Gbp
 data_bionano_bytes: 1.933 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 1705.08x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbsubreads_bases: 85.40 Gbp
 data_pbsubreads_bytes: 147.534 GB
-data_pbsubreads_coverage: N/A
+data_pbsubreads_coverage: 141.19x
 data_pbsubreads_files: 48
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5391
-data_phase_bases: unknown
+data_phase_bases: 74.26 Gbp
 data_phase_bytes: 44.781 GB
-data_phase_coverage: N/A
+data_phase_coverage: 122.78x
 data_phase_files: 2
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/phase/ .<br>
 data_phase_scale: 1.5445
 data_status: <em style="color:green">all data</em>
+genome_size: 604861782
+genome_size_display: 0.60 Gbp
+genome_size_method: meryl
 last_raw_data: 1578598034
 last_updated: 1581331796
 mito1date: 2019-10-05

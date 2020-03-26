@@ -2,12 +2,12 @@
 assembly: assembly_rockefeller_trio_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: chicken
-data_10x_bases: 95.77 Gbp
-data_10x_bytes: 52.802 GB
-data_10x_coverage: 79.15x
-data_10x_files: 16
-data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/10x/ .<br>
-data_10x_scale: 1.6892
+data_10x_bases: 292.20 Gbp
+data_10x_bytes: 143.454 GB
+data_10x_coverage: 241.49x
+data_10x_files: 22
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/10x/ .<br>
+data_10x_scale: 1.897
 data_arima_bases: 335.97 Gbp
 data_arima_bytes: 189.254 GB
 data_arima_coverage: 277.66x
@@ -38,8 +38,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
-last_raw_data: 1579537030
-last_updated: 1579537030
+last_raw_data: 1583439412
+last_updated: 1583511776
 mat1date: 2019-10-17
 mat1filesize: 286 MB
 mat1n50ctg: 16502132

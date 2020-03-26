@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: epaulette shark
-data_10x_scale: 1
+data_10x_bases: 355.77 Gbp
+data_10x_bytes: 182.947 GB
+data_10x_coverage: 64.69x
+data_10x_files: 16
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/10x/ .<br>
+data_10x_scale: 1.8111
 data_arima_bases: 428.85 Gbp
 data_arima_bytes: 239.533 GB
 data_arima_coverage: 77.97x
@@ -27,8 +32,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 5500000000
 genome_size_display: 5.50 Gbp
 genome_size_method: null
-last_raw_data: 1581527028
-last_updated: 1581527028
+last_raw_data: 1583187178
+last_updated: 1583187178
 name: Hemiscyllium ocellatum
 name_: Hemiscyllium_ocellatum
 short_name: sHemOce

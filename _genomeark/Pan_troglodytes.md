@@ -27,8 +27,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
-last_raw_data: 1568632830
-last_updated: 1570720571
+last_raw_data: 1583646259
+last_updated: 1583646259
 mito1date: 2019-10-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Pan_troglodytes/mPanTro1/assembly_MT_rockefeller/mPanTro1.MT.20191004.fasta.gz

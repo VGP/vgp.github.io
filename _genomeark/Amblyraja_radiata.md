@@ -29,7 +29,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
-common_name: thorny skate
+common_name: Thorny skate
 data_10x_bases: 197.33 Gbp
 data_10x_bytes: 114.690 GB
 data_10x_coverage: 95.20x

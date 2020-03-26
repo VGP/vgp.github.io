@@ -7,7 +7,12 @@ data_10x_coverage: N/A
 data_10x_files: 48
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5366
-data_arima_scale: 1
+data_arima_bases: unknown
+data_arima_bytes: 335.631 GB
+data_arima_coverage: N/A
+data_arima_files: 8
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/arima/ .<br>
+data_arima_scale: 1.5505
 data_bionano_bases: unknown
 data_bionano_bytes: 3.695 GB
 data_bionano_coverage: N/A
@@ -23,9 +28,9 @@ data_pbsubreads_files: 3
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5178
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
-last_raw_data: 1562101980
-last_updated: 1570719801
+data_status: <em style="color:green">all data</em>
+last_raw_data: 1584379221
+last_updated: 1584379221
 mito1date: 2019-10-05
 mito1filesize: 5 KB
 mito1n50ctg: 17865
