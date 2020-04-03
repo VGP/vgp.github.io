@@ -33,7 +33,7 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 last_raw_data: 1578071543
-last_updated: 1578071543
+last_updated: 1585795830
 mito1date: 2019-12-16
 mito1filesize: 6 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_MT_rockefeller/bFalRus1.MT.20191216.fasta.gz
