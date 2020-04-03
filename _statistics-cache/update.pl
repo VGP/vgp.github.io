@@ -5,8 +5,8 @@ use Time::Local;
 #use YAML::Tiny;
 
 #  If set to 1, do not download any genomic_data for coverage estimation.
-my $SKIP_RAW = 0;
-my $SKIP_ASM = 0;
+my $SKIP_RAW = 1;
+my $SKIP_ASM = 1;
 
 #  Thresholds for declaring contigs and scaffolds good or bad.
 my $goodCTG = 1000000;
@@ -465,7 +465,7 @@ sub generateAssemblySummary ($$$) {
     if (! -e "$filename.$type.summary") {
         my $cmd;
 
-        $cmd  = "sequence summarize $split -1x";
+        $cmd  = "seqrequester summarize $split -1x";
         $cmd .= " -size $genomeSize"                                  if ($genomeSize > 0);
         $cmd .= " downloads/$filename.gz > $filename.$type.summary";
 
@@ -481,7 +481,7 @@ sub generateAssemblySummary ($$$) {
         exit(1);
     }
 
-    system("rm -f downloads/$filename.gz");
+    #system("rm -f downloads/$filename.gz");
 }
 
 
@@ -962,10 +962,10 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name.fastq") &&
             (! -e "$name.summary")) {
             printf "SUMMARIZE $name.summary\n";
-            #printf "  sequence summarize downloads/$name.fastq > $name.summary\n";
+            #printf "  seqrequester summarize downloads/$name.fastq > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
-            system("sequence summarize downloads/$name.fastq > $name.summary");
+            system("seqrequester summarize downloads/$name.fastq > $name.summary");
         }
     }
 
@@ -975,10 +975,10 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf "SUMMARIZE $name.summary\n";
-            #printf "  sequence summarize downloads/$name > $name.summary\n";
+            #printf "  seqrequester summarize downloads/$name > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
-            system("sequence summarize downloads/$name > $name.summary");
+            system("seqrequester summarize downloads/$name > $name.summary");
         }
     }
 
@@ -1207,8 +1207,6 @@ foreach my $species (@speciesList) {
 
     $data{"common_name"}         = $meta{"species.common_name"};
     $data{"taxon_id"}            = $meta{"species.taxon_id"};
-
-    #$data{"s3"}                  = "s3://genomeark/species/$name";
 
     $data{"genome_size"}         = $meta{"species.genome_size"};
     $data{"genome_size_display"} = prettifyBases($meta{"species.genome_size"});  #  Updated later, too.
@@ -1585,8 +1583,12 @@ foreach my $species (@speciesList) {
 
     #  Done.  Write the output.
 
+    if ($name ne $species) {
+        print "WARNING: species '$species' is not the same as name '$name' (using name instead)\n";
+    }
+
     #printData($species, \%data);
-    saveData($species, \%data);
+    saveData($name, \%data);
 }
 
 
