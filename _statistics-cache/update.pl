@@ -5,8 +5,8 @@ use Time::Local;
 #use YAML::Tiny;
 
 #  If set to 1, do not download any genomic_data for coverage estimation.
-my $SKIP_RAW = 1;
-my $SKIP_ASM = 1;
+my $SKIP_RAW = 0;
+my $SKIP_ASM = 0;
 
 #  Thresholds for declaring contigs and scaffolds good or bad.
 my $goodCTG = 1000000;
