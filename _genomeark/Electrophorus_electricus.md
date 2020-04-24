@@ -28,26 +28,27 @@ alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: electric eel
-data_10x_bases: 35.42 Gbp
+data_10x_bases: 71.10 Gbp
 data_10x_bytes: 32.991 GB
-data_10x_coverage: 36.55x
+data_10x_coverage: 73.35x
 data_10x_files: 16
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Electrophorus_electricus/fEleEle1/genomic_data/10x/ .<br>
-data_10x_scale: 1
+data_10x_scale: 2.0071
 data_arima_scale: 1
+data_bionano_bases: 192.06 Gbp
 data_bionano_bytes: 0.205 GB
-data_bionano_coverage: 0.00x
+data_bionano_coverage: 198.15x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Electrophorus_electricus/fEleEle1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: 93.67 Gbp
+data_pbsubreads_bases: 51.34 Gbp
 data_pbsubreads_bytes: 87.236 GB
-data_pbsubreads_coverage: 96.64x
+data_pbsubreads_coverage: 52.97x
 data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Electrophorus_electricus/fEleEle1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
-data_pbsubreads_scale: 1
+data_pbsubreads_scale: 0.5481
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 969258935
