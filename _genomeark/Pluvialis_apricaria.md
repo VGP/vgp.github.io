@@ -1,4 +1,5 @@
 ---
+assembly: evaluation
 assembly_status: <em style="color:red">no assembly</em>
 common_name: European golden plover
 data_10x_bases: 98.86 Gbp
@@ -33,7 +34,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1583337100
-last_updated: 1583337100
+last_updated: 1587051098
 mito1date: 2019-12-05
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Pluvialis_apricaria/bPluApr1/assembly_MT_rockefeller/bPluApr1.MT.20191205.fasta.gz

@@ -66,10 +66,10 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1574701010
-last_updated: 1581067948
-mito1date: 2019-08-20
+last_updated: 1587251534
+mito1date: 2020-04-15
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller/sAmbRad1.MT.20190820.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller_nanopore/sAmbRad1.MT.20200415.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -89,10 +89,10 @@ mito1sizes: |
   <tbody>
   <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 5100 </th><th> A </th><th> 0.3038  bp </th><th> A </th><th> 0.3038  bp </th></tr>
+  <tr><th> 5099 </th><th> A </th><th> 0.3038  bp </th><th> A </th><th> 0.3038  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_MT_rockefeller
+mito1version: assembly_MT_rockefeller_nanopore
 name: Amblyraja radiata
 name_: Amblyraja_radiata
 pri1date: 2020-01-13

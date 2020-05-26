@@ -30,10 +30,10 @@ alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
 common_name: red-crested turaco
-data_10x_bases: 52.44 Gbp
-data_10x_bytes: 27.536 GB
-data_10x_coverage: 44.82x
-data_10x_files: 8
+data_10x_bases: 46.64 Gbp
+data_10x_bytes: 24.494 GB
+data_10x_coverage: 39.87x
+data_10x_files: 7
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Tauraco_erythrolophus/bTauEry1/genomic_data/10x/ .<br>
 data_10x_scale: 1.7735
 data_arima_bases: 78.47 Gbp
@@ -61,8 +61,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1170000000
 genome_size_display: 1.17 Gbp
 genome_size_method: null
-last_raw_data: 1561646749
-last_updated: 1574393339
+last_raw_data: 1587225839
+last_updated: 1587225839
 name: Tauraco erythrolophus
 name_: Tauraco_erythrolophus
 pri1date: 2019-08-16

@@ -34,7 +34,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1583245111
-last_updated: 1583762854
+last_updated: 1587041266
 mito1date: 2020-02-26
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Ciconia_maguari/bCicMag1/assembly_MT_rockefeller/bCicMag1.MT.20200226.fasta.gz

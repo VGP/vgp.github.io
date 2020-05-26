@@ -62,10 +62,10 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1570122122
-last_updated: 1574394940
-mito1date: 2019-10-03
+last_updated: 1587251203
+mito1date: 2019-12-14
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_MT_rockefeller/fNotCel1.MT.20191003.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_MT_rockefeller_nanopore/fNotCel1.MT.20191214.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -88,7 +88,7 @@ mito1sizes: |
   <tr><th> 4136 </th><th> A </th><th> 0.2503  bp </th><th> A </th><th> 0.2503  bp </th></tr>
   </tfoot>
   </table>
-mito1version: assembly_MT_rockefeller
+mito1version: assembly_MT_rockefeller_nanopore
 name: Notolabrus celidotus
 name_: Notolabrus_celidotus
 pri1date: 2019-11-08
