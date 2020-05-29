@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-11-29
+alt1date: 2020-05-04
 alt1filesize: 608 MB
 alt1n50ctg: 841438
 alt1n50scf: 841438
-alt1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.alt.cur.20191129.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.alt.cur.20200504.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -63,7 +63,7 @@ genbank_pri: GCA_004126475.2
 genome_size: 2213798723
 genome_size_display: 2.21 Gbp
 last_raw_data: 1527496005
-last_updated: 1582463407
+last_updated: 1588616006
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_MT_rockefeller/mPhyDis1.MT.20191003.fasta.gz
@@ -92,11 +92,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Phyllostomus discolor
 name_: Phyllostomus_discolor
-pri1date: 2019-11-29
+pri1date: 2020-05-04
 pri1filesize: 613 MB
 pri1n50ctg: 6377178
 pri1n50scf: 171742863
-pri1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.pri.cur.20191129.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.pri.cur.20200504.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>

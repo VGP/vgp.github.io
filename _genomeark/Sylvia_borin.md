@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-01-17
+alt1date: 2020-04-24
 alt1filesize: 301 MB
 alt1n50ctg: 3358973
 alt1n50scf: 3358973
-alt1seq: https://s3.amazonaws.com/genomeark/species/Sylvia_borin/bSylBor1/assembly_vgp_standard_1.6/bSylBor1.alt.asm.20200117.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Sylvia_borin/bSylBor1/assembly_curated/bSylBor1.alt.cur.20200424.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -23,12 +23,12 @@ alt1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 7 </td><td> 12.55 Mbp </td><td> 7 </td><td> 12.55 Mbp </td></tr>  <tr><td> 20 </td><td> 17 </td><td> 9.60 Mbp </td><td> 17 </td><td> 9.60 Mbp </td></tr>  <tr><td> 30 </td><td> 32 </td><td> 7.10 Mbp </td><td> 32 </td><td> 7.10 Mbp </td></tr>  <tr><td> 40 </td><td> 53 </td><td> 5.09 Mbp </td><td> 53 </td><td> 5.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 82 </td><td> 3.36 Mbp </td><td> 82 </td><td> 3.36 Mbp </td></tr>  <tr><td> 60 </td><td> 126 </td><td> 2.20 Mbp </td><td> 126 </td><td> 2.20 Mbp </td></tr>  <tr><td> 70 </td><td> 201 </td><td> 1.20 Mbp </td><td> 201 </td><td> 1.20 Mbp </td></tr>  <tr><td> 80 </td><td> 349 </td><td> 0.54 Mbp </td><td> 349 </td><td> 0.54 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.860x </th><th> 765 </th><th> 1.03 Gbp </th><th> 765 </th><th> 1.03 Gbp </th></tr>
+  <tr><th> 0.861x </th><th> 775 </th><th> 1.03 Gbp </th><th> 775 </th><th> 1.03 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: garden warbler
 data_10x_bases: 105.80 Gbp
 data_10x_bytes: 55.199 GB
@@ -62,14 +62,14 @@ genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 genome_size_method: null
 last_raw_data: 1580215658
-last_updated: 1580215658
+last_updated: 1589482151
 name: Sylvia borin
 name_: Sylvia_borin
-pri1date: 2020-01-17
+pri1date: 2020-04-24
 pri1filesize: 303 MB
-pri1n50ctg: 28161917
-pri1n50scf: 52891072
-pri1seq: https://s3.amazonaws.com/genomeark/species/Sylvia_borin/bSylBor1/assembly_vgp_standard_1.6/bSylBor1.pri.asm.20200117.fasta.gz
+pri1n50ctg: 28094227
+pri1n50scf: 72287029
+pri1seq: https://s3.amazonaws.com/genomeark/species/Sylvia_borin/bSylBor1/assembly_curated/bSylBor1.pri.cur.20200424.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -87,12 +87,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1 </td><td> 61.36 Mbp </td><td> 1 </td><td> 103.14 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 56.36 Mbp </td><td> 2 </td><td> 94.72 Mbp </td></tr>  <tr><td> 30 </td><td> 5 </td><td> 52.70 Mbp </td><td> 3 </td><td> 80.76 Mbp </td></tr>  <tr><td> 40 </td><td> 7 </td><td> 51.92 Mbp </td><td> 5 </td><td> 58.63 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 11 </td><td style="background-color:#88ff88;"> 28.16 Mbp </td><td> 7 </td><td style="background-color:#88ff88;"> 52.89 Mbp </td></tr>  <tr><td> 60 </td><td> 17 </td><td> 17.89 Mbp </td><td> 11 </td><td> 24.19 Mbp </td></tr>  <tr><td> 70 </td><td> 25 </td><td> 11.16 Mbp </td><td> 17 </td><td> 15.23 Mbp </td></tr>  <tr><td> 80 </td><td> 43 </td><td> 4.01 Mbp </td><td> 29 </td><td> 6.52 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1 </td><td> 61.36 Mbp </td><td> 0 </td><td> 153.15 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 56.36 Mbp </td><td> 1 </td><td> 115.67 Mbp </td></tr>  <tr><td> 30 </td><td> 5 </td><td> 52.70 Mbp </td><td> 2 </td><td> 113.69 Mbp </td></tr>  <tr><td> 40 </td><td> 7 </td><td> 51.92 Mbp </td><td> 4 </td><td> 72.75 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 11 </td><td style="background-color:#88ff88;"> 28.09 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 72.29 Mbp </td></tr>  <tr><td> 60 </td><td> 17 </td><td> 17.89 Mbp </td><td> 8 </td><td> 36.31 Mbp </td></tr>  <tr><td> 70 </td><td> 25 </td><td> 11.09 Mbp </td><td> 12 </td><td> 20.97 Mbp </td></tr>  <tr><td> 80 </td><td> 45 </td><td> 3.87 Mbp </td><td> 20 </td><td> 11.14 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.870x </th><th> 311 </th><th> 1.04 Gbp </th><th> 219 </th><th> 1.05 Gbp </th></tr>
+  <tr><th> 0.870x </th><th> 310 </th><th> 1.04 Gbp </th><th> 176 </th><th> 1.05 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: bSylBor
 taxon_id: 1471886
 ---

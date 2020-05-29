@@ -22,7 +22,7 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 last_raw_data: 1583437739
-last_updated: 1583437739
+last_updated: 1588087271
 name: Theristicus caerulescens
 name_: Theristicus_caerulescens
 short_name: bTheCae
