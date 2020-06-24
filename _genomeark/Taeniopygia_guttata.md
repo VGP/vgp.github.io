@@ -91,8 +91,10 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taen
 data_pbsubreads_scale: 0.259
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-genbank_alt: GCA_003957525.1
-genbank_pri: GCA_003957565.2
+genbank_alt: GCA_003957525.1 GCA_009859025.1
+genbank_mat: GCA_008822115.3
+genbank_pat: GCA_008822125.1
+genbank_pri: GCA_003957565.2 GCA_009859065.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 last_raw_data: 1581539155

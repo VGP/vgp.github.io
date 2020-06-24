@@ -63,6 +63,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bala
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_008658375.1
+genbank_pri: GCA_009873245.2
 genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)

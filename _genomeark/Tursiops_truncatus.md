@@ -35,6 +35,9 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Turs
 data_pbsubreads_scale: 0.5432
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_mat: GCA_011762535.1
+genbank_pat: GCA_011762515.1
+genbank_pri: GCA_011762595.1
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null

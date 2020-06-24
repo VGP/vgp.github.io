@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tric
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_011100645.1
+genbank_pri: GCA_011100635.1
 genome_size: 3000000000
 genome_size_display: 3.00 Gbp
 genome_size_method: null

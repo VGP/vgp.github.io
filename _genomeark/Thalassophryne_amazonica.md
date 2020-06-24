@@ -63,6 +63,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thal
 data_pbsubreads_scale: 0.5298
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_902500245.1
+genbank_pri: GCA_902500255.1
 last_raw_data: 1559331534
 last_updated: 1575989671
 name: Thalassophryne amazonica

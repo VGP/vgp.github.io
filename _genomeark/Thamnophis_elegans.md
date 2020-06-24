@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tham
 data_pbsubreads_scale: 0.5386
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009769695.1
+genbank_pri: GCA_009769535.1
 genome_size: 1900000000
 genome_size_display: 1.90 Gbp
 genome_size_method: null

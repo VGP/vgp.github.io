@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cygn
 data_pbsubreads_scale: 0.5348
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009769485.1
+genbank_pri: GCA_009769625.1
 genome_size: 1480000000
 genome_size_display: 1.48 Gbp
 genome_size_method: null

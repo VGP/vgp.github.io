@@ -35,6 +35,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Melo
 data_pbsubreads_scale: 0.5389
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_mat: GCA_012275265.1
+genbank_pat: GCA_012275275.1
 genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null

@@ -12,15 +12,147 @@ layout: default
     <h3>Information</h3>
 
     <div>
+
     {% if page.taxon_id %}
-    <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ page.taxon_id }}">NCBI Taxonomy Browser</a><br>
+    <table class="genome-info-table">
+    <thead>
+    <tr>
+    <th width="40%">Resource</th>
+    <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td class="label">NCBI Taxonomy Browser</td>
+    <td><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ page.taxon_id }}">NCBI:txid{{ page.taxon_id }}</a></td>
+    </tr>
+    <tr>
+    </table>
+    <br>
     {% endif %}
-    {% if page.genbank_pri %}
-      Primary assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_pri }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_pri }}">ENA</a><br>
+
+
+
+    {% if page.genbank_pri or page.genbank_alt %}
+    <table class="genome-info-table">
+    <thead>
+    <th width="40%">Resource</th>
+    <th>Primary Assembly</th>
+    <th>Alternate Assembly</th>
+    </tr>
+    </thead>
+
+    <tr>
+    <td class="label">GenBank</td>
+    <td>
+    {% assign sw = page.genbank_pri | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    <td>
+    {% assign sw = page.genbank_alt | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    </tr>
+
+    <tr>
+    <td class="label">ENA</td>
+    <td>
+    {% assign sw = page.genbank_pri | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ebi.ac.uk/ena/browser/view/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    <td>
+    {% assign sw = page.genbank_alt | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ebi.ac.uk/ena/browser/view/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    </tr>
+
+    <tr>
+    <td class="label">UCSC Genome Browser</td>
+    <td>
+    {% assign sw = page.genbank_pri | split: " " %}
+    {% for xx in sw %}
+    <a href="https://genome.ucsc.edu/h/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    <td>
+    {% assign sw = page.genbank_alt | split: " " %}
+    {% for xx in sw %}
+    <a href="https://genome.ucsc.edu/h/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    </tr>
+
+    </table>
+    <br>
     {% endif %}
-    {% if page.genbank_alt %}
-      Alternate assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_alt }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_alt }}">ENA</a><br>
+
+    {% if page.genbank_mat or page.genbank_pat %}
+    <table class="genome-info-table">
+    <thead>
+    <th width="40%">Resource</th>
+    <th>Maternal Assembly</th>
+    <th>Paternal Assembly</th>
+    </tr>
+    </thead>
+
+    <tr>
+    <td class="label">GenBank</td>
+    <td>
+    {% assign sw = page.genbank_mat | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    <td>
+    {% assign sw = page.genbank_pat | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    </tr>
+
+    <tr>
+    <td class="label">ENA</td>
+    <td>
+    {% assign sw = page.genbank_mat | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ebi.ac.uk/ena/browser/view/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    <td>
+    {% assign sw = page.genbank_pat | split: " " %}
+    {% for xx in sw %}
+    <a href="https://www.ebi.ac.uk/ena/browser/view/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    </tr>
+
+    <tr>
+    <td class="label">UCSC Genome Browser</td>
+    <td>
+    {% assign sw = page.genbank_mat | split: " " %}
+    {% for xx in sw %}
+    <a href="https://genome.ucsc.edu/h/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    <td>
+    {% assign sw = page.genbank_pat | split: " " %}
+    {% for xx in sw %}
+    <a href="https://genome.ucsc.edu/h/{{ xx }}">{{ xx }}</a>
+    {% endfor %}
+    </td>
+    </tr>
+    </table>
     {% endif %}
+
     </div>
   </div>
 
@@ -48,7 +180,7 @@ layout: default
 <table class="raw-data-table">
 <thead>
 <tr>
-<th>Datatype</th>
+<th class="label">Datatype</th>
 <th>Approximate Coverage</th>
 <th>Download Size</th>
 </tr>
@@ -56,39 +188,39 @@ layout: default
 <tbody>
 
 {% if page.data_10x_bytes.size > 0 %}
-<tr><td>10x</td><td>{{ page.data_10x_coverage }}</td><td>{{ page.data_10x_bytes }}</td></tr>
+<tr><td  class="label">10x</td><td>{{ page.data_10x_coverage }}</td><td>{{ page.data_10x_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_arima_bytes.size > 0 %}
-<tr><td>Arima</td><td>{{ page.data_arima_coverage }}</td><td>{{ page.data_arima_bytes }}</td></tr>
+<tr><td  class="label">Arima</td><td>{{ page.data_arima_coverage }}</td><td>{{ page.data_arima_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_bionano_bytes.size > 0 %}
-<tr><td>Bionano</td><td>{{ page.data_bionano_coverage }}</td><td>{{ page.data_bionano_bytes }}</td></tr>
+<tr><td  class="label">Bionano</td><td>{{ page.data_bionano_coverage }}</td><td>{{ page.data_bionano_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_dovetail_bytes.size > 0 %}
-<tr><td>Dovetail Genomics</td><td>{{ page.data_dovetail_coverage }}</td><td>{{ page.data_dovetail_bytes }}</td></tr>
+<tr><td  class="label">Dovetail Genomics</td><td>{{ page.data_dovetail_coverage }}</td><td>{{ page.data_dovetail_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_illumina_bytes.size > 0 %}
-<tr><td>Illumina</td><td>{{ page.data_illumina_coverage }}</td><td>{{ page.data_illumina_bytes }}</td></tr>
+<tr><td  class="label">Illumina</td><td>{{ page.data_illumina_coverage }}</td><td>{{ page.data_illumina_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_pbscraps_bytes.size > 0 %}
-<tr><td>PacBio Scraps</td><td>{{ page.data_pbscraps_coverage }}</td><td>{{ page.data_pbscraps_bytes }}</td></tr>
+<tr><td  class="label">PacBio Scraps</td><td>{{ page.data_pbscraps_coverage }}</td><td>{{ page.data_pbscraps_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_pbsubreads_bytes.size > 0 %}
-<tr><td>PacBio SubReads</td><td>{{ page.data_pbsubreads_coverage }}</td><td>{{ page.data_pbsubreads_bytes }}</td></tr>
+<tr><td  class="label">PacBio SubReads</td><td>{{ page.data_pbsubreads_coverage }}</td><td>{{ page.data_pbsubreads_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_pbhifi_bytes.size > 0 %}
-<tr><td>PacBio HiFi</td><td>{{ page.data_pbhifi_coverage }}</td><td>{{ page.data_pbhifi_bytes }}</td></tr>
+<tr><td  class="label">PacBio HiFi</td><td>{{ page.data_pbhifi_coverage }}</td><td>{{ page.data_pbhifi_bytes }}</td></tr>
 {% endif %}
 
 {% if page.data_phase_bytes.size > 0 %}
-<tr><td>Phase Genomics</td><td>{{ page.data_phase_coverage }}</td><td>{{ page.data_phase_bytes }}</td></tr>
+<tr><td  class="label">Phase Genomics</td><td>{{ page.data_phase_coverage }}</td><td>{{ page.data_phase_bytes }}</td></tr>
 {% endif %}
 
 </tbody>
@@ -169,20 +301,6 @@ Download each datatype using the <A HREF="https://docs.aws.amazon.com/cli/latest
 <h3>Assemblies</h3>
 <div class="assemblies">
 
-
-{% if page.genbank_pri or page.genbank_alt %}
-  <hr>
-  <div class="assembly">
-  {% if page.genbank_pri %}
-    Primary assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_pri }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_pri }}">ENA</a><br>
-  {% endif %}
-  {% if page.genbank_alt %}
-    Alternate assembly in <a href="https://www.ncbi.nlm.nih.gov/assembly/{{ page.genbank_alt }}">GenBank</a> or <a href="https://www.ebi.ac.uk/ena/data/view/{{ page.genbank_alt }}">ENA</a><br>
-  {% endif %}
-  </div>
-
-{% else %}
-{% endif %}
 
 {% include genomeark_asm_stats.html
      individual=1

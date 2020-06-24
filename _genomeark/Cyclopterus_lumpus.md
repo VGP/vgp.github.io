@@ -56,6 +56,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cycl
 data_pbsubreads_scale: 0.5388
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009769515.1
+genbank_pri: GCA_009769545.1
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null

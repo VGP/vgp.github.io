@@ -63,6 +63,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chan
 data_pbsubreads_scale: 0.5467
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_902362175.1
+genbank_pri: GCA_902362185.1
 last_raw_data: 1572998186
 last_updated: 1572998186
 name: Chanos chanos

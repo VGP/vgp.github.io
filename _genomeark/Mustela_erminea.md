@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Must
 data_pbsubreads_scale: 0.5446
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009829165.1
+genbank_pri: GCA_009829155.1
 genome_size: 3080000000
 genome_size_display: 3.08 Gbp
 genome_size_method: null

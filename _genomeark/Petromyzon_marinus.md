@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Petr
 data_pbsubreads_scale: 0.5465
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_010993595.1
+genbank_pri: GCA_010993605.1
 genome_size: 1500000000
 genome_size_display: 1.50 Gbp
 genome_size_method: null

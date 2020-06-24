@@ -58,8 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyl
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-genbank_alt: GCA_004115245.1
-genbank_pri: GCA_004126475.2
+genbank_alt: GCA_004115245.2
+genbank_pri: GCA_004126475.3
 genome_size: 2213798723
 genome_size_display: 2.21 Gbp
 last_raw_data: 1527496005

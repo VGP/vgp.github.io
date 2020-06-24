@@ -63,8 +63,8 @@ data_phase_files: 1
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/phase/ .<br>
 data_phase_scale: 1.6003
 data_status: <em style="color:green">all data</em>
-genbank_alt: GCA_004115175.1
-genbank_pri: GCA_004115215.2
+genbank_alt: GCA_004115175.2
+genbank_pri: GCA_004115215.3
 genome_size: 2128226567
 genome_size_display: 2.13 Gbp
 last_raw_data: 1536347587

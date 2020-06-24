@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#  Use genbank-fetch.sh to pull the genbank XML and parse out a few fields.
+#  Use genbank-fixup.pl to clean up the result and write genbank.map.
+
 if [ -z $NCBI_API_KEY ] ; then
   echo NCBI_API_KEY not set.
   exit
@@ -30,7 +33,7 @@ if [ ! -e genbank.xml.map ] ; then
     -pattern DocumentSummary -if Synonym -element Genbank AssemblyName AssemblyType \
   | \
   sort -k2,2 \
-  > genbank.map
+  > genbank.map.raw
 fi
 
 exit 0

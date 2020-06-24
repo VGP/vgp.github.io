@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pter
 data_pbsubreads_scale: 0.5407
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009769505.1
+genbank_pri: GCA_009769525.1
 genome_size: 1070000000
 genome_size_display: 1.07 Gbp
 genome_size_method: null

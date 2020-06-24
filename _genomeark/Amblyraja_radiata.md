@@ -63,6 +63,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ambl
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_010909745.1
+genbank_pri: GCA_010909765.1
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1574701010

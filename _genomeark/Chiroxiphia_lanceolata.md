@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chir
 data_pbsubreads_scale: 0.5402
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009829205.1
+genbank_pri: GCA_009829145.1
 genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null

@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Aste
 data_pbsubreads_scale: 0.5224
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_902459445.1
+genbank_pri: GCA_902459465.3
 last_raw_data: 1565272838
 last_updated: 1575763686
 mito1date: 2019-12-07

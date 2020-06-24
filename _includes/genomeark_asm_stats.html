@@ -1,7 +1,10 @@
 
 {% if include.lseq or include.rseq or include.mseq %}
 
+{% if show_asm_div == true %}
 <hr>
+{% endif %}
+{% assign show_asm_div = true %}
 
 <div class="assembly">
 

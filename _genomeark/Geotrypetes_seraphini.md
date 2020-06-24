@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geot
 data_pbsubreads_scale: 0.5229
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_902459495.1
+genbank_pri: GCA_902459505.1
 last_raw_data: 1556224643
 last_updated: 1570719802
 mito1date: 2019-10-03

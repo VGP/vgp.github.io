@@ -58,6 +58,8 @@ data_phase_files: 2
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/phase/ .<br>
 data_phase_scale: 1.5445
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_013347815.1
+genbank_pri: GCA_013358685.1
 genome_size: 604861782
 genome_size_display: 0.60 Gbp
 genome_size_method: meryl

@@ -2,7 +2,14 @@
 
 use strict;
 use Time::Local;
-#use YAML::Tiny;
+
+#  Good tests.
+#
+#  http://www.home:4000/genomeark/Arvicanthis_niloticus/       - mat/pat but no pri/alt (except for X)
+#  http://www.home:4000/genomeark/Astatotilapia_calliptera/    - only pri
+#  http://www.home:4000/genomeark/Taeniopygia_guttata/         - multiple pri/alt, and a mat/pat
+#  http://www.home:4000/genomeark/Ornithorhynchus_anatinus/    - only pri/alt
+
 
 #  If set to 1, do not download any genomic_data for coverage estimation.
 my $SKIP_RAW = 0;
@@ -13,8 +20,6 @@ my $goodCTG = 1000000;
 my $goodSCF = 10000000;
 
 #  In memory cache of files in genomeark.
-#my @genomeArkDates;
-#my @genomeArkTimes;
 my @genomeArkEpoch;
 my @genomeArkSizes;
 my @genomeArkFiles;
@@ -134,8 +139,6 @@ sub loadGenomeArk () {
             die "Failed to parse date ('$filedate') and time ('$filetime') for file '$filename'\n";
         }
 
-        #push @genomeArkDates, $filedate;
-        #push @genomeArkTimes, $filetime;
         push @genomeArkEpoch, $filesecs;
         push @genomeArkSizes, $filesize;
         push @genomeArkFiles, $filename;
@@ -165,8 +168,6 @@ sub loadAssemblyStatus () {
     #  species.  We'll later pick one to use, or use the user-supplied assembly.
 
     for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        #my $filedate = $genomeArkDates[$ii];
-        #my $filetime = $genomeArkTimes[$ii];
         my $filesecs = $genomeArkEpoch[$ii];
         my $filesize = $genomeArkSizes[$ii];
         my $filename = $genomeArkFiles[$ii];
@@ -233,6 +234,43 @@ sub loadAssemblyStatus () {
     return(%asmToShow);
 }
 
+#
+#  Load a mapping from assembly to genbank.
+#
+
+sub loadGenbank () {
+    my %map;
+
+    open(GB, "< genbank.map");
+    while (<GB>) {
+        chomp;
+
+        if ($_ =~ m/^(GCA_\d+.\d+)\s+(.[A-Z].....)(\d)\s+(...)$/) {
+            my $acc = $1;
+            my $nam = $2;
+            my $ind = $3;
+            my $typ = $4;
+
+            if (exists($map{"$nam$typ"})) {
+                $map{"$nam$typ"} .= " $acc";
+            } else {
+                $map{"$nam$typ"}  =   $acc;
+            }
+
+            if (exists($map{"$nam$ind$typ"})) {
+                die "Multiple genbank ACCs for '$nam$ind$typ'.\n";
+            } else {
+                $map{"$nam$ind$typ"} = $acc;
+            }
+
+            print "GENBANK $nam$typ -> $acc\n";
+        } else {
+            die "Failed to match genbank line '$_'\n";
+        }
+    }
+
+    return(%map);
+}
 
 #
 #  Load the existing .md page for a species.
@@ -1010,8 +1048,6 @@ sub estimateRawDataScaling ($$) {
     my @files;
 
     for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        #my $filedate = $genomeArkDates[$ii];
-        #my $filetime = $genomeArkTimes[$ii];
         my $filesize = $genomeArkSizes[$ii];
         my $filename = $genomeArkFiles[$ii];
 
@@ -1095,8 +1131,6 @@ sub computeBionanoBases ($) {
     my @files;
 
     for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        #my $filedate = $genomeArkDates[$ii];
-        #my $filetime = $genomeArkTimes[$ii];
         my $filesize = $genomeArkSizes[$ii];
         my $filename = $genomeArkFiles[$ii];
 
@@ -1184,6 +1218,7 @@ my $lastUpdate = loadGenomeArk();
 my @speciesList = discover(@ARGV);
 my %asmToShow   = loadAssemblyStatus();
 
+my %genbankMap  = loadGenbank();
 
 #  Rebuild each species.md file.
 
@@ -1228,8 +1263,6 @@ foreach my $species (@speciesList) {
     print "$name -- $asm\n";
 
     for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        #my $filedate = $genomeArkDates[$ii];
-        #my $filetime = $genomeArkTimes[$ii];
         my $filesecs = $genomeArkEpoch[$ii];
         my $filesize = $genomeArkSizes[$ii];
         my $filename = $genomeArkFiles[$ii];
@@ -1271,51 +1304,14 @@ foreach my $species (@speciesList) {
     #  Track down any link to NCBI.
     #
 
-    open(GB, "< genbank.map");
-    while (<GB>) {
-        chomp;
+    {
+        my $n = $data{'short_name'};
 
-        my ($gbacc, $gbnam, $gbtyp);
-
-        if ($_ =~ m/^(GCA_\d+.\d+)\s+(\S+)\s+(.*)$/) {
-            $gbacc = $1;
-            $gbnam = $2;
-            $gbtyp = $3;
-
-            if ($gbtyp =~ m/alt/) {
-                $gbtyp = "alt";
-            } else {
-                $gbtyp = "pri";
-            }
-
-            #print "$name $data{'short_name'} -> $gbacc $gbnam $gbtyp\n";
-
-            #  Fuzzy match our short_name against ncbi's gbnam.  Fuzzy because
-            #  genbank isn't always correct, for example:
-            #    fGadMor -- gadMor3.0
-            #    mLynCan -- mLynCan4_v1.alt
-            #
-            if ($data{'short_name'} =~ m/^.(......)$/) {
-                my $tag = $1;
-
-                if ($gbnam =~ m/$tag/i) {
-                    if ($gbtyp eq "pri") {
-                        #print "MATCH PRI $tag -- $gbnam -- $gbacc\n";
-                        $data{'genbank_pri'} = $gbacc;
-                    } else {
-                        #print "MATCH ALT $tag -- $gbnam -- $gbacc\n";
-                        $data{'genbank_alt'} = $gbacc;
-                    }
-                }
-            } else {
-                die "Malformed short_name '$data{'short_name'}'.\n";
-            }
-
-        } else {
-            die "Failed to parse genbank.map line '$_'.\n";
-        }
+        if (exists($genbankMap{"${n}pri"}))    { $data{'genbank_pri'} = $genbankMap{"${n}pri"}; }
+        if (exists($genbankMap{"${n}alt"}))    { $data{'genbank_alt'} = $genbankMap{"${n}alt"}; }
+        if (exists($genbankMap{"${n}mat"}))    { $data{'genbank_mat'} = $genbankMap{"${n}mat"}; }
+        if (exists($genbankMap{"${n}pat"}))    { $data{'genbank_pat'} = $genbankMap{"${n}pat"}; }
     }
-    close(GB);
 
     #
     #  Finalize the genomic_data by adding to %data.
@@ -1346,6 +1342,12 @@ foreach my $species (@speciesList) {
         }
     }
 
+    #
+    #  This is rather slow.
+    #
+
+    print "Finding raw data sizes.\n";
+
     if ($data{"data_10x_scale"} == 0) {
         $data{"data_10x_scale"} = estimateRawDataScaling($name, "10x");
     }
@@ -1375,6 +1377,8 @@ foreach my $species (@speciesList) {
     if ($data{"data_phase_scale"} == 0) {
         $data{"data_phase_scale"} = estimateRawDataScaling($name, "phase");
     }
+
+    print "Found.\n";
 
     #  If no genome size set, default to assembly size.
 

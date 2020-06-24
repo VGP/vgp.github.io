@@ -35,6 +35,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acip
 data_pbsubreads_scale: 0.5227
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_mat: GCA_902713425.1
+genbank_pat: GCA_902713435.1
 last_raw_data: 1570447628
 last_updated: 1580929399
 mat3date: 2019-12-04

@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Derm
 data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009762595.1
+genbank_pri: GCA_009764565.1
 genome_size: 2500000000
 genome_size_display: 2.50 Gbp
 last_raw_data: 1563832512

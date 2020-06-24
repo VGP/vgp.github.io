@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cari
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009819485.1
+genbank_pri: GCA_009819825.1
 genome_size: 1500000000
 genome_size_display: 1.50 Gbp
 last_raw_data: 1563354348

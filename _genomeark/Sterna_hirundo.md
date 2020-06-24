@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ster
 data_pbsubreads_scale: 0.5447
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009819645.1
+genbank_pri: GCA_009819605.1
 genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null

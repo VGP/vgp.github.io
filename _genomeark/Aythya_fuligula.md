@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ayth
 data_pbsubreads_scale: 0.5494
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009819845.1
+genbank_pri: GCA_009819795.1
 genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 genome_size_method: null

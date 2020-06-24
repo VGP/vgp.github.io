@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Buco
 data_pbsubreads_scale: 0.5356
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009769595.1
+genbank_pri: GCA_009769605.1
 last_raw_data: 1562595330
 last_updated: 1565897614
 name: Bucorvus abyssinicus

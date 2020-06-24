@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lace
 data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_009819545.1
+genbank_pri: GCA_009819535.1
 genome_size: 2000000000
 genome_size_display: 2.00 Gbp
 genome_size_method: null

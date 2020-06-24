@@ -35,6 +35,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvi
 data_pbsubreads_scale: 0.5402
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_mat: GCA_011750645.1
+genbank_pat: GCA_011762545.1
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 genome_size_method: null
