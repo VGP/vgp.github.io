@@ -24,8 +24,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scyl
 data_pbsubreads_scale: 0.5314
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1544711648
-last_updated: 1550742700
+last_raw_data: 1591284929
+last_updated: 1591284929
 name: Scyliorhinus canicula
 name_: Scyliorhinus_canicula
 short_name: sScyCan

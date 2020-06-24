@@ -48,8 +48,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lutr
 data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1562341953
-last_updated: 1570721457
+last_raw_data: 1591286244
+last_updated: 1591286244
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1n50ctg: 16536
