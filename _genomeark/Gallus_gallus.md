@@ -15,10 +15,10 @@ data_arima_files: 6
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal3/genomic_data/arima/ .<br>
 data_arima_scale: 1.6533
 data_bionano_bases: 551.95 Gbp
-data_bionano_bytes: 1.025 GB
+data_bionano_bytes: 1.043 GB
 data_bionano_coverage: 456.16x
-data_bionano_files: 1
-data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/bionano/ .<br>
+data_bionano_files: 2
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_bases: 221.53 Gbp
 data_illumina_bytes: 109.707 GB
@@ -38,8 +38,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
-last_raw_data: 1583439412
-last_updated: 1583511776
+last_raw_data: 1594753015
+last_updated: 1594753015
 mat1date: 2019-10-17
 mat1filesize: 286 MB
 mat1n50ctg: 16502132

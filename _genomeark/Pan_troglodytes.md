@@ -28,10 +28,10 @@ genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
 last_raw_data: 1583646259
-last_updated: 1583646259
-mito1date: 2019-10-04
+last_updated: 1593134333
+mito1date: 2020-06-25
 mito1filesize: 5 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Pan_troglodytes/mPanTro1/assembly_MT_rockefeller/mPanTro1.MT.20191004.fasta.gz
+mito1seq: https://s3.amazonaws.com/genomeark/species/Pan_troglodytes/mPanTro1/assembly_MT_rockefeller/mPanTro1.MT.20200625.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -51,7 +51,7 @@ mito1sizes: |
   <tbody>
   <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 5144 </th><th> A </th><th> 0.3107  bp </th><th> A </th><th> 0.3107  bp </th></tr>
+  <tr><th> 5163 </th><th> A </th><th> 0.3119  bp </th><th> A </th><th> 0.3119  bp </th></tr>
   </tfoot>
   </table>
 mito1version: assembly_MT_rockefeller

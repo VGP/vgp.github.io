@@ -1,4 +1,5 @@
 ---
+assembly: assembly_vgp_standard_1.6
 assembly_status: <em style="color:red">no assembly</em>
 common_name: honeycomb rockfish
 data_10x_bases: 53.86 Gbp
@@ -33,7 +34,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1574794326
-last_updated: 1575429269
+last_updated: 1594135802
 mito1date: 2019-12-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Sebastes_umbrosus/fSebUmb1/assembly_MT_rockefeller/fSebUmb1.MT.20191203.fasta.gz

@@ -20,12 +20,12 @@ data_bionano_coverage: 177.92x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_bases: 367.80 Gbp
-data_illumina_bytes: 185.066 GB
-data_illumina_coverage: 145.95x
-data_illumina_files: 10
-data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/ .<br>
-data_illumina_scale: 1.8509
+data_illumina_bases: 519.44 Gbp
+data_illumina_bytes: 260.918 GB
+data_illumina_coverage: 206.13x
+data_illumina_files: 11
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.8541
 data_pbhifi_scale: 1
 data_pbsubreads_bases: 176.34 Gbp
 data_pbsubreads_bytes: 304.866 GB
@@ -38,8 +38,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 2520000000
 genome_size_display: 2.52 Gbp
 genome_size_method: null
-last_raw_data: 1581375326
-last_updated: 1587740924
+last_raw_data: 1594747600
+last_updated: 1594828074
 mat1date: 2019-10-08
 mat1filesize: 604 MB
 mat1n50ctg: 8863475

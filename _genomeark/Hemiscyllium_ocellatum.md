@@ -13,6 +13,11 @@ data_arima_coverage: 77.97x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/arima/ .<br>
 data_arima_scale: 1.6674
+data_bionano_bases: 437.66 Gbp
+data_bionano_bytes: 0.833 GB
+data_bionano_coverage: 79.57x
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_bases: 1147.32 Gbp
 data_illumina_bytes: 558.941 GB
@@ -28,12 +33,12 @@ data_pbsubreads_files: 14
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5212
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 5500000000
 genome_size_display: 5.50 Gbp
 genome_size_method: null
-last_raw_data: 1583187178
-last_updated: 1583187178
+last_raw_data: 1594752182
+last_updated: 1594752182
 name: Hemiscyllium ocellatum
 name_: Hemiscyllium_ocellatum
 short_name: sHemOce

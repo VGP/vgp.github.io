@@ -19,7 +19,12 @@ data_bionano_coverage: 244.61x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Carcharodon_carcharias/sCarCar2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_scale: 1
+data_illumina_bases: 308.87 Gbp
+data_illumina_bytes: 144.347 GB
+data_illumina_coverage: 68.64x
+data_illumina_files: 1
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.9928
 data_pbhifi_scale: 1
 data_pbsubreads_bases: 300.79 Gbp
 data_pbsubreads_bytes: 530.449 GB
@@ -32,8 +37,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 4500000000
 genome_size_display: 4.50 Gbp
 genome_size_method: null
-last_raw_data: 1568725796
-last_updated: 1570719900
+last_raw_data: 1594664727
+last_updated: 1594664727
 mito2date: 2019-10-04
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Carcharodon_carcharias/sCarCar2/assembly_MT_rockefeller/sCarCar2.MT.20191004.fasta.gz

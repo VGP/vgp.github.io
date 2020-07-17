@@ -7,7 +7,12 @@ data_10x_coverage: 73.38x
 data_10x_files: 3
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiprocne_comata/bHemCom1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8311
-data_arima_scale: 1
+data_arima_bases: 131.50 Gbp
+data_arima_bytes: 73.038 GB
+data_arima_coverage: 131.50x
+data_arima_files: 4
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiprocne_comata/bHemCom1/genomic_data/arima/ .<br>
+data_arima_scale: 1.6768
 data_bionano_bases: 1112.43 Gbp
 data_bionano_bytes: 2.152 GB
 data_bionano_coverage: 1112.43x
@@ -23,12 +28,12 @@ data_pbsubreads_files: 18
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
 data_pbsubreads_scale: 0.5335
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1574796801
-last_updated: 1575466632
+last_raw_data: 1594744337
+last_updated: 1594744337
 mito1date: 2019-12-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Hemiprocne_comata/bHemCom1/assembly_MT_rockefeller/bHemCom1.MT.20191204.fasta.gz
