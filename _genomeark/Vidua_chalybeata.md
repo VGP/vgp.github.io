@@ -12,7 +12,7 @@ data_status: <em style="color:red">no data</em>
 genome_size: 1160000000
 genome_size_display: 1.16 Gbp
 genome_size_method: null
-last_updated: 1594845939
+last_updated: 1594948213
 name: Vidua chalybeata
 name_: Vidua_chalybeata
 short_name: bVidCha
