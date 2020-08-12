@@ -1,4 +1,5 @@
 ---
+assembly: assembly_vgp_standard_1.6
 assembly_status: <em style="color:red">no assembly</em>
 common_name: great white shark
 data_10x_bases: 272.74 Gbp
@@ -38,7 +39,7 @@ genome_size: 4500000000
 genome_size_display: 4.50 Gbp
 genome_size_method: null
 last_raw_data: 1594664727
-last_updated: 1594664727
+last_updated: 1596069784
 mito2date: 2019-10-04
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Carcharodon_carcharias/sCarCar2/assembly_MT_rockefeller/sCarCar2.MT.20191004.fasta.gz

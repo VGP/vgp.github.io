@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-09-24
+alt1date: 2020-08-06
 alt1filesize: 327 MB
 alt1n50ctg: 824168
 alt1n50scf: 838262
-alt1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_curated/bCatUst1.alt.cur.20190924.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_curated/bCatUst1.alt.cur.20200806.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -64,7 +64,7 @@ genome_size: 1490000000
 genome_size_display: 1.49 Gbp
 genome_size_method: null
 last_raw_data: 1568075266
-last_updated: 1569703715
+last_updated: 1596732014
 mito1date: 2019-09-18
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_MT_rockefeller/bCatUst1.MT.20190918.fasta.gz
@@ -93,11 +93,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Catharus ustulatus
 name_: Catharus_ustulatus
-pri1date: 2019-09-24
+pri1date: 2020-08-06
 pri1filesize: 322 MB
 pri1n50ctg: 3156799
 pri1n50scf: 36548054
-pri1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_curated/bCatUst1.pri.cur.20190924.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_curated/bCatUst1.pri.cur.20200806.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -115,9 +115,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 11 </td><td> 10.63 Mbp </td><td> 0 </td><td> 165.77 Mbp </td></tr>  <tr><td> 20 </td><td> 27 </td><td> 7.84 Mbp </td><td> 2 </td><td> 120.19 Mbp </td></tr>  <tr><td> 30 </td><td> 48 </td><td> 6.11 Mbp </td><td> 3 </td><td> 77.03 Mbp </td></tr>  <tr><td> 40 </td><td> 77 </td><td> 4.67 Mbp </td><td> 5 </td><td> 63.53 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 117 </td><td style="background-color:#88ff88;"> 3.16 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 36.55 Mbp </td></tr>  <tr><td> 60 </td><td> 171 </td><td> 2.37 Mbp </td><td> 14 </td><td> 21.57 Mbp </td></tr>  <tr><td> 70 </td><td> 256 </td><td> 1.16 Mbp </td><td> 25 </td><td> 8.46 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 11 </td><td> 10.63 Mbp </td><td> 0 </td><td> 165.77 Mbp </td></tr>  <tr><td> 20 </td><td> 27 </td><td> 7.84 Mbp </td><td> 2 </td><td> 120.19 Mbp </td></tr>  <tr><td> 30 </td><td> 48 </td><td> 6.11 Mbp </td><td> 3 </td><td> 77.03 Mbp </td></tr>  <tr><td> 40 </td><td> 77 </td><td> 4.67 Mbp </td><td> 5 </td><td> 68.46 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 117 </td><td style="background-color:#88ff88;"> 3.16 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 36.55 Mbp </td></tr>  <tr><td> 60 </td><td> 171 </td><td> 2.37 Mbp </td><td> 13 </td><td> 21.57 Mbp </td></tr>  <tr><td> 70 </td><td> 256 </td><td> 1.16 Mbp </td><td> 24 </td><td> 8.46 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.751x </th><th> 589 </th><th> 1.12 Gbp </th><th> 161 </th><th> 1.13 Gbp </th></tr>
+  <tr><th> 0.751x </th><th> 589 </th><th> 1.12 Gbp </th><th> 160 </th><th> 1.13 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated

@@ -69,7 +69,7 @@ genome_size: 3093707188
 genome_size_display: 3.09 Gbp
 genome_size_method: genomescope (k=31)
 last_raw_data: 1584557134
-last_updated: 1592878720
+last_updated: 1596895851
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_MT_rockefeller/mBalMus1.MT.20191002.fasta.gz

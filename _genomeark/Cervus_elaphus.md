@@ -9,7 +9,7 @@ data_pbhifi_scale: 1
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
-last_updated: 1594948213
+last_updated: 1597260095
 name: Cervus elaphus
 name_: Cervus_elaphus
 short_name: mCerEla

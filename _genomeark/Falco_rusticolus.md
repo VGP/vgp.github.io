@@ -1,5 +1,32 @@
 ---
-assembly_status: <em style="color:red">no assembly</em>
+alt1date: 2020-07-20
+alt1filesize: 158 MB
+alt1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_curated/bFalRus1.alt.cur.20200720.fasta.gz
+alt1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 841 </td><td> 0.12 Mbp </td><td> 841 </td><td> 0.12 Mbp </td></tr>  <tr><td> 20 </td><td> 2416 </td><td> 70.84 Kbp </td><td> 2416 </td><td> 70.84 Kbp </td></tr>  <tr><td> 30 </td><td> 4980 </td><td> 42.26 Kbp </td><td> 4980 </td><td> 42.26 Kbp </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.369x </th><th> 8370 </th><th> 0.52 Gbp </th><th> 8370 </th><th> 0.52 Gbp </th></tr>
+  </tfoot>
+  </table>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: gyrfalcon
 data_10x_bases: 150.87 Gbp
 data_10x_bytes: 67.507 GB
@@ -33,7 +60,7 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 last_raw_data: 1578071543
-last_updated: 1587588913
+last_updated: 1595257091
 mito1date: 2019-12-16
 mito1filesize: 6 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_MT_rockefeller/bFalRus1.MT.20191216.fasta.gz
@@ -62,6 +89,34 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Falco rusticolus
 name_: Falco_rusticolus
+pri1date: 2020-07-20
+pri1filesize: 349 MB
+pri1n50ctg: 12482491
+pri1n50scf: 84785561
+pri1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_curated/bFalRus1.pri.cur.20200720.fasta.gz
+pri1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 32.78 Mbp </td><td> 1 </td><td> 122.15 Mbp </td></tr>  <tr><td> 20 </td><td> 7 </td><td> 25.49 Mbp </td><td> 2 </td><td> 121.28 Mbp </td></tr>  <tr><td> 30 </td><td> 13 </td><td> 22.35 Mbp </td><td> 3 </td><td> 112.44 Mbp </td></tr>  <tr><td> 40 </td><td> 21 </td><td> 15.69 Mbp </td><td> 4 </td><td> 92.44 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 31 </td><td style="background-color:#88ff88;"> 12.48 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 84.79 Mbp </td></tr>  <tr><td> 60 </td><td> 44 </td><td> 8.39 Mbp </td><td> 8 </td><td> 65.42 Mbp </td></tr>  <tr><td> 70 </td><td> 66 </td><td> 3.76 Mbp </td><td> 10 </td><td> 38.16 Mbp </td></tr>  <tr><td> 80 </td><td> 193 </td><td> 0.44 Mbp </td><td> 15 </td><td> 24.10 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.850x </th><th> 767 </th><th> 1.19 Gbp </th><th> 132 </th><th> 1.20 Gbp </th></tr>
+  </tfoot>
+  </table>
+pri1version: assembly_curated
 short_name: bFalRus
 taxon_id: 120794
 ---

@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-04-17
-alt1filesize: 544 MB
-alt1n50ctg: 455469
-alt1n50scf: 455922
-alt1seq: https://s3.amazonaws.com/genomeark/species/Chelonia_mydas/rCheMyd1/assembly_vgp_standard_1.6/rCheMyd1.alt.asm.20200417.fasta.gz
+alt1date: 2020-08-11
+alt1filesize: 562 MB
+alt1n50ctg: 454332
+alt1n50scf: 455478
+alt1seq: https://s3.amazonaws.com/genomeark/species/Chelonia_mydas/rCheMyd1/assembly_curated/rCheMyd1.alt.cur.20200811.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 103 </td><td> 1.41 Mbp </td><td> 103 </td><td> 1.41 Mbp </td></tr>  <tr><td> 20 </td><td> 265 </td><td> 1.00 Mbp </td><td> 265 </td><td> 1.00 Mbp </td></tr>  <tr><td> 30 </td><td> 481 </td><td> 0.77 Mbp </td><td> 481 </td><td> 0.77 Mbp </td></tr>  <tr><td> 40 </td><td> 764 </td><td> 0.59 Mbp </td><td> 764 </td><td> 0.59 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1129 </td><td> 0.46 Mbp </td><td> 1129 </td><td> 0.46 Mbp </td></tr>  <tr><td> 60 </td><td> 1606 </td><td> 0.35 Mbp </td><td> 1605 </td><td> 0.35 Mbp </td></tr>  <tr><td> 70 </td><td> 2252 </td><td> 0.25 Mbp </td><td> 2247 </td><td> 0.25 Mbp </td></tr>  <tr><td> 80 </td><td> 3143 </td><td> 0.18 Mbp </td><td> 3134 </td><td> 0.18 Mbp </td></tr>  <tr><td> 90 </td><td> 4391 </td><td> 0.13 Mbp </td><td> 4372 </td><td> 0.13 Mbp </td></tr>  <tr><td> 100 </td><td> 6741 </td><td> 220  bp </td><td> 6700 </td><td> 220  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 104 </td><td> 1.41 Mbp </td><td> 104 </td><td> 1.41 Mbp </td></tr>  <tr><td> 20 </td><td> 265 </td><td> 1.00 Mbp </td><td> 265 </td><td> 1.00 Mbp </td></tr>  <tr><td> 30 </td><td> 483 </td><td> 0.77 Mbp </td><td> 482 </td><td> 0.77 Mbp </td></tr>  <tr><td> 40 </td><td> 766 </td><td> 0.59 Mbp </td><td> 765 </td><td> 0.59 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1133 </td><td> 0.45 Mbp </td><td> 1131 </td><td> 0.46 Mbp </td></tr>  <tr><td> 60 </td><td> 1612 </td><td> 0.35 Mbp </td><td> 1608 </td><td> 0.35 Mbp </td></tr>  <tr><td> 70 </td><td> 2261 </td><td> 0.25 Mbp </td><td> 2254 </td><td> 0.25 Mbp </td></tr>  <tr><td> 80 </td><td> 3157 </td><td> 0.18 Mbp </td><td> 3144 </td><td> 0.18 Mbp </td></tr>  <tr><td> 90 </td><td> 4412 </td><td> 0.13 Mbp </td><td> 4387 </td><td> 0.13 Mbp </td></tr>  <tr><td> 100 </td><td> 6796 </td><td> 220  bp </td><td> 6736 </td><td> 220  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 6742 </th><th> 1.89 Gbp </th><th> 6701 </th><th> 1.89 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 6797 </th><th> 1.90 Gbp </th><th> 6737 </th><th> 1.90 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Green sea turtle
 data_10x_bases: unknown
 data_10x_bytes: 74.602 GB
@@ -59,14 +59,14 @@ data_pbsubreads_scale: 0.5449
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1566994409
-last_updated: 1588822397
+last_updated: 1597143723
 name: Chelonia mydas
 name_: Chelonia_mydas
-pri1date: 2020-04-17
-pri1filesize: 603 MB
-pri1n50ctg: 45429622
-pri1n50scf: 129896487
-pri1seq: https://s3.amazonaws.com/genomeark/species/Chelonia_mydas/rCheMyd1/assembly_vgp_standard_1.6/rCheMyd1.pri.asm.20200417.fasta.gz
+pri1date: 2020-08-11
+pri1filesize: 623 MB
+pri1n50ctg: 39415510
+pri1n50scf: 134428053
+pri1seq: https://s3.amazonaws.com/genomeark/species/Chelonia_mydas/rCheMyd1/assembly_curated/rCheMyd1.pri.cur.20200811.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -84,12 +84,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1 </td><td> 107.68 Mbp </td><td> 0 </td><td> 343.34 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 98.25 Mbp </td><td> 1 </td><td> 262.86 Mbp </td></tr>  <tr><td> 30 </td><td> 6 </td><td> 65.80 Mbp </td><td> 2 </td><td> 199.69 Mbp </td></tr>  <tr><td> 40 </td><td> 10 </td><td> 55.85 Mbp </td><td> 3 </td><td> 140.08 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 14 </td><td style="background-color:#88ff88;"> 45.43 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 129.90 Mbp </td></tr>  <tr><td> 60 </td><td> 19 </td><td> 39.42 Mbp </td><td> 6 </td><td> 124.08 Mbp </td></tr>  <tr><td> 70 </td><td> 25 </td><td> 33.32 Mbp </td><td> 8 </td><td> 101.67 Mbp </td></tr>  <tr><td> 80 </td><td> 33 </td><td> 20.66 Mbp </td><td> 11 </td><td> 44.48 Mbp </td></tr>  <tr><td> 90 </td><td> 47 </td><td> 10.38 Mbp </td><td> 18 </td><td> 19.77 Mbp </td></tr>  <tr><td> 100 </td><td> 393 </td><td> 71  bp </td><td> 128 </td><td> 3.06 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 98.25 Mbp </td><td> 0 </td><td> 348.27 Mbp </td></tr>  <tr><td> 20 </td><td> 4 </td><td> 79.44 Mbp </td><td> 1 </td><td> 262.51 Mbp </td></tr>  <tr><td> 30 </td><td> 7 </td><td> 62.58 Mbp </td><td> 2 </td><td> 204.12 Mbp </td></tr>  <tr><td> 40 </td><td> 11 </td><td> 45.40 Mbp </td><td> 3 </td><td> 142.32 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 16 </td><td style="background-color:#88ff88;"> 39.42 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 134.43 Mbp </td></tr>  <tr><td> 60 </td><td> 22 </td><td> 33.72 Mbp </td><td> 6 </td><td> 123.87 Mbp </td></tr>  <tr><td> 70 </td><td> 29 </td><td> 26.64 Mbp </td><td> 8 </td><td> 101.62 Mbp </td></tr>  <tr><td> 80 </td><td> 39 </td><td> 17.72 Mbp </td><td> 10 </td><td> 79.52 Mbp </td></tr>  <tr><td> 90 </td><td> 55 </td><td> 8.65 Mbp </td><td> 16 </td><td> 25.20 Mbp </td></tr>  <tr><td> 100 </td><td> 391 </td><td> 71  bp </td><td> 97 </td><td> 3.06 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 394 </th><th> 2.13 Gbp </th><th> 129 </th><th> 2.17 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 392 </th><th> 2.12 Gbp </th><th> 98 </th><th> 2.13 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: rCheMyd
 taxon_id: 8469
 ---

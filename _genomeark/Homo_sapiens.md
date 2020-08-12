@@ -1,6 +1,6 @@
 ---
-assembly: assembly_rockefeller_trio_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: human
 data_10x_bases: 956.85 Gbp
 data_10x_bytes: 448.708 GB
@@ -44,12 +44,12 @@ genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null
 last_raw_data: 1578338688
-last_updated: 1583647458
-mat3date: 2019-11-07
+last_updated: 1595008009
+mat3date: 2020-07-16
 mat3filesize: 834 MB
 mat3n50ctg: 10468883
 mat3n50scf: 103605548
-mat3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_rockefeller_trio_1.6/mHomSap3.mat.asm.20191107.fasta.gz
+mat3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_curated/mHomSap3.mat.decon.20200716.fasta.gz
 mat3sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -67,12 +67,12 @@ mat3sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 6 </td><td> 38.84 Mbp </td><td> 1 </td><td> 187.62 Mbp </td></tr>  <tr><td> 20 </td><td> 17 </td><td> 26.64 Mbp </td><td> 3 </td><td> 140.89 Mbp </td></tr>  <tr><td> 30 </td><td> 31 </td><td> 18.38 Mbp </td><td> 6 </td><td> 129.44 Mbp </td></tr>  <tr><td> 40 </td><td> 50 </td><td> 14.81 Mbp </td><td> 8 </td><td> 110.61 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 75 </td><td style="background-color:#88ff88;"> 10.47 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 103.61 Mbp </td></tr>  <tr><td> 60 </td><td> 110 </td><td> 8.04 Mbp </td><td> 15 </td><td> 87.76 Mbp </td></tr>  <tr><td> 70 </td><td> 162 </td><td> 4.78 Mbp </td><td> 19 </td><td> 60.18 Mbp </td></tr>  <tr><td> 80 </td><td> 265 </td><td> 1.88 Mbp </td><td> 25 </td><td> 43.69 Mbp </td></tr>  <tr><td> 90 </td><td> 1384 </td><td> 67.09 Kbp </td><td> 151 </td><td> 0.20 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 6 </td><td> 38.84 Mbp </td><td> 1 </td><td> 187.62 Mbp </td></tr>  <tr><td> 20 </td><td> 17 </td><td> 26.64 Mbp </td><td> 3 </td><td> 140.89 Mbp </td></tr>  <tr><td> 30 </td><td> 31 </td><td> 18.38 Mbp </td><td> 6 </td><td> 129.44 Mbp </td></tr>  <tr><td> 40 </td><td> 50 </td><td> 14.81 Mbp </td><td> 8 </td><td> 110.61 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 75 </td><td style="background-color:#88ff88;"> 10.47 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 103.61 Mbp </td></tr>  <tr><td> 60 </td><td> 110 </td><td> 8.04 Mbp </td><td> 15 </td><td> 87.76 Mbp </td></tr>  <tr><td> 70 </td><td> 162 </td><td> 4.78 Mbp </td><td> 19 </td><td> 60.18 Mbp </td></tr>  <tr><td> 80 </td><td> 265 </td><td> 1.88 Mbp </td><td> 25 </td><td> 43.69 Mbp </td></tr>  <tr><td> 90 </td><td> 1384 </td><td> 67.09 Kbp </td><td> 163 </td><td> 0.18 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.916x </th><th> 2762 </th><th> 2.93 Gbp </th><th> 1622 </th><th> 2.96 Gbp </th></tr>
+  <tr><th> 0.916x </th><th> 2741 </th><th> 2.93 Gbp </th><th> 1601 </th><th> 2.96 Gbp </th></tr>
   </tfoot>
   </table>
-mat3version: assembly_rockefeller_trio_1.6
+mat3version: assembly_curated
 mito3date: 2019-08-16
 mito3filesize: 5 KB
 mito3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_MT_rockefeller/mHomSap3.MT.20190816.fasta.gz
@@ -101,11 +101,11 @@ mito3sizes: |
 mito3version: assembly_MT_rockefeller
 name: Homo sapiens
 name_: Homo_sapiens
-pat3date: 2019-11-07
+pat3date: 2020-07-16
 pat3filesize: 806 MB
 pat3n50ctg: 11185832
 pat3n50scf: 110922190
-pat3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_rockefeller_trio_1.6/mHomSap3.pat.asm.20191107.fasta.gz
+pat3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_curated/mHomSap3.pat.decon.20200716.fasta.gz
 pat3sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -125,10 +125,10 @@ pat3sizes: |
   <tbody>
   <tr><td> 10 </td><td> 7 </td><td> 34.38 Mbp </td><td> 1 </td><td> 214.90 Mbp </td></tr>  <tr><td> 20 </td><td> 17 </td><td> 26.07 Mbp </td><td> 2 </td><td> 195.51 Mbp </td></tr>  <tr><td> 30 </td><td> 31 </td><td> 21.48 Mbp </td><td> 4 </td><td> 142.46 Mbp </td></tr>  <tr><td> 40 </td><td> 48 </td><td> 16.55 Mbp </td><td> 6 </td><td> 131.06 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 73 </td><td style="background-color:#88ff88;"> 11.19 Mbp </td><td> 9 </td><td style="background-color:#88ff88;"> 110.92 Mbp </td></tr>  <tr><td> 60 </td><td> 110 </td><td> 6.89 Mbp </td><td> 13 </td><td> 78.14 Mbp </td></tr>  <tr><td> 70 </td><td> 169 </td><td> 3.88 Mbp </td><td> 17 </td><td> 56.41 Mbp </td></tr>  <tr><td> 80 </td><td> 342 </td><td> 0.77 Mbp </td><td> 24 </td><td> 29.61 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.874x </th><th> 3318 </th><th> 2.80 Gbp </th><th> 1950 </th><th> 2.86 Gbp </th></tr>
+  <tr><th> 0.874x </th><th> 3286 </th><th> 2.80 Gbp </th><th> 1918 </th><th> 2.85 Gbp </th></tr>
   </tfoot>
   </table>
-pat3version: assembly_rockefeller_trio_1.6
+pat3version: assembly_curated
 short_name: mHomSap
 taxon_id: 9606
 ---
