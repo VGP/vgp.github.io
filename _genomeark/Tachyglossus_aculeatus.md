@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-04-01
-alt1filesize: 518 MB
-alt1n50ctg: 445623
-alt1n50scf: 445623
-alt1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_rockefeller_standard_1.6/mTacAcu1.alt.asm.20200401.fasta.gz
+alt1date: 2020-09-17
+alt1filesize: 519 MB
+alt1n50ctg: 448053
+alt1n50scf: 451621
+alt1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_curated/mTacAcu1.alt.cur.20200917.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 72 </td><td> 2.78 Mbp </td><td> 72 </td><td> 2.78 Mbp </td></tr>  <tr><td> 20 </td><td> 212 </td><td> 1.65 Mbp </td><td> 212 </td><td> 1.65 Mbp </td></tr>  <tr><td> 30 </td><td> 435 </td><td> 1.06 Mbp </td><td> 435 </td><td> 1.06 Mbp </td></tr>  <tr><td> 40 </td><td> 779 </td><td> 0.68 Mbp </td><td> 779 </td><td> 0.68 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1300 </td><td> 0.45 Mbp </td><td> 1300 </td><td> 0.45 Mbp </td></tr>  <tr><td> 60 </td><td> 2218 </td><td> 0.21 Mbp </td><td> 2218 </td><td> 0.21 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 72 </td><td> 2.78 Mbp </td><td> 72 </td><td> 2.78 Mbp </td></tr>  <tr><td> 20 </td><td> 212 </td><td> 1.65 Mbp </td><td> 212 </td><td> 1.65 Mbp </td></tr>  <tr><td> 30 </td><td> 434 </td><td> 1.06 Mbp </td><td> 434 </td><td> 1.07 Mbp </td></tr>  <tr><td> 40 </td><td> 778 </td><td> 0.69 Mbp </td><td> 774 </td><td> 0.69 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1296 </td><td> 0.45 Mbp </td><td> 1289 </td><td> 0.45 Mbp </td></tr>  <tr><td> 60 </td><td> 2191 </td><td> 0.22 Mbp </td><td> 2176 </td><td> 0.22 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.648x </th><th> 3454 </th><th> 1.87 Gbp </th><th> 3454 </th><th> 1.87 Gbp </th></tr>
+  <tr><th> 0.652x </th><th> 3508 </th><th> 1.88 Gbp </th><th> 3482 </th><th> 1.89 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_rockefeller_standard_1.6
-assembly: assembly_rockefeller_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: short-beaked echidna
 data_10x_bases: 268.81 Gbp
 data_10x_bytes: 126.331 GB
@@ -62,7 +62,7 @@ genome_size: 2890000000
 genome_size_display: 2.89 Gbp
 genome_size_method: null
 last_raw_data: 1584648955
-last_updated: 1585803546
+last_updated: 1600456374
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_MT_rockefeller/mTacAcu1.MT.20191003.fasta.gz
@@ -91,11 +91,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Tachyglossus aculeatus
 name_: Tachyglossus_aculeatus
-pri1date: 2020-04-01
-pri1filesize: 608 MB
-pri1n50ctg: 13010884
-pri1n50scf: 30127356
-pri1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_rockefeller_standard_1.6/mTacAcu1.pri.asm.20200401.fasta.gz
+pri1date: 2020-09-17
+pri1filesize: 603 MB
+pri1n50ctg: 12243461
+pri1n50scf: 59605462
+pri1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_curated/mTacAcu1.pri.cur.20200917.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -113,12 +113,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 42.50 Mbp </td><td> 2 </td><td> 102.07 Mbp </td></tr>  <tr><td> 20 </td><td> 14 </td><td> 29.89 Mbp </td><td> 5 </td><td> 63.38 Mbp </td></tr>  <tr><td> 30 </td><td> 25 </td><td> 23.47 Mbp </td><td> 10 </td><td> 58.02 Mbp </td></tr>  <tr><td> 40 </td><td> 38 </td><td> 19.15 Mbp </td><td> 15 </td><td> 50.62 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 56 </td><td style="background-color:#88ff88;"> 13.01 Mbp </td><td> 23 </td><td style="background-color:#88ff88;"> 30.13 Mbp </td></tr>  <tr><td> 60 </td><td> 85 </td><td> 7.37 Mbp </td><td> 35 </td><td> 17.23 Mbp </td></tr>  <tr><td> 70 </td><td> 171 </td><td> 1.53 Mbp </td><td> 64 </td><td> 4.87 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 42.50 Mbp </td><td> 1 </td><td> 171.48 Mbp </td></tr>  <tr><td> 20 </td><td> 14 </td><td> 29.89 Mbp </td><td> 3 </td><td> 136.33 Mbp </td></tr>  <tr><td> 30 </td><td> 25 </td><td> 23.47 Mbp </td><td> 6 </td><td> 84.22 Mbp </td></tr>  <tr><td> 40 </td><td> 38 </td><td> 19.15 Mbp </td><td> 10 </td><td> 63.38 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 57 </td><td style="background-color:#88ff88;"> 12.24 Mbp </td><td> 15 </td><td style="background-color:#88ff88;"> 59.61 Mbp </td></tr>  <tr><td> 60 </td><td> 87 </td><td> 6.65 Mbp </td><td> 21 </td><td> 40.09 Mbp </td></tr>  <tr><td> 70 </td><td> 177 </td><td> 1.42 Mbp </td><td> 31 </td><td> 17.06 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.760x </th><th> 863 </th><th> 2.20 Gbp </th><th> 375 </th><th> 2.24 Gbp </th></tr>
+  <tr><th> 0.755x </th><th> 834 </th><th> 2.18 Gbp </th><th> 309 </th><th> 2.21 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_rockefeller_standard_1.6
+pri1version: assembly_curated
 short_name: mTacAcu
 taxon_id: 9261
 ---
