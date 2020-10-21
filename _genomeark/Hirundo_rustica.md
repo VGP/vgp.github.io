@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-02-11
+alt1date: 2020-10-15
 alt1filesize: 275 MB
 alt1n50ctg: 544458
 alt1n50scf: 544458
-alt1seq: https://s3.amazonaws.com/genomeark/species/Hirundo_rustica/bHirRus1/assembly_curated/bHirRus1.alt.cur.20200211.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Hirundo_rustica/bHirRus1/assembly_curated/bHirRus1.alt.cur.20201015.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -23,7 +23,7 @@ alt1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 34 </td><td> 2.84 Mbp </td><td> 34 </td><td> 2.84 Mbp </td></tr>  <tr><td> 20 </td><td> 93 </td><td> 1.78 Mbp </td><td> 93 </td><td> 1.78 Mbp </td></tr>  <tr><td> 30 </td><td> 183 </td><td> 1.19 Mbp </td><td> 183 </td><td> 1.19 Mbp </td></tr>  <tr><td> 40 </td><td> 312 </td><td> 0.84 Mbp </td><td> 312 </td><td> 0.84 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 507 </td><td> 0.54 Mbp </td><td> 507 </td><td> 0.54 Mbp </td></tr>  <tr><td> 60 </td><td> 838 </td><td> 0.28 Mbp </td><td> 838 </td><td> 0.28 Mbp </td></tr>  <tr><td> 70 </td><td> 1847 </td><td> 52.74 Kbp </td><td> 1846 </td><td> 52.90 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.715x </th><th> 2484 </th><th> 0.94 Gbp </th><th> 2478 </th><th> 0.94 Gbp </th></tr>
+  <tr><th> 0.715x </th><th> 2483 </th><th> 0.94 Gbp </th><th> 2477 </th><th> 0.94 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_curated
@@ -61,7 +61,7 @@ genome_size: 1310000000
 genome_size_display: 1.31 Gbp
 genome_size_method: null
 last_raw_data: 1582385679
-last_updated: 1598188215
+last_updated: 1602767938
 name: Hirundo rustica
 name_: Hirundo_rustica
 pri1date: 2020-02-11
