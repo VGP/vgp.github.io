@@ -42,7 +42,7 @@ genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
 last_raw_data: 1561760697
-last_updated: 1587532720
+last_updated: 1608326238
 mat1date: 2020-02-12
 mat1filesize: 809 MB
 mat1n50ctg: 6019561

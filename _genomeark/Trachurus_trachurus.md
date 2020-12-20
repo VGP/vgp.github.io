@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-01-20
-alt1filesize: 236 MB
-alt1n50ctg: 1560997
-alt1n50scf: 1626549
-alt1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_cambridge/fTraTra1.alt.asm.20200120.fasta.gz
+alt1date: 2020-12-16
+alt1filesize: 235 MB
+alt1n50ctg: 1547897
+alt1n50scf: 1610964
+alt1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_curated/fTraTra1.alt.asm.20201216.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 15 </td><td> 3.91 Mbp </td><td> 15 </td><td> 3.92 Mbp </td></tr>  <tr><td> 20 </td><td> 38 </td><td> 3.12 Mbp </td><td> 38 </td><td> 3.16 Mbp </td></tr>  <tr><td> 30 </td><td> 67 </td><td> 2.48 Mbp </td><td> 66 </td><td> 2.53 Mbp </td></tr>  <tr><td> 40 </td><td> 103 </td><td> 2.06 Mbp </td><td> 101 </td><td> 2.09 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 148 </td><td> 1.56 Mbp </td><td> 145 </td><td> 1.63 Mbp </td></tr>  <tr><td> 60 </td><td> 206 </td><td> 1.22 Mbp </td><td> 200 </td><td> 1.27 Mbp </td></tr>  <tr><td> 70 </td><td> 284 </td><td> 0.86 Mbp </td><td> 274 </td><td> 0.92 Mbp </td></tr>  <tr><td> 80 </td><td> 395 </td><td> 0.61 Mbp </td><td> 380 </td><td> 0.64 Mbp </td></tr>  <tr><td> 90 </td><td> 563 </td><td> 0.37 Mbp </td><td> 539 </td><td> 0.39 Mbp </td></tr>  <tr><td> 100 </td><td> 1197 </td><td> 159  bp </td><td> 1142 </td><td> 159  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 15 </td><td> 3.91 Mbp </td><td> 15 </td><td> 3.92 Mbp </td></tr>  <tr><td> 20 </td><td> 39 </td><td> 3.10 Mbp </td><td> 38 </td><td> 3.16 Mbp </td></tr>  <tr><td> 30 </td><td> 68 </td><td> 2.48 Mbp </td><td> 67 </td><td> 2.53 Mbp </td></tr>  <tr><td> 40 </td><td> 105 </td><td> 2.06 Mbp </td><td> 104 </td><td> 2.08 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 152 </td><td> 1.55 Mbp </td><td> 148 </td><td> 1.61 Mbp </td></tr>  <tr><td> 60 </td><td> 213 </td><td> 1.20 Mbp </td><td> 206 </td><td> 1.24 Mbp </td></tr>  <tr><td> 70 </td><td> 294 </td><td> 0.84 Mbp </td><td> 282 </td><td> 0.89 Mbp </td></tr>  <tr><td> 80 </td><td> 410 </td><td> 0.59 Mbp </td><td> 392 </td><td> 0.62 Mbp </td></tr>  <tr><td> 90 </td><td> 587 </td><td> 0.35 Mbp </td><td> 558 </td><td> 0.38 Mbp </td></tr>  <tr><td> 100 </td><td> 1259 </td><td> 742  bp </td><td> 1184 </td><td> 742  bp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1198 </th><th> 0.81 Gbp </th><th> 1143 </th><th> 0.81 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 1260 </th><th> 0.82 Gbp </th><th> 1185 </th><th> 0.82 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_cambridge
-assembly: assembly_cambridge
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: Atlantic horse mackerel
 data_10x_bases: unknown
 data_10x_bytes: 71.023 GB
@@ -54,7 +54,7 @@ data_pbsubreads_scale: 0.5163
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1576663199
-last_updated: 1580651630
+last_updated: 1608197281
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1n50ctg: 16561
@@ -85,11 +85,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Trachurus trachurus
 name_: Trachurus_trachurus
-pri1date: 2020-01-20
-pri1filesize: 242 MB
+pri1date: 2020-12-16
+pri1filesize: 235 MB
 pri1n50ctg: 6264696
-pri1n50scf: 29696050
-pri1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_cambridge/fTraTra1.pri.asm.20200120.fasta.gz
+pri1n50scf: 35447499
+pri1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_curated/fTraTra1.pri.asm.20201216.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -107,12 +107,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 4 </td><td> 17.80 Mbp </td><td> 1 </td><td> 40.76 Mbp </td></tr>  <tr><td> 20 </td><td> 9 </td><td> 14.23 Mbp </td><td> 3 </td><td> 35.79 Mbp </td></tr>  <tr><td> 30 </td><td> 15 </td><td> 10.02 Mbp </td><td> 6 </td><td> 32.52 Mbp </td></tr>  <tr><td> 40 </td><td> 25 </td><td> 7.76 Mbp </td><td> 8 </td><td> 31.61 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 37 </td><td style="background-color:#88ff88;"> 6.26 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 29.70 Mbp </td></tr>  <tr><td> 60 </td><td> 52 </td><td> 5.10 Mbp </td><td> 14 </td><td> 26.96 Mbp </td></tr>  <tr><td> 70 </td><td> 70 </td><td> 3.99 Mbp </td><td> 17 </td><td> 24.15 Mbp </td></tr>  <tr><td> 80 </td><td> 94 </td><td> 2.82 Mbp </td><td> 21 </td><td> 16.10 Mbp </td></tr>  <tr><td> 90 </td><td> 134 </td><td> 1.33 Mbp </td><td> 39 </td><td> 2.78 Mbp </td></tr>  <tr><td> 100 </td><td> 488 </td><td> 11  bp </td><td> 281 </td><td> 9.84 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 4 </td><td> 17.80 Mbp </td><td> 2 </td><td> 40.66 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 15.98 Mbp </td><td> 4 </td><td> 37.40 Mbp </td></tr>  <tr><td> 30 </td><td> 15 </td><td> 10.02 Mbp </td><td> 6 </td><td> 36.28 Mbp </td></tr>  <tr><td> 40 </td><td> 24 </td><td> 8.13 Mbp </td><td> 8 </td><td> 35.83 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 36 </td><td style="background-color:#88ff88;"> 6.26 Mbp </td><td> 10 </td><td style="background-color:#88ff88;"> 35.45 Mbp </td></tr>  <tr><td> 60 </td><td> 50 </td><td> 5.23 Mbp </td><td> 13 </td><td> 33.39 Mbp </td></tr>  <tr><td> 70 </td><td> 68 </td><td> 4.00 Mbp </td><td> 15 </td><td> 31.05 Mbp </td></tr>  <tr><td> 80 </td><td> 91 </td><td> 3.02 Mbp </td><td> 18 </td><td> 29.25 Mbp </td></tr>  <tr><td> 90 </td><td> 128 </td><td> 1.63 Mbp </td><td> 21 </td><td> 25.35 Mbp </td></tr>  <tr><td> 100 </td><td> 453 </td><td> 11  bp </td><td> 218 </td><td> 9.80 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 489 </th><th> 0.83 Gbp </th><th> 282 </th><th> 0.83 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 454 </th><th> 0.82 Gbp </th><th> 219 </th><th> 0.82 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_cambridge
+pri1version: assembly_curated
 short_name: fTraTra
 taxon_id: 36212
 ---

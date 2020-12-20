@@ -1,9 +1,9 @@
 ---
-alt2date: 2019-11-18
-alt2filesize: 511 MB
+alt2date: 2020-12-15
+alt2filesize: 497 MB
 alt2n50ctg: 98930
 alt2n50scf: 98930
-alt2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.alt.cur.20191118.fasta.gz
+alt2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.alt.cur.20201215.fasta.gz
 alt2sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -64,7 +64,7 @@ genome_size: 2800000000
 genome_size_display: 2.80 Gbp
 genome_size_method: null
 last_raw_data: 1566356326
-last_updated: 1574391999
+last_updated: 1608058977
 mito2date: 2019-08-21
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_MT_rockefeller/sPriPec2.MT.20190821.fasta.gz
@@ -93,11 +93,11 @@ mito2sizes: |
 mito2version: assembly_MT_rockefeller
 name: Pristis pectinata
 name_: Pristis_pectinata
-pri2date: 2019-11-18
+pri2date: 2020-12-15
 pri2filesize: 659 MB
 pri2n50ctg: 11068733
 pri2n50scf: 53952022
-pri2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.pri.cur.20191118.fasta.gz
+pri2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.pri.cur.20201215.fasta.gz
 pri2sizes: |
   <table class="sequence-sizes-table">
   <thead>

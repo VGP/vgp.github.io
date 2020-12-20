@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-01-13
-alt1filesize: 430 MB
+alt1date: 2020-12-15
+alt1filesize: 423 MB
 alt1n50ctg: 56636
 alt1n50scf: 56656
-alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.alt.cur.20200113.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.alt.cur.20201215.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -68,7 +68,7 @@ genbank_pri: GCA_010909765.1
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1574701010
-last_updated: 1602801993
+last_updated: 1608059572
 mito1date: 2020-04-15
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller_nanopore/sAmbRad1.MT.20200415.fasta.gz
@@ -97,11 +97,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller_nanopore
 name: Amblyraja radiata
 name_: Amblyraja_radiata
-pri1date: 2020-01-13
+pri1date: 2020-12-15
 pri1filesize: 688 MB
 pri1n50ctg: 1639199
 pri1n50scf: 75329052
-pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.pri.cur.20200113.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.pri.cur.20201215.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>

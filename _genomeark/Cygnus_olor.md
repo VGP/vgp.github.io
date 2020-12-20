@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-09-26
-alt1filesize: 245 MB
-alt1n50ctg: 48900
-alt1n50scf: 48917
-alt1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_curated/bCygOlo1.alt.cur.20190926.fasta.gz
+alt1date: 2020-11-30
+alt1filesize: 239 MB
+alt1n50ctg: 48927
+alt1n50scf: 48945
+alt1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_curated/bCygOlo1.alt.cur.20201130.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,9 +21,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 149 </td><td> 0.74 Mbp </td><td> 149 </td><td> 0.74 Mbp </td></tr>  <tr><td> 20 </td><td> 409 </td><td> 0.46 Mbp </td><td> 409 </td><td> 0.46 Mbp </td></tr>  <tr><td> 30 </td><td> 812 </td><td> 0.29 Mbp </td><td> 812 </td><td> 0.29 Mbp </td></tr>  <tr><td> 40 </td><td> 1469 </td><td> 0.17 Mbp </td><td> 1468 </td><td> 0.17 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 3125 </td><td> 48.90 Kbp </td><td> 3124 </td><td> 48.92 Kbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 149 </td><td> 0.74 Mbp </td><td> 149 </td><td> 0.74 Mbp </td></tr>  <tr><td> 20 </td><td> 408 </td><td> 0.46 Mbp </td><td> 408 </td><td> 0.46 Mbp </td></tr>  <tr><td> 30 </td><td> 811 </td><td> 0.29 Mbp </td><td> 811 </td><td> 0.29 Mbp </td></tr>  <tr><td> 40 </td><td> 1468 </td><td> 0.17 Mbp </td><td> 1468 </td><td> 0.17 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 3123 </td><td> 48.93 Kbp </td><td> 3122 </td><td> 48.94 Kbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.550x </th><th> 5616 </th><th> 0.81 Gbp </th><th> 5613 </th><th> 0.81 Gbp </th></tr>
+  <tr><th> 0.550x </th><th> 5640 </th><th> 0.81 Gbp </th><th> 5626 </th><th> 0.81 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_curated
@@ -64,7 +64,7 @@ genome_size: 1480000000
 genome_size_display: 1.48 Gbp
 genome_size_method: null
 last_raw_data: 1564200622
-last_updated: 1600970863
+last_updated: 1606748870
 mito1date: 2019-09-28
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_MT_rockefeller/bCygOlo1.MT.20190928.fasta.gz
@@ -93,11 +93,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Cygnus olor
 name_: Cygnus_olor
-pri1date: 2019-09-26
+pri1date: 2020-11-30
 pri1filesize: 329 MB
-pri1n50ctg: 4966489
-pri1n50scf: 40597510
-pri1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_curated/bCygOlo1.pri.cur.20190926.fasta.gz
+pri1n50ctg: 4985026
+pri1n50scf: 40612327
+pri1seq: https://s3.amazonaws.com/genomeark/species/Cygnus_olor/bCygOlo1/assembly_curated/bCygOlo1.pri.cur.20201130.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -115,9 +115,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 6 </td><td> 19.51 Mbp </td><td> 0 </td><td> 209.74 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 14.35 Mbp </td><td> 1 </td><td> 161.16 Mbp </td></tr>  <tr><td> 30 </td><td> 27 </td><td> 10.89 Mbp </td><td> 2 </td><td> 121.16 Mbp </td></tr>  <tr><td> 40 </td><td> 44 </td><td> 7.03 Mbp </td><td> 4 </td><td> 77.81 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 69 </td><td style="background-color:#88ff88;"> 4.97 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 40.60 Mbp </td></tr>  <tr><td> 60 </td><td> 108 </td><td> 2.96 Mbp </td><td> 11 </td><td> 22.22 Mbp </td></tr>  <tr><td> 70 </td><td> 194 </td><td> 0.96 Mbp </td><td> 19 </td><td> 12.20 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 6 </td><td> 19.51 Mbp </td><td> 0 </td><td> 209.52 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 14.59 Mbp </td><td> 1 </td><td> 160.82 Mbp </td></tr>  <tr><td> 30 </td><td> 26 </td><td> 11.46 Mbp </td><td> 2 </td><td> 121.08 Mbp </td></tr>  <tr><td> 40 </td><td> 41 </td><td> 7.74 Mbp </td><td> 4 </td><td> 77.82 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 65 </td><td style="background-color:#88ff88;"> 4.99 Mbp </td><td> 6 </td><td style="background-color:#88ff88;"> 40.61 Mbp </td></tr>  <tr><td> 60 </td><td> 104 </td><td> 2.98 Mbp </td><td> 11 </td><td> 22.22 Mbp </td></tr>  <tr><td> 70 </td><td> 190 </td><td> 0.93 Mbp </td><td> 19 </td><td> 12.20 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.760x </th><th> 626 </th><th> 1.12 Gbp </th><th> 180 </th><th> 1.13 Gbp </th></tr>
+  <tr><th> 0.760x </th><th> 621 </th><th> 1.12 Gbp </th><th> 170 </th><th> 1.13 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated

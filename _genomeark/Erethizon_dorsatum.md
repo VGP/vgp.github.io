@@ -1,7 +1,12 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: North American porcupine
-data_10x_scale: 1
+data_10x_bases: 235.82 Gbp
+data_10x_bytes: 119.919 GB
+data_10x_coverage: 81.32x
+data_10x_files: 11
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/ .<br>
+data_10x_scale: 1.8314
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
@@ -17,8 +22,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 2900000000
 genome_size_display: 2.90 Gbp
 genome_size_method: null
-last_raw_data: 1574118504
-last_updated: 1574118504
+last_raw_data: 1608310540
+last_updated: 1608310540
 name: Erethizon dorsatum
 name_: Erethizon_dorsatum
 short_name: mEreDor

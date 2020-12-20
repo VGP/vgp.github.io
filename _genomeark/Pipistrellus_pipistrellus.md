@@ -3,7 +3,7 @@ alt1date: 2020-07-24
 alt1filesize: 460 MB
 alt1n50ctg: 229984
 alt1n50scf: 230226
-alt1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_curated/mPipPip1.alt.asm.20200724.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_curated/mPipPip1.alt.cur.20200724.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -54,7 +54,7 @@ data_pbsubreads_scale: 0.5359
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1586515943
-last_updated: 1597303822
+last_updated: 1605869756
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1n50ctg: 16925
@@ -89,7 +89,7 @@ pri1date: 2020-07-24
 pri1filesize: 512 MB
 pri1n50ctg: 4446752
 pri1n50scf: 94929986
-pri1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_curated/mPipPip1.pri.asm.20200724.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_curated/mPipPip1.pri.cur.20200724.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>

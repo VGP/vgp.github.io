@@ -7,7 +7,12 @@ data_10x_coverage: 46.91x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel3/genomic_data/10x/ .<br>
 data_10x_scale: 1.5087
-data_arima_scale: 1
+data_arima_bases: 363.75 Gbp
+data_arima_bytes: 181.189 GB
+data_arima_coverage: 129.81x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel3/genomic_data/arima/ .<br>
+data_arima_scale: 1.8697
 data_bionano_bases: 2227.82 Gbp
 data_bionano_bytes: 3.121 GB
 data_bionano_coverage: 795.01x
@@ -20,15 +25,15 @@ data_illumina_coverage: 82.95x
 data_illumina_files: 2
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.3716
-data_pbhifi_scale: 1
+data_pbhifi_scale: 1.0076
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 2802245436
 genome_size_display: 2.80 Gbp
 genome_size_method: genomescope (k=31)
-last_raw_data: 1591261357
-last_updated: 1591261357
+last_raw_data: 1606833571
+last_updated: 1606833571
 name: Meles meles
 name_: Meles_meles
 short_name: mMelMel
