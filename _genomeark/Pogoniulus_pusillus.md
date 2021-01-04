@@ -54,7 +54,7 @@ data_pbsubreads_bases: 165.44 Gbp
 data_pbsubreads_bytes: 292.750 GB
 data_pbsubreads_coverage: 165.44x
 data_pbsubreads_files: 6
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pogoniulus_pusillus/bPogPus1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5263
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

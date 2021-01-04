@@ -52,7 +52,7 @@ data_pbsubreads_bases: 55.96 Gbp
 data_pbsubreads_bytes: 96.721 GB
 data_pbsubreads_coverage: 55.96x
 data_pbsubreads_files: 10
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5388
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

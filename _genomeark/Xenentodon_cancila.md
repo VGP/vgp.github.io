@@ -54,7 +54,7 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 111.435 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 28
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Xenentodon_cancila/fXenCan1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5274
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

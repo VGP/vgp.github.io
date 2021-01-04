@@ -57,7 +57,7 @@ data_pbsubreads_bases: 140.86 Gbp
 data_pbsubreads_bytes: 254.242 GB
 data_pbsubreads_coverage: 104.34x
 data_pbsubreads_files: 2
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_naumanni/bFalNau1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_naumanni/bFalNau1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.516
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

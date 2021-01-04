@@ -788,34 +788,34 @@ sub processData ($$$$$) {
 
     elsif ($filename =~ m!/genomic_data/pacbio/!) {
 
-        if    ($filename =~ m/scraps.bam/) {
+        if    ($filename =~ m/scraps\.bam/) {
             $$seqFiles{"pbscraps"} += 1;
             $$seqBytes{"pbscraps"} += $filesize;
         }
-        elsif ($filename =~ m/scraps.bam.pbi/) {
+        elsif ($filename =~ m/scraps\.bam\.pbi/) {
             #$$seqFiles{"pbscraps"} += 1;
             $$seqBytes{"pbscraps"} += $filesize;
         }
-        elsif ($filename =~ m/subreads.bam/) {
+        elsif ($filename =~ m/subreads\.bam/) {
             $$seqIndiv{"pbsubreads"} .= "$sTag/$iTag\0";
             $$seqFiles{"pbsubreads"} += 1;
             $$seqBytes{"pbsubreads"} += $filesize;
         }
-        elsif ($filename =~ m/subreads.bam.pbi/) {
-            #$$seqFiles{"pbsubreads"} += 1;
+        elsif ($filename =~ m/subreads\.bam\.pbi/) {
             $$seqBytes{"pbsubreads"} += $filesize;
         }
-        elsif ($filename =~ m/ccs.bam/) {
+        elsif (($filename =~ m/ccs\.bam/) ||
+               ($filename =~ m/ccs\..*\.bam/)) {
             $$seqIndiv{"pbhifi"} .= "$sTag/$iTag\0";
             $$seqFiles{"pbhifi"} += 1;
             $$seqBytes{"pbhifi"} += $filesize;
         }
-        elsif ($filename =~ m/ccs.bam.pbi/) {
-            #$$seqFiles{"pbhifi"} += 1;
+        elsif (($filename =~ m/ccs\.bam\.pbi/) ||
+               ($filename =~ m/ccs\..*\.bam\.pbi/)) {
             $$seqBytes{"pbhifi"} += $filesize;
         }
-        elsif ($filename =~ m/ccs.bam.bai/) {
-            #$$seqFiles{"pbhifi"} += 1;
+        elsif (($filename =~ m/ccs\.bam\.bai/) ||
+               ($filename =~ m/ccs\..*\.bam\.bai/)) {
             $$seqBytes{"pbhifi"} += $filesize;
         }
         else {
@@ -1470,7 +1470,7 @@ foreach my $species (@speciesList) {
 
     if (($seqBytes{"pbsubreads"} > 0)) {
         foreach my $k (uniquifyStringArray($seqIndiv{"pbsubreads"})) {
-            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*ccs.bam*\"<br>";
+            $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*ccs*bam*\"<br>";
         }
 
         if ($data{"genome_size"} > 0) {

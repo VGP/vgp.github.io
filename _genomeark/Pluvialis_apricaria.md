@@ -54,7 +54,7 @@ data_pbsubreads_bases: 98.23 Gbp
 data_pbsubreads_bytes: 175.523 GB
 data_pbsubreads_coverage: 98.23x
 data_pbsubreads_files: 2
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pluvialis_apricaria/bPluApr1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pluvialis_apricaria/bPluApr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5212
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

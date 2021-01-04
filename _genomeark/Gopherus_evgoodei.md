@@ -54,7 +54,7 @@ data_pbsubreads_bases: 156.16 Gbp
 data_pbsubreads_bytes: 271.943 GB
 data_pbsubreads_coverage: 58.17x
 data_pbsubreads_files: 38
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5348
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

@@ -36,7 +36,7 @@ data_pbsubreads_bases: unknown
 data_pbsubreads_bytes: 636.692 GB
 data_pbsubreads_coverage: N/A
 data_pbsubreads_files: 8
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5227
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

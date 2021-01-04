@@ -54,7 +54,7 @@ data_pbsubreads_bases: 159.20 Gbp
 data_pbsubreads_bytes: 276.004 GB
 data_pbsubreads_coverage: 63.68x
 data_pbsubreads_files: 34
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

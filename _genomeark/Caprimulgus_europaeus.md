@@ -25,7 +25,7 @@ data_pbsubreads_bases: 158.97 Gbp
 data_pbsubreads_bytes: 284.450 GB
 data_pbsubreads_coverage: 134.38x
 data_pbsubreads_files: 2
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Caprimulgus_europaeus/bCapEur3/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Caprimulgus_europaeus/bCapEur3/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5205
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

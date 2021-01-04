@@ -15,7 +15,7 @@ data_pbsubreads_bases: 232.21 Gbp
 data_pbsubreads_bytes: 419.518 GB
 data_pbsubreads_coverage: 232.21x
 data_pbsubreads_files: 4
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5155
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

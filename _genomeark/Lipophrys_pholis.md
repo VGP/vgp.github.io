@@ -15,6 +15,11 @@ data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Lipophrys
 data_arima_scale: 1.5909
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_bases: unknown
+data_pbhifi_bytes: 5.762 GB
+data_pbhifi_coverage: N/A
+data_pbhifi_files: 2
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Lipophrys_pholis/fLipPho2/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.3752
 data_pbsubreads_scale: 1
 data_phase_scale: 1

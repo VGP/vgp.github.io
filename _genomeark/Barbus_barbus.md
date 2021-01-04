@@ -5,10 +5,15 @@ data_10x_scale: 1
 data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_bases: unknown
+data_pbhifi_bytes: 23.276 GB
+data_pbhifi_coverage: N/A
+data_pbhifi_files: 2
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Barbus_barbus/fBarBab1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.0887
 data_pbsubreads_scale: 1
 data_phase_scale: 1
-data_status: <em style="color:red">no data</em>
+data_status: <em style="color:orange">some data</em>
 last_raw_data: 1605874616
 last_updated: 1605874616
 name: Barbus barbus

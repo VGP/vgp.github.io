@@ -15,6 +15,11 @@ data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholis_gu
 data_arima_scale: 1.5982
 data_dovetail_scale: 1
 data_illumina_scale: 1
+data_pbhifi_bases: unknown
+data_pbhifi_bytes: 33.614 GB
+data_pbhifi_coverage: N/A
+data_pbhifi_files: 4
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholis_gunnellus/fPhoGun1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.14
 data_pbsubreads_scale: 1
 data_phase_scale: 1

@@ -54,7 +54,7 @@ data_pbsubreads_bases: 90.27 Gbp
 data_pbsubreads_bytes: 154.793 GB
 data_pbsubreads_coverage: 60.58x
 data_pbsubreads_files: 18
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5431
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

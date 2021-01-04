@@ -30,7 +30,7 @@ data_pbsubreads_bases: 817.14 Gbp
 data_pbsubreads_bytes: 1460.126 GB
 data_pbsubreads_coverage: 148.57x
 data_pbsubreads_files: 14
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiscyllium_ocellatum/sHemOce1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5212
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

@@ -15,7 +15,7 @@ data_pbsubreads_bases: 108.29 Gbp
 data_pbsubreads_bytes: 193.867 GB
 data_pbsubreads_coverage: 108.29x
 data_pbsubreads_files: 2
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trogon_surrucura/bTroSur1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trogon_surrucura/bTroSur1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5202
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

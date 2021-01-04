@@ -31,7 +31,7 @@ data_pbsubreads_bases: 176.34 Gbp
 data_pbsubreads_bytes: 304.866 GB
 data_pbsubreads_coverage: 69.98x
 data_pbsubreads_files: 52
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5387
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

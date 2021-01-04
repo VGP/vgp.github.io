@@ -59,7 +59,7 @@ data_pbsubreads_bases: 265.83 Gbp
 data_pbsubreads_bytes: 467.477 GB
 data_pbsubreads_coverage: 128.24x
 data_pbsubreads_files: 100
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

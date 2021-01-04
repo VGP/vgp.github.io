@@ -15,7 +15,7 @@ data_pbsubreads_bases: 50.84 Gbp
 data_pbsubreads_bytes: 87.821 GB
 data_pbsubreads_coverage: 43.82x
 data_pbsubreads_files: 10
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Vidua_chalybeata/bVidCha1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Vidua_chalybeata/bVidCha1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5391
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

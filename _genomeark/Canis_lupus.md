@@ -15,6 +15,11 @@ data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Canis_lupus_orion/mCanLor1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5442
 data_illumina_scale: 1
+data_pbhifi_bases: unknown
+data_pbhifi_bytes: 68.416 GB
+data_pbhifi_coverage: N/A
+data_pbhifi_files: 12
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Canis_lupus_orion/mCanLor1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.1232
 data_pbsubreads_scale: 1
 data_phase_scale: 1

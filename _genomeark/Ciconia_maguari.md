@@ -54,7 +54,7 @@ data_pbsubreads_bases: 88.32 Gbp
 data_pbsubreads_bytes: 154.494 GB
 data_pbsubreads_coverage: 88.32x
 data_pbsubreads_files: 10
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ciconia_maguari/bCicMag1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

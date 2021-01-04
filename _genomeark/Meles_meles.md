@@ -25,10 +25,15 @@ data_illumina_coverage: 82.95x
 data_illumina_files: 2
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.3716
+data_pbhifi_bases: 109.62 Gbp
+data_pbhifi_bytes: 101.324 GB
+data_pbhifi_coverage: 39.12x
+data_pbhifi_files: 10
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel3/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.0076
 data_pbsubreads_scale: 1
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 2802245436
 genome_size_display: 2.80 Gbp
 genome_size_method: genomescope (k=31)

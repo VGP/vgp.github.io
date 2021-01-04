@@ -49,7 +49,7 @@ data_pbsubreads_bases: 85.40 Gbp
 data_pbsubreads_bytes: 147.534 GB
 data_pbsubreads_coverage: 141.19x
 data_pbsubreads_files: 48
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5391
 data_phase_bases: 74.26 Gbp
 data_phase_bytes: 44.781 GB

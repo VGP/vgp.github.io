@@ -49,7 +49,7 @@ data_pbsubreads_bases: 75.96 Gbp
 data_pbsubreads_bytes: 131.487 GB
 data_pbsubreads_coverage: 76.88x
 data_pbsubreads_files: 18
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Archocentrus_centrarchus/fArcCen1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.538
 data_phase_bases: 91.60 Gbp
 data_phase_bytes: 56.032 GB

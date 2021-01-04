@@ -49,7 +49,7 @@ data_pbsubreads_bases: 168.46 Gbp
 data_pbsubreads_bytes: 606.932 GB
 data_pbsubreads_coverage: 58.29x
 data_pbsubreads_files: 272
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/ . --exclude "*ccs.bam*"<br>
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.2585
 data_phase_bases: 42.47 Gbp
 data_phase_bytes: 23.352 GB
