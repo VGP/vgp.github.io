@@ -75,7 +75,7 @@ while (<F>) {
 
         #  Emit output or fail.
         if ($typ eq "XXX") {
-            print "$acc  $nam  $typ -- $lab -- $dsc\n";
+            print "$acc  $nam  $typ -- $lab -- $dsc -- ignored\n";
         } else {
             print O "$acc\t$nam\t$typ\n";
         }
