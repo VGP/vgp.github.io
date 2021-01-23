@@ -7,7 +7,17 @@ data_10x_coverage: 109.64x
 data_10x_files: 3
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8524
-data_arima_scale: 1
+data_arima_bases: 93.76 Gbp
+data_arima_bytes: 59.111 GB
+data_arima_coverage: 93.76x
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/arima/ .<br>
+data_arima_scale: 1.4772
+data_bionano_bases: 417.39 Gbp
+data_bionano_bytes: 0.640 GB
+data_bionano_coverage: 417.39x
+data_bionano_files: 1
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
@@ -18,11 +28,11 @@ data_pbsubreads_files: 4
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5155
 data_phase_scale: 1
-data_status: <em style="color:orange">some data</em>
+data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
-last_raw_data: 1583440127
-last_updated: 1583440127
+last_raw_data: 1610040170
+last_updated: 1610040170
 name: Grus americana
 name_: Grus_americana
 short_name: bGruAme

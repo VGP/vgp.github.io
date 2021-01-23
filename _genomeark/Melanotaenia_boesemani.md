@@ -59,7 +59,7 @@ data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1603704613
-last_updated: 1605773581
+last_updated: 1610556227
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1n50ctg: 16541

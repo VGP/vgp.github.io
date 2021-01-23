@@ -8,17 +8,17 @@ data_10x_coverage: 241.49x
 data_10x_files: 22
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/10x/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/10x/ .<br>
 data_10x_scale: 1.897
-data_arima_bases: 335.97 Gbp
-data_arima_bytes: 189.254 GB
-data_arima_coverage: 277.66x
-data_arima_files: 6
-data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal3/genomic_data/arima/ .<br>
-data_arima_scale: 1.6533
-data_bionano_bases: 551.95 Gbp
-data_bionano_bytes: 1.043 GB
-data_bionano_coverage: 456.16x
-data_bionano_files: 2
-data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/bionano/ .<br>
+data_arima_bases: 594.76 Gbp
+data_arima_bytes: 331.384 GB
+data_arima_coverage: 491.53x
+data_arima_files: 16
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal2/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal3/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/arima/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/arima/ .<br>
+data_arima_scale: 1.6715
+data_bionano_bases: 1494.42 Gbp
+data_bionano_bytes: 2.792 GB
+data_bionano_coverage: 1235.05x
+data_bionano_files: 3
+data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/bionano/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_bases: 221.53 Gbp
 data_illumina_bytes: 109.707 GB
@@ -27,19 +27,19 @@ data_illumina_files: 8
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8806
 data_pbhifi_scale: 1
-data_pbsubreads_bases: 123.43 Gbp
-data_pbsubreads_bytes: 213.318 GB
-data_pbsubreads_coverage: 102.01x
-data_pbsubreads_files: 24
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5389
+data_pbsubreads_bases: 881.59 Gbp
+data_pbsubreads_bytes: 1521.295 GB
+data_pbsubreads_coverage: 728.59x
+data_pbsubreads_files: 30
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
+data_pbsubreads_scale: 0.5397
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
-last_raw_data: 1594753015
-last_updated: 1594753015
+last_raw_data: 1610088457
+last_updated: 1610088457
 mat1date: 2019-10-17
 mat1filesize: 286 MB
 mat1n50ctg: 16502132

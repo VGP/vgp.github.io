@@ -2,7 +2,12 @@
 assembly_status: <em style="color:red">no assembly</em>
 common_name: masked duck
 data_10x_scale: 1
-data_arima_scale: 1
+data_arima_bases: unknown
+data_arima_bytes: 74.768 GB
+data_arima_coverage: N/A
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Nomonyx_dominicus/bNomDom1/genomic_data/arima/ .<br>
+data_arima_scale: 1.4805
 data_bionano_bases: unknown
 data_bionano_bytes: 2.503 GB
 data_bionano_coverage: N/A
@@ -19,8 +24,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Nomo
 data_pbsubreads_scale: 0.5382
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1537988752
-last_updated: 1537988752
+last_raw_data: 1609967380
+last_updated: 1609967380
 name: Nomonyx dominicus
 name_: Nomonyx_dominicus
 short_name: bNomDom
