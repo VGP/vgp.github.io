@@ -491,7 +491,7 @@ sub generateAssemblySummary ($$$) {
         (! -e "$filename.$type.summary")) {
         print "Fetch s3://genomeark/$filename.gz\n";
 
-        system("aws --no-sign-request s3 cp s3://genomeark/$filename.gz downloads/$filename.gz");
+        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$filename.gz downloads/$filename.gz");
     }
 
     if ((! -e "downloads/$filename.gz") &&
@@ -983,8 +983,8 @@ sub downloadAndSummarize ($$$) {
         (! -e "$name.summary")) {
         printf "FETCH file #%4d size %6.3f GB '%s'\n", $file, $size / 1024 / 1024 / 1024, $name;
         printf " -> downloads/$name\n";
-        #printf "  aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name\n";
-        system("aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
+        printf " -> aws --no-progress --no-sign-request s3 cp s3://genomeark/$name downloads/$name\n";
+        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
     }
 
     #  Make the directory where we'll store summaries.
@@ -1151,7 +1151,7 @@ sub computeBionanoBases ($) {
         if ((! -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf "FETCH size %6.3f GB '%s'\n", $size / 1024 / 1024 / 1024, $name;
-            system("aws --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
+            system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
         }
     }
 
