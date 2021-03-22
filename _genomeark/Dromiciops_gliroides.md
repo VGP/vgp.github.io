@@ -59,7 +59,7 @@ data_pbsubreads_scale: 0.529
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1601308154
-last_updated: 1601559565
+last_updated: 1610718105
 name: Dromiciops gliroides
 name_: Dromiciops_gliroides
 pri1date: 2020-10-01

@@ -64,7 +64,7 @@ genome_size: 1230000000
 genome_size_display: 1.23 Gbp
 genome_size_method: null
 last_raw_data: 1564251530
-last_updated: 1570556404
+last_updated: 1614005290
 name: Chiroxiphia lanceolata
 name_: Chiroxiphia_lanceolata
 pri1date: 2019-10-08

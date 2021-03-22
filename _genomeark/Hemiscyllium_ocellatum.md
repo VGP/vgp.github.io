@@ -1,4 +1,5 @@
 ---
+assembly: assembly_rockefeller_trio_1.6
 assembly_status: <em style="color:red">no assembly</em>
 common_name: epaulette shark
 data_10x_bases: 355.77 Gbp
@@ -38,9 +39,91 @@ genome_size: 5500000000
 genome_size_display: 5.50 Gbp
 genome_size_method: null
 last_raw_data: 1594752182
-last_updated: 1594752182
+last_updated: 1615326479
+m1date: 2021-03-09
+m1filesize: 1 GB
+m1n50ctg: 2768958
+m1n50scf: 37995810
+m1seq: https://s3.amazonaws.com/genomeark/species/Hemiscyllium_ocellatum/sHemOce1/assembly_rockefeller_trio_1.6/sHemOce1.mat.20210309.fasta.gz
+m1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 11 </td><td> 34.32 Mbp </td><td> 3 </td><td> 127.15 Mbp </td></tr>  <tr><td> 20 </td><td> 32 </td><td> 22.10 Mbp </td><td> 9 </td><td> 90.81 Mbp </td></tr>  <tr><td> 30 </td><td> 66 </td><td> 12.24 Mbp </td><td> 15 </td><td> 73.77 Mbp </td></tr>  <tr><td> 40 </td><td> 129 </td><td> 6.52 Mbp </td><td> 24 </td><td> 55.28 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 256 </td><td style="background-color:#88ff88;"> 2.77 Mbp </td><td> 36 </td><td style="background-color:#88ff88;"> 38.00 Mbp </td></tr>  <tr><td> 60 </td><td> 721 </td><td> 0.49 Mbp </td><td> 77 </td><td> 4.53 Mbp </td></tr>  <tr><td> 70 </td><td> 3854 </td><td> 96.08 Kbp </td><td> 583 </td><td> 0.37 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.739x </th><th> 7555 </th><th> 4.07 Gbp </th><th> 4003 </th><th> 4.16 Gbp </th></tr>
+  </tfoot>
+  </table>
+m1version: assembly_rockefeller_trio_1.6
+mito1date: 2021-03-04
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Hemiscyllium_ocellatum/sHemOce1/assembly_rockefeller_trio_1.6/sHemOce1.MT.20210304.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 5519 </th><th> A </th><th> 0.3300  bp </th><th> A </th><th> 0.3300  bp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_rockefeller_trio_1.6
 name: Hemiscyllium ocellatum
 name_: Hemiscyllium_ocellatum
+p1date: 2021-03-09
+p1filesize: 1 GB
+p1n50ctg: 2726060
+p1n50scf: 41064340
+p1seq: https://s3.amazonaws.com/genomeark/species/Hemiscyllium_ocellatum/sHemOce1/assembly_rockefeller_trio_1.6/sHemOce1.pat.20210309.fasta.gz
+p1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 13 </td><td> 31.72 Mbp </td><td> 4 </td><td> 119.15 Mbp </td></tr>  <tr><td> 20 </td><td> 34 </td><td> 23.04 Mbp </td><td> 9 </td><td> 91.22 Mbp </td></tr>  <tr><td> 30 </td><td> 65 </td><td> 13.47 Mbp </td><td> 15 </td><td> 79.50 Mbp </td></tr>  <tr><td> 40 </td><td> 125 </td><td> 6.54 Mbp </td><td> 24 </td><td> 55.28 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 257 </td><td style="background-color:#88ff88;"> 2.73 Mbp </td><td> 35 </td><td style="background-color:#88ff88;"> 41.06 Mbp </td></tr>  <tr><td> 60 </td><td> 753 </td><td> 0.48 Mbp </td><td> 71 </td><td> 5.53 Mbp </td></tr>  <tr><td> 70 </td><td> 3928 </td><td> 96.88 Kbp </td><td> 548 </td><td> 0.41 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 0.741x </th><th> 7882 </th><th> 4.08 Gbp </th><th> 4301 </th><th> 4.18 Gbp </th></tr>
+  </tfoot>
+  </table>
+p1version: assembly_rockefeller_trio_1.6
 short_name: sHemOce
 taxon_id: 170820
 ---

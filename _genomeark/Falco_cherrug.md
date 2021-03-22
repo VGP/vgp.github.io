@@ -25,8 +25,8 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 12000000000
 genome_size_display: 12.00 Gbp
-last_raw_data: 1610065062
-last_updated: 1610065062
+last_raw_data: 1612830184
+last_updated: 1612830184
 name: Falco cherrug
 name_: Falco_cherrug
 short_name: bFalChe

@@ -63,7 +63,7 @@ genbank_pri: GCA_007364275.2
 genome_size: 988048114
 genome_size_display: 0.99 Gbp
 last_raw_data: 1551284459
-last_updated: 1571752067
+last_updated: 1613507147
 mito1date: 2019-10-01
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_MT_rockefeller/fArcCen1.MT.20191001.fasta.gz

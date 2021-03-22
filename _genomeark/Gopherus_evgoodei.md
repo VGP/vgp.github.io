@@ -63,7 +63,7 @@ genbank_pri: GCA_007399415.1
 genome_size: 2684436481
 genome_size_display: 2.68 Gbp
 last_raw_data: 1529613892
-last_updated: 1571752091
+last_updated: 1613507454
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_MT_rockefeller/rGopEvg1.MT.20191002.fasta.gz

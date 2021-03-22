@@ -59,7 +59,7 @@ data_pbsubreads_scale: 0.5123
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1600353917
-last_updated: 1602489179
+last_updated: 1611655575
 name: Pholidichthys leucotaenia
 name_: Pholidichthys_leucotaenia
 pri1date: 2020-10-12

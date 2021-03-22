@@ -2,12 +2,12 @@
 assembly_status: <em style="color:red">no assembly</em>
 common_name: gold dust stingray
 data_10x_scale: 1
-data_arima_bases: 439.51 Gbp
-data_arima_bytes: 268.780 GB
-data_arima_coverage: 97.67x
-data_arima_files: 4
+data_arima_bases: 173.23 Gbp
+data_arima_bytes: 108.668 GB
+data_arima_coverage: 38.49x
+data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Potamotrygon_marinae/sPotMar1/genomic_data/arima/ .<br>
-data_arima_scale: 1.5229
+data_arima_scale: 1.4846
 data_dovetail_scale: 1
 data_illumina_bases: 347.99 Gbp
 data_illumina_bytes: 162.361 GB

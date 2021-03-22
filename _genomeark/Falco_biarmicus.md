@@ -21,8 +21,8 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 12000000000
 genome_size_display: 12.00 Gbp
-last_raw_data: 1610040073
-last_updated: 1610040073
+last_raw_data: 1612830185
+last_updated: 1612830185
 name: Falco biarmicus
 name_: Falco_biarmicus
 short_name: bFalBia
