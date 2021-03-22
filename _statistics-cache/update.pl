@@ -3,12 +3,10 @@
 use strict;
 use Time::Local;
 
-#  Good tests.
-#
-#  http://www.home:4000/genomeark/Arvicanthis_niloticus/       - mat/pat but no pri/alt (except for X)
-#  http://www.home:4000/genomeark/Astatotilapia_calliptera/    - only pri
-#  http://www.home:4000/genomeark/Taeniopygia_guttata/         - multiple pri/alt, and a mat/pat
-#  http://www.home:4000/genomeark/Ornithorhynchus_anatinus/    - only pri/alt
+#  Find seqrequester.
+my $seqrequester = "./seqrequester/build/bin/seqrequester";
+
+die "Didn't find seqrequester in '$seqrequester'.\n"   if (! -e $seqrequester);
 
 
 #  If set to 1, do not download any genomic_data for coverage estimation.
@@ -503,7 +501,7 @@ sub generateAssemblySummary ($$$) {
     if (! -e "$filename.$type.summary") {
         my $cmd;
 
-        $cmd  = "seqrequester summarize $split -1x";
+        $cmd  = "$seqrequester summarize $split -1x";
         $cmd .= " -size $genomeSize"                                  if ($genomeSize > 0);
         $cmd .= " downloads/$filename.gz > $filename.$type.summary";
 
@@ -1000,10 +998,10 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name.fastq") &&
             (! -e "$name.summary")) {
             printf "SUMMARIZE $name.summary\n";
-            #printf "  seqrequester summarize downloads/$name.fastq > $name.summary\n";
+            #printf "  $seqrequester summarize downloads/$name.fastq > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
-            system("seqrequester summarize downloads/$name.fastq > $name.summary");
+            system("$seqrequester summarize downloads/$name.fastq > $name.summary");
         }
     }
 
@@ -1013,10 +1011,10 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf "SUMMARIZE $name.summary\n";
-            #printf "  seqrequester summarize downloads/$name > $name.summary\n";
+            #printf "  $seqrequester summarize downloads/$name > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
-            system("seqrequester summarize downloads/$name > $name.summary");
+            system("$seqrequester summarize downloads/$name > $name.summary");
         }
     }
 
