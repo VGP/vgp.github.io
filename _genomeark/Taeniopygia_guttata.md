@@ -1,9 +1,9 @@
 ---
-alt1date: 2018-10-23
-alt1filesize: 282 MB
-alt1n50ctg: 2519260
-alt1n50scf: 2519260
-alt1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.alt.cur.20181023.fasta.gz
+alt1date: 2021-04-09
+alt1filesize: 257 MB
+alt1n50ctg: 2519600
+alt1n50scf: 2519600
+alt1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.alt.cur.20210409.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,9 +21,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 5 </td><td> 13.57 Mbp </td><td> 5 </td><td> 13.57 Mbp </td></tr>  <tr><td> 20 </td><td> 16 </td><td> 7.61 Mbp </td><td> 16 </td><td> 7.61 Mbp </td></tr>  <tr><td> 30 </td><td> 32 </td><td> 5.49 Mbp </td><td> 32 </td><td> 5.49 Mbp </td></tr>  <tr><td> 40 </td><td> 55 </td><td> 3.92 Mbp </td><td> 55 </td><td> 3.92 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 87 </td><td> 2.52 Mbp </td><td> 87 </td><td> 2.52 Mbp </td></tr>  <tr><td> 60 </td><td> 141 </td><td> 1.51 Mbp </td><td> 141 </td><td> 1.51 Mbp </td></tr>  <tr><td> 70 </td><td> 231 </td><td> 0.83 Mbp </td><td> 229 </td><td> 0.84 Mbp </td></tr>  <tr><td> 80 </td><td> 546 </td><td> 0.11 Mbp </td><td> 526 </td><td> 0.11 Mbp </td></tr>  <tr><td> 90 </td><td> 3209 </td><td> 23.84 Kbp </td><td> 3160 </td><td> 23.95 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 5 </td><td> 13.57 Mbp </td><td> 5 </td><td> 13.57 Mbp </td></tr>  <tr><td> 20 </td><td> 16 </td><td> 7.62 Mbp </td><td> 16 </td><td> 7.62 Mbp </td></tr>  <tr><td> 30 </td><td> 32 </td><td> 5.49 Mbp </td><td> 32 </td><td> 5.49 Mbp </td></tr>  <tr><td> 40 </td><td> 55 </td><td> 3.92 Mbp </td><td> 55 </td><td> 3.92 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 87 </td><td> 2.52 Mbp </td><td> 87 </td><td> 2.52 Mbp </td></tr>  <tr><td> 60 </td><td> 141 </td><td> 1.51 Mbp </td><td> 141 </td><td> 1.51 Mbp </td></tr>  <tr><td> 70 </td><td> 230 </td><td> 0.84 Mbp </td><td> 230 </td><td> 0.84 Mbp </td></tr>  <tr><td> 80 </td><td> 494 </td><td> 0.16 Mbp </td><td> 492 </td><td> 0.16 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.932x </th><th> 5381 </th><th> 0.97 Gbp </th><th> 5336 </th><th> 0.97 Gbp </th></tr>
+  <tr><th> 0.857x </th><th> 1656 </th><th> 0.89 Gbp </th><th> 1646 </th><th> 0.89 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_curated
@@ -98,7 +98,7 @@ genbank_pri: GCA_003957565.2 GCA_009859065.2
 genome_size: 1035611271
 genome_size_display: 1.04 Gbp
 last_raw_data: 1581539155
-last_updated: 1613509632
+last_updated: 1617964880
 mat2date: 2020-01-24
 mat2filesize: 284 MB
 mat2n50ctg: 5135743
@@ -209,11 +209,11 @@ pat2sizes: |
   </tfoot>
   </table>
 pat2version: assembly_curated
-pri1date: 2018-10-23
-pri1filesize: 282 MB
-pri1n50ctg: 12079046
-pri1n50scf: 71552918
-pri1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.pri.cur.20181023.fasta.gz
+pri1date: 2021-04-09
+pri1filesize: 298 MB
+pri1n50ctg: 9018386
+pri1n50scf: 71569005
+pri1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.pri.cur.20210409.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -231,9 +231,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1 </td><td> 45.19 Mbp </td><td> 0 </td><td> 150.69 Mbp </td></tr>  <tr><td> 20 </td><td> 4 </td><td> 31.80 Mbp </td><td> 1 </td><td> 114.56 Mbp </td></tr>  <tr><td> 30 </td><td> 8 </td><td> 20.11 Mbp </td><td> 2 </td><td> 113.23 Mbp </td></tr>  <tr><td> 40 </td><td> 13 </td><td> 17.57 Mbp </td><td> 3 </td><td> 75.46 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 20 </td><td style="background-color:#88ff88;"> 12.08 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 71.55 Mbp </td></tr>  <tr><td> 60 </td><td> 30 </td><td> 9.21 Mbp </td><td> 6 </td><td> 62.01 Mbp </td></tr>  <tr><td> 70 </td><td> 43 </td><td> 6.91 Mbp </td><td> 8 </td><td> 35.67 Mbp </td></tr>  <tr><td> 80 </td><td> 63 </td><td> 4.17 Mbp </td><td> 12 </td><td> 21.01 Mbp </td></tr>  <tr><td> 90 </td><td> 97 </td><td> 2.05 Mbp </td><td> 18 </td><td> 14.33 Mbp </td></tr>  <tr><td> 100 </td><td> 217 </td><td> 0.25 Mbp </td><td> 33 </td><td> 2.91 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 2 </td><td> 31.08 Mbp </td><td> 0 </td><td> 151.65 Mbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 19.96 Mbp </td><td> 1 </td><td> 114.02 Mbp </td></tr>  <tr><td> 30 </td><td> 12 </td><td> 14.78 Mbp </td><td> 2 </td><td> 112.60 Mbp </td></tr>  <tr><td> 40 </td><td> 20 </td><td> 10.77 Mbp </td><td> 3 </td><td> 75.40 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 30 </td><td style="background-color:#88ff88;"> 9.02 Mbp </td><td> 4 </td><td style="background-color:#88ff88;"> 71.57 Mbp </td></tr>  <tr><td> 60 </td><td> 43 </td><td> 7.18 Mbp </td><td> 6 </td><td> 61.66 Mbp </td></tr>  <tr><td> 70 </td><td> 59 </td><td> 5.53 Mbp </td><td> 8 </td><td> 35.59 Mbp </td></tr>  <tr><td> 80 </td><td> 84 </td><td> 3.41 Mbp </td><td> 12 </td><td> 20.54 Mbp </td></tr>  <tr><td> 90 </td><td> 128 </td><td> 1.67 Mbp </td><td> 18 </td><td> 13.77 Mbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.019x </th><th> 446 </th><th> 1.06 Gbp </th><th> 134 </th><th> 1.06 Gbp </th></tr>
+  <tr><th> 0.997x </th><th> 526 </th><th> 1.03 Gbp </th><th> 197 </th><th> 1.04 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated

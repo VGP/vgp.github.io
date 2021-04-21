@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-12-16
+alt1date: 2021-03-30
 alt1filesize: 310 MB
 alt1n50ctg: 2363301
 alt1n50scf: 2363301
-alt1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_vgp_standard_1.6/bCucCan1.alt.asm.20201216.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_curated/bCucCan1.alt.cur.20210330.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -23,12 +23,12 @@ alt1sizes: |
   <tbody>
   <tr><td> 10 </td><td> 11 </td><td> 9.03 Mbp </td><td> 11 </td><td> 9.03 Mbp </td></tr>  <tr><td> 20 </td><td> 31 </td><td> 6.16 Mbp </td><td> 31 </td><td> 6.16 Mbp </td></tr>  <tr><td> 30 </td><td> 57 </td><td> 4.62 Mbp </td><td> 57 </td><td> 4.62 Mbp </td></tr>  <tr><td> 40 </td><td> 92 </td><td> 3.39 Mbp </td><td> 92 </td><td> 3.39 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 141 </td><td> 2.36 Mbp </td><td> 141 </td><td> 2.36 Mbp </td></tr>  <tr><td> 60 </td><td> 215 </td><td> 1.52 Mbp </td><td> 215 </td><td> 1.52 Mbp </td></tr>  <tr><td> 70 </td><td> 361 </td><td> 0.53 Mbp </td><td> 361 </td><td> 0.53 Mbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.757x </th><th> 979 </th><th> 1.06 Gbp </th><th> 979 </th><th> 1.06 Gbp </th></tr>
+  <tr><th> 0.760x </th><th> 1012 </th><th> 1.06 Gbp </th><th> 1004 </th><th> 1.06 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: common cuckoo
 data_10x_bases: 127.33 Gbp
 data_10x_bytes: 60.946 GB
@@ -62,7 +62,7 @@ genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null
 last_raw_data: 1594746714
-last_updated: 1608209623
+last_updated: 1617106909
 mito1date: 2019-12-16
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_MT_rockefeller/bCucCan1.MT.20191216.fasta.gz
@@ -91,11 +91,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Cuculus canorus
 name_: Cuculus_canorus
-pri1date: 2020-12-16
-pri1filesize: 343 MB
-pri1n50ctg: 15837747
-pri1n50scf: 39352363
-pri1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_vgp_standard_1.6/bCucCan1.pri.asm.20201216.fasta.gz
+pri1date: 2021-03-30
+pri1filesize: 342 MB
+pri1n50ctg: 15626348
+pri1n50scf: 69231175
+pri1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_curated/bCucCan1.pri.cur.20210330.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -113,12 +113,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1 </td><td> 63.34 Mbp </td><td> 0 </td><td> 206.48 Mbp </td></tr>  <tr><td> 20 </td><td> 4 </td><td> 34.85 Mbp </td><td> 1 </td><td> 122.85 Mbp </td></tr>  <tr><td> 30 </td><td> 9 </td><td> 29.13 Mbp </td><td> 3 </td><td> 69.31 Mbp </td></tr>  <tr><td> 40 </td><td> 14 </td><td> 22.83 Mbp </td><td> 5 </td><td> 48.37 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 21 </td><td style="background-color:#88ff88;"> 15.84 Mbp </td><td> 8 </td><td style="background-color:#88ff88;"> 39.35 Mbp </td></tr>  <tr><td> 60 </td><td> 32 </td><td> 11.24 Mbp </td><td> 13 </td><td> 23.59 Mbp </td></tr>  <tr><td> 70 </td><td> 48 </td><td> 6.20 Mbp </td><td> 19 </td><td> 18.41 Mbp </td></tr>  <tr><td> 80 </td><td> 85 </td><td> 1.83 Mbp </td><td> 31 </td><td> 7.49 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1 </td><td> 63.34 Mbp </td><td> 0 </td><td> 209.32 Mbp </td></tr>  <tr><td> 20 </td><td> 5 </td><td> 33.56 Mbp </td><td> 1 </td><td> 162.17 Mbp </td></tr>  <tr><td> 30 </td><td> 9 </td><td> 29.13 Mbp </td><td> 2 </td><td> 122.85 Mbp </td></tr>  <tr><td> 40 </td><td> 15 </td><td> 21.77 Mbp </td><td> 3 </td><td> 79.99 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 22 </td><td style="background-color:#88ff88;"> 15.63 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 69.23 Mbp </td></tr>  <tr><td> 60 </td><td> 34 </td><td> 11.15 Mbp </td><td> 9 </td><td> 28.16 Mbp </td></tr>  <tr><td> 70 </td><td> 50 </td><td> 6.09 Mbp </td><td> 14 </td><td> 21.77 Mbp </td></tr>  <tr><td> 80 </td><td> 89 </td><td> 1.62 Mbp </td><td> 25 </td><td> 8.01 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.842x </th><th> 448 </th><th> 1.18 Gbp </th><th> 209 </th><th> 1.19 Gbp </th></tr>
+  <tr><th> 0.839x </th><th> 446 </th><th> 1.18 Gbp </th><th> 150 </th><th> 1.18 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: bCucCan
 taxon_id: 55661
 ---

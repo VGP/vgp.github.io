@@ -26,20 +26,25 @@ data_illumina_coverage: 183.08x
 data_illumina_files: 8
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8806
-data_pbhifi_scale: 1
-data_pbsubreads_bases: 881.59 Gbp
-data_pbsubreads_bytes: 1521.295 GB
-data_pbsubreads_coverage: 728.59x
-data_pbsubreads_files: 30
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5397
+data_pbhifi_bases: 39.53 Gbp
+data_pbhifi_bytes: 33.672 GB
+data_pbhifi_coverage: 32.67x
+data_pbhifi_files: 9
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.0933
+data_pbsubreads_bases: 1645.01 Gbp
+data_pbsubreads_bytes: 2974.244 GB
+data_pbsubreads_coverage: 1359.51x
+data_pbsubreads_files: 48
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
+data_pbsubreads_scale: 0.5151
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
-last_raw_data: 1612457957
-last_updated: 1612457957
+last_raw_data: 1617845387
+last_updated: 1617845387
 mat1date: 2019-10-17
 mat1filesize: 286 MB
 mat1n50ctg: 16502132

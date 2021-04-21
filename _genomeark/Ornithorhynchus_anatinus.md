@@ -68,7 +68,7 @@ genbank_pri: GCA_004115215.3
 genome_size: 2128226567
 genome_size_display: 2.13 Gbp
 last_raw_data: 1536347587
-last_updated: 1582641359
+last_updated: 1616454082
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_MT_rockefeller/mOrnAna1.MT.20191003.fasta.gz

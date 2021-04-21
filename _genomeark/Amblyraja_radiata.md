@@ -68,7 +68,7 @@ genbank_pri: GCA_010909765.1
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1574701010
-last_updated: 1608059572
+last_updated: 1616450476
 mito1date: 2020-04-15
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller_nanopore/sAmbRad1.MT.20200415.fasta.gz

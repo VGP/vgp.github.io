@@ -63,7 +63,7 @@ genbank_pri: GCA_900634415.1
 genome_size: 700000000
 genome_size_display: 0.70 Gbp
 last_raw_data: 1523523546
-last_updated: 1571752069
+last_updated: 1616454076
 name: Cottoperca gobio
 name_: Cottoperca_gobio
 pri3date: 2018-10-26

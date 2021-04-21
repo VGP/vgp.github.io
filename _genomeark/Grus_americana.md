@@ -31,8 +31,8 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
-last_raw_data: 1613141535
-last_updated: 1613141535
+last_raw_data: 1618259794
+last_updated: 1618259794
 name: Grus americana
 name_: Grus_americana
 short_name: bGruAme
