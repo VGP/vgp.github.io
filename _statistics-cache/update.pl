@@ -992,16 +992,10 @@ sub downloadAndSummarize ($$$) {
     if ($name =~ m/bam$/) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
-            printf "EXTRACT bases\n";
-            system("samtools bam2fq downloads/$name > downloads/$name.fastq");
-        }
-        if ((  -e "downloads/$name.fastq") &&
-            (! -e "$name.summary")) {
-            printf "SUMMARIZE $name.summary\n";
-            #printf "  $seqrequester summarize downloads/$name.fastq > $name.summary\n";
+            printf "EXTRACT and SUMMARIZE $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
-            system("$seqrequester summarize downloads/$name.fastq > $name.summary");
+            system("samtools fasta downloads/$name | $seqrequester summarize - > $name.summary");
         }
     }
 

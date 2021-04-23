@@ -36,12 +36,12 @@ data_10x_coverage: 149.44x
 data_10x_files: 3
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Trogon_surrucura/bTroSur1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8678
-data_arima_bases: 73.65 Gbp
-data_arima_bytes: 48.219 GB
-data_arima_coverage: 73.65x
-data_arima_files: 4
+data_arima_bases: 123.38 Gbp
+data_arima_bytes: 67.949 GB
+data_arima_coverage: 123.38x
+data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Trogon_surrucura/bTroSur1/genomic_data/arima/ .<br>
-data_arima_scale: 1.4225
+data_arima_scale: 1.6911
 data_bionano_bases: 646.50 Gbp
 data_bionano_bytes: 1.372 GB
 data_bionano_coverage: 646.50x
@@ -60,8 +60,8 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
-last_raw_data: 1611688665
-last_updated: 1617895024
+last_raw_data: 1618859438
+last_updated: 1618859438
 mito1date: 2021-01-21
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Trogon_surrucura/bTroSur1/assembly_MT_rockefeller/bTroSur1.MT.20210121.fasta.gz

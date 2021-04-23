@@ -31,8 +31,8 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 2500000000
 genome_size_display: 2.50 Gbp
-last_raw_data: 1618259589
-last_updated: 1618259589
+last_raw_data: 1618873257
+last_updated: 1618873257
 name: Vipera latastei
 name_: Vipera_latastei
 short_name: rVipLat

@@ -49,20 +49,25 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Lemur_catta/mLemCat1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_scale: 1
-data_pbsubreads_bases: 200.91 Gbp
-data_pbsubreads_bytes: 348.956 GB
-data_pbsubreads_coverage: 60.88x
-data_pbsubreads_files: 46
+data_pbhifi_bases: 68.68 Gbp
+data_pbhifi_bytes: 56.511 GB
+data_pbhifi_coverage: 20.81x
+data_pbhifi_files: 8
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Lemur_catta/mLemCat1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.1318
+data_pbsubreads_bases: 1192.90 Gbp
+data_pbsubreads_bytes: 2137.311 GB
+data_pbsubreads_coverage: 361.48x
+data_pbsubreads_files: 16
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lemur_catta/mLemCat1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5362
+data_pbsubreads_scale: 0.5198
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 3300000000
 genome_size_display: 3.30 Gbp
 genome_size_method: null
-last_raw_data: 1564244235
-last_updated: 1568038957
+last_raw_data: 1618888277
+last_updated: 1618943453
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_MT_rockefeller/mLemCat1.MT.20190820.fasta.gz
