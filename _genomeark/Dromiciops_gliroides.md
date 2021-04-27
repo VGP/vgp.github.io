@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-10-01
-alt1filesize: 824 MB
-alt1n50ctg: 490651
-alt1n50scf: 490651
-alt1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_vgp_standard_1.6/mDroGli1.alt.asm.20201001.fasta.gz
+alt1date: 2021-04-07
+alt1filesize: 812 MB
+alt1n50ctg: 490192
+alt1n50scf: 490192
+alt1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_curated/mDroGli1.alt.cur.20210407.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 168 </td><td> 1.29 Mbp </td><td> 168 </td><td> 1.29 Mbp </td></tr>  <tr><td> 20 </td><td> 424 </td><td> 0.97 Mbp </td><td> 424 </td><td> 0.97 Mbp </td></tr>  <tr><td> 30 </td><td> 748 </td><td> 0.78 Mbp </td><td> 748 </td><td> 0.78 Mbp </td></tr>  <tr><td> 40 </td><td> 1155 </td><td> 0.62 Mbp </td><td> 1155 </td><td> 0.62 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1663 </td><td> 0.49 Mbp </td><td> 1663 </td><td> 0.49 Mbp </td></tr>  <tr><td> 60 </td><td> 2311 </td><td> 0.38 Mbp </td><td> 2311 </td><td> 0.38 Mbp </td></tr>  <tr><td> 70 </td><td> 3170 </td><td> 0.28 Mbp </td><td> 3170 </td><td> 0.28 Mbp </td></tr>  <tr><td> 80 </td><td> 4388 </td><td> 0.19 Mbp </td><td> 4387 </td><td> 0.19 Mbp </td></tr>  <tr><td> 90 </td><td> 6236 </td><td> 0.12 Mbp </td><td> 6232 </td><td> 0.12 Mbp </td></tr>  <tr><td> 100 </td><td> 9908 </td><td> 1  bp </td><td> 9883 </td><td> 2.10 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 168 </td><td> 1.29 Mbp </td><td> 168 </td><td> 1.29 Mbp </td></tr>  <tr><td> 20 </td><td> 425 </td><td> 0.97 Mbp </td><td> 425 </td><td> 0.97 Mbp </td></tr>  <tr><td> 30 </td><td> 749 </td><td> 0.78 Mbp </td><td> 749 </td><td> 0.78 Mbp </td></tr>  <tr><td> 40 </td><td> 1156 </td><td> 0.62 Mbp </td><td> 1156 </td><td> 0.62 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 1665 </td><td> 0.49 Mbp </td><td> 1665 </td><td> 0.49 Mbp </td></tr>  <tr><td> 60 </td><td> 2315 </td><td> 0.38 Mbp </td><td> 2315 </td><td> 0.38 Mbp </td></tr>  <tr><td> 70 </td><td> 3175 </td><td> 0.28 Mbp </td><td> 3175 </td><td> 0.28 Mbp </td></tr>  <tr><td> 80 </td><td> 4397 </td><td> 0.19 Mbp </td><td> 4395 </td><td> 0.19 Mbp </td></tr>  <tr><td> 90 </td><td> 6251 </td><td> 0.12 Mbp </td><td> 6246 </td><td> 0.12 Mbp </td></tr>  <tr><td> 100 </td><td> 9958 </td><td> 315  bp </td><td> 9925 </td><td> 2.10 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 9909 </th><th> 2.82 Gbp </th><th> 9884 </th><th> 2.82 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 9959 </th><th> 2.82 Gbp </th><th> 9926 </th><th> 2.82 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: monito del monte
 data_10x_bases: unknown
 data_10x_bytes: 116.733 GB
@@ -59,14 +59,14 @@ data_pbsubreads_scale: 0.529
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1601308154
-last_updated: 1610718105
+last_updated: 1619195311
 name: Dromiciops gliroides
 name_: Dromiciops_gliroides
-pri1date: 2020-10-01
-pri1filesize: 955 MB
+pri1date: 2021-04-07
+pri1filesize: 949 MB
 pri1n50ctg: 38230856
-pri1n50scf: 473439405
-pri1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_vgp_standard_1.6/mDroGli1.pri.asm.20201001.fasta.gz
+pri1n50scf: 670775900
+pri1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_curated/mDroGli1.pri.cur.20210407.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -84,12 +84,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 3 </td><td> 93.56 Mbp </td><td> 0 </td><td> 0.76 Gbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 66.17 Mbp </td><td> 0 </td><td> 0.76 Gbp </td></tr>  <tr><td> 30 </td><td> 12 </td><td> 54.30 Mbp </td><td> 1 </td><td> 0.70 Gbp </td></tr>  <tr><td> 40 </td><td> 19 </td><td> 44.74 Mbp </td><td> 1 </td><td> 0.70 Gbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 26 </td><td style="background-color:#88ff88;"> 38.23 Mbp </td><td> 2 </td><td style="background-color:#88ff88;"> 473.44 Mbp </td></tr>  <tr><td> 60 </td><td> 36 </td><td> 30.66 Mbp </td><td> 3 </td><td> 460.90 Mbp </td></tr>  <tr><td> 70 </td><td> 48 </td><td> 24.99 Mbp </td><td> 3 </td><td> 460.90 Mbp </td></tr>  <tr><td> 80 </td><td> 63 </td><td> 17.30 Mbp </td><td> 4 </td><td> 303.24 Mbp </td></tr>  <tr><td> 90 </td><td> 87 </td><td> 10.54 Mbp </td><td> 5 </td><td> 280.71 Mbp </td></tr>  <tr><td> 100 </td><td> 296 </td><td> 162  bp </td><td> 53 </td><td> 2.78 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 93.52 Mbp </td><td> 0 </td><td> 0.76 Gbp </td></tr>  <tr><td> 20 </td><td> 6 </td><td> 66.17 Mbp </td><td> 0 </td><td> 0.76 Gbp </td></tr>  <tr><td> 30 </td><td> 12 </td><td> 54.28 Mbp </td><td> 1 </td><td> 0.70 Gbp </td></tr>  <tr><td> 40 </td><td> 18 </td><td> 47.23 Mbp </td><td> 1 </td><td> 0.70 Gbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 26 </td><td style="background-color:#88ff88;"> 38.23 Mbp </td><td> 2 </td><td style="background-color:#88ff88;"> 0.67 Gbp </td></tr>  <tr><td> 60 </td><td> 35 </td><td> 30.77 Mbp </td><td> 2 </td><td> 0.67 Gbp </td></tr>  <tr><td> 70 </td><td> 47 </td><td> 24.95 Mbp </td><td> 3 </td><td> 497.00 Mbp </td></tr>  <tr><td> 80 </td><td> 62 </td><td> 17.30 Mbp </td><td> 4 </td><td> 303.35 Mbp </td></tr>  <tr><td> 90 </td><td> 87 </td><td> 9.89 Mbp </td><td> 5 </td><td> 280.58 Mbp </td></tr>  <tr><td> 100 </td><td> 276 </td><td> 162  bp </td><td> 16 </td><td> 6.36 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 297 </th><th> 3.30 Gbp </th><th> 54 </th><th> 3.31 Gbp </th></tr>
+  <tr><th> 1.000x </th><th> 277 </th><th> 3.30 Gbp </th><th> 17 </th><th> 3.30 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: mDroGli
 taxon_id: 33562
 ---
