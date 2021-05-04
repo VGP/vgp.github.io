@@ -32,8 +32,8 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1610039699
-last_updated: 1610039699
+last_raw_data: 1618862184
+last_updated: 1618862184
 name: Tautogolabrus adspersus
 name_: Tautogolabrus_adspersus
 short_name: fTauAds

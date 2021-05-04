@@ -19,7 +19,12 @@ data_bionano_coverage: 417.39x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_scale: 1
+data_illumina_bases: 173.10 Gbp
+data_illumina_bytes: 83.581 GB
+data_illumina_coverage: 173.10x
+data_illumina_files: 2
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme3/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.9288
 data_pbhifi_scale: 1
 data_pbsubreads_bases: 232.21 Gbp
 data_pbsubreads_bytes: 419.518 GB
@@ -31,8 +36,8 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
-last_raw_data: 1613141535
-last_updated: 1613141535
+last_raw_data: 1618851714
+last_updated: 1618851714
 name: Grus americana
 name_: Grus_americana
 short_name: bGruAme

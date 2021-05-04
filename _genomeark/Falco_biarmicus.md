@@ -15,14 +15,24 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_biarmicus/bFalBia1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_scale: 1
-data_pbsubreads_scale: 1
+data_pbhifi_bases: 38.72 Gbp
+data_pbhifi_bytes: 32.069 GB
+data_pbhifi_coverage: 3.23x
+data_pbhifi_files: 6
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_biarmicus/bFalBia1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.1244
+data_pbsubreads_bases: 724.19 Gbp
+data_pbsubreads_bytes: 1305.557 GB
+data_pbsubreads_coverage: 60.35x
+data_pbsubreads_files: 12
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_biarmicus/bFalBia1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
+data_pbsubreads_scale: 0.5166
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 12000000000
 genome_size_display: 12.00 Gbp
-last_raw_data: 1612830185
-last_updated: 1612830185
+last_raw_data: 1618552163
+last_updated: 1618552163
 name: Falco biarmicus
 name_: Falco_biarmicus
 short_name: bFalBia

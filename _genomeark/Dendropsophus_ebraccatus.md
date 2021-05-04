@@ -39,7 +39,7 @@ genome_size: 2520000000
 genome_size_display: 2.52 Gbp
 genome_size_method: null
 last_raw_data: 1594747600
-last_updated: 1594828074
+last_updated: 1619109517
 mat1date: 2019-10-08
 mat1filesize: 604 MB
 mat1n50ctg: 8863475
@@ -68,9 +68,9 @@ mat1sizes: |
   </tfoot>
   </table>
 mat1version: assembly_nhgri_trio_1.6
-mito1date: 2020-04-23
-mito1filesize: 0 KB
-mito1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_MT_rockefeller_nanopore/aDenEbr1.MT.20200423.fasta.gz
+mito1date: 2021-04-22
+mito1filesize: 5 KB
+mito1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_MT_rockefeller_nanopore/aDenEbr1.MT.20210422.fasta.gz
 mito1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -88,9 +88,9 @@ mito1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> -nan% </td><td> 0 </td><td> NaN Gbp </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td>  </td><td>  </td><td style="background-color:#ff8888;">  </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  <tr><td>  </td><td>  </td><td>  </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 20 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 30 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> - </td><td style="background-color:#ff8888;"> - </td><td> - </td><td style="background-color:#ff8888;"> - </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th>  </th><th>  </th><th>  </th><th> 0 </th><th> NaN Gbp </th></tr>
+  <tr><th> 5583 </th><th> A </th><th> 0.2906  bp </th><th> A </th><th> 0.2906  bp </th></tr>
   </tfoot>
   </table>
 mito1version: assembly_MT_rockefeller_nanopore

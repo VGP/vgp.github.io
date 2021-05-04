@@ -7,12 +7,12 @@ data_10x_coverage: 81.32x
 data_10x_files: 11
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Erethizon_dorsatum/mEreDor1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8314
-data_arima_bases: 184.02 Gbp
-data_arima_bytes: 110.464 GB
-data_arima_coverage: 63.46x
+data_arima_bases: 337.78 Gbp
+data_arima_bytes: 215.436 GB
+data_arima_coverage: 116.47x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Erethizon_dorsatum/mEreDor1/genomic_data/arima/ .<br>
-data_arima_scale: 1.5515
+data_arima_scale: 1.4602
 data_dovetail_scale: 1
 data_illumina_bases: 326.81 Gbp
 data_illumina_bytes: 160.698 GB
@@ -32,8 +32,8 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 2900000000
 genome_size_display: 2.90 Gbp
 genome_size_method: null
-last_raw_data: 1609959595
-last_updated: 1609959595
+last_raw_data: 1618863452
+last_updated: 1618863452
 name: Erethizon dorsatum
 name_: Erethizon_dorsatum
 short_name: mEreDor

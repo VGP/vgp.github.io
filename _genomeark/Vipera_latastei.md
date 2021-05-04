@@ -15,14 +15,24 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Vipera_latastei/rVipLat1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_scale: 1
-data_pbsubreads_scale: 1
+data_pbhifi_bases: 36.89 Gbp
+data_pbhifi_bytes: 32.616 GB
+data_pbhifi_coverage: 14.76x
+data_pbhifi_files: 3
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Vipera_latastei/rVipLat1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.0534
+data_pbsubreads_bases: 658.97 Gbp
+data_pbsubreads_bytes: 1197.951 GB
+data_pbsubreads_coverage: 263.59x
+data_pbsubreads_files: 6
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Vipera_latastei/rVipLat1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
+data_pbsubreads_scale: 0.5123
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 2500000000
 genome_size_display: 2.50 Gbp
-last_raw_data: 1610039890
-last_updated: 1610039890
+last_raw_data: 1618873257
+last_updated: 1618873257
 name: Vipera latastei
 name_: Vipera_latastei
 short_name: rVipLat

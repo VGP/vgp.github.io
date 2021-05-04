@@ -11,7 +11,7 @@ data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
 genome_size: 25000000000
 genome_size_display: 25.00 Gbp
-last_updated: 1616296321
+last_updated: 1619479431
 name: Chionoecetes_opilio
 name_: Chionoecetes_opilio_
 short_name: qChiOpi
