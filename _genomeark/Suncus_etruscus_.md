@@ -11,9 +11,9 @@ data_phase_scale: 1
 data_status: <em style="color:red">no data</em>
 genome_size: 3000000000
 genome_size_display: 3.00 Gbp
-last_updated: 1619479431
-name: Suncus etruscus
-name_: Suncus_etruscus
+last_updated: 1623280109
+name: Suncus_etruscus
+name_: Suncus_etruscus_
 short_name: mSunEtr
 taxon_id: 109475
 ---

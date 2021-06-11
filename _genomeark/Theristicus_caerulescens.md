@@ -1,9 +1,9 @@
 ---
-alt1date: 2021-04-07
-alt1filesize: 306 MB
+alt1date: 2021-05-25
+alt1filesize: 305 MB
 alt1n50ctg: 4883876
 alt1n50scf: 4883876
-alt1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_vgp_standard_1.6/bTheCae1.alt.asm.20210407.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_curated/bTheCae1.alt.cur.20210525.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,14 +21,14 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 7 </td><td> 11.24 Mbp </td><td> 7 </td><td> 11.24 Mbp </td></tr>  <tr><td> 20 </td><td> 17 </td><td> 9.26 Mbp </td><td> 17 </td><td> 9.26 Mbp </td></tr>  <tr><td> 30 </td><td> 29 </td><td> 7.73 Mbp </td><td> 29 </td><td> 7.73 Mbp </td></tr>  <tr><td> 40 </td><td> 43 </td><td> 5.90 Mbp </td><td> 43 </td><td> 5.90 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 62 </td><td> 4.88 Mbp </td><td> 62 </td><td> 4.88 Mbp </td></tr>  <tr><td> 60 </td><td> 84 </td><td> 4.19 Mbp </td><td> 84 </td><td> 4.19 Mbp </td></tr>  <tr><td> 70 </td><td> 113 </td><td> 3.09 Mbp </td><td> 113 </td><td> 3.09 Mbp </td></tr>  <tr><td> 80 </td><td> 154 </td><td> 2.05 Mbp </td><td> 154 </td><td> 2.05 Mbp </td></tr>  <tr><td> 90 </td><td> 215 </td><td> 1.26 Mbp </td><td> 215 </td><td> 1.26 Mbp </td></tr>  <tr><td> 100 </td><td> 362 </td><td> 0.29 Mbp </td><td> 362 </td><td> 0.29 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 7 </td><td> 11.24 Mbp </td><td> 7 </td><td> 11.24 Mbp </td></tr>  <tr><td> 20 </td><td> 17 </td><td> 9.26 Mbp </td><td> 17 </td><td> 9.26 Mbp </td></tr>  <tr><td> 30 </td><td> 29 </td><td> 7.73 Mbp </td><td> 29 </td><td> 7.73 Mbp </td></tr>  <tr><td> 40 </td><td> 44 </td><td> 5.82 Mbp </td><td> 43 </td><td> 5.90 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 62 </td><td> 4.88 Mbp </td><td> 62 </td><td> 4.88 Mbp </td></tr>  <tr><td> 60 </td><td> 85 </td><td> 4.13 Mbp </td><td> 84 </td><td> 4.19 Mbp </td></tr>  <tr><td> 70 </td><td> 113 </td><td> 3.09 Mbp </td><td> 113 </td><td> 3.09 Mbp </td></tr>  <tr><td> 80 </td><td> 154 </td><td> 2.05 Mbp </td><td> 154 </td><td> 2.05 Mbp </td></tr>  <tr><td> 90 </td><td> 216 </td><td> 1.25 Mbp </td><td> 215 </td><td> 1.26 Mbp </td></tr>  <tr><td> 100 </td><td> 363 </td><td> 0.29 Mbp </td><td> 362 </td><td> 0.29 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.041x </th><th> 750 </th><th> 1.04 Gbp </th><th> 748 </th><th> 1.04 Gbp </th></tr>
+  <tr><th> 1.041x </th><th> 753 </th><th> 1.04 Gbp </th><th> 749 </th><th> 1.04 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
-assembly_status: <em style="color:orange">high-quality draft assembly</em>
+alt1version: assembly_curated
+assembly: assembly_curated
+assembly_status: <em style="color:green">curated assembly</em>
 common_name: plumbeous ibis
 data_10x_bases: 138.91 Gbp
 data_10x_bytes: 69.418 GB
@@ -61,7 +61,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 last_raw_data: 1611688664
-last_updated: 1617914811
+last_updated: 1623161419
 mito1date: 2021-01-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_MT_rockefeller/bTheCae1.MT.20210120.fasta.gz
@@ -90,11 +90,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Theristicus caerulescens
 name_: Theristicus_caerulescens
-pri1date: 2021-04-07
+pri1date: 2021-05-25
 pri1filesize: 352 MB
 pri1n50ctg: 41768366
-pri1n50scf: 114647617
-pri1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_vgp_standard_1.6/bTheCae1.pri.asm.20210407.fasta.gz
+pri1n50scf: 128006814
+pri1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_curated/bTheCae1.pri.cur.20210525.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -112,12 +112,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 0 </td><td> 106.66 Mbp </td><td> 0 </td><td> 167.47 Mbp </td></tr>  <tr><td> 20 </td><td> 1 </td><td> 103.95 Mbp </td><td> 1 </td><td> 128.52 Mbp </td></tr>  <tr><td> 30 </td><td> 3 </td><td> 62.38 Mbp </td><td> 2 </td><td> 126.74 Mbp </td></tr>  <tr><td> 40 </td><td> 5 </td><td> 44.65 Mbp </td><td> 2 </td><td> 126.74 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 7 </td><td style="background-color:#88ff88;"> 41.77 Mbp </td><td> 3 </td><td style="background-color:#88ff88;"> 114.65 Mbp </td></tr>  <tr><td> 60 </td><td> 9 </td><td> 37.10 Mbp </td><td> 4 </td><td> 101.46 Mbp </td></tr>  <tr><td> 70 </td><td> 13 </td><td> 27.55 Mbp </td><td> 5 </td><td> 92.99 Mbp </td></tr>  <tr><td> 80 </td><td> 17 </td><td> 20.81 Mbp </td><td> 6 </td><td> 84.76 Mbp </td></tr>  <tr><td> 90 </td><td> 22 </td><td> 13.59 Mbp </td><td> 8 </td><td> 51.53 Mbp </td></tr>  <tr><td> 100 </td><td> 30 </td><td> 11.40 Mbp </td><td> 10 </td><td> 24.37 Mbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 106.66 Mbp </td><td> 0 </td><td> 168.28 Mbp </td></tr>  <tr><td> 20 </td><td> 1 </td><td> 103.95 Mbp </td><td> 1 </td><td> 133.04 Mbp </td></tr>  <tr><td> 30 </td><td> 3 </td><td> 62.37 Mbp </td><td> 1 </td><td> 133.04 Mbp </td></tr>  <tr><td> 40 </td><td> 5 </td><td> 44.65 Mbp </td><td> 2 </td><td> 128.21 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 7 </td><td style="background-color:#88ff88;"> 41.77 Mbp </td><td> 3 </td><td style="background-color:#88ff88;"> 128.01 Mbp </td></tr>  <tr><td> 60 </td><td> 9 </td><td> 37.10 Mbp </td><td> 4 </td><td> 101.37 Mbp </td></tr>  <tr><td> 70 </td><td> 13 </td><td> 27.55 Mbp </td><td> 5 </td><td> 92.93 Mbp </td></tr>  <tr><td> 80 </td><td> 17 </td><td> 20.81 Mbp </td><td> 6 </td><td> 84.85 Mbp </td></tr>  <tr><td> 90 </td><td> 22 </td><td> 13.59 Mbp </td><td> 7 </td><td> 72.38 Mbp </td></tr>  <tr><td> 100 </td><td> 30 </td><td> 11.40 Mbp </td><td> 9 </td><td> 50.21 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.201x </th><th> 191 </th><th> 1.20 Gbp </th><th> 112 </th><th> 1.20 Gbp </th></tr>
+  <tr><th> 1.201x </th><th> 191 </th><th> 1.20 Gbp </th><th> 87 </th><th> 1.20 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_curated
 short_name: bTheCae
 taxon_id: 1118847
 ---

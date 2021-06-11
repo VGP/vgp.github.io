@@ -46,7 +46,12 @@ data_bionano_coverage: 508.20x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_scale: 1
+data_illumina_bases: 90.50 Gbp
+data_illumina_bytes: 43.249 GB
+data_illumina_coverage: 90.50x
+data_illumina_files: 3
+data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum4/genomic_data/illumina/ .<br>
+data_illumina_scale: 1.9488
 data_pbhifi_scale: 1
 data_pbsubreads_bases: 55.96 Gbp
 data_pbsubreads_bytes: 96.721 GB
@@ -61,8 +66,8 @@ genbank_pri: GCA_009769545.1
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
-last_raw_data: 1565031189
-last_updated: 1570816797
+last_raw_data: 1620764995
+last_updated: 1620764995
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Cyclopterus_lumpus/fCycLum1/assembly_MT_rockefeller/fCycLum1.MT.20191002.fasta.gz

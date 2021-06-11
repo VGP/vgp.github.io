@@ -59,7 +59,35 @@ data_pbsubreads_scale: 0.529
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1601308154
-last_updated: 1619195311
+last_updated: 1621893307
+mito1date: 2021-05-24
+mito1filesize: 5 KB
+mito1n50ctg: 17310
+mito1n50scf: 17310
+mito1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_MT_rockefeller/mDroGli1.MT.20210524.fasta.gz
+mito1sizes: |
+  <table class="sequence-sizes-table">
+  <thead>
+  <tr>
+  <th></th>
+  <th colspan=2 align=center>Contigs</th>
+  <th colspan=2 align=center>Scaffolds</th>
+  </tr>
+  <tr>
+  <th>NG</th>
+  <th>LG</th>
+  <th>Len</th>
+  <th>LG</th>
+  <th>Len</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 17.31 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 17.31 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 17.31 Kbp </td><td> 0 </td><td> 17.31 Kbp </td></tr>  </tbody>
+  <tfoot>
+  <tr><th> 1.000x </th><th> 1 </th><th> 17.31 Kbp </th><th> 1 </th><th> 17.31 Kbp </th></tr>
+  </tfoot>
+  </table>
+mito1version: assembly_MT_rockefeller
 name: Dromiciops gliroides
 name_: Dromiciops_gliroides
 pri1date: 2021-04-07

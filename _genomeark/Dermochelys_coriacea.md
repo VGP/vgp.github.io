@@ -1,9 +1,9 @@
 ---
-alt1date: 2020-11-06
+alt1date: 2021-05-24
 alt1filesize: 423 MB
 alt1n50ctg: 84375
 alt1n50scf: 84421
-alt1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_curated/rDerCor1.alt.cur.20201106.fasta.gz
+alt1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_curated/rDerCor1.alt.cur.20210524.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -63,7 +63,7 @@ genbank_pri: GCA_009764565.1
 genome_size: 2500000000
 genome_size_display: 2.50 Gbp
 last_raw_data: 1563832512
-last_updated: 1604682302
+last_updated: 1621879486
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1n50ctg: 16625
@@ -94,11 +94,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Dermochelys coriacea
 name_: Dermochelys_coriacea
-pri1date: 2020-11-06
+pri1date: 2021-05-24
 pri1filesize: 631 MB
 pri1n50ctg: 6014687
 pri1n50scf: 131128815
-pri1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_curated/rDerCor1.pri.cur.20201106.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_curated/rDerCor1.pri.cur.20210524.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -116,9 +116,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 10 </td><td> 18.72 Mbp </td><td> 0 </td><td> 354.48 Mbp </td></tr>  <tr><td> 20 </td><td> 26 </td><td> 13.47 Mbp </td><td> 1 </td><td> 272.70 Mbp </td></tr>  <tr><td> 30 </td><td> 48 </td><td> 10.22 Mbp </td><td> 2 </td><td> 212.17 Mbp </td></tr>  <tr><td> 40 </td><td> 77 </td><td> 7.34 Mbp </td><td> 4 </td><td> 137.57 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 114 </td><td style="background-color:#88ff88;"> 6.01 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 131.13 Mbp </td></tr>  <tr><td> 60 </td><td> 164 </td><td> 4.15 Mbp </td><td> 8 </td><td> 105.21 Mbp </td></tr>  <tr><td> 70 </td><td> 238 </td><td> 2.83 Mbp </td><td> 10 </td><td> 80.00 Mbp </td></tr>  <tr><td> 80 </td><td> 362 </td><td> 1.36 Mbp </td><td> 18 </td><td> 20.02 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 10 </td><td> 18.72 Mbp </td><td> 0 </td><td> 354.45 Mbp </td></tr>  <tr><td> 20 </td><td> 26 </td><td> 13.47 Mbp </td><td> 1 </td><td> 272.70 Mbp </td></tr>  <tr><td> 30 </td><td> 48 </td><td> 10.22 Mbp </td><td> 2 </td><td> 212.17 Mbp </td></tr>  <tr><td> 40 </td><td> 77 </td><td> 7.34 Mbp </td><td> 4 </td><td> 137.57 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 114 </td><td style="background-color:#88ff88;"> 6.01 Mbp </td><td> 5 </td><td style="background-color:#88ff88;"> 131.13 Mbp </td></tr>  <tr><td> 60 </td><td> 164 </td><td> 4.15 Mbp </td><td> 8 </td><td> 105.21 Mbp </td></tr>  <tr><td> 70 </td><td> 238 </td><td> 2.83 Mbp </td><td> 10 </td><td> 80.02 Mbp </td></tr>  <tr><td> 80 </td><td> 362 </td><td> 1.36 Mbp </td><td> 18 </td><td> 20.02 Mbp </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.864x </th><th> 707 </th><th> 2.16 Gbp </th><th> 40 </th><th> 2.16 Gbp </th></tr>
+  <tr><th> 0.864x </th><th> 708 </th><th> 2.16 Gbp </th><th> 40 </th><th> 2.16 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated
