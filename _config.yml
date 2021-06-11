@@ -149,6 +149,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - README.txt
   - CNAME
   - _statistics-cache/
   - _statistics-cache/*
