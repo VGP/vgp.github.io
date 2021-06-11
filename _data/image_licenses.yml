@@ -4,8 +4,14 @@ Acanthisitta_chloris:
 Acipenser_ruthenus:
   license: CC BY 2.0 Tauralbus (flickr)
 
+Acridotheres_tristis:
+  license: CC BY-SA 3.0 Afsarnayakkan (Wikimedia)
+
 Alca_torda:
   license: CC BY 2.0 Paul Wordingham (flickr)
+
+Alosa_sapidissima:
+  license: CC0 Raver Duane (Pixnio)
 
 Amblyraja_radiata:
   license: public domain
@@ -18,6 +24,12 @@ Amphilophus_labiatus:
 
 Anabas_testudineus:
   license: public domain
+
+Anableps anableps:
+  license: unknown
+
+Anguilla_anguilla:
+  license: CC BY-SA 2.0 Bernard DUPONT (flickr)
 
 Antennarius_maculatus:
   license: CC BY-SA 2.0 Bernard DUPONT (wikimedia)
@@ -94,6 +106,9 @@ Chanos_chanos:
 Chelonia_mydas:
   license: CC BY-SA 3.0 Christoph Schuetzenhofer (wikimedia)
 
+Chionoecetes_opilio:
+  license: CC BY-SA 4.0 Totti (Wikimedia)
+
 Chiroxiphia_lanceolata:
   license: Copyright Emily DuVal, used with permission
 
@@ -101,7 +116,10 @@ Choloepus_didactylus:
   license: CC BY-SA 3.0 Hans Hillewaert (wikimedia)
 
 Ciconia_maguari:
-  license: unknown
+  license: CC BY-NC-SA 2.0 Lip Kee (flickr)
+
+Corvus_hawaiiensis:
+  license: CC BY-NC 2.0 USFWS - Pacific Region (flickr)
 
 Corvus_moneduloides:
   license: CC BY-NC-SA 2.0 Corvus moneduloides (flickr)
@@ -133,14 +151,20 @@ Denticeps_clupeoides:
 Dermochelys_coriacea:
   license: public domain
 
+Diceros_bicornis:
+  license: CC BY-NC-SA 2.0 Arno Meintjes (flickr)
+
 Dryobates_pubescens:
   license: CC BY-SA 3.0 Wolfgang Wander (wikimedia)
 
 Echeneis_naucrates:
   license: CC BY 2.0 Richard ling (wikimedia)
 
+Electrophorus_electricus:
+  license: CC BY 2.0 Ryan Ready (flickr)
+
 Erethizon_dorsatum:
-  license: unknown
+  license: CC BY-NC-SA 2.0 Arthur Chapman (flickr)
 
 Erithacus_rubecula:
   license: CC BY-SA 2.0, Juan Emilio (wikimedia)
@@ -148,8 +172,20 @@ Erithacus_rubecula:
 Erpetoichthys_calabaricus:
   license: CC BY-SA 3.0 Michał Zalewski (wikimedia)
 
+Eschrichtius_robustus:
+  license: CC BY-SA 2.0 Gregory "Slobirdr" Smith (flickr)
+
+Falco_biarmicus:
+  license: CC BY 2.0 Derek Keats (flickr)
+
+Falco_cherrug:
+  license: public domain Damiano Pappadà (flickr)
+
 Falco_naumanni:
   license: Copyright Michele Mendi, used with permission
+
+Falco_peregrinus:
+  license: Pixabay License Jasmin777 (Pixabay)
 
 Falco_rusticolus:
   license: Copyright Qatar Falcon Genome Project, Al-Gannas Qatari Society, used with permission
@@ -175,11 +211,17 @@ Gopherus_flavomarginatus:
 Gouania_willdenowi:
   license: Copyright Maximillian Wagner, used with permission
 
+Grus_americana:
+  license: CC BY 2.0 U.S. Fish and Wildlife Services (flickr)
+
+Harpia_harpyja:
+  license: CC BY 2.0 Jitze Couperus (flickr)
+
 Hemiprocne_comata:
-  license: unknown
+  license: CC BY-NC-SA 2.0 Nick Athanas (flickr)
 
 Hemiscyllium_ocellatum:
-  license: unknown
+  license: CC BY-NC-SA 4.0 Coughdrop12 (Wikimedia)
 
 Hippoglossus_hippoglossus:
   license: public domain
@@ -205,8 +247,14 @@ Lutra_lutra:
 Lynx_canadensis:
   license: CC BY 2.0 Keith Williams (flickr)
 
+Macropus_eugenii:
+  license: CC BY-SA 3.0 DiverDave (Wikimedia)
+
 Malacosteus_niger:
   license: Public domain (wikimedia)
+
+Manis_pentadactyla:
+  license: CC BY-SA 4.0 A.J.T. Johnsingh, WWF-India and NCF (Wikimedia)
 
 Mastacembelus_armatus:
   license: public domain
@@ -275,16 +323,22 @@ Pipistrellus_pipistrellus:
   license: CC BY-SA 2.0, Gilles San Martin (flickr)
 
 Pluvialis_apricaria:
-  license: unknown
+  license: CC BY 2.0 Ómar Runólfsson (Wikimedia)
 
 Pogoniulus_pusillus:
-  license: unknown
+  license: CC BY-SA 4.0 Alan Manson (Wikimedia)
+
+Porphyrio_hochstetteri:
+  license: CC BY-NC-SA 2.0 Jake Osborne (flickr)
 
 Pristis_pectinata:
   license: CC BY-NC-ND 2.0 myfwc (flickr)
 
 Pterocles_gutturalis:
   license: CC BY-SA 3.0 Yathin S Krishnappa (wikimedia)
+
+Pygocentrus_nattereri:
+  license: CC BY-SA 3.0 Grook da Oger (Wikimedia)
 
 Rana_temporaria:
   license: CC BY-NC 2.0 abejorro34 (flickr)
@@ -316,11 +370,14 @@ Sciurus_vulgaris:
 Scleropages_formosus:
   license: CC BY-SA 2.5 Okinawa Churaumi Aquarium (opencage)
 
+Scomber_japonicus:
+  license: public domain  NOAA (flickr)
+
 Scyliorhinus_canicula:
   license: CC BY-SA 4.0 Hans Hillewaert (wikimedia)
 
 Sebastes_umbrosus:
-  license: unknown
+  license: Copyright David R. Andrew, used with permission
 
 Sparus_aurata:
   license: CC BY 3.0 Roberto Pillon (wikimedia)
@@ -339,6 +396,9 @@ Streptopelia_turtur:
 
 Strigops_habroptilus:
   license: CC BY-NC 2.0 Jake Osborne (flickr)
+
+Suncus_etruscus:
+  license: CC BY-NC-SA 2.0 Bernard DUPONT (flickr)
 
 Sylvia_atricapilla:
   license: CC BY 2.0 Frank Vassen (wikimedia)
@@ -365,13 +425,16 @@ Taurulus_bubalis:
   license: CC BY-SA 3.0 Yashca (wikimedia)
 
 Tautogolabrus_adspersus:
-  license: unknown
+  license: CC BY 2.0 Derek Keats (flickr)
 
 Thalassophryne_amazonica:
   license: Copyright Ralf Britz/NHM, used with permission
 
 Thamnophis_elegans:
   license: CC BY-NC 2.0 J. Maughn (flickr)
+
+Theristicus_caerulescens:
+  license: CC BY-SA 2.0 Bernard DUPONT (flickr)
 
 Thunnus_maccoyii:
   license: public domain Robbie Cada. (FishBase)
@@ -382,6 +445,9 @@ Trachurus_trachurus:
 Trichosurus_vulpecula:
   license: CC BY 2.0 Donald Hobern (flickr)
 
+Trogon_surrucura:
+  license: CC BY 2.0 Afonso de Bragança (flickr)
+
 Turdus_merula:
   license: CC BY-SA 2.0 Juan Emilio (wikimedia)
 
@@ -390,6 +456,9 @@ Tursiops_truncatus:
 
 Vidua_chalybeata:
   license: CC BY 2.0 Derek Keats (wikimedia)
+
+Vipera_latastei:
+  license: CC BY-NC-SA 2.0 Alexandre Roux (flickr)
 
 Zalophus_californianus:
   license: CC BY-SA 2.0 Gregory Smith (flickr)
