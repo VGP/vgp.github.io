@@ -25,7 +25,7 @@ data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 last_raw_data: 1605867184
-last_updated: 1605868466
+last_updated: 1619514894
 name: Canis lupus orion
 name_: Canis_lupus
 short_name: mCanLor

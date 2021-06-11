@@ -14,19 +14,24 @@ data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_cherrug/bFalChe1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_scale: 1
-data_pbsubreads_bases: 411.95 Gbp
-data_pbsubreads_bytes: 743.096 GB
-data_pbsubreads_coverage: 34.33x
-data_pbsubreads_files: 2
+data_pbhifi_bases: 35.49 Gbp
+data_pbhifi_bytes: 27.447 GB
+data_pbhifi_coverage: 2.96x
+data_pbhifi_files: 2
+data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_cherrug/bFalChe1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
+data_pbhifi_scale: 1.2044
+data_pbsubreads_bases: 597.42 Gbp
+data_pbsubreads_bytes: 1077.435 GB
+data_pbsubreads_coverage: 49.78x
+data_pbsubreads_files: 4
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_cherrug/bFalChe1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5163
+data_pbsubreads_scale: 0.5164
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 12000000000
 genome_size_display: 12.00 Gbp
-last_raw_data: 1612830184
-last_updated: 1612830184
+last_raw_data: 1620143461
+last_updated: 1620143461
 name: Falco cherrug
 name_: Falco_cherrug
 short_name: bFalChe

@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-09-08
-alt1filesize: 551 MB
-alt1n50ctg: 577596
-alt1n50scf: 577596
-alt1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_vgp_standard_1.6/mLemCat1.alt.asm.20190908.fasta.gz
+alt1date: 2021-06-02
+alt1filesize: 583 MB
+alt1n50ctg: 20470465
+alt1n50scf: 20470465
+alt1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_vgp_standard_2.0/mLemCat1.alt.asm.20210602.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,13 +21,13 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 62 </td><td> 4.00 Mbp </td><td> 62 </td><td> 4.00 Mbp </td></tr>  <tr><td> 20 </td><td> 164 </td><td> 2.66 Mbp </td><td> 164 </td><td> 2.66 Mbp </td></tr>  <tr><td> 30 </td><td> 311 </td><td> 1.89 Mbp </td><td> 311 </td><td> 1.89 Mbp </td></tr>  <tr><td> 40 </td><td> 531 </td><td> 1.18 Mbp </td><td> 531 </td><td> 1.18 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 921 </td><td> 0.58 Mbp </td><td> 921 </td><td> 0.58 Mbp </td></tr>  <tr><td> 60 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 96.00 Mbp </td><td> 3 </td><td> 96.00 Mbp </td></tr>  <tr><td> 20 </td><td> 7 </td><td> 56.18 Mbp </td><td> 7 </td><td> 56.18 Mbp </td></tr>  <tr><td> 30 </td><td> 13 </td><td> 45.82 Mbp </td><td> 13 </td><td> 45.82 Mbp </td></tr>  <tr><td> 40 </td><td> 23 </td><td> 30.76 Mbp </td><td> 23 </td><td> 30.76 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 35 </td><td> 20.47 Mbp </td><td> 35 </td><td> 20.47 Mbp </td></tr>  <tr><td> 60 </td><td> 58 </td><td> 9.29 Mbp </td><td> 58 </td><td> 9.29 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.566x </th><th> 2213 </th><th> 1.87 Gbp </th><th> 2213 </th><th> 1.87 Gbp </th></tr>
+  <tr><th> 0.685x </th><th> 307 </th><th> 2.26 Gbp </th><th> 307 </th><th> 2.26 Gbp </th></tr>
   </tfoot>
   </table>
-alt1version: assembly_vgp_standard_1.6
-assembly: assembly_vgp_standard_1.6
+alt1version: assembly_vgp_standard_2.0
+assembly: assembly_vgp_standard_2.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
 common_name: ring-tailed lemur
 data_10x_bases: 277.44 Gbp
@@ -67,7 +67,7 @@ genome_size: 3300000000
 genome_size_display: 3.30 Gbp
 genome_size_method: null
 last_raw_data: 1618888277
-last_updated: 1618943453
+last_updated: 1622769108
 mito1date: 2019-08-20
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_MT_rockefeller/mLemCat1.MT.20190820.fasta.gz
@@ -96,11 +96,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Lemur catta
 name_: Lemur_catta
-pri1date: 2019-09-08
-pri1filesize: 620 MB
-pri1n50ctg: 5881309
-pri1n50scf: 55279062
-pri1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_vgp_standard_1.6/mLemCat1.pri.asm.20190908.fasta.gz
+pri1date: 2021-06-02
+pri1filesize: 621 MB
+pri1n50ctg: 16149179
+pri1n50scf: 56653852
+pri1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_vgp_standard_2.0/mLemCat1.pri.asm.20210602.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -118,12 +118,12 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 12 </td><td> 19.76 Mbp </td><td> 1 </td><td> 112.81 Mbp </td></tr>  <tr><td> 20 </td><td> 31 </td><td> 14.75 Mbp </td><td> 4 </td><td> 101.38 Mbp </td></tr>  <tr><td> 30 </td><td> 57 </td><td> 11.22 Mbp </td><td> 7 </td><td> 95.87 Mbp </td></tr>  <tr><td> 40 </td><td> 92 </td><td> 8.36 Mbp </td><td> 11 </td><td> 70.85 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 139 </td><td style="background-color:#88ff88;"> 5.88 Mbp </td><td> 16 </td><td style="background-color:#88ff88;"> 55.28 Mbp </td></tr>  <tr><td> 60 </td><td> 229 </td><td> 2.21 Mbp </td><td> 26 </td><td> 25.41 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 3 </td><td> 79.53 Mbp </td><td> 1 </td><td> 115.37 Mbp </td></tr>  <tr><td> 20 </td><td> 8 </td><td> 54.57 Mbp </td><td> 4 </td><td> 103.68 Mbp </td></tr>  <tr><td> 30 </td><td> 16 </td><td> 38.42 Mbp </td><td> 7 </td><td> 100.48 Mbp </td></tr>  <tr><td> 40 </td><td> 26 </td><td> 27.68 Mbp </td><td> 10 </td><td> 92.10 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 43 </td><td style="background-color:#88ff88;"> 16.15 Mbp </td><td> 15 </td><td style="background-color:#88ff88;"> 56.65 Mbp </td></tr>  <tr><td> 60 </td><td> 77 </td><td> 5.79 Mbp </td><td> 22 </td><td> 34.90 Mbp </td></tr>  <tr><td> 70 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 0.638x </th><th> 518 </th><th> 2.11 Gbp </th><th> 141 </th><th> 2.12 Gbp </th></tr>
+  <tr><th> 0.681x </th><th> 400 </th><th> 2.25 Gbp </th><th> 232 </th><th> 2.30 Gbp </th></tr>
   </tfoot>
   </table>
-pri1version: assembly_vgp_standard_1.6
+pri1version: assembly_vgp_standard_2.0
 short_name: mLemCat
 taxon_id: 9447
 ---

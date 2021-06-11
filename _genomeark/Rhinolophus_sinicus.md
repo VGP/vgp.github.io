@@ -21,8 +21,8 @@ data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 29000000000
 genome_size_display: 29.00 Gbp
-last_raw_data: 1608585246
-last_updated: 1608585246
+last_raw_data: 1622744604
+last_updated: 1622744604
 name: Rhinolophus sinicus
 name_: Rhinolophus_sinicus
 short_name: mRhiSin

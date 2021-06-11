@@ -1,9 +1,9 @@
 ---
-alt1date: 2019-11-27
-alt1filesize: 244 MB
-alt1n50ctg: 1753226
-alt1n50scf: 1753226
-alt1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_curated/bAcaChl1.alt.cur.20191127.fasta.gz
+alt1date: 2021-05-26
+alt1filesize: 240 MB
+alt1n50ctg: 1181371
+alt1n50scf: 1181371
+alt1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_curated/bAcaChl1.alt.cur.20210526.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -21,9 +21,9 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 10 </td><td> 6.39 Mbp </td><td> 10 </td><td> 6.39 Mbp </td></tr>  <tr><td> 20 </td><td> 26 </td><td> 4.25 Mbp </td><td> 26 </td><td> 4.25 Mbp </td></tr>  <tr><td> 30 </td><td> 49 </td><td> 2.97 Mbp </td><td> 49 </td><td> 2.97 Mbp </td></tr>  <tr><td> 40 </td><td> 81 </td><td> 2.23 Mbp </td><td> 81 </td><td> 2.23 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 123 </td><td> 1.75 Mbp </td><td> 123 </td><td> 1.75 Mbp </td></tr>  <tr><td> 60 </td><td> 177 </td><td> 1.33 Mbp </td><td> 177 </td><td> 1.33 Mbp </td></tr>  <tr><td> 70 </td><td> 251 </td><td> 0.94 Mbp </td><td> 251 </td><td> 0.94 Mbp </td></tr>  <tr><td> 80 </td><td> 370 </td><td> 0.49 Mbp </td><td> 370 </td><td> 0.49 Mbp </td></tr>  <tr><td> 90 </td><td> 864 </td><td> 79.57 Kbp </td><td> 863 </td><td> 79.78 Kbp </td></tr>  <tr><td> 100 </td><td> 2898 </td><td> 209  bp </td><td> 2878 </td><td> 812  bp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 13 </td><td> 5.84 Mbp </td><td> 13 </td><td> 5.84 Mbp </td></tr>  <tr><td> 20 </td><td> 37 </td><td> 3.67 Mbp </td><td> 37 </td><td> 3.67 Mbp </td></tr>  <tr><td> 30 </td><td> 74 </td><td> 2.37 Mbp </td><td> 74 </td><td> 2.37 Mbp </td></tr>  <tr><td> 40 </td><td> 126 </td><td> 1.72 Mbp </td><td> 126 </td><td> 1.72 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 200 </td><td> 1.18 Mbp </td><td> 200 </td><td> 1.18 Mbp </td></tr>  <tr><td> 60 </td><td> 314 </td><td> 0.66 Mbp </td><td> 314 </td><td> 0.66 Mbp </td></tr>  <tr><td> 70 </td><td> 746 </td><td> 91.73 Kbp </td><td> 746 </td><td> 92.01 Kbp </td></tr>  <tr><td> 80 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 90 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 2899 </th><th> 0.83 Gbp </th><th> 2879 </th><th> 0.83 Gbp </th></tr>
+  <tr><th> 0.788x </th><th> 2899 </th><th> 0.83 Gbp </th><th> 2879 </th><th> 0.83 Gbp </th></tr>
   </tfoot>
   </table>
 alt1version: assembly_curated
@@ -61,7 +61,7 @@ data_status: <em style="color:green">all data</em>
 genome_size: 1050000000
 genome_size_display: 1.05 Gbp
 last_raw_data: 1568759291
-last_updated: 1575404017
+last_updated: 1622050162
 mito1date: 2019-10-04
 mito1filesize: 5 KB
 mito1n50ctg: 19029
@@ -92,11 +92,11 @@ mito1sizes: |
 mito1version: assembly_MT_rockefeller
 name: Acanthisitta chloris
 name_: Acanthisitta_chloris
-pri1date: 2019-11-27
+pri1date: 2021-05-26
 pri1filesize: 311 MB
-pri1n50ctg: 16681756
+pri1n50ctg: 16730285
 pri1n50scf: 40827287
-pri1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_curated/bAcaChl1.pri.cur.20191127.fasta.gz
+pri1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_curated/bAcaChl1.pri.cur.20210526.fasta.gz
 pri1sizes: |
   <table class="sequence-sizes-table">
   <thead>
@@ -114,9 +114,9 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 1 </td><td> 57.89 Mbp </td><td> 0 </td><td> 136.57 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 40.40 Mbp </td><td> 1 </td><td> 96.25 Mbp </td></tr>  <tr><td> 30 </td><td> 6 </td><td> 36.90 Mbp </td><td> 3 </td><td> 62.81 Mbp </td></tr>  <tr><td> 40 </td><td> 10 </td><td> 24.09 Mbp </td><td> 5 </td><td> 50.82 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 16 </td><td style="background-color:#88ff88;"> 16.68 Mbp </td><td> 7 </td><td style="background-color:#88ff88;"> 40.83 Mbp </td></tr>  <tr><td> 60 </td><td> 23 </td><td> 13.17 Mbp </td><td> 10 </td><td> 28.50 Mbp </td></tr>  <tr><td> 70 </td><td> 33 </td><td> 9.38 Mbp </td><td> 14 </td><td> 22.52 Mbp </td></tr>  <tr><td> 80 </td><td> 47 </td><td> 5.50 Mbp </td><td> 19 </td><td> 19.70 Mbp </td></tr>  <tr><td> 90 </td><td> 75 </td><td> 2.68 Mbp </td><td> 26 </td><td> 11.89 Mbp </td></tr>  <tr><td> 100 </td><td> 399 </td><td> 3.37 Kbp </td><td> 204 </td><td> 7.11 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 1 </td><td> 57.89 Mbp </td><td> 0 </td><td> 136.57 Mbp </td></tr>  <tr><td> 20 </td><td> 3 </td><td> 40.40 Mbp </td><td> 1 </td><td> 96.25 Mbp </td></tr>  <tr><td> 30 </td><td> 6 </td><td> 36.90 Mbp </td><td> 3 </td><td> 62.81 Mbp </td></tr>  <tr><td> 40 </td><td> 10 </td><td> 24.09 Mbp </td><td> 4 </td><td> 51.96 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 15 </td><td style="background-color:#88ff88;"> 16.73 Mbp </td><td> 7 </td><td style="background-color:#88ff88;"> 40.83 Mbp </td></tr>  <tr><td> 60 </td><td> 22 </td><td> 13.37 Mbp </td><td> 9 </td><td> 34.43 Mbp </td></tr>  <tr><td> 70 </td><td> 31 </td><td> 9.52 Mbp </td><td> 13 </td><td> 24.09 Mbp </td></tr>  <tr><td> 80 </td><td> 44 </td><td> 5.94 Mbp </td><td> 18 </td><td> 20.30 Mbp </td></tr>  <tr><td> 90 </td><td> 68 </td><td> 2.84 Mbp </td><td> 24 </td><td> 15.24 Mbp </td></tr>  <tr><td> 100 </td><td> 141 </td><td> 0.47 Mbp </td><td> 35 </td><td> 5.17 Mbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 400 </th><th> 1.07 Gbp </th><th> 205 </th><th> 1.08 Gbp </th></tr>
+  <tr><th> 1.022x </th><th> 400 </th><th> 1.07 Gbp </th><th> 205 </th><th> 1.08 Gbp </th></tr>
   </tfoot>
   </table>
 pri1version: assembly_curated
