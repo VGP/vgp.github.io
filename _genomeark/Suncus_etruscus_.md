@@ -1,6 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
-common_name: white toothed pygmy shrew
+common_name: white-toothed_pygmy_shrew
 data_10x_scale: 1
 data_arima_scale: 1
 data_dovetail_scale: 1
