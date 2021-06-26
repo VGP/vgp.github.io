@@ -56,6 +56,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falc
 data_pbsubreads_scale: 0.5247
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_015220155.1
+genbank_pri: GCA_015220075.1
 genome_size: 1400000000
 genome_size_display: 1.40 Gbp
 genome_size_method: null

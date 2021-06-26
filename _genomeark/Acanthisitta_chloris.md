@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acan
 data_pbsubreads_scale: 0.54
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_016880875.1
+genbank_pri: GCA_016904835.1
 genome_size: 1050000000
 genome_size_display: 1.05 Gbp
 last_raw_data: 1568759291

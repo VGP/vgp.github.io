@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scyl
 data_pbsubreads_scale: 0.5314
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_902713625.2
+genbank_pri: GCA_902713615.2
 last_raw_data: 1608203939
 last_updated: 1608203939
 name: Scyliorhinus canicula

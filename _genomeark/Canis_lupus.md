@@ -24,6 +24,7 @@ data_pbhifi_scale: 1.1232
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_905319845.1
 last_raw_data: 1605867184
 last_updated: 1619514894
 name: Canis lupus orion

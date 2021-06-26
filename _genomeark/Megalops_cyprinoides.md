@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mega
 data_pbsubreads_scale: 0.5228
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_013368575.1
+genbank_pri: GCA_013368585.1
 genome_size: 1093257451
 genome_size_display: 1.09 Gbp
 genome_size_method: genomescope

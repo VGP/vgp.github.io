@@ -56,6 +56,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anab
 data_pbsubreads_scale: 0.5269
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_014839705.1
+genbank_pri: GCA_014839685.1
 genome_size: 939460000
 genome_size_display: 0.94 Gbp
 genome_size_method: 10X Genomucs Supernova assembly

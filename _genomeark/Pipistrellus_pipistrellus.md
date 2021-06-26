@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipi
 data_pbsubreads_scale: 0.5359
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_903992515.1
+genbank_pri: GCA_903992545.1
 last_raw_data: 1586515943
 last_updated: 1605869756
 mito1date: 2019-10-03

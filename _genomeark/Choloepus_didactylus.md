@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chol
 data_pbsubreads_scale: 0.5302
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_015220265.1
+genbank_pri: GCA_015220235.1
 genome_size: 3400000000
 genome_size_display: 3.40 Gbp
 last_raw_data: 1547217154

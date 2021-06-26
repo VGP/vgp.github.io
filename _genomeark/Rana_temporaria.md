@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rana
 data_pbsubreads_scale: 0.5125
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_905171725.1
+genbank_pri: GCA_905171775.1
 last_raw_data: 1578516698
 last_updated: 1605869359
 mito1date: 2019-10-03

@@ -59,7 +59,6 @@ data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinoloph
 data_phase_scale: 1.4998
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_004115295.1
-genbank_pri: GCA_004115265.2
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
 last_raw_data: 1522747239

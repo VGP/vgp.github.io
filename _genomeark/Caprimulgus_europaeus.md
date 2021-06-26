@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Capr
 data_pbsubreads_scale: 0.5205
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_907165095.1
+genbank_pri: GCA_907165065.1
 genome_size: 1183056838
 genome_size_display: 1.18 Gbp
 genome_size_method: genomescope (k=31)

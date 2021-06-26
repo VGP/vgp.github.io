@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Xene
 data_pbsubreads_scale: 0.5274
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_014839645.1
+genbank_pri: GCA_014839995.1
 last_raw_data: 1570704548
 last_updated: 1589469352
 mito1date: 2019-10-03

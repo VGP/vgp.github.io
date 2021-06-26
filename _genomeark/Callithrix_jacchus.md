@@ -36,8 +36,7 @@ data_pbsubreads_scale: 0.5355
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_mat: GCA_011078405.1
-genbank_pat: GCA_011100535.1
-genbank_pri: GCA_011100555.1
+genbank_pat: GCA_011100535.2
 genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null

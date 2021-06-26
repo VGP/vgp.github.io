@@ -58,8 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Stre
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-genbank_alt: GCA_901699165.1
-genbank_pri: GCA_901699155.1
+genbank_alt: GCA_901699165.2
+genbank_pri: GCA_901699155.2
 last_raw_data: 1548798897
 last_updated: 1559462111
 name: Streptopelia turtur

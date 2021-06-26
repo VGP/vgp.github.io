@@ -58,8 +58,7 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Aqui
 data_pbsubreads_scale: 0.5256
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
-genbank_alt: GCA_902153765.1
-genbank_pri: GCA_900496995.2
+genbank_alt: GCA_902153765.2
 last_raw_data: 1554458077
 last_updated: 1570719699
 mito1date: 2019-10-01

@@ -8,7 +8,12 @@ if [ -z $NCBI_API_KEY ] ; then
   exit
 fi
 
-module load edirect
+#  Versions:
+#    edirect/8.60
+#    edirect/10.0
+#    edirect/14.5 - doesn't know the -q option.
+
+module load edirect/10.0
 
 if [ ! -e genbank.xml ] ; then
   echo Fetching genbank.xml.

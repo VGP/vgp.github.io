@@ -59,7 +59,6 @@ data_pbsubreads_scale: 0.5196
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_901001175.1
-genbank_pri: GCA_901001135.1
 genome_size: 5067838282
 genome_size_display: 5.07 Gbp
 genome_size_method: genomescope k=31

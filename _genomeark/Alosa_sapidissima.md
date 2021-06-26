@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Alos
 data_pbsubreads_scale: 0.5134
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_018492705.1
+genbank_pri: GCA_018492685.1
 genome_size: 900000000
 genome_size_display: 0.90 Gbp
 last_raw_data: 1613943916

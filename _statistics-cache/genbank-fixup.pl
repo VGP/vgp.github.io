@@ -20,10 +20,14 @@ while (<F>) {
 
         #  Fix up obvious mistakes in the name.
 
-        if ($lab =~ m/g(adMor.*)/) {
-            $lab = "fG$1";
-        }
-        if ($lab =~ m/^([a-z][A-Z][a-z][a-z][a-zA-z][A-Za-z][a-z][0-9])/) {
+        if ($lab =~ m/g(adMor.*)/)       { $lab = "fG$1"; }
+        if ($lab =~ m/mCalJa(1.2.*)/)    { $lab = "mCalJac$1"; }
+
+        if ($lab =~ m/mRatBN7/)          { next; }
+        if ($lab =~ m/UOA_/)             { next; }
+        if ($lab =~ m/ZJU/)              { next; }
+
+        if ($lab =~ m/^([a-z][A-Z][a-z][a-z][a-zA-z][A-Za-z][A-Za-z][0-9])/) {
             $nam = $1;  #  matches fAaaAaa or fAaaaAa
         } else {
             die "Failed to match name in '$lab'.\n";

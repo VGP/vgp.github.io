@@ -59,7 +59,6 @@ data_pbsubreads_scale: 0.5331
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900963505.1
-genbank_pri: GCA_900963305.1
 last_raw_data: 1549384902
 last_updated: 1570719802
 mito1date: 2019-10-02

@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pogo
 data_pbsubreads_scale: 0.5263
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_015220175.1
+genbank_pri: GCA_015220805.1
 genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null

@@ -40,6 +40,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo
 data_pbsubreads_scale: 0.5422
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_mat: GCA_016695395.2
+genbank_pat: GCA_016700455.2
 genome_size: 3200000000
 genome_size_display: 3.20 Gbp
 genome_size_method: null

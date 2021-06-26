@@ -25,7 +25,6 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Asta
 data_pbsubreads_scale: 0.2588
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-genbank_pri: GCA_900246225.3
 genome_size: 972478608
 genome_size_display: 0.97 Gbp
 last_raw_data: 1520006832

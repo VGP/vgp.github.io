@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo
 data_pbsubreads_scale: 0.5178
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_905171715.1
+genbank_pri: GCA_905171765.1
 last_raw_data: 1584379221
 last_updated: 1608197105
 mito1date: 2019-10-05

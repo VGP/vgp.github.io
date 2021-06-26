@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Erit
 data_pbsubreads_scale: 0.5325
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_903797565.2
+genbank_pri: GCA_903797595.2
 last_raw_data: 1576664929
 last_updated: 1591259911
 name: Erithacus rubecula

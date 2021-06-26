@@ -48,6 +48,7 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lutr
 data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_902653095.1
 last_raw_data: 1591286244
 last_updated: 1591286244
 mito1date: 2019-10-03

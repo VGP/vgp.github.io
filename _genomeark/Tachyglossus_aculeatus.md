@@ -58,6 +58,8 @@ data_phase_files: 1
 data_phase_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/phase/ .<br>
 data_phase_scale: 1.6938
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_015852515.1
+genbank_pri: GCA_015852505.1
 genome_size: 2890000000
 genome_size_display: 2.89 Gbp
 genome_size_method: null

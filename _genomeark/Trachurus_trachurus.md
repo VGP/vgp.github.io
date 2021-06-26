@@ -53,6 +53,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trac
 data_pbsubreads_scale: 0.5163
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genbank_alt: GCA_905171655.1
+genbank_pri: GCA_905171665.1
 last_raw_data: 1576663199
 last_updated: 1608197281
 mito1date: 2019-10-03

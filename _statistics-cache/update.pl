@@ -746,6 +746,10 @@ sub processData ($$$$$) {
         }
     }
 
+    #  Stop warning about junk.
+    elsif ($filename =~ m!aBomBom1/genomic_data/bionano/exp_refineFinal1/!) {
+    }
+
     elsif ($filename =~ m!/genomic_data/bionano/!) {
         $$seqIndiv{"bionano"} .= "$sTag/$iTag\0";
 
@@ -1005,7 +1009,6 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf "SUMMARIZE $name.summary\n";
-            #printf "  $seqrequester summarize downloads/$name > $name.summary\n";
             system("mkdir -p $name");
             system("rmdir    $name");
             system("$seqrequester summarize downloads/$name > $name.summary");

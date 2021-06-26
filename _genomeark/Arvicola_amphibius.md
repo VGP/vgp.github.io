@@ -58,6 +58,7 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvi
 data_pbsubreads_scale: 0.5262
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_903992525.1
 last_raw_data: 1580658763
 last_updated: 1597303643
 name: Arvicola amphibius

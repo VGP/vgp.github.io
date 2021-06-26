@@ -58,6 +58,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chel
 data_pbsubreads_scale: 0.5449
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_015220195.1
+genbank_pri: GCA_015237465.1
 last_raw_data: 1566994409
 last_updated: 1622741604
 name: Chelonia mydas

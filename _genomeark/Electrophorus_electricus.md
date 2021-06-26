@@ -52,6 +52,7 @@ data_pbsubreads_scale: 0.5481
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_013347915.1
+genbank_pri: GCA_013358815.1
 genome_size: 969258935
 genome_size_display: 0.97 Gbp
 genome_size_method: meryl

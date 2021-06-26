@@ -59,7 +59,7 @@ data_pbsubreads_scale: 0.5379
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_007474575.2
-genbank_pri: GCA_007474595.1
+genbank_pri: GCA_007474595.2
 genome_size: 2471525315
 genome_size_display: 2.47 Gbp
 last_raw_data: 1534379101

@@ -40,6 +40,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gall
 data_pbsubreads_scale: 0.5151
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genbank_alt: GCA_016700215.1
+genbank_pri: GCA_016699485.1
 genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
