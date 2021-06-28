@@ -41,7 +41,7 @@ data_arima_bytes: 684.506 GB
 data_arima_coverage: N/A
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Bombina_bombina/aBomBom1/genomic_data/arima/ .<br>
-data_arima_scale: 0.4196
+data_arima_scale: 1.996
 data_bionano_bases: unknown
 data_bionano_bytes: 4.050 GB
 data_bionano_coverage: N/A
