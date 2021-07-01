@@ -64,7 +64,7 @@ genome_size: 604861782
 genome_size_display: 0.60 Gbp
 genome_size_method: meryl
 last_raw_data: 1578598034
-last_updated: 1581331796
+last_updated: 1624987112
 mito1date: 2019-10-05
 mito1filesize: 5 KB
 mito1n50ctg: 19188

@@ -1,8 +1,18 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
 common_name: painted frog
-data_10x_scale: 1
-data_arima_scale: 1
+data_10x_bases: unknown
+data_10x_bytes: 124.407 GB
+data_10x_coverage: N/A
+data_10x_files: 16
+data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Discoglossus_pictus/aDisPic1/genomic_data/10x/ .<br>
+data_10x_scale: 1.9216
+data_arima_bases: unknown
+data_arima_bytes: 117.879 GB
+data_arima_coverage: N/A
+data_arima_files: 2
+data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Discoglossus_pictus/aDisPic1/genomic_data/arima/ .<br>
+data_arima_scale: 1.9686
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
@@ -14,8 +24,8 @@ data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Disc
 data_pbsubreads_scale: 0.5215
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
-last_raw_data: 1604642297
-last_updated: 1604642297
+last_raw_data: 1625045478
+last_updated: 1625045478
 name: Discoglossus pictus
 name_: Discoglossus_pictus
 short_name: aDisPic

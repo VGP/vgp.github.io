@@ -33,7 +33,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1594744337
-last_updated: 1594744337
+last_updated: 1624993967
 mito1date: 2019-12-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Hemiprocne_comata/bHemCom1/assembly_MT_rockefeller/bHemCom1.MT.20191204.fasta.gz

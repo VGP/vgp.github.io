@@ -1,4 +1,5 @@
 ---
+assembly: assembly_vgp_standard_1.7
 assembly_status: <em style="color:red">no assembly</em>
 common_name: cunner
 data_10x_bases: 88.87 Gbp
@@ -33,7 +34,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1622235347
-last_updated: 1622259554
+last_updated: 1624316475
 mito1date: 2021-05-28
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Tautogolabrus_adspersus/fTauAds1/assembly_MT_rockefeller/fTauAds1.MT.20210528.fasta.gz

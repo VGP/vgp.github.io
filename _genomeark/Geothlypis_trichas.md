@@ -50,12 +50,16 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothly
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: 75.04 Gbp
-data_pbsubreads_bytes: 133.351 GB
-data_pbsubreads_coverage: 52.11x
-data_pbsubreads_files: 54
+data_pbscraps_bases: unknown
+data_pbscraps_bytes: 88.397 GB
+data_pbscraps_coverage: N/A
+data_pbscraps_files: 10
+data_pbsubreads_bases: 86.91 Gbp
+data_pbsubreads_bytes: 152.892 GB
+data_pbsubreads_coverage: 60.35x
+data_pbsubreads_files: 64
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Geothlypis_trichas/bGeoTri1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5241
+data_pbsubreads_scale: 0.5294
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_009764545.1
@@ -63,8 +67,8 @@ genbank_pri: GCA_009764595.1
 genome_size: 1440000000
 genome_size_display: 1.44 Gbp
 genome_size_method: Feulgen Image Analysis Densitometry
-last_raw_data: 1570134727
-last_updated: 1576521593
+last_raw_data: 1624974678
+last_updated: 1624974678
 mito1date: 2019-12-16
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Geothlypis_trichas/bGeoTri1/assembly_MT_rockefeller/bGeoTri1.MT.20191216.fasta.gz

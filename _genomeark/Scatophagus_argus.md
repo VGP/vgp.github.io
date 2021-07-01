@@ -33,7 +33,7 @@ genome_size: 647966298
 genome_size_display: 0.65 Gbp
 genome_size_method: genomescope
 last_raw_data: 1585955244
-last_updated: 1622547497
+last_updated: 1624993725
 mito1date: 2020-03-31
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Scatophagus_argus/fScaArg1/assembly_MT_rockefeller/fScaArg1.MT.20200331.fasta.gz

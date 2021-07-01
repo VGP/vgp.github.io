@@ -57,7 +57,7 @@ genome_size: 969258935
 genome_size_display: 0.97 Gbp
 genome_size_method: meryl
 last_raw_data: 1572556742
-last_updated: 1584459546
+last_updated: 1624988024
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Electrophorus_electricus/fEleEle1/assembly_MT_rockefeller/fEleEle1.MT.20191002.fasta.gz
