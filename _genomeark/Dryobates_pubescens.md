@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-07-16
 alt1filesize: 311 MB
+alt1length: 1082594729
 alt1n50ctg: 1342166
 alt1n50scf: 1342166
 alt1seq: https://s3.amazonaws.com/genomeark/species/Dryobates_pubescens/bDryPub1/assembly_curated/bDryPub1.alt.cur.20200716.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: downy woodpecker
 data_10x_bases: 165.20 Gbp
 data_10x_bytes: 79.508 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Dryobat
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 87.40 Gbp
 data_pbsubreads_bytes: 148.486 GB
 data_pbsubreads_coverage: 62.43x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dryobates_pubescens/bDryPub1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5482
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Dryobates pubescens
 name_: Dryobates_pubescens
 pri1date: 2020-07-16
 pri1filesize: 338 MB
+pri1length: 1187939694
 pri1n50ctg: 15853833
 pri1n50scf: 34196716
 pri1seq: https://s3.amazonaws.com/genomeark/species/Dryobates_pubescens/bDryPub1/assembly_curated/bDryPub1.pri.cur.20200716.fasta.gz

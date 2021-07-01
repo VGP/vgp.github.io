@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-07-24
 alt1filesize: 460 MB
+alt1length: 1579816813
 alt1n50ctg: 229984
 alt1n50scf: 230226
 alt1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_curated/mPipPip1.alt.cur.20200724.fasta.gz
@@ -29,36 +30,41 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common pipistrelle
-data_10x_bases: unknown
+data_10x_bases: 135.23 Gbp
 data_10x_bytes: 83.276 GB
-data_10x_coverage: N/A
+data_10x_coverage: 76.69x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5124
-data_arima_bases: unknown
+data_arima_bases: 259.16 Gbp
 data_arima_bytes: 158.888 GB
-data_arima_coverage: N/A
+data_arima_coverage: 146.97x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipistrellus_pipistrellus/mPipPip2/genomic_data/arima/ .<br>
 data_arima_scale: 1.5191
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 125.48 Gbp
 data_pbsubreads_bytes: 218.060 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 36
+data_pbsubreads_coverage: 71.15x
+data_pbsubreads_files: 18
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipistrellus_pipistrellus/mPipPip1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5359
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_903992515.1
 genbank_pri: GCA_903992545.1
+genome_size: 1763439233
+genome_size_display: 1.76 Gbp
 last_raw_data: 1586515943
 last_updated: 1605869756
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16925
 mito1n50ctg: 16925
 mito1n50scf: 16925
 mito1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_MT_rockefeller/mPipPip1.MT.20191003.fasta.gz
@@ -79,9 +85,9 @@ mito1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 16.92 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 16.92 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 16.92 Kbp </td><td> 0 </td><td> 16.92 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 16.93 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 16.93 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 16.93 Kbp </td><td> 0 </td><td> 16.93 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1 </th><th> 16.92 Kbp </th><th> 1 </th><th> 16.92 Kbp </th></tr>
+  <tr><th> 1.000x </th><th> 1 </th><th> 16.93 Kbp </th><th> 1 </th><th> 16.93 Kbp </th></tr>
   </tfoot>
   </table>
 mito1version: assembly_MT_rockefeller
@@ -89,6 +95,7 @@ name: Pipistrellus pipistrellus
 name_: Pipistrellus_pipistrellus
 pri1date: 2020-07-24
 pri1filesize: 512 MB
+pri1length: 1763439233
 pri1n50ctg: 4446752
 pri1n50scf: 94929986
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_pipistrellus/mPipPip1/assembly_curated/mPipPip1.pri.cur.20200724.fasta.gz

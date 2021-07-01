@@ -27,6 +27,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: lesser kestrel
 data_10x_bases: 88.71 Gbp
 data_10x_bytes: 44.819 GB
@@ -53,10 +54,11 @@ data_illumina_files: 4
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_naumanni/bFalNau2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Falco_naumanni/bFalNau3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9213
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 140.86 Gbp
 data_pbsubreads_bytes: 254.242 GB
 data_pbsubreads_coverage: 104.34x
-data_pbsubreads_files: 2
+data_pbsubreads_files: 1
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_naumanni/bFalNau1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.516
 data_phase_scale: 1
@@ -67,9 +69,10 @@ genome_size: 1350000000
 genome_size_display: 1.35 Gbp
 genome_size_method: kmers
 last_raw_data: 1579812669
-last_updated: 1624973991
+last_updated: 1597764263
 mat1date: 2020-07-14
 mat1filesize: 335 MB
+mat1length: 1156765323
 mat1n50ctg: 11498467
 mat1n50scf: 55895994
 mat1seq: https://s3.amazonaws.com/genomeark/species/Falco_naumanni/bFalNau1/assembly_curated/bFalNau1.mat.decon.20200714.fasta.gz
@@ -126,6 +129,7 @@ name: Falco naumanni
 name_: Falco_naumanni
 pat1date: 2020-07-14
 pat1filesize: 348 MB
+pat1length: 1197470248
 pat1n50ctg: 12463014
 pat1n50scf: 68606003
 pat1seq: https://s3.amazonaws.com/genomeark/species/Falco_naumanni/bFalNau1/assembly_curated/bFalNau1.pat.decon.20200714.fasta.gz
@@ -154,6 +158,7 @@ pat1sizes: |
 pat1version: assembly_curated
 pri1date: 2020-08-18
 pri1filesize: 354 MB
+pri1length: 1215702009
 pri1n50ctg: 12381245
 pri1n50scf: 86597978
 pri1seq: https://s3.amazonaws.com/genomeark/species/Falco_naumanni/bFalNau1/assembly_curated/bFalNau1.pri.cur.20200818.fasta.gz

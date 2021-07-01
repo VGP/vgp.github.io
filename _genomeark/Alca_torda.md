@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-06-18
 alt1filesize: 362 MB
+alt1length: 1220378950
 alt1n50ctg: 1996128
 alt1n50scf: 1996128
 alt1seq: https://s3.amazonaws.com/genomeark/species/Alca_torda/bAlcTor1/assembly_curated/bAlcTor1.alt.cur.20190618.fasta.gz
@@ -21,7 +22,7 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 20 </td><td> 4.92 Mbp </td><td> 20 </td><td> 4.92 Mbp </td></tr>  <tr><td> 20 </td><td> 48 </td><td> 3.68 Mbp </td><td> 48 </td><td> 3.68 Mbp </td></tr>  <tr><td> 30 </td><td> 84 </td><td> 2.99 Mbp </td><td> 84 </td><td> 2.99 Mbp </td></tr>  <tr><td> 40 </td><td> 128 </td><td> 2.50 Mbp </td><td> 128 </td><td> 2.50 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 181 </td><td> 2.00 Mbp </td><td> 181 </td><td> 2.00 Mbp </td></tr>  <tr><td> 60 </td><td> 250 </td><td> 1.52 Mbp </td><td> 250 </td><td> 1.52 Mbp </td></tr>  <tr><td> 70 </td><td> 342 </td><td> 1.13 Mbp </td><td> 342 </td><td> 1.13 Mbp </td></tr>  <tr><td> 80 </td><td> 475 </td><td> 0.74 Mbp </td><td> 475 </td><td> 0.74 Mbp </td></tr>  <tr><td> 90 </td><td> 709 </td><td> 0.33 Mbp </td><td> 709 </td><td> 0.33 Mbp </td></tr>  <tr><td> 100 </td><td> 2334 </td><td> 31.15 Kbp </td><td> 2334 </td><td> 31.15 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 20 </td><td> 4.92 Mbp </td><td> 20 </td><td> 4.92 Mbp </td></tr>  <tr><td> 20 </td><td> 48 </td><td> 3.68 Mbp </td><td> 48 </td><td> 3.68 Mbp </td></tr>  <tr><td> 30 </td><td> 84 </td><td> 2.99 Mbp </td><td> 84 </td><td> 2.99 Mbp </td></tr>  <tr><td> 40 </td><td> 128 </td><td> 2.50 Mbp </td><td> 128 </td><td> 2.50 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 181 </td><td> 2.00 Mbp </td><td> 181 </td><td> 2.00 Mbp </td></tr>  <tr><td> 60 </td><td> 250 </td><td> 1.52 Mbp </td><td> 250 </td><td> 1.52 Mbp </td></tr>  <tr><td> 70 </td><td> 342 </td><td> 1.13 Mbp </td><td> 342 </td><td> 1.13 Mbp </td></tr>  <tr><td> 80 </td><td> 475 </td><td> 0.74 Mbp </td><td> 475 </td><td> 0.74 Mbp </td></tr>  <tr><td> 90 </td><td> 709 </td><td> 0.33 Mbp </td><td> 709 </td><td> 0.33 Mbp </td></tr>  <tr><td> 100 </td><td> 2334 </td><td> 31.14 Kbp </td><td> 2334 </td><td> 31.14 Kbp </td></tr>  </tbody>
   <tfoot>
   <tr><th> 1.017x </th><th> 3309 </th><th> 1.22 Gbp </th><th> 3309 </th><th> 1.22 Gbp </th></tr>
   </tfoot>
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: razorbill
 data_10x_bases: 77.97 Gbp
 data_10x_bytes: 37.941 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Alca_to
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 77.63 Gbp
 data_pbsubreads_bytes: 134.283 GB
 data_pbsubreads_coverage: 64.69x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Alca_torda/bAlcTor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5384
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Alca torda
 name_: Alca_torda
 pri1date: 2019-06-13
 pri1filesize: 345 MB
+pri1length: 1178473458
 pri1n50ctg: 18221265
 pri1n50scf: 82438829
 pri1seq: https://s3.amazonaws.com/genomeark/species/Alca_torda/bAlcTor1/assembly_curated/bAlcTor1.pri.cur.20190613.fasta.gz

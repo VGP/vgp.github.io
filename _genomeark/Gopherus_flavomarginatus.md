@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: Mexican gopher tortoise
 data_10x_bases: 248.07 Gbp
 data_10x_bytes: 116.626 GB
@@ -26,10 +27,11 @@ data_illumina_files: 10
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8608
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 164.53 Gbp
 data_pbsubreads_bytes: 286.083 GB
 data_pbsubreads_coverage: 65.81x
-data_pbsubreads_files: 30
+data_pbsubreads_files: 15
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_flavomarginatus/rGopFla2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5356
 data_phase_scale: 1
@@ -38,7 +40,7 @@ genome_size: 2500000000
 genome_size_display: 2.50 Gbp
 genome_size_method: null
 last_raw_data: 1562793058
-last_updated: 1605913030
+last_updated: 1576513801
 mito2date: 2019-12-16
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Gopherus_flavomarginatus/rGopFla2/assembly_MT_rockefeller/rGopFla2.MT.20191216.fasta.gz

@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: lanner falcon
 data_10x_scale: 1
 data_arima_bases: 87.95 Gbp
@@ -21,12 +22,12 @@ data_pbhifi_coverage: 3.23x
 data_pbhifi_files: 6
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_biarmicus/bFalBia1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.1244
-data_pbsubreads_bases: 724.19 Gbp
-data_pbsubreads_bytes: 1305.557 GB
-data_pbsubreads_coverage: 60.35x
-data_pbsubreads_files: 12
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_biarmicus/bFalBia1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5166
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 1305.557 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 6
+data_pbhifisub_scale: 0
+data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 12000000000

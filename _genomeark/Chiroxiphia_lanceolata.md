@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-10-08
 alt1filesize: 312 MB
+alt1length: 1054616617
 alt1n50ctg: 848834
 alt1n50scf: 848834
 alt1seq: https://s3.amazonaws.com/genomeark/species/Chiroxiphia_lanceolata/bChiLan1/assembly_curated/bChiLan1.alt.cur.20191008.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: lance-tailed manakin
 data_10x_bases: 96.90 Gbp
 data_10x_bytes: 46.415 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Chiroxi
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 83.34 Gbp
 data_pbsubreads_bytes: 143.673 GB
 data_pbsubreads_coverage: 67.75x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chiroxiphia_lanceolata/bChiLan1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5402
 data_phase_scale: 1
@@ -69,6 +72,7 @@ name: Chiroxiphia lanceolata
 name_: Chiroxiphia_lanceolata
 pri1date: 2019-10-08
 pri1filesize: 317 MB
+pri1length: 1089631598
 pri1n50ctg: 15430584
 pri1n50scf: 75361692
 pri1seq: https://s3.amazonaws.com/genomeark/species/Chiroxiphia_lanceolata/bChiLan1/assembly_curated/bChiLan1.pri.cur.20191008.fasta.gz

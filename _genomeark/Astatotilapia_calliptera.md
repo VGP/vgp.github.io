@@ -1,6 +1,7 @@
 ---
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Eastern happy
 data_10x_bases: 120.78 Gbp
 data_10x_bytes: 78.888 GB
@@ -17,6 +18,7 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Astatot
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 74.92 Gbp
 data_pbsubreads_bytes: 269.612 GB
 data_pbsubreads_coverage: 77.04x
@@ -28,7 +30,7 @@ data_status: <em style="color:orange">some data</em>
 genome_size: 972478608
 genome_size_display: 0.97 Gbp
 last_raw_data: 1520006832
-last_updated: 1616454074
+last_updated: 1616449281
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_MT_rockefeller/fAstCal1.MT.20191002.fasta.gz
@@ -59,6 +61,7 @@ name: Astatotilapia calliptera
 name_: Astatotilapia_calliptera
 pri1date: 2018-05-30
 pri1filesize: 267 MB
+pri1length: 880428986
 pri1n50ctg: 3979531
 pri1n50scf: 36676067
 pri1seq: https://s3.amazonaws.com/genomeark/species/Astatotilapia_calliptera/fAstCal1/assembly_curated/fAstCal1.pri.cur.20180530.fasta.gz
@@ -79,7 +82,7 @@ pri1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 6 </td><td> 11.57 Mbp </td><td> 1 </td><td> 52.51 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 9.12 Mbp </td><td> 3 </td><td> 41.43 Mbp </td></tr>  <tr><td> 30 </td><td> 28 </td><td> 6.68 Mbp </td><td> 6 </td><td> 39.99 Mbp </td></tr>  <tr><td> 40 </td><td> 46 </td><td> 5.08 Mbp </td><td> 8 </td><td> 38.68 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 68 </td><td style="background-color:#88ff88;"> 3.98 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 36.68 Mbp </td></tr>  <tr><td> 60 </td><td> 99 </td><td> 2.48 Mbp </td><td> 13 </td><td> 35.85 Mbp </td></tr>  <tr><td> 70 </td><td> 145 </td><td> 1.69 Mbp </td><td> 16 </td><td> 34.07 Mbp </td></tr>  <tr><td> 80 </td><td> 219 </td><td> 0.88 Mbp </td><td> 19 </td><td> 31.47 Mbp </td></tr>  <tr><td> 90 </td><td> 625 </td><td> 49.40 Kbp </td><td> 122 </td><td> 64.48 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 6 </td><td> 11.57 Mbp </td><td> 1 </td><td> 52.51 Mbp </td></tr>  <tr><td> 20 </td><td> 15 </td><td> 9.12 Mbp </td><td> 3 </td><td> 41.43 Mbp </td></tr>  <tr><td> 30 </td><td> 28 </td><td> 6.68 Mbp </td><td> 6 </td><td> 39.99 Mbp </td></tr>  <tr><td> 40 </td><td> 46 </td><td> 5.08 Mbp </td><td> 8 </td><td> 38.68 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 68 </td><td style="background-color:#88ff88;"> 3.98 Mbp </td><td> 11 </td><td style="background-color:#88ff88;"> 36.68 Mbp </td></tr>  <tr><td> 60 </td><td> 99 </td><td> 2.48 Mbp </td><td> 13 </td><td> 35.85 Mbp </td></tr>  <tr><td> 70 </td><td> 145 </td><td> 1.69 Mbp </td><td> 16 </td><td> 34.07 Mbp </td></tr>  <tr><td> 80 </td><td> 219 </td><td> 0.88 Mbp </td><td> 19 </td><td> 31.47 Mbp </td></tr>  <tr><td> 90 </td><td> 625 </td><td> 49.41 Kbp </td><td> 122 </td><td> 64.48 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.904x </th><th> 738 </th><th> 0.88 Gbp </th><th> 248 </th><th> 0.88 Gbp </th></tr>
   </tfoot>

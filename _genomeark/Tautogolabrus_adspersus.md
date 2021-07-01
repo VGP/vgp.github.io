@@ -1,6 +1,7 @@
 ---
 assembly: assembly_vgp_standard_1.7
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: cunner
 data_10x_bases: 88.87 Gbp
 data_10x_bytes: 44.568 GB
@@ -22,10 +23,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Tautogo
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 103.79 Gbp
 data_pbsubreads_bytes: 186.888 GB
 data_pbsubreads_coverage: 103.79x
-data_pbsubreads_files: 2
+data_pbsubreads_files: 1
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tautogolabrus_adspersus/fTauAds1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5172
 data_phase_scale: 1
@@ -34,7 +36,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1622235347
-last_updated: 1624316475
+last_updated: 1624314709
 mito1date: 2021-05-28
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Tautogolabrus_adspersus/fTauAds1/assembly_MT_rockefeller/fTauAds1.MT.20210528.fasta.gz

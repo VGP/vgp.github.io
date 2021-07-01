@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-09-26
 alt1filesize: 513 MB
+alt1length: 1767810094
 alt1n50ctg: 119171
 alt1n50scf: 119214
 alt1seq: https://s3.amazonaws.com/genomeark/species/Thalassophryne_amazonica/fThaAma1/assembly_curated/fThaAma1.alt.cur.20190926.fasta.gz
@@ -29,48 +30,52 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: prehistoric monster fish
-data_10x_bases: unknown
+data_10x_bases: 240.23 Gbp
 data_10x_bytes: 161.400 GB
-data_10x_coverage: N/A
+data_10x_coverage: 98.19x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/10x/ .<br>
 data_10x_scale: 1.3862
-data_arima_bases: unknown
+data_arima_bases: 273.49 Gbp
 data_arima_bytes: 165.309 GB
-data_arima_coverage: N/A
+data_arima_coverage: 111.78x
 data_arima_files: 4
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5408
-data_bionano_bases: unknown
 data_bionano_bytes: 1.247 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/bionano/ .<br>
-data_dovetail_bases: unknown
+data_dovetail_bases: 287.34 Gbp
 data_dovetail_bytes: 172.258 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 117.44x
 data_dovetail_files: 2
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5535
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 134.15 Gbp
 data_pbsubreads_bytes: 235.823 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 40
+data_pbsubreads_coverage: 54.83x
+data_pbsubreads_files: 20
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thalassophryne_amazonica/fThaAma1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5298
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902500245.1
 genbank_pri: GCA_902500255.1
+genome_size: 2446592878
+genome_size_display: 2.45 Gbp
 last_raw_data: 1559331534
 last_updated: 1575989671
 name: Thalassophryne amazonica
 name_: Thalassophryne_amazonica
 pri1date: 2019-09-26
 pri1filesize: 702 MB
+pri1length: 2446592878
 pri1n50ctg: 2319587
 pri1n50scf: 118421481
 pri1seq: https://s3.amazonaws.com/genomeark/species/Thalassophryne_amazonica/fThaAma1/assembly_curated/fThaAma1.pri.cur.20190926.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-06-24
 alt1filesize: 257 MB
+alt1length: 894675777
 alt1n50ctg: 421533
 alt1n50scf: 424591
 alt1seq: https://s3.amazonaws.com/genomeark/species/Salarias_fasciatus/fSalaFa1/assembly_curated/fSalaFa1.alt.cur.20190624.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: jewelled blenny
-data_10x_bases: unknown
+data_10x_bases: 126.81 Gbp
 data_10x_bytes: 79.223 GB
-data_10x_coverage: N/A
+data_10x_coverage: 159.02x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4908
 data_arima_scale: 1
-data_bionano_bases: unknown
 data_bionano_bytes: 1.082 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/bionano/ .<br>
-data_dovetail_bases: unknown
+data_dovetail_bases: 125.63 Gbp
 data_dovetail_bytes: 78.111 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 157.53x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4979
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 65.34 Gbp
 data_pbsubreads_bytes: 113.821 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 26
+data_pbsubreads_coverage: 81.93x
+data_pbsubreads_files: 13
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Salarias_fasciatus/fSalaFa1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5346
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902148835.1
 genbank_pri: GCA_902148845.1
+genome_size: 797490645
+genome_size_display: 0.80 Gbp
 last_raw_data: 1554447472
 last_updated: 1561653349
 name: Salarias fasciatus
 name_: Salarias_fasciatus
 pri1date: 2019-06-24
 pri1filesize: 227 MB
+pri1length: 797490645
 pri1n50ctg: 2597836
 pri1n50scf: 32729575
 pri1seq: https://s3.amazonaws.com/genomeark/species/Salarias_fasciatus/fSalaFa1/assembly_curated/fSalaFa1.pri.cur.20190624.fasta.gz

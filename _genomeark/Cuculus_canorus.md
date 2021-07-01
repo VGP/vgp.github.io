@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-03-30
 alt1filesize: 310 MB
+alt1length: 1063845602
 alt1n50ctg: 2363301
 alt1n50scf: 2363301
 alt1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_curated/bCucCan1.alt.cur.20210330.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common cuckoo
 data_10x_bases: 127.33 Gbp
 data_10x_bytes: 60.946 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cuculus
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 90.04 Gbp
 data_pbsubreads_bytes: 155.723 GB
 data_pbsubreads_coverage: 64.31x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cuculus_canorus/bCucCan1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5385
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Cuculus canorus
 name_: Cuculus_canorus
 pri1date: 2021-03-30
 pri1filesize: 342 MB
+pri1length: 1180136575
 pri1n50ctg: 15626348
 pri1n50scf: 69231175
 pri1seq: https://s3.amazonaws.com/genomeark/species/Cuculus_canorus/bCucCan1/assembly_curated/bCucCan1.pri.cur.20210330.fasta.gz

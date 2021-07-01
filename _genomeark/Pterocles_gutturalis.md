@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-10-16
 alt1filesize: 308 MB
+alt1length: 1037717354
 alt1n50ctg: 1085641
 alt1n50scf: 1085641
 alt1seq: https://s3.amazonaws.com/genomeark/species/Pterocles_gutturalis/bPteGut1/assembly_curated/bPteGut1.alt.cur.20191016.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: yellow-throated sandgrouse
 data_10x_bases: 166.06 Gbp
 data_10x_bytes: 85.135 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pterocl
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 75.90 Gbp
 data_pbsubreads_bytes: 130.736 GB
 data_pbsubreads_coverage: 70.94x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pterocles_gutturalis/bPteGut1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5407
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Pterocles gutturalis
 name_: Pterocles_gutturalis
 pri1date: 2019-10-16
 pri1filesize: 329 MB
+pri1length: 1127398289
 pri1n50ctg: 12223312
 pri1n50scf: 47165387
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pterocles_gutturalis/bPteGut1/assembly_curated/bPteGut1.pri.cur.20191016.fasta.gz

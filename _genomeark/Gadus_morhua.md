@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-07-10
 alt1filesize: 164 MB
+alt1length: 584119146
 alt1n50ctg: 278226
 alt1n50scf: 278683
 alt1seq: https://s3.amazonaws.com/genomeark/species/Gadus_morhua/fGadMor1/assembly_curated/fGadMor1.alt.cur.20190710.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Atlantic cod
-data_10x_bases: unknown
+data_10x_bases: 111.21 Gbp
 data_10x_bytes: 73.626 GB
-data_10x_coverage: N/A
+data_10x_coverage: 165.99x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Gadus_morhua/fGadMor1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4067
-data_arima_bases: unknown
+data_arima_bases: 107.54 Gbp
 data_arima_bytes: 69.890 GB
-data_arima_coverage: N/A
+data_arima_coverage: 160.52x
 data_arima_files: 8
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Gadus_morhua/fGadMor1/genomic_data/arima/ .<br>
 data_arima_scale: 1.433
-data_bionano_bases: unknown
 data_bionano_bytes: 1.116 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gadus_morhua/fGadMor1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 87.35 Gbp
 data_pbsubreads_bytes: 271.813 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 122
+data_pbsubreads_coverage: 130.39x
+data_pbsubreads_files: 61
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gadus_morhua/fGadMor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.2993
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902167395.1
 genbank_pri: GCA_902167405.1
+genome_size: 669949713
+genome_size_display: 0.67 Gbp
 last_raw_data: 1556739326
 last_updated: 1562780932
 name: Gadus morhua
 name_: Gadus_morhua
 pri1date: 2019-07-10
 pri1filesize: 181 MB
+pri1length: 669949713
 pri1n50ctg: 1015663
 pri1n50scf: 28732775
 pri1seq: https://s3.amazonaws.com/genomeark/species/Gadus_morhua/fGadMor1/assembly_curated/fGadMor1.pri.cur.20190710.fasta.gz

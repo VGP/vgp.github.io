@@ -1,6 +1,7 @@
 ---
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: human
 data_10x_bases: 956.85 Gbp
 data_10x_bytes: 448.708 GB
@@ -29,13 +30,14 @@ data_illumina_scale: 1.8783
 data_pbhifi_bases: 200.44 Gbp
 data_pbhifi_bytes: 148.849 GB
 data_pbhifi_coverage: 62.64x
-data_pbhifi_files: 36
+data_pbhifi_files: 12
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap2/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.2541
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 234.46 Gbp
 data_pbsubreads_bytes: 402.733 GB
 data_pbsubreads_coverage: 73.27x
-data_pbsubreads_files: 34
+data_pbsubreads_files: 17
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Homo_sapiens/mHomSap3/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5422
 data_phase_scale: 1
@@ -49,6 +51,7 @@ last_raw_data: 1578338688
 last_updated: 1595008009
 mat3date: 2020-07-16
 mat3filesize: 834 MB
+mat3length: 2957164751
 mat3n50ctg: 10468883
 mat3n50scf: 103605548
 mat3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_curated/mHomSap3.mat.decon.20200716.fasta.gz
@@ -105,6 +108,7 @@ name: Homo sapiens
 name_: Homo_sapiens
 pat3date: 2020-07-16
 pat3filesize: 806 MB
+pat3length: 2853012023
 pat3n50ctg: 11185832
 pat3n50scf: 110922190
 pat3seq: https://s3.amazonaws.com/genomeark/species/Homo_sapiens/mHomSap3/assembly_curated/mHomSap3.pat.decon.20200716.fasta.gz

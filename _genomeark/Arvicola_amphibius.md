@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-07-24
 alt1filesize: 515 MB
+alt1length: 1764008884
 alt1n50ctg: 147871
 alt1n50scf: 147918
 alt1seq: https://s3.amazonaws.com/genomeark/species/Arvicola_amphibius/mArvAmp1/assembly_curated/mArvAmp1.alt.cur.20200724.fasta.gz
@@ -29,42 +30,46 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: European water vole
-data_10x_bases: unknown
+data_10x_bases: 247.16 Gbp
 data_10x_bytes: 152.080 GB
-data_10x_coverage: N/A
+data_10x_coverage: 107.57x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicola_amphibius/mArvAmp1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5136
 data_arima_scale: 1
-data_bionano_bases: unknown
 data_bionano_bytes: 3.790 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicola_amphibius/mArvAmp1/genomic_data/bionano/ .<br>
-data_dovetail_bases: unknown
+data_dovetail_bases: 83.55 Gbp
 data_dovetail_bytes: 53.501 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 36.36x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicola_amphibius/mArvAmp1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4544
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 152.39 Gbp
 data_pbsubreads_bytes: 269.719 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 44
+data_pbsubreads_coverage: 66.32x
+data_pbsubreads_files: 22
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicola_amphibius/mArvAmp1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5262
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_903992525.1
+genome_size: 2297765997
+genome_size_display: 2.30 Gbp
 last_raw_data: 1580658763
 last_updated: 1597303643
 name: Arvicola amphibius
 name_: Arvicola_amphibius
 pri1date: 2020-07-24
 pri1filesize: 667 MB
+pri1length: 2297765997
 pri1n50ctg: 5308170
 pri1n50scf: 138658583
 pri1seq: https://s3.amazonaws.com/genomeark/species/Arvicola_amphibius/mArvAmp1/assembly_curated/mArvAmp1.pri.cur.20200724.fasta.gz

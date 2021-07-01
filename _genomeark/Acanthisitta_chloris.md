@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-05-26
 alt1filesize: 240 MB
+alt1length: 827793803
 alt1n50ctg: 1181371
 alt1n50scf: 1181371
 alt1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_curated/bAcaChl1.alt.cur.20210526.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: rifleman
 data_10x_bases: 78.23 Gbp
 data_10x_bytes: 36.427 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Acanthi
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 68.74 Gbp
 data_pbsubreads_bytes: 118.549 GB
 data_pbsubreads_coverage: 65.46x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acanthisitta_chloris/bAcaChl1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.54
 data_phase_scale: 1
@@ -66,6 +69,7 @@ last_raw_data: 1568759291
 last_updated: 1622050162
 mito1date: 2019-10-04
 mito1filesize: 5 KB
+mito1length: 19029
 mito1n50ctg: 19029
 mito1n50scf: 19029
 mito1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_MT_rockefeller/bAcaChl1.MT.20191004.fasta.gz
@@ -96,6 +100,7 @@ name: Acanthisitta chloris
 name_: Acanthisitta_chloris
 pri1date: 2021-05-26
 pri1filesize: 311 MB
+pri1length: 1077368553
 pri1n50ctg: 16730285
 pri1n50scf: 40827287
 pri1seq: https://s3.amazonaws.com/genomeark/species/Acanthisitta_chloris/bAcaChl1/assembly_curated/bAcaChl1.pri.cur.20210526.fasta.gz

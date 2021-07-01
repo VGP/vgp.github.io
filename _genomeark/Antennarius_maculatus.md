@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-02-04
 alt1filesize: 154 MB
+alt1length: 530348589
 alt1n50ctg: 380060
 alt1n50scf: 380060
 alt1seq: https://s3.amazonaws.com/genomeark/species/Antennarius_maculatus/fAntMac1/assembly_curated/fAntMac1.alt.cur.20200204.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: warty frogfish
 data_10x_bases: 44.14 Gbp
 data_10x_bytes: 25.759 GB
@@ -45,10 +47,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Antenna
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 85.40 Gbp
 data_pbsubreads_bytes: 147.534 GB
 data_pbsubreads_coverage: 141.19x
-data_pbsubreads_files: 48
+data_pbsubreads_files: 24
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Antennarius_maculatus/fAntMac1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5391
 data_phase_bases: 74.26 Gbp
@@ -64,9 +67,10 @@ genome_size: 604861782
 genome_size_display: 0.60 Gbp
 genome_size_method: meryl
 last_raw_data: 1578598034
-last_updated: 1624987112
+last_updated: 1581331796
 mito1date: 2019-10-05
 mito1filesize: 5 KB
+mito1length: 19188
 mito1n50ctg: 19188
 mito1n50scf: 19188
 mito1seq: https://s3.amazonaws.com/genomeark/species/Antennarius_maculatus/fAntMac1/assembly_MT_rockefeller/fAntMac1.MT.20191005.fasta.gz
@@ -97,6 +101,7 @@ name: Antennarius maculatus
 name_: Antennarius_maculatus
 pri1date: 2020-02-04
 pri1filesize: 157 MB
+pri1length: 549930323
 pri1n50ctg: 10114706
 pri1n50scf: 22928215
 pri1seq: https://s3.amazonaws.com/genomeark/species/Antennarius_maculatus/fAntMac1/assembly_curated/fAntMac1.pri.cur.20200204.fasta.gz

@@ -1,6 +1,7 @@
 ---
 assembly: assembly_rockefeller_trio_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: budgerigar
 data_10x_bases: 97.54 Gbp
 data_10x_bytes: 50.530 GB
@@ -27,10 +28,11 @@ data_illumina_files: 10
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8605
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 75.16 Gbp
 data_pbsubreads_bytes: 129.896 GB
 data_pbsubreads_coverage: 61.11x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Melopsittacus_undulatus/bMelUnd1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5389
 data_phase_scale: 1
@@ -44,6 +46,7 @@ last_raw_data: 1567193616
 last_updated: 1582729616
 mat1date: 2019-08-30
 mat1filesize: 293 MB
+mat1length: 1171643116
 mat1n50ctg: 12553612
 mat1n50scf: 75845561
 mat1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_rockefeller_trio_1.6/bMelUnd1.mat.asm.20190830.fasta.gz
@@ -100,6 +103,7 @@ name: Melopsittacus undulatus
 name_: Melopsittacus_undulatus
 pat1date: 2019-08-30
 pat1filesize: 300 MB
+pat1length: 1125129832
 pat1n50ctg: 9580607
 pat1n50scf: 87112318
 pat1seq: https://s3.amazonaws.com/genomeark/species/Melopsittacus_undulatus/bMelUnd1/assembly_rockefeller_trio_1.6/bMelUnd1.pat.asm.20190830.fasta.gz

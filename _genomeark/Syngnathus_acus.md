@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-05-23
 alt1filesize: 71 MB
+alt1length: 234858432
 alt1n50ctg: 169498
 alt1n50scf: 170058
 alt1seq: https://s3.amazonaws.com/genomeark/species/Syngnathus_acus/fSynAcu1/assembly_curated/fSynAcu1.alt.cur.20190523.fasta.gz
@@ -29,35 +30,40 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: greater pipefish
-data_10x_bases: unknown
+data_10x_bases: 142.85 Gbp
 data_10x_bytes: 82.039 GB
-data_10x_coverage: N/A
+data_10x_coverage: 440.45x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Syngnathus_acus/fSynAcu1/genomic_data/10x/ .<br>
 data_10x_scale: 1.6217
 data_arima_scale: 1
-data_dovetail_bases: unknown
+data_dovetail_bases: 113.79 Gbp
 data_dovetail_bytes: 72.434 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 350.85x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Syngnathus_acus/fSynAcu1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4631
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 29.00 Gbp
 data_pbsubreads_bytes: 50.470 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 6
+data_pbsubreads_coverage: 89.41x
+data_pbsubreads_files: 3
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Syngnathus_acus/fSynAcu1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5351
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_901709685.1
+genome_size: 324331233
+genome_size_display: 324.33 Mbp
 last_raw_data: 1554452546
 last_updated: 1570719807
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16454
 mito1n50ctg: 16454
 mito1n50scf: 16454
 mito1seq: https://s3.amazonaws.com/genomeark/species/Syngnathus_acus/fSynAcu1/assembly_MT_rockefeller/fSynAcu1.MT.20191003.fasta.gz
@@ -88,6 +94,7 @@ name: Syngnathus acus
 name_: Syngnathus_acus
 pri1date: 2019-05-23
 pri1filesize: 87 MB
+pri1length: 324331233
 pri1n50ctg: 11959915
 pri1n50scf: 14974571
 pri1seq: https://s3.amazonaws.com/genomeark/species/Syngnathus_acus/fSynAcu1/assembly_curated/fSynAcu1.pri.cur.20190523.fasta.gz

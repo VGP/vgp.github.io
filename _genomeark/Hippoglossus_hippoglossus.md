@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-11-25
 alt1filesize: 199 MB
+alt1length: 676690381
 alt1n50ctg: 257952
 alt1n50scf: 258427
 alt1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_curated/fHipHip1.alt.cur.20191125.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Atlantic halibut
 data_10x_bases: 73.76 Gbp
 data_10x_bytes: 37.667 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippogl
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 56.23 Gbp
 data_pbsubreads_bytes: 97.581 GB
 data_pbsubreads_coverage: 56.23x
-data_pbsubreads_files: 22
+data_pbsubreads_files: 11
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hippoglossus_hippoglossus/fHipHip1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5367
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Hippoglossus hippoglossus
 name_: Hippoglossus_hippoglossus
 pri1date: 2019-11-25
 pri1filesize: 172 MB
+pri1length: 596775069
 pri1n50ctg: 1520163
 pri1n50scf: 21256114
 pri1seq: https://s3.amazonaws.com/genomeark/species/Hippoglossus_hippoglossus/fHipHip1/assembly_curated/fHipHip1.pri.cur.20191125.fasta.gz

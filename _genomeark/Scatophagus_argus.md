@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: spotted scat
 data_10x_bases: 72.34 Gbp
 data_10x_bytes: 36.559 GB
@@ -21,10 +22,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Scatoph
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 60.00 Gbp
 data_pbsubreads_bytes: 105.390 GB
 data_pbsubreads_coverage: 92.59x
-data_pbsubreads_files: 14
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scatophagus_argus/fScaArg1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5302
 data_phase_scale: 1
@@ -33,7 +35,7 @@ genome_size: 647966298
 genome_size_display: 0.65 Gbp
 genome_size_method: genomescope
 last_raw_data: 1585955244
-last_updated: 1624993725
+last_updated: 1622547497
 mito1date: 2020-03-31
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Scatophagus_argus/fScaArg1/assembly_MT_rockefeller/fScaArg1.MT.20200331.fasta.gz

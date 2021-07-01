@@ -1,6 +1,7 @@
 ---
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common marmoset
 data_10x_bases: 191.03 Gbp
 data_10x_bytes: 91.494 GB
@@ -27,10 +28,11 @@ data_illumina_files: 14
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9049
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 217.61 Gbp
 data_pbsubreads_bytes: 378.467 GB
 data_pbsubreads_coverage: 63.44x
-data_pbsubreads_files: 66
+data_pbsubreads_files: 33
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Callithrix_jacchus/mCalJac1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5355
 data_phase_scale: 1
@@ -41,9 +43,10 @@ genome_size: 3430000000
 genome_size_display: 3.43 Gbp
 genome_size_method: null
 last_raw_data: 1561760697
-last_updated: 1610664104
+last_updated: 1608326238
 mat1date: 2020-02-12
 mat1filesize: 809 MB
+mat1length: 2811151840
 mat1n50ctg: 6019561
 mat1n50scf: 127657425
 mat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_curated/mCalJac1.mat.cur.20200212.fasta.gz
@@ -100,6 +103,7 @@ name: Callithrix jacchus
 name_: Callithrix_jacchus
 pat1date: 2020-02-12
 pat1filesize: 772 MB
+pat1length: 2682316413
 pat1n50ctg: 9831330
 pat1n50scf: 126104592
 pat1seq: https://s3.amazonaws.com/genomeark/species/Callithrix_jacchus/mCalJac1/assembly_curated/mCalJac1.pat.cur.20200212.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2018-09-07
 alt1filesize: 453 MB
+alt1length: 1514615512
 alt1n50ctg: 90103
 alt1n50scf: 90180
 alt1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_curated/mRhiFer1.alt.cur.20180907.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: greater horseshoe bat
 data_10x_bases: 107.25 Gbp
 data_10x_bytes: 64.099 GB
@@ -45,10 +47,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinolo
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 152.47 Gbp
 data_pbsubreads_bytes: 271.143 GB
 data_pbsubreads_coverage: 64.34x
-data_pbsubreads_files: 50
+data_pbsubreads_files: 25
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5237
 data_phase_bases: 45.16 Gbp
@@ -62,7 +65,7 @@ genbank_alt: GCA_004115295.1
 genome_size: 2369916842
 genome_size_display: 2.37 Gbp
 last_raw_data: 1522747239
-last_updated: 1616454085
+last_updated: 1602631080
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_MT_rockefeller/mRhiFer1.MT.20191003.fasta.gz
@@ -93,6 +96,7 @@ name: Rhinolophus ferrumequinum
 name_: Rhinolophus_ferrumequinum
 pri1date: 2018-09-07
 pri1filesize: 607 MB
+pri1length: 2075768562
 pri1n50ctg: 25175215
 pri1n50scf: 83956141
 pri1seq: https://s3.amazonaws.com/genomeark/species/Rhinolophus_ferrumequinum/mRhiFer1/assembly_curated/mRhiFer1.pri.cur.20180907.fasta.gz

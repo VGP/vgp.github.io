@@ -1,6 +1,7 @@
 ---
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: cattle
 data_10x_bases: 200.05 Gbp
 data_10x_bytes: 102.803 GB
@@ -22,10 +23,11 @@ data_illumina_files: 12
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Bos_taurus/mBosTau1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.43
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 362.43 Gbp
 data_pbsubreads_bytes: 970.499 GB
 data_pbsubreads_coverage: 134.23x
-data_pbsubreads_files: 492
+data_pbsubreads_files: 246
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bos_taurus/mBosTau1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.3478
 data_phase_bases: 32.12 Gbp
@@ -42,6 +44,7 @@ last_raw_data: 1577216959
 last_updated: 1582287767
 mat1date: 2020-02-13
 mat1filesize: 777 MB
+mat1length: 2680830071
 mat1n50ctg: 26764281
 mat1n50scf: 104466507
 mat1seq: https://s3.amazonaws.com/genomeark/species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.mat.cur.20200213.fasta.gz
@@ -98,6 +101,7 @@ name: Bos taurus
 name_: Bos_taurus
 pat1date: 2020-02-13
 pat1filesize: 743 MB
+pat1length: 2580284709
 pat1n50ctg: 35242446
 pat1n50scf: 91133937
 pat1seq: https://s3.amazonaws.com/genomeark/species/Bos_taurus/mBosTau1/assembly_curated/mBosTau1.pat.cur.20200213.fasta.gz

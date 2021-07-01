@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-05-23
 alt1filesize: 101 MB
+alt1length: 350016965
 alt1n50ctg: 266405
 alt1n50scf: 276385
 alt1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.alt.cur.20190523.fasta.gz
@@ -29,40 +30,45 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: torafugu
-data_10x_bases: unknown
+data_10x_bases: 114.37 Gbp
 data_10x_bytes: 73.884 GB
-data_10x_coverage: N/A
+data_10x_coverage: 297.76x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4417
-data_arima_bases: unknown
+data_arima_bases: 38.03 Gbp
 data_arima_bytes: 19.583 GB
-data_arima_coverage: N/A
+data_arima_coverage: 99.00x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8085
-data_bionano_bases: unknown
+data_bionano_bases: 337.13 Gbp
 data_bionano_bytes: 0.459 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 877.69x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 31.89 Gbp
 data_pbsubreads_bytes: 56.073 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 8
+data_pbsubreads_coverage: 83.01x
+data_pbsubreads_files: 4
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Takifugu_rubripes/fTakRub1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_901000745.3
+genome_size: 384110215
+genome_size_display: 384.11 Mbp
 last_raw_data: 1535574792
 last_updated: 1570719805
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16448
 mito1n50ctg: 16448
 mito1n50scf: 16448
 mito1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_MT_rockefeller/fTakRub1.MT.20191003.fasta.gz
@@ -93,6 +99,7 @@ name: Takifugu rubripes
 name_: Takifugu_rubripes
 pri1date: 2019-05-23
 pri1filesize: 108 MB
+pri1length: 384110215
 pri1n50ctg: 3136617
 pri1n50scf: 16705553
 pri1seq: https://s3.amazonaws.com/genomeark/species/Takifugu_rubripes/fTakRub1/assembly_curated/fTakRub1.pri.cur.20190523.fasta.gz

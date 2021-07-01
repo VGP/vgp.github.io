@@ -1,6 +1,7 @@
 ---
 alt2date: 2021-02-05
 alt2filesize: 2 MB
+alt2length: 6205005
 alt2seq: https://s3.amazonaws.com/genomeark/species/Carcharodon_carcharias/sCarCar2/assembly_curated/sCarCar2.alt.cur.20210205.fasta.gz
 alt2sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: great white shark
 data_10x_bases: 272.74 Gbp
 data_10x_bytes: 132.949 GB
@@ -53,10 +55,11 @@ data_illumina_files: 1
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Carcharodon_carcharias/sCarCar2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9928
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 300.79 Gbp
 data_pbsubreads_bytes: 530.449 GB
 data_pbsubreads_coverage: 66.84x
-data_pbsubreads_files: 14
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Carcharodon_carcharias/sCarCar2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5281
 data_phase_scale: 1
@@ -67,7 +70,7 @@ genome_size: 4500000000
 genome_size_display: 4.50 Gbp
 genome_size_method: null
 last_raw_data: 1594664727
-last_updated: 1616201849
+last_updated: 1616185691
 mito2date: 2019-10-04
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Carcharodon_carcharias/sCarCar2/assembly_MT_rockefeller/sCarCar2.MT.20191004.fasta.gz
@@ -98,6 +101,7 @@ name: Carcharodon carcharias
 name_: Carcharodon_carcharias
 pri2date: 2021-02-05
 pri2filesize: 1 GB
+pri2length: 4286294447
 pri2n50ctg: 5932073
 pri2n50scf: 153340763
 pri2seq: https://s3.amazonaws.com/genomeark/species/Carcharodon_carcharias/sCarCar2/assembly_curated/sCarCar2.pri.cur.20210205.fasta.gz

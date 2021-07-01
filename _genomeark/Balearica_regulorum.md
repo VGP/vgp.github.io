@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-12-04
 alt1filesize: 308 MB
+alt1length: 1042364165
 alt1n50ctg: 1662631
 alt1n50scf: 1662631
 alt1seq: https://s3.amazonaws.com/genomeark/species/Balearica_regulorum/bBalReg1/assembly_curated/bBalReg1.alt.cur.20191204.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: grey crowned-crane
 data_10x_bases: 156.18 Gbp
 data_10x_bytes: 76.352 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Baleari
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 86.36 Gbp
 data_pbsubreads_bytes: 146.868 GB
 data_pbsubreads_coverage: 59.56x
-data_pbsubreads_files: 24
+data_pbsubreads_files: 12
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balearica_regulorum/bBalReg1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5476
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Balearica regulorum
 name_: Balearica_regulorum
 pri1date: 2019-12-04
 pri1filesize: 356 MB
+pri1length: 1221032548
 pri1n50ctg: 19783995
 pri1n50scf: 71435996
 pri1seq: https://s3.amazonaws.com/genomeark/species/Balearica_regulorum/bBalReg1/assembly_curated/bBalReg1.pri.cur.20191204.fasta.gz

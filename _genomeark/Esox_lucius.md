@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-01-10
 alt1filesize: 182 MB
+alt1length: 622571242
 alt1n50ctg: 78088
 alt1n50scf: 78388
 alt1seq: https://s3.amazonaws.com/genomeark/species/Esox_lucius/fEsoLuc1/assembly_curated/fEsoLuc1.alt.cur.20200110.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: northern pike
 data_10x_bases: 66.34 Gbp
 data_10x_bytes: 31.497 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Esox_lu
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 73.21 Gbp
 data_pbsubreads_bytes: 127.802 GB
 data_pbsubreads_coverage: 66.21x
-data_pbsubreads_files: 14
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Esox_lucius/fEsoLuc1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5335
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Esox lucius
 name_: Esox_lucius
 pri1date: 2020-01-10
 pri1filesize: 264 MB
+pri1length: 918731919
 pri1n50ctg: 18753689
 pri1n50scf: 36486603
 pri1seq: https://s3.amazonaws.com/genomeark/species/Esox_lucius/fEsoLuc1/assembly_curated/fEsoLuc1.pri.cur.20200110.fasta.gz

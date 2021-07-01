@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-02-08
 alt1filesize: 308 MB
+alt1length: 1034011644
 alt1n50ctg: 491400
 alt1n50scf: 493474
 alt1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_curated/fArcCen1.alt.cur.20190208.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: flier cichlid
 data_10x_bases: 37.52 Gbp
 data_10x_bytes: 24.686 GB
@@ -45,6 +47,7 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Archoce
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 75.96 Gbp
 data_pbsubreads_bytes: 131.487 GB
 data_pbsubreads_coverage: 76.88x
@@ -63,7 +66,7 @@ genbank_pri: GCA_007364275.2
 genome_size: 988048114
 genome_size_display: 0.99 Gbp
 last_raw_data: 1551284459
-last_updated: 1616454073
+last_updated: 1613507147
 mito1date: 2019-10-01
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_MT_rockefeller/fArcCen1.MT.20191001.fasta.gz
@@ -94,6 +97,7 @@ name: Archocentrus centrarchus
 name_: Archocentrus_centrarchus
 pri1date: 2019-02-08
 pri1filesize: 267 MB
+pri1length: 932930362
 pri1n50ctg: 2005422
 pri1n50scf: 35590001
 pri1seq: https://s3.amazonaws.com/genomeark/species/Archocentrus_centrarchus/fArcCen1/assembly_curated/fArcCen1.pri.cur.20190208.fasta.gz

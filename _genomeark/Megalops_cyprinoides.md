@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-04-24
 alt1filesize: 271 MB
+alt1length: 920469332
 alt1n50ctg: 353491
 alt1n50scf: 353491
 alt1seq: https://s3.amazonaws.com/genomeark/species/Megalops_cyprinoides/fMegCyp1/assembly_curated/fMegCyp1.alt.cur.20200424.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Indo-Pacific tarpon
 data_10x_bases: 89.41 Gbp
 data_10x_bytes: 44.681 GB
@@ -45,10 +47,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Megalop
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 114.07 Gbp
 data_pbsubreads_bytes: 203.205 GB
 data_pbsubreads_coverage: 104.34x
-data_pbsubreads_files: 30
+data_pbsubreads_files: 15
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Megalops_cyprinoides/fMegCyp1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5228
 data_phase_scale: 1
@@ -90,6 +93,7 @@ name: Megalops cyprinoides
 name_: Megalops_cyprinoides
 pri1date: 2020-04-24
 pri1filesize: 279 MB
+pri1length: 959241634
 pri1n50ctg: 23339181
 pri1n50scf: 37498192
 pri1seq: https://s3.amazonaws.com/genomeark/species/Megalops_cyprinoides/fMegCyp1/assembly_curated/fMegCyp1.pri.cur.20200424.fasta.gz

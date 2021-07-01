@@ -1,43 +1,46 @@
 ---
 assembly: assembly_nhgri_trio_1.6
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: lesser Egyptian jerboa
-data_10x_bases: unknown
+data_10x_bases: N/A
 data_10x_bytes: 127.252 GB
 data_10x_coverage: N/A
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Jaculus_jaculus/mJacJac1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9028
-data_arima_bases: unknown
+data_arima_bases: N/A
 data_arima_bytes: 108.872 GB
 data_arima_coverage: N/A
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Jaculus_jaculus/mJacJac1/genomic_data/arima/ .<br>
 data_arima_scale: 1.6732
-data_bionano_bases: unknown
+data_bionano_bases: N/A
 data_bionano_bytes: 1.516 GB
 data_bionano_coverage: N/A
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Jaculus_jaculus/mJacJac1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
-data_illumina_bases: unknown
+data_illumina_bases: N/A
 data_illumina_bytes: 167.533 GB
 data_illumina_coverage: N/A
 data_illumina_files: 8
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Jaculus_jaculus/mJacJac2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Jaculus_jaculus/mJacJac3/genomic_data/illumina/ .<br>
 data_illumina_scale: 2.0359
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: N/A
 data_pbsubreads_bytes: 2383.667 GB
 data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 20
+data_pbsubreads_files: 15
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Jaculus_jaculus/mJacJac1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5162
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 last_raw_data: 1613403927
-last_updated: 1614610476
+last_updated: 1614584827
 m1date: 2021-03-01
 m1filesize: 818 MB
+m1length: 2865940362
 m1n50ctg: 21929955
 m1n50scf: 117237060
 m1seq: https://s3.amazonaws.com/genomeark/species/Jaculus_jaculus/mJacJac1/assembly_nhgri_trio_1.6/mJacJac1.mat.20210301.fasta.gz
@@ -68,6 +71,7 @@ name: Jaculus jaculus
 name_: Jaculus_jaculus
 p1date: 2021-03-01
 p1filesize: 698 MB
+p1length: 2758091932
 p1n50ctg: 6464472
 p1n50scf: 111856760
 p1seq: https://s3.amazonaws.com/genomeark/species/Jaculus_jaculus/mJacJac1/assembly_nhgri_trio_1.6/mJacJac1.pat.20210301.fasta.gz

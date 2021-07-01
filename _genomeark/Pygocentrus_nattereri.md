@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-03-13
 alt1filesize: 84 MB
+alt1length: 289313524
 alt1seq: https://s3.amazonaws.com/genomeark/species/Pygocentrus_nattereri/fPygNat1/assembly_curated/fPygNat1.alt.cur.20200313.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: red-bellied piranha
 data_10x_bases: 87.78 Gbp
 data_10x_bytes: 41.015 GB
@@ -48,10 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pygocen
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 93.33 Gbp
 data_pbsubreads_bytes: 160.160 GB
 data_pbsubreads_coverage: 77.77x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pygocentrus_nattereri/fPygNat1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5427
 data_phase_scale: 1
@@ -93,6 +96,7 @@ name: Pygocentrus nattereri
 name_: Pygocentrus_nattereri
 pri1date: 2020-03-13
 pri1filesize: 343 MB
+pri1length: 1222050449
 pri1n50ctg: 13176364
 pri1n50scf: 42283192
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pygocentrus_nattereri/fPygNat1/assembly_curated/fPygNat1.pri.cur.20200313.fasta.gz

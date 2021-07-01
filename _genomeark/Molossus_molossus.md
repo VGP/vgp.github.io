@@ -1,6 +1,7 @@
 ---
 assembly: assembly_dresden_DAmar1.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: Pallas's mastiff bat
 data_10x_bases: 108.69 Gbp
 data_10x_bytes: 55.226 GB
@@ -22,10 +23,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Molossu
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 135.04 Gbp
 data_pbsubreads_bytes: 235.251 GB
 data_pbsubreads_coverage: 58.23x
-data_pbsubreads_files: 52
+data_pbsubreads_files: 26
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Molossus_molossus/mMolMol1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5346
 data_phase_scale: 1
@@ -39,6 +41,7 @@ name: Molossus molossus
 name_: Molossus_molossus
 pri1date: 2019-04-18
 pri1filesize: 723 MB
+pri1length: 2319008189
 pri1n50ctg: 21658165
 pri1n50scf: 110665204
 pri1seq: https://s3.amazonaws.com/genomeark/species/Molossus_molossus/mMolMol1/assembly_dresden_DAmar1.0/mMolMol1.pri.asm.20190418.fasta.gz

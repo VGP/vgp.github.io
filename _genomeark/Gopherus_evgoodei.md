@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-01-31
 alt1filesize: 582 MB
+alt1length: 1961129424
 alt1n50ctg: 385939
 alt1n50scf: 385939
 alt1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_curated/rGopEvg1.alt.cur.20190131.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Goode's thornscrub tortoise
 data_10x_bases: 298.74 Gbp
 data_10x_bytes: 138.694 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopheru
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 156.16 Gbp
 data_pbsubreads_bytes: 271.943 GB
 data_pbsubreads_coverage: 58.17x
-data_pbsubreads_files: 38
+data_pbsubreads_files: 19
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gopherus_evgoodei/rGopEvg1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5348
 data_phase_scale: 1
@@ -63,7 +66,7 @@ genbank_pri: GCA_007399415.1
 genome_size: 2684436481
 genome_size_display: 2.68 Gbp
 last_raw_data: 1529613892
-last_updated: 1616454087
+last_updated: 1613507454
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_MT_rockefeller/rGopEvg1.MT.20191002.fasta.gz
@@ -94,6 +97,7 @@ name: Gopherus evgoodei
 name_: Gopherus_evgoodei
 pri1date: 2019-06-03
 pri1filesize: 656 MB
+pri1length: 2298547364
 pri1n50ctg: 10520693
 pri1n50scf: 131611970
 pri1seq: https://s3.amazonaws.com/genomeark/species/Gopherus_evgoodei/rGopEvg1/assembly_curated/rGopEvg1.pri.cur.20190603.fasta.gz

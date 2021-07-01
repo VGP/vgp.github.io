@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: gold dust stingray
 data_10x_scale: 1
 data_arima_bases: 283.49 Gbp
@@ -16,10 +17,11 @@ data_illumina_files: 1
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Potamotrygon_marinae/sPotMar1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9961
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 311.14 Gbp
 data_pbsubreads_bytes: 553.008 GB
 data_pbsubreads_coverage: 69.14x
-data_pbsubreads_files: 4
+data_pbsubreads_files: 2
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Potamotrygon_marinae/sPotMar1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.524
 data_phase_scale: 1

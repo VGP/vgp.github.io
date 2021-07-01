@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: European badger
 data_10x_bases: 131.44 Gbp
 data_10x_bytes: 81.138 GB
@@ -28,9 +29,10 @@ data_illumina_scale: 1.3716
 data_pbhifi_bases: 109.62 Gbp
 data_pbhifi_bytes: 101.324 GB
 data_pbhifi_coverage: 39.12x
-data_pbhifi_files: 10
+data_pbhifi_files: 5
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Meles_meles/mMelMel3/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.0076
+data_pbhifisub_scale: 0
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>

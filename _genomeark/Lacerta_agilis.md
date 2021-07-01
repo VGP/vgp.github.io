@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-09-24
 alt1filesize: 427 MB
+alt1length: 1429379209
 alt1n50ctg: 115113
 alt1n50scf: 115113
 alt1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_curated/rLacAgi1.alt.cur.20190924.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: sand lizard
 data_10x_bases: 150.46 Gbp
 data_10x_bytes: 76.328 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Lacerta
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 126.83 Gbp
 data_pbsubreads_bytes: 221.246 GB
 data_pbsubreads_coverage: 63.42x
-data_pbsubreads_files: 38
+data_pbsubreads_files: 19
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lacerta_agilis/rLacAgi1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5339
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Lacerta agilis
 name_: Lacerta_agilis
 pri1date: 2019-09-24
 pri1filesize: 406 MB
+pri1length: 1391387079
 pri1n50ctg: 3374645
 pri1n50scf: 61599656
 pri1seq: https://s3.amazonaws.com/genomeark/species/Lacerta_agilis/rLacAgi1/assembly_curated/rLacAgi1.pri.cur.20190924.fasta.gz

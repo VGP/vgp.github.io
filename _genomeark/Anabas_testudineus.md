@@ -1,6 +1,7 @@
 ---
 alt1date: 2018-12-11
 alt1filesize: 157 MB
+alt1length: 539091056
 alt1n50ctg: 709261
 alt1n50scf: 752903
 alt1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_curated/fAnaTes1.alt.cur.20181211.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: climbing perch
 data_10x_bases: 120.50 Gbp
 data_10x_bytes: 78.050 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 38.98 Gbp
 data_pbsubreads_bytes: 69.835 GB
 data_pbsubreads_coverage: 58.82x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anabas_testudineus/fAnaTes1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5198
 data_phase_scale: 1
@@ -62,7 +65,7 @@ genbank_alt: GCA_900650485.1
 genome_size: 662696525
 genome_size_display: 0.66 Gbp
 last_raw_data: 1520584604
-last_updated: 1616454071
+last_updated: 1572730093
 mito1date: 2019-10-01
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_MT_rockefeller/fAnaTes1.MT.20191001.fasta.gz
@@ -93,6 +96,7 @@ name: Anabas testudineus
 name_: Anabas_testudineus
 pri1date: 2018-12-11
 pri1filesize: 149 MB
+pri1length: 555641398
 pri1n50ctg: 4568778
 pri1n50scf: 23456640
 pri1seq: https://s3.amazonaws.com/genomeark/species/Anabas_testudineus/fAnaTes1/assembly_curated/fAnaTes1.pri.cur.20181211.fasta.gz

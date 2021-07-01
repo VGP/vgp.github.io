@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-12-16
 alt1filesize: 1 GB
+alt1length: 3867000847
 alt1n50ctg: 230697
 alt1n50scf: 230697
 alt1seq: https://s3.amazonaws.com/genomeark/species/Scyliorhinus_canicula/sScyCan1/assembly_curated/sScyCan1.alt.cur.20191216.fasta.gz
@@ -29,38 +30,43 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: lesser-spotted catshark
-data_10x_bases: unknown
+data_10x_bases: 454.62 Gbp
 data_10x_bytes: 295.832 GB
-data_10x_coverage: N/A
+data_10x_coverage: 107.72x
 data_10x_files: 48
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Scyliorhinus_canicula/sScyCan1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4312
 data_arima_scale: 1
-data_bionano_bases: unknown
+data_bionano_bases: 1517.68 Gbp
 data_bionano_bytes: 1.817 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 359.61x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Scyliorhinus_canicula/sScyCan1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 335.54 Gbp
 data_pbsubreads_bytes: 588.060 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 98
+data_pbsubreads_coverage: 79.50x
+data_pbsubreads_files: 49
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scyliorhinus_canicula/sScyCan1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5314
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_902713625.2
 genbank_pri: GCA_902713615.2
+genome_size: 4220389930
+genome_size_display: 4.22 Gbp
 last_raw_data: 1608203939
 last_updated: 1608203939
 name: Scyliorhinus canicula
 name_: Scyliorhinus_canicula
 pri1date: 2019-12-16
 pri1filesize: 1 GB
+pri1length: 4220389930
 pri1n50ctg: 1855773
 pri1n50scf: 198790641
 pri1seq: https://s3.amazonaws.com/genomeark/species/Scyliorhinus_canicula/sScyCan1/assembly_curated/sScyCan1.pri.cur.20191216.fasta.gz

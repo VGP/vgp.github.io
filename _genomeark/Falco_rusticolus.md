@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-07-20
 alt1filesize: 158 MB
+alt1length: 516243243
 alt1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_curated/bFalRus1.alt.cur.20200720.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: gyrfalcon
 data_10x_bases: 150.87 Gbp
 data_10x_bytes: 67.507 GB
@@ -48,10 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_r
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 61.99 Gbp
 data_pbsubreads_bytes: 110.035 GB
 data_pbsubreads_coverage: 44.28x
-data_pbsubreads_files: 12
+data_pbsubreads_files: 6
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_rusticolus/bFalRus1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5247
 data_phase_scale: 1
@@ -93,6 +96,7 @@ name: Falco rusticolus
 name_: Falco_rusticolus
 pri1date: 2020-07-20
 pri1filesize: 349 MB
+pri1length: 1195829278
 pri1n50ctg: 12482491
 pri1n50scf: 84785561
 pri1seq: https://s3.amazonaws.com/genomeark/species/Falco_rusticolus/bFalRus1/assembly_curated/bFalRus1.pri.cur.20200720.fasta.gz

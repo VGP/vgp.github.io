@@ -1,6 +1,7 @@
 ---
 alt1date: 2018-10-19
 alt1filesize: 279 MB
+alt1length: 952083371
 alt1n50ctg: 1146924
 alt1n50scf: 1146924
 alt1seq: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_curated/bCalAnn1.alt.cur.20181019.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Anna's hummingbird
 data_10x_bases: 56.08 Gbp
 data_10x_bytes: 32.739 GB
@@ -55,10 +57,11 @@ data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Calypt
 data_dovetail_scale: 1.6008
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 77.06 Gbp
 data_pbsubreads_bytes: 231.725 GB
 data_pbsubreads_coverage: 69.02x
-data_pbsubreads_files: 378
+data_pbsubreads_files: 189
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Calypte_anna/bCalAnn1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.3097
 data_phase_bases: 21.50 Gbp
@@ -72,8 +75,8 @@ genbank_alt: GCA_003957575.1
 genbank_pri: GCA_003957555.2
 genome_size: 1116472572
 genome_size_display: 1.12 Gbp
-last_raw_data: 1555437492
-last_updated: 1616454065
+last_raw_data: 1531244296
+last_updated: 1576015145
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_MT_rockefeller/bCalAnn1.MT.20191002.fasta.gz
@@ -104,6 +107,7 @@ name: Calypte anna
 name_: Calypte_anna
 pri1date: 2018-09-26
 pri1filesize: 303 MB
+pri1length: 1059687259
 pri1n50ctg: 12771857
 pri1n50scf: 44745344
 pri1seq: https://s3.amazonaws.com/genomeark/species/Calypte_anna/bCalAnn1/assembly_curated/bCalAnn1.pri.cur.20180926.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-03-14
 alt1filesize: 196 MB
+alt1length: 668417842
 alt1n50ctg: 152708
 alt1n50scf: 152836
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sparus_aurata/fSpaAur1/assembly_curated/fSpaAur1.alt.cur.20190314.fasta.gz
@@ -29,35 +30,40 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: gilthead seabream
-data_10x_bases: unknown
+data_10x_bases: 122.40 Gbp
 data_10x_bytes: 80.298 GB
-data_10x_coverage: N/A
+data_10x_coverage: 146.83x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Sparus_aurata/fSpaAur1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4196
-data_arima_bases: unknown
+data_arima_bases: 100.36 Gbp
 data_arima_bytes: 49.975 GB
-data_arima_coverage: N/A
+data_arima_coverage: 120.40x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Sparus_aurata/fSpaAur1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8703
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 47.16 Gbp
 data_pbsubreads_bytes: 84.723 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 20
+data_pbsubreads_coverage: 56.57x
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sparus_aurata/fSpaAur1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5184
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_900880695.1
+genome_size: 833578411
+genome_size_display: 0.83 Gbp
 last_raw_data: 1523525722
 last_updated: 1570719804
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16652
 mito1n50ctg: 16652
 mito1n50scf: 16652
 mito1seq: https://s3.amazonaws.com/genomeark/species/Sparus_aurata/fSpaAur1/assembly_MT_rockefeller/fSpaAur1.MT.20191003.fasta.gz
@@ -88,6 +94,7 @@ name: Sparus aurata
 name_: Sparus_aurata
 pri1date: 2019-03-14
 pri1filesize: 225 MB
+pri1length: 833578411
 pri1n50ctg: 2862625
 pri1n50scf: 35791275
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sparus_aurata/fSpaAur1/assembly_curated/fSpaAur1.pri.cur.20190314.fasta.gz

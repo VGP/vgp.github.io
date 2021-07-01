@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-09-16
 alt1filesize: 276 MB
+alt1length: 930239327
 alt1n50ctg: 1876668
 alt1n50scf: 1876668
 alt1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_curated/bCarCri1.alt.cur.20190916.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: red-legged seriema
 data_10x_bases: 152.57 Gbp
 data_10x_bytes: 72.479 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cariama
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 76.39 Gbp
 data_pbsubreads_bytes: 132.338 GB
 data_pbsubreads_coverage: 50.93x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cariama_cristata/bCarCri1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
@@ -66,6 +69,7 @@ last_raw_data: 1563354348
 last_updated: 1569703670
 mito1date: 2019-09-18
 mito1filesize: 5 KB
+mito1length: 21618
 mito1n50ctg: 21618
 mito1n50scf: 21618
 mito1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_MT_rockefeller/bCarCri1.MT.20190918.fasta.gz
@@ -96,6 +100,7 @@ name: Cariama cristata
 name_: Cariama_cristata
 pri1date: 2019-09-16
 pri1filesize: 356 MB
+pri1length: 1215224075
 pri1n50ctg: 13514148
 pri1n50scf: 30176635
 pri1seq: https://s3.amazonaws.com/genomeark/species/Cariama_cristata/bCarCri1/assembly_curated/bCarCri1.pri.cur.20190916.fasta.gz

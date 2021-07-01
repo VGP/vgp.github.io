@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-08-06
 alt1filesize: 327 MB
+alt1length: 1128658440
 alt1n50ctg: 824168
 alt1n50scf: 838262
 alt1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_curated/bCatUst1.alt.cur.20200806.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Swainson's thrush
 data_10x_bases: 126.28 Gbp
 data_10x_bytes: 65.050 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Catharu
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 90.27 Gbp
 data_pbsubreads_bytes: 154.793 GB
 data_pbsubreads_coverage: 60.58x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Catharus_ustulatus/bCatUst1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5431
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Catharus ustulatus
 name_: Catharus_ustulatus
 pri1date: 2020-08-06
 pri1filesize: 322 MB
+pri1length: 1131616530
 pri1n50ctg: 3156799
 pri1n50scf: 36548054
 pri1seq: https://s3.amazonaws.com/genomeark/species/Catharus_ustulatus/bCatUst1/assembly_curated/bCatUst1.pri.cur.20200806.fasta.gz

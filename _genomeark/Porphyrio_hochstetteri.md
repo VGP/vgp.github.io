@@ -1,6 +1,7 @@
 ---
 assembly: assembly_vgp_standard_2.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: South Island takahe
 data_10x_scale: 1
 data_arima_bases: 134.96 Gbp
@@ -27,20 +28,21 @@ data_pbhifi_coverage: 36.82x
 data_pbhifi_files: 4
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.1282
-data_pbsubreads_bases: 773.42 Gbp
-data_pbsubreads_bytes: 1401.360 GB
-data_pbsubreads_coverage: 644.51x
-data_pbsubreads_files: 8
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Porphyrio_hochstetteri/bPorHoc1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.514
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 1401.360 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 4
+data_pbhifisub_scale: 0
+data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 1200000000
 genome_size_display: 1.20 Gbp
 last_raw_data: 1620150960
-last_updated: 1622839444
+last_updated: 1622834277
 mat1date: 2021-06-04
 mat1filesize: 345 MB
+mat1length: 1272166389
 mat1n50ctg: 13648962
 mat1n50scf: 86477066
 mat1seq: https://s3.amazonaws.com/genomeark/species/Porphyrio_hochstetteri/bPorHoc1/assembly_vgp_standard_2.0/bPorHoc1.mat.asm.20210604.fasta.gz
@@ -97,6 +99,7 @@ name: Porphyrio hochstetteri
 name_: Porphyrio_hochstetteri
 pat1date: 2021-06-04
 pat1filesize: 347 MB
+pat1length: 1245677847
 pat1n50ctg: 13967171
 pat1n50scf: 71521518
 pat1seq: https://s3.amazonaws.com/genomeark/species/Porphyrio_hochstetteri/bPorHoc1/assembly_vgp_standard_2.0/bPorHoc1.pat.asm.20210604.fasta.gz

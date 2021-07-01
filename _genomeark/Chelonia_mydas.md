@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-05-28
 alt1filesize: 556 MB
+alt1length: 1896142417
 alt1n50ctg: 454332
 alt1n50scf: 455478
 alt1seq: https://s3.amazonaws.com/genomeark/species/Chelonia_mydas/rCheMyd1/assembly_curated/rCheMyd1.alt.cur.20210528.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Green sea turtle
-data_10x_bases: unknown
+data_10x_bases: 152.98 Gbp
 data_10x_bytes: 74.602 GB
-data_10x_coverage: N/A
+data_10x_coverage: 71.68x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Chelonia_mydas/rCheMyd1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9098
-data_arima_bases: unknown
+data_arima_bases: 184.55 Gbp
 data_arima_bytes: 90.255 GB
-data_arima_coverage: N/A
+data_arima_coverage: 86.46x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Chelonia_mydas/rCheMyd1/genomic_data/arima/ .<br>
 data_arima_scale: 1.9043
-data_bionano_bases: unknown
 data_bionano_bytes: 1.187 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Chelonia_mydas/rCheMyd1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 145.98 Gbp
 data_pbsubreads_bytes: 249.509 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 24
+data_pbsubreads_coverage: 68.40x
+data_pbsubreads_files: 12
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Chelonia_mydas/rCheMyd1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5449
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_015220195.1
 genbank_pri: GCA_015237465.1
+genome_size: 2134358617
+genome_size_display: 2.13 Gbp
 last_raw_data: 1566994409
-last_updated: 1622741604
+last_updated: 1622211434
 name: Chelonia mydas
 name_: Chelonia_mydas
 pri1date: 2021-05-28
 pri1filesize: 622 MB
+pri1length: 2134358617
 pri1n50ctg: 39415510
 pri1n50scf: 134428053
 pri1seq: https://s3.amazonaws.com/genomeark/species/Chelonia_mydas/rCheMyd1/assembly_curated/rCheMyd1.pri.cur.20210528.fasta.gz

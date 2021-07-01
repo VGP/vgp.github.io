@@ -1,6 +1,7 @@
 ---
 alt2date: 2021-03-05
 alt2filesize: 166 MB
+alt2length: 594660453
 alt2n50ctg: 493489
 alt2n50scf: 493489
 alt2seq: https://s3.amazonaws.com/genomeark/species/Toxotes_jaculatrix/fToxJac2/assembly_curated/fToxJac2.alt.cur.20210305.fasta.gz
@@ -29,42 +30,46 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: banded archerfish
 data_10x_scale: 1
-data_arima_bases: unknown
+data_arima_bases: 43.51 Gbp
 data_arima_bytes: 20.776 GB
-data_arima_coverage: N/A
+data_arima_coverage: 70.01x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Toxotes_jaculatrix/fToxJac2/genomic_data/arima/ .<br>
 data_arima_scale: 1.9504
-data_bionano_bases: unknown
+data_bionano_bases: 943.99 Gbp
 data_bionano_bytes: 1.309 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 1518.88x
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Toxotes_jaculatrix/fToxJac2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_bases: unknown
-data_pbhifi_bytes: 20.611 GB
-data_pbhifi_coverage: N/A
-data_pbhifi_files: 2
+data_pbhifi_bases: 116.93 Gbp
+data_pbhifi_bytes: 59.441 GB
+data_pbhifi_coverage: 188.14x
+data_pbhifi_files: 4
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.8321
-data_pbsubreads_bases: unknown
-data_pbsubreads_bytes: 730.499 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 4
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Toxotes_jaculatrix/fToxJac2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5194
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 730.499 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 2
+data_pbhifisub_scale: 0
+data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_017976295.1
 genbank_pri: GCA_017976425.1
+genome_size: 621503431
+genome_size_display: 0.62 Gbp
 last_raw_data: 1620305302
-last_updated: 1620308839
+last_updated: 1620307792
 name: Toxotes jaculatrix
 name_: Toxotes_jaculatrix
 pri2date: 2021-03-05
 pri2filesize: 171 MB
+pri2length: 621503431
 pri2n50ctg: 15555772
 pri2n50scf: 26859436
 pri2seq: https://s3.amazonaws.com/genomeark/species/Toxotes_jaculatrix/fToxJac2/assembly_curated/fToxJac2.pri.cur.20210305.fasta.gz

@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: white-toothed pygmy shrew
 data_10x_bases: 317.98 Gbp
 data_10x_bytes: 155.090 GB
@@ -21,10 +22,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Suncus_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 427.96 Gbp
 data_pbsubreads_bytes: 770.918 GB
 data_pbsubreads_coverage: 142.65x
-data_pbsubreads_files: 6
+data_pbsubreads_files: 3
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Suncus_etruscus/mSunEtr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.517
 data_phase_scale: 1

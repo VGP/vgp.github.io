@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-12-15
 alt1filesize: 423 MB
+alt1length: 1462441988
 alt1n50ctg: 56636
 alt1n50scf: 56656
 alt1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.alt.cur.20201215.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Thorny skate
 data_10x_bases: 197.33 Gbp
 data_10x_bytes: 114.690 GB
@@ -55,10 +57,11 @@ data_illumina_files: 5
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad5/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8851
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 265.83 Gbp
 data_pbsubreads_bytes: 467.477 GB
 data_pbsubreads_coverage: 128.24x
-data_pbsubreads_files: 100
+data_pbsubreads_files: 50
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Amblyraja_radiata/sAmbRad1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5296
 data_phase_scale: 1
@@ -68,7 +71,7 @@ genbank_pri: GCA_010909765.2
 genome_size: 2072923533
 genome_size_display: 2.07 Gbp
 last_raw_data: 1574701010
-last_updated: 1616450476
+last_updated: 1608059572
 mito1date: 2020-04-15
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_MT_rockefeller_nanopore/sAmbRad1.MT.20200415.fasta.gz
@@ -99,6 +102,7 @@ name: Amblyraja radiata
 name_: Amblyraja_radiata
 pri1date: 2020-12-15
 pri1filesize: 688 MB
+pri1length: 2558784953
 pri1n50ctg: 1639199
 pri1n50scf: 75329052
 pri1seq: https://s3.amazonaws.com/genomeark/species/Amblyraja_radiata/sAmbRad1/assembly_curated/sAmbRad1.pri.cur.20201215.fasta.gz

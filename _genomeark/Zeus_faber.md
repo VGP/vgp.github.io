@@ -1,7 +1,8 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: John Dory
-data_10x_bases: unknown
+data_10x_bases: N/A
 data_10x_bytes: 69.566 GB
 data_10x_coverage: N/A
 data_10x_files: 12
@@ -11,10 +12,11 @@ data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: N/A
 data_pbsubreads_bytes: 128.412 GB
 data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 54
+data_pbsubreads_files: 27
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Zeus_faber/fZeuFab1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.52
 data_phase_scale: 1
@@ -23,6 +25,7 @@ last_raw_data: 1519740599
 last_updated: 1570719805
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16722
 mito1n50ctg: 16722
 mito1n50scf: 16722
 mito1seq: https://s3.amazonaws.com/genomeark/species/Zeus_faber/fZeuFab1/assembly_MT_rockefeller/fZeuFab1.MT.20191003.fasta.gz

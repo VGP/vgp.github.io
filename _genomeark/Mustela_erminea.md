@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-10-17
 alt1filesize: 482 MB
+alt1length: 1640216494
 alt1n50ctg: 167863
 alt1n50scf: 167863
 alt1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_curated/mMusErm1.alt.cur.20191017.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: stoat
 data_10x_bases: 305.17 Gbp
 data_10x_bytes: 146.463 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Mustela
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 193.61 Gbp
 data_pbsubreads_bytes: 331.089 GB
 data_pbsubreads_coverage: 62.86x
-data_pbsubreads_files: 42
+data_pbsubreads_files: 21
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mustela_erminea/mMusErm1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5446
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Mustela erminea
 name_: Mustela_erminea
 pri1date: 2019-10-17
 pri1filesize: 706 MB
+pri1length: 2445200799
 pri1n50ctg: 26508710
 pri1n50scf: 109748187
 pri1seq: https://s3.amazonaws.com/genomeark/species/Mustela_erminea/mMusErm1/assembly_curated/mMusErm1.pri.cur.20191017.fasta.gz

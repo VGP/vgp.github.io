@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: chimpanzee
 data_10x_bases: 249.28 Gbp
 data_10x_bytes: 153.494 GB
@@ -16,12 +17,13 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pan_tro
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: 399.64 Gbp
-data_pbsubreads_bytes: 1432.610 GB
-data_pbsubreads_coverage: 124.89x
-data_pbsubreads_files: 612
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 1096.31 Gbp
+data_pbsubreads_bytes: 1432.611 GB
+data_pbsubreads_coverage: 342.60x
+data_pbsubreads_files: 307
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pan_troglodytes/mPanTro1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.2598
+data_pbsubreads_scale: 0.7127
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 3200000000

@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: whiskered treeswift
 data_10x_bases: 73.38 Gbp
 data_10x_bytes: 37.324 GB
@@ -21,10 +22,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemipro
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 80.12 Gbp
 data_pbsubreads_bytes: 139.859 GB
 data_pbsubreads_coverage: 80.12x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Hemiprocne_comata/bHemCom1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5335
 data_phase_scale: 1
@@ -33,7 +35,7 @@ genome_size: 1000000000
 genome_size_display: 1.00 Gbp
 genome_size_method: null
 last_raw_data: 1594744337
-last_updated: 1624993967
+last_updated: 1594744337
 mito1date: 2019-12-04
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Hemiprocne_comata/bHemCom1/assembly_MT_rockefeller/bHemCom1.MT.20191204.fasta.gz

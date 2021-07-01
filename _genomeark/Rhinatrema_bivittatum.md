@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-04-09
 alt1filesize: 1 GB
+alt1length: 4615304139
 alt1n50ctg: 231019
 alt1n50scf: 231019
 alt1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_curated/aRhiBiv1.alt.cur.20190409.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: two-lined caecilian
 data_10x_bases: 367.17 Gbp
 data_10x_bytes: 250.442 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinatr
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 232.05 Gbp
 data_pbsubreads_bytes: 415.928 GB
 data_pbsubreads_coverage: 45.79x
-data_pbsubreads_files: 108
+data_pbsubreads_files: 54
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5196
 data_phase_scale: 1
@@ -63,7 +66,7 @@ genome_size: 5067838282
 genome_size_display: 5.07 Gbp
 genome_size_method: genomescope k=31
 last_raw_data: 1525161722
-last_updated: 1616454064
+last_updated: 1570719804
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_MT_rockefeller/aRhiBiv1.MT.20191003.fasta.gz
@@ -94,6 +97,7 @@ name: Rhinatrema bivittatum
 name_: Rhinatrema_bivittatum
 pri1date: 2019-04-09
 pri1filesize: 2 GB
+pri1length: 5319222779
 pri1n50ctg: 3350639
 pri1n50scf: 486875112
 pri1seq: https://s3.amazonaws.com/genomeark/species/Rhinatrema_bivittatum/aRhiBiv1/assembly_curated/aRhiBiv1.pri.cur.20190409.fasta.gz

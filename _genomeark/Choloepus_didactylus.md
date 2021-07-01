@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-09-14
 alt1filesize: 942 MB
+alt1length: 3180649806
 alt1n50ctg: 459769
 alt1n50scf: 461725
 alt1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_berlinSanger_vgp_1.6/mChoDid1.alt.asm.20200914.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_berlinSanger_vgp_1.6
 assembly: assembly_berlinSanger_vgp_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: southern two-toed sloth
 data_10x_bases: 336.88 Gbp
 data_10x_bytes: 159.933 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Choloep
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 193.25 Gbp
 data_pbsubreads_bytes: 339.455 GB
 data_pbsubreads_coverage: 56.84x
-data_pbsubreads_files: 70
+data_pbsubreads_files: 35
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Choloepus_didactylus/mChoDid1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5302
 data_phase_scale: 1
@@ -94,6 +97,7 @@ name: Choloepus didactylus
 name_: Choloepus_didactylus
 pri1date: 2020-09-14
 pri1filesize: 915 MB
+pri1length: 3214686105
 pri1n50ctg: 19041222
 pri1n50scf: 146178362
 pri1seq: https://s3.amazonaws.com/genomeark/species/Choloepus_didactylus/mChoDid1/assembly_berlinSanger_vgp_1.6/mChoDid1.pri.asm.20200914.fasta.gz

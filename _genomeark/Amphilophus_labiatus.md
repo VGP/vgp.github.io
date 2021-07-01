@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: red devil cichlid
 data_10x_scale: 1
 data_arima_scale: 1
@@ -11,6 +12,7 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Amphilo
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>

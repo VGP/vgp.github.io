@@ -1,6 +1,7 @@
 ---
 alt2date: 2020-06-03
 alt2filesize: 264 MB
+alt2length: 912720829
 alt2n50ctg: 602370
 alt2n50scf: 603216
 alt2seq: https://s3.amazonaws.com/genomeark/species/Erithacus_rubecula/bEriRub2/assembly_curated/bEriRub2.alt.cur.20200603.fasta.gz
@@ -29,38 +30,43 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: European robin
-data_10x_bases: unknown
+data_10x_bases: 125.85 Gbp
 data_10x_bytes: 78.131 GB
-data_10x_coverage: N/A
+data_10x_coverage: 115.80x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Erithacus_rubecula/bEriRub2/genomic_data/10x/ .<br>
 data_10x_scale: 1.5001
 data_arima_scale: 1
-data_dovetail_bases: unknown
+data_dovetail_bases: 136.58 Gbp
 data_dovetail_bytes: 85.060 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 125.68x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Erithacus_rubecula/bEriRub2/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4954
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 74.45 Gbp
 data_pbsubreads_bytes: 130.206 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 18
+data_pbsubreads_coverage: 68.51x
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Erithacus_rubecula/bEriRub2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5325
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_903797565.2
 genbank_pri: GCA_903797595.2
+genome_size: 1086738318
+genome_size_display: 1.09 Gbp
 last_raw_data: 1576664929
 last_updated: 1591259911
 name: Erithacus rubecula
 name_: Erithacus_rubecula
 pri2date: 2020-06-03
 pri2filesize: 313 MB
+pri2length: 1086738318
 pri2n50ctg: 5585877
 pri2n50scf: 46560559
 pri2seq: https://s3.amazonaws.com/genomeark/species/Erithacus_rubecula/bEriRub2/assembly_curated/bEriRub2.pri.cur.20200603.fasta.gz

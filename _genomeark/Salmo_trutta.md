@@ -1,44 +1,49 @@
 ---
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: brown trout
-data_10x_bases: unknown
+data_10x_bases: 212.90 Gbp
 data_10x_bytes: 142.574 GB
-data_10x_coverage: N/A
+data_10x_coverage: 89.76x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/10x/ .<br>
 data_10x_scale: 1.3907
-data_arima_bases: unknown
+data_arima_bases: 144.52 Gbp
 data_arima_bytes: 71.159 GB
-data_arima_coverage: N/A
+data_arima_coverage: 60.93x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8915
-data_bionano_bases: unknown
+data_bionano_bases: 494.43 Gbp
 data_bionano_bytes: 0.592 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 208.46x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_bases: unknown
+data_pbhifi_bases: 32.15 Gbp
 data_pbhifi_bytes: 21.885 GB
-data_pbhifi_coverage: N/A
-data_pbhifi_files: 4
+data_pbhifi_coverage: 13.55x
+data_pbhifi_files: 2
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.3681
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 163.01 Gbp
 data_pbsubreads_bytes: 286.601 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 52
+data_pbsubreads_coverage: 68.73x
+data_pbsubreads_files: 26
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Salmo_trutta/fSalTru1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5297
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genome_size: 2371863509
+genome_size_display: 2.37 Gbp
 last_raw_data: 1556285514
 last_updated: 1570719805
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16677
 mito1n50ctg: 16677
 mito1n50scf: 16677
 mito1seq: https://s3.amazonaws.com/genomeark/species/Salmo_trutta/fSalTru1/assembly_MT_rockefeller/fSalTru1.MT.20191003.fasta.gz
@@ -69,6 +74,7 @@ name: Salmo trutta
 name_: Salmo_trutta
 pri1date: 2019-04-03
 pri1filesize: 624 MB
+pri1length: 2371863509
 pri1n50ctg: 1692994
 pri1n50scf: 52209666
 pri1seq: https://s3.amazonaws.com/genomeark/species/Salmo_trutta/fSalTru1/assembly_curated/fSalTru1.pri.cur.20190403.fasta.gz

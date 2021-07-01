@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-10-11
 alt1filesize: 202 MB
+alt1length: 698977026
 alt1n50ctg: 265665
 alt1n50scf: 265830
 alt1seq: https://s3.amazonaws.com/genomeark/species/Periophthalmus_magnuspinnatus/fPerMag1/assembly_curated/fPerMag1.alt.cur.20191011.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Korean giant-fin mudskipper
 data_10x_bases: 73.81 Gbp
 data_10x_bytes: 34.457 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Perioph
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 69.53 Gbp
 data_pbsubreads_bytes: 121.200 GB
 data_pbsubreads_coverage: 69.53x
-data_pbsubreads_files: 14
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Periophthalmus_magnuspinnatus/fPerMag1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5343
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Periophthalmus magnuspinnatus
 name_: Periophthalmus_magnuspinnatus
 pri1date: 2019-10-11
 pri1filesize: 213 MB
+pri1length: 752605361
 pri1n50ctg: 1539147
 pri1n50scf: 30435919
 pri1seq: https://s3.amazonaws.com/genomeark/species/Periophthalmus_magnuspinnatus/fPerMag1/assembly_curated/fPerMag1.pri.cur.20191011.fasta.gz

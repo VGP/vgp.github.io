@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-20
 alt1filesize: 536 MB
+alt1length: 1814330211
 alt1n50ctg: 379232
 alt1n50scf: 382953
 alt1seq: https://s3.amazonaws.com/genomeark/species/Thamnophis_elegans/rThaEle1/assembly_curated/rThaEle1.alt.cur.20190820.fasta.gz
@@ -21,7 +22,7 @@ alt1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 56 </td><td> 2.47 Mbp </td><td> 56 </td><td> 2.47 Mbp </td></tr>  <tr><td> 20 </td><td> 154 </td><td> 1.59 Mbp </td><td> 154 </td><td> 1.59 Mbp </td></tr>  <tr><td> 30 </td><td> 307 </td><td> 1.00 Mbp </td><td> 306 </td><td> 1.00 Mbp </td></tr>  <tr><td> 40 </td><td> 544 </td><td> 0.65 Mbp </td><td> 541 </td><td> 0.65 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 928 </td><td> 0.38 Mbp </td><td> 922 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 1628 </td><td> 0.20 Mbp </td><td> 1616 </td><td> 0.20 Mbp </td></tr>  <tr><td> 70 </td><td> 3049 </td><td> 98.56 Kbp </td><td> 3027 </td><td> 99.07 Kbp </td></tr>  <tr><td> 80 </td><td> 5522 </td><td> 61.08 Kbp </td><td> 5490 </td><td> 61.29 Kbp </td></tr>  <tr><td> 90 </td><td> 9529 </td><td> 36.36 Kbp </td><td> 9480 </td><td> 36.54 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 56 </td><td> 2.47 Mbp </td><td> 56 </td><td> 2.47 Mbp </td></tr>  <tr><td> 20 </td><td> 154 </td><td> 1.59 Mbp </td><td> 154 </td><td> 1.59 Mbp </td></tr>  <tr><td> 30 </td><td> 307 </td><td> 1.00 Mbp </td><td> 306 </td><td> 1.00 Mbp </td></tr>  <tr><td> 40 </td><td> 544 </td><td> 0.65 Mbp </td><td> 541 </td><td> 0.65 Mbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 928 </td><td> 0.38 Mbp </td><td> 922 </td><td> 0.38 Mbp </td></tr>  <tr><td> 60 </td><td> 1628 </td><td> 0.20 Mbp </td><td> 1616 </td><td> 0.20 Mbp </td></tr>  <tr><td> 70 </td><td> 3049 </td><td> 98.56 Kbp </td><td> 3027 </td><td> 99.07 Kbp </td></tr>  <tr><td> 80 </td><td> 5522 </td><td> 61.08 Kbp </td><td> 5490 </td><td> 61.30 Kbp </td></tr>  <tr><td> 90 </td><td> 9529 </td><td> 36.36 Kbp </td><td> 9480 </td><td> 36.54 Kbp </td></tr>  <tr><td> 100 </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>  </tbody>
   <tfoot>
   <tr><th> 0.954x </th><th> 13642 </th><th> 1.81 Gbp </th><th> 13623 </th><th> 1.81 Gbp </th></tr>
   </tfoot>
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Western terrestrial garter snake
 data_10x_bases: 205.39 Gbp
 data_10x_bytes: 104.274 GB
@@ -50,10 +52,11 @@ data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Thamno
 data_dovetail_scale: 1.6613
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 118.03 Gbp
 data_pbsubreads_bytes: 204.091 GB
 data_pbsubreads_coverage: 62.12x
-data_pbsubreads_files: 26
+data_pbsubreads_files: 13
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Thamnophis_elegans/rThaEle1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5386
 data_phase_scale: 1
@@ -69,6 +72,7 @@ name: Thamnophis elegans
 name_: Thamnophis_elegans
 pri1date: 2019-08-20
 pri1filesize: 473 MB
+pri1length: 1672190305
 pri1n50ctg: 3552160
 pri1n50scf: 88492469
 pri1seq: https://s3.amazonaws.com/genomeark/species/Thamnophis_elegans/rThaEle1/assembly_curated/rThaEle1.pri.cur.20190820.fasta.gz

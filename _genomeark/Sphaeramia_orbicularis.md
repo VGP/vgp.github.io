@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-06-19
 alt1filesize: 324 MB
+alt1length: 1135435641
 alt1n50ctg: 246057
 alt1n50scf: 249014
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sphaeramia_orbicularis/fSphaOr1/assembly_curated/fSphaOr1.alt.cur.20190619.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: orbiculate cardinalfish
-data_10x_bases: unknown
+data_10x_bases: 122.18 Gbp
 data_10x_bytes: 76.550 GB
-data_10x_coverage: N/A
+data_10x_coverage: 90.99x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4864
-data_arima_bases: unknown
+data_arima_bases: 140.49 Gbp
 data_arima_bytes: 85.337 GB
-data_arima_coverage: N/A
+data_arima_coverage: 104.63x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5332
-data_bionano_bases: unknown
 data_bionano_bytes: 1.154 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 70.17 Gbp
 data_pbsubreads_bytes: 121.103 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 14
+data_pbsubreads_coverage: 52.26x
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sphaeramia_orbicularis/fSphaOr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5396
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902148825.1
 genbank_pri: GCA_902148855.1
+genome_size: 1342662642
+genome_size_display: 1.34 Gbp
 last_raw_data: 1553010021
 last_updated: 1561653480
 name: Sphaeramia orbicularis
 name_: Sphaeramia_orbicularis
 pri1date: 2019-06-19
 pri1filesize: 378 MB
+pri1length: 1342662642
 pri1n50ctg: 2360121
 pri1n50scf: 57165184
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sphaeramia_orbicularis/fSphaOr1/assembly_curated/fSphaOr1.pri.cur.20190619.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-22
 alt1filesize: 315 MB
+alt1length: 1081484062
 alt1n50ctg: 174900
 alt1n50scf: 174900
 alt1seq: https://s3.amazonaws.com/genomeark/species/Lutra_lutra/mLutLut1/assembly_curated/mLutLut1.alt.cur.20190822.fasta.gz
@@ -29,10 +30,11 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: European otter
-data_10x_bases: unknown
+data_10x_bases: 262.00 Gbp
 data_10x_bytes: 165.375 GB
-data_10x_coverage: N/A
+data_10x_coverage: 107.45x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Lutra_lutra/mLutLut1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4755
@@ -40,19 +42,23 @@ data_arima_scale: 1
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 157.70 Gbp
 data_pbsubreads_bytes: 273.251 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 32
+data_pbsubreads_coverage: 64.67x
+data_pbsubreads_files: 16
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lutra_lutra/mLutLut1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_902653095.1
+genome_size: 2438442342
+genome_size_display: 2.44 Gbp
 last_raw_data: 1591286244
 last_updated: 1591286244
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16536
 mito1n50ctg: 16536
 mito1n50scf: 16536
 mito1seq: https://s3.amazonaws.com/genomeark/species/Lutra_lutra/mLutLut1/assembly_MT_rockefeller/mLutLut1.MT.20191003.fasta.gz
@@ -83,6 +89,7 @@ name: Lutra lutra
 name_: Lutra_lutra
 pri1date: 2019-08-22
 pri1filesize: 709 MB
+pri1length: 2438442342
 pri1n50ctg: 30403456
 pri1n50scf: 149004807
 pri1seq: https://s3.amazonaws.com/genomeark/species/Lutra_lutra/mLutLut1/assembly_curated/mLutLut1.pri.cur.20190822.fasta.gz

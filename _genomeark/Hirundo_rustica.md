@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-10-15
 alt1filesize: 275 MB
+alt1length: 936354595
 alt1n50ctg: 544458
 alt1n50scf: 544458
 alt1seq: https://s3.amazonaws.com/genomeark/species/Hirundo_rustica/bHirRus1/assembly_curated/bHirRus1.alt.cur.20201015.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: barn swallow
 data_10x_bases: 108.18 Gbp
 data_10x_bytes: 55.843 GB
@@ -49,6 +51,7 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Hirundo
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 67.01 Gbp
 data_pbsubreads_bytes: 117.976 GB
 data_pbsubreads_coverage: 51.15x
@@ -68,6 +71,7 @@ name: Hirundo rustica
 name_: Hirundo_rustica
 pri1date: 2020-02-11
 pri1filesize: 314 MB
+pri1length: 1104070652
 pri1n50ctg: 2024395
 pri1n50scf: 63258489
 pri1seq: https://s3.amazonaws.com/genomeark/species/Hirundo_rustica/bHirRus1/assembly_curated/bHirRus1.pri.cur.20200211.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-16
 alt1filesize: 322 MB
+alt1length: 1084112861
 alt1n50ctg: 1118899
 alt1n50scf: 1118899
 alt1seq: https://s3.amazonaws.com/genomeark/species/Tauraco_erythrolophus/bTauEry1/assembly_curated/bTauEry1.alt.cur.20190816.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: red-crested turaco
 data_10x_bases: 52.44 Gbp
 data_10x_bytes: 27.536 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Tauraco
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 77.20 Gbp
 data_pbsubreads_bytes: 132.977 GB
 data_pbsubreads_coverage: 65.99x
-data_pbsubreads_files: 18
+data_pbsubreads_files: 9
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tauraco_erythrolophus/bTauEry1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5407
 data_phase_scale: 1
@@ -69,6 +72,7 @@ name: Tauraco erythrolophus
 name_: Tauraco_erythrolophus
 pri1date: 2019-08-16
 pri1filesize: 360 MB
+pri1length: 1252271553
 pri1n50ctg: 12059329
 pri1n50scf: 85562082
 pri1seq: https://s3.amazonaws.com/genomeark/species/Tauraco_erythrolophus/bTauEry1/assembly_curated/bTauEry1.pri.cur.20190816.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-02-04
 alt1filesize: 279 MB
+alt1length: 965248483
 alt1n50ctg: 449821
 alt1n50scf: 449821
 alt1seq: https://s3.amazonaws.com/genomeark/species/Anguilla_anguilla/fAngAng1/assembly_curated/fAngAng1.alt.cur.20200204.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: European eel
 data_10x_bases: 82.67 Gbp
 data_10x_bytes: 40.368 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Anguill
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 69.42 Gbp
 data_pbsubreads_bytes: 118.826 GB
 data_pbsubreads_coverage: 51.23x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Anguilla_anguilla/fAngAng1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5441
 data_phase_scale: 1
@@ -69,6 +72,7 @@ name: Anguilla anguilla
 name_: Anguilla_anguilla
 pri1date: 2020-02-04
 pri1filesize: 280 MB
+pri1length: 979029243
 pri1n50ctg: 2638625
 pri1n50scf: 44521221
 pri1seq: https://s3.amazonaws.com/genomeark/species/Anguilla_anguilla/fAngAng1/assembly_curated/fAngAng1.pri.cur.20200204.fasta.gz

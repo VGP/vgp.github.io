@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-01-04
 alt1filesize: 169 MB
+alt1length: 585491821
 alt1n50ctg: 638742
 alt1n50scf: 638742
 alt1seq: https://s3.amazonaws.com/genomeark/species/Pholis_gunnellus/fPhoGun1/assembly_cambridge/fPhoGun1.alt.asm.20210104.fasta.gz
@@ -29,36 +30,41 @@ alt1sizes: |
 alt1version: assembly_cambridge
 assembly: assembly_cambridge
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: rock gunnel
-data_10x_bases: unknown
+data_10x_bases: 64.31 Gbp
 data_10x_bytes: 37.786 GB
-data_10x_coverage: N/A
+data_10x_coverage: 108.33x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholis_gunnellus/fPhoGun1/genomic_data/10x/ .<br>
 data_10x_scale: 1.585
-data_arima_bases: unknown
+data_arima_bases: 130.06 Gbp
 data_arima_bytes: 75.788 GB
-data_arima_coverage: N/A
+data_arima_coverage: 219.10x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholis_gunnellus/fPhoGun1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5982
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_bases: unknown
+data_pbhifi_bases: 41.15 Gbp
 data_pbhifi_bytes: 33.614 GB
-data_pbhifi_coverage: N/A
-data_pbhifi_files: 4
+data_pbhifi_coverage: 69.32x
+data_pbhifi_files: 2
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholis_gunnellus/fPhoGun1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.14
+data_pbhifisub_scale: 0
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genome_size: 593597343
+genome_size_display: 0.59 Gbp
 last_raw_data: 1606145337
 last_updated: 1619516300
 name: Pholis gunnellus
 name_: Pholis_gunnellus
 pri1date: 2021-01-04
 pri1filesize: 168 MB
+pri1length: 593597343
 pri1n50ctg: 3800107
 pri1n50scf: 23269400
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pholis_gunnellus/fPhoGun1/assembly_cambridge/fPhoGun1.pri.asm.20210104.fasta.gz

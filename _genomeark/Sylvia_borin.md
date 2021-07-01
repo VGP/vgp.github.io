@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-04-24
 alt1filesize: 301 MB
+alt1length: 1032649170
 alt1n50ctg: 3358973
 alt1n50scf: 3358973
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sylvia_borin/bSylBor1/assembly_curated/bSylBor1.alt.cur.20200424.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: garden warbler
 data_10x_bases: 105.80 Gbp
 data_10x_bytes: 55.199 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 86.49 Gbp
 data_pbsubreads_bytes: 145.685 GB
 data_pbsubreads_coverage: 72.07x
-data_pbsubreads_files: 14
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sylvia_borin/bSylBor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5529
 data_phase_scale: 1
@@ -69,6 +72,7 @@ name: Sylvia borin
 name_: Sylvia_borin
 pri1date: 2020-04-24
 pri1filesize: 303 MB
+pri1length: 1045652180
 pri1n50ctg: 28094227
 pri1n50scf: 72287029
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sylvia_borin/bSylBor1/assembly_curated/bSylBor1.pri.cur.20200424.fasta.gz

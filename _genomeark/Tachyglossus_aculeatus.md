@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-09-17
 alt1filesize: 519 MB
+alt1length: 1885160879
 alt1n50ctg: 448053
 alt1n50scf: 451621
 alt1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_curated/mTacAcu1.alt.cur.20200917.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: short-beaked echidna
 data_10x_bases: 268.81 Gbp
 data_10x_bytes: 126.331 GB
@@ -45,10 +47,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachygl
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 168.46 Gbp
 data_pbsubreads_bytes: 606.932 GB
 data_pbsubreads_coverage: 58.29x
-data_pbsubreads_files: 272
+data_pbsubreads_files: 94
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tachyglossus_aculeatus/mTacAcu1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.2585
 data_phase_bases: 42.47 Gbp
@@ -95,6 +98,7 @@ name: Tachyglossus aculeatus
 name_: Tachyglossus_aculeatus
 pri1date: 2020-09-17
 pri1filesize: 603 MB
+pri1length: 2213004314
 pri1n50ctg: 12243461
 pri1n50scf: 59605462
 pri1seq: https://s3.amazonaws.com/genomeark/species/Tachyglossus_aculeatus/mTacAcu1/assembly_curated/mTacAcu1.pri.cur.20200917.fasta.gz

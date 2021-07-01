@@ -1,6 +1,7 @@
 ---
 assembly: assembly_rockefeller_trio_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: bottlenose dolphin
 data_10x_bases: 321.18 Gbp
 data_10x_bytes: 154.610 GB
@@ -27,10 +28,11 @@ data_illumina_files: 10
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8611
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 203.85 Gbp
 data_pbsubreads_bytes: 349.496 GB
 data_pbsubreads_coverage: 63.70x
-data_pbsubreads_files: 44
+data_pbsubreads_files: 22
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Tursiops_truncatus/mTurTru1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5432
 data_phase_scale: 1
@@ -45,6 +47,7 @@ last_raw_data: 1567098641
 last_updated: 1581070891
 mat1date: 2019-08-30
 mat1filesize: 641 MB
+mat1length: 2386164546
 mat1n50ctg: 6845203
 mat1n50scf: 78151963
 mat1seq: https://s3.amazonaws.com/genomeark/species/Tursiops_truncatus/mTurTru1/assembly_rockefeller_trio_1.6/mTurTru1.mat.asm.20190830.fasta.gz
@@ -101,6 +104,7 @@ name: Tursiops truncatus
 name_: Tursiops_truncatus
 pat1date: 2019-08-30
 pat1filesize: 631 MB
+pat1length: 2385332756
 pat1n50ctg: 8156464
 pat1n50scf: 77884346
 pat1seq: https://s3.amazonaws.com/genomeark/species/Tursiops_truncatus/mTurTru1/assembly_rockefeller_trio_1.6/mTurTru1.pat.asm.20190830.fasta.gz

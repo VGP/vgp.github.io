@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-09-07
 alt1filesize: 221 MB
+alt1length: 765970641
 alt1n50ctg: 400765
 alt1n50scf: 409755
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sebastes_umbrosus/fSebUmb1/assembly_curated/fSebUmb1.alt.cur.20200907.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: honeycomb rockfish
 data_10x_bases: 53.86 Gbp
 data_10x_bytes: 26.956 GB
@@ -50,10 +52,11 @@ data_illumina_files: 1
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Sebastes_umbrosus/fSebUmb1/genomic_data/illumina/ .<br>
 data_illumina_scale: 2.0982
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 45.05 Gbp
 data_pbsubreads_bytes: 76.821 GB
 data_pbsubreads_coverage: 45.05x
-data_pbsubreads_files: 8
+data_pbsubreads_files: 4
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sebastes_umbrosus/fSebUmb1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5462
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Sebastes umbrosus
 name_: Sebastes_umbrosus
 pri1date: 2020-09-07
 pri1filesize: 229 MB
+pri1length: 800904020
 pri1n50ctg: 8304483
 pri1n50scf: 32625529
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sebastes_umbrosus/fSebUmb1/assembly_curated/fSebUmb1.pri.cur.20200907.fasta.gz

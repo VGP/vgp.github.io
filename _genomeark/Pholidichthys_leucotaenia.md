@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-10-12
 alt1filesize: 560 MB
+alt1length: 1861537192
 alt1n50ctg: 134670
 alt1n50scf: 135804
 alt1seq: https://s3.amazonaws.com/genomeark/species/Pholidichthys_leucotaenia/fPhoLeu1/assembly_vgp_standard_1.6/fPhoLeu1.alt.asm.20201012.fasta.gz
@@ -29,41 +30,45 @@ alt1sizes: |
 alt1version: assembly_vgp_standard_1.6
 assembly: assembly_vgp_standard_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: Convict blenny
-data_10x_bases: unknown
+data_10x_bases: 358.29 Gbp
 data_10x_bytes: 183.052 GB
-data_10x_coverage: N/A
+data_10x_coverage: 58.91x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/10x/ .<br>
 data_10x_scale: 1.8229
-data_arima_bases: unknown
+data_arima_bases: 355.78 Gbp
 data_arima_bytes: 227.215 GB
-data_arima_coverage: N/A
+data_arima_coverage: 58.50x
 data_arima_files: 20
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/arima/ .<br>
 data_arima_scale: 1.4583
-data_bionano_bases: unknown
 data_bionano_bytes: 0.856 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 592.22 Gbp
 data_pbsubreads_bytes: 1076.618 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 40
+data_pbsubreads_coverage: 97.37x
+data_pbsubreads_files: 20
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pholidichthys_leucotaenia/fPhoLeu1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5123
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genome_size: 6082203243
+genome_size_display: 6.08 Gbp
 last_raw_data: 1600353917
-last_updated: 1611655575
+last_updated: 1602489179
 name: Pholidichthys leucotaenia
 name_: Pholidichthys_leucotaenia
 pri1date: 2020-10-12
 pri1filesize: 2 GB
+pri1length: 6082203243
 pri1n50ctg: 5866050
 pri1n50scf: 75091975
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pholidichthys_leucotaenia/fPhoLeu1/assembly_vgp_standard_1.6/fPhoLeu1.pri.asm.20201012.fasta.gz

@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-05-04
 alt1filesize: 608 MB
+alt1length: 2051656167
 alt1n50ctg: 841438
 alt1n50scf: 841438
 alt1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.alt.cur.20200504.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: pale spear-nosed bat
 data_10x_bases: 243.07 Gbp
 data_10x_bytes: 145.428 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllos
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 163.04 Gbp
 data_pbsubreads_bytes: 292.405 GB
 data_pbsubreads_coverage: 73.65x
-data_pbsubreads_files: 86
+data_pbsubreads_files: 43
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phyllostomus_discolor/mPhyDis1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
@@ -63,7 +66,7 @@ genbank_pri: GCA_004126475.3
 genome_size: 2213798723
 genome_size_display: 2.21 Gbp
 last_raw_data: 1527496005
-last_updated: 1616454084
+last_updated: 1599268403
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_MT_rockefeller/mPhyDis1.MT.20191003.fasta.gz
@@ -94,6 +97,7 @@ name: Phyllostomus discolor
 name_: Phyllostomus_discolor
 pri1date: 2020-05-04
 pri1filesize: 613 MB
+pri1length: 2108832841
 pri1n50ctg: 6377178
 pri1n50scf: 171742863
 pri1seq: https://s3.amazonaws.com/genomeark/species/Phyllostomus_discolor/mPhyDis1/assembly_curated/mPhyDis1.pri.cur.20200504.fasta.gz

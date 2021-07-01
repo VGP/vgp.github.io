@@ -10,8 +10,8 @@ die "Didn't find seqrequester in '$seqrequester'.\n"   if (! -e $seqrequester);
 
 
 #  If set to 1, do not download any genomic_data for coverage estimation.
-my $SKIP_RAW = 0;
-my $SKIP_ASM = 0;
+my $SKIP_RAW = 1;
+my $SKIP_ASM = 1;
 
 #  Thresholds for declaring contigs and scaffolds good or bad.
 my $goodCTG = 1000000;
@@ -22,6 +22,14 @@ my @genomeArkEpoch;
 my @genomeArkSizes;
 my @genomeArkFiles;
 my $genomeArkLength;
+
+#  In memory cache of files in genomeark, filtered to the current species.
+my @speciesEpoch;
+my @speciesSizes;
+my @speciesFiles;
+my $speciesLength;
+
+my %ccsPrefixes;
 
 #  List of files we didn't know how to process
 my @potentialErrors;
@@ -38,8 +46,8 @@ sub discoverDir ($) {
     while (<LS>) {
         chomp;
 
-        if (m!genomeark/(\w+).md$!)   { push@speciesList, $1; }
-        if (m!species/(\w+).yaml$!)   { push@speciesList, $1; }
+        if (m!genomeark/(\w+).md$!)   { push@speciesList, $1; }   #  For things in ../_genomeark/
+        if (m!species/(\w+).yaml$!)   { push@speciesList, $1; }   #  For things in vgp-metadata/species/
     }
     close(LS);
 
@@ -103,8 +111,33 @@ sub loadGenomeArk () {
             my $asmName     = $fileComps[3];
             my $seconds     = 0;
 
-            next   if ($filename =~ m!intermediate!);
-            next   if ($filename =~ m!transcriptomic_data!);
+            next if ($filename =~ m!/$!);          #  Why are you giving me directories?
+
+            next if ($filename =~ m!^working!);
+            next if ($filename =~ m!^galaxy!);
+
+            next if ($filename =~ m!/md5$!);
+
+            next if ($filename =~ m!/intermediate!i);
+            next if ($filename =~ m!/Intermidiates!i);           #  One guy has this.
+            next if ($filename =~ m!/transcriptomic_data!i);
+            next if ($filename =~ m!/evaluation!i);
+            next if ($filename =~ m!/bam_to_fasta!i);            #  fAngAng1/assembly_vgp_standard_1.6/bam_to_fasta (and others)
+
+            next if ($filename =~ m!/......../qc/mash!);
+            next if ($filename =~ m!/......../qc/meryl!);
+
+            next if ($filename =~ m!/aBomBom1/genomic_data/bionano/exp_refineFinal1/!);
+            next if ($filename =~ m!/aBomBom1/genomic_data/pacbio/fasta!);
+            next if ($filename =~ m!/bBucAby1/Test!);
+            next if ($filename =~ m!/bCalAnn1/genomic_data/nanopore.*clean.fastq.gz!);
+            next if ($filename =~ m!/bGeoTri1/genomic_data/pacbio/old/!);
+            next if ($filename =~ m!/fAloSap1/vgp_assembly_2.0/evaluation!);
+            next if ($filename =~ m!/fAngAng1/assembly_vgp_standard_1.6/Scaffolding!);
+            next if ($filename =~ m!/mCalJac1/SDA/!);
+            next if ($filename =~ m!/mZalCal1/assembly_rockefeller_1.6/longranger!);
+            next if ($filename =~ m!/rCheMyd1/assembly_vgp_standard_1.6/evaluation!);    #  LOTS of BUSCO intermediates
+            next if ($filename =~ m!/sCarCar1/rawData/!);
 
             print LSO "$_\n";
         }
@@ -125,9 +158,6 @@ sub loadGenomeArk () {
         my $speciesName = $fileComps[1];
         my $asmName     = $fileComps[3];
         my $seconds     = 0;
-
-        next   if ($filename =~ m!intermediate!);
-        next   if ($filename =~ m!transcriptomic_data!);
 
         if ("$filedate $filetime" =~ m/(\d\d\d\d)-(\d\d)-(\d\d)\s+(\d\d):(\d\d):(\d\d)/) {
             my ($yr, $mo, $da, $hr, $mn, $sc) = ($1, $2, $3, $4, $5, $6);
@@ -162,7 +192,7 @@ sub loadAssemblyStatus () {
     my %asmToShow;    #  Map species_name to assembly_name.
     my %asmDate;      #  Map species_name to time_local\0assembly_name.
 
-    #  Scan the genomeark files to figure out what assemblies exist for each
+    #  Scan ALL the genomeark files to figure out what assemblies exist for each
     #  species.  We'll later pick one to use, or use the user-supplied assembly.
 
     for (my $ii=0; $ii<$genomeArkLength; $ii++) {
@@ -261,7 +291,7 @@ sub loadGenbank () {
                 $map{"$nam$ind$typ"} = $acc;
             }
 
-            print "GENBANK $nam$typ -> $acc\n";
+            #print "GENBANK $nam$typ -> $acc\n";
         } else {
             die "Failed to match genbank line '$_'\n";
         }
@@ -332,6 +362,8 @@ sub loadMeta ($$) {
     die "No meta{species.name} found?\n"  if ($$meta{"species.name"} eq "");
 
     my @n = split '\s+', $$meta{"species.name"};
+
+    die "species.name '", $$meta{"species.name"}, "' has ", scalar(@n), " components, expected 2.\n" if (scalar(@n) < 2);
 
     return("$n[0]_$n[1]");      #  Return the proper Species_name for this species.
 }
@@ -470,35 +502,29 @@ sub prettifyBases ($) {
 
 
 
-sub generateAssemblySummary ($$$) {
+sub generateAssemblySummary ($$$$) {
     my $filename   = shift @_;
+    my $filesize   = shift @_;
     my $type       = shift @_;
     my $genomeSize = shift @_;
     my $split      = ($type eq "ctg") ? "-split-n" : "";
 
-
-    if (-z "$filename.$type.summary") {
-        unlink "$filename.$type.summary";
-    }
-
-    if (! -e "downloads") {
-        system("mkdir -p downloads");
-    }
+    unlink "$filename.$type.summary"   if (-z "$filename.$type.summary");
 
     if ((! -e "downloads/$filename.gz") &&
         (! -e "$filename.$type.summary")) {
-        print "Fetch s3://genomeark/$filename.gz\n";
+        printf "FETCH asm - size %6.3f GB\n", $filesize / 1024 / 1024 / 1024;
+        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+        printf "    s3://genomeark/$filename.gz \\\n";
+        printf "         downloads/$filename.gz\n";
+        printf "\n";
 
-        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$filename.gz downloads/$filename.gz");
+        system("mkdir -p downloads")   if (! -e "downloads");
+        system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$filename.gz downloads/$filename.gz")   if ($SKIP_ASM == 0);
     }
 
-    if ((! -e "downloads/$filename.gz") &&
+    if ((  -e "downloads/$filename.gz") &&
         (! -e "$filename.$type.summary")) {
-        print "FAILED TO FETCH '$filename'\n";
-        exit(1);
-    }
-
-    if (! -e "$filename.$type.summary") {
         my $cmd;
 
         $cmd  = "$seqrequester summarize $split -1x";
@@ -506,18 +532,15 @@ sub generateAssemblySummary ($$$) {
         $cmd .= " downloads/$filename.gz > $filename.$type.summary";
 
         print "SUMMARIZING '$filename' with genome_size $genomeSize and options '$split'\n";
-        print "  $cmd\n";
-        system("mkdir -p $filename");
+
+        system("mkdir -p $filename");   #  To build all the intermediate directories.
         system("rmdir    $filename");
         system($cmd);
+
+        unlink "$filename.$type.summary"   if (-z "$filename.$type.summary");
     }
 
-    if (! -e "$filename.$type.summary") {
-        print "FAILED TO FIND SIZES '$filename'\n";
-        exit(1);
-    }
-
-    #system("rm -f downloads/$filename.gz");
+    die "FAILED TO FIND SIZES '$filename'\n"   if ((! -e "$filename.$type.summary") && ($SKIP_ASM == 0));
 }
 
 
@@ -530,6 +553,16 @@ sub loadAssemblySummary ($$$$$$) {
     my $ctgCOV     = shift @_;
     my $genomeSize = shift @_;
     my $n50        = undef;
+    my $size       = undef;
+
+    if (! -e "$filename") {
+        push @$ctgNG,  0;
+        push @$ctgLG,  0;
+        push @$ctgLEN, 0;
+        push @$ctgCOV, 0;
+
+        return(0);
+    }
 
     open(SU, "< $filename");
     while (<SU>) {
@@ -561,8 +594,11 @@ sub loadAssemblySummary ($$$$$$) {
 
         #  Add the values to the table, treating the summary line as a footer.
         if ($a =~ m!x!) {
+            $size = $c;         #  Save the total size of the assembly.
+
             $a =~ s/^0+//;      #  Strip off leading zeros from "000.851x"
             $a =~ s/^\./0./;    #  But then add back one to get "0.851x"
+
             $c = prettifyBases($c);
 
             push @$ctgNG,  $a;
@@ -570,16 +606,11 @@ sub loadAssemblySummary ($$$$$$) {
             push @$ctgLEN, $c;
             push @$ctgCOV, $c;
 
-            #$n50table .= "  </tbody>\n";
-            #$n50table .= "  <tfoot>\n";
-            #$n50table .= "  <tr><th>$a</th><th>$b</th><th></th><th>$c</th></tr>\n";
-            #$n50table .= "  </tfoot>\n";
             last;
         }
 
         else {
             $a =~ s/^0+//;
-            #$b = ($b eq "-") ? "-" : sprintf("%.1f", $b / 1000000);
             $b = prettifyBases($b);
             $d = (($genomeSize == 0) || ($b eq "-")) ? "-" : sprintf("%.2f", $d / $genomeSize);
 
@@ -588,50 +619,29 @@ sub loadAssemblySummary ($$$$$$) {
             push @$ctgLEN, $b;
             push @$ctgCOV, $d;
 
-            #my $scfcolor = "";
-            #my $ctgcolor = "";
-
-            #$n50table .="  <tr style=\"background-color:#eecccc;\"><td>$a</td><td>$c</td><td><b>$b</b></td><td>$d</td>\n";
-            #$n50table .="  <tr style=\"background-color:#cceecc;\"><td>$a</td><td>$c</td><td><b>$b</b></td><td>$d</td>\n";
-
-            #if ($a == 50) {
-            #    #($n50 < 5000000)) {
-            #    #($n50 >= 5000000)) {
-            #}
-
-            #$n50table .= "  <tr><td>$a</td>";
-            #$n50table .= "<td>$c</td><td>$b</td><td>$d</td>";
-            #$n50table .= "<td>$c</td><td>$b</td><td>$d</td>";
-            #$n50table .= "</tr>";
-
         }
     }
     close(SU);
 
-    return($n50);
+    return($n50, $size);
 }
 
 
 
-sub generateAssemblySummaryHTML ($$$) {
+sub generateAssemblySummaryHTML ($$$$) {
     my $prialt     = shift @_;
     my $filename   = shift @_;
+    my $filesize   = shift @_;
     my $genomeSize = shift @_;
     my $n50table   = "";
 
     $filename =~ s/.gz//;
 
-    generateAssemblySummary($filename, "ctg", $genomeSize);
-    generateAssemblySummary($filename, "scf", $genomeSize);
+    generateAssemblySummary($filename, $filesize, "ctg", $genomeSize);
+    generateAssemblySummary($filename, $filesize, "scf", $genomeSize);
 
     $n50table .= "|\n";
     $n50table .= "  <table class=\"sequence-sizes-table\">\n";
-    #$n50table .= "  <colgroup>\n";
-    #$n50table .= "  <col width=\"10%\" />\n";
-    #$n50table .= "  <col width=\"10%\" />\n";
-    #$n50table .= "  <col width=\"40%\" />\n";
-    #$n50table .= "  <col width=\"40%\" />\n";
-    #$n50table .= "  </colgroup>\n";
     $n50table .= "  <thead>\n";
 
     $n50table .= "  <tr>\n";
@@ -655,8 +665,8 @@ sub generateAssemblySummaryHTML ($$$) {
     my (@ctgNG, @ctgLG, @ctgLEN, @ctgCOV);
     my (@scfNG, @scfLG, @scfLEN, @scfCOV);
 
-    my $ctgn50 = loadAssemblySummary("$filename.ctg.summary", \@ctgNG, \@ctgLG, \@ctgLEN, \@ctgCOV, $genomeSize);
-    my $scfn50 = loadAssemblySummary("$filename.scf.summary", \@scfNG, \@scfLG, \@scfLEN, \@scfCOV, $genomeSize);
+    my ($ctgn50, $ctgsize) = loadAssemblySummary("$filename.ctg.summary", \@ctgNG, \@ctgLG, \@ctgLEN, \@ctgCOV, $genomeSize);
+    my ($scfn50, $scfsize) = loadAssemblySummary("$filename.scf.summary", \@scfNG, \@scfLG, \@scfLEN, \@scfCOV, $genomeSize);
 
     #  Ten rows of actual data.
 
@@ -696,10 +706,47 @@ sub generateAssemblySummaryHTML ($$$) {
 
     $n50table .= "  </table>\n";
 
-    return($ctgn50, $scfn50, $n50table);
+    return($ctgn50, $scfn50, $scfsize, $n50table);
 }
 
 
+
+
+#  Returns 'S'  for normal subread
+#          'H'  for actual hifi read
+#          'HS' for hifi subread
+#          'I'  for stuff to ignore (scraps, fastq, fasta)
+#          ' '  for unknown
+#
+#  Adds "i" to the end if the file is an index.
+#
+sub isHifi ($) {
+    my $filename = shift @_;
+    my $prefix   = "";
+    my $i        = "";
+
+    return "I"   if ($filename =~ m/scraps\.bam/);
+    return "I"   if ($filename =~ m/fastq/);
+    return "I"   if ($filename =~ m/fasta/);
+
+    if ($filename =~ m!/genomic_data/pacbio/(.*)!) {
+        my @c = split '\.', $1;
+        $prefix = $c[0];
+    }
+
+    return " "   if ($prefix eq "");
+
+    $i = "i"   if ($filename =~ m/bam\.pbi/);
+    $i = "i"   if ($filename =~ m/bam\.bai/);
+
+    return("S$i")   if (($filename =~ m!subreads!) && ($ccsPrefixes{$prefix} == 0));
+    return("HS$i")  if (($filename =~ m!subreads!) && ($ccsPrefixes{$prefix} == 1));
+
+    return("H$i")   if (($filename =~ m!ccs!));
+    return("H$i")   if (($filename =~ m!hifi!));
+
+    return(" ");
+}
 
 
 sub processData ($$$$$) {
@@ -719,9 +766,10 @@ sub processData ($$$$$) {
         die "failed to parse species name and individual from '$filename'\n";
     }
 
+
     #  Based on directory and filename, count stuff.
 
-    if    ($filename =~ m!/genomic_data/10x/!) {
+    if ($filename =~ m!/genomic_data/10x/!) {
         $$seqIndiv{"10x"} .= "$sTag/$iTag\0";
 
         if (($filename =~ m/fastq.gz/) ||
@@ -731,9 +779,10 @@ sub processData ($$$$$) {
         } else {
             print "unknown file type in '$filename'\n";
         }
+        return;
     }
 
-    elsif ($filename =~ m!/genomic_data/arima/!) {
+    if ($filename =~ m!/genomic_data/arima/!) {
         $$seqIndiv{"arima"} .= "$sTag/$iTag\0";
 
         if (($filename =~ m/fastq.gz/) ||
@@ -741,16 +790,14 @@ sub processData ($$$$$) {
             $$seqFiles{"arima"} += 1;
             $$seqBytes{"arima"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
+            #  Ignore.
         } else {
             print "unknown file type in '$filename'\n";
         }
+        return;
     }
 
-    #  Stop warning about junk.
-    elsif ($filename =~ m!aBomBom1/genomic_data/bionano/exp_refineFinal1/!) {
-    }
-
-    elsif ($filename =~ m!/genomic_data/bionano/!) {
+    if ($filename =~ m!/genomic_data/bionano/!) {
         $$seqIndiv{"bionano"} .= "$sTag/$iTag\0";
 
         if      ($filename =~ m/cmap/) {
@@ -761,9 +808,10 @@ sub processData ($$$$$) {
         } else {
             print "unknown file type in '$filename'\n";
         }
+        return;
     }
 
-    elsif ($filename =~ m!/genomic_data/dovetail/!) {
+    if ($filename =~ m!/genomic_data/dovetail/!) {
         $$seqIndiv{"dovetail"} .= "$sTag/$iTag\0";
 
         if (($filename =~ m/fastq.gz/) ||
@@ -771,12 +819,14 @@ sub processData ($$$$$) {
             $$seqFiles{"dovetail"} += 1;
             $$seqBytes{"dovetail"} += $filesize;
         } elsif ($filename =~ m/re_bases.txt/) {
+            #  Ignore.
         } else {
             print "unknown file type in '$filename'\n";
         }
+        return;
     }
 
-    elsif ($filename =~ m!/genomic_data/illumina/!) {
+    if ($filename =~ m!/genomic_data/illumina/!) {
         $$seqIndiv{"illumina"} .= "$sTag/$iTag\0";
 
         if (($filename =~ m/fastq.gz/) ||
@@ -786,46 +836,49 @@ sub processData ($$$$$) {
         } else {
             print "unknown file type in '$filename'\n";
         }
+        return;
     }
 
-    elsif ($filename =~ m!/genomic_data/pacbio/!) {
 
-        if    ($filename =~ m/scraps\.bam/) {
-            $$seqFiles{"pbscraps"} += 1;
-            $$seqBytes{"pbscraps"} += $filesize;
+    if ($filename =~ m!/genomic_data/pacbio/!) {
+        my $t = isHifi($filename);
+
+        if    ($t eq "Si") {
+            $$seqBytes{"pbsubreads"} += $filesize;
         }
-        elsif ($filename =~ m/scraps\.bam\.pbi/) {
-            #$$seqFiles{"pbscraps"} += 1;
-            $$seqBytes{"pbscraps"} += $filesize;
-        }
-        elsif ($filename =~ m/subreads\.bam/) {
+        elsif ($t eq "S") {
             $$seqIndiv{"pbsubreads"} .= "$sTag/$iTag\0";
             $$seqFiles{"pbsubreads"} += 1;
             $$seqBytes{"pbsubreads"} += $filesize;
         }
-        elsif ($filename =~ m/subreads\.bam\.pbi/) {
-            $$seqBytes{"pbsubreads"} += $filesize;
+        elsif ($t eq "Hi") {
+            $$seqBytes{"pbhifi"} += $filesize;
         }
-        elsif (($filename =~ m/ccs\.bam/) ||
-               ($filename =~ m/ccs\..*\.bam/)) {
+        elsif ($t eq "H") {
             $$seqIndiv{"pbhifi"} .= "$sTag/$iTag\0";
             $$seqFiles{"pbhifi"} += 1;
             $$seqBytes{"pbhifi"} += $filesize;
         }
-        elsif (($filename =~ m/ccs\.bam\.pbi/) ||
-               ($filename =~ m/ccs\..*\.bam\.pbi/)) {
-            $$seqBytes{"pbhifi"} += $filesize;
+        elsif ($t eq "HSi") {
+            $$seqBytes{"pbhifisub"} += $filesize;
         }
-        elsif (($filename =~ m/ccs\.bam\.bai/) ||
-               ($filename =~ m/ccs\..*\.bam\.bai/)) {
-            $$seqBytes{"pbhifi"} += $filesize;
+        elsif ($t eq "HS") {
+            $$seqIndiv{"pbhifisub"} .= "$sTag/$iTag\0";
+            $$seqFiles{"pbhifisub"} += 1;
+            $$seqBytes{"pbhifisub"} += $filesize;
         }
+
+        elsif ($t eq "I") {
+        }
+
         else {
-            print "unknown file type in '$filename'\n";
+            print "processData: UNKNOWN TYPE in '$filename'\n";
         }
+
+        return;
     }
 
-    elsif ($filename =~ m!/genomic_data/phase/!) {
+    if ($filename =~ m!/genomic_data/phase/!) {
         $$seqIndiv{"phase"} .= "$sTag/$iTag\0";
 
         if (($filename =~ m/fastq.gz/) ||
@@ -836,9 +889,11 @@ sub processData ($$$$$) {
         } else {
             print "unknown file type in '$filename'\n";
         }
+        return;
     }
 
-    elsif ($filename =~ m!/genomic_data/!) {
+
+    if ($filename =~ m!/genomic_data/!) {
         print "UNKNOWN genomic_data $filename\n";
     }
 }
@@ -850,7 +905,7 @@ sub processAssembly ($$$) {
     my $filename = shift @_;
     my $data     = shift @_;
 
-    print " PROCESS $filename of size $filesize\n";
+    print " PROCESS $filename\n";
 
     my ($sName, $aLabel, $sTag, $sNum, $prialt, $date) = undef;
 
@@ -921,10 +976,6 @@ sub processAssembly ($$$) {
 
     #  Update everything for this file.
 
-    #print "  add prialt $prialt sNum ${sNum} date $date for $filename\n";
-
-    #$$data{"${prialt}${sNum}"}         = "${aLabel}${sNum}";
-
     $$data{"${prialt}${sNum}version"}  = "${aLabel}";
 
     if      ($filesize < 1024 * 1024) {
@@ -941,11 +992,10 @@ sub processAssembly ($$$) {
 
     ($$data{"${prialt}${sNum}n50ctg"},
      $$data{"${prialt}${sNum}n50scf"},
-     $$data{"${prialt}${sNum}sizes"})  = generateAssemblySummaryHTML($prialt, $filename, $$data{"genome_size"});
+     $$data{"${prialt}${sNum}length"},
+     $$data{"${prialt}${sNum}sizes"})  = generateAssemblySummaryHTML($prialt, $filename, $filesize, $$data{"genome_size"});
 
     #  Update the assembly status based on the primary n50 and/or curation status.
-
-    #print "$prialt -- " . $$data{"${prialt}${sNum}n50ctg"} . " -- " . $$data{"${prialt}${sNum}n50scf"} . "\n";
 
     if (($prialt eq "pri") ||
         ($prialt eq "mat") ||
@@ -973,23 +1023,19 @@ sub downloadAndSummarize ($$$) {
     my $file  = shift @_;
     my $bases = 0;
 
-    if (-z "$name.summary") {
-        unlink "$name.summary";
-    }
-
-    if (! -e "downloads") {
-        system("mkdir -p downloads");
-    }
+    unlink "$name.summary"   if (-z "$name.summary");
 
     if ((! -e "downloads/$name") &&
         (! -e "$name.summary")) {
-        printf "FETCH file #%4d size %6.3f GB '%s'\n", $file, $size / 1024 / 1024 / 1024, $name;
-        printf " -> downloads/$name\n";
-        printf " -> aws --no-progress --no-sign-request s3 cp s3://genomeark/$name downloads/$name\n";
+        printf "FETCH data - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
+        printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+        printf "    s3://genomeark/$name \\\n";
+        printf "         downloads/$name\n";
+        printf "\n";
+
+        system("mkdir -p downloads")   if (! -e "downloads");
         system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
     }
-
-    #  Make the directory where we'll store summaries.
 
     #  If a bam, convert to fastq then summarize.
 
@@ -997,6 +1043,7 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf "EXTRACT and SUMMARIZE $name.summary\n";
+
             system("mkdir -p $name");
             system("rmdir    $name");
             system("samtools fasta downloads/$name | $seqrequester summarize - > $name.summary");
@@ -1009,6 +1056,7 @@ sub downloadAndSummarize ($$$) {
         if ((  -e "downloads/$name") &&
             (! -e "$name.summary")) {
             printf "SUMMARIZE $name.summary\n";
+
             system("mkdir -p $name");
             system("rmdir    $name");
             system("$seqrequester summarize downloads/$name > $name.summary");
@@ -1042,48 +1090,32 @@ sub estimateRawDataScaling ($$) {
     my $type    = shift @_;
     my @files;
 
-    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        my $filesize = $genomeArkSizes[$ii];
-        my $filename = $genomeArkFiles[$ii];
+    for (my $ii=0; $ii<$speciesLength; $ii++) {
+        my $filesize = $speciesSizes[$ii];
+        my $filename = $speciesFiles[$ii];
 
-        next   if ($filename !~ m!$name!);
+        next if ($filename =~ m!/assembly!);
 
-        if    (($type eq "10x") && ($filename =~ m!genomic_data/10x/.*q.gz$!)) {
-            push @files, "$filesize\0$filename";
-        }
+        push @files, "$filesize\0$filename"   if (($type eq "10x")        && ($filename =~ m!genomic_data/10x/.*q.gz$!));
+        push @files, "$filesize\0$filename"   if (($type eq "arima")      && ($filename =~ m!genomic_data/arima/.*q.gz$!));
+        push @files, "$filesize\0$filename"   if (($type eq "dovetail")   && ($filename =~ m!genomic_data/dovetail/.*q.gz$!));
+        push @files, "$filesize\0$filename"   if (($type eq "illumina")   && ($filename =~ m!genomic_data/illumina/.*q.gz$!));
+        push @files, "$filesize\0$filename"   if (($type eq "phase")      && ($filename =~ m!genomic_data/phase/.*q.gz$!));
 
-        if    (($type eq "arima") && ($filename =~ m!genomic_data/arima/.*q.gz$!)) {
-            push @files, "$filesize\0$filename";
-        }
-
-        if    (($type eq "dovetail") && ($filename =~ m!genomic_data/dovetail/.*q.gz$!)) {
-            push @files, "$filesize\0$filename";
-        }
-
-        if    (($type eq "illumina") && ($filename =~ m!genomic_data/illumina/.*q.gz$!)) {
-            push @files, "$filesize\0$filename";
-        }
-
-        if    (($type eq "pbsubreads") && ($filename =~ m!genomic_data/pacbio/.*subreads.*bam$!)) {
-            push @files, "$filesize\0$filename";
-        }
-
-        if    (($type eq "pbhifi") && ($filename =~ m!genomic_data/pacbio/.*ccs.*bam$!)) {
-            push @files, "$filesize\0$filename";
-        }
-
-        if    (($type eq "phase") && ($filename =~ m!genomic_data/phase/.*q.gz$!)) {
-            push @files, "$filesize\0$filename";
-        }
+        push @files, "$filesize\0$filename"   if (($type eq "pbsubreads") && (isHifi($filename) eq "S"));
+        push @files, "$filesize\0$filename"   if (($type eq "pbhifi")     && (isHifi($filename) eq "H"));
+        push @files, "$filesize\0$filename"   if (($type eq "pbhifisub")  && (isHifi($filename) eq "HS"));
     }
 
     @files = sort { $a <=> $b } @files;
 
+    #foreach my $f (@files) {
+    #    printf "FILE %12d - '%s'\n", split '\0', $f;
+    #}
+
     my $nFiles = scalar(@files);
 
-    if ($nFiles == 0) {
-        return(1.0);
-    }
+    return(1.0)   if ($nFiles == 0);
 
     my $f1 = int(1 * $nFiles / 4);
     my $f2 = int(2 * $nFiles / 4);
@@ -1125,27 +1157,32 @@ sub computeBionanoBases ($) {
     my $name    = shift @_;
     my @files;
 
-    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        my $filesize = $genomeArkSizes[$ii];
-        my $filename = $genomeArkFiles[$ii];
+    for (my $ii=0; $ii<$speciesLength; $ii++) {
+        my $filesize = $speciesSizes[$ii];
+        my $filename = $speciesFiles[$ii];
 
-        if    ($filename =~ m!$name.*genomic_data/bionano/.*bnx.gz$!) {
-            push @files, "$filesize\0$filename";
-        }
+        push @files, "$filesize\0$filename"   if ($filename =~ m!$name.*genomic_data/bionano/.*bnx.gz$!);
     }
+
+    #foreach my $f (@files) {
+    #    printf "BIONANO %12d - '%s'\n", split '\0', $f;
+    #}
 
     #  Download all the cmap files.
 
     foreach my $f (@files) {
         my ($size, $name) = split '\0', $f;
 
-        if (! -e "downloads") {
-            system("mkdir -p downloads");
-        }
-
         if ((! -e "downloads/$name") &&
             (! -e "$name.summary")) {
-            printf "FETCH size %6.3f GB '%s'\n", $size / 1024 / 1024 / 1024, $name;
+            printf "FETCH bionano - size %6.3f GB\n", $size / 1024 / 1024 / 1024;
+            printf "  aws --no-progress --no-sign-request s3 cp \\\n";
+            printf "    s3://genomeark/$name \\\n";
+            printf "         downloads/$name\n";
+            printf "\n";
+
+            system("mkdir -p downloads/$name");
+            system("rmdir    downloads/$name");
             system("aws --no-progress --no-sign-request s3 cp s3://genomeark/$name downloads/$name")  if ($SKIP_RAW == 0);
         }
     }
@@ -1245,11 +1282,51 @@ foreach my $species (@speciesList) {
     $data{"data_status"}         = "none";  #<em style=\"color:red\">no data</em>";
     $data{"assembly_status"}     = "none";  #<em style=\"color:red\">no assembly</em>";
 
-    #$data{"last_raw_data"}       = Do not set here; should only be present if data exists.
+    #data{"last_raw_data"}       = Do not set here; should only be present if data exists.
     $data{"last_updated"}        = 0;
 
     #
-    #  Find which assembly to use.
+    #  Track down any link to NCBI.
+    #
+
+    {
+        my $n = $data{'short_name'};
+
+        if (exists($genbankMap{"${n}pri"}))    { $data{'genbank_pri'} = $genbankMap{"${n}pri"}; }
+        if (exists($genbankMap{"${n}alt"}))    { $data{'genbank_alt'} = $genbankMap{"${n}alt"}; }
+        if (exists($genbankMap{"${n}mat"}))    { $data{'genbank_mat'} = $genbankMap{"${n}mat"}; }
+        if (exists($genbankMap{"${n}pat"}))    { $data{'genbank_pat'} = $genbankMap{"${n}pat"}; }
+    }
+
+    #
+    #  Find and save only the files related to this species.
+    #  Also remember the prefix of any pacbio ccs files, so we
+    #  can exclude those from the normal pacbio list.
+    #
+
+    undef @speciesEpoch;
+    undef @speciesSizes;
+    undef @speciesFiles;
+    undef %ccsPrefixes;
+
+    $speciesLength = 0;
+
+    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
+        next   if ($genomeArkFiles[$ii] !~ m!$name!);
+
+        push @speciesEpoch, $genomeArkEpoch[$ii];
+        push @speciesSizes, $genomeArkSizes[$ii];
+        push @speciesFiles, $genomeArkFiles[$ii];
+
+        if ($genomeArkFiles[$ii] =~ m!genomic_data/pacbio/(.*).ccs(\..*){0,1}\.bam!) {
+            $ccsPrefixes{$1} = 1;
+        }
+
+        $speciesLength++;
+    }
+
+    #
+    #  Scan all the files, estimating sizes and generating statistics.
     #
 
     $data{"assembly"} = $asm    = $asmToShow{$name};
@@ -1257,15 +1334,12 @@ foreach my $species (@speciesList) {
     print "\n";
     print "$name -- $asm\n";
 
-    for (my $ii=0; $ii<$genomeArkLength; $ii++) {
-        my $filesecs = $genomeArkEpoch[$ii];
-        my $filesize = $genomeArkSizes[$ii];
-        my $filename = $genomeArkFiles[$ii];
+    for (my $ii=0; $ii<$speciesLength; $ii++) {
+        my $filesecs = $speciesEpoch[$ii];
+        my $filesize = $speciesSizes[$ii];
+        my $filename = $speciesFiles[$ii];
 
-        next   if ($filename !~ m!$name!);
-
-        #print "  FILE '$filename'\n";
-
+        #  Save the date of the last file change.  This is shown on the web page as 'last updated'.
         if ($data{"last_updated"} < $filesecs) {
             $data{"last_updated"} = $filesecs;
         }
@@ -1296,86 +1370,23 @@ foreach my $species (@speciesList) {
     }
 
     #
-    #  Track down any link to NCBI.
-    #
-
-    {
-        my $n = $data{'short_name'};
-
-        if (exists($genbankMap{"${n}pri"}))    { $data{'genbank_pri'} = $genbankMap{"${n}pri"}; }
-        if (exists($genbankMap{"${n}alt"}))    { $data{'genbank_alt'} = $genbankMap{"${n}alt"}; }
-        if (exists($genbankMap{"${n}mat"}))    { $data{'genbank_mat'} = $genbankMap{"${n}mat"}; }
-        if (exists($genbankMap{"${n}pat"}))    { $data{'genbank_pat'} = $genbankMap{"${n}pat"}; }
-    }
-
-    #
     #  Finalize the genomic_data by adding to %data.
     #
-
-    #printf "\n";
-    #printf "%14d gzip bytes in %3d 10x datasets.\n",               $seqBytes{"10x"},          $seqFiles{"10x"}         if ($seqFiles{"10x"} > 0);
-    #printf "%14d gzip bytes in %3d Arima datasets.\n",             $seqBytes{"arima"},        $seqFiles{"arima"}       if ($seqFiles{"arima"} > 0);
-    #printf "%14d gzip bytes in %3d BioNano datasets.\n",           $seqBytes{"bionano"},      $seqFiles{"bionano"}     if ($seqFiles{"bionano"} > 0);
-    #printf "%14d gzip bytes in %3d Dovetail datasets.\n",          $seqBytes{"dovetail"} / 2, $seqFiles{"dovetail"}    if ($seqFiles{"dovetail"} > 0);
-    #printf "%14d gzip bytes in %3d Illumina datasets.\n",          $seqBytes{"illumina"} / 2, $seqFiles{"illumina"}    if ($seqFiles{"illumina"} > 0);
-    #printf "%14d bam  bytes in %3d PacBio datasets (scraps).\n",   $seqBytes{"pbscraps"},     $seqFiles{"pbscraps"}    if ($seqFiles{"pbscraps"} > 0);
-    #printf "%14d bam  bytes in %3d PacBio datasets (subreads).\n", $seqBytes{"pbsubreads"},   $seqFiles{"pbsubreads"}  if ($seqFiles{"pbsubreads"} > 0);
-    #printf "%14d bam  bytes in %3d PacBio datasets (hifi).\n",     $seqBytes{"pbhifi"},       $seqFiles{"pbhifi"}      if ($seqFiles{"pbhifi"} > 0);
-    #printf "%14d gzip bytes in %3d Phase datasets.\n",             $seqBytes{"phase"} / 2,    $seqFiles{"phase"}       if ($seqFiles{"phase"} > 0);
 
     $seqFiles{"dovetail"} /= 2;
     $seqFiles{"illumina"} /= 2;
     $seqFiles{"phase"}    /= 2;
 
-    foreach my $type (qw(10x arima bionano dovetail illumina pbscraps pbsubreads pbhifi phase)) {
+    foreach my $type (qw(10x arima bionano dovetail illumina pbsubreads pbhifi pbhifisub phase)) {
         if ($seqBytes{$type} > 0) {
-            #$data{"data_bytes"}           += $seqBytes{$type};
             $data{"data_${type}_bytes"}    = sprintf("%.3f GB", $seqBytes{$type} / 1024 / 1024 / 1024);
             $data{"data_${type}_coverage"} = "N/A";
-            $data{"data_${type}_bases"}    = "unknown";
+            $data{"data_${type}_bases"}    = "N/A";
             $data{"data_${type}_files"}    = $seqFiles{$type};
         }
     }
 
-    #
-    #  This is rather slow.
-    #
-
-    print "Finding raw data sizes.\n";
-
-    if ($data{"data_10x_scale"} == 0) {
-        $data{"data_10x_scale"} = estimateRawDataScaling($name, "10x");
-    }
-
-    if ($data{"data_arima_scale"} == 0) {
-        $data{"data_arima_scale"} = estimateRawDataScaling($name, "arima");
-    }
-
-    #  BIONANO is totally different.
-
-    if ($data{"data_dovetail_scale"} == 0) {
-        $data{"data_dovetail_scale"} = estimateRawDataScaling($name, "dovetail");
-    }
-
-    if ($data{"data_illumina_scale"} == 0) {
-        $data{"data_illumina_scale"} = estimateRawDataScaling($name, "illumina");
-    }
-
-    if ($data{"data_pbsubreads_scale"} == 0) {
-        $data{"data_pbsubreads_scale"} = estimateRawDataScaling($name, "pbsubreads");
-    }
-
-    if ($data{"data_pbhifi_scale"} == 0) {
-        $data{"data_pbhifi_scale"} = estimateRawDataScaling($name, "pbhifi");
-    }
-
-    if ($data{"data_phase_scale"} == 0) {
-        $data{"data_phase_scale"} = estimateRawDataScaling($name, "phase");
-    }
-
-    print "Found.\n";
-
-    #  If no genome size set, default to assembly size.
+    #  Update genome size if not set.
 
     if ($data{"genome_size"} == 0)   { $data{"genome_size"} = $data{"pri1length"}; }
     if ($data{"genome_size"} == 0)   { $data{"genome_size"} = $data{"pri2length"}; }
@@ -1384,6 +1395,23 @@ foreach my $species (@speciesList) {
 
     $data{"genome_size_display"} = prettifyBases($data{"genome_size"});
 
+    #
+    #  Estimate the number of bases in all the raw data files.
+    #    BIONANO is totally different and not supported.
+    #    HiFi subreads aren't computed either, not useful and big.
+    #
+
+    $data{"data_10x_scale"}        = estimateRawDataScaling($name, "10x")          if ($data{"data_10x_scale"}        == 0);
+    $data{"data_arima_scale"}      = estimateRawDataScaling($name, "arima")        if ($data{"data_arima_scale"}      == 0);
+    $data{"bionano_scale"}         = 0;
+    $data{"data_dovetail_scale"}   = estimateRawDataScaling($name, "dovetail")     if ($data{"data_dovetail_scale"}   == 0);
+    $data{"data_illumina_scale"}   = estimateRawDataScaling($name, "illumina")     if ($data{"data_illumina_scale"}   == 0);
+    $data{"data_pbsubreads_scale"} = estimateRawDataScaling($name, "pbsubreads")   if ($data{"data_pbsubreads_scale"} == 0);
+    $data{"data_pbhifi_scale"}     = estimateRawDataScaling($name, "pbhifi")       if ($data{"data_pbhifi_scale"}     == 0);
+    #data{"data_pbhifisub_scale"}  = estimateRawDataScaling($name, "pbhifisub")    if ($data{"data_pbhifisub_scale"}  == 0);
+    $data{"data_pbhifisub_scale"}  = 0;
+    $data{"data_phase_scale"}      = estimateRawDataScaling($name, "phase")        if ($data{"data_phase_scale"}      == 0);
+
     #  Figure out how much and what types of data exist.
 
     my $dataPac = 0;
@@ -1391,8 +1419,8 @@ foreach my $species (@speciesList) {
     my $dataHIC = 0;
     my $dataBio = 0;
 
-    sub uniquifyStringArray ($) {     #  Ain't perl great!
-        my @a = split '\0', $_[0];
+    sub uniquifyStringArray ($) {    #  Split a \0 delimited string into an
+        my @a = split '\0', $_[0];   #  array of unique elements.
         my %a;
 
         foreach my $a (@a) {
@@ -1408,7 +1436,7 @@ foreach my $species (@speciesList) {
             $data{"data_10x_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/10x/ .<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_10x_scale"} > 0) && ($data{"genome_size"} > 0)) {
             $data{"data_10x_coverage"}        = sprintf("%.2fx", $seqBytes{"10x"} * $data{"data_10x_scale"} / $data{"genome_size"});
             $data{"data_10x_bases"}           = prettifyBases($seqBytes{"10x"} * $data{"data_10x_scale"});
         }
@@ -1420,7 +1448,7 @@ foreach my $species (@speciesList) {
             $data{"data_arima_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/arima/ .<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_arima_scale"} > 0) && ($data{"genome_size"} > 0)) {
             $data{"data_arima_coverage"}      = sprintf("%.2fx", $seqBytes{"arima"} * $data{"data_arima_scale"} / $data{"genome_size"});
             $data{"data_arima_bases"}         = prettifyBases($seqBytes{"arima"} * $data{"data_arima_scale"});
         }
@@ -1432,7 +1460,7 @@ foreach my $species (@speciesList) {
             $data{"data_bionano_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/bionano/ .<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if ($data{"genome_size"} > 0) {    #  No scaling for bionano!
             my $b = computeBionanoBases($name);
             $data{"data_bionano_coverage"}    = sprintf("%.2fx", $b / $data{"genome_size"});
             $data{"data_bionano_bases"}       = prettifyBases($b);
@@ -1445,7 +1473,7 @@ foreach my $species (@speciesList) {
             $data{"data_dovetail_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/dovetail/ .<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_dovetail_scale"} > 0) && ($data{"genome_size"} > 0)) {
             $data{"data_dovetail_coverage"}   = sprintf("%.2fx", $seqBytes{"dovetail"} * $data{"data_dovetail_scale"} / $data{"genome_size"});
             $data{"data_dovetail_bases"}      = prettifyBases($seqBytes{"dovetail"} * $data{"data_dovetail_scale"});
         }
@@ -1457,7 +1485,7 @@ foreach my $species (@speciesList) {
             $data{"data_illumina_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/illumina/ .<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_illumina_scale"} > 0) && ($data{"genome_size"} > 0)) {
             $data{"data_illumina_coverage"}   = sprintf("%.2fx", $seqBytes{"illumina"} * $data{"data_illumina_scale"} / $data{"genome_size"});
             $data{"data_illumina_bases"}      = prettifyBases($seqBytes{"illumina"} * $data{"data_illumina_scale"});
         }
@@ -1468,7 +1496,7 @@ foreach my $species (@speciesList) {
             $data{"data_pbsubreads_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*ccs*bam*\"<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_pbsubreads_scale"} > 0) && ($data{"genome_size"} > 0)) {
             $data{"data_pbsubreads_coverage"} = sprintf("%.2fx", $seqBytes{"pbsubreads"} * $data{"data_pbsubreads_scale"} / $data{"genome_size"});
             $data{"data_pbsubreads_bases"}    = prettifyBases($seqBytes{"pbsubreads"} * $data{"data_pbsubreads_scale"});
         }
@@ -1480,9 +1508,21 @@ foreach my $species (@speciesList) {
             $data{"data_pbhifi_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/pacbio/ . --exclude \"*subreads.bam*\"<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_pbhifi_scale"}) && ($data{"genome_size"} > 0)) {
             $data{"data_pbhifi_coverage"} = sprintf("%.2fx", $seqBytes{"pbhifi"} * $data{"data_pbhifi_scale"} / $data{"genome_size"});
             $data{"data_pbhifi_bases"}    = prettifyBases($seqBytes{"pbhifi"} * $data{"data_pbhifi_scale"});
+        }
+        $dataPac++;
+    }
+
+    if (($seqBytes{"pbhifisub"} > 0)) {
+        #foreach my $k (uniquifyStringArray($seqIndiv{"pbhifisub"})) {
+        #    $data{"data_pbhifisub_links"} .= "aws s3 ......<br>";   #  NOT listed on the page.
+        #}
+
+        if (($data{"data_pbhifisub_scale"} > 0) && ($data{"genome_size"} > 0)) {
+            $data{"data_pbhifisub_coverage"} = sprintf("%.2fx", $seqBytes{"pbhifisub"} * $data{"data_pbhifisub_scale"} / $data{"genome_size"});
+            $data{"data_pbhifisub_bases"}    = prettifyBases($seqBytes{"pbhifisub"} * $data{"data_pbhifisub_scale"});
         }
         $dataPac++;
     }
@@ -1492,7 +1532,7 @@ foreach my $species (@speciesList) {
             $data{"data_phase_links"} .= "aws s3 --no-sign-request sync s3://genomeark/species/$k/genomic_data/phase/ .<br>";
         }
 
-        if ($data{"genome_size"} > 0) {
+        if (($data{"data_phase_scale"} > 0) && ($data{"genome_size"} > 0)) {
             $data{"data_phase_coverage"}      = sprintf("%.2fx", $seqBytes{"phase"} * $data{"data_phase_scale"} / $data{"genome_size"});
             $data{"data_phase_bases"}         = prettifyBases($seqBytes{"phase"} * $data{"data_phase_scale"});
         }

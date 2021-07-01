@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-10-11
 alt1filesize: 136 MB
+alt1length: 480967379
 alt1seq: https://s3.amazonaws.com/genomeark/species/Cyclopterus_lumpus/fCycLum1/assembly_curated/fCycLum1.alt.cur.20191011.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: lumpfish
 data_10x_bases: 61.32 Gbp
 data_10x_bytes: 29.348 GB
@@ -53,10 +55,11 @@ data_illumina_files: 3
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum4/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9488
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 55.96 Gbp
 data_pbsubreads_bytes: 96.721 GB
 data_pbsubreads_coverage: 55.96x
-data_pbsubreads_files: 10
+data_pbsubreads_files: 5
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cyclopterus_lumpus/fCycLum1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5388
 data_phase_scale: 1
@@ -98,6 +101,7 @@ name: Cyclopterus lumpus
 name_: Cyclopterus_lumpus
 pri1date: 2019-10-11
 pri1filesize: 157 MB
+pri1length: 572885595
 pri1n50ctg: 907248
 pri1n50scf: 17613290
 pri1seq: https://s3.amazonaws.com/genomeark/species/Cyclopterus_lumpus/fCycLum1/assembly_curated/fCycLum1.pri.cur.20191011.fasta.gz

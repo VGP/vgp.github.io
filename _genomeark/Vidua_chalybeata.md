@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: village indigobird
 data_10x_scale: 1
 data_arima_bases: 114.98 Gbp
@@ -16,10 +17,11 @@ data_illumina_files: 1
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Vidua_chalybeata/bVidCha1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.7811
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 33.94 Gbp
 data_pbsubreads_bytes: 121.194 GB
 data_pbsubreads_coverage: 29.26x
-data_pbsubreads_files: 53
+data_pbsubreads_files: 29
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Vidua_chalybeata/bVidCha1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.2608
 data_phase_scale: 1

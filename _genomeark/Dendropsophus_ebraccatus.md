@@ -1,6 +1,7 @@
 ---
 assembly: assembly_nhgri_trio_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: hourglass treefrog
 data_10x_bases: 140.86 Gbp
 data_10x_bytes: 70.302 GB
@@ -27,10 +28,11 @@ data_illumina_files: 11
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr4/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr5/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8541
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 176.34 Gbp
 data_pbsubreads_bytes: 304.866 GB
 data_pbsubreads_coverage: 69.98x
-data_pbsubreads_files: 52
+data_pbsubreads_files: 26
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5387
 data_phase_scale: 1
@@ -42,6 +44,7 @@ last_raw_data: 1594747600
 last_updated: 1619109517
 mat1date: 2019-10-08
 mat1filesize: 604 MB
+mat1length: 2359695815
 mat1n50ctg: 8863475
 mat1n50scf: 60908865
 mat1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_nhgri_trio_1.6/aDenEbr1.mat.asm.20191008.fasta.gz
@@ -98,6 +101,7 @@ name: Dendropsophus ebraccatus
 name_: Dendropsophus_ebraccatus
 pat1date: 2019-10-08
 pat1filesize: 598 MB
+pat1length: 2364711212
 pat1n50ctg: 7389730
 pat1n50scf: 61518660
 pat1seq: https://s3.amazonaws.com/genomeark/species/Dendropsophus_ebraccatus/aDenEbr1/assembly_nhgri_trio_1.6/aDenEbr1.pat.asm.20191008.fasta.gz

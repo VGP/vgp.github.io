@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-04-01
 alt1filesize: 155 MB
+alt1length: 528272450
 alt1n50ctg: 889301
 alt1n50scf: 915456
 alt1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_curated/fEcheNa1.alt.cur.20190401.fasta.gz
@@ -29,40 +30,44 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: live sharksucker
-data_10x_bases: unknown
+data_10x_bases: 126.47 Gbp
 data_10x_bytes: 79.751 GB
-data_10x_coverage: N/A
+data_10x_coverage: 232.39x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4769
 data_arima_scale: 1
-data_bionano_bases: unknown
 data_bionano_bytes: 0.900 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/bionano/ .<br>
-data_dovetail_bases: unknown
+data_dovetail_bases: 137.61 Gbp
 data_dovetail_bytes: 83.970 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 252.87x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5263
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 45.22 Gbp
 data_pbsubreads_bytes: 79.001 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 10
+data_pbsubreads_coverage: 83.09x
+data_pbsubreads_files: 5
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Echeneis_naucrates/fEcheNa1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5331
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900963505.1
+genome_size: 544212633
+genome_size_display: 0.54 Gbp
 last_raw_data: 1549384902
 last_updated: 1570719802
 mito1date: 2019-10-02
 mito1filesize: 5 KB
+mito1length: 16610
 mito1n50ctg: 16610
 mito1n50scf: 16610
 mito1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_MT_rockefeller/fEcheNa1.MT.20191002.fasta.gz
@@ -93,6 +98,7 @@ name: Echeneis naucrates
 name_: Echeneis_naucrates
 pri1date: 2019-04-01
 pri1filesize: 147 MB
+pri1length: 544212633
 pri1n50ctg: 12371513
 pri1n50scf: 23287306
 pri1seq: https://s3.amazonaws.com/genomeark/species/Echeneis_naucrates/fEcheNa1/assembly_curated/fEcheNa1.pri.cur.20190401.fasta.gz

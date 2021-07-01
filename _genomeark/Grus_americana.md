@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: Whooping crane
 data_10x_bases: 109.64 Gbp
 data_10x_bytes: 55.124 GB
@@ -26,10 +27,11 @@ data_illumina_files: 2
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.9288
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 232.21 Gbp
 data_pbsubreads_bytes: 419.518 GB
 data_pbsubreads_coverage: 232.21x
-data_pbsubreads_files: 4
+data_pbsubreads_files: 2
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Grus_americana/bGruAme1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5155
 data_phase_scale: 1

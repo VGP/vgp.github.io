@@ -1,6 +1,7 @@
 ---
 alt1date: 2018-12-11
 alt1filesize: 86 MB
+alt1length: 285706558
 alt1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_curated/bStrHab1.alt.cur.20181211.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: kakapo
 data_10x_bases: 131.40 Gbp
 data_10x_bytes: 63.445 GB
@@ -48,10 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Strigop
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 106.23 Gbp
 data_pbsubreads_bytes: 388.442 GB
 data_pbsubreads_coverage: 89.02x
-data_pbsubreads_files: 378
+data_pbsubreads_files: 126
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Strigops_habroptilus/bStrHab1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.2547
 data_phase_scale: 1
@@ -61,7 +64,7 @@ genbank_pri: GCA_004027225.2
 genome_size: 1193409022
 genome_size_display: 1.19 Gbp
 last_raw_data: 1568581172
-last_updated: 1616454067
+last_updated: 1580938436
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_MT_rockefeller/bStrHab1.MT.20191003.fasta.gz
@@ -92,6 +95,7 @@ name: Strigops habroptilus
 name_: Strigops_habroptilus
 pri1date: 2019-11-08
 pri1filesize: 333 MB
+pri1length: 1148597545
 pri1n50ctg: 9112118
 pri1n50scf: 83240647
 pri1seq: https://s3.amazonaws.com/genomeark/species/Strigops_habroptilus/bStrHab1/assembly_curated/bStrHab1.pri.cur.20191108.fasta.gz

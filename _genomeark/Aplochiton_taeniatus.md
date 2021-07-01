@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-03-04
 alt1filesize: 156 MB
+alt1length: 560414924
 alt1n50ctg: 156481
 alt1n50scf: 156481
 alt1seq: https://s3.amazonaws.com/genomeark/species/Aplochiton_taeniatus/fAplTae1/assembly_curated/fAplTae1.alt.cur.20210304.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Peladilla
-data_10x_bases: unknown
+data_10x_bases: 79.46 Gbp
 data_10x_bytes: 38.406 GB
-data_10x_coverage: N/A
+data_10x_coverage: 172.02x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Aplochiton_taeniatus/fAplTae1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9269
-data_arima_bases: unknown
+data_arima_bases: 90.88 Gbp
 data_arima_bytes: 54.188 GB
-data_arima_coverage: N/A
+data_arima_coverage: 196.73x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Aplochiton_taeniatus/fAplTae1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5619
-data_bionano_bases: unknown
 data_bionano_bytes: 1.708 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Aplochiton_taeniatus/fAplTae1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 63.49 Gbp
 data_pbsubreads_bytes: 110.371 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 12
+data_pbsubreads_coverage: 137.43x
+data_pbsubreads_files: 6
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Aplochiton_taeniatus/fAplTae1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5357
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_017639685.1
 genbank_pri: GCA_017639675.1
+genome_size: 461946147
+genome_size_display: 461.95 Mbp
 last_raw_data: 1572015575
 last_updated: 1615825431
 name: Aplochiton taeniatus
 name_: Aplochiton_taeniatus
 pri1date: 2021-03-04
 pri1filesize: 126 MB
+pri1length: 461946147
 pri1n50ctg: 956540
 pri1n50scf: 20392628
 pri1seq: https://s3.amazonaws.com/genomeark/species/Aplochiton_taeniatus/fAplTae1/assembly_curated/fAplTae1.pri.cur.20210304.fasta.gz

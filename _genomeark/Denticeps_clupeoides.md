@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-03-05
 alt1filesize: 134 MB
+alt1length: 457704509
 alt1n50ctg: 384267
 alt1n50scf: 384267
 alt1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_curated/fDenClu1.alt.cur.20190305.fasta.gz
@@ -29,40 +30,45 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: denticle herring
-data_10x_bases: unknown
+data_10x_bases: 116.93 Gbp
 data_10x_bytes: 73.032 GB
-data_10x_coverage: N/A
+data_10x_coverage: 206.08x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Denticeps_clupeoides/fDenClu1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4911
-data_arima_bases: unknown
+data_arima_bases: 54.73 Gbp
 data_arima_bytes: 27.804 GB
-data_arima_coverage: N/A
+data_arima_coverage: 96.45x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Denticeps_clupeoides/fDenClu1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8332
-data_bionano_bases: unknown
+data_bionano_bases: 720.97 Gbp
 data_bionano_bytes: 1.006 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 1270.66x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Denticeps_clupeoides/fDenClu1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 36.63 Gbp
 data_pbsubreads_bytes: 64.234 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 16
+data_pbsubreads_coverage: 64.56x
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Denticeps_clupeoides/fDenClu1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5311
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900700345.2
+genome_size: 567401054
+genome_size_display: 0.57 Gbp
 last_raw_data: 1535895622
 last_updated: 1570719802
 mito1date: 2019-10-02
 mito1filesize: 5 KB
+mito1length: 16916
 mito1n50ctg: 16916
 mito1n50scf: 16916
 mito1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_MT_rockefeller/fDenClu1.MT.20191002.fasta.gz
@@ -93,6 +99,7 @@ name: Denticeps clupeoides
 name_: Denticeps_clupeoides
 pri1date: 2019-03-05
 pri1filesize: 162 MB
+pri1length: 567401054
 pri1n50ctg: 3059612
 pri1n50scf: 22793177
 pri1seq: https://s3.amazonaws.com/genomeark/species/Denticeps_clupeoides/fDenClu1/assembly_curated/fDenClu1.pri.cur.20190305.fasta.gz

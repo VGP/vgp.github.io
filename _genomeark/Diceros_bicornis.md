@@ -1,6 +1,7 @@
 ---
 assembly: assembly_vgp_hifi
 assembly_status: <em style="color:red">low-quality draft assembly</em>
+bionano_scale: 0
 common_name: black rhinoceros
 data_10x_scale: 1
 data_arima_bases: 224.22 Gbp
@@ -27,20 +28,21 @@ data_pbhifi_coverage: 3.06x
 data_pbhifi_files: 7
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Diceros_bicornis/mDicBic1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.11
-data_pbsubreads_bases: 1684.33 Gbp
-data_pbsubreads_bytes: 3041.206 GB
-data_pbsubreads_coverage: 56.14x
-data_pbsubreads_files: 14
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Diceros_bicornis/mDicBic1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5158
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 3041.206 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 7
+data_pbhifisub_scale: 0
+data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 30000000000
 genome_size_display: 30.00 Gbp
 last_raw_data: 1618871876
-last_updated: 1620428890
+last_updated: 1620418971
 mat1date: 2021-05-07
 mat1filesize: 823 MB
+mat1length: 3014550993
 mat1seq: https://s3.amazonaws.com/genomeark/species/Diceros_bicornis/mDicBic1/assembly_vgp_hifi/mDicBic1.mat.asm.20210507.fasta.gz
 mat1sizes: |
   <table class="sequence-sizes-table">
@@ -69,6 +71,7 @@ name: Diceros bicornis
 name_: Diceros_bicornis
 pat1date: 2021-05-07
 pat1filesize: 833 MB
+pat1length: 3044793931
 pat1seq: https://s3.amazonaws.com/genomeark/species/Diceros_bicornis/mDicBic1/assembly_vgp_hifi/mDicBic1.pat.asm.20210507.fasta.gz
 pat1sizes: |
   <table class="sequence-sizes-table">

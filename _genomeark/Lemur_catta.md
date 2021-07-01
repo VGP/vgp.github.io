@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-06-02
 alt1filesize: 583 MB
+alt1length: 2261344730
 alt1n50ctg: 20470465
 alt1n50scf: 20470465
 alt1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_vgp_standard_2.0/mLemCat1.alt.asm.20210602.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_vgp_standard_2.0
 assembly: assembly_vgp_standard_2.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: ring-tailed lemur
 data_10x_bases: 277.44 Gbp
 data_10x_bytes: 130.708 GB
@@ -55,12 +57,12 @@ data_pbhifi_coverage: 20.81x
 data_pbhifi_files: 8
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Lemur_catta/mLemCat1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.1318
-data_pbsubreads_bases: 1192.90 Gbp
-data_pbsubreads_bytes: 2137.311 GB
-data_pbsubreads_coverage: 361.48x
-data_pbsubreads_files: 16
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lemur_catta/mLemCat1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5198
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 2137.311 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 8
+data_pbhifisub_scale: 0
+data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genome_size: 3300000000
@@ -98,6 +100,7 @@ name: Lemur catta
 name_: Lemur_catta
 pri1date: 2021-06-02
 pri1filesize: 621 MB
+pri1length: 2298087031
 pri1n50ctg: 16149179
 pri1n50scf: 56653852
 pri1seq: https://s3.amazonaws.com/genomeark/species/Lemur_catta/mLemCat1/assembly_vgp_standard_2.0/mLemCat1.pri.asm.20210602.fasta.gz

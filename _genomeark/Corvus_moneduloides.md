@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-09-26
 alt1filesize: 266 MB
+alt1length: 905198257
 alt1n50ctg: 1531320
 alt1n50scf: 1531320
 alt1seq: https://s3.amazonaws.com/genomeark/species/Corvus_moneduloides/bCorMon1/assembly_curated/bCorMon1.alt.cur.20190926.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: New Caledonian crow
 data_10x_bases: 128.91 Gbp
 data_10x_bytes: 60.207 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Corvus_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 77.60 Gbp
 data_pbsubreads_bytes: 132.848 GB
 data_pbsubreads_coverage: 62.08x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Corvus_moneduloides/bCorMon1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.544
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Corvus moneduloides
 name_: Corvus_moneduloides
 pri1date: 2019-09-26
 pri1filesize: 315 MB
+pri1length: 1112734206
 pri1n50ctg: 9839847
 pri1n50scf: 74461389
 pri1seq: https://s3.amazonaws.com/genomeark/species/Corvus_moneduloides/bCorMon1/assembly_curated/bCorMon1.pri.cur.20190926.fasta.gz

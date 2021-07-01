@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-12-06
 alt1filesize: 458 MB
+alt1length: 1575252831
 alt1n50ctg: 556712
 alt1n50scf: 556712
 alt1seq: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_curated/mOrnAna1.alt.cur.20191206.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: platypus
 data_10x_bases: 358.22 Gbp
 data_10x_bytes: 166.575 GB
@@ -50,10 +52,11 @@ data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Ornith
 data_dovetail_scale: 1.5548
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 138.76 Gbp
 data_pbsubreads_bytes: 499.736 GB
 data_pbsubreads_coverage: 65.20x
-data_pbsubreads_files: 202
+data_pbsubreads_files: 101
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.2586
 data_phase_bases: 105.08 Gbp
@@ -68,7 +71,7 @@ genbank_pri: GCA_004115215.4
 genome_size: 2128226567
 genome_size_display: 2.13 Gbp
 last_raw_data: 1536347587
-last_updated: 1616454082
+last_updated: 1582641359
 mito1date: 2019-10-03
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_MT_rockefeller/mOrnAna1.MT.20191003.fasta.gz
@@ -99,6 +102,7 @@ name: Ornithorhynchus anatinus
 name_: Ornithorhynchus_anatinus
 pri1date: 2019-12-06
 pri1filesize: 530 MB
+pri1length: 1859264908
 pri1n50ctg: 12418282
 pri1n50scf: 70139320
 pri1seq: https://s3.amazonaws.com/genomeark/species/Ornithorhynchus_anatinus/mOrnAna1/assembly_curated/mOrnAna1.pri.cur.20191206.fasta.gz

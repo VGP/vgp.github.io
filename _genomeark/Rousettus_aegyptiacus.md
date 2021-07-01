@@ -1,6 +1,7 @@
 ---
 assembly: assembly_dresden_DAmar1.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: Egyptian fruit bat
 data_10x_bases: 112.49 Gbp
 data_10x_bytes: 56.105 GB
@@ -22,10 +23,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Rousett
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 122.36 Gbp
 data_pbsubreads_bytes: 217.105 GB
 data_pbsubreads_coverage: 57.99x
-data_pbsubreads_files: 66
+data_pbsubreads_files: 33
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Rousettus_aegyptiacus/mRouAeg1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5249
 data_phase_scale: 1
@@ -39,6 +41,7 @@ name: Rousettus aegyptiacus
 name_: Rousettus_aegyptiacus
 pri1date: 2019-04-27
 pri1filesize: 599 MB
+pri1length: 1893602072
 pri1n50ctg: 18628968
 pri1n50scf: 112742020
 pri1seq: https://s3.amazonaws.com/genomeark/species/Rousettus_aegyptiacus/mRouAeg1/assembly_dresden_DAmar1.0/mRouAeg1.pri.asm.20190427.fasta.gz

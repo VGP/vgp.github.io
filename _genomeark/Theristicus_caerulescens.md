@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-05-25
 alt1filesize: 305 MB
+alt1length: 1041135290
 alt1n50ctg: 4883876
 alt1n50scf: 4883876
 alt1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_curated/bTheCae1.alt.cur.20210525.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: plumbeous ibis
 data_10x_bases: 138.91 Gbp
 data_10x_bytes: 69.418 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Therist
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 159.82 Gbp
 data_pbsubreads_bytes: 284.386 GB
 data_pbsubreads_coverage: 159.82x
-data_pbsubreads_files: 2
+data_pbsubreads_files: 1
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Theristicus_caerulescens/bTheCae1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5234
 data_phase_scale: 1
@@ -92,6 +95,7 @@ name: Theristicus caerulescens
 name_: Theristicus_caerulescens
 pri1date: 2021-05-25
 pri1filesize: 352 MB
+pri1length: 1203353649
 pri1n50ctg: 41768366
 pri1n50scf: 128006814
 pri1seq: https://s3.amazonaws.com/genomeark/species/Theristicus_caerulescens/bTheCae1/assembly_curated/bTheCae1.pri.cur.20210525.fasta.gz

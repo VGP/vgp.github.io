@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-05-25
 alt1filesize: 293 MB
+alt1length: 997329498
 alt1n50ctg: 1468797
 alt1n50scf: 1468797
 alt1seq: https://s3.amazonaws.com/genomeark/species/Trogon_surrucura/bTroSur1/assembly_curated/bTroSur1.alt.cur.20210525.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Suruca trogon
 data_10x_bases: 149.44 Gbp
 data_10x_bytes: 74.516 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Trogon_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 108.29 Gbp
 data_pbsubreads_bytes: 193.867 GB
 data_pbsubreads_coverage: 108.29x
-data_pbsubreads_files: 2
+data_pbsubreads_files: 1
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trogon_surrucura/bTroSur1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5202
 data_phase_scale: 1
@@ -92,6 +95,7 @@ name: Trogon surrucura
 name_: Trogon_surrucura
 pri1date: 2021-05-25
 pri1filesize: 339 MB
+pri1length: 1165727389
 pri1n50ctg: 17925126
 pri1n50scf: 87900276
 pri1seq: https://s3.amazonaws.com/genomeark/species/Trogon_surrucura/bTroSur1/assembly_curated/bTroSur1.pri.cur.20210525.fasta.gz

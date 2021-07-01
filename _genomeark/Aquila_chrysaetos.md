@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-07-02
 alt1filesize: 242 MB
+alt1length: 823060160
 alt1n50ctg: 640223
 alt1n50scf: 659735
 alt1seq: https://s3.amazonaws.com/genomeark/species/Aquila_chrysaetos/bAquChr1/assembly_curated/bAquChr1.alt.cur.20190702.fasta.gz
@@ -29,40 +30,44 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: European golden eagle
-data_10x_bases: unknown
+data_10x_bases: 131.79 Gbp
 data_10x_bytes: 80.203 GB
-data_10x_coverage: N/A
+data_10x_coverage: 109.51x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Aquila_chrysaetos/bAquChr1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5304
 data_arima_scale: 1
-data_bionano_bases: unknown
 data_bionano_bytes: 0.501 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Aquila_chrysaetos/bAquChr1/genomic_data/bionano/ .<br>
-data_dovetail_bases: unknown
+data_dovetail_bases: 126.68 Gbp
 data_dovetail_bytes: 77.987 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 105.26x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Aquila_chrysaetos/bAquChr1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5128
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 73.98 Gbp
 data_pbsubreads_bytes: 131.083 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 32
+data_pbsubreads_coverage: 61.47x
+data_pbsubreads_files: 16
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Aquila_chrysaetos/bAquChr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5256
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_902153765.2
+genome_size: 1203454851
+genome_size_display: 1.20 Gbp
 last_raw_data: 1554458077
 last_updated: 1570719699
 mito1date: 2019-10-01
 mito1filesize: 5 KB
+mito1length: 18265
 mito1n50ctg: 18265
 mito1n50scf: 18265
 mito1seq: https://s3.amazonaws.com/genomeark/species/Aquila_chrysaetos/bAquChr1/assembly_MT_rockefeller/bAquChr1.MT.20191001.fasta.gz
@@ -83,9 +88,9 @@ mito1sizes: |
   </tr>
   </thead>
   <tbody>
-  <tr><td> 10 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 18.26 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 18.26 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 18.26 Kbp </td><td> 0 </td><td> 18.26 Kbp </td></tr>  </tbody>
+  <tr><td> 10 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 20 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 30 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 40 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr style="background-color:#cccccc;"><td> 50 </td><td> 0 </td><td style="background-color:#ff8888;"> 18.27 Kbp </td><td> 0 </td><td style="background-color:#ff8888;"> 18.27 Kbp </td></tr>  <tr><td> 60 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 70 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 80 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 90 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  <tr><td> 100 </td><td> 0 </td><td> 18.27 Kbp </td><td> 0 </td><td> 18.27 Kbp </td></tr>  </tbody>
   <tfoot>
-  <tr><th> 1.000x </th><th> 1 </th><th> 18.26 Kbp </th><th> 1 </th><th> 18.26 Kbp </th></tr>
+  <tr><th> 1.000x </th><th> 1 </th><th> 18.27 Kbp </th><th> 1 </th><th> 18.27 Kbp </th></tr>
   </tfoot>
   </table>
 mito1version: assembly_MT_rockefeller
@@ -93,6 +98,7 @@ name: Aquila chrysaetos chrysaetos
 name_: Aquila_chrysaetos
 pri1date: 2019-07-02
 pri1filesize: 352 MB
+pri1length: 1203454851
 pri1n50ctg: 21924221
 pri1n50scf: 46934974
 pri1seq: https://s3.amazonaws.com/genomeark/species/Aquila_chrysaetos/bAquChr1/assembly_curated/bAquChr1.pri.cur.20190702.fasta.gz

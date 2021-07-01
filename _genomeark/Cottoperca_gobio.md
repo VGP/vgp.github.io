@@ -1,6 +1,7 @@
 ---
 alt3date: 2018-10-26
 alt3filesize: 194 MB
+alt3length: 671265480
 alt3n50ctg: 100169
 alt3n50scf: 100256
 alt3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_curated/fCotGob3.alt.cur.20181026.fasta.gz
@@ -29,6 +30,7 @@ alt3sizes: |
 alt3version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: channel bull blenny
 data_10x_bases: 97.65 Gbp
 data_10x_bytes: 65.656 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottope
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 48.61 Gbp
 data_pbsubreads_bytes: 86.794 GB
 data_pbsubreads_coverage: 69.44x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Cottoperca_gobio/fCotGob3/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5216
 data_phase_scale: 1
@@ -63,11 +66,12 @@ genbank_pri: GCA_900634415.1
 genome_size: 700000000
 genome_size_display: 0.70 Gbp
 last_raw_data: 1523523546
-last_updated: 1616454076
+last_updated: 1547564000
 name: Cottoperca gobio
 name_: Cottoperca_gobio
 pri3date: 2018-10-26
 pri3filesize: 160 MB
+pri3length: 609391784
 pri3n50ctg: 5027187
 pri3n50scf: 24104793
 pri3seq: https://s3.amazonaws.com/genomeark/species/Cottoperca_gobio/fCotGob3/assembly_curated/fCotGob3.pri.cur.20181026.fasta.gz

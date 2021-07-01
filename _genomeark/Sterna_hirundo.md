@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-20
 alt1filesize: 347 MB
+alt1length: 1175438911
 alt1n50ctg: 4333961
 alt1n50scf: 4333961
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sterna_hirundo/bSteHir1/assembly_curated/bSteHir1.alt.cur.20190820.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common tern
 data_10x_bases: 237.03 Gbp
 data_10x_bytes: 123.351 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sterna_
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 95.07 Gbp
 data_pbsubreads_bytes: 162.558 GB
 data_pbsubreads_coverage: 67.91x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sterna_hirundo/bSteHir1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5447
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Sterna hirundo
 name_: Sterna_hirundo
 pri1date: 2019-08-20
 pri1filesize: 358 MB
+pri1length: 1229953488
 pri1n50ctg: 18745483
 pri1n50scf: 83246160
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sterna_hirundo/bSteHir1/assembly_curated/bSteHir1.pri.cur.20190820.fasta.gz

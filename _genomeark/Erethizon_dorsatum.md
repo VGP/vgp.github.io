@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: North American porcupine
 data_10x_bases: 235.82 Gbp
 data_10x_bytes: 119.919 GB
@@ -21,10 +22,11 @@ data_illumina_files: 1
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Erethizon_dorsatum/mEreDor1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.894
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 332.82 Gbp
 data_pbsubreads_bytes: 592.091 GB
 data_pbsubreads_coverage: 114.76x
-data_pbsubreads_files: 4
+data_pbsubreads_files: 2
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Erethizon_dorsatum/mEreDor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5235
 data_phase_scale: 1

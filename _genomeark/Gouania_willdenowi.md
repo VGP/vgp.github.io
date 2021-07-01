@@ -1,6 +1,7 @@
 ---
 alt2date: 2018-11-16
 alt2filesize: 18 MB
+alt2length: 62949365
 alt2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_curated/fGouWil2.alt.cur.20181116.fasta.gz
 alt2sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: blunt-snouted clingfish
 data_10x_bases: 108.26 Gbp
 data_10x_bytes: 75.206 GB
@@ -48,10 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Gouania
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 56.71 Gbp
 data_pbsubreads_bytes: 100.723 GB
 data_pbsubreads_coverage: 47.97x
-data_pbsubreads_files: 32
+data_pbsubreads_files: 16
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gouania_willdenowi/fGouWil2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5244
 data_phase_scale: 1
@@ -60,7 +63,7 @@ genbank_alt: GCA_900650505.1
 genome_size: 1182215999
 genome_size_display: 1.18 Gbp
 last_raw_data: 1523524486
-last_updated: 1616454078
+last_updated: 1570719802
 mito2date: 2019-10-02
 mito2filesize: 5 KB
 mito2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_MT_rockefeller/fGouWil2.MT.20191002.fasta.gz
@@ -91,6 +94,7 @@ name: Gouania willdenowi
 name_: Gouania_willdenowi
 pri2date: 2018-11-16
 pri2filesize: 266 MB
+pri2length: 937150793
 pri2n50ctg: 1178098
 pri2n50scf: 36801689
 pri2seq: https://s3.amazonaws.com/genomeark/species/Gouania_willdenowi/fGouWil2/assembly_curated/fGouWil2.pri.cur.20181116.fasta.gz

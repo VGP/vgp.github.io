@@ -1,6 +1,7 @@
 ---
 assembly: assembly_dresden_DAmar1.0
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: Kuhl's pipistrelle
 data_10x_bases: 95.50 Gbp
 data_10x_bytes: 59.271 GB
@@ -17,10 +18,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipistr
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 144.77 Gbp
 data_pbsubreads_bytes: 253.486 GB
 data_pbsubreads_coverage: 81.53x
-data_pbsubreads_files: 96
+data_pbsubreads_files: 48
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pipistrellus_kuhlii/mPipKuh1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5319
 data_phase_bases: 30.97 Gbp
@@ -65,6 +67,7 @@ name: Pipistrellus kuhlii
 name_: Pipistrellus_kuhlii
 pri1date: 2019-04-24
 pri1filesize: 562 MB
+pri1length: 1775719727
 pri1n50ctg: 10239182
 pri1n50scf: 80237350
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pipistrellus_kuhlii/mPipKuh1/assembly_dresden_DAmar1.0/mPipKuh1.pri.asm.20190424.fasta.gz

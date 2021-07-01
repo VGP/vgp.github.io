@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-11-08
 alt1filesize: 224 MB
+alt1length: 770553912
 alt1n50ctg: 381593
 alt1n50scf: 381593
 alt1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_curated/fNotCel1.alt.cur.20191108.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: spotty wrasse
 data_10x_bases: 52.53 Gbp
 data_10x_bytes: 26.884 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolab
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 71.06 Gbp
 data_pbsubreads_bytes: 123.727 GB
 data_pbsubreads_coverage: 71.06x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Notolabrus_celidotus/fNotCel1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5349
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Notolabrus celidotus
 name_: Notolabrus_celidotus
 pri1date: 2019-11-08
 pri1filesize: 240 MB
+pri1length: 846744262
 pri1n50ctg: 2526821
 pri1n50scf: 35656165
 pri1seq: https://s3.amazonaws.com/genomeark/species/Notolabrus_celidotus/fNotCel1/assembly_curated/fNotCel1.pri.cur.20191108.fasta.gz

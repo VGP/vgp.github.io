@@ -1,5 +1,6 @@
 ---
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: Saker falcon
 data_10x_scale: 1
 data_arima_bases: 92.19 Gbp
@@ -20,12 +21,12 @@ data_pbhifi_coverage: 2.96x
 data_pbhifi_files: 2
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_cherrug/bFalChe1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.2044
-data_pbsubreads_bases: 597.42 Gbp
-data_pbsubreads_bytes: 1077.435 GB
-data_pbsubreads_coverage: 49.78x
-data_pbsubreads_files: 4
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Falco_cherrug/bFalChe1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5164
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 1077.435 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 2
+data_pbhifisub_scale: 0
+data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genome_size: 12000000000

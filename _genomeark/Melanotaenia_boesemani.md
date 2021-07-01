@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-03-12
 alt1filesize: 221 MB
+alt1length: 764404102
 alt1n50ctg: 411984
 alt1n50scf: 412532
 alt1seq: https://s3.amazonaws.com/genomeark/species/Melanotaenia_boesemani/fMelBoe1/assembly_curated/fMelBoe1.alt.cur.20210312.fasta.gz
@@ -29,41 +30,45 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Boeseman's rainbowfish
-data_10x_bases: unknown
+data_10x_bases: 119.96 Gbp
 data_10x_bytes: 59.239 GB
-data_10x_coverage: N/A
+data_10x_coverage: 138.59x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Melanotaenia_boesemani/fMelBoe1/genomic_data/10x/ .<br>
 data_10x_scale: 1.886
-data_arima_bases: unknown
+data_arima_bases: 106.55 Gbp
 data_arima_bytes: 52.028 GB
-data_arima_coverage: N/A
+data_arima_coverage: 123.09x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Melanotaenia_boesemani/fMelBoe1/genomic_data/arima/ .<br>
 data_arima_scale: 1.9072
-data_bionano_bases: unknown
 data_bionano_bytes: 1.459 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Melanotaenia_boesemani/fMelBoe1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 62.00 Gbp
 data_pbsubreads_bytes: 107.420 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 12
+data_pbsubreads_coverage: 71.62x
+data_pbsubreads_files: 6
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Melanotaenia_boesemani/fMelBoe1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5375
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_017639755.1
 genbank_pri: GCA_017639745.1
+genome_size: 865575964
+genome_size_display: 0.87 Gbp
 last_raw_data: 1603704613
 last_updated: 1615806311
 mito1date: 2019-10-02
 mito1filesize: 5 KB
+mito1length: 16541
 mito1n50ctg: 16541
 mito1n50scf: 16541
 mito1seq: https://s3.amazonaws.com/genomeark/species/Melanotaenia_boesemani/fMelBoe1/assembly_MT_rockefeller/fMelBoe1.MT.20191002.fasta.gz
@@ -94,6 +99,7 @@ name: Melanotaenia boesemani
 name_: Melanotaenia_boesemani
 pri1date: 2021-03-12
 pri1filesize: 248 MB
+pri1length: 865575964
 pri1n50ctg: 9299978
 pri1n50scf: 37878235
 pri1seq: https://s3.amazonaws.com/genomeark/species/Melanotaenia_boesemani/fMelBoe1/assembly_curated/fMelBoe1.pri.cur.20210312.fasta.gz

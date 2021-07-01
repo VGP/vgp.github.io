@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-12-09
 alt1filesize: 228 MB
+alt1length: 842094559
 alt1n50ctg: 94766
 alt1n50scf: 95250
 alt1seq: https://s3.amazonaws.com/genomeark/species/Petromyzon_marinus/kPetMar1/assembly_curated/kPetMar1.alt.cur.20191209.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: sea lamprey
 data_10x_bases: 100.51 Gbp
 data_10x_bytes: 50.509 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromy
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 93.54 Gbp
 data_pbsubreads_bytes: 159.414 GB
 data_pbsubreads_coverage: 62.36x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Petromyzon_marinus/kPetMar1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5465
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Petromyzon marinus
 name_: Petromyzon_marinus
 pri1date: 2019-12-09
 pri1filesize: 283 MB
+pri1length: 1089034415
 pri1n50ctg: 966156
 pri1n50scf: 10963866
 pri1seq: https://s3.amazonaws.com/genomeark/species/Petromyzon_marinus/kPetMar1/assembly_curated/kPetMar1.pri.cur.20191209.fasta.gz

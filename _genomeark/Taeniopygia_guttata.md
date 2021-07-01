@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-04-09
 alt1filesize: 257 MB
+alt1length: 887567949
 alt1n50ctg: 2519600
 alt1n50scf: 2519600
 alt1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.alt.cur.20210409.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 alt2date: 2018-10-19
 alt2filesize: 279 MB
+alt2length: 947919715
 alt2n50ctg: 889877
 alt2n50scf: 892071
 alt2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.alt.cur.20181019.fasta.gz
@@ -57,6 +59,7 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: zebra finch
 data_10x_bases: 410.19 Gbp
 data_10x_bytes: 246.371 GB
@@ -83,10 +86,11 @@ data_illumina_files: 4
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut3/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut4/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8033
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 159.85 Gbp
 data_pbsubreads_bytes: 574.778 GB
 data_pbsubreads_coverage: 154.35x
-data_pbsubreads_files: 394
+data_pbsubreads_files: 138
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Taeniopygia_guttata/bTaeGut2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.259
 data_phase_scale: 1
@@ -101,6 +105,7 @@ last_raw_data: 1581539155
 last_updated: 1617964880
 mat2date: 2020-01-24
 mat2filesize: 284 MB
+mat2length: 995935930
 mat2n50ctg: 5135743
 mat2n50scf: 71673800
 mat2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.mat.cur.20200124.fasta.gz
@@ -183,6 +188,7 @@ name: Taeniopygia guttata
 name_: Taeniopygia_guttata
 pat2date: 2020-01-24
 pat2filesize: 298 MB
+pat2length: 1047573732
 pat2n50ctg: 4426777
 pat2n50scf: 71343966
 pat2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.pat.cur.20200124.fasta.gz
@@ -211,6 +217,7 @@ pat2sizes: |
 pat2version: assembly_curated
 pri1date: 2021-04-09
 pri1filesize: 298 MB
+pri1length: 1035408015
 pri1n50ctg: 9018386
 pri1n50scf: 71569005
 pri1seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut1/assembly_curated/bTaeGut1.pri.cur.20210409.fasta.gz
@@ -239,6 +246,7 @@ pri1sizes: |
 pri1version: assembly_curated
 pri2date: 2019-11-12
 pri2filesize: 313 MB
+pri2length: 1106280703
 pri2n50ctg: 4149229
 pri2n50scf: 73512665
 pri2seq: https://s3.amazonaws.com/genomeark/species/Taeniopygia_guttata/bTaeGut2/assembly_curated/bTaeGut2.pri.cur.20191112.fasta.gz

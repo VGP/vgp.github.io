@@ -1,41 +1,43 @@
 ---
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: sterlet
-data_10x_bases: unknown
+data_10x_bases: N/A
 data_10x_bytes: 158.814 GB
 data_10x_coverage: N/A
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/10x/ .<br>
 data_10x_scale: 1.4663
 data_arima_scale: 1
-data_bionano_bases: unknown
+data_bionano_bases: N/A
 data_bionano_bytes: 2.769 GB
 data_bionano_coverage: N/A
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/bionano/ .<br>
-data_dovetail_bases: unknown
+data_dovetail_bases: N/A
 data_dovetail_bytes: 160.485 GB
 data_dovetail_coverage: N/A
 data_dovetail_files: 2
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.4822
-data_illumina_bases: unknown
+data_illumina_bases: N/A
 data_illumina_bytes: 136.869 GB
 data_illumina_coverage: N/A
 data_illumina_files: 2
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut1/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut2/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.4556
-data_pbhifi_bases: unknown
+data_pbhifi_bases: N/A
 data_pbhifi_bytes: 74.553 GB
 data_pbhifi_coverage: N/A
-data_pbhifi_files: 8
+data_pbhifi_files: 4
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.376
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: N/A
 data_pbsubreads_bytes: 636.692 GB
 data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 8
+data_pbsubreads_files: 4
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Acipenser_ruthenus/fAciRut3/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5227
 data_phase_scale: 1
@@ -46,6 +48,7 @@ last_raw_data: 1597409615
 last_updated: 1597409615
 mat3date: 2019-12-04
 mat3filesize: 467 MB
+mat3length: 1638742712
 mat3n50ctg: 10828506
 mat3n50scf: 43124428
 mat3seq: https://s3.amazonaws.com/genomeark/species/Acipenser_ruthenus/fAciRut3/assembly_curated/fAciRut3.mat.cur.20191204.fasta.gz
@@ -74,6 +77,7 @@ mat3sizes: |
 mat3version: assembly_curated
 mito3date: 2019-10-02
 mito3filesize: 5 KB
+mito3length: 16706
 mito3n50ctg: 16706
 mito3n50scf: 16706
 mito3seq: https://s3.amazonaws.com/genomeark/species/Acipenser_ruthenus/fAciRut3/assembly_MT_rockefeller/fAciRut3.MT.20191002.fasta.gz
@@ -104,6 +108,7 @@ name: Acipenser ruthenus
 name_: Acipenser_ruthenus
 pat3date: 2019-12-04
 pat3filesize: 473 MB
+pat3length: 1663879616
 pat3n50ctg: 11500722
 pat3n50scf: 42536799
 pat3seq: https://s3.amazonaws.com/genomeark/species/Acipenser_ruthenus/fAciRut3/assembly_curated/fAciRut3.pat.cur.20191204.fasta.gz

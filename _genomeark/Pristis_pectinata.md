@@ -1,6 +1,7 @@
 ---
 alt2date: 2020-12-15
 alt2filesize: 497 MB
+alt2length: 1694166684
 alt2n50ctg: 98930
 alt2n50scf: 98930
 alt2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.alt.cur.20201215.fasta.gz
@@ -29,6 +30,7 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: smalltooth sawfish
 data_10x_bases: 181.83 Gbp
 data_10x_bytes: 94.045 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pristis
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 173.35 Gbp
 data_pbsubreads_bytes: 296.938 GB
 data_pbsubreads_coverage: 61.91x
-data_pbsubreads_files: 34
+data_pbsubreads_files: 17
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pristis_pectinata/sPriPec2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5437
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Pristis pectinata
 name_: Pristis_pectinata
 pri2date: 2020-12-15
 pri2filesize: 659 MB
+pri2length: 2267840987
 pri2n50ctg: 11068733
 pri2n50scf: 53952022
 pri2seq: https://s3.amazonaws.com/genomeark/species/Pristis_pectinata/sPriPec2/assembly_curated/sPriPec2.pri.cur.20201215.fasta.gz

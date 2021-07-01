@@ -1,6 +1,7 @@
 ---
 assembly: vgp_assembly_2.0
 assembly_status: <em style="color:red">no assembly</em>
+bionano_scale: 0
 common_name: chicken
 data_10x_bases: 292.20 Gbp
 data_10x_bytes: 143.454 GB
@@ -32,12 +33,17 @@ data_pbhifi_coverage: 32.67x
 data_pbhifi_files: 9
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.0933
-data_pbsubreads_bases: 1645.01 Gbp
-data_pbsubreads_bytes: 2974.244 GB
-data_pbsubreads_coverage: 1359.51x
-data_pbsubreads_files: 48
-data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal4/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
-data_pbsubreads_scale: 0.5151
+data_pbhifisub_bases: N/A
+data_pbhifisub_bytes: 1452.949 GB
+data_pbhifisub_coverage: N/A
+data_pbhifisub_files: 9
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 881.59 Gbp
+data_pbsubreads_bytes: 1521.295 GB
+data_pbsubreads_coverage: 728.59x
+data_pbsubreads_files: 15
+data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>aws s3 --no-sign-request sync s3://genomeark/species/Gallus_gallus/bGalGal5/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
+data_pbsubreads_scale: 0.5397
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_016700215.1
@@ -46,7 +52,7 @@ genome_size: 1210000000
 genome_size_display: 1.21 Gbp
 genome_size_method: null
 last_raw_data: 1618861927
-last_updated: 1620247798
+last_updated: 1618861927
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Gallus_gallus/bGalGal1/assembly_MT_rockefeller/bGalGal1.MT.20191002.fasta.gz

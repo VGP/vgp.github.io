@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-09
 alt1filesize: 112 MB
+alt1length: 390768305
 alt1n50ctg: 161267
 alt1n50scf: 161267
 alt1seq: https://s3.amazonaws.com/genomeark/species/Asterias_rubens/eAstRub1/assembly_curated/eAstRub1.alt.cur.20190809.fasta.gz
@@ -29,36 +30,41 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common starfish
 data_10x_scale: 1
 data_arima_scale: 1
-data_dovetail_bases: unknown
+data_dovetail_bases: 128.52 Gbp
 data_dovetail_bytes: 77.682 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 307.76x
 data_dovetail_files: 1
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Asterias_rubens/eAstRub1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5408
-data_illumina_bases: unknown
+data_illumina_bases: 119.48 Gbp
 data_illumina_bytes: 78.804 GB
-data_illumina_coverage: N/A
+data_illumina_coverage: 286.10x
 data_illumina_files: 1
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Asterias_rubens/eAstRub1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.412
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 47.09 Gbp
 data_pbsubreads_bytes: 83.954 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 16
+data_pbsubreads_coverage: 112.77x
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Asterias_rubens/eAstRub1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5224
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_902459445.1
 genbank_pri: GCA_902459465.3
+genome_size: 417601740
+genome_size_display: 417.60 Mbp
 last_raw_data: 1565272838
 last_updated: 1575763686
 mito1date: 2019-12-07
 mito1filesize: 5 KB
+mito1length: 16418
 mito1n50ctg: 16418
 mito1n50scf: 16418
 mito1seq: https://s3.amazonaws.com/genomeark/species/Asterias_rubens/eAstRub1/assembly_MT_rockefeller/eAstRub1.MT.20191207.fasta.gz
@@ -89,6 +95,7 @@ name: Asterias rubens
 name_: Asterias_rubens
 pri1date: 2019-08-09
 pri1filesize: 119 MB
+pri1length: 417601740
 pri1n50ctg: 1383654
 pri1n50scf: 20558067
 pri1seq: https://s3.amazonaws.com/genomeark/species/Asterias_rubens/eAstRub1/assembly_curated/eAstRub1.pri.cur.20190809.fasta.gz

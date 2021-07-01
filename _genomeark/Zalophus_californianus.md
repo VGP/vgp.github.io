@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-03-13
 alt1filesize: 578 MB
+alt1length: 1970935876
 alt1n50ctg: 596618
 alt1n50scf: 596618
 alt1seq: https://s3.amazonaws.com/genomeark/species/Zalophus_californianus/mZalCal1/assembly_curated/mZalCal1.alt.cur.20200313.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: California sea lion
 data_10x_bases: 193.97 Gbp
 data_10x_bytes: 94.215 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Zalophu
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 253.60 Gbp
 data_pbsubreads_bytes: 449.022 GB
 data_pbsubreads_coverage: 80.51x
-data_pbsubreads_files: 6
+data_pbsubreads_files: 3
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Zalophus_californianus/mZalCal1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.526
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Zalophus californianus
 name_: Zalophus_californianus
 pri1date: 2020-03-13
 pri1filesize: 698 MB
+pri1length: 2409668595
 pri1n50ctg: 24587606
 pri1n50scf: 129409743
 pri1seq: https://s3.amazonaws.com/genomeark/species/Zalophus_californianus/mZalCal1/assembly_curated/mZalCal1.pri.cur.20200313.fasta.gz

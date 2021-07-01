@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-05-23
 alt1filesize: 308 MB
+alt1length: 1035214426
 alt1n50ctg: 776317
 alt1n50scf: 776317
 alt1seq: https://s3.amazonaws.com/genomeark/species/Streptopelia_turtur/bStrTur1/assembly_curated/bStrTur1.alt.cur.20190523.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: turtle dove
-data_10x_bases: unknown
+data_10x_bases: 133.52 Gbp
 data_10x_bytes: 81.016 GB
-data_10x_coverage: N/A
+data_10x_coverage: 113.26x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5349
-data_arima_bases: unknown
+data_arima_bases: 123.74 Gbp
 data_arima_bytes: 58.781 GB
-data_arima_coverage: N/A
+data_arima_coverage: 104.96x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/arima/ .<br>
 data_arima_scale: 1.9606
-data_bionano_bases: unknown
 data_bionano_bytes: 0.536 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 61.73 Gbp
 data_pbsubreads_bytes: 107.985 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 36
+data_pbsubreads_coverage: 52.36x
+data_pbsubreads_files: 18
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Streptopelia_turtur/bStrTur1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5324
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_901699165.2
 genbank_pri: GCA_901699155.2
+genome_size: 1178928410
+genome_size_display: 1.18 Gbp
 last_raw_data: 1548798897
 last_updated: 1559462111
 name: Streptopelia turtur
 name_: Streptopelia_turtur
 pri1date: 2019-05-23
 pri1filesize: 344 MB
+pri1length: 1178928410
 pri1n50ctg: 3730413
 pri1n50scf: 80150727
 pri1seq: https://s3.amazonaws.com/genomeark/species/Streptopelia_turtur/bStrTur1/assembly_curated/bStrTur1.pri.cur.20190523.fasta.gz

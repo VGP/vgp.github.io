@@ -1,6 +1,7 @@
 ---
 alt2date: 2018-12-05
 alt2filesize: 140 MB
+alt2length: 486545135
 alt2n50ctg: 409592
 alt2n50scf: 417098
 alt2seq: https://s3.amazonaws.com/genomeark/species/Parambassis_ranga/fParRan2/assembly_curated/fParRan2.alt.cur.20181205.fasta.gz
@@ -29,40 +30,45 @@ alt2sizes: |
 alt2version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Indian glassy fish
-data_10x_bases: unknown
+data_10x_bases: 127.79 Gbp
 data_10x_bytes: 81.181 GB
-data_10x_coverage: N/A
+data_10x_coverage: 231.91x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/10x/ .<br>
 data_10x_scale: 1.466
-data_arima_bases: unknown
+data_arima_bases: 58.97 Gbp
 data_arima_bytes: 29.917 GB
-data_arima_coverage: N/A
+data_arima_coverage: 107.01x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/arima/ .<br>
 data_arima_scale: 1.8356
-data_bionano_bases: unknown
+data_bionano_bases: 727.91 Gbp
 data_bionano_bytes: 1.081 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 1321.04x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 54.99 Gbp
 data_pbsubreads_bytes: 95.977 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 14
+data_pbsubreads_coverage: 99.80x
+data_pbsubreads_files: 7
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Parambassis_ranga/fParRan2/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5336
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900651595.1
+genome_size: 551012959
+genome_size_display: 0.55 Gbp
 last_raw_data: 1535575225
 last_updated: 1576512992
 mito2date: 2019-12-16
 mito2filesize: 5 KB
+mito2length: 17024
 mito2n50ctg: 17024
 mito2n50scf: 17024
 mito2seq: https://s3.amazonaws.com/genomeark/species/Parambassis_ranga/fParRan2/assembly_MT_rockefeller/fParRan2.MT.20191216.fasta.gz
@@ -93,6 +99,7 @@ name: Parambassis ranga
 name_: Parambassis_ranga
 pri2date: 2018-12-05
 pri2filesize: 144 MB
+pri2length: 551012959
 pri2n50ctg: 5080925
 pri2n50scf: 22993012
 pri2seq: https://s3.amazonaws.com/genomeark/species/Parambassis_ranga/fParRan2/assembly_curated/fParRan2.pri.cur.20181205.fasta.gz

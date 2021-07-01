@@ -1,6 +1,7 @@
 ---
 assembly: assembly_rockefeller_trio_1.6
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: African grass rat
 data_10x_bases: 260.08 Gbp
 data_10x_bytes: 124.201 GB
@@ -27,10 +28,11 @@ data_illumina_files: 14
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil2/genomic_data/illumina/ .<br>aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil3/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8989
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 207.24 Gbp
 data_pbsubreads_bytes: 357.288 GB
 data_pbsubreads_coverage: 60.95x
-data_pbsubreads_files: 44
+data_pbsubreads_files: 22
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Arvicanthis_niloticus/mArvNil1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5402
 data_phase_scale: 1
@@ -44,6 +46,7 @@ last_raw_data: 1564249507
 last_updated: 1583924346
 mat1date: 2019-09-03
 mat1filesize: 659 MB
+mat1length: 2486766466
 mat1n50ctg: 5000289
 mat1n50scf: 63826408
 mat1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_rockefeller_trio_1.6/mArvNil1.mat.asm.20190903.fasta.gz
@@ -100,6 +103,7 @@ name: Arvicanthis niloticus
 name_: Arvicanthis_niloticus
 pat1date: 2019-09-03
 pat1filesize: 659 MB
+pat1length: 2519561053
 pat1n50ctg: 5584045
 pat1n50scf: 64041812
 pat1seq: https://s3.amazonaws.com/genomeark/species/Arvicanthis_niloticus/mArvNil1/assembly_rockefeller_trio_1.6/mArvNil1.pat.asm.20190903.fasta.gz

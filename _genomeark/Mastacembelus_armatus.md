@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-03-05
 alt1filesize: 13 MB
+alt1length: 43703874
 alt1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_curated/fMasArm1.alt.cur.20190305.fasta.gz
 alt1sizes: |
   <table class="sequence-sizes-table">
@@ -27,6 +28,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: tire-track eel
 data_10x_bases: 116.08 Gbp
 data_10x_bytes: 79.367 GB
@@ -48,10 +50,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastace
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 29.95 Gbp
 data_pbsubreads_bytes: 53.849 GB
 data_pbsubreads_coverage: 39.57x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Mastacembelus_armatus/fMasArm1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5179
 data_phase_scale: 1
@@ -60,7 +63,7 @@ genbank_alt: GCA_900700395.1
 genome_size: 756753344
 genome_size_display: 0.76 Gbp
 last_raw_data: 1520585714
-last_updated: 1616454079
+last_updated: 1570719801
 mito1date: 2019-10-02
 mito1filesize: 5 KB
 mito1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_MT_rockefeller/fMasArm1.MT.20191002.fasta.gz
@@ -91,6 +94,7 @@ name: Mastacembelus armatus
 name_: Mastacembelus_armatus
 pri1date: 2019-03-05
 pri1filesize: 169 MB
+pri1length: 591935101
 pri1n50ctg: 4763706
 pri1n50scf: 23286013
 pri1seq: https://s3.amazonaws.com/genomeark/species/Mastacembelus_armatus/fMasArm1/assembly_curated/fMasArm1.pri.cur.20190305.fasta.gz

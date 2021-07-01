@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-05-24
 alt1filesize: 423 MB
+alt1length: 1444786651
 alt1n50ctg: 84375
 alt1n50scf: 84421
 alt1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_curated/rDerCor1.alt.cur.20210524.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: leatherback sea turtle
 data_10x_bases: 291.98 Gbp
 data_10x_bytes: 139.545 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermoch
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 159.20 Gbp
 data_pbsubreads_bytes: 276.004 GB
 data_pbsubreads_coverage: 63.68x
-data_pbsubreads_files: 34
+data_pbsubreads_files: 17
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dermochelys_coriacea/rDerCor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5372
 data_phase_scale: 1
@@ -66,6 +69,7 @@ last_raw_data: 1563832512
 last_updated: 1621879486
 mito1date: 2019-08-20
 mito1filesize: 5 KB
+mito1length: 16625
 mito1n50ctg: 16625
 mito1n50scf: 16625
 mito1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_MT_rockefeller/rDerCor1.MT.20190820.fasta.gz
@@ -96,6 +100,7 @@ name: Dermochelys coriacea
 name_: Dermochelys_coriacea
 pri1date: 2021-05-24
 pri1filesize: 631 MB
+pri1length: 2164762090
 pri1n50ctg: 6014687
 pri1n50scf: 131128815
 pri1seq: https://s3.amazonaws.com/genomeark/species/Dermochelys_coriacea/rDerCor1/assembly_curated/rDerCor1.pri.cur.20210524.fasta.gz

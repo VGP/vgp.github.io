@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-05-28
 alt1filesize: 513 MB
+alt1length: 1835388607
 alt1n50ctg: 107614
 alt1n50scf: 107614
 alt1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_curated/mBalMus1.alt.cur.20200528.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: blue whale
 data_10x_bases: 320.05 Gbp
 data_10x_bytes: 185.877 GB
@@ -55,10 +57,11 @@ data_illumina_files: 9
 data_illumina_links: aws s3 --no-sign-request sync s3://genomeark/species/Balaenoptera_musculus/mBalMus1/genomic_data/illumina/ .<br>
 data_illumina_scale: 1.8995
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 158.27 Gbp
 data_pbsubreads_bytes: 283.843 GB
 data_pbsubreads_coverage: 51.16x
-data_pbsubreads_files: 104
+data_pbsubreads_files: 52
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Balaenoptera_musculus/mBalMus1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5193
 data_phase_scale: 1
@@ -100,6 +103,7 @@ name: Balaenoptera musculus
 name_: Balaenoptera_musculus
 pri1date: 2020-05-28
 pri1filesize: 663 MB
+pri1length: 2374852541
 pri1n50ctg: 4489592
 pri1n50scf: 104068540
 pri1seq: https://s3.amazonaws.com/genomeark/species/Balaenoptera_musculus/mBalMus1/assembly_curated/mBalMus1.pri.cur.20200528.fasta.gz

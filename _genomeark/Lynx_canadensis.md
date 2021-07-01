@@ -1,6 +1,7 @@
 ---
 alt4date: 2020-04-03
 alt4filesize: 425 MB
+alt4length: 1416309019
 alt4n50ctg: 50002
 alt4n50scf: 50009
 alt4seq: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/assembly_curated/mLynCan4.alt.cur.20200403.fasta.gz
@@ -29,6 +30,7 @@ alt4sizes: |
 alt4version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Canada lynx
 data_10x_bases: 324.39 Gbp
 data_10x_bytes: 194.683 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Lynx_ca
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 179.82 Gbp
 data_pbsubreads_bytes: 311.347 GB
 data_pbsubreads_coverage: 72.76x
-data_pbsubreads_files: 67
+data_pbsubreads_files: 34
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Lynx_canadensis/mLynCan4/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5379
 data_phase_scale: 1
@@ -63,7 +66,7 @@ genbank_pri: GCA_007474595.2
 genome_size: 2471525315
 genome_size_display: 2.47 Gbp
 last_raw_data: 1534379101
-last_updated: 1616454081
+last_updated: 1591639160
 mito4date: 2019-10-03
 mito4filesize: 5 KB
 mito4seq: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/assembly_MT_rockefeller/mLynCan4.MT.20191003.fasta.gz
@@ -94,6 +97,7 @@ name: Lynx canadensis
 name_: Lynx_canadensis
 pri4date: 2020-06-08
 pri4filesize: 700 MB
+pri4length: 2407810255
 pri4n50ctg: 7406471
 pri4n50scf: 147275701
 pri4seq: https://s3.amazonaws.com/genomeark/species/Lynx_canadensis/mLynCan4/assembly_curated/mLynCan4.pri.cur.20200608.fasta.gz

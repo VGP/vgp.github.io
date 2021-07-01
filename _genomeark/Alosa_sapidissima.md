@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-04-21
 alt1filesize: 240 MB
+alt1length: 852425339
 alt1n50ctg: 333032
 alt1n50scf: 333032
 alt1seq: https://s3.amazonaws.com/genomeark/species/Alosa_sapidissima/fAloSap1/assembly_curated/fAloSap1.alt.cur.20210421.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: American shad
 data_10x_scale: 1
 data_arima_bases: 106.88 Gbp
@@ -45,10 +47,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Alosa_s
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 664.47 Gbp
 data_pbsubreads_bytes: 1205.364 GB
 data_pbsubreads_coverage: 738.30x
-data_pbsubreads_files: 8
+data_pbsubreads_files: 4
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Alosa_sapidissima/fAloSap1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5134
 data_phase_scale: 1
@@ -63,6 +66,7 @@ name: Alosa sapidissima
 name_: Alosa_sapidissima
 pri1date: 2021-04-21
 pri1filesize: 250 MB
+pri1length: 903564947
 pri1n50ctg: 1553799
 pri1n50scf: 38440066
 pri1seq: https://s3.amazonaws.com/genomeark/species/Alosa_sapidissima/fAloSap1/assembly_curated/fAloSap1.pri.cur.20210421.fasta.gz

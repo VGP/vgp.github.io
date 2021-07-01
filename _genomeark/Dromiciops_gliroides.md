@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-04-07
 alt1filesize: 812 MB
+alt1length: 2818512018
 alt1n50ctg: 490192
 alt1n50scf: 490192
 alt1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_curated/mDroGli1.alt.cur.20210407.fasta.gz
@@ -29,39 +30,43 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: monito del monte
-data_10x_bases: unknown
+data_10x_bases: 235.27 Gbp
 data_10x_bytes: 116.733 GB
-data_10x_coverage: N/A
+data_10x_coverage: 71.22x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Dromiciops_gliroides/mDroGli1/genomic_data/10x/ .<br>
 data_10x_scale: 1.877
-data_arima_bases: unknown
+data_arima_bases: 241.94 Gbp
 data_arima_bytes: 117.434 GB
-data_arima_coverage: N/A
+data_arima_coverage: 73.24x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Dromiciops_gliroides/mDroGli1/genomic_data/arima/ .<br>
 data_arima_scale: 1.9187
-data_bionano_bases: unknown
 data_bionano_bytes: 0.991 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Dromiciops_gliroides/mDroGli1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 207.96 Gbp
 data_pbsubreads_bytes: 366.126 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 16
+data_pbsubreads_coverage: 62.96x
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Dromiciops_gliroides/mDroGli1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.529
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
+genome_size: 3303199800
+genome_size_display: 3.30 Gbp
 last_raw_data: 1601308154
 last_updated: 1621893307
 mito1date: 2021-05-24
 mito1filesize: 5 KB
+mito1length: 17310
 mito1n50ctg: 17310
 mito1n50scf: 17310
 mito1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_MT_rockefeller/mDroGli1.MT.20210524.fasta.gz
@@ -92,6 +97,7 @@ name: Dromiciops gliroides
 name_: Dromiciops_gliroides
 pri1date: 2021-04-07
 pri1filesize: 949 MB
+pri1length: 3303199800
 pri1n50ctg: 38230856
 pri1n50scf: 670775900
 pri1seq: https://s3.amazonaws.com/genomeark/species/Dromiciops_gliroides/mDroGli1/assembly_curated/mDroGli1.pri.cur.20210407.fasta.gz

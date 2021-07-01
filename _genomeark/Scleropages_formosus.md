@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-04-01
 alt1filesize: 223 MB
+alt1length: 751313211
 alt1n50ctg: 659444
 alt1n50scf: 659444
 alt1seq: https://s3.amazonaws.com/genomeark/species/Scleropages_formosus/fSclFor1/assembly_curated/fSclFor1.alt.cur.20190401.fasta.gz
@@ -29,43 +30,47 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: golden arowana
-data_10x_bases: unknown
+data_10x_bases: 129.49 Gbp
 data_10x_bytes: 80.211 GB
-data_10x_coverage: N/A
+data_10x_coverage: 165.05x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Scleropages_formosus/fSclFor1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5035
-data_arima_bases: unknown
+data_arima_bases: 139.44 Gbp
 data_arima_bytes: 85.051 GB
-data_arima_coverage: N/A
+data_arima_coverage: 177.73x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Scleropages_formosus/fSclFor1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5269
-data_bionano_bases: unknown
 data_bionano_bytes: 0.119 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Scleropages_formosus/fSclFor1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 57.12 Gbp
 data_pbsubreads_bytes: 98.084 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 16
+data_pbsubreads_coverage: 72.81x
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Scleropages_formosus/fSclFor1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5424
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_900964985.2
 genbank_pri: GCA_900964775.1
+genome_size: 784546363
+genome_size_display: 0.78 Gbp
 last_raw_data: 1547566320
 last_updated: 1554196395
 name: Scleropages formosus
 name_: Scleropages_formosus
 pri1date: 2019-04-01
 pri1filesize: 231 MB
+pri1length: 784546363
 pri1n50ctg: 9102216
 pri1n50scf: 31084684
 pri1seq: https://s3.amazonaws.com/genomeark/species/Scleropages_formosus/fSclFor1/assembly_curated/fSclFor1.pri.cur.20190401.fasta.gz

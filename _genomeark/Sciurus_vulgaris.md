@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-10-27
 alt1filesize: 398 MB
+alt1length: 1366022868
 alt1n50ctg: 192948
 alt1n50scf: 193053
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sciurus_vulgaris/mSciVul1/assembly_curated/mSciVul1.alt.cur.20191027.fasta.gz
@@ -29,35 +30,40 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Eurasian red squirrel
-data_10x_bases: unknown
+data_10x_bases: 222.50 Gbp
 data_10x_bytes: 148.542 GB
-data_10x_coverage: N/A
+data_10x_coverage: 77.29x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_vulgaris/mSciVul1/genomic_data/10x/ .<br>
 data_10x_scale: 1.395
 data_arima_scale: 1
-data_bionano_bases: unknown
+data_bionano_bases: 529.81 Gbp
 data_bionano_bytes: 0.977 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 184.05x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_vulgaris/mSciVul1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 206.77 Gbp
 data_pbsubreads_bytes: 363.403 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 72
+data_pbsubreads_coverage: 71.83x
+data_pbsubreads_files: 36
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_vulgaris/mSciVul1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5299
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_902685485.1
+genome_size: 2878591032
+genome_size_display: 2.88 Gbp
 last_raw_data: 1591286461
 last_updated: 1591286461
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16511
 mito1n50ctg: 16511
 mito1n50scf: 16511
 mito1seq: https://s3.amazonaws.com/genomeark/species/Sciurus_vulgaris/mSciVul1/assembly_MT_rockefeller/mSciVul1.MT.20191003.fasta.gz
@@ -88,6 +94,7 @@ name: Sciurus vulgaris
 name_: Sciurus_vulgaris
 pri1date: 2019-10-27
 pri1filesize: 791 MB
+pri1length: 2878591032
 pri1n50ctg: 16327774
 pri1n50scf: 153872958
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sciurus_vulgaris/mSciVul1/assembly_curated/mSciVul1.pri.cur.20191027.fasta.gz

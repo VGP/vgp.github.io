@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-11-14
 alt1filesize: 599 MB
+alt1length: 2057949030
 alt1n50ctg: 492513
 alt1n50scf: 492513
 alt1seq: https://s3.amazonaws.com/genomeark/species/Sciurus_carolinensis/mSciCar1/assembly_curated/mSciCar1.alt.cur.20191114.fasta.gz
@@ -29,35 +30,40 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: grey squirrel
-data_10x_bases: unknown
+data_10x_bases: 269.03 Gbp
 data_10x_bytes: 167.150 GB
-data_10x_coverage: N/A
+data_10x_coverage: 95.56x
 data_10x_files: 24
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_carolinensis/mSciCar1/genomic_data/10x/ .<br>
 data_10x_scale: 1.499
 data_arima_scale: 1
-data_dovetail_bases: unknown
+data_dovetail_bases: 394.20 Gbp
 data_dovetail_bytes: 237.270 GB
-data_dovetail_coverage: N/A
+data_dovetail_coverage: 140.02x
 data_dovetail_files: 3
 data_dovetail_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_carolinensis/mSciCar1/genomic_data/dovetail/ .<br>
 data_dovetail_scale: 1.5473
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 222.47 Gbp
 data_pbsubreads_bytes: 382.059 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 46
+data_pbsubreads_coverage: 79.02x
+data_pbsubreads_files: 23
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Sciurus_carolinensis/mSciCar1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5423
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_902685475.1
+genome_size: 2815397268
+genome_size_display: 2.82 Gbp
 last_raw_data: 1565307258
 last_updated: 1576534343
 mito1date: 2019-12-16
 mito1filesize: 5 KB
+mito1length: 16533
 mito1n50ctg: 16533
 mito1n50scf: 16533
 mito1seq: https://s3.amazonaws.com/genomeark/species/Sciurus_carolinensis/mSciCar1/assembly_MT_rockefeller/mSciCar1.MT.20191216.fasta.gz
@@ -88,6 +94,7 @@ name: Sciurus carolinensis
 name_: Sciurus_carolinensis
 pri1date: 2019-11-14
 pri1filesize: 819 MB
+pri1length: 2815397268
 pri1n50ctg: 13975867
 pri1n50scf: 148229995
 pri1seq: https://s3.amazonaws.com/genomeark/species/Sciurus_carolinensis/mSciCar1/assembly_curated/mSciCar1.pri.cur.20191114.fasta.gz

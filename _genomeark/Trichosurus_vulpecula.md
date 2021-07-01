@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-01-15
 alt1filesize: 757 MB
+alt1length: 2591928569
 alt1n50ctg: 438275
 alt1n50scf: 438275
 alt1seq: https://s3.amazonaws.com/genomeark/species/Trichosurus_vulpecula/mTriVul1/assembly_curated/mTriVul1.alt.cur.20200115.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common brushtail possum
 data_10x_bases: 242.17 Gbp
 data_10x_bytes: 115.568 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Trichos
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 182.18 Gbp
 data_pbsubreads_bytes: 315.605 GB
 data_pbsubreads_coverage: 60.73x
-data_pbsubreads_files: 60
+data_pbsubreads_files: 30
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trichosurus_vulpecula/mTriVul1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5376
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Trichosurus vulpecula
 name_: Trichosurus_vulpecula
 pri1date: 2020-01-15
 pri1filesize: 972 MB
+pri1length: 3359330516
 pri1n50ctg: 4820465
 pri1n50scf: 442560073
 pri1seq: https://s3.amazonaws.com/genomeark/species/Trichosurus_vulpecula/mTriVul1/assembly_curated/mTriVul1.pri.cur.20200115.fasta.gz

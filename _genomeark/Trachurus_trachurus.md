@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-12-16
 alt1filesize: 235 MB
+alt1length: 818939194
 alt1n50ctg: 1547897
 alt1n50scf: 1610964
 alt1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_curated/fTraTra1.alt.asm.20201216.fasta.gz
@@ -29,36 +30,41 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Atlantic horse mackerel
-data_10x_bases: unknown
+data_10x_bases: 108.40 Gbp
 data_10x_bytes: 71.023 GB
-data_10x_coverage: N/A
+data_10x_coverage: 132.17x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Trachurus_trachurus/fTraTra1/genomic_data/10x/ .<br>
 data_10x_scale: 1.4215
-data_arima_bases: unknown
+data_arima_bases: 85.93 Gbp
 data_arima_bytes: 52.475 GB
-data_arima_coverage: N/A
+data_arima_coverage: 104.77x
 data_arima_files: 6
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Trachurus_trachurus/fTraTra1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5251
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 137.53 Gbp
 data_pbsubreads_bytes: 248.090 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 2
+data_pbsubreads_coverage: 167.69x
+data_pbsubreads_files: 1
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Trachurus_trachurus/fTraTra1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5163
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
 genbank_alt: GCA_905171655.1
 genbank_pri: GCA_905171665.1
+genome_size: 820163303
+genome_size_display: 0.82 Gbp
 last_raw_data: 1576663199
 last_updated: 1608197281
 mito1date: 2019-10-03
 mito1filesize: 5 KB
+mito1length: 16561
 mito1n50ctg: 16561
 mito1n50scf: 16561
 mito1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_MT_rockefeller/fTraTra1.MT.20191003.fasta.gz
@@ -89,6 +95,7 @@ name: Trachurus trachurus
 name_: Trachurus_trachurus
 pri1date: 2020-12-16
 pri1filesize: 235 MB
+pri1length: 820163303
 pri1n50ctg: 6264696
 pri1n50scf: 35447499
 pri1seq: https://s3.amazonaws.com/genomeark/species/Trachurus_trachurus/fTraTra1/assembly_curated/fTraTra1.pri.asm.20201216.fasta.gz

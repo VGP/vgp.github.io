@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-12
 alt1filesize: 305 MB
+alt1length: 1024138499
 alt1n50ctg: 954952
 alt1n50scf: 954952
 alt1seq: https://s3.amazonaws.com/genomeark/species/Bucorvus_abyssinicus/bBucAby1/assembly_curated/bBucAby1.alt.cur.20190812.fasta.gz
@@ -29,43 +30,48 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: Abyssinian ground-hornbill
-data_10x_bases: unknown
+data_10x_bases: 103.89 Gbp
 data_10x_bytes: 50.486 GB
-data_10x_coverage: N/A
+data_10x_coverage: 91.73x
 data_10x_files: 8
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Bucorvus_abyssinicus/bBucAby1/genomic_data/10x/ .<br>
 data_10x_scale: 1.9165
-data_arima_bases: unknown
+data_arima_bases: 284.95 Gbp
 data_arima_bytes: 146.756 GB
-data_arima_coverage: N/A
+data_arima_coverage: 251.59x
 data_arima_files: 10
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Bucorvus_abyssinicus/bBucAby1/genomic_data/arima/ .<br>
 data_arima_scale: 1.8083
-data_bionano_bases: unknown
+data_bionano_bases: 1222.25 Gbp
 data_bionano_bytes: 2.001 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 1079.16x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Bucorvus_abyssinicus/bBucAby1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 86.67 Gbp
 data_pbsubreads_bytes: 150.701 GB
-data_pbsubreads_coverage: N/A
-data_pbsubreads_files: 26
+data_pbsubreads_coverage: 76.52x
+data_pbsubreads_files: 13
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bucorvus_abyssinicus/bBucAby1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5356
 data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_009769595.1
 genbank_pri: GCA_009769605.1
+genome_size: 1132597561
+genome_size_display: 1.13 Gbp
 last_raw_data: 1562595330
 last_updated: 1565897614
 name: Bucorvus abyssinicus
 name_: Bucorvus_abyssinicus
 pri1date: 2019-08-12
 pri1filesize: 331 MB
+pri1length: 1132597561
 pri1n50ctg: 12039478
 pri1n50scf: 40274051
 pri1seq: https://s3.amazonaws.com/genomeark/species/Bucorvus_abyssinicus/bBucAby1/assembly_curated/bBucAby1.pri.cur.20190812.fasta.gz

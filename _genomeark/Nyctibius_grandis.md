@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-03-02
 alt1filesize: 309 MB
+alt1length: 1041284291
 alt1n50ctg: 2549616
 alt1n50scf: 2549616
 alt1seq: https://s3.amazonaws.com/genomeark/species/Nyctibius_grandis/bNycGra1/assembly_curated/bNycGra1.alt.cur.20200302.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: great potoo
 data_10x_bases: 129.64 Gbp
 data_10x_bytes: 63.015 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Nyctibi
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 88.40 Gbp
 data_pbsubreads_bytes: 153.661 GB
 data_pbsubreads_coverage: 88.40x
-data_pbsubreads_files: 20
+data_pbsubreads_files: 10
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Nyctibius_grandis/bNycGra1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5358
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Nyctibius grandis
 name_: Nyctibius_grandis
 pri1date: 2020-03-02
 pri1filesize: 366 MB
+pri1length: 1256393467
 pri1n50ctg: 28622470
 pri1n50scf: 99981954
 pri1seq: https://s3.amazonaws.com/genomeark/species/Nyctibius_grandis/bNycGra1/assembly_curated/bNycGra1.pri.cur.20200302.fasta.gz

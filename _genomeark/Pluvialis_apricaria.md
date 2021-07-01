@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-07-28
 alt1filesize: 320 MB
+alt1length: 1085787090
 alt1n50ctg: 2547826
 alt1n50scf: 2547826
 alt1seq: https://s3.amazonaws.com/genomeark/species/Pluvialis_apricaria/bPluApr1/assembly_curated/bPluApr1.alt.cur.20200728.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: European golden plover
 data_10x_bases: 98.86 Gbp
 data_10x_bytes: 50.342 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Pluvial
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 98.23 Gbp
 data_pbsubreads_bytes: 175.523 GB
 data_pbsubreads_coverage: 98.23x
-data_pbsubreads_files: 2
+data_pbsubreads_files: 1
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Pluvialis_apricaria/bPluApr1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5212
 data_phase_scale: 1
@@ -95,6 +98,7 @@ name: Pluvialis apricaria
 name_: Pluvialis_apricaria
 pri1date: 2020-07-28
 pri1filesize: 363 MB
+pri1length: 1247746888
 pri1n50ctg: 19964169
 pri1n50scf: 130366996
 pri1seq: https://s3.amazonaws.com/genomeark/species/Pluvialis_apricaria/bPluApr1/assembly_curated/bPluApr1.pri.cur.20200728.fasta.gz

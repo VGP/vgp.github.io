@@ -1,6 +1,7 @@
 ---
 alt1date: 2021-02-26
 alt1filesize: 700 MB
+alt1length: 2630763898
 alt1n50ctg: 2212639
 alt1n50scf: 2212639
 alt1seq: https://s3.amazonaws.com/genomeark/species/Cervus_elaphus/mCanLor1/assembly_cambridge/mCerEla1.alt.asm.20210226.fasta.gz
@@ -29,36 +30,41 @@ alt1sizes: |
 alt1version: assembly_cambridge
 assembly: assembly_cambridge
 assembly_status: <em style="color:orange">high-quality draft assembly</em>
+bionano_scale: 0
 common_name: red deer
-data_10x_bases: unknown
+data_10x_bases: 125.63 Gbp
 data_10x_bytes: 72.565 GB
-data_10x_coverage: N/A
+data_10x_coverage: 39.76x
 data_10x_files: 12
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Cervus_elaphus/mCerEla1/genomic_data/10x/ .<br>
 data_10x_scale: 1.6124
-data_arima_bases: unknown
+data_arima_bases: 460.38 Gbp
 data_arima_bytes: 225.239 GB
-data_arima_coverage: N/A
+data_arima_coverage: 145.70x
 data_arima_files: 2
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Cervus_elaphus/mCerEla1/genomic_data/arima/ .<br>
 data_arima_scale: 1.9036
 data_dovetail_scale: 1
 data_illumina_scale: 1
-data_pbhifi_bases: unknown
+data_pbhifi_bases: 96.42 Gbp
 data_pbhifi_bytes: 82.448 GB
-data_pbhifi_coverage: N/A
-data_pbhifi_files: 8
+data_pbhifi_coverage: 30.51x
+data_pbhifi_files: 4
 data_pbhifi_links: aws s3 --no-sign-request sync s3://genomeark/species/Cervus_elaphus/mCerEla1/genomic_data/pacbio/ . --exclude "*subreads.bam*"<br>
 data_pbhifi_scale: 1.0891
+data_pbhifisub_scale: 0
 data_pbsubreads_scale: 1
 data_phase_scale: 1
 data_status: <em style="color:orange">some data</em>
+genome_size: 3159812217
+genome_size_display: 3.16 Gbp
 last_raw_data: 1606831399
 last_updated: 1619515947
 name: Cervus elaphus
 name_: Cervus_elaphus
 pri1date: 2021-02-26
 pri1filesize: 792 MB
+pri1length: 3159812217
 pri1n50ctg: 63760408
 pri1n50scf: 71624245
 pri1seq: https://s3.amazonaws.com/genomeark/species/Cervus_elaphus/mCanLor1/assembly_cambridge/mCerEla1.pri.asm.20210226.fasta.gz

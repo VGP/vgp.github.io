@@ -1,6 +1,7 @@
 ---
 alt1date: 2019-08-13
 alt1filesize: 347 MB
+alt1length: 1167509893
 alt1n50ctg: 1304954
 alt1n50scf: 1304954
 alt1seq: https://s3.amazonaws.com/genomeark/species/Phoenicopterus_ruber/bPhoRub1/assembly_curated/bPhoRub1.alt.cur.20190813.fasta.gz
@@ -29,6 +30,7 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: American flamingo
 data_10x_bases: 103.00 Gbp
 data_10x_bytes: 49.167 GB
@@ -50,10 +52,11 @@ data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Phoenic
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
+data_pbhifisub_scale: 0
 data_pbsubreads_bases: 76.59 Gbp
 data_pbsubreads_bytes: 132.832 GB
 data_pbsubreads_coverage: 61.27x
-data_pbsubreads_files: 16
+data_pbsubreads_files: 8
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Phoenicopterus_ruber/bPhoRub1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.537
 data_phase_scale: 1
@@ -69,6 +72,7 @@ name: Phoenicopterus ruber
 name_: Phoenicopterus_ruber
 pri1date: 2019-08-13
 pri1filesize: 364 MB
+pri1length: 1246226932
 pri1n50ctg: 14700712
 pri1n50scf: 85472901
 pri1seq: https://s3.amazonaws.com/genomeark/species/Phoenicopterus_ruber/bPhoRub1/assembly_curated/bPhoRub1.pri.cur.20190813.fasta.gz

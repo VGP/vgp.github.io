@@ -1,6 +1,7 @@
 ---
 alt1date: 2020-12-16
 alt1filesize: 1 GB
+alt1length: 3744894388
 alt1n50ctg: 241528
 alt1n50scf: 243161
 alt1seq: https://s3.amazonaws.com/genomeark/species/Bufo_bufo/aBufBuf1/assembly_curated/aBufBuf1.alt.cur.20201216.fasta.gz
@@ -29,30 +30,31 @@ alt1sizes: |
 alt1version: assembly_curated
 assembly: assembly_curated
 assembly_status: <em style="color:green">curated assembly</em>
+bionano_scale: 0
 common_name: common toad
-data_10x_bases: unknown
+data_10x_bases: 566.39 Gbp
 data_10x_bytes: 343.284 GB
-data_10x_coverage: N/A
+data_10x_coverage: 112.27x
 data_10x_files: 48
 data_10x_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/10x/ .<br>
 data_10x_scale: 1.5366
-data_arima_bases: unknown
+data_arima_bases: 558.77 Gbp
 data_arima_bytes: 335.631 GB
-data_arima_coverage: N/A
+data_arima_coverage: 110.76x
 data_arima_files: 8
 data_arima_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/arima/ .<br>
 data_arima_scale: 1.5505
-data_bionano_bases: unknown
 data_bionano_bytes: 3.695 GB
-data_bionano_coverage: N/A
+data_bionano_coverage: 0.00x
 data_bionano_files: 1
 data_bionano_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/bionano/ .<br>
 data_dovetail_scale: 1
 data_illumina_scale: 1
 data_pbhifi_scale: 1
-data_pbsubreads_bases: unknown
+data_pbhifisub_scale: 0
+data_pbsubreads_bases: 360.41 Gbp
 data_pbsubreads_bytes: 648.243 GB
-data_pbsubreads_coverage: N/A
+data_pbsubreads_coverage: 71.44x
 data_pbsubreads_files: 3
 data_pbsubreads_links: aws s3 --no-sign-request sync s3://genomeark/species/Bufo_bufo/aBufBuf1/genomic_data/pacbio/ . --exclude "*ccs*bam*"<br>
 data_pbsubreads_scale: 0.5178
@@ -60,10 +62,13 @@ data_phase_scale: 1
 data_status: <em style="color:green">all data</em>
 genbank_alt: GCA_905171715.1
 genbank_pri: GCA_905171765.1
+genome_size: 5044812576
+genome_size_display: 5.04 Gbp
 last_raw_data: 1584379221
 last_updated: 1608197105
 mito1date: 2019-10-05
 mito1filesize: 5 KB
+mito1length: 17865
 mito1n50ctg: 17865
 mito1n50scf: 17865
 mito1seq: https://s3.amazonaws.com/genomeark/species/Bufo_bufo/aBufBuf1/assembly_MT_rockefeller/aBufBuf1.MT.20191005.fasta.gz
@@ -94,6 +99,7 @@ name: Bufo bufo
 name_: Bufo_bufo
 pri1date: 2020-12-16
 pri1filesize: 1 GB
+pri1length: 5044812576
 pri1n50ctg: 3941737
 pri1n50scf: 635713434
 pri1seq: https://s3.amazonaws.com/genomeark/species/Bufo_bufo/aBufBuf1/assembly_curated/aBufBuf1.pri.cur.20201216.fasta.gz
